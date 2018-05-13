@@ -7,14 +7,15 @@ title: Huon d'Auvergne Digital Archive
 description: "The Huon d'Auvergne Digital Archive publishes for the first time
 all four extant Franco-Italian manuscripts of the Huon d'Auvergne romance-epic."
 tagline: "A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic."
-baseurl: "/hda"
-url: "http://huondauvergne.org"
+baseurl: "" #add in later in deployment: /hda
+url: "" #add in later in deployment in deploytment: http:huondauvergne.org
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+include: _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
