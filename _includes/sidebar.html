@@ -1,5 +1,10 @@
 
 <!--Create a sorted array of tags-->
+<!--
+
+Commented out March 13, 2018. Add back in if need template for connecting to
+git, twitter, etc.
+
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign sortedTags = site_tags | split:',' | sort %}
   <aside>
@@ -19,4 +24,4 @@
     <li><a href="http://www.linkedin.com" title="linked in" class="linked">LinkedIn</a></li>
     <li><a href="http://www.twitter.com" title="twitter" class="twitter">Twitter</a></li>
     </ul>
-    </aside>
+    </aside> -->
