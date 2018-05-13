@@ -608,17 +608,19 @@ aside li {
    main footer styles
 -----------------------------------------------------*/
 .page-footer {
-	background: #4d4d4d;
+  font-family: 'Helvetica Narrow', Arial, sans-serif;
+  background: #white;
 	padding: 2em 1em;
 	margin-top: 1em;
-	color: white;
+	color: black;
 }
 .legal {
-	font-size: .7em;
-	margin: 0;
+    font-size: .75em;
+    margin: 0;
+    font-variant: small-caps;
 }
 .page-footer a {
-	color: white;
+	color: #5f0000;
 }
 .top-link {
 	text-align: center;
@@ -627,6 +629,35 @@ aside li {
 .top-link:before {
 	content: '\25b2\00a0';
 }
+
+/* Image containters for footer (use 25% for four, and 50% for two, etc) */
+.footer-column-1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.footer-column-2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.footer-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img#logo_unf {
+	margin-top: -1em;
+}
+
+img#logo_marucelliana {
+  margin-right: 0.5em;
+}
+
+
 /* --------------------------------------------------
    Smaller screen styles
 -----------------------------------------------------*/
