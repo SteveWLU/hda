@@ -2,10 +2,6 @@
 layout: default
 permalink: praxis.html
 ---
----
-layout: default
-permalink: praxis.html
----
 
 # Edition Criteria for Padua
 
