@@ -5,6 +5,8 @@ permalink: p-praxis.html
 
 # Edition Criteria for Padua
 
+MEGAN TEST
+
 <p class="notice">This page is currently under revision.</p>
 <!--
 <h2 class="praxis">&#10081; 1. Introduction</h2>
