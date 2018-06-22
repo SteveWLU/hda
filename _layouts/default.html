@@ -23,7 +23,8 @@
 <header role="banner" class="page-header" id="top">
  <h1>{{site.title}}</h1>
  <p>{{site.tagline}}</p>
-<nav role="navigation">
+ {% include navbar.html %}
+<!-- <nav role="navigation">
 <input type="checkbox" id="menu-toggle">
 <label for="menu-toggle" class="toggle-label"><span>menu</span></label>
 <ul class="menu">
@@ -32,7 +33,7 @@
   <li><a href="{{site.baseurl}}/resources.html" title="resources">Editions</a></li>
   <li><a href="{{site.baseurl}}/archive.html" title="Translations">Translation</a></li>
   <li><a href="{{site.baseurl}}/bibliography.html" title="Bibliography">Bibliography</a></li>
-  </ul>
+  </ul> -->
 </header>
 {{content}}
 {% include footer.html %}
