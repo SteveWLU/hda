@@ -1,4 +1,4 @@
 ---
 layout: default
-permalink: about.html
+permalink: p-intro.html
 ---

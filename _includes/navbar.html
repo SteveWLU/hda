@@ -6,14 +6,13 @@
 <style>
 .navbar {
     overflow: hidden;
-    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +27,7 @@
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -36,7 +35,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+
 }
 
 .dropdown-content {
@@ -69,22 +68,44 @@
 <body>
 
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
+  <a href="{{site.baseurl}}/about.html">About</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown
+  <!-- Praxis Button -->
+    <button class="dropbtn">Praxis
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="{{site.baseurl}}/general.html">General Criteria</a>
+      <a href="{{site.baseurl}}/b-praxis.html">Berlin Criteria</a>
+      <a href="{{site.baseurl}}/t-praxis.html">Turin Criteria</a>
+      <a href="{{site.baseurl}}/p-praxis.html">Padua Criteria</a>
+      <a href="{{site.baseurl}}/br-praxis.html">Barbieri Criteria</a>
     </div>
   </div>
+  <!-- Editions Button -->
+  <div class="dropdown">
+    <button class="dropbtn">Editions
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="{{site.baseurl}}/b-intro.html">Berlin (B)</a>
+      <a href="{{site.baseurl}}/t-intro.html">Turin (T)</a>
+      <a href="{{site.baseurl}}/p-intro.html">Padua (P)</a>
+      <a href="{{site.baseurl}}/br-intro.html">Barbieri Fragment (Br)</a>
+    </div>
+  </div>
+  <!-- Translation Button -->
+  <div class="dropdown">
+    <button class="dropbtn">Translation
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="{{site.baseurl}}/b-translation.html">Berlin Translation</a>
+    </div>
+  </div>
+<!--Bibliography Button -->
+<a href="{{site.baseurl}}/bibliography.html">Bibliography</a>
+<div class="dropdown">
 </div>
-
-<h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
-
 </body>
 </html>
