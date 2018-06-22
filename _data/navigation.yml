@@ -1,44 +1,9 @@
 - title: About
-  url: /about.html
-  sublinks:
-    - title: Versioning
-      url: /versioning.html
-    - title: separator
-    - title: Cite our work
-      url: /cite.html
+  url:  /{{site.baseurl}}/about.html
 - title: Praxis
-  url: /team.html
+  url:  /{{site.baseurl}}/praxis.html
   sublinks:
     - title: Edition Criteria
-      url: /intro-praxis.html
-    - title: separator
+      url:  /{{site.baseurl}}/intro-praxis.html
     - title: Berlin Critera
-      url: /b-praxis.html
-    - title: separator
-    - title: Padua Criteria
-      url: /p-praxis-intro.html
-    - title: separator
-    - title: Encoding Critera
-      url: /encoding-praxis.html
-- title: Editions
-  sublinks:
-    - title: Berlin
-      url: /b.html
-    - title: separator
-    - title: Padua
-      url: /p.html
-    - title: separator
-    - title: Turin
-      url: /t.html
-    - title: separator
-    - title: Bologna Fragment
-      url: /br.html
-    - title: separator
-- title: Translations
-  url: /store.html
-  sublinks:
-    - title: Berlin
-      url: /b-translation.html
-    - title: separator
-- title: Bibliography
-  url: /biblio.html
+      url:  /{{site.baseurl}}/b-praxis.html
