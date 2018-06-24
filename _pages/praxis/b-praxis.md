@@ -3,4 +3,4 @@ layout: default
 permalink: b-praxis.html
 ---
 
-# Berlin
+# Edition Criteria for Berlin
