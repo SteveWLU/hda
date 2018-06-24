@@ -1,0 +1,43 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css" href="{{ site.baseurl }}assets/css/footer.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <script src="{{ site.baseurl }}assets/scripts/modernizr.custom.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header role="banner" class="page-header" id="top">
+ <h1>{{site.title}}</h1>
+ <p>{{site.tagline}}</p>
+ {% include navbar.html %}
+
+ <!-- Intro Data Row 1 -->
+     <div class="row">
+         <div class="col-6">
+             <p class="ms-resp">Edition prepared by <%= @editor %></p>
+             <p class="ms-resp">TEI encoding by <%= @encoder %> and Leslie Zarker Morgan</p>
+         </div>
+         <div class="col-6">
+         </div>
+     </div>
+
+
+</header>
+{{content}}
+{% include footer.html %}
+</body>
+</html>
