@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+    <script src="../assets/js/CETEI.js"></script>
+  </head>
+  <body>
+    {% include header.html %}
+    {% include navbar.html %}
+    <main class="page-content" aria-label="Content">
+      <div id="wrapper">
+      <div id="TEI">
+      </div></div>
+    </main>
+{{ content }}
+    {% include footer.html %}
+  </body>
+</html>
