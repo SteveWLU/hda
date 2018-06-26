@@ -1,87 +1,57 @@
-<!DOCTYPE html>
-<html class="biblio" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+---
+layout: default
+permalink: bibliography.html
+---
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Huon d'Auvergne Bibliography"/>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Huon Bibliography</title>
-    </head>
+# Complete Bibliography for [Huon d'Auvergne](www.huondauvergne.org)
 
-<body>
+## &#10081; Manuscripts
 
-<div class="container">
+* _Huon d’Auvergne_. 1341. MS 78 D 8 (olim MS Hamilton 337). Kupferstichkabinett, Berlin.</li>
+* _Huon d’Auvergne_. N.d. MS 32. Biblioteca del seminario, Padua.</li>
+* _Huon d’Auvergne_. N.d. MS B. 3429. Biblioteca dell’Archiginnasio, Bologna.</li>
+* _Huon d’Auvergne_. 1441. MS N.III.19. Biblioteca Nazionale Universitaria, Turin.</li>
+* Michelagnolo (Michelangelo) da Volterra. _Huon d'Auvergne_. 1487-88. MS Med. Palat. 82. Biblioteca Laurenziana, Florence.
 
-	<div class="row">
 
-	<div class="1"></div>
+## &#10081; Reference works
 
-	</div>
+(In __BOLD__ are standard abbreviations used in the field for reference, though entries are listed by Modern Language Association 8th edition conventions).
 
-	<div class="row">
+* _Vocabolario della Crusca_. 11 vols. Galileiana M. Cellini, 1863-19. [Accademia dell Crusca](http://vocabolario.signum.sns.it/).
+* _Archives de littérature du moyen âge_. Dir. Laurent Brun, Université d’Ottawa. [ARLIMA](http://www.arlima.net/)
+* _American and French Research on the Treasury of the French Language_. Dir. Robert Morrissey). DEAF Baldinger, Kurt, et al. [ARTFL](http://artfl-project.uchicago.edu/)
+* Battaglia, Salvatore. _Grande dizionario della lingua italiana_. 21 vols. Gen. Ed., Giorgio Bárberi Squarotti. UTET, 1961-.
+* Battisti, Carlo, and G. Alessio. _Dizionario etimologico italiano_. G. Barbera, 1950-57. __DEI__
+* Beltrami, Pietro G., dir. _Tesoro della Lingua Italiana delle Origini_ (part of [ARTFL](http://artfl-project.uchicago.edu/content/ovi-search-form) databases) [TLIO](http://tlio.ovi.cnr.it/TLIO/)
+* Bloch, O., and W. von Wartburg. _Dictionnaire étymologique de la langue française_. 2 vols. PUF, 1932.
 
-		<div class="10">
 
-			<div class="bibl-section">
-
-			<h1 class="biblio">Complete Bibliography for <em>Huon d'Auvergne</em></h1>
-
-			</div>
-		</div>
-
-		<div class="bibl-section">
-
-			<h2 class="biblio">&#10081; Manuscripts</h2>
-
-			<ol class="biblio">
-					<li class="biblio"><cite>Huon d’Auvergne</cite>. 1341. MS 78 D 8 (olim MS Hamilton 337). Kupferstichkabinett, Berlin.</li>
-					<li class="biblio"><cite>Huon d’Auvergne</cite>. N.d. MS 32. Biblioteca del seminario, Padua.</li>
-					<li class="biblio"><cite>Huon d’Auvergne</cite>. N.d. MS B. 3429. Biblioteca dell’Archiginnasio, Bologna.</li>
-					<li class="biblio"><cite>Huon d’Auvergne</cite>. 1441. MS N.III.19. Biblioteca Nazionale Universitaria, Turin.</li>
-					<li class="biblio">Michelagnolo (Michelangelo) da Volterra. <cite>Huon d'Auvergne</cite>. 1487-88. MS Med. Palat. 82. Biblioteca Laurenziana, Florence.</li>
-			</ol>
-
-		</div>
-
-		<div class="bibl-section">
-
-			<h2 class="biblio">&#10081; Reference works</h2>
-
-			<p class="biblio">(In <b>BOLD</b> are standard abbreviations used in the field for reference, though entries are listed by Modern Language Association 8th edition conventions)</p>
-
-			<ol class="biblio">
-					<li class="biblio"><cite>Vocabolario della Crusca</cite>. 11 vols. Galileiana M. Cellini, 1863-19. <a class="biblio" class=href="http://vocabolario.signum.sns.it/" target="_blank">Accademia della Crusca</a>.</li>
-					<li class="biblio"><cite>Archives de littérature du moyen âge</cite>. Dir. Laurent Brun, Université d’Ottawa. <a class="biblio" href="http://www.arlima.net/" target="_blank"><b>ARLIMA</b></a></li>
-					<li class="biblio"><cite>American and French Research on the Treasury of the French Language</cite>. Dir. Robert Morrissey). DEAF Baldinger, Kurt, et al. <a class="biblio" href="http://artfl-project.uchicago.edu/" target="_blank"><b>ARTFL</b></a></li>
-					<li class="biblio">Battaglia, Salvatore. <cite>Grande dizionario della lingua italiana</cite>. 21 vols. Gen. Ed., Giorgio Bárberi Squarotti. UTET, 1961-.</li>
-					<li class="biblio">Battisti, Carlo, and G. Alessio. <cite>Dizionario etimologico italiano</cite>. G. Barbera, 1950-57. <b>DEI</b></li>
-					<li class="biblio">Beltrami, Pietro G., dir. <cite>Tesoro della Lingua Italiana delle Origini</cite> (part of <a class="biblio" href="http://artfl-project.uchicago.edu/content/ovi-search-form" target="_blank">ARTFL</a> databases). <a class="biblio" href="http://tlio.ovi.cnr.it/TLIO/" target="_blank"><b>TLIO</b></a></li>
-					<li class="biblio">Bloch, O., and W. von Wartburg. <cite>Dictionnaire étymologique de la langue française</cite>. 2 vols. PUF, 1932.</li>
-					<li class="biblio">Bourgain, Pascale, and Françoise Vieillard. <a class="biblio" href="https://books.google.com/books?id=ZytdnyZcRqEC&lpg=PA1&dq=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&pg=PA1#v=onepage&q=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&f=false" target="_blank"><cite>Conseils pour l’édition des textes médiévaux</cite></a>. Fascicule III: Textes littéraires. Éd. du CTHS, École des chartes, 2002.</li>
-					<li class="biblio">Brambilla Ageno, Franca. <cite>L'Edizione critica dei testi volgari</cite>. Antenore, 1975.</li>
-          <li class="biblio"><cite>Dictionnaire étymologique de l’ancien français</cite>. Niemeyer, 1974-.<a class="biblio" href="http://www.deaf-page.de/index.htm" target="_blank"><b>DEAF</b></a></li>
-          <li class="biblio">Cortelazzo, Manlio, and Paolo Zolli. <cite>Dizionario etimologico della lingua italiana</cite>. Zanichelli, 1979-85. <b>DELI</b></li>
-    			<li class="biblio">DeSole, Corinna. <cite>Repertorio ragionato dei personaggi citati nei principali cantari cavallerschi italiani</cite>. Edizioni dell’Orso, 1995.</li>
-					<li class="biblio">DuCange, Domino, et. al. <cite>Glossarium mediæ et infimæ latinitatis</cite>. L. Favre, 1883-1887.</li>
-					<li class="biblio"><cite>Franco-Italian On-Line Archive</cite>. Dir. Leslie Zarker Morgan and David P. Bénéteau. <a class="biblio" href="https://www3.nd.edu/~italnet/fiola/" target="_blank"><b>FIOLA</b></a></li>
-					<li class="biblio">Flutre, Ferdinand. <cite>Table des noms propres avec toutes leur variantes, figurant dans les romans du moyen âge écrits en français ou en provençal et actuellement publiés ou analysés</cite>. Champion, 1966.</li>
-					<li class="biblio">Foulet, Alfred, and Mary Blakely Speer. <cite>On Editing Old French Texts</cite>. Regents Press of Kansas, 1979.</li>
-					<li class="biblio">Godefroy, Frédéric. <a class="biblio" href="http://gallica.bnf.fr/ark:/12148/bpt6k50634z" target="_blank"><cite>Dictionnaire de l’ancienne langue française et de toutes ses dialectes, du IXe au XVe s</cite></a>. 10 vols. F. Vieweg, 1880-1902. Rep. Kraus.</li>
-					<li class="biblio">Greimas, Algirdas Julien. <a class="biblio" href="http://ducange.enc.sorbonne.fr/" target="_blank"><cite>Dictionnaire de l’ancien français</cite></a>. Larousse, 1992. (multiple editions).</li>
-					<li class="biblio">Hindley, Alan, Frederick W. Langley, and Brian J. Levy. <cite>Old French-English Dictionary</cite>. Cambridge UP, 2006.</li>
-					<li class="biblio">Lepage, Yvan G. <cite>Guide de l’édition de textes en ancien français</cite>. Champion, 2001.</li>
-          <li class="biblio">Meyer-Lübke, Wilhelm. <cite>Romanisches etymologisches Wörterbuch</cite>. Winter, 1911 (and other editions). <a class="biblio" href="http://archive.org/details/romanischesetymo00meyeuoft" target="_blank"><b>REW</b></a></li>
-					<li class="biblio">Modern Language Association of America. <a class="biblio" href="https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions" target="_blank"><cite>Guidelines for Editors of Scholarly Editions</cite></a>. Revised 29 June 2011.</li>
+					* Bourgain, Pascale, and Françoise Vieillard. <a class="biblio" href="https://books.google.com/books?id=ZytdnyZcRqEC&lpg=PA1&dq=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&pg=PA1#v=onepage&q=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&f=false" target="_blank"><cite>Conseils pour l’édition des textes médiévaux</cite></a>. Fascicule III: Textes littéraires. Éd. du CTHS, École des chartes, 2002.</li>
+					* Brambilla Ageno, Franca. <cite>L'Edizione critica dei testi volgari</cite>. Antenore, 1975.</li>
+          * Dictionnaire étymologique de l’ancien français</cite>. Niemeyer, 1974-.<a class="biblio" href="http://www.deaf-page.de/index.htm" target="_blank"><b>DEAF</b></a></li>
+          * Cortelazzo, Manlio, and Paolo Zolli. <cite>Dizionario etimologico della lingua italiana</cite>. Zanichelli, 1979-85. <b>DELI</b></li>
+    			* DeSole, Corinna. <cite>Repertorio ragionato dei personaggi citati nei principali cantari cavallerschi italiani</cite>. Edizioni dell’Orso, 1995.</li>
+					* DuCange, Domino, et. al. <cite>Glossarium mediæ et infimæ latinitatis</cite>. L. Favre, 1883-1887.</li>
+					* _Franco-Italian On-Line Archive</cite>. Dir. Leslie Zarker Morgan and David P. Bénéteau. <a class="biblio" href="https://www3.nd.edu/~italnet/fiola/" target="_blank"><b>FIOLA</b></a></li>
+					* Flutre, Ferdinand. <cite>Table des noms propres avec toutes leur variantes, figurant dans les romans du moyen âge écrits en français ou en provençal et actuellement publiés ou analysés</cite>. Champion, 1966.</li>
+					* Foulet, Alfred, and Mary Blakely Speer. <cite>On Editing Old French Texts</cite>. Regents Press of Kansas, 1979.</li>
+					* Godefroy, Frédéric. <a class="biblio" href="http://gallica.bnf.fr/ark:/12148/bpt6k50634z" target="_blank"><cite>Dictionnaire de l’ancienne langue française et de toutes ses dialectes, du IXe au XVe s</cite></a>. 10 vols. F. Vieweg, 1880-1902. Rep. Kraus.</li>
+					* Greimas, Algirdas Julien. <a class="biblio" href="http://ducange.enc.sorbonne.fr/" target="_blank"><cite>Dictionnaire de l’ancien français</cite></a>. Larousse, 1992. (multiple editions).</li>
+					* Hindley, Alan, Frederick W. Langley, and Brian J. Levy. <cite>Old French-English Dictionary</cite>. Cambridge UP, 2006.</li>
+					* Lepage, Yvan G. <cite>Guide de l’édition de textes en ancien français</cite>. Champion, 2001.</li>
+          * Meyer-Lübke, Wilhelm. <cite>Romanisches etymologisches Wörterbuch</cite>. Winter, 1911 (and other editions). <a class="biblio" href="http://archive.org/details/romanischesetymo00meyeuoft" target="_blank"><b>REW</b></a></li>
+					* Modern Language Association of America. <a class="biblio" href="https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions" target="_blank"><cite>Guidelines for Editors of Scholarly Editions</cite></a>. Revised 29 June 2011.</li>
 					<li class="biblio">Moisan, André. <cite>Répertoire des noms propres de personnes et de lieux cités dans les chansons de geste françaises et les œuvres étrangères dérivées</cite>. 5 vols. Massot, 1986.</li>
 					<li class="biblio">Pfister, Max, et al. <cite>Lessico etimologico italiano</cite>. Reichert, 1984-. <a class="biblio" href="https://reichert-verlag.de/en/series/linguistics_series/sprachwissenschaft_lessico_etimologico_italiano" target="_blank"><b>LEI</b></a></li>
-					<li class="biblio">Pope, Mildred K. <cite>From Latin to Modern French with Especial Consideration of Anglo-Norman</cite>. Phonology and Morphology. Manchester UP, 1934.</li>
-					<li class="biblio"><cite>Repertorio informatizzato antica letteratura franco-italiana</cite>). Dir. Francesca Gambino, Università di Padova. <a class="biblio" href="http://www.rialfri.eu/rialfriWP/" target="_blank"><b>RIALFrI</b></a></li>
-					<li class="biblio">Rohlfs, Gerhard. <cite>Grammatica storica della lingua italiana e dei suoi dialetti</cite>. 3 vols. Einaudi, 1966.</li>
-					<li class="biblio">Tobler, Adolf. <cite>Altfranzösisches Wörterbuch</cite>. Wiesbaden: Franz Steiner, 1969. Electronic version includes eds. Peter Blumenthal and Achim Stein. 2002. <a class="biblio" href="http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm" target="_blank"><b>TL</b></a></li>
-					<li class="biblio">Tobler, Adolf, and Lommatzsch, E. <cite>Französisches etymologisches Wörterbuch</cite>. Franz Steiner, 1954-63. <a class="biblio" href="http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm" target="_blank"><b>TL</b></a></li>
-          <li class="biblio">Vieillard, Françoise, and Olivier Guyotjeannin, eds. <a class="biblio" href="https://books.google.com/books?id=T3JbuyCJKvcC&lpg=PP1&pg=PP1#v=onepage&q&f=false" target="_blank"><cite>Conseils pour l’édition des textes médiévaux</cite></a>. I. Fascicule I: conseils généraux. Paris: Éd. du CTHS: École des chartes, 2001.</li>
-					<li class="biblio">Wartburg, Walther von. <cite>Französisches etymologisches Wörterbuch</cite>. 25 vols. + Supp. F. Klopp, 1921-. <a class="biblio" href="https://apps.atilf.fr/lecteurFEW/"><b>FEW</b></a></li>
-					<li class="biblio">Zaccarello, Michelangelo. <cite>L'edizione critica del testo letterario. Primo corso di filologia italiana</cite>. Le Monnier, 2017.</li>
+					* Pope, Mildred K. <cite>From Latin to Modern French with Especial Consideration of Anglo-Norman</cite>. Phonology and Morphology. Manchester UP, 1934.</li>
+					* _Repertorio informatizzato antica letteratura franco-italiana</cite>). Dir. Francesca Gambino, Università di Padova. <a class="biblio" href="http://www.rialfri.eu/rialfriWP/" target="_blank"><b>RIALFrI</b></a></li>
+					* Rohlfs, Gerhard. <cite>Grammatica storica della lingua italiana e dei suoi dialetti</cite>. 3 vols. Einaudi, 1966.</li>
+					* Tobler, Adolf. <cite>Altfranzösisches Wörterbuch</cite>. Wiesbaden: Franz Steiner, 1969. Electronic version includes eds. Peter Blumenthal and Achim Stein. 2002. <a class="biblio" href="http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm" target="_blank"><b>TL</b></a></li>
+					* Tobler, Adolf, and Lommatzsch, E. <cite>Französisches etymologisches Wörterbuch</cite>. Franz Steiner, 1954-63. <a class="biblio" href="http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm" target="_blank"><b>TL</b></a></li>
+          * Vieillard, Françoise, and Olivier Guyotjeannin, eds. <a class="biblio" href="https://books.google.com/books?id=T3JbuyCJKvcC&lpg=PP1&pg=PP1#v=onepage&q&f=false" target="_blank"><cite>Conseils pour l’édition des textes médiévaux</cite></a>. I. Fascicule I: conseils généraux. Paris: Éd. du CTHS: École des chartes, 2001.</li>
+					* Wartburg, Walther von. <cite>Französisches etymologisches Wörterbuch</cite>. 25 vols. + Supp. F. Klopp, 1921-. <a class="biblio" href="https://apps.atilf.fr/lecteurFEW/"><b>FEW</b></a></li>
+					* Zaccarello, Michelangelo. <cite>L'edizione critica del testo letterario. Primo corso di filologia italiana</cite>. Le Monnier, 2017.</li>
 			</ol>
 
 		</div>
