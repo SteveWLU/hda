@@ -9,7 +9,7 @@ permalink: p-intro.html
 
 * Introduction
 * [Edition Criteria]({{site.baseurl}}/p-praxis.html)
-* [Digital Edition]({{site.baseurl}}/p-edition.html)
+* [Digital Edition]({{site.baseurl}}/edition/p.html)
 * Digital Facsimile
 * Concordance
 * Codicology
