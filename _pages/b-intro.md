@@ -5,12 +5,11 @@ permalink: b-intro.html
 
 # Berlin Introduction
 
-
 ## Table of Contents
-
-    * Introduction
-    * Encoding Criteria
-    * Digital Facsimile
-    * Concordance
-    * Codicology
-    * Glossary
+* Introduction
+* [Edition Criteria]({{site.baseurl}}/b-praxis.html)
+* [Digital Edition]({{site.baseurl}}/b-edition.html)
+* Digital Facsimile
+* Concordance
+* Codicology
+* Glossary

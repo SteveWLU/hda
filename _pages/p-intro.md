@@ -8,7 +8,7 @@ permalink: p-intro.html
 ## Table of Contents
 
 * Introduction
-* Encoding Criteria
+* [Edition Criteria]({{site.baseurl}}/p-praxis.html)
 * [Digital Edition]({{site.baseurl}}/p-edition.html)
 * Digital Facsimile
 * Concordance
