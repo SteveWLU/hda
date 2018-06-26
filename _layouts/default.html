@@ -20,21 +20,7 @@
   <![endif]-->
 </head>
 <body>
-<header role="banner" class="page-header" id="top">
- <h1>{{site.title}}</h1>
- <p>{{site.tagline}}</p>
- {% include navbar.html %}
-<!-- <nav role="navigation">
-<input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
-<ul class="menu">
-  <li><a href="{{site.baseurl}}/about.html" title="about">About</a></li>
-  <li><a href="{{site.baseurl}}/praxis.html" title="praxis">Praxis</a></li>
-  <li><a href="{{site.baseurl}}/resources.html" title="resources">Editions</a></li>
-  <li><a href="{{site.baseurl}}/archive.html" title="Translations">Translation</a></li>
-  <li><a href="{{site.baseurl}}/bibliography.html" title="Bibliography">Bibliography</a></li>
-  </ul> -->
-</header>
+{% include header.html %}
 {{content}}
 {% include footer.html %}
 </body>
