@@ -1,7 +1,8 @@
 ---
 layout: edition
-title: Manuscript P
+title: Padua edition
 ---
+
 <script>
       var CETEIcean = new CETEI();
       CETEIcean.getHTML5('p.xml', function(data) {

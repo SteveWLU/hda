@@ -1,9 +1,0 @@
-- title: About
-  url:  /{{site.baseurl}}/about.html
-- title: Praxis
-  url:  /{{site.baseurl}}/praxis.html
-  sublinks:
-    - title: Edition Criteria
-      url:  /{{site.baseurl}}/intro-praxis.html
-    - title: Berlin Critera
-      url:  /{{site.baseurl}}/b-praxis.html
