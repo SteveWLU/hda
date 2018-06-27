@@ -363,6 +363,7 @@ header h1 {
 	line-height:1;
 	margin: 0;
 	text-transform: uppercase;
+  color: pink;
 }
 header p {
 	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;

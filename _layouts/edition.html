@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-    <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/CETEIcean.css">
     <script src="../assets/js/CETEI.js"></script>
+    <link rel="stylesheet" href="../assets/css/main.css">
   </head>
   <body>
-    {% include header.html %}
+    <header role="banner" class="page-header" id="top">
+    <h1>{{site.title}}</h1>
+    <p>{{site.tagline}}</p>
+    {% include navbar.html %}
+    </header>
     <main class="page-content" aria-label="Content">
-      <div id="wrapper">
-      <div id="TEI">
-      </div></div>
+      <div id="wrapper"></div>
+      <div id="TEI"></div>
     </main>
     {% for js in CETEI.js %}
-<script async type="text/javascript" src="{{ js }}"></script>
-{% endfor %}
-{{ content }}
+    <script async type="text/javascript" src="{{ js }}"></script>
+    {% endfor %}
+    {{ content }}
     {% include footer.html %}
   </body>
 </html>
