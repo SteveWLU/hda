@@ -363,7 +363,6 @@ header h1 {
 	line-height:1;
 	margin: 0;
 	text-transform: uppercase;
-  color: pink;
 }
 header p {
 	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
@@ -856,4 +855,18 @@ img#initial {
 
 p.intro {
     margin-top: 10em;
+}
+
+div#edition-container {
+  border: 100% solid #000;
+}
+div#TEI {
+  background-color: teal;
+  float: left;
+  width: 50%;
+}
+
+div#wrapper {
+  background-color: pink;
+  margin-left: 50%;
 }
