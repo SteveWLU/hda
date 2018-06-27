@@ -12,6 +12,9 @@
       <div id="TEI">
       </div></div>
     </main>
+    {% for js in CETEI.js %}
+<script async type="text/javascript" src="{{ js }}"></script>
+{% endfor %}
 {{ content }}
     {% include footer.html %}
   </body>
