@@ -5,7 +5,7 @@ title: Padua edition
 <script src="../../assets/js/CETEI.js"></script>
 <script>
       var CETEIcean = new CETEI();
-      CETEIcean.getHTML5('p.xml', function(data) {
+      CETEIcean.getHTML5('/editions/p.xml', function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);
