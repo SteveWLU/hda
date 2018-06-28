@@ -756,10 +756,10 @@ tei-l {
   display: block;
   width: 35em;
 }
-tei-l[data-lineno]:before {
+tei-l[data-lineno]:after {
   content: attr(data-lineno);
   position: absolute;
-  left: 2em;
+  right: 2em;
 }
 tei-lacunaEnd {
   /* Empty Rule Set */
@@ -1827,7 +1827,7 @@ tei-zone {
   /* Empty Rule Set */
 }
 
-/* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
+/* styles for html shell and html elements in TEI (e.g.,<a> and <img>) 
 html > body {
   margin: 0;
   padding: 0;
@@ -1843,3 +1843,4 @@ html {
   background-color: white;
   color: #292929;
 }
+*/

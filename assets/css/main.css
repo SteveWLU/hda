@@ -731,6 +731,14 @@ img#logo_marucelliana {
 }
 
 
+/* Custom styles */
+
+#mirador {
+	float: right;
+	width: 50%;
+}
+
+
 /* --------------------------------------------------
    Smaller screen styles
 -----------------------------------------------------*/
