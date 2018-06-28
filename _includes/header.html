@@ -4,8 +4,25 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <p>{{site.tagline}}</p>
 
-    {%- if page_paths -%}
+<nav class="site-nav">
+
+{% for item in site.data.navigation.toc %}
+<div class="dropdown">
+    <button class="dropbtn">{{ item.title }}</button>
+              <div class="dropdown-content">
+                {% for entry in item.subfolderitems %}
+             <a href="{{ entry.url }}">{{ entry.page }}</a>
+         
+            {% endfor %}
+             </div>
+</div>
+  {% endfor %}  
+
+
+</nav>
+<!--    {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -25,6 +42,6 @@
           {%- endfor -%}
         </div>
       </nav>
-    {%- endif -%}
+    {%- endif -%}--> 
   </div>
 </header>

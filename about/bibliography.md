@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: bibliography.html
+permalink: /about/bibliography.html
 ---
 
 # Complete Bibliography for [Huon d'Auvergne](www.huondauvergne.org)

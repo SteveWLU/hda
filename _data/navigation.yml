@@ -1,9 +1,18 @@
+toc:
 - title: About
   url:  /{{site.baseurl}}/about.html
+  subfolderitems:
+    - page: Citation
+      url: /about/citation.md
+    - page: Bibliography
+      url: /about/bibliography.html
+    - page: Versioning
+      url: /about/versioning.md
 - title: Praxis
-  url:  /{{site.baseurl}}/praxis.html
-  sublinks:
-    - title: Edition Criteria
-      url:  /{{site.baseurl}}/intro-praxis.html
-    - title: Berlin Critera
-      url:  /{{site.baseurl}}/b-praxis.html
+  subfolderitems:
+    - page: T Praxis
+      url: /edition/t-praxis.md
+- title: Editions
+  subfolderitems:
+    - page: T Edition
+      url: /edition/t.html
