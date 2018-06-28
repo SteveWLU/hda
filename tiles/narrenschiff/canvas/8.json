@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://127.0.0.1:4000/tiles/narrenschiff/canvas/8.json",
+  "label": "p. 8",
+  "width": 2885,
+  "height": 4151,
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/narrenschiff-0008/full/174,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://127.0.0.1:4000/tiles/narrenschiff/annotation/8.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://127.0.0.1:4000/tiles/images/narrenschiff-0008/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://127.0.0.1:4000/tiles/images/narrenschiff-0008",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2885,
+        "height": 4151
+      },
+      "on": "http://127.0.0.1:4000/tiles/narrenschiff/canvas/8.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

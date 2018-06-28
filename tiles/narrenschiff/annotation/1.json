@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "http://127.0.0.1:4000/tiles/narrenschiff/annotation/1.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "http://127.0.0.1:4000/tiles/images/narrenschiff-0001/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://127.0.0.1:4000/tiles/images/narrenschiff-0001",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 3185,
+    "height": 4412
+  },
+  "on": "http://127.0.0.1:4000/tiles/narrenschiff/canvas/1.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

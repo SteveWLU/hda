@@ -17,6 +17,43 @@ plugins:
   - jekyll-feed
 
 
+gems:
+  - jekyll-feed
+  - jekyll-iiif
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+iiif_allowablefields:
+  - label
+  - description
+  - attribution
+  - logo
+
+collections:
+  narrenschiff:
+    title: "Narrenschiff"
+    output: true
+    iiif: true
+    paged: true
+    fields:
+      label: "Sebastian Brant, Aff-ghebeelde narren speel-schuyt, verciert met meer als hondert schoone figueren nae den aerdt van veelderley sotten die op aerden syn: bewesen met stichtelijcke exempelen, so uyt de H. Schrift als oock uyt de kerckelijcke oudt-vaders ende andere schrijvers meer, tot dienste van een yegelijcken"
+      description: "Ghedruckt tot Leyden : By Henrick Lodewicxsz. van Haestens"
+      attribution: "jekyll-iiif demo"
+      logo: "logo.jpg"
+
+  iiif_images:
+    title: "Images"
+    output: true
+    iiif: true
+
+defaults:
+  - scope:
+      path: ""
+      type: iiif_collection
+    values:
+      layout: iiif_image
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
