@@ -22,15 +22,12 @@
     {% include navbar.html %}
     </header>
     <main class="page-content" aria-label="Content">
-<div id="edition-container">
-      <div id="TEI"></div>
-      <div id="wrapper">insert things here</div>
-</div>
+      <div id="wrapper">
+        <div id="edition-container">
+          <div id="TEI">{{ content }}</div>
+        </div>
+      </div>
     </main>
-    {% for js in CETEI.js %}
-    <script async type="text/javascript" src="{{ js }}"></script>
-    {% endfor %}
-    {{ content }}
     {% include footer.html %}
   </body>
 </html>

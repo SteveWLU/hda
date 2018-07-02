@@ -30,3 +30,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem 'jekyll-iiif', :github => 'pbinkley/jekyll-iiif'
+gem 'iiif_s3', :github => 'cmoa/iiif_s3'
