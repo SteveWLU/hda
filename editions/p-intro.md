@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: p-intro.html
+permalink: editions/p-intro.html
 ---
 
 # Padua Intro to Edition
@@ -9,8 +9,8 @@ permalink: p-intro.html
 
 * Introduction
 * [Edition Criteria]({{site.baseurl}}/p-praxis.html)
-* [Digital Edition]({{site.baseurl}}/p-edition.html)
-* Digital Facsimile
+* [Digital Edition]({{site.baseurl}}/editions/p-edition.html)
+* [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/p-facsimile.html)
 * Concordance
 * Codicology
 * Glossary
