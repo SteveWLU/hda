@@ -861,9 +861,10 @@ div#edition-container {
   border: 100% solid #000;
 }
 div#TEI {
-  background-color: teal;
   float: left;
   width: 50%;
+  border-style: solid;
+  border-width: 1px;
 }
 
 div#wrapper {

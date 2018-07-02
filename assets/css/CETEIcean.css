@@ -476,7 +476,7 @@ tei-date[data-tei-when]:empty:before {
 }
 /* e */
 tei-editionStmt {
-  display:block;
+  display: none;
 }
 tei-egXML {
   display: block;
@@ -501,6 +501,9 @@ tei-epigraph {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+tei-ex[rend="italic"] {
+  font-style: italic;
 }
 tei-explicit {
   font-style: italic;
@@ -602,6 +605,9 @@ tei-TEI tei-head {
   display: block;
   font-family: Arvo, sans-serif;
   font-weight: normal;
+  color: #a10d09;
+  font-size: 2em;
+  margin-left: 1.5em;
 }
 tei-body > tei-head {
   font-size: 180%;
@@ -649,6 +655,9 @@ tei-figure > tei-head {
   width: 85%;
   font-family: Georgia, Serif;
   font-size: 13pt;
+}
+tei-funder {
+  display: none;
 }
 tei-headItem {
   /* Empty Rule Set */
@@ -755,6 +764,8 @@ tei-kinesic {
 tei-l {
   display: block;
   width: 35em;
+  margin-left: 3em;
+  font-family: 'Open Sans', Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 tei-l[data-lineno]:before {
   content: attr(data-lineno);
@@ -1216,6 +1227,7 @@ tei-preparedness {
   /* Empty Rule Set */
 }
 tei-principal {
+  display: none;
   font-weight: bold;
 }
 tei-principal:before {
@@ -1357,7 +1369,7 @@ tei-resp {
   /* Empty Rule Set */
 }
 tei-respStmt {
-  display: block;
+  display: none;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1457,6 +1469,7 @@ tei-secl>*:last-child:after {
 tei-seg {
   /* Empty Set Rule */
   outline: 0px solid transparent;
+  color: red;
 }
 tei-segmentation {
   /* Empty Rule Set */
@@ -1568,7 +1581,7 @@ tei-specList {
   /* Empty Set Rule */
 }
 tei-sponsor {
-  display: block;
+  display: none;
   margin-top: 0;
   margin-bottom: 0;
   /* Block element, maybe labeled  */
@@ -1723,7 +1736,7 @@ tei-title[level=m] {
   font-style: italic;
 }
 tei-titleStmt > tei-title {
-  display: block;
+  display: none;
   font-family: Arvo, sans-serif;
   font-weight: normal;
   font-weight: bold !important;

@@ -1,11 +1,22 @@
 ---
-layout: default
+layout: edition
 permalink: br-edition.html
 ---
-<div class="tei-reader">
-This is where the Br edition will go.
-</div>
-
-<div class="image-viewer">
-This is where the digital facsimile will go.
+<head>
+<script src="../../assets/js/CETEI.js"></script>
+<link rel="stylesheet" href="../assets/css/CETEIcean.css">
+</head>
+<div id: "tei-wrapper">
+<script>
+      var CETEIcean = new CETEI();
+      CETEIcean.getHTML5('/editions/br.xml', function(data) {
+        document.getElementById("TEI").innerHTML = "";
+        document.getElementById("TEI").appendChild(data);
+        CETEIcean.addStyle(document, data);
+      });
+      // Alternatively, use then()
+      // (new CETEI).getHTML5('testTEI.xml').then(function(data){
+      //   document.getElementById("TEI").appendChild(data);
+      // });
+</script>
 </div>
