@@ -9,7 +9,7 @@ permalink: br-intro.html
 * Introduction
 * [Edition Criteria]({{site.baseurl}}/br-praxis.html)
 * [Digital Edition]({{site.baseurl}}/br-edition.html)
-* Digital Facsimile
+* [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/br-facsimile.html)
 * Concordance
 * Codicology
 * Glossary

@@ -6,7 +6,7 @@
 title: Huon d'Auvergne Digital Archive
 description: "The Huon d'Auvergne Digital Archive publishes for the first time
 all four extant Franco-Italian manuscripts of the Huon d'Auvergne romance-epic."
-tagline: "A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic."
+tagline: "A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic"
 baseurl: "" #add in later in deployment: /hda
 url: "" #add in later in deployment in deploytment: http:huondauvergne.org
 
@@ -15,12 +15,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-iiif
 
 include: _pages
-
-gems:
-  - jekyll-feed
-  - jekyll-iiif
 
 iiif_allowablefields:
   - label
@@ -30,12 +27,12 @@ iiif_allowablefields:
 
 collections:
   narrenschiff:
-    title: "Narrenschiff"
+    title: "Padua, Biblioteca del seminario vescovile, MS 32"
     output: true
     iiif: true
     paged: true
     fields:
-      label: "Sebastian Brant, Aff-ghebeelde narren speel-schuyt, verciert met meer als hondert schoone figueren nae den aerdt van veelderley sotten die op aerden syn: bewesen met stichtelijcke exempelen, so uyt de H. Schrift als oock uyt de kerckelijcke oudt-vaders ende andere schrijvers meer, tot dienste van een yegelijcken"
+      label: "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
       description: "Ghedruckt tot Leyden : By Henrick Lodewicxsz. van Haestens"
       attribution: "jekyll-iiif demo"
       logo: "logo.jpg"

@@ -9,7 +9,7 @@ permalink: t-intro.html
 * Introduction
 * [Edition Criteria]({{site.baseurl}}/t-praxis.html)
 * [Digital Edition]({{site.baseurl}}/t-edition.html)
-* Digital Facsimile
+* [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/t-facsimile.html)
 * Concordance
 * Codicology
 * Glossary

@@ -8,7 +8,7 @@ permalink: editions/p-intro.html
 ## Table of Contents
 
 * Introduction
-* [Edition Criteria]({{site.baseurl}}/p-praxis.html)
+* [Edition Criteria]({{site.baseurl}}/praxis/p-praxis.html)
 * [Digital Edition]({{site.baseurl}}/editions/p-edition.html)
 * [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/p-facsimile.html)
 * Concordance

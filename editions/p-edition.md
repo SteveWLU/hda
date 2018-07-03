@@ -1,12 +1,11 @@
 ---
 layout: edition
 title: Padua edition
-permalink: editions/p-edition.html
 ---
 
 <script>
       var CETEIcean = new CETEI();
-      CETEIcean.getHTML5('p.xml', function(data) {
+      CETEIcean.getHTML5('/editions/p.xml', function(data) {
         document.getElementById("TEI").innerHTML = "";
         document.getElementById("TEI").appendChild(data);
         CETEIcean.addStyle(document, data);

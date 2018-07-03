@@ -1,28 +1,22 @@
 ---
 layout: default
-permalink: p-praxis.html
 ---
 
 # Edition Criteria for Padua
 
+## &#10081; 1. Introduction
 
-
-<p class="notice">This page is currently under revision.</p>
-<!--
-<h2 class="praxis">&#10081; 1. Introduction</h2>
-
-<p class="praxis">In establishing the following editorial norms, I have used both readability and fidelity to manuscript as guiding principles. I have derived my editorial norms from the pioneering efforts of Günter Holtus in his edition of the Franco-Italian <em>Bataille d'Aliscans</em>, which is frequently cited as a model for modern critical editions of Franco-Italian works. The editorial norms established by Holtus were taken up subsequently by Beretta, De Ninni and Morgan; I refer to the editorial guidelines in these texts to help address the idiosyncrasies of the Padua <em>Huon</em> manuscript. In any case, it should be kept in mind that because of the nature of Franco-Italian texts, a general system of editorial norms is impossible and each critical edition must establish variant norms to address linguistic characteristics specific to the manuscript under examination. Furthermore, the guidelines discussed by the École des chartes in its publication <em>Conseils pour l'édition des textes médiévaux</em>, and other frequently cited rubrics for the textual emendation of medieval texts, are in many ways unable to account for the mixed linguistic idiom of Franco-Italian.</p>
--->
+In establishing the following editorial norms, I have used both readability and fidelity to manuscript as guiding principles. I have derived my editorial norms from the pioneering efforts of Günter Holtus in his edition of the Franco-Italian *Bataille d'Aliscans*, which is frequently cited as a model for modern critical editions of Franco-Italian works. The editorial norms established by Holtus were taken up subsequently by Beretta, De Ninni and Morgan; I refer to the editorial guidelines in these texts to help address the idiosyncrasies of the [Padua Huon manuscript](http://www.huondauvergne.org/p_manuscript). In any case, it should be kept in mind that because of the nature of Franco-Italian texts, a general system of editorial norms is impossible and each critical edition must establish variant norms to address linguistic characteristics specific to the manuscript under examination. Furthermore, the guidelines discussed by the École des chartes in its publication *Conseils pour l'édition des textes médiévaux*, and other frequently cited rubrics for the textual emendation of medieval texts, are in many ways unable to account for the mixed linguistic idiom of Franco-Italian.
 
 <!-- hyperlink here to: Alfred Foulet and Mary Blakely Speer, On Editing Old French Texts (Lawrence, KS: The Regents Press of Kansas, 1979; Mario Roque, "Régles pratiques pour l'édition des anciens textes français et provençaux," in Bibliothèque de l'école des chartes 87 (1926): 453-59; Cite other guides. -->
 
-<!--
+In my edition of the Padua *Huon d'Auvergne*, any deviation from the scribe's text is indicated in footnotes, and it is always possible to retrace the manuscript's original reading. I only emend the text when scribal error impedes readability or when lines are omitted (v. 1063 (=1060); v. 1268 (=1267); v. 1494 (=1493)). I indicate in footnotes other editors' solutions to difficult readings and passages that I interpret differently. I indicate once all variant editorial norms used by previous editors (eg. Holtus uses an accent grave on <em>nì</em>, whereas I do not). Finally, footnotes include all other non-textual codicological features that may be of interest to scholars, including catchwords, spaces left for illuminations, tears, and rubrication. In future iterations of this digital edition, codicological information will be accessible in interactive form using high-resolution scans of all four extant Franco-Italian witnesses (B, T, P, Br).
 
-<p>In my edition of the Padua <em>Huon d'Auvergne</em>, any deviation from the scribe's text is indicated in footnotes, and it is always possible to retrace the manuscript's original reading. I only emend the text when scribal error impedes readability or when lines are omitted (v. 1063 (=1060); v. 1268 (=1267); v. 1494 (=1493)). I indicate in footnotes other editors' solutions to difficult readings and passages that I interpret differently. I indicate once all variant editorial norms used by previous editors (eg. Holtus uses an accent grave on <em>nì</em>, whereas I do not). Finally, footnotes include all other non-textual codicological features that may be of interest to scholars, including catchwords, spaces left for illuminations, tears, and rubrication. In future iterations of this digital edition, codicological information will be accessible in interactive form using high-resolution scans of all four extant Franco-Italian witnesses (B, T, P, Br).</p>
+## &#10081; 2. Abbreviations
 
-<h2 class="praxis">&#10081; 2. Abbreviations</h2>
+I resolve all abbreviations in the Padua edition, and I note all irregularities in the table below. The abbreviation system of P is complex and often inconsistent **p*ro***, for example, is abbreviated in two different ways); however, all forms are accounted for, and I note below if they occur only once.
 
-<p>I resolve all abbreviations in the Padua edition, and I note all irregularities in the table below. The abbreviation system of P is complex and often inconsistent (p<em>ro</em>, for example, is abbreviated in two different ways); however, all forms are accounted for, and I note below if they occur only once.</p>
+| 7 (tyronian note) | *et* (v. 5506) |
 
 <div class="table">
     <table>
@@ -278,14 +272,8 @@ permalink: p-praxis.html
 </html>
 
 
-<!--
+{% highlight bash %}
+git init new hda
+{% endhighlight %}
 
-<% unless params.key?('praxis') %>
-<% @current_page = 'p_praxis' %>
-<% @current_page_short = 'p praxis' %>
-<%= render 'layouts/praxis_interface' %>
-<% else %>
-<% @current_page = 'p_manuscript' %>
-<% @current_page_short = 'p praxis' %>
-<%= render 'layouts/praxis_interface' %>
-<% end %>
+<img src="{{site.baseurl}}/assets/images/1r.jpg" alt="Folio 1r">
