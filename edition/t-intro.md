@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: edition
 permalink: t-intro.html
 ---
 # Turin Intro to Edition
+
+
 
 ## Table of Contents
 

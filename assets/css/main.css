@@ -931,3 +931,7 @@ img#initial {
 p.intro {
     margin-top: 10em;
 }
+
+.page-break {
+	color:pink;
+}

@@ -969,7 +969,6 @@ tei-metSym {
   /* Empty Rule Set */
 }
 tei-milestone {
-  display: none;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -1676,6 +1675,7 @@ tei-table > head {
 }
 tei-teiHeader {
   display: block;
+  display: none;
   /*
 tei-border-radius: 15px;
 tei-border: 1px solid black;

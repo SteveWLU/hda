@@ -11,9 +11,32 @@
     {% include header.html %}
     <main class="page-content" aria-label="Content">
       <div id="wrapper">
-        <div id="TEI">
-{{ content }}
+       
+<div id="lilmenu">
+  Diplomatic:<label class="container">
+    <input type="checkbox" >
+    <span class="checkmark"></span>
+  </label>
+        <div id="foliation">
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+           <label>
+               <input type="checkbox" name="foliation-toggle"><span id="foliation-toggle-span" class="toggle">Foliation</span>
+           </label>
+         </div>
+       </div>
 </div>
+<div id="P">
+  </div>
+<div id="Br">
+</div>
+
+<div id="T">
+</div>
+<div id="B">
+</div>
+
+
+{{ content }}
 <div id="mirador"></div>
 
 
