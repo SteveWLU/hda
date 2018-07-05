@@ -1,0 +1,4304 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://127.0.0.1:4000/tiles/p-images/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32",
+  "attribution": "jekyll-iiif demo",
+  "logo": "http://127.0.0.1:4000/logo.jpg",
+  "description": "Pauda Edition",
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0001/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p-images/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/1.json",
+          "label": "p. 1",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0001/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/1.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0001/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0001",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/1.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/2.json",
+          "label": "p. 2",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0002/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0002/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0002",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/2.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/3.json",
+          "label": "p. 3",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0003/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/3.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0003/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0003",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/3.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/4.json",
+          "label": "p. 4",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0004/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/4.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0004/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0004",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/4.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/5.json",
+          "label": "p. 5",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0005/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/5.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0005/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0005",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/5.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/6.json",
+          "label": "p. 6",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0006/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/6.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0006/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0006",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/6.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/7.json",
+          "label": "p. 7",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0007/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/7.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0007/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0007",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/7.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/8.json",
+          "label": "p. 8",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0008/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/8.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0008/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0008",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/8.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/9.json",
+          "label": "p. 9",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0009/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/9.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0009/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0009",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/9.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/10.json",
+          "label": "p. 10",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0010/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/10.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0010/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0010",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/10.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/11.json",
+          "label": "p. 11",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0011/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/11.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0011/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0011",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/11.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/12.json",
+          "label": "p. 12",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0012/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/12.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0012/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0012",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/12.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/13.json",
+          "label": "p. 13",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0013/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/13.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0013/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0013",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/13.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/14.json",
+          "label": "p. 14",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0014/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/14.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0014/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0014",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/14.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/15.json",
+          "label": "p. 15",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0015/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/15.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0015/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0015",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/15.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/16.json",
+          "label": "p. 16",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0016/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/16.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0016/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0016",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/16.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/17.json",
+          "label": "p. 17",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0017/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/17.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0017/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0017",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/17.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/18.json",
+          "label": "p. 18",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0018/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/18.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0018/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0018",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/18.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/19.json",
+          "label": "p. 19",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0019/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/19.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0019/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0019",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/19.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/20.json",
+          "label": "p. 20",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0020/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/20.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0020/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0020",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/20.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/21.json",
+          "label": "p. 21",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0021/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/21.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0021/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0021",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/21.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/22.json",
+          "label": "p. 22",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0022/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/22.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0022/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0022",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/22.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/23.json",
+          "label": "p. 23",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0023/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/23.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0023/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0023",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/23.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/24.json",
+          "label": "p. 24",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0024/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/24.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0024/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0024",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/24.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/25.json",
+          "label": "p. 25",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0025/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/25.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0025/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0025",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/25.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/26.json",
+          "label": "p. 26",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0026/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/26.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0026/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0026",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/26.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/27.json",
+          "label": "p. 27",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0027/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/27.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0027/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0027",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/27.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/28.json",
+          "label": "p. 28",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0028/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/28.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0028/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0028",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/28.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/29.json",
+          "label": "p. 29",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0029/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/29.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0029/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0029",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/29.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/30.json",
+          "label": "p. 30",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0030/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/30.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0030/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0030",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/30.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/31.json",
+          "label": "p. 31",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0031/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/31.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0031/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0031",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/31.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/32.json",
+          "label": "p. 32",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0032/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/32.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0032/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0032",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/32.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/33.json",
+          "label": "p. 33",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0033/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/33.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0033/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0033",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/33.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/34.json",
+          "label": "p. 34",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0034/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/34.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0034/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0034",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/34.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/35.json",
+          "label": "p. 35",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0035/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/35.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0035/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0035",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/35.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/36.json",
+          "label": "p. 36",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0036/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/36.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0036/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0036",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/36.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/37.json",
+          "label": "p. 37",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0037/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/37.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0037/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0037",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/37.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/38.json",
+          "label": "p. 38",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0038/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/38.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0038/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0038",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/38.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/39.json",
+          "label": "p. 39",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0039/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/39.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0039/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0039",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/39.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/40.json",
+          "label": "p. 40",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0040/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/40.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0040/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0040",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/40.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/41.json",
+          "label": "p. 41",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0041/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/41.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0041/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0041",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/41.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/42.json",
+          "label": "p. 42",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0042/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/42.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0042/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0042",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/42.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/43.json",
+          "label": "p. 43",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0043/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/43.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0043/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0043",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/43.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/44.json",
+          "label": "p. 44",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0044/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/44.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0044/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0044",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/44.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/45.json",
+          "label": "p. 45",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0045/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/45.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0045/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0045",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/45.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/46.json",
+          "label": "p. 46",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0046/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/46.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0046/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0046",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/46.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/47.json",
+          "label": "p. 47",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0047/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/47.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0047/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0047",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/47.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/48.json",
+          "label": "p. 48",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0048/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/48.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0048/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0048",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/48.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/49.json",
+          "label": "p. 49",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0049/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/49.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0049/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0049",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/49.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/50.json",
+          "label": "p. 50",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0050/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/50.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0050/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0050",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/50.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/51.json",
+          "label": "p. 51",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0051/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/51.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0051/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0051",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/51.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/52.json",
+          "label": "p. 52",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0052/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/52.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0052/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0052",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/52.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/53.json",
+          "label": "p. 53",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0053/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/53.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0053/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0053",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/53.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/54.json",
+          "label": "p. 54",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0054/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/54.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0054/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0054",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/54.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/55.json",
+          "label": "p. 55",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0055/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/55.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0055/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0055",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/55.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/56.json",
+          "label": "p. 56",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0056/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/56.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0056/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0056",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/56.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/57.json",
+          "label": "p. 57",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0057/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/57.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0057/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0057",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/57.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/58.json",
+          "label": "p. 58",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0058/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/58.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0058/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0058",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/58.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/59.json",
+          "label": "p. 59",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0059/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/59.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0059/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0059",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/59.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/60.json",
+          "label": "p. 60",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0060/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/60.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0060/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0060",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/60.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/61.json",
+          "label": "p. 61",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0061/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/61.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0061/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0061",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/61.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/62.json",
+          "label": "p. 62",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0062/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/62.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0062/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0062",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/62.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/63.json",
+          "label": "p. 63",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0063/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/63.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0063/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0063",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/63.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/64.json",
+          "label": "p. 64",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0064/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/64.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0064/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0064",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/64.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/65.json",
+          "label": "p. 65",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0065/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/65.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0065/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0065",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/65.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/66.json",
+          "label": "p. 66",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0066/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/66.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0066/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0066",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/66.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/67.json",
+          "label": "p. 67",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0067/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/67.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0067/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0067",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/67.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/68.json",
+          "label": "p. 68",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0068/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/68.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0068/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0068",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/68.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/69.json",
+          "label": "p. 69",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0069/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/69.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0069/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0069",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/69.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/70.json",
+          "label": "p. 70",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0070/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/70.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0070/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0070",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/70.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/71.json",
+          "label": "p. 71",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0071/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/71.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0071/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0071",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/71.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/72.json",
+          "label": "p. 72",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0072/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/72.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0072/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0072",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/72.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/73.json",
+          "label": "p. 73",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0073/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/73.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0073/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0073",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/73.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/74.json",
+          "label": "p. 74",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0074/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/74.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0074/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0074",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/74.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/75.json",
+          "label": "p. 75",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0075/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/75.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0075/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0075",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/75.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/76.json",
+          "label": "p. 76",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0076/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/76.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0076/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0076",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/76.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/77.json",
+          "label": "p. 77",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0077/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/77.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0077/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0077",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/77.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/78.json",
+          "label": "p. 78",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0078/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/78.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0078/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0078",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/78.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/79.json",
+          "label": "p. 79",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0079/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/79.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0079/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0079",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/79.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/80.json",
+          "label": "p. 80",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0080/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/80.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0080/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0080",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/80.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/81.json",
+          "label": "p. 81",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0081/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/81.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0081/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0081",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/81.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/82.json",
+          "label": "p. 82",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0082/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/82.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0082/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0082",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/82.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/83.json",
+          "label": "p. 83",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0083/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/83.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0083/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0083",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/83.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/84.json",
+          "label": "p. 84",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0084/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/84.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0084/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0084",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/84.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/85.json",
+          "label": "p. 85",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0085/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/85.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0085/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0085",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/85.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/86.json",
+          "label": "p. 86",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0086/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/86.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0086/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0086",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/86.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/87.json",
+          "label": "p. 87",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0087/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/87.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0087/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0087",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/87.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/88.json",
+          "label": "p. 88",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0088/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/88.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0088/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0088",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/88.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/89.json",
+          "label": "p. 89",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0089/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/89.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0089/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0089",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/89.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/90.json",
+          "label": "p. 90",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0090/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/90.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0090/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0090",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/90.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/91.json",
+          "label": "p. 91",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0091/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/91.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0091/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0091",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/91.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/92.json",
+          "label": "p. 92",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0092/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/92.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0092/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0092",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/92.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/93.json",
+          "label": "p. 93",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0093/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/93.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0093/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0093",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/93.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/94.json",
+          "label": "p. 94",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0094/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/94.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0094/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0094",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/94.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/95.json",
+          "label": "p. 95",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0095/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/95.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0095/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0095",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/95.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/96.json",
+          "label": "p. 96",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0096/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/96.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0096/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0096",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/96.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/97.json",
+          "label": "p. 97",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0097/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/97.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0097/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0097",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/97.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/98.json",
+          "label": "p. 98",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0098/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/98.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0098/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0098",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/98.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/99.json",
+          "label": "p. 99",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0099/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/99.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0099/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0099",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/99.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/100.json",
+          "label": "p. 100",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0100/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/100.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0100/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0100",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/100.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/101.json",
+          "label": "p. 101",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0101/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/101.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0101/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0101",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/101.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/102.json",
+          "label": "p. 102",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0102/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/102.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0102/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0102",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/102.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/103.json",
+          "label": "p. 103",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0103/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/103.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0103/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0103",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/103.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/104.json",
+          "label": "p. 104",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0104/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/104.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0104/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0104",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/104.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/105.json",
+          "label": "p. 105",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0105/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/105.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0105/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0105",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/105.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/106.json",
+          "label": "p. 106",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0106/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/106.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0106/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0106",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/106.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/107.json",
+          "label": "p. 107",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0107/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/107.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0107/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0107",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/107.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/108.json",
+          "label": "p. 108",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0108/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/108.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0108/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0108",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/108.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/109.json",
+          "label": "p. 109",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0109/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/109.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0109/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0109",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/109.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/110.json",
+          "label": "p. 110",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0110/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/110.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0110/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0110",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/110.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/111.json",
+          "label": "p. 111",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0111/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/111.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0111/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0111",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/111.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/112.json",
+          "label": "p. 112",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0112/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/112.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0112/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0112",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/112.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/113.json",
+          "label": "p. 113",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0113/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/113.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0113/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0113",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/113.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/114.json",
+          "label": "p. 114",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0114/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/114.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0114/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0114",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/114.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/115.json",
+          "label": "p. 115",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0115/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/115.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0115/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0115",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/115.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/116.json",
+          "label": "p. 116",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0116/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/116.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0116/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0116",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/116.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/117.json",
+          "label": "p. 117",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0117/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/117.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0117/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0117",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/117.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/118.json",
+          "label": "p. 118",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0118/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/118.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0118/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0118",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/118.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/119.json",
+          "label": "p. 119",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0119/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/119.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0119/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0119",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/119.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/120.json",
+          "label": "p. 120",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0120/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/120.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0120/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0120",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/120.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/121.json",
+          "label": "p. 121",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0121/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/121.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0121/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0121",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/121.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/122.json",
+          "label": "p. 122",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0122/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/122.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0122/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0122",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/122.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/123.json",
+          "label": "p. 123",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0123/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/123.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0123/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0123",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/123.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/124.json",
+          "label": "p. 124",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0124/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/124.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0124/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0124",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/124.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/125.json",
+          "label": "p. 125",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0125/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/125.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0125/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0125",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/125.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/126.json",
+          "label": "p. 126",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0126/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/126.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0126/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0126",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/126.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/127.json",
+          "label": "p. 127",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0127/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/127.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0127/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0127",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/127.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/128.json",
+          "label": "p. 128",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0128/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/128.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0128/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0128",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/128.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/129.json",
+          "label": "p. 129",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0129/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/129.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0129/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0129",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/129.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/130.json",
+          "label": "p. 130",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0130/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/130.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0130/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0130",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/130.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/131.json",
+          "label": "p. 131",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0131/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/131.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0131/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0131",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/131.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/132.json",
+          "label": "p. 132",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0132/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/132.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0132/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0132",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/132.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/133.json",
+          "label": "p. 133",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0133/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/133.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0133/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0133",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/133.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/134.json",
+          "label": "p. 134",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0134/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/134.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0134/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0134",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/134.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/135.json",
+          "label": "p. 135",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0135/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/135.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0135/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0135",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/135.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/136.json",
+          "label": "p. 136",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0136/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/136.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0136/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0136",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/136.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/137.json",
+          "label": "p. 137",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0137/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/137.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0137/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0137",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/137.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/138.json",
+          "label": "p. 138",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0138/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/138.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0138/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0138",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/138.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/139.json",
+          "label": "p. 139",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0139/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/139.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0139/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0139",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/139.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/140.json",
+          "label": "p. 140",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0140/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/140.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0140/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0140",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/140.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/141.json",
+          "label": "p. 141",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0141/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/141.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0141/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0141",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/141.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/142.json",
+          "label": "p. 142",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0142/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/142.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0142/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0142",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/142.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/143.json",
+          "label": "p. 143",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0143/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/143.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0143/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0143",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/143.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/144.json",
+          "label": "p. 144",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0144/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/144.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0144/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0144",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/144.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/145.json",
+          "label": "p. 145",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0145/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/145.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0145/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0145",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/145.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/146.json",
+          "label": "p. 146",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0146/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/146.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0146/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0146",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/146.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/147.json",
+          "label": "p. 147",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0147/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/147.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0147/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0147",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/147.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/148.json",
+          "label": "p. 148",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0148/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/148.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0148/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0148",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/148.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/149.json",
+          "label": "p. 149",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0149/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/149.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0149/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0149",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/149.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/150.json",
+          "label": "p. 150",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0150/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/150.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0150/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0150",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/150.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/151.json",
+          "label": "p. 151",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0151/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/151.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0151/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0151",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/151.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/152.json",
+          "label": "p. 152",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0152/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/152.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0152/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0152",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/152.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p-images/canvas/153.json",
+          "label": "p. 153",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p-images-0153/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/153.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p-images-0153/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p-images-0153",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p-images/canvas/153.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

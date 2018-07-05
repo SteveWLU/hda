@@ -7,4 +7,4 @@ title: Turin facsimile
 
 # Turin Facsimile
 
-{% iiif_presentation narrenschiff %}
+{% iiif_presentation turin %}

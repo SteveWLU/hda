@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "http://127.0.0.1:4000/tiles/p-images/annotation/117.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "http://127.0.0.1:4000/tiles/images/p-images-0117/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://127.0.0.1:4000/tiles/images/p-images-0117",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 2363,
+    "height": 1575
+  },
+  "on": "http://127.0.0.1:4000/tiles/p-images/canvas/117.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

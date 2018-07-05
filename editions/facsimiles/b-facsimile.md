@@ -7,4 +7,4 @@ title: Berlin facsimile
 
 # Berlin Facsimile
 
-{% iiif_presentation narrenschiff %}
+{% iiif_presentation berlin %}

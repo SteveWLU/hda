@@ -26,16 +26,26 @@ iiif_allowablefields:
   - logo
 
 collections:
-  narrenschiff:
+  p-images:
     title: "Padua, Biblioteca del seminario vescovile, MS 32"
     output: true
     iiif: true
     paged: true
     fields:
       label: "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
-      description: "Ghedruckt tot Leyden : By Henrick Lodewicxsz. van Haestens"
+      description: "Pauda Edition"
       attribution: "jekyll-iiif demo"
       logo: "logo.jpg"
+  br-images:
+        title: "Barbieri, Biblioteca del seminario vescovile, MS 32"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne-Barbieri, Biblioteca del seminario vescovile, MS 32"
+          description: "Barbieri Edition"
+          attribution: "jekyll-iiif demo"
+          logo: "logo.jpg"
 
   iiif_images:
     title: "Images"
