@@ -26,15 +26,13 @@
     </header>
     <main class="page-content" aria-label="Content">
       <div id="wrapper">
-        <div id="reader-nav-links">
-          <ul class="pager">
-            <li><a href="#">Previous</a></li>
-            <li><a href="#">Next</a></li>
-        </div>
-        <div id="edition-container">
-          <div id="TEI">{{ content }}</div>
-          <div id="image-viewer">{% iiif Jheronimus_Bosch_011-1 %}</div>
-        </div>
+          <div id="edition-container">
+            <div id="B">Padua Manuscript</div>
+            <div id="T">Barbieri Fragment</div>
+            <div id="P">Padua Manuscript</div>
+            <div id="Br">Barbieri Fragment</div>
+          {{ content }}
+            <div id="image-viewer">{% iiif Jheronimus_Bosch_011-1 %}</div>
       </div>
     </main>
     {% include footer.html %}

@@ -1,0 +1,345 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-GxhP7S92hzaDyDJqbdpcHqV5cFflxAx0Yze/X7vUONp43KK1E8eUWaJIMkit3D0R" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/CETEIcean.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/ti-ta-toggle/titatoggle-dist.css" />
+    <link rel="stylesheet" href="css/viewer.css"/>
+    <style media="screen">
+      html {
+        padding-top: 0px;
+        margin-right: 2em;
+      }
+      @font-face{
+        font-family: "Embossed Germanica";
+        src: url("css/fonts/germanica_family/EmbossedGermanica.ttf")
+      }
+      @import url('https://fonts.googleapis.com/css?family=Germania+One');
+      tei-g[ref="char:cmbAbbrStroke"] {
+        display: inline-block;
+        width: 0px;
+      }
+      tei-g.cmbAbbr {
+        display:inline;
+        margin-left: -.5em;
+      }
+      tei-hi {
+        /**
+        font-style: italic
+        **/
+      }
+      /**tei-pb + tei-pb {
+        display: none;
+      }**/
+      tei-seg[rend="decorInit"] {
+        font-family: cursive;
+        font-size: 300%;
+        float:left;
+        line-height: 1em;
+        padding-right: 10px;
+      }
+      tei-trailer {
+        display: block;
+        text-align: center;
+      }
+
+      tei-del {
+        text-decoration: line-through;
+      }
+
+      *[rend*="rubr"] {
+        color: red;
+      }
+
+      *[rend*="underline"] {
+        text-decoration: underline;
+      }
+
+      *[rend*="init"] {
+        font-size: 150%;
+      }
+      *[rend*="lombard"]{
+        font-family: "Embossed Germanica", 'Germania One', serif;
+      }
+      *[source*='manuscript']{
+        display: none;
+      }
+      /**Remove ( and ) around editor punctuation**/
+      tei-pc > tei-choice > tei-reg::before, tei-pc > tei-choice > tei-reg::after, tei-choice > tei-reg::before, tei-choice > tei-reg::after {
+        content: none !important;
+      }
+
+      /** Default: editor punctuation shown, hide orig **/
+      tei-pc > tei-choice > tei-orig {
+        display:none;
+      }
+
+      /** Remove ( and ) around editor capitalization **/
+      tei-choice > tei-reg[type="capit"]::before {
+        content: none !important;
+      }
+      tei-choice > tei-reg[type="capit"]::after {
+        content: none !important;
+      }
+
+      /** Default: editor cap shown, hide orig **/
+      tei-choice > tei-orig {
+        display:none;
+      }
+
+      /**Hide TEI Header completely **/
+      tei-teiheader {
+        display:none;
+      }
+      /**Starting with line beginnings off; <ab> should flow in one unbroken text **/
+      tei-ab {
+        display:inline;
+      }
+
+      /** No space above and below foliation; beginning hidden **/
+      tei-cb {
+        margin-top:0px;
+        margin-bottom:0px;
+        display: none;
+      }
+      tei-pc::before {
+        content: none;
+      }
+      tei-head {
+        font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header id="masthead" class="site-header navbar-static-top navbar-light bg-light" role="banner">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="http://digital-editing.fas.harvard.edu/">Exploring Medieval Mary Magdalene</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu/">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu/editorial-principles/">Editorial Principles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu/manuscript-information/">Manuscript Information</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu/text-editions/">Text Editions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu/events/">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu/tei-documentation/">TEI Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://digital-editing.fas.harvard.edu:4567">TEI Editor</a>
+            </li>
+           </ul>
+         </div>
+       </nav>
+     </div>
+    </header>
+
+    <h1 id="page-title">Text Editions</h1>
+
+    <div class="row" class="options-menu" id="row1">
+
+      <div class="col-3 btn-group" id="texts_checkbox">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Manuscript Toggle <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <input type="checkbox" name="manuscript" value="B1" checked> B1<br>
+            <input type="checkbox" name="manuscript" value="B2" checked> B2<br>
+            <input type="checkbox" name="manuscript" value="D" checked> D<br>
+            <input type="checkbox" name="manuscript" value="G" checked> G<br>
+            <input type="checkbox" name="manuscript" value="K1" checked> K1<br>
+            <input type="checkbox" name="manuscript" value="K2" checked> K2<br>
+            <input type="checkbox" name="manuscript" value="N" checked> N<br>
+            <input type="checkbox" name="manuscript" value="S" checked> S<br>
+          </ul>
+      </div>
+      <div class="col-3" id="foliation">
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+           <label>
+               <input type="checkbox" name="foliation-toggle"><span id="foliation-toggle-span" class="toggle">Foliation</span>
+           </label>
+         </div>
+      </div>
+      <div class="col-3" id="abbreviations">
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+	         <label>
+		           <input type="checkbox" name="abbreviations-toggle" checked><span id="abbreviations-toggle-span" class="toggle">Expand Abbrevs</span>
+	         </label>
+         </div>
+      </div>
+      <div class="col-3" id="capitalization">
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+           <label>
+               <input type="checkbox" name="editor-capitalization-toggle" checked><span id="editor-capitalization-span" class="toggle">Editor Capitalization</span>
+           </label>
+         </div>
+      </div>
+    </div>
+
+    <div class="row" class="options-menu" id="row2">
+      <div class="col-3 btn-group" id="download_xml">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Download XML <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <div id="dl-B1">
+              <a href="xml/ManuscriptSnapshots/manuscript_B1.xml" download>B1</a>
+            </div>
+            <div id="dl-B2">
+              <a href="xml/ManuscriptSnapshots/manuscript_B2.xml" download>B2</a>
+            </div>
+            <div id="dl-D">
+              <a href="xml/ManuscriptSnapshots/manuscript_D.xml" download>D</a>
+            </div>
+            <div id="dl-G">
+                <a href="xml/ManuscriptSnapshots/manuscript_G.xml" download>G</a>
+            </div>
+            <div id="dl-K1">
+                <a href="xml/ManuscriptSnapshots/manuscript_K1.xml" download>K1</a>
+            </div>
+            <div id="dl-K2">
+              <a href="xml/ManuscriptSnapshots/manuscript_K2.xml" download>K2</a>
+            </div>
+            <div id="dl-N">
+                <a href="xml/ManuscriptSnapshots/manuscript_N.xml" download>N</a>
+            </div>
+            <div id="dl-S">
+              <a href="xml/ManuscriptSnapshots/manuscript_S.xml" download>S</a>
+            </div>
+            <div id="dl-all">
+              <a href="xml/all-manuscripts.zip" download>All</a>
+            </div>
+          </ul>
+      </div>
+      <div class="col-3" id="linebeginnings">
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+           <label>
+               <input type="checkbox" name="linebeginnings-toggle"><span id="linebeginnings-toggle-span" class="toggle">Line Beginnings</span>
+           </label>
+         </div>
+      </div>
+      <div class="col-3" id="punctuation">
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+           <label>
+               <input type="checkbox" name="editor-punctuation-toggle" checked><span id="editor-punctuation-span" class="toggle">Editor Punctuation</span>
+           </label>
+         </div>
+      </div>
+    </div>
+
+    <div class="row" class="options-menu" id="row2">
+      <div class="col-3" id="jump">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="jump-select">Go To Legend Episode</label>
+          </div>
+          <select class="custom-select" id="jump-select">
+            <option>Choose ...</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id ="texts">
+      <div class="row ms-row">
+        <div class="col ms-col">
+          <h3 class-"ms-title">Manuscript Br</h3>
+          <div class="manuscript" id="Br">
+            Sadly, this page will not work in Internet Explorer, due to its outdated Javascript support. We suggest you use Chrome or Firefox.
+          </div>
+        </div>
+        <div class="col ms-col">
+          <h3 class-"ms-title">Manuscript P</h3>
+          <div class="manuscript" id="P">
+            Sadly, this page will not work in Internet Explorer, due to its outdated Javascript support. We suggest you use Chrome or Firefox.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="{{sitebase.url}}/assets/js/CETEI.js"></script>
+    <script>
+
+    //Variables
+    var CETEIcean = new CETEI();
+    var manuscripts = {
+      "Br" : {
+        "name": "Br",
+        "resource" : "br.xml",
+        "manifest": "{{site.baseurl}}/tiles/br-images/manifest.json"
+      },
+      "P" : {
+        "name": "P",
+        "resource" : "p.xml",
+        "manifest": "{{site.baseurl}}/tiles/p-images/manifest.json"
+      }
+    };
+
+    var sectionsSet = new Set();
+
+    //Object for all options. Not currently used, but is updated in toggle functions
+    var options = {
+      "expanded_abbreviations":true,
+      "foliation":false,
+      "linebeginnings":false,
+      "editor_punctuation":true,
+      "editor_capitalization":true
+    };
+
+    //Functions
+    function addManuscript(ms){
+      CETEIcean.getHTML5(ms.resource, function(data){
+        var ms_el = "#"+ms.name;
+        $(ms_el).html("");
+        $(ms_el).append(data);
+        CETEIcean.addStyle(document, data);
+
+        //Add facs div to each cb (foliation) with valid attribute
+        addFoliation(ms_el);
+
+        $(ms_el + " tei-lb").toggle(); //Start off manuscripts with line beginnings off
+
+        //Fix weird hard carriage returns - costly to run this regex
+        //var s = $(ms_el).html();
+        //var s2 = s.replace(/<\/tei-choice>[\s][\n\r\s\t]+</g,'</tei-choice><');
+        //var s2 = s.replace(/>[\n\r\s\t]+</g,'><');
+        //$(ms_el).html(s2);
+        //$(ms_el).html(s.replace(/[\n\r]+/g, " "));
+        //console.log($(ms_el));
+      });
+    }
+
+
+    function addFoliation(ms_el) {
+      $(ms_el+" tei-cb").each(function(){
+        var n = $(this).attr("n");
+        var pb = "";
+        if(typeof(n) === "undefined"){
+          var facs = $(this).attr("facs");
+          if(typeof(facs) != "undefined"){
+            pb = facs;
+          }
+        } else {
+          pb = n;
+        }
+        $(this).html("<span class='page-break'>" + pb + "</span>");
+      });
+    }
+
+    //Add all manuscripts
+    for (var ms in manuscripts) {
+      addManuscript(manuscripts[ms]);
+    }
+
+    </body>
+</html>
