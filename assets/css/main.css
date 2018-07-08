@@ -869,3 +869,6 @@ div#TEI {
 div#image-viewer {
   margin-left: 50%;
 }
+.page-break {
+	color: blue;
+}

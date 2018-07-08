@@ -2,11 +2,7 @@
 layout: edition
 title: Berlin edition
 ---
-<head>
-<script src="../../assets/js/CETEI.js"></script>
-<link rel="stylesheet" href="../assets/css/CETEIcean.css">
-</head>
-<div id: "tei-wrapper">
+
 <script>
       var CETEIcean = new CETEI();
       CETEIcean.getHTML5('/editions/b.xml', function(data) {
@@ -19,4 +15,3 @@ title: Berlin edition
       //   document.getElementById("TEI").appendChild(data);
       // });
 </script>
-</div>

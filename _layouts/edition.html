@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/ti-ta-toggle/titatoggle-dist.css">
     <script src="{{ site.baseurl }}assets/scripts/modernizr.custom.js"></script>
     <link rel="stylesheet" href="../assets/css/CETEIcean.css">
     <script src="../assets/js/CETEI.js"></script>
@@ -24,14 +25,35 @@
     <p>{{site.tagline}}</p>
     {% include navbar.html %}
     </header>
+
     <main class="page-content" aria-label="Content">
-      <div id="wrapper">
-          <div id="edition-container">
-            <div id="B">Padua Manuscript</div>
-            <div id="T">Barbieri Fragment</div>
-            <div id="P">Padua Manuscript</div>
-            <div id="Br">Barbieri Fragment</div>
-          {{ content }}
+    <div id="wrapper">
+
+      <div id="lilmenu">
+        Diplomatic:<label class="container">
+            <input type="checkbox" >
+            <span class="checkmark"></span>
+          </label>
+                <div id="foliation">
+                <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+                   <label>
+                       <input type="checkbox" name="foliation-toggle"><span id="foliation-toggle-span" class="toggle">Foliation</span>
+                   </label>
+                 </div>
+               </div>
+        </div>
+        <div id="P">
+          </div>
+        <div id="Br">
+        </div>
+        
+        <div id="T">
+         </div>	 </div>
+        <div id="B">
+        </div>
+        
+        
+        {{ content }}
             <div id="image-viewer">{% iiif Jheronimus_Bosch_011-1 %}</div>
       </div>
     </main>

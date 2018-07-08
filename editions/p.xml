@@ -208,8 +208,9 @@
         <body>
             <lg type="laisse" n="1">
                 <note xml:id="p1"/>
+                <milestone n="1R" unit="fol."/>
                 <head>Laisse 1</head>
-                <l n="1"><gap reason="missing folios" quantity="2"/><milestone n="1R" unit="fol."/>E
+                <l n="1"><gap reason="missing folios" quantity="2"/>E
                     perçò era Ugo d’Alvernia sevrie;</l>
                 <!-- insert facs="file.jpg" into milestone -->
                 <l n="2">E pluy de tre any stete in la çitie</l>

@@ -1,0 +1,176 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CETEIcean pagination test</title>
+
+  <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+
+  <style>
+    tei-milestone {
+      display: block;
+      width: 100%;
+      text-align: right;
+      color: orangered;
+      margin: 2em 0 2em 0;
+      font-size: 11pt;
+    }
+
+    tei-milestone:before {
+      content: "" attr(unit) attr(n) "";
+    }
+
+    tei-teiHeader {
+      display: none;
+    }
+
+    .hid_page {
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-right: 20px;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+    }
+  </style>
+  <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
+</head>
+
+<body>
+
+    <div>
+      <ul>
+        <li><a href="https://github.com/raffazizzi/ceteicean-pagination">Code on GitHub</a></li>
+        <li><a href="https://github.com/SteveWLU/hda/blob/development/editions/p.xml">TEI source</a></li>
+      </ul>
+    </div>
+
+    <!-- Pagination controls. They start disabled. -->
+    <div id="controls" style="float:right">
+      <button id="prev" disabled>&lt;</button> 
+      <button id="next" disabled>&gt;</button> 
+    </div>
+
+    <!-- Where the TEI goes -->
+    <div id="TEI"></div>
+
+  <script>
+
+    // CODE TO HIDE A PAGE
+    function showPage(page) {
+      // Hide all text that does not belong to the page indicated
+      var n
+      var pbs = 0
+      var hide = false
+
+      // First, remove all hiding CSS classes, if present.
+      Array.from(document.querySelectorAll('.hid_page')).map(function (el) {
+        el.classList.remove('hid_page')
+      })
+
+      // Walk trough all descendants of tei-text
+      var walk = document.createTreeWalker(document.querySelector('tei-text'), NodeFilter.SHOW_ALL, null, false)
+      while (n = walk.nextNode()) {
+        if (n.nodeType === Node.ELEMENT_NODE) {
+          //  If this is a page beginning, update page count.
+          //  If page count is lower or higher than the page requested, set 'hide' flag.
+          //  If page count corresponds to the page requested, remove 'hide' flag.
+          if (n.localName === 'tei-milestone' ) {
+            pbs++
+            if (pbs < page || pbs > page) {
+              hide = true
+            } else {
+              hide = false
+            }
+          }
+
+          // If the hide flag is set and this is an empty element, hide it just in case the 
+          // CETEIcean CSS (or other) does something with it.
+          if (hide && n.childNodes.length === 0) {
+            n.classList.add('hid_page')
+          }
+        } else if (n.nodeType === Node.TEXT_NODE) {
+          // We mostly operate at text node level by storing and restoring text data.
+          
+          // Start by always restoring text data is previously removed.
+          if (n.storedContent) {
+            n.textContent = n.storedContent
+          }
+
+          // If the 'hide' flag is set, store text content and remove it.
+          if (hide) {
+            n.storedContent = n.textContent
+            n.textContent = ''
+          }
+        }
+      }
+    }
+
+    // CODE TO RUN CETEICEAN
+    var CETEIcean = new CETEI()
+    CETEIcean.getHTML5('p.xml', function(data) {
+      document.getElementById("TEI").innerHTML = ""
+      document.getElementById("TEI").appendChild(data)
+      CETEIcean.addStyle(document, data)
+
+      // Determine number of pages
+      var pages = document.querySelectorAll('tei-text tei-milestone').length
+
+      // Only proceed if there's more than one page.
+      if (pages > 1) {
+        // Show first page only
+        var curPage = 1
+        showPage(curPage)
+
+        // Set up pagination buttons
+        var nextBtn = document.querySelector('#next')
+        var prevBtn = document.querySelector('#prev')
+
+        // Enable 'next' button
+        nextBtn.disabled = false
+
+        // Routine for updating button's availability
+        function updateBtns() {
+          if (curPage === pages) {
+            nextBtn.disabled = true
+          } else {
+            nextBtn.disabled = false
+          }
+          if (curPage === 1) {
+            prevBtn.disabled = true
+          } else {
+            prevBtn.disabled = false
+          }
+        }
+
+        // Add click events to pagination buttons
+        nextBtn.addEventListener('click', function(e) {
+          if (curPage + 1 <= pages) {
+            curPage++
+            showPage(curPage)
+          }
+          updateBtns()
+        })
+        prevBtn.addEventListener('click', function(e) {
+          if (curPage - 1 > 0) {
+            curPage--
+            showPage(curPage)
+          }
+          updateBtns()
+        })
+      }
+
+    })
+  </script>
+</body>
+</html>
