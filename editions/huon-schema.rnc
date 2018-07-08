@@ -9,10 +9,10 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-01-27T17:35:53Z. .
-# TEI Edition: Version 3.2.0. Last updated on
-#	10th July 2017, revision 0fcf651
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.2.0/
+# Schema generated from ODD source 2018-07-08T16:46:43Z. .
+# TEI Edition: Version 3.3.0. Last updated on
+#	31st January 2018, revision f4d8439
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
 #
 
 #
@@ -517,7 +517,6 @@ tei_att.global.responsibility.attribute.resp =
     list { xsd:anyURI+ }
   }?
 tei_att.editLike.attributes =
-  tei_att.dimensions.attributes,
   tei_att.editLike.attribute.evidence,
   tei_att.editLike.attribute.instant
 tei_att.editLike.attribute.evidence =
@@ -714,6 +713,13 @@ tei_att.naming.attribute.nymRef =
   ## (reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.
   attribute nymRef {
     list { xsd:anyURI+ }
+  }?
+tei_att.notated.attributes = tei_att.notated.attribute.notation
+tei_att.notated.attribute.notation =
+  
+  ## names the notation used for the content of the element.
+  attribute notation {
+    xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 tei_att.placement.attributes = tei_att.placement.attribute.place
 tei_att.placement.attribute.place =
@@ -1395,7 +1401,8 @@ tei_p =
   element p {
     tei_macro.paraContent
     >> sch:pattern [
-         id = "huon-schema-p-abstractModel-p-constraint-report-4"
+         id =
+           "huon-schema-p-abstractModel-structure-p-constraint-report-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1404,9 +1411,9 @@ tei_p =
            "               "
            sch:report [
              test =
-               "not(ancestor::floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
+               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )"
              "\x{a}" ~
-             "        Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.\x{a}" ~
+             "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
            ]
            "\x{a}" ~
@@ -1585,56 +1592,7 @@ tei_corr =
 tei_choice =
   
   ## The choice element wraps around the corr and sic elements and permits the interface to offer either a diplomatic or an edited reading of the manuscript. [3.4. Simple Editorial Changes]
-  element choice { (tei_model.choicePart | tei_choice)* }
-  
-tei_gap =
-  
-  ## indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.4.3. Additions, Deletions, and Omissions]
-  element gap {
-    (tei_model.descLike | tei_model.certLike)*,
-    tei_att.global.attributes,
-    tei_att.timed.attributes,
-    tei_att.editLike.attributes,
-    
-    ## gives the reason for omission
-    ## Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 5] inaudible; 6] irrelevant; 7] sampling
-    attribute reason {
-      list {
-        (
-         ##
-         "cancelled"
-         | 
-           ##
-           "deleted"
-         | 
-           ## for features omitted from transcription due to editorial policy
-           "editorial"
-         | 
-           ##
-           "illegible"
-         | 
-           ##
-           "inaudible"
-         | 
-           ##
-           "irrelevant"
-         | 
-           ##
-           "sampling"
-         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
-      }
-    }?,
-    
-    ## in the case of text omitted from the transcription because of deliberate deletion by an identifiable hand, indicates the hand which made the deletion.
-    attribute hand { xsd:anyURI }?,
-    
-    ## in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
-    ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
-    attribute agent {
-      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-    }?,
-    empty
-  }
+  element choice { (tei_model.choicePart | tei_choice)+ }
 tei_add =
   
   ## (addition) Describes scribal emmendations added to the base text. These occur in one of five locations: above line, inline, below line, left margin, and right margin. [3.4.3. Additions, Deletions, and Omissions]
@@ -1693,16 +1651,30 @@ tei_unclear =
     tei_macro.paraContent,
     tei_att.global.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     
     ## indicates why the material is hard to transcribe.
+    ## Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_noise; 5] eccentric_ductus
     attribute reason {
       list {
-        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+        (
+         ##
+         "illegible"
+         | 
+           ##
+           "inaudible"
+         | 
+           ##
+           "faded"
+         | 
+           ##
+           "background_noise"
+         | 
+           ##
+           "eccentric_ductus"
+         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
       }
     }?,
-    
-    ## Where the difficulty in transcription arises from action (partial deletion, etc.) assignable to an identifiable hand, signifies the hand responsible for the action.
-    attribute hand { xsd:anyURI }?,
     
     ## Where the difficulty in transcription arises from damage, categorizes the cause of the damage, if it can be identified.
     ## Sample values include: 1] rubbing; 2] mildew; 3] smoke
@@ -1773,7 +1745,7 @@ tei_postCode =
   element postCode { text, tei_att.global.attributes, empty }
 tei_num =
   
-  ## (number) The num element wraps roman numerals. [3.5.3. Numbers and
+  ## (number) The num element wraps roman numerals. As per Conseils... [3.5.3. Numbers and
   ## Measures]
   element num {
     tei_macro.phraseSeq,
@@ -1797,6 +1769,7 @@ tei_date =
     tei_att.global.attributes,
     tei_att.datable.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     tei_att.typed.attributes,
     empty
   }
@@ -1808,6 +1781,7 @@ tei_time =
     tei_att.global.attributes,
     tei_att.datable.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     tei_att.typed.attributes,
     empty
   }
@@ -1910,6 +1884,11 @@ tei_milestone =
     ## (number) Identifies the folio number and recto / verso.
     attribute n { xsd:string },
     
+    ## (facsimile) Contains URL for facsimile image.
+    attribute facs {
+      list { xsd:anyURI+ }
+    },
+    
     ## provides a conventional name for the kind of section changing at this milestone.
     [ a:defaultValue = "fol." ]
     attribute unit {
@@ -1929,6 +1908,7 @@ tei_gb =
     tei_att.typed.attributes,
     tei_att.spanning.attributes,
     tei_att.breaking.attributes,
+    tei_att.edition.attributes,
     empty
   }
 tei_cb =
@@ -2166,8 +2146,7 @@ tei_teiCorpus =
     tei_att.global.attributes,
     tei_att.typed.attributes,
     
-    ## The version of the TEI scheme
-    [ a:defaultValue = "5.0" ]
+    ## specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
       xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
     }?,
@@ -2518,7 +2497,7 @@ tei_idno =
         ## English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.
         "ESTC"
       | 
-        ## union catalog number in WorldCat representing a resource held by one or more of the member libraries in the global cooperative Online Computer Library Center.
+        ## OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.
         "OCLC"
       | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
@@ -2533,7 +2512,6 @@ tei_availability =
     tei_att.declarable.attributes,
     
     ## supplies a code identifying the current availability of the text.
-    [ a:defaultValue = "unknown" ]
     attribute status {
       
       ## the text is freely available.
@@ -2622,7 +2600,6 @@ tei_correction =
     tei_att.declarable.attributes,
     
     ## indicates the degree of correction applied to the text.
-    [ a:defaultValue = "unknown" ]
     attribute status {
       
       ## the text has been thoroughly checked and proofread.
@@ -2887,12 +2864,13 @@ tei_anchor =
 tei_seg =
   
   ## (arbitrary segment) The seg element wraps around text that has been reconstructed from the Pio Rajna Turin transcription, replacing text that was destroyed in the margins of T during the 1904 fire at the Biblioteca Nazionale di Torino. The seg element does not include any legal attributes. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
-  element seg { tei_macro.paraContent }
+  element seg {
+    tei_macro.paraContent, tei_att.notated.attributes, empty
+  }
 tei_att.msExcerpt.attributes = tei_att.msExcerpt.attribute.defective
 tei_att.msExcerpt.attribute.defective =
   
   ## indicates whether the passage being quoted is defective, i.e. incomplete through loss or damage.
-  [ a:defaultValue = "false" ]
   attribute defective {
     xsd:boolean
     | (
@@ -3107,6 +3085,7 @@ tei_origDate =
     (text | tei_model.gLike | tei_model.phrase | tei_model.global)*,
     tei_att.global.attributes,
     tei_att.datable.attributes,
+    tei_att.dimensions.attributes,
     tei_att.editLike.attributes,
     tei_att.typed.attributes,
     empty
@@ -3761,6 +3740,7 @@ tei_geogFeat =
     tei_att.global.attributes,
     tei_att.naming.attributes,
     tei_att.typed.attributes,
+    tei_att.dimensions.attributes,
     empty
   }
 tei_geo =
@@ -3938,7 +3918,11 @@ tei_witDetail =
   
   ## (witness detail) gives further information about a particular witness, or witnesses, to a particular reading. [12.1. The Apparatus Entry, Readings, and Witnesses]
   element witDetail {
-    tei_macro.phraseSeq,
+    (text
+     | tei_model.gLike
+     | tei_model.phrase
+     | tei_model.global
+     | tei_bibl)*,
     tei_att.global.attributes,
     tei_att.placement.attributes,
     tei_att.pointing.attributes,
@@ -4021,7 +4005,7 @@ tei_TEI =
     tei_att.global.attributes,
     tei_att.typed.attributes,
     
-    ## specifies the major version number of the TEI Guidelines against which this document is valid.
+    ## specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
       xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
     }?,
@@ -4581,6 +4565,7 @@ tei_addSpan =
     tei_att.placement.attributes,
     tei_att.typed.attributes,
     tei_att.spanning.attributes,
+    tei_att.dimensions.attributes,
     empty
   }
 tei_damage =
@@ -4690,6 +4675,7 @@ tei_delSpan =
     tei_att.transcriptional.attributes,
     tei_att.typed.attributes,
     tei_att.spanning.attributes,
+    tei_att.dimensions.attributes,
     empty
   }
 tei_ex =
@@ -4730,6 +4716,7 @@ tei_surplus =
     tei_macro.paraContent,
     tei_att.global.attributes,
     tei_att.editLike.attributes,
+    tei_att.dimensions.attributes,
     
     ## one or more words indicating why this text is believed to be superfluous, e.g. repeated, interpolated etc.
     attribute reason {
@@ -4747,6 +4734,7 @@ tei_redo =
     tei_att.global.attributes,
     tei_att.spanning.attributes,
     tei_att.transcriptional.attributes,
+    tei_att.dimensions.attributes,
     
     ## points to one or more elements representing the interventions which are being reasserted.
     attribute target {

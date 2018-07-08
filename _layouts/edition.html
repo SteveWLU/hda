@@ -25,7 +25,7 @@
     tei-milestone {
       display: block;
       width: 100%;
-      text-align: right;
+      text-align: left;
       color: orangered;
       margin: 2em 0 2em 0;
       font-size: 11pt;
@@ -69,35 +69,34 @@
 
     <main class="page-content" aria-label="Content">
         <div id="wrapper">
-
-      <div>
-        <ul>
-          <li><a href="https://github.com/raffazizzi/ceteicean-pagination">Code on GitHub</a></li>
-          <li><a href="https://github.com/SteveWLU/hda/blob/development/editions/p.xml">TEI source</a></li>
-        </ul>
-      </div>
+  
+      <!-- Button bar for navigation editions. -->
+      <div id="edition-nav">
 
       <div id="lilmenu">
         <div id="foliation">
           <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
-            <label>
-                <input type="checkbox" name="foliation-toggle"><span id="foliation-toggle-span" class="toggle">Foliation</span>
+            <label class="switch">
+                <p>Foliation</p>
+                <input type="checkbox"><span class="slider"></span>
             </label>
           </div>
         </div>
       </div>
-  
+      
       <!-- Pagination controls. They start disabled. -->
-      <div id="controls" style="float:right">
+      <div id="controls">
         <button id="prev" disabled>&lt;</button> 
         <button id="next" disabled>&gt;</button> 
       </div>
+
+    </div>
   
       <!-- Where the TEI goes -->
       <div id="TEI"></div>
 
       <!-- Where the image viewer goes -->
-      <div id="image-viewer">{% iiif Jheronimus_Bosch_011-1 %}</div>
+      <div id="image-viewer">{% iiif_presentation p-images %}</div>
 
       {% include footer.html %}
 
@@ -210,7 +209,7 @@
             })
           }
     
-        })
+        });
       </script>
   </body>
 </html>

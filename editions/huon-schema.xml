@@ -710,6 +710,9 @@
             <attDef ident="n" mode="change" usage="req">
               <desc>Identifies the folio number and recto / verso.</desc>
             </attDef>
+            <attDef ident="facs" mode="change" usage="req">
+              <desc>Contains URL for facsimile image.</desc>
+            </attDef>
           </attList>
         </elementSpec>
 
