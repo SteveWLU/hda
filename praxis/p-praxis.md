@@ -16,151 +16,47 @@ In my edition of the Padua *Huon d'Auvergne*, any deviation from the scribe's te
 
 I resolve all abbreviations in the Padua edition, and I note all irregularities in the table below. The abbreviation system of P is complex and often inconsistent **p*ro***, for example, is abbreviated in two different ways); however, all forms are accounted for, and I note below if they occur only once.
 
-| 7 (tyronian note) | *et* (v. 5506) |
 
-<div class="table">
-    <table>
-      <tr>
-          <td>7<br>(tyronian note)</td>
-          <td><em>et</em> (v. 5506)</td>
-      </tr>
-      <tr>
-          <td>&mdash; <br>(titulus, long line above vowel)</td>
-          <td>The scribe uses the titulus to abbreviate a nasal n or m with a line over the preceding vowel: i<em>n</em>, Sanguy<em>n</em>, chu<em>n</em>, co<em>n</em>plimant, i<em>n</em>pemsso (v. 523); n retained even before labials (p, b), as per scribe <em>m</em> ho<em>m</em> (v. 426), a<em>m</em>igo (v. 755), co<em>m</em> (v. 4366); occurs once to abbreviate <em>me</em>, as in bela<em>me</em>ent (v. 386).</td>
-      </tr>
-      <tr>
-          <td>~ <br> (undulating titulus)</td>
-          <td>çu<em>r</em>o (v. 485), m<em>er</em>çie (v. 3914), de<em>ru</em>po (v. 4058)</td>
-      </tr>
-      <tr>
-          <td>Ͻ</td>
-          <td><em>con</em>tra (v. 604), <em>con</em>pagnon (v. 849), n retained even before labials (p, b) as per scribe (see introduction).</td>
-      </tr>
-      <tr>
-          <td>b with curl from top of bow</td>
-          <td>b<em>e</em>nis (v. 4381); occurs once </td>
-      </tr>
-      <tr>
-          <td>.c.to</td>
-          <td>c<em>en</em>to (v. 1311)</td></tr>
-      <tr>
-          <td>ch with strike through h</td>
-          <td>ch<em>e</em> (v. 2119)</td></tr>
-      <tr>
-          <td>chr</td>
-          <td>ch<em>avalie</em>r (v. 271); this abbreviation is most frequent variant, occuring 15 times.</td></tr>
-      <tr>
-          <td>chri</td>
-          <td>ch<em>avalier</em>i (v. 354)</td>
-      </tr>
-      <tr>
-          <td>chre</td>
-          <td>ch<em>avalie</em>re (v. 743)</td>
-      </tr>
-      <tr>
-          <td>dūlo</td>
-          <td>du<em>o</em>lo (v. 1509); occurs once</td>
-      </tr>
-      <tr>
-          <td>.G.</td>
-          <td>G<em>uielmo</em>; occurs 25 times.</td>
-      </tr>
-      <tr>
-          <td>iehu; ihu</td>
-          <td>Je<em>x</em>u, J<em>ex</em>hu; J<em>ex</em>h<em>n</em> the form Jexhu occurs four times, with the variant Jexhun / Jexhum occuring twice. I resolve all instances of the abbreviation iehu / ihu as Jexhu.</td>
-      </tr>
-      <tr>
-          <td>ml with strike through l</td>
-          <td>m<em>o</em>l<em>to</em> (v. 5008); occurs once</td>
-      </tr>
-      <tr>
-          <td>nint with titulus</td>
-          <td>ni<em>e</em>nt (v. 4320); occurs once and likely a scribal correction.</td>
-      </tr>
-      <tr>
-          <td>ᵱ</td>
-          <td>p<em>er</em> (v. 19); p<em>ar</em>lé (v. 428);
-          pa<em>r</em>li (v. 1390);
-          p<em>ro</em>fon (v. 4893)</td>
-      </tr>
-      <tr>
-          <td>ᵱch with strike through h</td>
-          <td>p<em>er</em>ch<em>e</em> (v. 426); abbreviation occurs only once.</td>
-      </tr>
-      <tr>
-          <td>p with titulus</td>
-          <td>p<em>re</em> (v. 3498)</td>
-      </tr>
-      <tr>
-         <td>p<sup>i</sup></td>
-          <td>p<em>ri</em> (v. 2926)</td>
-      </tr>
-      <tr>
-          <td>pl with strike through l</td>
-          <td>p<em>u</em>lçele (v. 4300)</td>
-      </tr>
-      <tr>
-          <td>ꝗ</td>
-          <td>q<em>ui</em>; q<em>ue</em></td>
-      </tr>
-      <tr>
-          <td>q with titulus</td>
-          <td>q<em>ue</em> (v. 1090)</td>
-      </tr>
-      <tr>
-          <td>qu with titulus</td>
-          <td>q<em>ua</em> (v. 5205)</td>
-      </tr>
-      <tr>
-          <td>ʃ<br>(long s with strike; sometimes with a small “z” shape, v. 1354)</td>
-          <td>es<em>er</em></td>
-      </tr>
-      <tr>
-          <td>San with titulus</td>
-          <td>San<em>guin</em> (v. 729); Sanguin occurs 70 times, whereas Sanguyn occurs 14 times; I resolve all abbreviations as Sanguin.</td>
-      </tr>
-      <tr>
-          <td>scā; scē</td>
-          <td>s<em>an</em>c<em>t</em>a (v. 3993); s<em>an</em>c<em>t</em>e (v. 5232)</td>
-      </tr>
-      <tr>
-          <td>spo with ondulating titulus</td>
-          <td>sp<em>irit</em>o</td>
-      </tr>
-      <tr>
-          <td>.u.</td>
-          <td>U<em>go</em> (v. 725)</td>
-      </tr>
-      <tr>
-          <td>ugō</td>
-          <td>Ugo<em>n</em> (v. 76)</td>
-      </tr>
-      <tr>
-          <td>un with titulus</td>
-          <td>un<em>de</em> (v. 5002)</td>
-      </tr>
-      <tr>
-          <td>urō</td>
-          <td>v<em>ost</em>ro (v. 5003)</td>
-      </tr>
-      <tr>
-          <td>xpo with titulus</td>
-          <td><em>Crist</em>o (v. 1483); The scribe writes Cristo in full form on three occasions, once as Crist. I resolve all related abbreviations as Cristo.</td>
-      </tr>
-      <tr>
-          <td>xpet with tituli over p and e</td>
-          <td><em>Cristi</em>e<em>n</em>t (v. 4739) </td>
-      </tr>
-      <tr>
-          <td>xpiente</td>
-          <td><em>Crist</em>ienté (v. 1248); <em>Crist</em>ienttade (v. 5366)</td>
+|||
+|--- |--- |
+|7(tyronian note)|et (v. 5506)|
+|— (titulus, long line above vowel)|The scribe uses the titulus to abbreviate a nasal n or m with a line over the preceding vowel: in, Sanguyn, chun, conplimant, inpemsso (v. 523); n retained even before labials (p, b), as per scribe m hom (v. 426), amigo (v. 755), com (v. 4366); occurs once to abbreviate me, as in belameent (v. 386).|
+|~  (undulating titulus)|çuro (v. 485), merçie (v. 3914), derupo (v. 4058)|
+|Ͻ|contra (v. 604), conpagnon (v. 849), n retained even before labials (p, b) as per scribe (see introduction).|
+|b with curl from top of bow|benis (v. 4381); occurs once|
+|.c.to|cento (v. 1311)|
+|ch with strike through h|che (v. 2119)|
+|chr|chavalier (v. 271); this abbreviation is most frequent variant, occuring 15 times.|
+|chri|chavalieri (v. 354)|
+|chre|chavaliere (v. 743)|
+|dūlo|duolo (v. 1509); occurs once|
+|.G.|Guielmo; occurs 25 times.|
+|iehu; ihu|Jexu, Jexhu; Jexhn the form Jexhu occurs four times, with the variant Jexhun / Jexhum occuring twice. I resolve all instances of the abbreviation iehu / ihu as Jexhu.|
+|ml with strike through l|molto (v. 5008); occurs once|
+|nint with titulus|nient (v. 4320); occurs once and likely a scribal correction.|
+|ᵱ|per (v. 19); parlé (v. 428);
+          parli (v. 1390);
+          profon (v. 4893)|
+|ᵱch with strike through h|perche (v. 426); abbreviation occurs only once.|
+|p with titulus|pre (v. 3498)|
+|pi|pri (v. 2926)|
+|pl with strike through l|pulçele (v. 4300)|
+|ꝗ|qui; que|
+|q with titulus|que (v. 1090)|
+|qu with titulus|qua (v. 5205)|
+|ʃ(long s with strike; sometimes with a small “z” shape, v. 1354)|eser|
+|San with titulus|Sanguin (v. 729); Sanguin occurs 70 times, whereas Sanguyn occurs 14 times; I resolve all abbreviations as Sanguin.|
+|scā; scē|sancta (v. 3993); sancte (v. 5232)|
+|spo with ondulating titulus|spirito|
+|.u.|Ugo (v. 725)|
+|ugō|Ugon (v. 76)|
+|un with titulus|unde (v. 5002)|
+|urō|vostro (v. 5003)|
+|xpo with titulus|Cristo (v. 1483); The scribe writes Cristo in full form on three occasions, once as Crist. I resolve all related abbreviations as Cristo.|
+|xpet with tituli over p and e|Cristient (v. 4739)|
+|xpiente|Cristienté (v. 1248); Cristienttade (v. 5366)|
 
--->
 <!-- if xpi is the abbreviation for christ, then the i before enttade is disappears in the resolution? -->
-<!--
-      </tr>
-</table>
-</div>
 
 <h2 class="praxis">&#10081; 3. Separation of Words</h2>
 

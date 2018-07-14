@@ -122,7 +122,6 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  width: 75%;
 }
 /**
  * Contain overflow in all browsers.
@@ -370,20 +369,30 @@ header p {
 	color: #666;
 	text-transform: uppercase;
 }
+
+a.site-title  {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 300%;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
-nav ul, nav li {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	min-height: 0;
+nav ul {
+    list-style-type: none;
 }
-nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
-	color: white;
-	text-decoration: none;
-	letter-spacing: 0.1em;
+nav li {
+    line-height: 30px;
+}
+nav a {
+    text-decoration: none;
+}
+nav li.active a {
+    color: maroon;
 }
 
 /* --------------------------------------------------
@@ -664,6 +673,14 @@ img#logo_marucelliana {
 }
 
 
+/* Custom styles */
+
+#mirador {
+	float: right;
+	width: 50%;
+}
+
+
 /* --------------------------------------------------
    Smaller screen styles
 -----------------------------------------------------*/
@@ -675,35 +692,18 @@ img#logo_marucelliana {
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
-nav {
-	background: none;
-	margin-bottom: 1em;
-}
 nav ul {
-	display: none;
+	list-style-type: none;
 }
 nav li {
-	background: #42659A;
-	margin-bottom: .2em;
+	line-height: 30px;
 }
-nav li:hover {
-	background: #333;
+nav a {
+	text-decoration: none;
 }
-nav li a {
-	font-size: 1.2em;
-	font-weight: 100;
-	text-transform: uppercase;
-	margin: 0;
-	margin-bottom: 0.2em;
-	padding: .5em 0;
-	display: block;
-	max-width: 5em;
-	text-align: center;
-	max-width: 100%;
-	width:100%;
+nav li.active a {
+	color: #ffffff;
 }
-nav li a:hover {
-	color: white;
 }
 /*toggle check styles*/
 .toggle-label {
@@ -792,37 +792,6 @@ header p {
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
-nav {
-	background: none;
-	margin-bottom: 2em;
-}
-#menu-toggle, .toggle-label {
-		display: none;
-	}
-nav ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	min-height: 0;
-  float: right;
-}
-nav li {
-	display: inline-block;
-}
-nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
-  font-variant: small-caps;
-	color: #5f0000;
-	margin-right: 0.5em;
-	padding: .25em 1em;
-	display: inline-block;
-	text-decoration: none;
-	letter-spacing: 0.1em;
-}
-nav li a:hover {
-	color: white;
-	background: #333;
-}
 
 /* --------------------------------------------------
    article styles
@@ -857,76 +826,6 @@ p.intro {
     margin-top: 10em;
 }
 
-div#edition-container {
-  border: 100% solid #000;
-}
-div#TEI {
-  float: left;
-  width: 50%;
-  border-style: solid;
-  border-width: 1px;
-}
-div#image-viewer {
-  margin-left: 50%;
-}
 .page-break {
-	color: blue;
-}
-
-/* Toggle buttons */
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input {display:none;}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #a10d09;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #a10d09;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+	color:pink;
 }

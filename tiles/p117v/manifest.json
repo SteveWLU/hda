@@ -1,0 +1,45 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://127.0.0.1:4000/tiles/p117v/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Huon d'Auvergne Digital Archive - p-images - p117v",
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/p117v-1/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "paged",
+  "sequences": [
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p117v/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/p117v/canvas/front.json",
+          "label": "front",
+          "width": 2363,
+          "height": 1575,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/p117v-1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/p117v/annotation/front.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/p117v-1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/p117v-1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2363,
+                "height": 1575
+              },
+              "on": "http://127.0.0.1:4000/tiles/p117v/canvas/front.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

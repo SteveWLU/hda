@@ -1,215 +1,79 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/ti-ta-toggle/titatoggle-dist.css">
-    <script src="{{ site.baseurl }}assets/scripts/modernizr.custom.js"></script>
-    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/CETEIcean.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <script src="../assets/js/CETEI.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
-
-  <style>
-    tei-milestone {
-      display: block;
-      width: 100%;
-      text-align: left;
-      color: orangered;
-      margin: 2em 0 2em 0;
-      font-size: 11pt;
-    }
-
-    tei-milestone:before {
-      content: "" attr(unit) attr(n) "";
-    }
-
-    tei-teiHeader {
-      display: none;
-    }
-
-    .hid_page {
-      display: none;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      margin-right: 20px;
-      height: 50px;
-      line-height: 50px;
-      display: inline-block;
-    }
-  </style>
-
-  <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
-  
   </head>
   <body>
-    <header role="banner" class="page-header" id="top">
-    <h1>{{site.title}}</h1>
-    <p>{{site.tagline}}</p>
-    {% include navbar.html %}
-    </header>
-
+    {% include header.html %}
+    <nav id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            {% assign links = site.data.navigation %}
+            {% for link in links %}
+                {% assign class = nil %}
+                {% if page.url contains link.url %}
+                    {% assign class = 'active' %}
+                {% endif %}
+                {% if link.sublinks %}
+                    <li class="dropdown {{ class }}">
+                        <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% for sublink in link.sublinks %}
+                                {% if sublink.title == 'separator' %}
+                                    <li role="separator" class="divider"></li>
+                                {% else %}
+                                    <li>
+                                        <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% else %}
+                    <li class="{{ class }}">
+                        <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
     <main class="page-content" aria-label="Content">
-        <div id="wrapper">
-  
-      <!-- Button bar for navigation editions. -->
-      <div id="edition-nav">
-
-      <div id="lilmenu">
+      <div id="wrapper">
+       
+<div id="lilmenu">
+  Diplomatic:<label class="container">
+    <input type="checkbox" >
+    <span class="checkmark"></span>
+  </label>
         <div id="foliation">
-          <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
-              <p>Foliation</p>
-            <label class="switch">
-                <input type="checkbox"><span class="slider"></span>
-            </label>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Pagination controls. They start disabled. -->
-      <div id="controls">
-        <button id="prev" disabled>&lt;</button> 
-        <button id="next" disabled>&gt;</button> 
-      </div>
+        <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+           <label>
+               <input type="checkbox" name="foliation-toggle"><span id="foliation-toggle-span" class="toggle">Foliation</span>
+           </label>
+         </div>
+       </div>
+</div>
+<div id="P">
+  </div>
+<div id="Br">
+</div>
 
-    </div>
-  
-      <!-- Where the TEI goes -->
-      <div id="TEI"></div>
+<div id="T">
+</div>
+<div id="B">
+</div>
 
-      <!-- Where the image viewer goes -->
-      <div id="image-viewer">{% iiif_presentation p-images %}</div>
 
-      {% include footer.html %}
+{{ content }}
+<div id="mirador"></div>
 
-    </div>
-    </main>
 
-    <script>
+</div>
 
-        // CODE TO HIDE A PAGE
-        function showPage(page) {
-          // Hide all text that does not belong to the page indicated
-          var n
-          var pbs = 0
-          var hide = false
-    
-          // First, remove all hiding CSS classes, if present.
-          Array.from(document.querySelectorAll('.hid_page')).map(function (el) {
-            el.classList.remove('hid_page')
-          })
-    
-          // Walk trough all descendants of tei-text
-          var walk = document.createTreeWalker(document.querySelector('tei-text'), NodeFilter.SHOW_ALL, null, false)
-          while (n = walk.nextNode()) {
-            if (n.nodeType === Node.ELEMENT_NODE) {
-              //  If this is a page beginning, update page count.
-              //  If page count is lower or higher than the page requested, set 'hide' flag.
-              //  If page count corresponds to the page requested, remove 'hide' flag.
-              if (n.localName === 'tei-milestone' ) {
-                pbs++
-                if (pbs < page || pbs > page) {
-                  hide = true
-                } else {
-                  hide = false
-                }
-              }
-    
-              // If the hide flag is set and this is an empty element, hide it just in case the 
-              // CETEIcean CSS (or other) does something with it.
-              if (hide && n.childNodes.length === 0) {
-                n.classList.add('hid_page')
-              }
-            } else if (n.nodeType === Node.TEXT_NODE) {
-              // We mostly operate at text node level by storing and restoring text data.
-              
-              // Start by always restoring text data is previously removed.
-              if (n.storedContent) {
-                n.textContent = n.storedContent
-              }
-    
-              // If the 'hide' flag is set, store text content and remove it.
-              if (hide) {
-                n.storedContent = n.textContent
-                n.textContent = ''
-              }
-            }
-          }
-        }
-    
-        // CODE TO RUN CETEICEAN
-        var CETEIcean = new CETEI()
-        CETEIcean.getHTML5('p.xml', function(data) {
-          document.getElementById("TEI").innerHTML = ""
-          document.getElementById("TEI").appendChild(data)
-          CETEIcean.addStyle(document, data)
-    
-          // Determine number of pages
-          var pages = document.querySelectorAll('tei-text tei-milestone').length
-    
-          // Only proceed if there's more than one page.
-          if (pages > 1) {
-            // Show first page only
-            var curPage = 1
-            showPage(curPage)
-    
-            // Set up pagination buttons
-            var nextBtn = document.querySelector('#next')
-            var prevBtn = document.querySelector('#prev')
-    
-            // Enable 'next' button
-            nextBtn.disabled = false
-    
-            // Routine for updating button's availability
-            function updateBtns() {
-              if (curPage === pages) {
-                nextBtn.disabled = true
-              } else {
-                nextBtn.disabled = false
-              }
-              if (curPage === 1) {
-                prevBtn.disabled = true
-              } else {
-                prevBtn.disabled = false
-              }
-            }
-    
-            // Add click events to pagination buttons
-            nextBtn.addEventListener('click', function(e) {
-              if (curPage + 1 <= pages) {
-                curPage++
-                showPage(curPage)
-              }
-              updateBtns()
-            })
-            prevBtn.addEventListener('click', function(e) {
-              if (curPage - 1 > 0) {
-                curPage--
-                showPage(curPage)
-              }
-              updateBtns()
-            })
-          }
-    
-        });
-      </script>
+  </main>
+    {% include footer.html %}
   </body>
 </html>

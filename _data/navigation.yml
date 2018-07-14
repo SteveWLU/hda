@@ -1,0 +1,20 @@
+
+- title: Home
+  url: /index.html
+- title: About
+  url: /about.html
+  sublinks:
+    - title: Citation
+      url: /{{site.baseurl}}/about/citation.html
+    - title: Versioning
+      url: /{{site.baseurl}}/about/versioning.html
+- title: Praxis
+  sublinks:
+    - title: T Praxis
+      url: /{{site.baseurl}}/praxis/t-praxis.html
+- title: Editions
+  sublinks:
+    - title: T Edition
+      url: /{{site.baseurl}}/editions/t-edition.html
+- title: Bibliography
+  url: /about/bibliography.html

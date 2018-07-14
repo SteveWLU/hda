@@ -7,4 +7,4 @@ title: Padua facsimile
 
 # Padua Facsimile
 
-{% iiif_presentation p-images %}
+{% iiif_presentation padua %}

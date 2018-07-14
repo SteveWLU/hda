@@ -4,8 +4,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -14,28 +14,47 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-  <script src="{{ site.baseurl }}assets/scripts/modernizr.custom.js"></script>
+  <script src="{{ site.baseurl }}/assets/scripts/modernizr.custom.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/browse.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
-<header role="banner" class="page-header" id="top">
- <h1>{{site.title}}</h1>
- <p>{{site.tagline}}</p>
- {% include navbar.html %}
-<!-- <nav role="navigation">
-<input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
-<ul class="menu">
-  <li><a href="{{site.baseurl}}/about.html" title="about">About</a></li>
-  <li><a href="{{site.baseurl}}/praxis.html" title="praxis">Praxis</a></li>
-  <li><a href="{{site.baseurl}}/resources.html" title="resources">Editions</a></li>
-  <li><a href="{{site.baseurl}}/archive.html" title="Translations">Translation</a></li>
-  <li><a href="{{site.baseurl}}/bibliography.html" title="Bibliography">Bibliography</a></li>
-  </ul> -->
-</header>
+        <nav id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    {% assign links = site.data.navigation %}
+                    {% for link in links %}
+                        {% assign class = nil %}
+                        {% if page.url contains link.url %}
+                            {% assign class = 'active' %}
+                        {% endif %}
+                        {% if link.sublinks %}
+                            <li class="dropdown {{ class }}">
+                                <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    {% for sublink in link.sublinks %}
+                                        {% if sublink.title == 'separator' %}
+                                            <li role="separator" class="divider"></li>
+                                        {% else %}
+                                            <li>
+                                                <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% else %}
+                            <li class="{{ class }}">
+                                <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+{% include xxnavbar.html %}
 {{content}}
 {% include footer.html %}
 </body>
 </html>
+

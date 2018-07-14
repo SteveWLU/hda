@@ -15,9 +15,594 @@
       "label": "Huon d'Auvergne Digital Archive - iiif_images - Jheronimus_Bosch_011"
     },
     {
-      "@id": "http://127.0.0.1:4000/tiles/p-images/manifest.json",
+      "@id": "http://127.0.0.1:4000/tiles/p01r/manifest.json",
       "@type": "sc:Manifest",
-      "label": "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
+      "label": "Huon d'Auvergne Digital Archive - p-images - p01r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p01v-02r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p01v-02r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p02v-03r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p02v-03r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p03v-04r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p03v-04r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p04v-5r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p04v-5r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p05v-06r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p05v-06r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p06v-07r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p06v-07r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p07v-08r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p07v-08r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p08v-09r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p08v-09r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p09v-10r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p09v-10r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p100v-101r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p100v-101r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p101v-102r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p101v-102r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p102v-103r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p102v-103r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p103v-104r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p103v-104r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p104v-105r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p104v-105r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p105v-106r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p105v-106r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p106v-107r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p106v-107r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p107v-108r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p107v-108r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p108v-109r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p108v-109r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p109v-110r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p109v-110r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p10v-11r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p10v-11r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p110v-111r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p110v-111r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p111v-112r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p111v-112r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p112v-113r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p112v-113r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p113v-114r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p113v-114r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p114v-115r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p114v-115r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p115v-116r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p115v-116r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p116v-117r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p116v-117r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p117v/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p117v"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p11v-12r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p11v-12r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p12v-13r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p12v-13r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p13v-14r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p13v-14r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p14v-15r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p14v-15r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p15v-16r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p15v-16r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p16v-17r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p16v-17r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p17v-18r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p17v-18r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p18v-19r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p18v-19r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p19v-20r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p19v-20r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p20v-21r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p20v-21r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p21v-22r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p21v-22r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p22v-23r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p22v-23r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p23v-24r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p23v-24r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p24v-25r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p24v-25r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p25v-26r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p25v-26r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p26v-27r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p26v-27r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p27v-28r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p27v-28r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p28v-29r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p28v-29r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p29v-30r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p29v-30r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p30v-31r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p30v-31r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p31v-32r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p31v-32r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p32v-33r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p32v-33r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p33v-34r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p33v-34r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p34v-35r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p34v-35r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p35v-36r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p35v-36r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p36v-37r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p36v-37r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p37v-38r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p37v-38r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p38v-39r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p38v-39r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p39v-40r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p39v-40r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p40v-41r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p40v-41r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p41v-42r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p41v-42r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p42v-43r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p42v-43r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p43v-44r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p43v-44r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p44v-45r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p44v-45r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p45v-46r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p45v-46r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p46v-47r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p46v-47r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p47v-48r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p47v-48r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p48v-49r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p48v-49r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p49v-50r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p49v-50r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p50v-51r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p50v-51r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p51v-52r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p51v-52r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p52v-53r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p52v-53r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p53v-54r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p53v-54r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p54v-55r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p54v-55r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p55v-56r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p55v-56r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p56v-57r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p56v-57r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p57v-58r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p57v-58r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p58v-59r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p58v-59r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p59v-60r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p59v-60r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p60v-61r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p60v-61r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p61v-62r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p61v-62r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p62v-63r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p62v-63r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p63v-64r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p63v-64r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p64v-65r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p64v-65r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p65v-66r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p65v-66r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p66v-67r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p66v-67r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p67v-68r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p67v-68r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p68v-69r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p68v-69r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p69v-70r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p69v-70r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p70v-71r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p70v-71r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p71v-72r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p71v-72r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p72v-73r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p72v-73r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p73v-74r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p73v-74r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p74v-75r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p74v-75r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p75v-76r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p75v-76r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p76v-77r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p76v-77r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p77v-78r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p77v-78r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p78v-79r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p78v-79r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p79v-80r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p79v-80r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p80v-81r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p80v-81r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p81v-82r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p81v-82r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p82v-83r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p82v-83r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p83v-84r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p83v-84r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p84v-85r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p84v-85r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p85v-86r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p85v-86r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p86v-87r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p86v-87r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p87v-88r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p87v-88r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p88v-89r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p88v-89r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p89v-90r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p89v-90r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p90v-91r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p90v-91r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p91v-92r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p91v-92r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p92v-93r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p92v-93r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p93v-94r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p93v-94r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p94v-95r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p94v-95r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p95v-96r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p95v-96r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p96v-97r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p96v-97r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p97v-98r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p97v-98r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p98v-99r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p98v-99r"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p99v-100r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - p-images - p99v-100r"
     }
   ]
 }

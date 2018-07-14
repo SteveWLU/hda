@@ -1,58 +1,32 @@
 
-<div class="navbar">
-
-  <!-- Home Button -->
-    <a href="{{site.baseurl}}/index.html">Home</a>
-
-  <!-- About Button -->
-    <div class="dropdown">
-      <button class="dropbtn">About
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="{{site.baseurl}}/versioning.html">Versioning</a>
-        <a href="{{site.baseurl}}/citation.html">Cite our work</a>
-      </div>
-    </div>
-
-  <!-- Praxis Button -->
-  <div class="dropdown">
-    <button class="dropbtn">Praxis
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="{{site.baseurl}}/general.html">General Criteria</a>
-      <a href="{{site.baseurl}}/b-praxis.html">Berlin Criteria</a>
-      <a href="{{site.baseurl}}/t-praxis.html">Turin Criteria</a>
-      <a href="{{site.baseurl}}/p-praxis.html">Padua Criteria</a>
-      <a href="{{site.baseurl}}/br-praxis.html">Barbieri Criteria</a>
-    </div>
-  </div>
-
-  <!-- Editions Button -->
-  <div class="dropdown">
-    <button class="dropbtn">Editions
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="{{site.baseurl}}/b-intro.html">Berlin (B)</a>
-      <a href="{{site.baseurl}}/t-intro.html">Turin (T)</a>
-      <a href="{{site.baseurl}}/p-intro.html">Padua (P)</a>
-      <a href="{{site.baseurl}}/br-intro.html">Barbieri Fragment (Br)</a>
-    </div>
-  </div>
-
-  <!-- Translation Button -->
-  <div class="dropdown">
-    <button class="dropbtn">Translation
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="{{site.baseurl}}/b-translation.html">Berlin Translation</a>
-    </div>
-  </div>
-
-  <!--Bibliography Button -->
-  <a href="{{site.baseurl}}/bibliography.html">Bibliography</a>
-  <div class="dropdown">
-</div>
+<nav id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+        {% assign links = site.data.navigation %}
+        {% for link in links %}
+            {% assign class = nil %}
+            {% if page.url contains link.url %}
+                {% assign class = 'active' %}
+            {% endif %}
+            {% if link.sublinks %}
+                <li class="dropdown {{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in link.sublinks %}
+                            {% if sublink.title == 'separator' %}
+                                <li role="separator" class="divider"></li>
+                            {% else %}
+                                <li>
+                                    <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="{{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
