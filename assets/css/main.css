@@ -687,7 +687,7 @@ nav li {
 	margin-bottom: .2em;
 }
 nav li:hover {
-	background: #333;
+	background: pink;
 }
 nav li a {
 	font-size: 1.2em;
@@ -703,7 +703,7 @@ nav li a {
 	width:100%;
 }
 nav li a:hover {
-	color: white;
+	color: whitesmoke;
 }
 /*toggle check styles*/
 .toggle-label {
@@ -745,6 +745,7 @@ dd{
 	margin-bottom: 1em;
 }
 }
+
 
 .navbar {
 	overflow: hidden;
@@ -790,7 +791,7 @@ dd{
 }
 
 .dropdown-content a {
-	float: none;
+	float: left;
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
@@ -799,11 +800,15 @@ dd{
 }
 
 .dropdown-content a:hover {
-	background-color: #ddd;
+	background-color: whitesmoke;
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+.nav li {
+	list-style: none;
 }
 /* --------------------------------------------------
    Larger screen styles

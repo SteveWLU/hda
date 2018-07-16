@@ -13,6 +13,10 @@ toc:
         url: /praxis/b-praxis.html
       - page: Turin Criteria
         url: /praxis/t-praxis.html
+      - page: Padua Criteria
+        url: /praxis/p-praxis.html
+      - page: Barbieri Fragment Criteria
+        url: /praxis/br-praxis.html
   - title: Editions
     subfolderitems:
       - page: Berlin (B)
@@ -21,3 +25,21 @@ toc:
         url: /t-intro.html
       - page: Padua (P)
         url: /editions/p-intro.html
+      - page: Barbieri Fragment (Br)
+        url: /editions/br-intro.html
+  - title: Editions
+    subfolderitems:
+      - page: Berlin (B)
+        url: /b-intro.html
+      - page: Turin (T)
+        url: /t-intro.html
+      - page: Padua (P)
+        url: /editions/p-intro.html
+      - page: Barbieri Fragment (Br)
+        url: /editions/br-intro.html
+  - title: Translation
+    subfolderitems:
+      - page: Berlin Translation
+        url: /b-translation.html
+  - static-title: Bibliography
+    url: /bibliography/bibliography.html
