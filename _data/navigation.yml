@@ -1,0 +1,23 @@
+toc:
+  - title: About
+    subfolderitems:
+      - page: Versioning
+        url: /versioning.html
+      - page: Cite our work
+        url: /citation.html
+  - title: Praxis
+    subfolderitems:
+      - page: General Criteria
+        url: /general.html
+      - page: Berlin Criteria
+        url: /praxis/b-praxis.html
+      - page: Turin Criteria
+        url: /praxis/t-praxis.html
+  - title: Editions
+    subfolderitems:
+      - page: Berlin (B)
+        url: /b-intro.html
+      - page: Turin (T)
+        url: /t-intro.html
+      - page: Padua (P)
+        url: /editions/p-intro.html

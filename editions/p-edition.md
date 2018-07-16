@@ -44,7 +44,7 @@ title: Padua edition
 
 
     function addFoliation(ms_el) {
-      $(ms_el+" tei-milestone").each(function(){
+      $(ms_el+"tei-milestone").each(function(){
         var n = $(this).attr("n");
         var milestone = "";
         if(typeof(n) === "undefined"){
