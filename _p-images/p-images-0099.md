@@ -1,6 +1,6 @@
 ---
 layout: iiif
-title: '58v-59r'
+title: 'p80v-81r'
 iiif_image: 'p-images-0099'
 ---
 

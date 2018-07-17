@@ -1,6 +1,6 @@
 ---
 layout: iiif
-title: '111v-112r'
+title: 'p110v-111r'
 iiif_image: 'p-images-0022'
 ---
 

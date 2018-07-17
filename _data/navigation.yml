@@ -27,16 +27,6 @@ toc:
         url: /editions/p-intro.html
       - page: Barbieri Fragment (Br)
         url: /editions/br-intro.html
-  - title: Editions
-    subfolderitems:
-      - page: Berlin (B)
-        url: /b-intro.html
-      - page: Turin (T)
-        url: /t-intro.html
-      - page: Padua (P)
-        url: /editions/p-intro.html
-      - page: Barbieri Fragment (Br)
-        url: /editions/br-intro.html
   - title: Translation
     subfolderitems:
       - page: Berlin Translation

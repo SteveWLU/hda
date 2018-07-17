@@ -1,6 +1,6 @@
 ---
 layout: iiif
-title: '23v-24r 10-03-55-242'
+title: 'p32v-33r'
 iiif_image: 'p-images-0051'
 ---
 
