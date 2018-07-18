@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
@@ -96,7 +95,10 @@
       <div id="TEI"></div>
 
       <!-- Where the image viewer goes -->
-      <div id="image-viewer">{% iiif_presentation p-images %}</div>
+      
+      <div id="image-viewer">
+        {% iiif Jheronimus_Bosch_011-1 %}
+      </div>
 
       {% include footer.html %}
 

@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Padua facsimile
-
-
 ---
 
 # Padua Facsimile

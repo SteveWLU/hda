@@ -932,7 +932,8 @@ div#TEI {
   border-width: 1px;
 }
 div#image-viewer {
-  margin-left: 50%;
+	margin-left: 50%;
+	background-color: pink;
 }
 .page-break {
 	color: blue;
