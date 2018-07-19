@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/76.json",
+  "label": "p. 76",
+  "width": 2380,
+  "height": 3150,
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/p-facsimile-0076/full/189,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://127.0.0.1:4000/tiles/p-facsimile/annotation/76.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0076/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0076",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 1190,
+        "height": 1575
+      },
+      "on": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/76.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

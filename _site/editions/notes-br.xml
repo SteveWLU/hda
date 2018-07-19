@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Huon_Customized_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Huon d'Auvergne, Bibliteca del seminario vescovile MS 32 (P),
+                    Annotations</title>
+                <respStmt>
+                    <name xml:id="SPM">Stephen Patrick McCormick</name>
+                    <resp>Annotations</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- xml:id ??? See Cummings 52 -->
+                    <!-- add encodingDesc -->
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Padua</settlement>
+                        <repository>Biblioteca del Seminario Vescovile</repository>
+                        <idno>MS 32</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <div>
+                <note n="1" xml:id="br2" type="ling" resp="#SPM">camin "road"</note>
+                <note n="2" xml:id="br8" type="ling" resp="#SPM">guenchire "to flee"</note>
+                <note n="3" xml:id="br10" type="ling" resp="#SPM">çival "horse</note>
+            </div>
+        </body>
+    </text>
+</TEI>

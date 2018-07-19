@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD Schema for Huon d'Auvergne transriptions (B, T, P, Br)</title>
+        <author>Stephen P. McCormick</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Freely available</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written from scratch</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2017-11-12" who="#SPM">ODD file created</change>
+      <change when="2017-11-21" who="#SPM"/>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <divGen type="toc"/>
+    </front>
+    <body>
+      <p>This customized schema is used to validate the digital transcriptions of the four
+        Franco-Italian manuscripts of <hi>Huon d'Auvergne</hi> and the accompanying English
+        translation of the Berlin witness, all of which are marked up in TEI.</p>
+
+      <schemaSpec ident="huon-schema" docLang="en" prefix="tei_" xml:lang="en" start="TEI">
+
+        <!-- 1. MODULE SPECIFICATIONS -->
+
+        <!-- 1.1 ANALYSIS -->
+        <moduleRef key="analysis" include="span"/>
+
+        <!-- 1.2 CERTAINTY -->
+        <moduleRef key="certainty" include="certainty"/>
+
+        <!-- 1.3 CORE -->
+        <moduleRef key="core"
+          include="abbr add addrLine address 
+          author bibl cb choice cit corr date del divGen editor email gap gb gloss
+          head hi l lg milestone name note num postCode p pubPlace publisher
+          q resp respStmt sic street teiCorpus term textLang time title unclear"/>
+
+        <!-- 1.4 HEADER -->
+        <moduleRef key="header"
+          include="abstract availability bibFull change 
+          correction edition editionStmt editorialDecl encodingDesc extent 
+          fileDesc funder geoDecl handNote idno interpretation keywords 
+          langUsage language namespace notesStmt principal profileDesc 
+          projectDesc publicationStmt revisionDesc schemaRef segmentation 
+          seriesStmt sourceDesc sponsor tagUsage tagsDecl teiHeader titleStmt
+          xenoData"/>
+
+        <!-- 1.5 LINKING -->
+        <moduleRef key="linking" include="anchor seg"/>
+
+        <!-- 1.6 MSDESCRIPTION -->
+        <moduleRef key="msdescription"
+          include="accMat acquisition additions 
+          altIdentifier binding bindingDesc catchwords collation colophon 
+          condition custEvent custodialHist decoDesc decoNote depth dimensions 
+          explicit finalRubric foliation handDesc height heraldry history incipit 
+          layout layoutDesc locus material msContents msDesc msFrag msIdentifier msItem
+          msName objectDesc origDate origPlace origin physDesc provenance repository 
+          rubric scriptDesc stamp support supportDesc surrogates watermark width"/>
+
+        <!-- 1.7 NAMESDATES -->
+        <moduleRef key="namesdates"
+          include="country geo geogFeat geogName persName
+          persona place placeName settlement"/>
+
+        <!-- 1.8 TEI -->
+        <moduleRef key="tei"
+          include="abstract availability biblFull change correction 
+          edition editionStmt editorialDecl encodingDesc extent fileDesc 
+          funder geoDecl handNote idno interpretation keywords langUsage 
+          language namespace notesStmt principal profileDesc publicationStmt 
+          punctuation quotation revisionDesc schemaRef"/>
+
+        <!-- 1.9 TEXTCRIT -->
+        <moduleRef key="textcrit"
+          include="app lacunaEnd lacunaStart listWit
+          rdg rdgGrp wit witDetail witEnd witStart witness"/>
+
+        <!-- 1.10 TEXTSTRUCTURE -->
+        <moduleRef key="textstructure"
+          include="TEI arguement back body byline closer dateline div div1 
+          div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition 
+          docImprint docTitle epigraph floatingText front group imprimatur 
+          opener postscript salute signed text titlePage titlePart trailer"/>
+
+        <!-- 1.11 TRANSCR -->
+        <moduleRef key="transcr"
+          include="addSpan damage damageSpan delSpan ex
+          handNotes handShift redo surplus"/>
+
+        <!-- 1.11 VERSE -->
+        <moduleRef key="verse" include="caesura rhyme"/>
+
+        <!-- II. ELEMENT SPECIFICATIONS -->
+
+        <!-- add -->
+        <elementSpec ident="add" module="core" mode="change">
+          <desc>Describes scribal emmendations added to the base text. These occur in one of five
+            locations: above line, inline, below line, left margin, and right margin.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="cause" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="seq" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="status" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="place" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="above">
+                  <desc>Identifies scribal emmendations added above the line.</desc>
+                </valItem>
+                <valItem ident=" inline">
+                  <desc>Identifies inline scribal emmendations.</desc>
+                </valItem>
+                <valItem ident=" below">
+                  <desc>Identifies scribal emmendations added below the line.</desc>
+                </valItem>
+                <valItem ident=" leftmargin">
+                  <desc>Identifies scribal emmendations added in the left margin.</desc>
+                </valItem>
+                <valItem ident=" rightmargin">
+                  <desc>Identifies scribal emmendations added in the right margin.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- anchor -->
+        <elementSpec ident="anchor" module="linking" mode="change">
+          <desc>The <gi>anchor</gi> element records an alternate numbering system for T established
+            by Pio Rajna in his Marucelliana Turin transcription.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="resp" mode="change" usage="req">
+              <valList>
+                <valItem ident="Rajna">
+                  <desc>Identifies Pio Rajna as the creator of the alternate numbering system as it
+                    appears in the Marucelliana Turin transcription..</desc>
+                </valItem>
+                <valItem ident="n">
+                  <desc>Identifies the alternate numbering assigned by Pio Rajna.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- choice -->
+        <elementSpec ident="choice" module="core" mode="change">
+          <desc>The <gi>choice</gi> element wraps around the <gi>corr</gi> and <gi>sic</gi> elements
+            and permits the interface to offer either a diplomatic or an edited reading of the
+            manuscript.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <!-- corr -->
+        <elementSpec ident="corr" module="core" mode="change">
+          <desc>The <gi>corr</gi> element wraps around editorial interventions.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="cert" mode="change" usage="req">
+              <defaultVal>medium</defaultVal>
+              <valList type="closed" mode="replace">
+                <valItem ident="high">
+                  <desc>Indicates high level of certainty for editorial change. Interventions are
+                    rated high when there is internal evidence for the change inside the manuscript
+                    (scribal corrections).</desc>
+                </valItem>
+                <valItem ident=" medium">
+                  <desc>Indicates medium level of certainty for editorial change. Interventions are
+                    rated medium when there exists external evidence for the change (comparing
+                    readings in other manuscripts).</desc>
+                </valItem>
+                <valItem ident=" low">
+                  <desc>Indicates low level of certainty for editorial change. Interventions are
+                    rated low when no internal or external evidence exists.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="resp" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="#scribe">
+                  <desc>Identifier that assigns responsibility for a correction to the
+                    scribe.</desc>
+                </valItem>
+                <valItem ident=" #SPM">
+                  <desc>Identifier that assigns responsibility to the editor Stephen P.
+                    McCormick.</desc>
+                </valItem>
+                <valItem ident=" #LZM">
+                  <desc>Identifier that assigns responsibility to the editor Leslie Zarker
+                    Morgan.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- del -->
+        <elementSpec ident="del" module="core" mode="change">
+          <desc>The <gi>del</gi> identifies a letter, word, or phrase that has been expunged by the
+            scribe or some previous corrector or editor.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="cause" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="seq" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="status" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="unite" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="scribble">
+                  <desc>Indicates that the expunged letter, word, or phrase has been scribbled
+                    out.</desc>
+                </valItem>
+                <valItem ident="strike">
+                  <desc>Indicates that the expunged letter, word, or phrase has been struck
+                    through.</desc>
+                </valItem>
+                <valItem ident="superscript-cross">
+                  <desc>Indicates that a superscript cross identifies the letter, word, or phrase to
+                    be expunged.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- ex -->
+        <elementSpec ident="ex" module="transcr" mode="change">
+          <desc/>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="change" usage="req">
+              <defaultVal>italic</defaultVal>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- gap -->
+        <elementSpec ident="gap">
+          <desc>Identifies missing folios in manuscript witnesses.</desc>
+          <attList>
+            <attDef ident="agent" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="dur" mode="delete"/>
+            <attDef ident="dur-iso" mode="delete"/>
+            <attDef ident="end" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="start" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="reason" mode="change">
+              <defaultVal>missing-folio</defaultVal>
+            </attDef>
+            <attDef ident="quantity" usage="req"/>
+            <!-- numerical value -->
+          </attList>
+        </elementSpec>
+
+        <!-- head -->
+        <elementSpec ident="head" module="core" mode="change">
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="type" mode="change">
+              <defaultVal>msHeading</defaultVal>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- hi -->
+        <elementSpec ident="hi" module="core" mode="change">
+          <desc>In the Huon edition files, <gi>hi</gi> describes the decoration hierarchy of initial
+            letters at the start of each laisse. In the note and commentary files, <gi>hi</gi>
+            italicizes words, phrases, textual examples, titles, and other bibliographic
+            information.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" usage="req" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="black-initial">
+                  <desc>Describes black initials at laisse beginnings in Huon manuscirpts.</desc>
+                </valItem>
+                <valItem ident=" blue-initial">
+                  <desc>Describes blue initials at laisse beginnings in Huon manuscirpts.</desc>
+                </valItem>
+                <valItem ident=" bold">
+                  <desc>Renders in bold Latin citations occuring within the text body.</desc>
+                </valItem>
+                <valItem ident=" italic">
+                  <desc>Renders in italic words, phrases, and titles that occur in metadeta, notes,
+                    and documentation.</desc>
+                </valItem>
+                <valItem ident=" noitalic">
+                  <desc>Renders non italic words or phrases that occur within a textual context that
+                    is italicized.</desc>
+                </valItem>
+                <valItem ident=" red-initial">
+                  <desc>Describes red initials at laisse beginnings in Huon manuscirpts.</desc>
+                </valItem>
+                <valItem ident=" strike">
+                  <desc>Describes scribal error protocal in which words or phrases are struck
+                    through.</desc>
+                </valItem>
+                <valItem ident=" super">
+                  <desc>Renders characters in superscript, most often occuring in roman numerals
+                    within the text.</desc>
+                </valItem>
+                <valItem ident=" red-corr">
+                  <desc>Describes scribal error protocal in which words or phrases are corrected in
+                    red.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- l -->
+        <elementSpec ident="l" module="core" mode="change">
+          <desc>The <gi>l</gi> tag wraps around each individual line of verse.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="enjamb" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="met" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="part" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="real" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="rhyme" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="n" mode="change" usage="req">
+              <desc>Assigns line numbers to each verse.</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- lg -->
+        <elementSpec ident="lg" module="core" mode="change">
+          <desc>The <gi>lg</gi> element wraps around individual narrative segments: each laisse (in
+            the case of manuscripts B, T, P, and Br), each ottava (in the case of manuscript V), or
+            each chapter (in Andrea da Barberino's prose rewritings).</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="decls" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="met" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="org" mode="delete"/>
+            <attDef ident="part" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="real" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="rhyme" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="sample" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="laisse">
+                  <desc>Identifies individual laisses in the Franco-Italian manuscripts (B, T, P,
+                    Br).</desc>
+                </valItem>
+                <valItem ident=" ottava">
+                  <desc>Identifies individual ottave in Michelagnolo da Volterra rewritting
+                    (V).</desc>
+                </valItem>
+                <valItem ident=" chapter">
+                  <desc>Identifies individual chapters in Andrea da Barberino's prose
+                    writting.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change" usage="req"/>
+            <!-- 1.3.1.1.1 there is no requirement to record a value for either the xml:id or the n attribute -->
+          </attList>
+        </elementSpec>
+
+        <!-- milestone -->
+        <elementSpec ident="milestone" module="core" mode="change">
+          <desc>The <gi>milestone</gi> element marks the beginning of a new folio.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="break" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="edRef" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="spanTo" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="unit" mode="change" usage="req">
+              <defaultVal>fol.</defaultVal>
+              <valList type="closed" mode="replace">
+                <valItem ident="fol.">
+                  <desc>Abbreviation for folio.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change" usage="req">
+              <desc>Identifies the folio number and recto / verso.</desc>
+            </attDef>
+            <attDef ident="facs" mode="change" usage="req">
+              <desc>Contains URL for facsimile image.</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- name -->
+        <elementSpec ident="name" module="core" mode="change">
+          <desc>The <gi>name</gi> element is used to identify metadata related to the identity and
+            role of a member of the editorial team.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="full" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="period" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="ref" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="sort" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="resp" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="annotator">
+                  <desc>Associates a team member with an annotator and commentator role.</desc>
+                </valItem>
+                <valItem ident="editor">
+                  <desc>Associates a team member with an editorial role.</desc>
+                </valItem>
+                <valItem ident="encoder">
+                  <desc>Associates a team member with an encoding role.</desc>
+                </valItem>
+                <valItem ident="translator">
+                  <desc>Assocaites a team member with a translation role.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:id" mode="change">
+              <valList type="open" mode="replace">
+                <valItem ident="#AEB">
+                  <desc>Identifies comments and annotations written by Alan Bernstein.</desc>
+                </valItem>
+                <valItem ident=" #JCV">
+                  <desc>Identifies comments and annotations written by Jean-Claude
+                    Vallecalle.</desc>
+                </valItem>
+                <valItem ident=" #SPM">
+                  <desc>Identifies comments, annotations, and editorial decisions by Stephen P.
+                    McCormick.</desc>
+                </valItem>
+                <valItem ident=" #LZM">
+                  <desc>Identifies comments, annotation, and editorial decisions by Leslie Zarker
+                    Morgan.</desc>
+                </valItem>
+                <valItem ident=" #SSB">
+                  <desc>Identifies comments, annotations, and translation decisions by Shira
+                    Schwam-Baird.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- note -->
+        <elementSpec ident="note" module="core" mode="change">
+          <desc>The <gi>note</gi> element is used either to anchor the apparatus to the base edition
+            or to create a note in external apparatus files (named "notes-" + "MS sigla" + .xml, as
+            in notes-b.xml). The <gi>note</gi> element in the edition files must contain the
+              <att>xml:id</att> attribute. In the external apparatus file, notes must contain three
+            attributes: <att>xml:id</att> to link it to the anchor in the base edition;
+              <att>type</att> to specify the nature of the note; and <att>resp</att> to indicate the
+            editor who wrote the note. The <att>type</att> attribute must be assigned to one of five
+            categories: codicological, interpretative, linguistic, referential, and
+            bibliographic.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="anchored" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="evaluate" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="place" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="target" mode="delete"/>
+            <attDef ident="targetEnd" mode="delete"/>
+            <attDef ident="targetLang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="resp" mode="change" usage="rec">
+              <desc>The <att>resp</att> attribute identifies a note's author and may only be used in
+                the external apparatus files.</desc>
+              <valList type="closed" mode="replace">
+                <valItem ident="#LZM">
+                  <desc>Notes authored by Leslie Zarker Morgan.</desc>
+                </valItem>
+                <valItem ident=" #SPM">
+                  <desc>Notes authored by Stephen P. McCormick.</desc>
+                </valItem>
+                <valItem ident=" #SSB">
+                  <desc>Notes authored by Shira Schwam-Baird.</desc>
+                </valItem>
+                <valItem ident=" #JVC">
+                  <desc>Notes authored by Jean-Claude Vallecalle.</desc>
+                </valItem>
+                <valItem ident=" #AB">
+                  <desc>Notes authored by Alan Bernstein.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change" usage="rec">
+              <desc>The <att>type</att> attribute may only be used in the external apparatus
+                files.</desc>
+              <valList type="closed" mode="replace">
+                <valItem ident="edit">
+                  <desc>A note of this type describes editorial intervention or activity.</desc>
+                </valItem>
+                <valItem ident=" interp">
+                  <desc>A note of this type offers interpretative information, contextualizing a
+                    literary or historical reference.</desc>
+                </valItem>
+                <valItem ident=" ling">
+                  <desc>A note of this type clarifies the linguistic nature of a word or
+                    phrase.</desc>
+                </valItem>
+                <valItem ident=" codic">
+                  <desc>A note of this type highlights or clarifies information related to the
+                    physical context in which the text occurs (i.e. the manuscript, the binding,
+                    etc.)</desc>
+                </valItem>
+                <valItem ident=" refer">
+                  <desc>A note of this type refers to similar or variant readings in other
+                    manuscripts and other textual traditions.</desc>
+                </valItem>
+                <valItem ident=" biblio">
+                  <desc>A note of this type details bibliographic information of related scholarly
+                    work or modern editions.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:id" mode="change" usage="rec">
+              <desc>The <att>xml:id</att> attribute must be used in the base edition files to anchor
+                the note or commentary and in the external apparatus files to link content to the
+                anchor in the edition file. Each note's <att>xml:id</att> attribute is assigned a
+                unique identifier that states the manuscript sigla and the verse number (ex. p2113).
+                If there are multiple notes in one line of verse, .1, .2, etc. is added to the
+                identifier (ex. p2113.1 and p2113.2)</desc>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- num -->
+        <elementSpec ident="num" module="core" mode="change">
+          <desc>The <gi>num</gi> element wraps roman numerals. As per Conseils...</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="value" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="change" usage="req">
+              <defaultVal>smallcaps</defaultVal>
+              <valList type="closed" mode="replace">
+                <valItem ident="smallcaps">
+                  <desc>As per the Conseils pour l'édition des textes médiévaux, roman numerals are
+                    rendered as in small caps</desc>
+                  <!-- find exact citation for the Conseils; figure out to italicize. -->
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- p -->
+        <elementSpec ident="p" module="core" mode="change">
+          <desc>The <gi>p</gi> element wraps prose paragraphs.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="decls" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="part" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <!-- persName -->
+        <elementSpec ident="persName" module="namesdates" mode="change">
+          <desc>The <gi>persName</gi> element identifies a proper name of five types: biblical,
+            classical, deity, epic, a saint, or a European historical figure.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="full" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="period" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="ref" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="sort" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="biblic">
+                  <desc>Identifies a biblical name.</desc>
+                </valItem>
+                <valItem ident="classic">
+                  <desc>Identifies a name from classical antiquity.</desc>
+                </valItem>
+                <valItem ident="deity">
+                  <desc>Identifies the name of a deity.</desc>
+                </valItem>
+                <valItem ident="epic">
+                  <desc>Identifies a name from epic literature.</desc>
+                </valItem>
+                <valItem ident="europe">
+                  <desc>Identifies the name of a historical European figure.</desc>
+                </valItem>
+                <valItem ident="saint">
+                  <desc>Identifies the name of a saint.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- placeName -->
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <desc>The <gi>placeName</gi> element wraps around place names, which can be one of five
+            categories: city, country, region, mappa mundi, portulan.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="atLeast" mode="delete"/>
+            <attDef ident="atMost" mode="delete"/>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="confidence" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="evidence" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="extent" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="full" mode="delete"/>
+            <attDef ident="instant" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="max" mode="delete"/>
+            <attDef ident="min" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="nymRef" mode="delete"/>
+            <attDef ident="period" mode="delete"/>
+            <attDef ident="precision" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="quantity" mode="delete"/>
+            <attDef ident="ref" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="role" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="scope" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="sort" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="unit" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="city">
+                  <desc>Identifies a city.</desc>
+                </valItem>
+                <valItem ident=" country">
+                  <desc>Identifies a country.</desc>
+                </valItem>
+                <valItem ident=" region">
+                  <desc>Identifies a region.</desc>
+                </valItem>
+                <valItem ident=" mappa">
+                  <desc>Identifies places associated with mappa mundi spaces.</desc>
+                </valItem>
+                <valItem ident=" portulan">
+                  <desc>Identifies places associted with portulan spaces.</desc>
+                </valItem>
+                <!-- Add new attribute so mappa mundi and portulan can be identified alongside city, country, region. -->
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- q -->
+        <elementSpec ident="q" module="core" mode="change">
+          <desc>The <gi>q</gi> element wraps around citations embedded within the text. These
+            citations are always Latin within the context of the epic, but may be English, French,
+            German, Italian, or Franco-Italian within the body of a <gi>note</gi> element.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="who" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="change" usage="req">
+              <defaultVal>bold</defaultVal>
+            </attDef>
+            <attDef ident="xml:lang" mode="change" usage="req">
+              <valList>
+                <valItem ident="en">
+                  <desc>Wraps around a citation in English.</desc>
+                </valItem>
+                <valItem ident="fr">
+                  <desc>Wraps around a citation in French.</desc>
+                </valItem>
+                <valItem ident="fi">
+                  <desc>Wraps around a citation in Franco-Italian.</desc>
+                </valItem>
+                <valItem ident="ger">
+                  <desc>Wraps around a citation in German.</desc>
+                </valItem>
+                <valItem ident="it">
+                  <desc>Wraps around a citation in Italian.</desc>
+                </valItem>
+                <valItem ident="la">
+                  <desc>Wraps around a citation in Latin.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- respStmt -->
+        <elementSpec ident="respStmt" module="core" mode="change">
+          <desc>The <gi>respStmt</gi> element is a component of the metadata header and details the
+            roles and activities of the editorial and Digital Humanities team.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="ref" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="resp" mode="delete">
+              <valList type="open" mode="replace">
+                <valItem ident="editor"/>
+                <valItem ident=" encoder"/>
+                <valItem ident=" translator"/>
+                <valItem ident=" annotator"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- seg -->
+        <elementSpec ident="seg" module="linking" mode="change">
+          <desc>The <gi>seg</gi> element wraps around text that has been reconstructed from the Pio
+            Rajna Turin transcription, replacing text that was destroyed in the margins of T during
+            the 1904 fire at the Biblioteca Nazionale di Torino. The <gi>seg</gi> element does not
+            include any legal attributes.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="datcat" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="function" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
+            <attDef ident="met" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="part" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="real" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="rhyme" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="type" mode="delete"/>
+            <attDef ident="valueDatcat" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <!-- sic -->
+        <elementSpec ident="sic" module="core" mode="change">
+          <desc>The <gi>sic</gi> element wraps around erroneous words or phrases as they occur in
+            the manuscript and is used in conjunction with the <gi>corr</gi> element. The
+              <gi>sic</gi> and the <gi>corr</gi> elements are wrapped inside a <gi>choice</gi> tag.
+            The <gi>sic</gi> element has no legal attributes.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+          </attList>
+        </elementSpec>
+
+        <!-- title -->
+        <elementSpec ident="title" module="core" mode="change">
+          <desc>The <gi>title</gi> element identifies titles in the metadata header or in the notes
+            and commentaries apparatus.</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="datingMethod" mode="delete"/>
+            <attDef ident="datingPoint" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="from" mode="delete"/>
+            <attDef ident="from-custom" mode="delete"/>
+            <attDef ident="from-iso" mode="delete"/>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="level" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="notAfter" mode="delete"/>
+            <attDef ident="notAfter-custom" mode="delete"/>
+            <attDef ident="notAfter-iso" mode="delete"/>
+            <attDef ident="notBefore" mode="delete"/>
+            <attDef ident="notBefore-custom" mode="delete"/>
+            <attDef ident="notBefore-iso" mode="delete"/>
+            <attDef ident="period" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="ref" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="subtype" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="to" mode="delete"/>
+            <attDef ident="to-custom" mode="delete"/>
+            <attDef ident="to-iso" mode="delete"/>
+            <attDef ident="when" mode="delete"/>
+            <attDef ident="when-custom" mode="delete"/>
+            <attDef ident="when-iso" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="open" mode="replace">
+                <valItem ident="digital">
+                  <desc>Identifies the title of a born digital publication.</desc>
+                </valItem>
+                <valItem ident="manuscript">
+                  <desc>Identifies the title of a manuscript.</desc>
+                </valItem>
+                <valItem ident="short">
+                  <desc>Identifies an abbreviated title of a manuscript.</desc>
+                </valItem>
+                <valItem ident="text">
+                  <desc>Identifies the title of a text.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="xml:lang" mode="change" usage="opt">
+              <valList type="open" mode="replace">
+                <valItem ident="en">
+                  <desc>A work written in English.</desc>
+                </valItem>
+                <valItem ident=" fi">
+                  <desc>A work written in Franco-Italian.</desc>
+                </valItem>
+                <valItem ident=" fr">
+                  <desc>A work written in French.</desc>
+                </valItem>
+                <valItem ident=" it">
+                  <desc>A work written in Italian.</desc>
+                </valItem>
+                <valItem ident=" la">
+                  <desc>A work written in Latin.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="rend" mode="change" usage="req">
+              <defaultVal>italic</defaultVal>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- witness -->
+        <elementSpec ident="witness" module="textcrit" mode="change">
+          <desc>The <gi>witness</gi> element identifies the four Franco-Italian manuscripts by their
+            sigla: B (Berlin, Kupferstichkabinett 78 D 8), T (Turin, Biblioteca nazionale
+            universitaria N III 19), P (Padua, Biblioteca del Seminario Vescovile MS 32), and Br
+            (Bologna, Biblioteca dell'Archiginnasio B. 3489).</desc>
+          <attList>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="n" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="sortKey" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <valList type="open" mode="replace">
+                <valItem ident="#B">
+                  <desc>Identifier for Berlin, Kupferstichkabinett 78 D 8.</desc>
+                </valItem>
+                <valItem ident=" #T">
+                  <desc>Identifier for Turin, Biblioteca nazionale universitaria N III 19.</desc>
+                </valItem>
+                <valItem ident=" #P">
+                  <desc>Identifier for Padua, Biblioteca del Seminario Vescovile MS 32.</desc>
+                </valItem>
+                <valItem ident=" #Br">
+                  <desc>Identifier for Bologna, Biblioteca dell'Archiginnasio B. 3489.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

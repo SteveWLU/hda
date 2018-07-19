@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Information about publication or distribution</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Padova, il 7 Settembre 1869
+            Nei giorni 4-7 del mese corrente at-
+            tese il sottoscritto a studiare e a trascrivere
+            per la massima parte il codice di questa in-
+            signe biblioteca che porta il numero trenta
+            due, affine di trarne profitto per la cognizione
+            della storia dell’epopea cavalleresca in Italia
+            nella prima sua età. Il poema contenuto 
+            in questo pregevole manoscritto dovrebbe por-
+            tare per titolo Ugo d’Alvernia, e facilmente
+            si riconosce per l’originale, onde Andrea da 
+            Barberino trasse, contentandosi il più delle volte
+            di tradurre fidelmente, il romanzo in prosa
+            così intitotolato, che si conserva in due codici
+            Magliabecchiani. Lo strano linguaggio ado-
+            perato dall’autore può meglio che a qualunque
+            altro paragonarsi a quello del Rainardo,
+            desdè publicato dal prof. Teza (Pisa 
+            Tipografia Nistri).
+            Il codice appare scritto nella seconda me
+            tà del secolo XIV, ed ha grande analogia con 
+            qualche altro manoscritto che contiene testi
+            di questo medesimo genere. Manca nel principio
+            di una sola carta: di nessuna nel corpo del 
+            volume, poiché se il foglio penultimo porta
+            il n° 129 mentre secondo lo stato attuale non 
+            è che il 11 , questo nasce da xxx errori *
+            di numerazione, pei xx quali dopo avere
+            signato una carta col n° 79 si signò la seguen-
+            te col n° 90, e similmente si passò dal n° 116 al 118.
+            Altre osservazioni intorno alla materia,
+            alla forma e all’autore di questo poema,
+            del quale non si conosce altra copia all’infuori
+            di questa, spera il sottoscritto di potere
+            fra non molto rendere di publica [sic] ragione.
+            
+            Dr. Pio Rajna
+            
+            Je regrette, le 2 sept. 1872, que M. Rajna n’ait pas encore donné suite à
+            un projet qu’il était si bien fait pour exécuter.
+            
+            GParis</p>
+      </body>
+  </text>
+</TEI>

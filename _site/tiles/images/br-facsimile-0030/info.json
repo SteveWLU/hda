@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://127.0.0.1:4000/tiles/images/br-facsimile-0030",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2808,
+  "height": 4002,
+  "sizes": [
+    {
+      "width": 2808,
+      "height": 4002
+    },
+    {
+      "width": 175,
+      "height": 250
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Huon d'Auvergne Digital Archive</title>
+    <meta name="description" content="The Huon d'Auvergne Digital Archive publishes for the first time all four extant Franco-Italian manuscripts of the Huon d'Auvergne romance-epic.">
+    <link rel="canonical" href="/br-edition.html">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/ti-ta-toggle/titatoggle-dist.css">
+    <script src="assets/scripts/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+    <script src="../assets/js/CETEI.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+
+  <style>
+    tei-milestone {
+      display: block;
+      width: 100%;
+      text-align: left;
+      color: orangered;
+      margin: 2em 0 2em 0;
+      font-size: 11pt;
+    }
+
+    tei-milestone:before {
+      content: "" attr(unit) attr(n) "";
+    }
+
+    tei-teiHeader {
+      display: none;
+    }
+
+    .hid_page {
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-right: 20px;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+    }
+  </style>
+
+  <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
+  
+  </head>
+  <body>
+    <header role="banner" class="page-header" id="top">
+    <h1>Huon d'Auvergne Digital Archive</h1>
+    <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+    
+<div class="nav">   
+  <div class="dropdown">
+    <button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+      <ul>
+        
+          <li class="nav"><a href="/versioning.html">Versioning</a></li>
+        
+          <li class="nav"><a href="/citation.html">Cite our work</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div class="nav">   
+  <div class="dropdown">
+    <button class="dropbtn">Praxis<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+      <ul>
+        
+          <li class="nav"><a href="/general.html">General Criteria</a></li>
+        
+          <li class="nav"><a href="/praxis/b-praxis.html">Berlin Criteria</a></li>
+        
+          <li class="nav"><a href="/praxis/t-praxis.html">Turin Criteria</a></li>
+        
+          <li class="nav"><a href="/praxis/p-praxis.html">Padua Criteria</a></li>
+        
+          <li class="nav"><a href="/praxis/br-praxis.html">Barbieri Fragment Criteria</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div class="nav">   
+  <div class="dropdown">
+    <button class="dropbtn">Editions<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+      <ul>
+        
+          <li class="nav"><a href="/b-intro.html">Berlin (B)</a></li>
+        
+          <li class="nav"><a href="/t-intro.html">Turin (T)</a></li>
+        
+          <li class="nav"><a href="/editions/p-intro.html">Padua (P)</a></li>
+        
+          <li class="nav"><a href="/editions/br-intro.html">Barbieri Fragment (Br)</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div class="nav">   
+  <div class="dropdown">
+    <button class="dropbtn">Translation<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+      <ul>
+        
+          <li class="nav"><a href="/b-translation.html">Berlin Translation</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div class="nav">   
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        <div id="wrapper">
+  
+      <!-- Button bar for navigation editions. -->
+      <div id="edition-nav">
+
+      <div id="lilmenu">
+        <div id="foliation">
+          <div class="checkbox checkbox-slider--a-rounded checkbox-slider-md">
+              <p>Foliation</p>
+            <label class="switch">
+                <input type="checkbox"><span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Pagination controls. They start disabled. -->
+      <div id="controls">
+        <button id="prev" disabled>&lt;</button> 
+        <button id="next" disabled>&gt;</button> 
+      </div>
+
+    </div>
+  
+      <!-- Where the TEI goes -->
+      <div id="TEI"></div>
+
+      <!-- Where the image viewer goes -->
+      
+      <div id="image-viewer">
+        <script defer="true" src="/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+<script>
+//<![CDATA[
+var iiif_viewerfuncs = [];
+window.onload = function() {
+  var arrayLength = iiif_viewerfuncs.length;
+  for (var i = 0; i < arrayLength; i++) {
+    iiif_viewerfuncs[i]();
+  }
+}
+//]]
+</script>
+<div id="openseadragon1" class="iiif_image" 
+style="width: 100%; height: 500px; border: 1px solid grey"></div>
+<script>
+//<![CDATA[
+iiif_viewerfuncs.push(
+  function initOpenSeadragon1() {
+    OpenSeadragon({
+      id: "openseadragon1",
+      minZoomImageRatio: 1,
+      prefixUrl: "/iiif_viewer/openseadragon/images/",
+      tileSources: "/tiles/images/Jheronimus_Bosch_011-1/info.json",
+      crossOriginPolicy: false
+    });
+  }
+)
+//]]>
+</script>
+
+      </div>
+
+      <hr>
+
+<footer role="contentinfo" class="page-footer">
+
+<div class="footer">
+
+<div class="footer-row">
+  <div class="footer-column-1">
+    <img id="logo_wludh" src="/assets/images/logos/logo_wludh.png" alt="DHAT logo" style="width:60%">
+  </div>
+  <div class="footer-column-1">
+    <img id="logo_loyola" src="/assets/images/logos/logo_loyola.svg" alt="DHAT logo" style="width:60%">
+  </div>
+  <div class="footer-column-1">
+    <img id="logo_unf" src="/assets/images/logos/logo_unf.svg" alt="DHAT logo" style="width:60%">
+  </div>
+  <div class="footer-column-1">
+    <img id="logo_neh" src="/assets/images/logos/logo_neh.png" alt="DHAT logo" style="width:60%">
+  </div>
+</div>
+
+<div class="footer-row">
+  <div class="footer-column-2">
+    <img id="logo_marucelliana" src="/assets/images/logos/logo_marucelliana.png" alt="DHAT logo" style="width:25%">
+  </div>
+  <div class="footer-column-2">
+    <img id="logo_archiginnasio" src="/assets/images/logos/logo_archiginnasio.png" alt="DHAT logo" style="width:20%">
+  </div>
+  <div class="footer-column-2">
+    <img id="logo_vescovile" src="/assets/images/logos/logo_vescovile.jpg" alt="DHAT logo" style="width:85%">
+  </div>
+</div>
+
+<p class="legal">&copy; <a href="https://www.wlu.edu/romance-languages-department/faculty-and-staff/profile?ID=x9689"
+title="Stephen P. McCormick">Stephen P. McCormick</a> and <a href="https://digitalhumanities.wlu.edu/" title="lynda">
+Washington & Lee Digital Humanities</a> | Site built using <a href="https://jekyllrb.com/" title="Jekyll static pages">
+Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Encoding Initiative">Text Encoding Initiative.</a></p>
+
+
+</div>
+
+</footer>
+
+
+    </div>
+    </main>
+
+    <script>
+
+        // CODE TO HIDE A PAGE
+        function showPage(page) {
+          // Hide all text that does not belong to the page indicated
+          var n
+          var pbs = 0
+          var hide = false
+    
+          // First, remove all hiding CSS classes, if present.
+          Array.from(document.querySelectorAll('.hid_page')).map(function (el) {
+            el.classList.remove('hid_page')
+          })
+    
+          // Walk trough all descendants of tei-text
+          var walk = document.createTreeWalker(document.querySelector('tei-text'), NodeFilter.SHOW_ALL, null, false)
+          while (n = walk.nextNode()) {
+            if (n.nodeType === Node.ELEMENT_NODE) {
+              //  If this is a page beginning, update page count.
+              //  If page count is lower or higher than the page requested, set 'hide' flag.
+              //  If page count corresponds to the page requested, remove 'hide' flag.
+              if (n.localName === 'tei-milestone' ) {
+                pbs++
+                if (pbs < page || pbs > page) {
+                  hide = true
+                } else {
+                  hide = false
+                }
+              }
+    
+              // If the hide flag is set and this is an empty element, hide it just in case the 
+              // CETEIcean CSS (or other) does something with it.
+              if (hide && n.childNodes.length === 0) {
+                n.classList.add('hid_page')
+              }
+            } else if (n.nodeType === Node.TEXT_NODE) {
+              // We mostly operate at text node level by storing and restoring text data.
+              
+              // Start by always restoring text data is previously removed.
+              if (n.storedContent) {
+                n.textContent = n.storedContent
+              }
+    
+              // If the 'hide' flag is set, store text content and remove it.
+              if (hide) {
+                n.storedContent = n.textContent
+                n.textContent = ''
+              }
+            }
+          }
+        }
+    
+        // CODE TO RUN CETEICEAN
+        var CETEIcean = new CETEI()
+        CETEIcean.getHTML5('p.xml', function(data) {
+          document.getElementById("TEI").innerHTML = ""
+          document.getElementById("TEI").appendChild(data)
+          CETEIcean.addStyle(document, data)
+    
+          // Determine number of pages
+          var pages = document.querySelectorAll('tei-text tei-milestone').length
+    
+          // Only proceed if there's more than one page.
+          if (pages > 1) {
+            // Show first page only
+            var curPage = 1
+            showPage(curPage)
+    
+            // Set up pagination buttons
+            var nextBtn = document.querySelector('#next')
+            var prevBtn = document.querySelector('#prev')
+    
+            // Enable 'next' button
+            nextBtn.disabled = false
+    
+            // Routine for updating button's availability
+            function updateBtns() {
+              if (curPage === pages) {
+                nextBtn.disabled = true
+              } else {
+                nextBtn.disabled = false
+              }
+              if (curPage === 1) {
+                prevBtn.disabled = true
+              } else {
+                prevBtn.disabled = false
+              }
+            }
+    
+            // Add click events to pagination buttons
+            nextBtn.addEventListener('click', function(e) {
+              if (curPage + 1 <= pages) {
+                curPage++
+                showPage(curPage)
+              }
+              updateBtns()
+            })
+            prevBtn.addEventListener('click', function(e) {
+              if (curPage - 1 > 0) {
+                curPage--
+                showPage(curPage)
+              }
+              updateBtns()
+            })
+          }
+    
+        });
+      </script>
+  </body>
+</html>

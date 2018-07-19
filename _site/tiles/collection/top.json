@@ -1,0 +1,23 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://127.0.0.1:4000/tiles/collection/top.json",
+  "@type": "sc:Collection",
+  "label": "top",
+  "manifests": [
+    {
+      "@id": "http://127.0.0.1:4000/tiles/br-facsimile/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Franco-Italian Huon d'Auvergne-Barbieri, Biblioteca del seminario vescovile, MS 32"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/Jheronimus_Bosch_011/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - iiif_images - Jheronimus_Bosch_011"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/p-facsimile/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
+    }
+  ]
+}
