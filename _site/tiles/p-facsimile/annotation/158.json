@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "http://127.0.0.1:4000/tiles/p-facsimile/annotation/158.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0158/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0158",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 1176,
+    "height": 1569
+  },
+  "on": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/158.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

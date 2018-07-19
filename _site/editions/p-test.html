@@ -177,34 +177,52 @@
       <!-- Where the image viewer goes -->
       
       <div id="image-viewer">
-        <script defer="true" src="/iiif_viewer/openseadragon/openseadragon.min.js"></script>
-<script>
-//<![CDATA[
-var iiif_viewerfuncs = [];
-window.onload = function() {
-  var arrayLength = iiif_viewerfuncs.length;
-  for (var i = 0; i < arrayLength; i++) {
-    iiif_viewerfuncs[i]();
-  }
-}
-//]]
-</script>
-<div id="openseadragon1" class="iiif_image" 
-style="width: 100%; height: 500px; border: 1px solid grey"></div>
-<script>
-//<![CDATA[
-iiif_viewerfuncs.push(
-  function initOpenSeadragon1() {
-    OpenSeadragon({
-      id: "openseadragon1",
-      minZoomImageRatio: 1,
-      prefixUrl: "/iiif_viewer/openseadragon/images/",
-      tileSources: "/tiles/images/Jheronimus_Bosch_011-1/info.json",
-      crossOriginPolicy: false
-    });
-  }
-)
-//]]>
+        <div id="mirador-viewer"></div>
+<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css">
+<style>
+    body {
+      background-color: #fff;
+      padding: 1em 0;
+      margin: 0 5% !important;
+      width: 90%;
+    }
+    #viewer {
+      display: block;
+      width: 90%;
+      height: 600px;
+      margin: 1em 5%;
+      position: relative;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+</style>
+<div id='viewer'></div>
+
+<script src='/iiif_viewer/mirador/mirador.js'></script>
+<script type='text/javascript'>
+
+ $(function() {
+   Mirador({
+     'id': 'viewer',
+     'layout': '1x1',
+     'data': [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     'mainMenuSettings': { 'show': false },
+     'buildPath': '/iiif_viewer/mirador/',
+     'windowObjects': [{
+     'loadedManifest': 'http://localhost:4000/tiles/p-facsimile/manifest.json',
+     'viewType': 'ImageView',
+     'displayLayout': false,
+     'bottomPanel': false,
+     'bottomPanelAvailable': false,
+     'bottomPanelVisible': false,
+     'sidePanel': false,
+     'annotationLayer': false
+
+     }],
+     'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
+   });
+ });
 </script>
 
       </div>

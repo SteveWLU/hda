@@ -2,15 +2,15 @@
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0012",
   "protocol": "http://iiif.io/api/image",
-  "width": 1196,
+  "width": 1170,
   "height": 1575,
   "sizes": [
     {
-      "width": 1196,
+      "width": 1170,
       "height": 1575
     },
     {
-      "width": 190,
+      "width": 186,
       "height": 250
     }
   ],

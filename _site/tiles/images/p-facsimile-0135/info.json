@@ -3,11 +3,11 @@
   "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0135",
   "protocol": "http://iiif.io/api/image",
   "width": 1190,
-  "height": 1572,
+  "height": 1575,
   "sizes": [
     {
       "width": 1190,
-      "height": 1572
+      "height": 1575
     },
     {
       "width": 189,
