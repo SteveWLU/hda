@@ -2,9 +2,9 @@
   "@type": "sc:Canvas",
   "@id": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/113.json",
   "label": "p. 113",
-  "width": 1208,
-  "height": 1575,
-  "thumbnail": "http://127.0.0.1:4000/tiles/images/p-facsimile-0113/full/192,/0/default.jpg",
+  "width": 2380,
+  "height": 3150,
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/p-facsimile-0113/full/189,/0/default.jpg",
   "images": [
     {
       "@type": "oa:Annotation",
@@ -19,7 +19,7 @@
           "@id": "http://127.0.0.1:4000/tiles/images/p-facsimile-0113",
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
-        "width": 1208,
+        "width": 1190,
         "height": 1575
       },
       "on": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/113.json"

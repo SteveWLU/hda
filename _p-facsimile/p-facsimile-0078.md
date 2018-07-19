@@ -1,6 +1,6 @@
 ---
 layout: iiif
-title: 'p177'
+title: 'p21v'
 iiif_image: 'p-facsimile-0078'
 ---
 

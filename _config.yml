@@ -27,15 +27,15 @@ iiif_allowablefields:
 
 collections:
   p-facsimile:
-    title: "Padua, Biblioteca del seminario vescovile, MS 32"
-    output: true
-    iiif: true
-    paged: true
-    fields:
-      label: "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
-      description: "Pauda Edition"
-      attribution: "jekyll-iiif demo"
-      logo: "logo.jpg"
+        title: "Padua, Biblioteca del seminario vescovile, MS 32"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
+          description: "Pauda Edition"
+          attribution: "jekyll-iiif demo"
+          logo: "logo.jpg"
   br-facsimile:
         title: "Barbieri, Biblioteca del seminario vescovile, MS 32"
         output: true

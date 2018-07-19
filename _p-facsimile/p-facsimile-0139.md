@@ -1,6 +1,6 @@
 ---
 layout: iiif
-title: 'p99'
+title: 'p52r'
 iiif_image: 'p-facsimile-0139'
 ---
 

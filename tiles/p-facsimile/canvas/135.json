@@ -3,7 +3,7 @@
   "@id": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/135.json",
   "label": "p. 135",
   "width": 2380,
-  "height": 3144,
+  "height": 3150,
   "thumbnail": "http://127.0.0.1:4000/tiles/images/p-facsimile-0135/full/189,/0/default.jpg",
   "images": [
     {
@@ -20,7 +20,7 @@
           "profile": "http://iiif.io/api/image/2/level0.json"
         },
         "width": 1190,
-        "height": 1572
+        "height": 1575
       },
       "on": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/135.json"
     }

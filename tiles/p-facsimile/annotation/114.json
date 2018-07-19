@@ -12,7 +12,7 @@
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
     "width": 1176,
-    "height": 1569
+    "height": 1575
   },
   "on": "http://127.0.0.1:4000/tiles/p-facsimile/canvas/114.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"
