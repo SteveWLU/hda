@@ -381,7 +381,7 @@ nav ul, nav li {
 	min-height: 0;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 0.1em;
@@ -389,6 +389,7 @@ nav li a {
 
 .site-nav {
 	overflow: hidden;
+	font-family: 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
 
 }
 
@@ -403,7 +404,6 @@ nav li a {
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 .site-nav a:hover, .dropdown:hover .dropbtn {
@@ -858,7 +858,7 @@ nav li {
 	display: inline-block;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
   font-variant: small-caps;
 	color: #5f0000;
 	margin-right: 0.5em;
