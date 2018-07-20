@@ -3,6 +3,8 @@ toc:
     subfolderitems:
       - page: Versioning
         url: /versioning.html
+      - page: Bibliography
+        url: /about/bibliography.html
       - page: Cite our work
         url: /citation.html
   - title: Praxis
@@ -20,9 +22,9 @@ toc:
   - title: Editions
     subfolderitems:
       - page: Berlin (B)
-        url: /b-intro.html
+        url: /editions/b-intro.html
       - page: Turin (T)
-        url: /t-intro.html
+        url: /editions/t-intro.html
       - page: Padua (P)
         url: /editions/p-intro.html
       - page: Barbieri Fragment (Br)
@@ -31,5 +33,3 @@ toc:
     subfolderitems:
       - page: Berlin Translation
         url: /b-translation.html
-  - static-title: Bibliography
-    url: /bibliography/bibliography.html

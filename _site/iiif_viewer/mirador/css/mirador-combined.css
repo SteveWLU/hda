@@ -2093,7 +2093,6 @@ a {
   margin: 8px 0px 8px 0px;
   font-weight: bold;
   font-size: 16px;
-  color: whitesmoke;
 }
 
 .window-manifest-navigation {
@@ -2572,7 +2571,7 @@ li.highlight {
 }
 .manifest-info {
   overflow: auto;
-  background: black;
+  background: #fafafa;
 }
 .manifest-info .mirador-btn {
   font-size: .8em;

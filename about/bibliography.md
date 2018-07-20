@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /about/bibliography.html
+permalink: bibliography.html
 ---
 
 # Complete Bibliography for [Huon d'Auvergne](www.huondauvergne.org)
@@ -48,7 +48,7 @@ permalink: /about/bibliography.html
 * Tobler, Adolf. _Altfranzösisches Wörterbuch_. Wiesbaden: Franz Steiner, 1969. Electronic version includes eds. Peter Blumenthal and Achim Stein. 2002. [__TL__](http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm)
 * Tobler, Adolf, and Lommatzsch, E. _Französisches etymologisches Wörterbuch_. Franz Steiner, 1954-63. [__TL__](http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm)
 * Vieillard, Françoise, and Olivier Guyotjeannin, eds. [_Conseils pour l’édition des textes médiévaux_](https://books.google.com/books?id=T3JbuyCJKvcC&lpg=PP1&pg=PP1#v=onepage&q&f=false). I. Fascicule I: conseils généraux. Paris: Éd. du CTHS: École des chartes, 2001.
-* Wartburg, Walther von. _Französisches etymologisches Wörterbuch_. 25 vols. + Supp. F. Klopp, 1921-. [__FEW__](https://apps.atilf.fr/lecteurFEW/">
+* Wartburg, Walther von. _Französisches etymologisches Wörterbuch_. 25 vols. + Supp. F. Klopp, 1921-. [__FEW__](https://apps.atilf.fr/lecteurFEW/")
 * Zaccarello, Michelangelo. _L'edizione critica del testo letterario. Primo corso di filologia italiana_. Le Monnier, 2017.
 
 ## &#10081; Secondary material: modern editions and critical literature</h2>
