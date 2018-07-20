@@ -17,8 +17,6 @@ plugins:
   - jekyll-feed
   - jekyll-iiif
 
-include: _pages
-
 iiif_allowablefields:
   - label
   - description
