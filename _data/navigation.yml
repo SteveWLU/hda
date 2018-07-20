@@ -2,11 +2,11 @@ toc:
   - title: About
     subfolderitems:
       - page: Versioning
-        url: /versioning.html
+        url: /about/versioning.html
       - page: Bibliography
         url: /about/bibliography.html
       - page: Cite our work
-        url: /citation.html
+        url: /about/citation.html
   - title: Praxis
     subfolderitems:
       - page: General Criteria

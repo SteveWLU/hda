@@ -30,11 +30,11 @@
     <button class="dropbtn">About</button>
       <div class="dropdown-content">
         
-          <a href="/versioning.html">Versioning</a>
+          <a href="/about/versioning.html">Versioning</a>
         
           <a href="/about/bibliography.html">Bibliography</a>
         
-          <a href="/citation.html">Cite our work</a>
+          <a href="/about/citation.html">Cite our work</a>
         
       
     </div>
@@ -106,56 +106,33 @@
 </header>
 <h1 id="turin-facsimile">Turin Facsimile</h1>
 
-<div id="mirador-viewer"></div>
-<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css" />
+<iframe title="Mirador" class="iiif_presentation" allowtransparency="true" src="iiif_mirador.html" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" style="width: 100%; height: 500px;" srcdoc="&lt;link rel='stylesheet' type='text/css' href='iiif_viewer/mirador/css/mirador-combined.css'&gt;
+&lt;style&gt;
+#viewer {
+	width: 100%; 
+	height: 500px
+}
+&lt;/style&gt;
+&lt;div id='viewer'&gt;&lt;/div&gt;
 
-<style>
-    body {
-      background-color: #fff;
-      padding: 1em 0;
-      margin: 0 5% !important;
-      width: 90%;
-    }
-    #viewer {
-      display: block;
-      width: 90%;
-      height: 600px;
-      margin: 1em 5%;
-      position: relative;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-</style>
-
-<div id="viewer"></div>
-
-<script src="/iiif_viewer/mirador/mirador.js"></script>
-
-<script type="text/javascript">
+&lt;script src='/iiif_viewer/mirador/mirador.js'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
 
  $(function() {
    Mirador({
      'id': 'viewer',
      'layout': '1x1',
-     'data': [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     'mainMenuSettings': { 'show': false },
+     'data': [ {'manifestUri': '/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': '/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': '/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
      'buildPath': '/iiif_viewer/mirador/',
      'windowObjects': [{
-     'loadedManifest': 'http://localhost:4000/tiles/turin/manifest.json',
-     'viewType': 'ImageView',
-     'displayLayout': false,
-     'bottomPanel': false,
-     'bottomPanelAvailable': false,
-     'bottomPanelVisible': false,
-     'sidePanel': false,
-     'annotationLayer': false
+     	'loadedManifest': '/tiles/turin/manifest.json', 
+     	'viewType': 'BookView'
 
      }],
      'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
    });
  });
-</script>
+&lt;/script&gt;"></iframe>
 
 
 <hr>

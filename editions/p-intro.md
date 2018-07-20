@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: editions/p-intro.html
 ---
 
 # Padua Intro to Edition
