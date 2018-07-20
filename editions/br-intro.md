@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: br-intro.html
 ---
 # Barbieri Fragment Intro to Edition
 

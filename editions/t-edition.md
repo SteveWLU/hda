@@ -1,6 +1,6 @@
 ---
 layout: edition
-permalink: t-edition.html
+title: T Edition
 ---
 <head>
 <script src="../../assets/js/CETEI.js"></script>

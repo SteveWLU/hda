@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: t-intro.html
 ---
 # Turin Intro to Edition
 
