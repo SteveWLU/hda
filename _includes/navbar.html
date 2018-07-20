@@ -1,5 +1,6 @@
-{% for item in site.data.navigation.toc %}
-<nav class="site-nav">   
+<nav class="site-nav">  
+  {% for item in site.data.navigation.toc %}
+ 
   <div class="dropdown">
     <button class="dropbtn">{{ item.title }}</button>
       <div class="dropdown-content">
