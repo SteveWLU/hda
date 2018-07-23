@@ -80,11 +80,5 @@ title: Padua edition
 
 </script>
 <div id="image-viewer">
-{% iiif p01r %}
-viewer.addTiledImage({
-    tileSource: 'p-01v',
-    x: 5,
-    y: 0,
-    width: 10
-});
+{% iiif Jheronimus_Bosch_011-1 %}
 </div>
