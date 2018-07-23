@@ -15,6 +15,11 @@
       "label": "Huon d'Auvergne Digital Archive - iiif_images - Jheronimus_Bosch_011"
     },
     {
+      "@id": "http://127.0.0.1:4000/tiles/p01r/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Huon d'Auvergne Digital Archive - iiif_images - p01r"
+    },
+    {
       "@id": "http://127.0.0.1:4000/tiles/p-facsimile/manifest.json",
       "@type": "sc:Manifest",
       "label": "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"

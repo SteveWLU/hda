@@ -56,7 +56,7 @@
   </style>
 
   <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
-  
+
   </head>
   <body>
     <header role="banner" class="page-header" id="top">
@@ -136,7 +136,7 @@
 
     <main class="page-content" aria-label="Content">
         <div id="wrapper">
-  
+
       <!-- Button bar for navigation editions. -->
       <div id="edition-nav">
 
@@ -150,67 +150,37 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Pagination controls. They start disabled. -->
       <div id="controls">
-        <button id="prev" disabled>&lt;</button> 
-        <button id="next" disabled>&gt;</button> 
+        <button id="prev" disabled>&lt;</button>
+        <button id="next" disabled>&gt;</button>
       </div>
 
     </div>
-  
+
       <!-- Where the TEI goes -->
       <div id="TEI"></div>
 
       <!-- Where the image viewer goes -->
-      
+
       <div id="image-viewer">
-        <div id="mirador-viewer"></div>
-<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css">
-<style>
-    body {
-      background-color: #fff;
-      padding: 1em 0;
-      margin: 0 5% !important;
-      width: 90%;
-    }
-    #viewer {
-      display: block;
-      width: 90%;
-      height: 600px;
-      margin: 1em 5%;
-      position: relative;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-</style>
-<div id='viewer'></div>
-
-<script src='/iiif_viewer/mirador/mirador.js'></script>
-<script type='text/javascript'>
-
- $(function() {
-   Mirador({
-     'id': 'viewer',
-     'layout': '1x1',
-     'data': [ {'manifestUri': '/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': '/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': '/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     'mainMenuSettings': { 'show': false },
-     'buildPath': '/iiif_viewer/mirador/',
-     'windowObjects': [{
-     'loadedManifest': '/tiles/p-facsimile/manifest.json',
-     'viewType': 'ImageView',
-     'displayLayout': false,
-     'bottomPanel': false,
-     'bottomPanelAvailable': false,
-     'bottomPanelVisible': false,
-     'sidePanel': false,
-     'annotationLayer': false
-
-     }],
-     'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
-   });
- });
+        <div id="openseadragon2" class="iiif_image" 
+style="width: 100%; height: 500px; border: 1px solid grey"></div>
+<script>
+//<![CDATA[
+iiif_viewerfuncs.push(
+  function initOpenSeadragon2() {
+    OpenSeadragon({
+      id: "openseadragon2",
+      minZoomImageRatio: 1,
+      prefixUrl: "/iiif_viewer/openseadragon/images/",
+      tileSources: "/tiles/images/Jheronimus_Bosch_011-1/info.json",
+      crossOriginPolicy: false
+    });
+  }
+)
+//]]>
 </script>
 
       </div>
@@ -270,12 +240,12 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
           var n
           var pbs = 0
           var hide = false
-    
+
           // First, remove all hiding CSS classes, if present.
           Array.from(document.querySelectorAll('.hid_page')).map(function (el) {
             el.classList.remove('hid_page')
           })
-    
+
           // Walk trough all descendants of tei-text
           var walk = document.createTreeWalker(document.querySelector('tei-text'), NodeFilter.SHOW_ALL, null, false)
           while (n = walk.nextNode()) {
@@ -291,20 +261,20 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
                   hide = false
                 }
               }
-    
-              // If the hide flag is set and this is an empty element, hide it just in case the 
+
+              // If the hide flag is set and this is an empty element, hide it just in case the
               // CETEIcean CSS (or other) does something with it.
               if (hide && n.childNodes.length === 0) {
                 n.classList.add('hid_page')
               }
             } else if (n.nodeType === Node.TEXT_NODE) {
               // We mostly operate at text node level by storing and restoring text data.
-              
+
               // Start by always restoring text data is previously removed.
               if (n.storedContent) {
                 n.textContent = n.storedContent
               }
-    
+
               // If the 'hide' flag is set, store text content and remove it.
               if (hide) {
                 n.storedContent = n.textContent
@@ -313,30 +283,30 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
             }
           }
         }
-    
+
         // CODE TO RUN CETEICEAN
         var CETEIcean = new CETEI()
         CETEIcean.getHTML5('p.xml', function(data) {
           document.getElementById("TEI").innerHTML = ""
           document.getElementById("TEI").appendChild(data)
           CETEIcean.addStyle(document, data)
-    
+
           // Determine number of pages
           var pages = document.querySelectorAll('tei-text tei-milestone').length
-    
+
           // Only proceed if there's more than one page.
           if (pages > 1) {
             // Show first page only
             var curPage = 1
             showPage(curPage)
-    
+
             // Set up pagination buttons
             var nextBtn = document.querySelector('#next')
             var prevBtn = document.querySelector('#prev')
-    
+
             // Enable 'next' button
             nextBtn.disabled = false
-    
+
             // Routine for updating button's availability
             function updateBtns() {
               if (curPage === pages) {
@@ -350,7 +320,7 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
                 prevBtn.disabled = false
               }
             }
-    
+
             // Add click events to pagination buttons
             nextBtn.addEventListener('click', function(e) {
               if (curPage + 1 <= pages) {
@@ -367,7 +337,7 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
               updateBtns()
             })
           }
-    
+
         });
       </script>
   </body>

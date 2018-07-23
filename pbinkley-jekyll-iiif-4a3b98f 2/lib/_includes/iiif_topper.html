@@ -1,0 +1,12 @@
+<script defer="true" src="{{ site.baseurl }}/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+<script>
+//<![CDATA[
+var iiif_viewerfuncs = [];
+window.onload = function() {
+  var arrayLength = iiif_viewerfuncs.length;
+  for (var i = 0; i < arrayLength; i++) {
+    iiif_viewerfuncs[i]();
+  }
+}
+//]]
+</script>
