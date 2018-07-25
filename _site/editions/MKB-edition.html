@@ -164,6 +164,150 @@
 
       <!-- Where the image viewer goes -->
 
+      
+      
+    
+    
+    <div class="prevnext">
+    <br />
+    
+    
+    </div>
+    
+    <article class="post">
+    
+      <header class="post-header">
+        <h1 class="post-title">Padua edition</h1>
+      </header>
+    
+      <div class="post-content">
+      <script defer="true" src="/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+<script>
+//<![CDATA[
+var iiif_viewerfuncs = [];
+window.onload = function() {
+  var arrayLength = iiif_viewerfuncs.length;
+  for (var i = 0; i < arrayLength; i++) {
+    iiif_viewerfuncs[i]();
+  }
+}
+//]]
+</script>
+<div id="openseadragon1" class="iiif_image" 
+style="width: 100%; height: 500px; border: 1px solid grey"></div>
+<script>
+//<![CDATA[
+iiif_viewerfuncs.push(
+  function initOpenSeadragon1() {
+    OpenSeadragon({
+      id: "openseadragon1",
+      minZoomImageRatio: 1,
+      prefixUrl: "/iiif_viewer/openseadragon/images/",
+      tileSources: "/tiles/images//info.json",
+      crossOriginPolicy: false
+    });
+  }
+)
+//]]>
+</script>
+
+      <p>+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+ <script></script></p>
+<ul>
+  <li>var CETEIcean = new CETEI();</li>
+  <li>var manuscripts = {</li>
+  <li>“P” : {</li>
+  <li>“name”: “P”,</li>
+  <li>“resource” : “p.xml”</li>
+  <li>},</li>
+  <li>“Br” : {</li>
+  <li>“name” : “Br”,</li>
+  <li>“resource” : “br.xml”</li>
+  <li>},</li>
+  <li>“T” : {</li>
+  <li>“name” : “T”,</li>
+  <li>“resource” : “t.xml”</li>
+  <li>},</li>
+  <li>“B” : {</li>
+  <li>“name” : “B”,</li>
+  <li>“resource” : “b.xml”</li>
+  <li>}</li>
+  <li>};
++
++
++</li>
+  <li>var sectionsSet = new Set();
++</li>
+  <li>//Object for all options. Not currently used, but is updated in toggle functions</li>
+  <li>var options = {</li>
+  <li>“expanded_abbreviations”:true,</li>
+  <li>“foliation”:false,</li>
+  <li>“linebeginnings”:false,</li>
+  <li>“editor_punctuation”:true,</li>
+  <li>“editor_capitalization”:true</li>
+  <li>};
++
++// functions</li>
+  <li>function addManuscript(ms){</li>
+  <li>CETEIcean.getHTML5(ms.resource, function(data){</li>
+  <li>var ms_el = “#”+ms.name;</li>
+  <li>$(ms_el).html(“”);</li>
+  <li>$(ms_el).append(data);</li>
+  <li>CETEIcean.addStyle(document, data);
++
++//Add facs div to each cb (foliation) with valid attribute</li>
+  <li>addFoliation(ms_el);
++</li>
+  <li>$(ms_el + “ tei-lb”).toggle(); //Start off manuscripts with line beginnings off</li>
+  <li>});</li>
+  <li>} <br />
++
++</li>
+  <li>function addFoliation(ms_el) {</li>
+  <li>$(ms_el+” tei-milestone”).each(function(){</li>
+  <li>var n = $(this).attr(“n”);</li>
+  <li>var milestone = “”;</li>
+  <li>if(typeof(n) === “undefined”){</li>
+  <li>var unit = $(this).attr(“unit”);</li>
+  <li>if(typeof(unit) != “undefined”){</li>
+  <li>milestone = unit;</li>
+  <li>}</li>
+  <li>} else {</li>
+  <li>milestone = n;</li>
+  <li>}</li>
+  <li>$(this).html(“<span class="page-break">” + milestone + “</span>”);</li>
+  <li>});</li>
+  <li>
+    <p>}</p>
+  </li>
+  <li>//Add all manuscripts</li>
+  <li>for (var ms in manuscripts) {</li>
+  <li>addManuscript(manuscripts[ms]);</li>
+  <li>}</li>
+  <li></li>
+  <li>//Function to toggle foliation</li>
+  <li>$(“input[name=’foliation-toggle’”).change(function(){</li>
+  <li>options.foliation = $(this).is(“:checked”);</li>
+  <li>if(options.foliation){</li>
+  <li>if(options.linebeginnings){</li>
+  <li>$(“tei-milestone”).css(“display”, “block”);</li>
+  <li>} else {</li>
+  <li>$(“tei-milestone”).css(“display”, “inline”);</li>
+  <li>}</li>
+  <li>} else {</li>
+  <li>$(“tei-milestone”).hide();</li>
+  <li>}</li>
+  <li>});
++
++&lt;/script&gt;
++
++
++&lt;!–<script></script></li>
+</ul>
+
+      </div>
+    </article>
+
       <div id="image-viewer">
         <p>+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
  <script></script></p>

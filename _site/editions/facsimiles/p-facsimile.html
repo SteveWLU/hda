@@ -107,8 +107,6 @@
 <h1 id="padua-facsimile">Padua Facsimile</h1>
 
 <div id="mirador-viewer"></div>
-<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css" />
-
 <style>
     body {
       background-color: #fff;
@@ -130,29 +128,26 @@
 
 <div id="viewer"></div>
 
-<script src="/iiif_viewer/mirador/mirador.js"></script>
-
 <script type="text/javascript">
 
  $(function() {
    Mirador({
-     'id': 'viewer',
-     'layout': '1x1',
-     'data': [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p01r/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p01v/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     'mainMenuSettings': { 'show': false },
-     'buildPath': '/iiif_viewer/mirador/',
-     'windowObjects': [{
-     'loadedManifest': 'http://localhost:4000/tiles/p-facsimile/manifest.json',
-     'viewType': 'ImageView',
-     'displayLayout': false,
-     'bottomPanel': false,
-     'bottomPanelAvailable': false,
-     'bottomPanelVisible': false,
-     'sidePanel': false,
-     'annotationLayer': false
-
+     id: "viewer",
+     layout: "1x1",
+     data: [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p01r/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p01v/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     mainMenuSettings: { 'show': false },
+     buildPath: "/iiif_viewer/mirador/",
+     windowObjects: [{
+            loadedManifest: "http://localhost:4000/tiles/p-facsimile/manifest.json",
+            viewType: "ImageView",
+            displayLayout: false,
+            bottomPanel: false,
+            bottomPanelAvailable: false,
+            bottomPanelVisible: false,
+            sidePanel: false,
+            annotationLayer: false
      }],
-     'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
+     annotationEndpoint: { "name": "Local Storage", "module": "LocalStorageEndpoint" }
    });
  });
 </script>

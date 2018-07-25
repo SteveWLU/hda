@@ -80,5 +80,5 @@ title: Padua edition
 
 </script>
 <div id="image-viewer">
-{% iiif Jheronimus_Bosch_011-1 %}
+{% iiif_gallery p-facsimile %}
 </div>
