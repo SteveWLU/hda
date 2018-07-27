@@ -95,6 +95,8 @@
 
       <!-- Where the image viewer goes -->
 
+      <!-- Navigation code from: https://gist.github.com/budparr/3e637e575471401d01ec -->
+
       {% capture the_collection %}{{page.collection}}{% endcapture %}
       {% if page.collection %}
         {% assign documents = site[the_collection] %}
