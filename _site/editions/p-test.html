@@ -17,8 +17,8 @@
     <script src="../assets/js/CETEI.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css">
-<script src='/iiif_viewer/mirador/mirador.js'></script>
+<!-- <link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css"> -->
+<script src='/iiif_viewer/openseadragon/openseadragon.min.js'></script>
   <style>
     tei-milestone {
       display: block;
@@ -445,6 +445,17 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
 
     </div>
     </main>
+
+    <script>
+    
+    const imageurl = //path to info.json file, e.g. http://myimageserver/myimage/info.json
+  var viewer = OpenSeadragon({
+    id: "image-viewer",
+    prefixUrl: "openseadragon-bin-2.3.1/images/",
+    tileSources: [infojson]
+  });
+
+    </script>
 
     <script>
 

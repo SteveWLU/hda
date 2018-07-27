@@ -4,8 +4,10 @@ title: Padua edition
 ---
 
 
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-<!-- <script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>
+
       var CETEIcean = new CETEI();
       var manuscripts = {
       "P" : {
@@ -78,7 +80,7 @@ title: Padua edition
       }
     });
 
-</script>
+</script> -->
 <div id="image-viewer">
 {% iiif_gallery p-facsimile %}
 </div> -->
