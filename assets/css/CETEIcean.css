@@ -984,15 +984,20 @@ tei-metDecl {
 tei-metSym {
   /* Empty Rule Set */
 }
+
 tei-milestone {
-  display: none;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: orangered;
+  margin: 2em 0 2em 0;
+  font-size: 11pt;
 }
+
 tei-milestone:before {
-  /*content: "* * * * *";*/
+  content: "" attr(unit) attr(n) "";
 }
+
 tei-moduleRef {
   /* probably hide, not sure how we want to deal */
 }

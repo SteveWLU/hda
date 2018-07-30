@@ -7,7 +7,7 @@ layout: default
 
 * Introduction
 * [Edition Criteria]({{site.baseurl}}/br-praxis.html)
-* [Digital Edition]({{site.baseurl}}/br-edition.html)
+* [Digital Edition]({{site.baseurl}}/br-facsimile/br-facsimile-0001.html)
 * [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/br-facsimile.html)
 * Concordance
 * Codicology

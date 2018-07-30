@@ -25,6 +25,7 @@ title: Bibliography
 * Battisti, Carlo, and G. Alessio. _Dizionario etimologico italiano_. G. Barbera, 1950-57. __DEI__
 * Beltrami, Pietro G., dir. _Tesoro della Lingua Italiana delle Origini_ (part of [ARTFL](http://artfl-project.uchicago.edu/content/ovi-search-form) databases) [TLIO](http://tlio.ovi.cnr.it/TLIO/)
 * Bloch, O., and W. von Wartburg. _Dictionnaire étymologique de la langue française_. 2 vols. PUF, 1932.
+* Bonghi, Giuseppe. [_Arcaismi del Due-Trecento_](http://www.classicitaliani.it/index233.htm).
 * Bourgain, Pascale, and Françoise Vieillard. [_Conseils pour l’édition des textes médiévaux_](https://books.google.com/books?id=ZytdnyZcRqEC&lpg=PA1&dq=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&pg=PA1#v=onepage&q=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&f=false). Fascicule III: Textes littéraires. Éd. du CTHS, École des chartes, 2002.
 * Brambilla Ageno, Franca. _L'Edizione critica dei testi volgari_. Antenore, 1975.
 * _Dictionnaire étymologique de l’ancien français_. Niemeyer, 1974-. [__DEAF__](href="http://www.deaf-page.de/index.htm)

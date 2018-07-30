@@ -550,12 +550,47 @@ dd {
 	width: 50%;
 	text-align: right;
 }
-.previous:before {
-	content: '\00ab\00a0';
+h1.title {
+	padding: 0 1em;
+	font-size: 1.5em;
+	margin: 0 auto;
 }
-.next:after {
-	content: '\00a0\00bb';
+#foliation {
+	max-width: 11em;
+	min-width: 11em;
+	display: inline-block;
+
 }
+.prevnext {
+	display: inline-block;
+	max-width: 2em;
+	min-width: 2em;
+}
+
+#TEI-title {
+	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-variant: small-caps;
+	font-size: x-large;
+}
+
+#TEI-tools {
+	border-style: groove;
+}
+
+#scribal {
+	display: inline-block;
+	border-right-style: groove;
+}
+
+#diplomatic {
+	display: inline-block;
+	border-right-style: groove;
+}
+
+#critical {
+	display: inline-block;
+}
+
 /* --------------------------------------------------
    archive styles
 -----------------------------------------------------*/
@@ -661,7 +696,7 @@ aside li {
 -----------------------------------------------------*/
 .page-footer {
   font-family: 'Helvetica Narrow', Arial, sans-serif;
-  background: #white;
+  background: white;
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: black;
@@ -802,7 +837,7 @@ dd{
    layout styles
 -----------------------------------------------------*/
 html {
-	background: #white;
+	background: white;
 }
 body {
 	width: 80%;
@@ -890,7 +925,7 @@ a.more {
 }
 }
 
-/* Local Styles - to be moved into separate files later */
+/* Local Styles - to be sorted or moved into separate files later */
 
 img#initial {
   max-width: 25%;
@@ -920,6 +955,45 @@ div#image-viewer {
 }
 .page-break {
 	color: blue;
+}
+
+div#TEI {
+	float: left;
+	width: 50%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#post-content {
+	float: left;
+	width: 50%;
+}
+
+#folio-nav {
+	margin-left: 46%;
+}
+
+/* unsure what these do... maybe the ul and li from p-intro.md */ 
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-right: 20px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+}
+
+/* --------------------------------------------------
+   main footer styles
+-----------------------------------------------------*/
+
+.hid_page {
+	display: none;
 }
 
 /* Toggle buttons */

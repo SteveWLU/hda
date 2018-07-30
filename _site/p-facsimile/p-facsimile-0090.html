@@ -1,21 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
+</head>
+
+<body>
+
+<header role="banner" class="page-header" id="top">
+  <h1>Huon d'Auvergne Digital Archive</h1>
+  <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+    <nav class="site-nav">  
+  
+ 
+  <div class="dropdown">
+    <button class="dropbtn">About</button>
+      <div class="dropdown-content">
+        
+          <a href="/about/versioning.html">Versioning</a>
+        
+          <a href="/about/bibliography.html">Bibliography</a>
+        
+          <a href="/about/citation.html">Cite our work</a>
+        
+      
+    </div>
+  </div>
 
   
+ 
+  <div class="dropdown">
+    <button class="dropbtn">Praxis</button>
+      <div class="dropdown-content">
+        
+          <a href="/general.html">General Criteria</a>
+        
+          <a href="/praxis/b-praxis.html">Berlin Criteria</a>
+        
+          <a href="/praxis/t-praxis.html">Turin Criteria</a>
+        
+          <a href="/praxis/p-praxis.html">Padua Criteria</a>
+        
+          <a href="/praxis/br-praxis.html">Barbieri Fragment Criteria</a>
+        
+      
+    </div>
+  </div>
+
+  
+ 
+  <div class="dropdown">
+    <button class="dropbtn">Editions</button>
+      <div class="dropdown-content">
+        
+          <a href="/editions/b-intro.html">Berlin (B)</a>
+        
+          <a href="/editions/t-intro.html">Turin (T)</a>
+        
+          <a href="/editions/p-intro.html">Padua (P)</a>
+        
+          <a href="/editions/br-intro.html">Barbieri Fragment (Br)</a>
+        
+      
+    </div>
+  </div>
+
+  
+ 
+  <div class="dropdown">
+    <button class="dropbtn">Translation</button>
+      <div class="dropdown-content">
+        
+          <a href="/b-translation.html">Berlin Translation</a>
+        
+      
+    </div>
+  </div>
+
+  
+</nav> 
+
+</header>
+
+<div id="TEI-title"></div>
 
 
-<div class="prevnext">
-Previous: <a href="/p-facsimile/p-facsimile-0089.html" class="prev">p27r</a><br />
-
-Next: <a href="/p-facsimile/p-facsimile-0091.html" class="next">p28r</a>
+<div id="TEI-tools">
+  <div id="scribal">Scribal</div>
+  <div id="diplomatic">Diplomatic</div>
+  <div id="critical">Critical</div>
 </div>
 
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">p27v</h1>
-  </header>
+<!-- Liquid code for transcription and folio navigation -->
 
-  <div class="post-content">
-	<!-- <script defer="true" src="/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+
+  
+  
+
+<!-- HTML for transcription and folio navigation -->
+<div id="folio-nav">
+  <div class="prevnext">
+  <a href="/p-facsimile/p-facsimile-0089.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
+  </div>
+
+  <div id="foliation">p27v</div>
+
+  <div class="prevnext">
+  <a href="/p-facsimile/p-facsimile-0091.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
+  </div>
+</div>
+
+<div id="edition-viewer">
+  
+<!-- Insert TEI content-->
+<div id="TEI" data-milestone=""></div>
+
+<!-- Insert OpenSeaDragon viewer and content -->
+  <div id="post-content">
+  <script defer="true" src="/iiif_viewer/openseadragon/openseadragon.min.js"></script>
 <script>
 //<![CDATA[
 var iiif_viewerfuncs = [];
@@ -44,8 +151,77 @@ iiif_viewerfuncs.push(
 )
 //]]>
 </script>
- -->
-	
+
+  
 
   </div>
-</article>
+
+</div>
+
+  <script>
+  // CODE TO HIDE A PAGE
+  function showPage(page) {
+    // Hide all text that does not belong to the page indicated
+    var n
+    var pbs = 0
+    var hide = false
+
+    // First, remove all hiding CSS classes, if present.
+    Array.from(document.querySelectorAll('.hid_page')).map(function (el) {
+      el.classList.remove('hid_page')
+    })
+
+    // Walk trough all descendants of tei-text
+    var walk = document.createTreeWalker(document.querySelector('tei-text'), NodeFilter.SHOW_ALL, null, false)
+    while (n = walk.nextNode()) {
+      if (n.nodeType === Node.ELEMENT_NODE) {
+        //  If this is a page beginning, update page count.
+        //  If page count is lower or higher than the page requested, set 'hide' flag.
+        //  If page count corresponds to the page requested, remove 'hide' flag.
+        if (n.localName === 'tei-milestone' ) {
+          pbs++
+          if (pbs != page) {
+            hide = true
+          } else {
+            hide = false
+          }
+        }
+
+        // If the hide flag is set and this is an empty element, hide it just in case the
+        // CETEIcean CSS (or other) does something with it.
+        if (hide && n.childNodes.length === 0) {
+          n.classList.add('hid_page')
+        }
+      } else if (n.nodeType === Node.TEXT_NODE) {
+        // We mostly operate at text node level by storing and restoring text data.
+
+        // Start by always restoring text data is previously removed.
+        if (n.storedContent) {
+          n.textContent = n.storedContent
+        }
+
+        // If the 'hide' flag is set, store text content and remove it.
+        if (hide) {
+          n.storedContent = n.textContent
+          n.textContent = ''
+        }
+      }
+    }
+  }
+
+  // CODE TO RUN CETEICEAN
+  var CETEIcean = new CETEI()
+  CETEIcean.getHTML5("/editions/p.xml", function(data) {
+    document.getElementById("TEI").innerHTML = ""
+    document.getElementById("TEI").appendChild(data)
+    CETEIcean.addStyle(document, data)
+
+    //get current page
+    const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+    //show current page
+    showPage(currentMilestone)
+  });
+
+</script>
+</body>
+</html>

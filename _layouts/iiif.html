@@ -1,11 +1,41 @@
 ---
 ---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
+</head>
+
+<body>
+
+<header role="banner" class="page-header" id="top">
+  <h1>{{site.title}}</h1>
+  <p>{{site.tagline}}</p>
+    {% include navbar.html %}
+</header>
+
+<div id="TEI-title">{{page.manuscript}}</div>
+
+
+<div id="TEI-tools">
+  <div id="scribal">Scribal</div>
+  <div id="diplomatic">Diplomatic</div>
+  <div id="critical">Critical</div>
+</div>
+
+
+<!-- Liquid code for transcription and folio navigation -->
 
 {% capture the_collection %}{{page.collection}}{% endcapture %}
   {% if page.collection %}
     {% assign documents = site[the_collection] %}
   {% endif %}
-{% for link in documents  %}
+  {% for link in documents  %}
   {% if link.title == page.title %}
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
@@ -20,61 +50,32 @@
   {% assign prev = link %}
 {% endfor %}
 
-<div class="prevnext">
-{% if prevurl %}Previous: <a href="{{site.baseurl}}{{prevurl}}" class="prev">{{prevtitle}}</a>{% endif %}<br />
+<!-- HTML for transcription and folio navigation -->
+<div id="folio-nav">
+  <div class="prevnext">
+  {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>{% endif %}
+  </div>
 
-{% if nexturl %}Next: <a href="{{site.baseurl}}{{nexturl}}" class="next">{{nexttitle}}</a>{% endif %}
+  <div id="foliation">{{ page.title }}</div>
+
+  <div class="prevnext">
+  {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>{% endif %}
+  </div>
 </div>
 
-<article class="post">
+<div id="edition-viewer">
+  
+<!-- Insert TEI content-->
+<div id="TEI" data-milestone="{{ page.milestone }}"></div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-	<!-- {% iiif %} -->
-	{{ content }}
+<!-- Insert OpenSeaDragon viewer and content -->
+  <div id="post-content">
+  {% iiif %}
+  {{ content }}
   </div>
-  <div id="TEI" data-milestone="{{ page.milestone }}"></div>
 
-  <style>
-    tei-milestone {
-      display: block;
-      width: 100%;
-      text-align: left;
-      color: orangered;
-      margin: 2em 0 2em 0;
-      font-size: 11pt;
-    }
+</div>
 
-    tei-milestone:before {
-      content: "" attr(unit) attr(n) "";
-    }
-
-    tei-teiHeader {
-      display: none;
-    }
-
-    .hid_page {
-      display: none;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      margin-right: 20px;
-      height: 50px;
-      line-height: 50px;
-      display: inline-block;
-    }
-  </style>
-
-  <script src="https://teic.github.io/CETEIcean/js/CETEI.js"></script>
   <script>
   // CODE TO HIDE A PAGE
   function showPage(page) {
@@ -125,6 +126,7 @@
       }
     }
   }
+
   // CODE TO RUN CETEICEAN
   var CETEIcean = new CETEI()
   CETEIcean.getHTML5("{{site.baseurl}}/editions/p.xml", function(data) {
@@ -137,5 +139,7 @@
     //show current page
     showPage(currentMilestone)
   });
+
 </script>
-</article>
+</body>
+</html>

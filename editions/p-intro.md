@@ -8,7 +8,7 @@ layout: default
 
 * Introduction
 * [Edition Criteria]({{site.baseurl}}/praxis/p-praxis.html)
-* [Digital Edition]({{site.baseurl}}/editions/p-edition.html)
+* [Digital Edition]({{site.baseurl}}/p-facsimile/p-facsimile-0001.html)
 * [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/p-facsimile.html)
 * Concordance
 * Codicology
