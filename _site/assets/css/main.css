@@ -579,18 +579,25 @@ h1.title {
 
 #scribal {
 	display: inline-block;
-	border-right-style: groove;
+	
 }
 
 #diplomatic {
 	display: inline-block;
-	border-right-style: groove;
+
 }
 
 #critical {
 	display: inline-block;
 }
 
+#notes {
+	display: inline-block;
+}
+
+#medieval.cats {
+	display: inline-block;
+}
 .iiif_image {
 	border-left: 1px solid gray;
 	width: 40%;
@@ -1004,8 +1011,8 @@ li {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 47px;
+  height: 20px;
 }
 
 .switch input {display:none;}
@@ -1025,8 +1032,8 @@ li {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 13px;
+  width: 13px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -1035,11 +1042,11 @@ li {
 }
 
 input:checked + .slider {
-  background-color: #a10d09;
+  background-color: hotpink;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #a10d09;
+  box-shadow: 0 0 1px pink;
 }
 
 input:checked + .slider:before {
@@ -1056,3 +1063,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.slider::after {
+  position:relative;
+  right:-55px;
+
+/* content: "Scribal" */
+}
+

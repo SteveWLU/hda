@@ -98,10 +98,34 @@
 
 
 <div id="TEI-tools">
-  <div id="scribal">Scribal</div>
-  <div id="diplomatic">Diplomatic</div>
-  <div id="critical">Critical</div>
+  <div id="scribal">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label>Scribal</div>
+  <div id="diplomatic">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label>Diplomatic</div>
+  <div id="critical">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label>Critical</div>
+  <div id="notes">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label>Notes</div>
+  <div id="cats">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label>Medieval Cats</div>
+  
 </div>
+
 
 
 <!-- Liquid code for transcription and folio navigation -->
@@ -142,7 +166,8 @@ window.onload = function() {
 }
 //]]
 </script>
-<div id="openseadragon1" class="iiif_image"></div>
+<div id="openseadragon1" class="iiif_image" 
+style="width: 100%; height: 500px; border: 1px solid grey"></div>
 <script>
 //<![CDATA[
 iiif_viewerfuncs.push(
