@@ -591,6 +591,18 @@ h1.title {
 	display: inline-block;
 }
 
+.iiif_image {
+	border-left: 1px solid gray;
+	width: 40%;
+	height: 890px;
+	border-style: groove;
+	display: inline-block;
+	position: absolute;
+	float: left;
+}
+
+/* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
+
 /* --------------------------------------------------
    archive styles
 -----------------------------------------------------*/
@@ -946,8 +958,6 @@ div#edition-container {
 div#TEI {
   float: left;
   width: 50%;
-  border-style: solid;
-  border-width: 1px;
 }
 div#image-viewer {
 	margin-left: 50%;
@@ -955,13 +965,6 @@ div#image-viewer {
 }
 .page-break {
 	color: blue;
-}
-
-div#TEI {
-	float: left;
-	width: 50%;
-	border-style: solid;
-	border-width: 1px;
 }
 
 #post-content {

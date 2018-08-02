@@ -986,17 +986,18 @@ tei-metSym {
 }
 
 tei-milestone {
-  display: block;
+  display: none;
+  /* display: block;
   width: 100%;
   text-align: left;
   color: orangered;
   margin: 2em 0 2em 0;
-  font-size: 11pt;
+  font-size: 11pt; */
 }
 
-tei-milestone:before {
+/* tei-milestone:before {
   content: "" attr(unit) attr(n) "";
-}
+} */
 
 tei-moduleRef {
   /* probably hide, not sure how we want to deal */
