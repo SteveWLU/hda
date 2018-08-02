@@ -307,12 +307,13 @@ p {
 	margin: 0 0 1em 0;
 }
 a {
-	color: #42659A;
+	color: #000000;
 	line-height: inherit;
+	text-decoration: none;
 }
-a:hover {
+/* a:hover {
 	color: #213149;
-}
+} */
 img, object, embed {
 	max-width: 100%;
 	display: block;
