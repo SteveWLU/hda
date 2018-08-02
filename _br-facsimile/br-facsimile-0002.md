@@ -1,6 +1,8 @@
 ---
 layout: iiif
-title: 'br10'
-iiif_image: 'br-facsimile-0002'
+title: 'folio 1v'
+sigla: Br
+iiif_image: 'br-facsimile-0003'
+milestone: 2
 ---
 

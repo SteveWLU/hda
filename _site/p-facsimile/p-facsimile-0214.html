@@ -18,7 +18,7 @@
 <body>
 
 <header role="banner" class="page-header" id="top">
-  <h1>Huon d'Auvergne Digital Archive</h1>
+    <h1><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
   <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
     <nav class="site-nav">  
   
@@ -216,18 +216,14 @@ iiif_viewerfuncs.push(
     }
   }
 
-  // CODE TO RUN CETEICEAN
-  var CETEIcean = new CETEI()
-  CETEIcean.getHTML5("/editions/p.xml", function(data) {
-    document.getElementById("TEI").innerHTML = ""
-    document.getElementById("TEI").appendChild(data)
-    CETEIcean.addStyle(document, data)
+
 
     //get current page
     const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
     //show current page
     showPage(currentMilestone)
   });
+
 
 </script>
 </div>
