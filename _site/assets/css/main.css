@@ -406,10 +406,13 @@ nav li a {
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    margin: 0;
+		margin: 0;
+		width: 150px;
+		border-radius: 8px;
 }
 .site-nav a:hover, .dropdown:hover .dropbtn {
 	display:block;
+	color: lightgray;
 }
 .dropdown-content {
     display: none;
