@@ -1,8 +1,6 @@
 ---
 layout: iiif
-title: 'folio 5r'
-manuscript: Padua, Biblioteca del seminario vescovile, MS 32
+title: 'p05r'
 iiif_image: 'p-facsimile-0009'
-milestone: 9
 ---
 

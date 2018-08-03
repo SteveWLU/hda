@@ -1,8 +1,6 @@
 ---
 layout: iiif
-title: 'folio 2r'
-sigla: P
-manuscript: Padua, Biblioteca del seminario vescovile, MS 32
+title: 'p02r'
 iiif_image: 'p-facsimile-0003'
-milestone: 3
 ---
+

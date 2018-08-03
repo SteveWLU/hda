@@ -3,14 +3,14 @@
   "@id": "http://127.0.0.1:4000/tiles/images/br-facsimile-0013",
   "protocol": "http://iiif.io/api/image",
   "width": 2851,
-  "height": 4002,
+  "height": 3968,
   "sizes": [
     {
       "width": 2851,
-      "height": 4002
+      "height": 3968
     },
     {
-      "width": 178,
+      "width": 180,
       "height": 250
     }
   ],

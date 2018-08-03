@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>br11r</title>
+    <title>folio 11r</title>
     <link rel="stylesheet" href="../assets/css/CETEIcean.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
@@ -135,7 +135,7 @@
   <a href="/br-facsimile/br-facsimile-0020.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
   </div>
 
-  <div id="foliation">br11r</div>
+  <div id="foliation">folio 11r</div>
 
   <div class="prevnext">
   <a href="/br-facsimile/br-facsimile-0022.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
@@ -145,7 +145,7 @@
 <div id="edition-viewer">
   
 <!-- Insert TEI content-->
-<div id="TEI" data-milestone=""></div>
+<div id="TEI" data-milestone="21"></div>
 
 <!-- Insert OpenSeaDragon viewer and content -->
   <div id="post-content">
@@ -235,6 +235,13 @@ iiif_viewerfuncs.push(
     }
   }
 
+
+  // CODE TO RUN CETEICEAN
+  var CETEIcean = new CETEI()
+  CETEIcean.getHTML5("/editions/br.xml", function(data) {
+    document.getElementById("TEI").innerHTML = ""
+    document.getElementById("TEI").appendChild(data)
+    CETEIcean.addStyle(document, data)
 
 
     //get current page

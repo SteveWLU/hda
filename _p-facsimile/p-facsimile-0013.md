@@ -1,7 +1,6 @@
 ---
 layout: iiif
-title: 'folio 7r'
+title: 'p07r'
 iiif_image: 'p-facsimile-0013'
-milestone: 13
 ---
 

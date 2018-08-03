@@ -1059,11 +1059,11 @@ li {
 }
 
 input:checked + .slider {
-  background-color: hotpink;
+  background-color: #a10d09;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px pink;
+  box-shadow: 0 0 1px a10d09;
 }
 
 input:checked + .slider:before {

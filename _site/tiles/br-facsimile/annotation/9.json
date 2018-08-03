@@ -11,8 +11,8 @@
       "@id": "http://127.0.0.1:4000/tiles/images/br-facsimile-0009",
       "profile": "http://iiif.io/api/image/2/level0.json"
     },
-    "width": 2816,
-    "height": 3986
+    "width": 2843,
+    "height": 4002
   },
   "on": "http://127.0.0.1:4000/tiles/br-facsimile/canvas/9.json",
   "@context": "http://iiif.io/api/presentation/2/context.json"

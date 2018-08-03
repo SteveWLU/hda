@@ -611,8 +611,8 @@ tei-TEI tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
   color: #a10d09;
-  font-size: 2em;
-  margin-left: 1.5em;
+  font-size: 1.26em;
+  margin-left: 2.25em;
 }
 /* tei-body > tei-head {
   font-size: 180%;
@@ -677,10 +677,22 @@ tei-heraldry {
   /* Empty Rule Set */
 }
 tei-hi[rend="caps"] {
-  font-weight:bold;
+  /* font-weight:bold; */
 }
 tei-hi[rend="italic"] {
-  font-style: italic;
+  /* font-style: italic; */
+}
+tei-hi[rend="red-initial"] {
+  font-family: 'MedievalSharp', cursive;
+  color: red;
+}
+tei-hi[rend="blue-initial"] {
+  font-family: 'MedievalSharp', cursive;
+  color: blue;
+}
+tei-hi[rend="black-initial"] {
+  font-family: 'MedievalSharp', cursive;
+  color: black;
 }
 tei-hi {
   /* GLS: do we want to bold this or change the background color? */
@@ -1516,7 +1528,7 @@ tei-shift {
   /* seems a bit to complex to do anything with */
 }
 tei-sic {
-  /* rend as choice when contained within a choice tag, perhaps as label with parenthesis after when alone */
+  display: none;
 }
 tei-signatures {
   /* DON't KNOW, look again later */

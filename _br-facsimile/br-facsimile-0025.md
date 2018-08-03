@@ -1,6 +1,7 @@
 ---
 layout: iiif
-title: 'br13r'
+title: 'folio 13r'
+sigla: 'Br'
 iiif_image: 'br-facsimile-0025'
+milestone: 25
 ---
-
