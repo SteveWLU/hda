@@ -389,6 +389,10 @@ nav li a {
 	letter-spacing: 0.1em;
 }
 
+nav li.active a {
+	color: #ffffff;
+}
+
 .site-nav {
 	overflow: hidden;
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -409,6 +413,7 @@ nav li a {
 		margin: 0;
 		width: 150px;
 		border-radius: 8px;
+		text-decoration: &#9660;
 }
 .site-nav a:hover, .dropdown:hover .dropbtn {
 	display:block;
@@ -435,6 +440,15 @@ nav li a {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.fa-arrow-down{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+.fa-arrow-down.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
 }
 
 /* --------------------------------------------------
