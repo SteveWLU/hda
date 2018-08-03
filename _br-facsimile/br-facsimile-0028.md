@@ -1,6 +1,6 @@
 ---
 layout: iiif
-title: 'br7'
+title: 'br14v'
 iiif_image: 'br-facsimile-0028'
 ---
 

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
   <script src="assets/scripts/modernizr.custom.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,7 +28,8 @@
       <h1 id="site-title"><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
       <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
     </div>
- <nav class="site-nav">  
+    <div id="nav-menu">
+      <nav class="site-nav">  
   
  
   <div class="dropdown">
@@ -97,6 +99,7 @@
   
 </nav> 
 
+    </div>
 <!-- <nav role="navigation">
 <input type="checkbox" id="menu-toggle">
 <label for="menu-toggle" class="toggle-label"><span>menu</span></label>
@@ -138,7 +141,7 @@
    Mirador({
      id: "viewer",
      layout: "1x1",
-     data: [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p01r/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/Jheronimus_Bosch_011/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p01v/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     data: [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
      mainMenuSettings: { 'show': false },
      buildPath: "/iiif_viewer/mirador/",
      windowObjects: [{

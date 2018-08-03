@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
   <script src="{{ site.baseurl }}assets/scripts/modernizr.custom.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,7 +28,9 @@
       <h1 id="site-title"><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></h1>
       <p>{{site.tagline}}</p>
     </div>
- {% include navbar.html %}
+    <div id="nav-menu">
+      {% include navbar.html %}
+    </div>
 <!-- <nav role="navigation">
 <input type="checkbox" id="menu-toggle">
 <label for="menu-toggle" class="toggle-label"><span>menu</span></label>

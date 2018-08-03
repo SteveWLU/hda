@@ -290,7 +290,7 @@ th {
   Global settings
 -----------------------------------------------------*/
 body {
-	font: 110% 'Roboto Slab', Georgia, serif;
+	font-family: 110% 'Barlow Semi Condensed', sans-serif;
 	background: white;
 	direction: ltr;
 }
@@ -371,6 +371,7 @@ header p {
 	font-weight: 400;
 	color: #666;
 	text-transform: uppercase;
+	margin: none;
 }
 /* --------------------------------------------------
    top navigation styles
@@ -390,8 +391,8 @@ nav li a {
 
 .site-nav {
 	overflow: hidden;
-	font-family: 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
-
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	float: right;
 }
 
 .dropdown {
@@ -399,7 +400,7 @@ nav li a {
     overflow: hidden;
 }
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: black;
@@ -427,7 +428,7 @@ nav li a {
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: whitesmoke;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -613,10 +614,15 @@ img#dragon {
 	display: inline-block;
 	height: auto;
 	float: left;
-	margin: none;
+	margin: none !important;
 }
 h1#site-title {
 	display: inline-block;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+div#header-title {
+	margin: 2% 0 0 11%;
 }
 /* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
 
@@ -796,9 +802,9 @@ nav li {
 	background: #42659A;
 	margin-bottom: .2em;
 }
-nav li:hover {
+/* nav li:hover {
 	background: pink;
-}
+} */
 nav li a {
 	font-size: 1.2em;
 	font-weight: 100;
@@ -812,9 +818,9 @@ nav li a {
 	max-width: 100%;
 	width:100%;
 }
-nav li a:hover {
+/* nav li a:hover {
 	color: whitesmoke;
-}
+} */
 /*toggle check styles*/
 .toggle-label {
 	display: block;
@@ -894,12 +900,12 @@ aside {
    header styles
 -----------------------------------------------------*/
 header h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #5f0000;
 	text-transform: uppercase;
 }
 /* --------------------------------------------------
@@ -931,10 +937,10 @@ nav li a {
 	text-decoration: none;
 	letter-spacing: 0.1em;
 }
-nav li a:hover {
+/* nav li a:hover {
 	color: white;
 	background: #333;
-}
+} */
 
 /* --------------------------------------------------
    article styles
@@ -966,7 +972,8 @@ img#initial {
 }
 
 p.intro {
-    margin-top: 10em;
+	margin-top: 10em;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 div#edition-container {
