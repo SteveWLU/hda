@@ -614,10 +614,10 @@ tei-TEI tei-head {
   font-size: 2em;
   margin-left: 1.5em;
 }
-tei-body > tei-head {
+/* tei-body > tei-head {
   font-size: 180%;
   text-indent: -0.5em;
-}
+} */
 tei-div.textpart {
   display: none;
 }
@@ -985,18 +985,18 @@ tei-metSym {
   /* Empty Rule Set */
 }
 
-tei-milestone {
+/* tei-milestone {
   /* display: block;
   width: 100%;
   text-align: left;
   color: orangered;
   margin: 2em 0 2em 0;
   font-size: 11pt; */
-}
+/* } */
 
-tei-milestone:before {
+/* tei-milestone:before {
   content: "" attr(unit) attr(n) "";
-}
+} */ 
 
 tei-moduleRef {
   /* probably hide, not sure how we want to deal */
