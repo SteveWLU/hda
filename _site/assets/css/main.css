@@ -417,7 +417,7 @@ nav li.active a {
 }
 .site-nav a:hover, .dropdown:hover .dropbtn {
 	display:block;
-	color: lightgray;
+	background-color: lightgray;
 }
 .dropdown-content {
     display: none;
