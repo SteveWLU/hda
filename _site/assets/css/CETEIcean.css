@@ -531,13 +531,14 @@ tei-gap {
   /* GLS: Depending upon how we handle gap and lacuna, we may want to enclose in [] */
 }
 tei-gap[data-tei-reason='lost']:before {
-  content:'[';
+  /* content:'['; */
 }
-tei-gap[data-tei-reason='lost']:after {
-  content: attr(data-content) ']';
+tei-gap[reason="missing-illumination"] {
+  /* margin-bottom: 7em;
+  display: inline-block; */
 }
 tei-gap[data-tei-reason='illegible']:after {
-  content: attr(data-content);
+  /* content: attr(data-content); */
 }
 tei-gb {
   /* Empty Rule Set */
@@ -685,14 +686,17 @@ tei-hi[rend="italic"] {
 tei-hi[rend="red-initial"] {
   font-family: 'MedievalSharp', cursive;
   color: red;
+  font-size: -webkit-xxx-large;
 }
 tei-hi[rend="blue-initial"] {
   font-family: 'MedievalSharp', cursive;
   color: blue;
+  font-size: -webkit-xxx-large;
 }
 tei-hi[rend="black-initial"] {
   font-family: 'MedievalSharp', cursive;
   color: black;
+  font-size: -webkit-xxx-large;
 }
 tei-hi {
   /* GLS: do we want to bold this or change the background color? */

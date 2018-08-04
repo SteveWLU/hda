@@ -1,15 +1,24 @@
 ---
 layout: default
+title: 'Padua, Biblioteca del seminario vescovile, MS 32'
+sigla: 'P'
+editor: 'Stephen P. McCormick'
 ---
 
-# Padua Intro to Edition
 
-## Table of Contents
+<h1 id="ms-intro">{{page.title}}</h1>
 
-* Introduction
-* [Edition Criteria]({{site.baseurl}}/praxis/p-praxis.html)
-* [Digital Edition]({{site.baseurl}}/p-facsimile/p-facsimile-0001.html)
-* [Digital Facsimile]({{site.baseurl}}/editions/facsimiles/p-facsimile.html)
-* Concordance
-* Codicology
-* Glossary
+<div id="ms-intro-toc">
+<div><img id="toc" src="../assets/images/p-intro.jpg"></div>
+<div id="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li>Introduction</li>
+            <li><a href="{{site.baseurl}}/praxis/p-praxis.html">Edition Criteria</a></li>
+            <li><a href="{{site.baseurl}}/p-facsimile/p-facsimile-0001.html">Digital Edition</a></li>
+            <li><a href="{{site.baseurl}}/editions/facsimiles/p-facsimile.html">Digital Facsimile</a></li>
+            <li>Concordance</li>
+            <li>Codicology</li>
+            <li>Glossary</li>
+        </ol>
+</div>

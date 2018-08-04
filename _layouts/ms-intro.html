@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -19,25 +21,53 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
-<body>
+
 <header role="banner" class="page-header" id="top">
- <h1>{{site.title}}</h1>
- <p>{{site.tagline}}</p>
- {% include navbar.html %}
-
- <!-- Intro Data Row 1 -->
-     <div class="row">
-         <div class="col-6">
-             <p class="ms-resp">Edition prepared by <%= @editor %></p>
-             <p class="ms-resp">TEI encoding by <%= @encoder %> and Leslie Zarker Morgan</p>
-         </div>
-         <div class="col-6">
-         </div>
-     </div>
-
-
+    <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
+    <div id="header-title">
+      <h1 id="site-title"><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></h1>
+      <p>{{site.tagline}}</p>
+    </div>
+    <div id="nav-menu">
+      {% include navbar.html %}
+    </div>
 </header>
-{{content}}
-{% include footer.html %}
+
+<body>
+
+<h1 id="ms-intro">{{page.title}}</h1>
+
+{% if page.sigla == 'P' %}
+
+<div id="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li>Introduction</li>
+            <li><a href="{{site.baseurl}}/praxis/p-praxis.html">Edition Criteria</a></li>
+            <li><a href="{{site.baseurl}}/p-facsimile/p-facsimile-0001.html">Digital Edition</a></li>
+            <li><a href="{{site.baseurl}}/editions/facsimiles/p-facsimile.html">Digital Facsimile</a></li>
+            <li>Concordance</li>
+            <li>Codicology</li>
+            <li>Glossary</li>
+        </ol>
+</div>
+
+{% elsif page.sigla == 'Br' %}
+
+<div id="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li>Introduction</li>
+            <li><a href="{{site.baseurl}}/br-praxis.html">Edition Criteria</a></li>
+            <li><a href="{{site.baseurl}}/editions/br-facsimile/br-facsimile-001.html">Digital Edition</a></li>
+            <li><a href="{{site.baseurl}}/editions/facsimiles/br-facsimile.html">Digital Facsimile</a></li>
+            <li>Concordance</li>
+            <li>Codicology</li>
+            <li>Glossary</li>
+        </ol>
+        </div>
+{% endif %}
+
 </body>
 </html>
+

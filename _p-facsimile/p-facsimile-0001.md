@@ -1,6 +1,7 @@
 ---
 layout: iiif
-title: 'p01r'
+title: 'folio 1r'
+sigla: 'P'
 iiif_image: 'p-facsimile-0001'
+milestone: 1
 ---
-

@@ -295,7 +295,7 @@ body {
 	direction: ltr;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 700;
 }
 *, *:before, *:after {
@@ -367,7 +367,7 @@ header h1 {
 	text-align:left;
 }
 header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #666;
 	text-transform: uppercase;
@@ -383,7 +383,7 @@ nav ul, nav li {
 	min-height: 0;
 }
 nav li a {
-	font: 1em 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Barlow Semi Condensed', sans-serif;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 0.1em;
@@ -392,7 +392,8 @@ nav li a {
 .site-nav {
 	overflow: hidden;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	float: right;
+	float: left;
+	margin-left: 1%;
 }
 
 .dropdown {
@@ -507,7 +508,7 @@ figcaption {
 	font-style: italic;
 }
 blockquote {
-	font: 1.5em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1.5em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #6d6d6d;
 	padding-left: 1em;
@@ -526,7 +527,7 @@ article footer {
 	padding: 1em 0;
 }
 dt {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	color: #42659A;
@@ -570,13 +571,14 @@ h1.title {
 }
 
 #TEI-title {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-variant: small-caps;
 	font-size: x-large;
 }
 
 #TEI-tools {
 	border-style: groove;
+	margin-bottom: 5%;
 }
 
 #scribal {
@@ -597,9 +599,6 @@ h1.title {
 	display: inline-block;
 }
 
-#medieval.cats {
-	display: inline-block;
-}
 .iiif_image {
 	border-left: 1px solid gray;
 	width: 40%;
@@ -610,7 +609,7 @@ h1.title {
 	float: left;
 }
 img#dragon {
-	max-width: 10%;
+	max-width: 15%;
 	display: inline-block;
 	height: auto;
 	float: left;
@@ -622,8 +621,78 @@ h1#site-title {
 }
 
 div#header-title {
-	margin: 2% 0 0 11%;
+	margin: 2% 0 0 17%;
 }
+
+div#toc-header {
+	float: left;
+	color: #5f0000;
+	margin: 5% 0 0 0;
+	display: inline-block;
+}
+div#toc {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 5%;
+}
+
+h1#edition-criteria-for-padua {
+	margin: 10% 0 0 0;
+	color: #5f0000;
+}
+
+h1#ms-intro {
+	margin: 8% 0 0 0;
+	color: #5f0000;
+}
+div#ms-intro-toc {
+	margin: 5% 0 0 5%;
+}
+img#toc {
+    float: left;
+    display: inline-block;
+		border: 2px solid #5f0000;
+		width: 30%;
+}
+
+#toc ol {
+	display: table-cell;
+}
+
+#toc h2 {
+	font-size: 2em;
+	color: #5f0000;
+	font: 'Barlow Semi Condensed', sans-serif;
+}
+
+#toc a, h2 {
+	color: #5f0000;
+	font-size: 1em;
+	font: 'Barlow Semi Condensed', sans-serif;
+}
+
+#toc ol > li {
+	display: table-row;
+	color: #D6D6D6;
+	font-size: 2em;
+}
+/* #toc ol {
+	counter-reset: item;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	padding-left: 3.5em;
+	line-height: 2.5em;
+}
+#toc ol>li {
+	color: lightgray;
+	float: left;
+	padding-right: 25%;
+	display: block;
+	list-style-type: lower-roman;
+	width: 100%;
+} */
+
+/* HERE */
 /* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
 
 /* --------------------------------------------------
@@ -825,7 +894,7 @@ nav li a {
 .toggle-label {
 	display: block;
 	background: #42659A;
-	font: 0.8em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 0.8em 'Barlow Semi Condensed', sans-serif;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: white;
@@ -885,8 +954,7 @@ body {
 .index, .archive {
   display: inline-block;
   width: 100%;
-  padding-right: 8%;
-  padding-left: 10%;
+  padding: 0 8% 0 10%;
 }
 aside {
 	float: left;
@@ -981,7 +1049,8 @@ div#edition-container {
 }
 div#TEI {
   float: left;
-  width: 50%;
+	width: 50%;
+	margin-top: 4%;
 }
 div#image-viewer {
 	margin-left: 50%;

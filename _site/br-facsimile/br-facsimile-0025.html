@@ -18,8 +18,12 @@
 <body>
 
 <header role="banner" class="page-header" id="top">
-    <h1><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
-  <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+  <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
+  <div id="header-title">
+    <h1 id="site-title"><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
+    <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+  </div>
+  <div id="nav-menu">
     <nav class="site-nav">  
   
  
@@ -90,11 +94,19 @@
   
 </nav> 
 
+  </div>
 </header>
 <main class="page-content" aria-label="Content">
 <div id="wrapper">
 
 <div id="TEI-title"></div>
+
+
+<!-- Liquid code for transcription and folio navigation -->
+
+
+  
+  
 
 
 <div id="TEI-tools">
@@ -118,29 +130,20 @@
           <input type="checkbox" checked>
           <div class="slider round"></div>
       </label>Notes</div>
-  
-</div>
+  <!-- HTML for transcription and folio navigation -->
+  <div id="folio-nav">
+      <div class="prevnext">
+      <a href="/br-facsimile/br-facsimile-0024.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
+      </div>
 
+      <div id="foliation">folio 13r</div>
 
-
-<!-- Liquid code for transcription and folio navigation -->
-
-
-  
-  
-
-<!-- HTML for transcription and folio navigation -->
-<div id="folio-nav">
-  <div class="prevnext">
-  <a href="/br-facsimile/br-facsimile-0024.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
-  </div>
-
-  <div id="foliation">folio 13r</div>
-
-  <div class="prevnext">
-  <a href="/br-facsimile/br-facsimile-0026.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
+      <div class="prevnext">
+      <a href="/br-facsimile/br-facsimile-0026.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
+      </div>
   </div>
 </div>
+
 
 <div id="edition-viewer">
   
