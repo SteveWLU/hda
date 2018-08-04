@@ -18,6 +18,7 @@
 <body>
 
 <header role="banner" class="page-header" id="top">
+<<<<<<< HEAD
   <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
   <div id="header-title">
     <h1 id="site-title"><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
@@ -25,10 +26,16 @@
   </div>
   <div id="nav-menu">
     <nav class="site-nav">  
+=======
+    <h1><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
+  <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="site-nav">  
+>>>>>>> bbcd725d698b8737d7d7c7c042b708e4a2592152
   
  
   <div class="dropdown">
-    <button class="dropbtn">About</button>
+    <button class="dropbtn">About <i class="fa fa-caret-down"></i> </button>
       <div class="dropdown-content">
         
           <a href="/about/versioning.html">Versioning</a>
@@ -44,7 +51,7 @@
   
  
   <div class="dropdown">
-    <button class="dropbtn">Praxis</button>
+    <button class="dropbtn">Praxis <i class="fa fa-caret-down"></i> </button>
       <div class="dropdown-content">
         
           <a href="/general.html">General Criteria</a>
@@ -64,7 +71,7 @@
   
  
   <div class="dropdown">
-    <button class="dropbtn">Editions</button>
+    <button class="dropbtn">Editions <i class="fa fa-caret-down"></i> </button>
       <div class="dropdown-content">
         
           <a href="/editions/b-intro.html">Berlin (B)</a>
@@ -82,7 +89,7 @@
   
  
   <div class="dropdown">
-    <button class="dropbtn">Translation</button>
+    <button class="dropbtn">Translation <i class="fa fa-caret-down"></i> </button>
       <div class="dropdown-content">
         
           <a href="/b-translation.html">Berlin Translation</a>
@@ -93,6 +100,37 @@
 
   
 </nav> 
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+    }
+  }
+  (function(document){
+  var div = document.getElementById('dropdown');
+  var icon = document.getElementById('fa fa-caret-down');
+  var open = false;
+
+  div.addEventListener('hover', function(){
+    if(open){
+      icon.className = 'fa fa-carat-down';  
+    } else{
+      icon.className = 'fa fa-carat-down open';
+    }
+
+    open = !open;
+  });
+  </script>
 
   </div>
 </header>
@@ -164,7 +202,8 @@ window.onload = function() {
 }
 //]]
 </script>
-<div id="openseadragon1" class="iiif_image"></div>
+<div id="openseadragon1" class="iiif_image" 
+style="width: 100%; height: 500px; border: 1px solid grey"></div>
 <script>
 //<![CDATA[
 iiif_viewerfuncs.push(
