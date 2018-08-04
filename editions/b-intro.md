@@ -1,5 +1,5 @@
 ---
-layout: ms-intro
+layout: default
 title: 'Berlin'
 sigla: 'B'
 editor: Stephen P. McCormick

@@ -414,16 +414,16 @@ nav li.active a {
 		margin: 0;
 		width: 150px;
 		border-radius: 8px;
-		text-decoration: &#9660;
+		text-decoration: &9660;
 }
 .site-nav a:hover, .dropdown:hover .dropbtn {
 	display:block;
-	background-color: lightgray;
+	background-color: #f5f5f5;
 }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f5f5f5;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -437,7 +437,7 @@ nav li.active a {
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -576,44 +576,43 @@ h1.title {
 	margin: 0 auto;
 }
 #foliation {
-	max-width: 11em;
-	min-width: 11em;
+    width: 17%;
+    margin: 5% 0 1% 43%;
+}
+#folio {
+	max-width: 4em;
+	min-width: 4em;
 	display: inline-block;
-
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin: 0 0 3% 11%;
+	font-size: x-large;
+	color: #5f0000;
 }
 .prevnext {
 	display: inline-block;
 	max-width: 2em;
 	min-width: 2em;
+	margin: 1% 0 0 4%;
 }
 
 #TEI-title {
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-variant: small-caps;
-	font-size: x-large;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2em;
+	margin: 5% 0 0 0;
+	color: #5f0000;
 }
 
 #TEI-tools {
-	border-style: groove;
-	margin-bottom: 5%;
+    border: solid .5px;
+	margin: 1% 0 2% 0;
+	background: #f5f5f5;
+	border-radius: 34px;
+	padding: 0 0 1% 2%;
 }
 
-#scribal {
+#scribal, #diplomatic, #critical, #notes {
 	display: inline-block;
-	
-}
-
-#diplomatic {
-	display: inline-block;
-
-}
-
-#critical {
-	display: inline-block;
-}
-
-#notes {
-	display: inline-block;
+	margin: 1% 0% 0% 1%;
 }
 
 .iiif_image {
@@ -663,7 +662,7 @@ h1#ms-intro {
 	margin: 8% 0 0 0;
 	color: #5f0000;
 }
-div#ms-intro-toc {
+#ms-intro-toc {
 	margin: 5% 0 0 5%;
 }
 img#toc {
@@ -693,6 +692,15 @@ img#toc {
 	display: table-row;
 	color: #D6D6D6;
 	font-size: 2em;
+}
+
+#edition-footer {
+    margin: 75% 0 0 0;
+}
+
+hr#nav-break {
+    margin-top: 9%;
+    width: 100%;
 }
 /* #toc ol {
 	counter-reset: item;
@@ -1146,7 +1154,7 @@ li {
 }
 
 input:checked + .slider {
-  background-color: #a10d09;
+  background-color: #5f0000;
 }
 
 input:focus + .slider {

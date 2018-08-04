@@ -28,6 +28,7 @@
   <div id="nav-menu">
     {% include navbar.html %}
   </div>
+  <hr id="nav-break">
 </header>
 <main class="page-content" aria-label="Content">
 <div id="wrapper">
@@ -62,34 +63,38 @@
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Scribal</div>
+      </label> Scribal
+  </div>
   <div id="diplomatic">
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Diplomatic</div>
+      </label> Diplomatic
+  </div>
   <div id="critical">
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Critical</div>
+      </label> Critical
+  </div>
   <div id="notes">
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Notes</div>
-  <!-- HTML for transcription and folio navigation -->
-  <div id="folio-nav">
-      <div class="prevnext">
-      {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>{% endif %}
-      </div>
-
-      <div id="foliation">{{ page.title }}</div>
-
-      <div class="prevnext">
-      {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>{% endif %}
-      </div>
+      </label> Notes
   </div>
+</div>
+  <!-- HTML for transcription and folio navigation -->
+  <div id="foliation">
+    <div class="prevnext">
+    {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>{% endif %}
+    </div>
+
+    <div id="folio">{{ page.title }}</div>
+
+    <div class="prevnext">
+    {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>{% endif %}
+    </div>
 </div>
 
 
@@ -106,7 +111,12 @@
 
 </div>
 
-  <script>
+<div id="edition-footer">
+{% include footer.html %}
+</div>
+
+
+<script>
   // CODE TO HIDE A PAGE
   function showPage(page) {
     // Hide all text that does not belong to the page indicated

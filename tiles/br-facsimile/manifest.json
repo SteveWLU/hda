@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "http://127.0.0.1:4000/tiles/br-facsimile/manifest.json",
   "@type": "sc:Manifest",
-  "label": "Franco-Italian Huon d'Auvergne-Barbieri, Biblioteca del seminario vescovile, MS 32",
+  "label": "Franco-Italian Huon d'Auvergne as conserved in Bologna, Biblioteca Comunale dell'Archiginnasio, MS B. 3489",
   "attribution": "jekyll-iiif demo",
   "logo": "http://127.0.0.1:4000/logo.jpg",
   "description": "Barbieri Edition",

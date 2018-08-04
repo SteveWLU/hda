@@ -127,11 +127,12 @@
   </script>
 
   </div>
+  <hr id="nav-break">
 </header>
 <main class="page-content" aria-label="Content">
 <div id="wrapper">
 
-<div id="TEI-title"></div>
+<div id="TEI-title">Padua, Biblioteca del Seminario Vescovile, MS 32</div>
 
 
 <!-- Liquid code for transcription and folio navigation -->
@@ -146,34 +147,38 @@
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Scribal</div>
+      </label> Scribal
+  </div>
   <div id="diplomatic">
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Diplomatic</div>
+      </label> Diplomatic
+  </div>
   <div id="critical">
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Critical</div>
+      </label> Critical
+  </div>
   <div id="notes">
       <label class="switch">
           <input type="checkbox" checked>
           <div class="slider round"></div>
-      </label>Notes</div>
-  <!-- HTML for transcription and folio navigation -->
-  <div id="folio-nav">
-      <div class="prevnext">
-      <a href="/p-facsimile/p-facsimile-0009.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
-      </div>
-
-      <div id="foliation">folio 5v</div>
-
-      <div class="prevnext">
-      <a href="/p-facsimile/p-facsimile-0011.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
-      </div>
+      </label> Notes
   </div>
+</div>
+  <!-- HTML for transcription and folio navigation -->
+  <div id="foliation">
+    <div class="prevnext">
+    <a href="/p-facsimile/p-facsimile-0009.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
+    </div>
+
+    <div id="folio">folio 5v</div>
+
+    <div class="prevnext">
+    <a href="/p-facsimile/p-facsimile-0011.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
+    </div>
 </div>
 
 
@@ -219,7 +224,54 @@ iiif_viewerfuncs.push(
 
 </div>
 
-  <script>
+<div id="edition-footer">
+<hr>
+
+<footer role="contentinfo" class="page-footer">
+
+<div class="footer">
+
+<div class="footer-row">
+  <div class="footer-column-1">
+    <img id="logo_wludh" src="/assets/images/logos/logo_wludh.png" alt="DHAT logo" style="width:60%">
+  </div>
+  <div class="footer-column-1">
+    <img id="logo_loyola" src="/assets/images/logos/logo_loyola.svg" alt="DHAT logo" style="width:60%">
+  </div>
+  <div class="footer-column-1">
+    <img id="logo_unf" src="/assets/images/logos/logo_unf.svg" alt="DHAT logo" style="width:60%">
+  </div>
+  <div class="footer-column-1">
+    <img id="logo_neh" src="/assets/images/logos/logo_neh.png" alt="DHAT logo" style="width:60%">
+  </div>
+</div>
+
+<div class="footer-row">
+  <div class="footer-column-2">
+    <img id="logo_marucelliana" src="/assets/images/logos/logo_marucelliana.png" alt="DHAT logo" style="width:25%">
+  </div>
+  <div class="footer-column-2">
+    <img id="logo_archiginnasio" src="/assets/images/logos/logo_archiginnasio.png" alt="DHAT logo" style="width:20%">
+  </div>
+  <div class="footer-column-2">
+    <img id="logo_vescovile" src="/assets/images/logos/logo_vescovile.jpg" alt="DHAT logo" style="width:85%">
+  </div>
+</div>
+
+<p class="legal">&copy; <a href="https://www.wlu.edu/romance-languages-department/faculty-and-staff/profile?ID=x9689"
+title="Stephen P. McCormick">Stephen P. McCormick</a> and <a href="https://digitalhumanities.wlu.edu/" title="lynda">
+Washington & Lee Digital Humanities</a> | Site built using <a href="https://jekyllrb.com/" title="Jekyll static pages">
+Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Encoding Initiative">Text Encoding Initiative.</a></p>
+
+
+</div>
+
+</footer>
+
+</div>
+
+
+<script>
   // CODE TO HIDE A PAGE
   function showPage(page) {
     // Hide all text that does not belong to the page indicated

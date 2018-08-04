@@ -1,7 +1,8 @@
 ---
 layout: iiif
-title: 'folio 1r'
-sigla: 'P'
-iiif_image: 'p-facsimile-0001'
+title: folio 1r
+manuscript: Padua, Biblioteca del Seminario Vescovile, MS 32
+sigla: P
+iiif_image: p-facsimile-0001
 milestone: 1
 ---

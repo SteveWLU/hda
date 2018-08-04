@@ -1,6 +1,8 @@
 ---
 layout: iiif
-title: 'p06r'
+title: 'folio 6r'
+manuscript: 'Padua, Biblioteca del Seminario Vescovile, MS 32'
+sigla: 'P'
 iiif_image: 'p-facsimile-0011'
+milestone: 11
 ---
-

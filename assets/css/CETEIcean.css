@@ -534,8 +534,8 @@ tei-gap[data-tei-reason='lost']:before {
   /* content:'['; */
 }
 tei-gap[reason="missing-illumination"] {
-  /* margin-bottom: 7em;
-  display: inline-block; */
+  margin-bottom: 7em;
+  display: inline-block;
 }
 tei-gap[data-tei-reason='illegible']:after {
   /* content: attr(data-content); */
@@ -684,17 +684,17 @@ tei-hi[rend="italic"] {
   /* font-style: italic; */
 }
 tei-hi[rend="red-initial"] {
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'MedievalSharp';
   color: red;
   font-size: -webkit-xxx-large;
 }
 tei-hi[rend="blue-initial"] {
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'MedievalSharp';
   color: blue;
   font-size: -webkit-xxx-large;
 }
 tei-hi[rend="black-initial"] {
-  font-family: 'MedievalSharp', cursive;
+  font-family: 'MedievalSharp';
   color: black;
   font-size: -webkit-xxx-large;
 }
