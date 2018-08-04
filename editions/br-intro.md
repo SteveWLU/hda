@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: ms-intro
+title: 'Bologna, Biblioteca Comunale dell'Archiginnasio, B. 3489'
+sigla: 'Br'
+editor: Stephen P. McCormick
 ---
 # Barbieri Fragment Intro to Edition
 

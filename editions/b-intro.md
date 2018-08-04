@@ -1,7 +1,7 @@
 ---
 layout: ms-intro
-title: 'Bologna, Biblioteca Comunale dell'Archiginnasio, B. 3489'
-sigla: 'Br'
+title: 'Berlin'
+sigla: 'B'
 editor: Stephen P. McCormick
 ---
 
