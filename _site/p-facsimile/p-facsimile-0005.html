@@ -161,6 +161,7 @@
           <div class="slider round"></div>
       </label> Critical
   </div>
+
   <div id="notes">
       <label class="switch">
           <input type="checkbox" checked>
@@ -168,17 +169,18 @@
       </label> Notes
   </div>
 </div>
-  <!-- HTML for transcription and folio navigation -->
-  <div id="foliation">
-    <div class="prevnext">
-    <a href="/p-facsimile/p-facsimile-0004.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
-    </div>
 
-    <div id="folio">folio 3r</div>
+<!-- HTML for transcription and folio navigation -->
+<div id="foliation">
+  <div class="prevnext">
+  <a href="/p-facsimile/p-facsimile-0004.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
+  </div>
 
-    <div class="prevnext">
-    <a href="/p-facsimile/p-facsimile-0006.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
-    </div>
+  <div id="folio">folio 3r</div>
+
+  <div class="prevnext">
+  <a href="/p-facsimile/p-facsimile-0006.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
+  </div>
 </div>
 
 
@@ -222,6 +224,15 @@ iiif_viewerfuncs.push(
 
   </div>
 
+</div>
+
+<!-- Copyright information -->
+<div id="rights">
+  
+    
+      <p>Padua</p>
+  
+    
 </div>
 
 <div id="edition-footer">
@@ -326,20 +337,39 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
   // CODE TO RUN CETEICEAN
   var CETEIcean = new CETEI()
   CETEIcean.getHTML5("/editions/p.xml", function(data) {
-    document.getElementById("TEI").innerHTML = ""
-    document.getElementById("TEI").appendChild(data)
-    CETEIcean.addStyle(document, data)
-    
 
 
-    //get current page
-    const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
-    //show current page
-    showPage(currentMilestone)
+
+  document.getElementById("TEI").innerHTML = ""
+  document.getElementById("TEI").appendChild(data)
+  CETEIcean.addStyle(document, data)
+
+  //get current page
+  const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+  //show current page
+  showPage(currentMilestone)
   });
+
+   $(function rajna_toggle(){
+// if the corrections checkbox is checked, seg and anchor tags highlight red
+        $('#rajnaCheckbox').click(function(){
+            var checked = $('#rajnaCheckbox').prop('checked');
+            if (checked) {
+                $('seg').addClass('Rajna').fadeIn;
+                $('.anchor').fadeIn();
+            }
+            else {
+                $('seg').removeClass('Rajna').fadeOut;
+                $('.anchor').fadeOut();
+            }
+        });
+    });
 
 
 </script>
+
+<script type="text/javascript" src="date-modified.js"></script>
+
 </div>
 </main>
 </body>

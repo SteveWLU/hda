@@ -5,6 +5,11 @@
   "label": "top",
   "manifests": [
     {
+      "@id": "http://127.0.0.1:4000/tiles/b-facsimile/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Franco-Italian Huon d'Auvergne as conserved in Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)"
+    },
+    {
       "@id": "http://127.0.0.1:4000/tiles/br-facsimile/manifest.json",
       "@type": "sc:Manifest",
       "label": "Franco-Italian Huon d'Auvergne as conserved in Bologna, Biblioteca Comunale dell'Archiginnasio, MS B. 3489"
@@ -13,6 +18,16 @@
       "@id": "http://127.0.0.1:4000/tiles/p-facsimile/manifest.json",
       "@type": "sc:Manifest",
       "label": "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/r-facsimile/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Franco-Italian Huon d'Auvergne as conserved in Florence, Biblioteca Marucelliana, Carte Rajna XIX.15"
+    },
+    {
+      "@id": "http://127.0.0.1:4000/tiles/t-facsimile/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Franco-Italian Huon d'Auvergne as conserved in Turin, Biblioteca nazionale universitaria N III 19"
     }
   ]
 }

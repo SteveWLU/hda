@@ -35,38 +35,26 @@
 
 <body>
 
-<h1 id="ms-intro">{{page.title}}</h1>
+    <h1 id="ms-intro">{{page.title}}</h1>
 
-{% if page.sigla == 'P' %}
 
-<div id="toc">
+    <div class="toc-image">
+        <table class="image">
+            <tr><td><img id="b-toc" src="../assets/images/b-illumination.jpg"></td></tr>
+            <tr><td class="caption">{{ page.image }}</td></tr>
+        </table>
+    <div>
+    <div class="toc">
         <h2>Table of Contents</h2>
         <ol>
-            <li>Introduction</li>
-            <li><a href="{{site.baseurl}}/praxis/p-praxis.html">Edition Criteria</a></li>
-            <li><a href="{{site.baseurl}}/p-facsimile/p-facsimile-0001.html">Digital Edition</a></li>
-            <li><a href="{{site.baseurl}}/editions/facsimiles/p-facsimile.html">Digital Facsimile</a></li>
+            <li><a href="{{ page.praxis }}">Edition Criteria</a></li>
+            <li><a href="{{ page.edition }}">Digital Edition</a></li>
+            <li><a href="{{ page.facsimile }}">Digital Facsimile</a></li>
             <li>Concordance</li>
             <li>Codicology</li>
             <li>Glossary</li>
         </ol>
-</div>
-
-{% elsif page.sigla == 'Br' %}
-
-<div id="toc">
-        <h2>Table of Contents</h2>
-        <ol>
-            <li>Introduction</li>
-            <li><a href="{{site.baseurl}}/br-praxis.html">Edition Criteria</a></li>
-            <li><a href="{{site.baseurl}}/editions/br-facsimile/br-facsimile-001.html">Digital Edition</a></li>
-            <li><a href="{{site.baseurl}}/editions/facsimiles/br-facsimile.html">Digital Facsimile</a></li>
-            <li>Concordance</li>
-            <li>Codicology</li>
-            <li>Glossary</li>
-        </ol>
-        </div>
-{% endif %}
+    </div>
 
 </body>
 </html>

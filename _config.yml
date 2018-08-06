@@ -24,6 +24,26 @@ iiif_allowablefields:
   - logo
 
 collections:
+  b-facsimile:
+        title: "Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)"
+          description: "Berlin Edition"
+          attribution: "jekyll-iiif demo"
+          logo: "logo.jpg"
+  t-facsimile:
+        title: "Turin, Biblioteca nazionale universitaria N III 19"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Turin, Biblioteca nazionale universitaria N III 19"
+          description: "Turin Edition"
+          attribution: "jekyll-iiif demo"
+          logo: "logo.jpg"
   p-facsimile:
         title: "Padua, Biblioteca del seminario vescovile, MS 32"
         output: true
@@ -42,6 +62,16 @@ collections:
         fields:
           label: "Franco-Italian Huon d'Auvergne as conserved in Bologna, Biblioteca Comunale dell'Archiginnasio, MS B. 3489"
           description: "Barbieri Edition"
+          attribution: "jekyll-iiif demo"
+          logo: "logo.jpg"
+  r-facsimile:
+        title: "Florence, Biblioteca Marucelliana, Carte Rajna XIX.15"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Florence, Biblioteca Marucelliana, Carte Rajna XIX.15"
+          description: "Rajna Notebook"
           attribution: "jekyll-iiif demo"
           logo: "logo.jpg"
 

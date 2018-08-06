@@ -613,7 +613,7 @@ tei-TEI tei-head {
   font-weight: normal;
   color: #a10d09;
   font-size: 1.26em;
-  margin-left: 2.25em;
+  margin-left: 2.3em;
 }
 /* tei-body > tei-head {
   font-size: 180%;
@@ -787,6 +787,11 @@ tei-l {
   width: 35em;
   margin-left: 3em;
   font-family: 'Open Sans', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  line-height: 1.5em;
+}
+
+tei-1 + tei-1 {
+  
 }
 tei-l[data-lineno]:before {
   content: attr(data-lineno);

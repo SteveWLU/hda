@@ -77,6 +77,25 @@
           <div class="slider round"></div>
       </label> Critical
   </div>
+{% if page.sigla == 'T' %}
+  <div id="reconstruction">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label> Rajna Reconstruction
+  </div>
+  <div id="rajna">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label> Rajna Notebook
+  </div>
+  <!-- from rails site-->
+  <!-- <form id="rajna-form">
+  <label for="rajnaCheckbox" id="rajna-label"> Rajna Notebook</label>
+  <input type="checkbox" name="rajnaCheckbox" id="rajnaCheckbox" style="display: inline;">
+  </form> -->
+{% endif %}
   <div id="notes">
       <label class="switch">
           <input type="checkbox" checked>
@@ -84,17 +103,18 @@
       </label> Notes
   </div>
 </div>
-  <!-- HTML for transcription and folio navigation -->
-  <div id="foliation">
-    <div class="prevnext">
-    {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>{% endif %}
-    </div>
 
-    <div id="folio">{{ page.title }}</div>
+<!-- HTML for transcription and folio navigation -->
+<div id="foliation">
+  <div class="prevnext">
+  {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>{% endif %}
+  </div>
 
-    <div class="prevnext">
-    {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>{% endif %}
-    </div>
+  <div id="folio">{{ page.title }}</div>
+
+  <div class="prevnext">
+  {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>{% endif %}
+  </div>
 </div>
 
 
@@ -109,6 +129,27 @@
   {{ content }}
   </div>
 
+</div>
+
+<!-- Copyright information -->
+<div id="rights">
+  
+    {% if page.sigla == 'B' %}
+      <p></p>
+  
+    {% elsif page.sigla == 'T' %}
+      <p></p>
+  
+    {% elsif page.sigla == 'P' %}
+      <p>Padua</p>
+  
+    {% elsif page.sigla == 'Br' %}
+      <p>Barbieri</p>
+    
+    {% elsif page.sigla == 'R' %}
+      <p></p>
+      
+    {% endif %}
 </div>
 
 <div id="edition-footer">
@@ -167,31 +208,58 @@
     }
   }
 
-{% if page.sigla == 'P' %}
+{% if page.sigla == 'B' %}
+  // CODE TO RUN CETEICEAN
+  var CETEIcean = new CETEI()
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/b-temp.xml", function(data) {
+
+{% elsif page.sigla == 'T' %}
+  // CODE TO RUN CETEICEAN
+  var CETEIcean = new CETEI()
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/t.xml", function(data) {
+
+{% elsif page.sigla == 'P' %}
   // CODE TO RUN CETEICEAN
   var CETEIcean = new CETEI()
   CETEIcean.getHTML5("{{site.baseurl}}/editions/p.xml", function(data) {
-    document.getElementById("TEI").innerHTML = ""
-    document.getElementById("TEI").appendChild(data)
-    CETEIcean.addStyle(document, data)
-    
+
 {% elsif page.sigla == 'Br' %}
   // CODE TO RUN CETEICEAN
   var CETEIcean = new CETEI()
   CETEIcean.getHTML5("{{site.baseurl}}/editions/br.xml", function(data) {
-    document.getElementById("TEI").innerHTML = ""
-    document.getElementById("TEI").appendChild(data)
-    CETEIcean.addStyle(document, data)
+    
 {% endif %}
 
-    //get current page
-    const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
-    //show current page
-    showPage(currentMilestone)
+  document.getElementById("TEI").innerHTML = ""
+  document.getElementById("TEI").appendChild(data)
+  CETEIcean.addStyle(document, data)
+
+  //get current page
+  const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+  //show current page
+  showPage(currentMilestone)
   });
+
+   $(function rajna_toggle(){
+// if the corrections checkbox is checked, seg and anchor tags highlight red
+        $('#rajnaCheckbox').click(function(){
+            var checked = $('#rajnaCheckbox').prop('checked');
+            if (checked) {
+                $('seg').addClass('Rajna').fadeIn;
+                $('.anchor').fadeIn();
+            }
+            else {
+                $('seg').removeClass('Rajna').fadeOut;
+                $('.anchor').fadeOut();
+            }
+        });
+    });
 
 
 </script>
+
+<script type="text/javascript" src="date-modified.js"></script>
+
 </div>
 </main>
 </body>

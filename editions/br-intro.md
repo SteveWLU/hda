@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 'Bologna, Biblioteca Comunale dell'Archiginnasio, B. 3489'
-sigla: 'Br'
-editor: 'Stephen P. McCormick'
+title: Bologna, Biblioteca Comunale dell'Archiginnasio, B. 3489
+sigla: Br
+editor: Stephen P. McCormick
 ---
 
 
@@ -13,7 +13,6 @@ editor: 'Stephen P. McCormick'
 <div id="toc">
         <h2>Table of Contents</h2>
         <ol>
-            <li>Introduction</li>
             <li><a href="{{site.baseurl}}/praxis/br-praxis.html">Edition Criteria</a></li>
             <li><a href="{{site.baseurl}}/br-facsimile/br-facsimile-0001.html">Digital Edition</a></li>
             <li><a href="{{site.baseurl}}/editions/facsimiles/br-facsimile.html">Digital Facsimile</a></li>

@@ -1,0 +1,496 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://127.0.0.1:4000/tiles/t-facsimile/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Franco-Italian Huon d'Auvergne as conserved in Turin, Biblioteca nazionale universitaria N III 19",
+  "attribution": "jekyll-iiif demo",
+  "logo": "http://127.0.0.1:4000/logo.jpg",
+  "description": "Turin Edition",
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0001/full/154,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://127.0.0.1:4000/tiles/t-facsimile/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/1.json",
+          "label": "p. 1",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0001/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/1.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0001/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0001",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/1.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/2.json",
+          "label": "p. 2",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0002/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0002/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0002",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/2.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/3.json",
+          "label": "p. 3",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0003/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/3.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0003/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0003",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/3.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/4.json",
+          "label": "p. 4",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0004/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/4.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0004/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0004",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/4.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/5.json",
+          "label": "p. 5",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0005/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/5.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0005/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0005",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/5.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/6.json",
+          "label": "p. 6",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0006/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/6.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0006/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0006",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/6.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/7.json",
+          "label": "p. 7",
+          "width": 1284,
+          "height": 2078,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0007/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/7.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0007/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0007",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1284,
+                "height": 2078
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/7.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/8.json",
+          "label": "p. 8",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0008/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/8.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0008/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0008",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/8.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/9.json",
+          "label": "p. 9",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0009/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/9.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0009/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0009",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/9.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/10.json",
+          "label": "p. 10",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0010/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/10.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0010/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0010",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/10.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/11.json",
+          "label": "p. 11",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0011/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/11.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0011/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0011",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/11.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/12.json",
+          "label": "p. 12",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0012/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/12.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0012/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0012",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/12.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/13.json",
+          "label": "p. 13",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0013/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/13.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0013/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0013",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/13.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/14.json",
+          "label": "p. 14",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0014/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/14.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0014/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0014",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/14.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/15.json",
+          "label": "p. 15",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0015/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/15.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0015/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0015",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/15.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/16.json",
+          "label": "p. 16",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0016/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/16.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0016/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0016",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/16.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/17.json",
+          "label": "p. 17",
+          "width": 1281,
+          "height": 2081,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/t-facsimile-0017/full/154,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/t-facsimile/annotation/17.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0017/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/t-facsimile-0017",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1281,
+                "height": 2081
+              },
+              "on": "http://127.0.0.1:4000/tiles/t-facsimile/canvas/17.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

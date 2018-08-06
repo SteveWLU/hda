@@ -610,10 +610,26 @@ h1.title {
 	padding: 0 0 1% 2%;
 }
 
-#scribal, #diplomatic, #critical, #notes {
+#scribal, #diplomatic, #critical, #notes, #reconstruction, #rajna {
 	display: inline-block;
 	margin: 1% 0% 0% 1%;
 }
+
+/* CSS from rails site */
+/* #rajnaCheckbox {
+	display: block;
+}
+
+#rajna-form {
+	display: inline;
+	float: none;
+}
+
+#rajna-label {
+	float: none;
+	display: inline;
+	text-decoration: none;
+} */
 
 .iiif_image {
 	border-left: 1px solid gray;
@@ -662,16 +678,21 @@ h1#ms-intro {
 	margin: 8% 0 0 0;
 	color: #5f0000;
 }
-#ms-intro-toc {
+.ms-intro-toc {
 	margin: 5% 0 0 5%;
 }
-img#toc {
+img#p-toc {
     float: left;
     display: inline-block;
 		border: 2px solid #5f0000;
 		width: 30%;
 }
-
+img#b-toc {
+    float: left;
+    display: inline-block;
+		border: 2px solid #5f0000;
+		width: 55%;
+}
 #toc ol {
 	display: table-cell;
 }

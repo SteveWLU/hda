@@ -1,0 +1,104 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://127.0.0.1:4000/tiles/b-facsimile/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Franco-Italian Huon d'Auvergne as conserved in Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)",
+  "attribution": "jekyll-iiif demo",
+  "logo": "http://127.0.0.1:4000/logo.jpg",
+  "description": "Berlin Edition",
+  "thumbnail": "http://127.0.0.1:4000/tiles/images/b-facsimile-0001/full/176,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://127.0.0.1:4000/tiles/b-facsimile/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/b-facsimile/canvas/1.json",
+          "label": "p. 1",
+          "width": 1122,
+          "height": 1598,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/b-facsimile-0001/full/176,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/b-facsimile/annotation/1.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/b-facsimile-0001/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/b-facsimile-0001",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 561,
+                "height": 799
+              },
+              "on": "http://127.0.0.1:4000/tiles/b-facsimile/canvas/1.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/b-facsimile/canvas/2.json",
+          "label": "p. 2",
+          "width": 1164,
+          "height": 1602,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/b-facsimile-0002/full/182,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/b-facsimile/annotation/2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/b-facsimile-0002/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/b-facsimile-0002",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 582,
+                "height": 801
+              },
+              "on": "http://127.0.0.1:4000/tiles/b-facsimile/canvas/2.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://127.0.0.1:4000/tiles/b-facsimile/canvas/3.json",
+          "label": "p. 3",
+          "width": 1110,
+          "height": 1598,
+          "thumbnail": "http://127.0.0.1:4000/tiles/images/b-facsimile-0003/full/174,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://127.0.0.1:4000/tiles/b-facsimile/annotation/3.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://127.0.0.1:4000/tiles/images/b-facsimile-0003/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://127.0.0.1:4000/tiles/images/b-facsimile-0003",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 555,
+                "height": 799
+              },
+              "on": "http://127.0.0.1:4000/tiles/b-facsimile/canvas/3.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

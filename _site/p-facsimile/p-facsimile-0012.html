@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>p06v</title>
+    <title>folio 6v</title>
     <link rel="stylesheet" href="../assets/css/CETEIcean.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
@@ -132,7 +132,7 @@
 <main class="page-content" aria-label="Content">
 <div id="wrapper">
 
-<div id="TEI-title"></div>
+<div id="TEI-title">Padua, Biblioteca del Seminario Vescovile, MS 32</div>
 
 
 <!-- Liquid code for transcription and folio navigation -->
@@ -161,6 +161,7 @@
           <div class="slider round"></div>
       </label> Critical
   </div>
+
   <div id="notes">
       <label class="switch">
           <input type="checkbox" checked>
@@ -168,24 +169,25 @@
       </label> Notes
   </div>
 </div>
-  <!-- HTML for transcription and folio navigation -->
-  <div id="foliation">
-    <div class="prevnext">
-    <a href="/p-facsimile/p-facsimile-0011.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
-    </div>
 
-    <div id="folio">p06v</div>
+<!-- HTML for transcription and folio navigation -->
+<div id="foliation">
+  <div class="prevnext">
+  <a href="/p-facsimile/p-facsimile-0011.html" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>
+  </div>
 
-    <div class="prevnext">
-    <a href="/p-facsimile/p-facsimile-0013.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
-    </div>
+  <div id="folio">folio 6v</div>
+
+  <div class="prevnext">
+  <a href="/p-facsimile/p-facsimile-0013.html" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>
+  </div>
 </div>
 
 
 <div id="edition-viewer">
   
 <!-- Insert TEI content-->
-<div id="TEI" data-milestone=""></div>
+<div id="TEI" data-milestone="12"></div>
 
 <!-- Insert OpenSeaDragon viewer and content -->
   <div id="post-content">
@@ -222,6 +224,15 @@ iiif_viewerfuncs.push(
 
   </div>
 
+</div>
+
+<!-- Copyright information -->
+<div id="rights">
+  
+    
+      <p>Padua</p>
+  
+    
 </div>
 
 <div id="edition-footer">
@@ -323,15 +334,42 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
   }
 
 
+  // CODE TO RUN CETEICEAN
+  var CETEIcean = new CETEI()
+  CETEIcean.getHTML5("/editions/p.xml", function(data) {
 
-    //get current page
-    const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
-    //show current page
-    showPage(currentMilestone)
+
+
+  document.getElementById("TEI").innerHTML = ""
+  document.getElementById("TEI").appendChild(data)
+  CETEIcean.addStyle(document, data)
+
+  //get current page
+  const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+  //show current page
+  showPage(currentMilestone)
   });
+
+   $(function rajna_toggle(){
+// if the corrections checkbox is checked, seg and anchor tags highlight red
+        $('#rajnaCheckbox').click(function(){
+            var checked = $('#rajnaCheckbox').prop('checked');
+            if (checked) {
+                $('seg').addClass('Rajna').fadeIn;
+                $('.anchor').fadeIn();
+            }
+            else {
+                $('seg').removeClass('Rajna').fadeOut;
+                $('.anchor').fadeOut();
+            }
+        });
+    });
 
 
 </script>
+
+<script type="text/javascript" src="date-modified.js"></script>
+
 </div>
 </main>
 </body>
