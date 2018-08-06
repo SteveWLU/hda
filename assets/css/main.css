@@ -123,6 +123,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   width: 75%;
+  clear: both;
 }
 /**
  * Contain overflow in all browsers.
@@ -575,10 +576,6 @@ h1.title {
 	font-size: 1.5em;
 	margin: 0 auto;
 }
-#foliation {
-    width: 17%;
-    margin: 5% 0 1% 43%;
-}
 #folio {
 	max-width: 4em;
 	min-width: 4em;
@@ -589,10 +586,9 @@ h1.title {
 	color: #5f0000;
 }
 .prevnext {
-	display: inline-block;
-	max-width: 2em;
-	min-width: 2em;
-	margin: 1% 0 0 4%;
+	text-align: center;
+	width: 100%;
+	font-size:	x-large;
 }
 
 #TEI-title {
@@ -851,6 +847,7 @@ aside li {
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: black;
+	clear: both;
 }
 .legal {
     font-size: .75em;
@@ -1078,7 +1075,7 @@ a.more {
 /* Local Styles - to be sorted or moved into separate files later */
 
 img#initial {
-  max-width: 25%;
+  max-width: 15%;
   float: left;
   padding-right: 10px;
   margin-top: -190px;

@@ -105,17 +105,13 @@
 </div>
 
 <!-- HTML for transcription and folio navigation -->
-<div id="foliation">
-  <div class="prevnext">
-  {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev"><i class="material-icons" style="font-size:36px">chevron_left</i></a>{% endif %}
-  </div>
 
-  <div id="folio">{{ page.title }}</div>
-
-  <div class="prevnext">
-  {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next"><i class="material-icons" style="font-size:36px">chevron_right</i></a>{% endif %}
-  </div>
+<div class="prevnext">
+{% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev">&#8617;</a>{% endif %}
+{{ page.title }}
+{% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next">&#8618;</a>{% endif %}
 </div>
+
 
 
 <div id="edition-viewer">
