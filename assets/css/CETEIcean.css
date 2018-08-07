@@ -534,7 +534,7 @@ tei-g {
   /* Empty Rule Set */
 }
 tei-gap {
-  margin: 4em 0 3em 4em;
+  margin: 5em 0 5em 4em;
   display: block;
 }
 tei-gap[data-tei-reason='lost']:before {
@@ -543,6 +543,9 @@ tei-gap[data-tei-reason='lost']:before {
 tei-gap[reason="missing-illumination"]:after {
   white-space: normal;
   content: 'missing illumination';
+  border: 1px solid silver;
+  padding: 4em;
+
 }
 tei-gap[data-tei-reason='illegible']:after {
   /* content: attr(data-content); */
@@ -620,7 +623,7 @@ tei-TEI tei-head {
   font-weight: normal;
   color: #a10d09;
   font-size: 1.26em;
-  margin-left: 2.3em;
+  margin: 0 0 .5em 2.25em;
 }
 /* tei-body > tei-head {
   font-size: 180%;
@@ -1883,7 +1886,7 @@ tei-zone {
   margin: 0;
   padding: 0;
 } */
-html {
+/* html {
   margin: 0;
   padding: 0;
   margin-left: 2em;
@@ -1893,4 +1896,4 @@ html {
   font-size: 12pt;
   background-color: white;
   color: #292929;
-}
+} */

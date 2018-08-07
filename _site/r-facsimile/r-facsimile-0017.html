@@ -143,11 +143,11 @@
 
 
 <div id="TEI-tools">
-  <div id="scribal">
+  <div id="show-french">
       <label class="switch">
-          <input type="checkbox" checked>
+          <input type="checkbox" name="show-french" checked>
           <div class="slider round"></div>
-      </label> Scribal
+      </label> Franco-Italian
   </div>
   <div id="expand">
       <label class="switch">
@@ -162,7 +162,9 @@
           <div class="slider round"></div>
       </label> Notes
   </div>
-  <div id="revised"></div>
+  <div id="status">
+    <p>Transcription status: <i class="progress">In progress</i><br>Last updated: <i class="updated">August 7, 2018</i></p>
+  </div>
 </div>
 
 <!-- HTML for transcription and folio navigation -->
@@ -336,15 +338,11 @@ const currentMilestone = document.getElementById("TEI").getAttribute("data-miles
 showPage(currentMilestone)
 });
 
-const origin = document.querySelector('tei-revisionDesc') // gets the first tei-origin in the document
-const originClone = origin.cloneNode(true) // deep clone the node
-const destination = document.querySelector('#revised') // get the destination div
-destination.appendChild(originClone) // place cloned element in the destination element (after other nodes, if present)
-
 //Variables for toggle buttons
 var options = {
         "rajna_reconstruction":false,
-        "expanded_abbreviations":true
+        "expanded_abbreviations":true,
+        "show_french":true
     };
 
  //Function to toggle abbreviations
@@ -366,7 +364,18 @@ $("input[name='rajna-reconstruction'").change(function(){
   }
 });
 
+//Function to toggle rajna reconstruction
+$("input[name='show-french'").change(function(){
+  options.show_french = $(this).is(":checked");
+  if(options.show_french){
+    $("tei-span").css("color", "blue");
+  } else {
+    $("tei-span").css("color", "black");
+  }
+});
+
 </script>
+
 </div>
 </main>
 </body>

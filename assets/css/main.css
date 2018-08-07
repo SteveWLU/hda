@@ -588,7 +588,8 @@ h1.title {
 .prevnext {
 	text-align: center;
 	width: 100%;
-	:	x-large;
+	font-size: 2em;
+	margin: 0 0 1% 0;
 }
 
 #TEI-title {
@@ -600,13 +601,13 @@ h1.title {
 
 #TEI-tools {
     border: solid .5px;
-	margin: 1% 0 2% 0;
+	margin: 1% 0 5% 0;
 	background: #f5f5f5;
 	border-radius: 34px;
 	padding: 0 0 1% 2%;
 }
 
-#expand, #notes, #reconstruction, #rajna {
+#show-french, #expand, #reconstruction, #rajna, #notes {
 	display: inline-block;
 	margin: 1% 0% 0% 1%;
 }
@@ -721,6 +722,17 @@ img#b-toc {
 hr#nav-break {
     margin-top: 9%;
     width: 100%;
+}
+#status {
+	float: right;
+	margin: 1% 2% 2% 0;
+	padding: 0 0 1% 2%;
+}
+i.progress {
+	color: orange;
+}
+i.updated {
+	color: green;
 }
 /* #toc ol {
 	counter-reset: item;

@@ -211,25 +211,25 @@
                 <milestone n="1R" unit="fol."/>
                 <head>Laisse 1</head>
                 <l n="1"><gap reason="missing folios" quantity="2"/>E
-                    perçò era Ugo d’Alvernia sevrie;</l>
+                    perçò era Ugo d’Alvernia <span>sevrie</span>;</l>
                 <!-- insert facs="file.jpg" into milestone -->
-                <l n="2">E pluy de tre any stete in la çitie</l>
-                <l n="3">Ch’el non fo a so tera tornie,<note xml:id="p3"/></l><gap reason="missing-illumination"/>
-                <l n="4">Tanto aveva so amor a Sangu<choice><abbr>ȳ</abbr><ex rend="italic">yn</ex></choice> donie.</l>
-                <l n="5">Se Sangu<choice><abbr>ȳ</abbr><ex rend="italic">yn</ex></choice> chavalcava i<choice><abbr>n̄</abbr><ex rend="italic">n</ex></choice>
-                    alguna partie,</l>
-                <l n="6">Lo cont Ugo era tutora a so costie,</l>
-                <l n="7">Al bevere e al mançar cun lui era colcie.</l>
-                <l n="8">May de' fradeli non fo si dolçe conpagnie,</l>
-                <l n="9">Ni de mare ni de pare se l’avesse inçenerie;</l>
-                <l n="10">Quelo che voleva l’un, l’altro no·l contradie,</l>
-                <l n="11">Tuto el so voler l’un e l’altro à incontrie.</l>
-                <l n="12">Ma quela Sofia, a chi Dio maldie,</l>
-                <l n="13">So marido no può amar nule fie,</l>
-                <l n="14">Ché in lo conte Ugo aveva messo so pensie;</l>
-                <l n="15">E si penssa la malvaxia meretrie</l>
-                <l n="16">Chomo 'la porave a Ugo parlie</l>
-                <l n="17">Mo' la malvaxia ben à trovada la vie</l>
+                <l n="2">E pluy de tre any stete in la <span>çitie</span></l>
+                <l n="3">Ch’el non fo a so tera <span>tornie</span>,<note xml:id="p3"/></l><gap reason="missing-illumination"/>
+                <l n="4">Tanto aveva so amor a Sangu<choice><abbr>ȳ</abbr><ex rend="italic">yn</ex></choice> <span>donie</span>.</l>
+                <l n="5">Se Sangu<choice><abbr>ȳ</abbr><ex rend="italic">yn</ex></choice> chavalcava <choice><abbr>ī</abbr><ex rend="italic">in</ex></choice>
+                    alguna <span>partie</span>,</l>
+                <l n="6">Lo cont Ugo era tutora a so <span>costie</span>,</l>
+                <l n="7">Al bevere e al mançar cun lui era <span>colcie</span>.</l>
+                <l n="8">May de' fradeli non fo si dolçe <span>conpagnie</span>,</l>
+                <l n="9">Ni de mare ni de pare se l’avesse <span>inçenerie</span>;</l>
+                <l n="10">Quelo che voleva l’un, l’altro no·l <span>contradie</span>,</l>
+                <l n="11">Tuto el so voler l’un e l’altro à <span>incontrie</span>.</l>
+                <l n="12">Ma quela Sofia, a chi Dio <span>maldie</span>,</l>
+                <l n="13">So marido no può amar nule <span>fie</span>,</l>
+                <l n="14">Ché in lo conte Ugo aveva messo so <span>pensie</span>;</l>
+                <l n="15">E si penssa la malvaxia <span>meretrie</span></l>
+                <l n="16">Chomo 'la porave a Ugo <span>parlie</span></l>
+                <l n="17">Mo' la malvaxia ben à trovada la <span>vie</span></l>
                 <l n="18"><milestone n="1V" unit="fol."/>De lui aver in soa camera alla çellie.</l>
             </lg>
             <lg type="laisse" n="2">
@@ -357,7 +357,7 @@
                 <l n="113">Guardé mia faça como è bela e colorier,</l>
                 <l n="114">Mie ochi vairi e la bocha p<ex rend="italic">er</ex> baxer!</l>
                 <l n="115">Prendì de mi amor e amister,</l>
-                <l n="116">L’amor vostro me fa tuta tremer!<note xml:id="p116"/></l>
+                <l n="116">L’amor vostro me fa tuta tremer!<note xml:id="p116"/></l><gap reason="missing-illumination"/>
                 <l n="117"><milestone n="3V" unit="fol."/>E quando son in leto al mio posier,</l>
                 <l n="118">Gran chalor me viem e ssi me convien refreder;</l>
                 <l n="119">Prendì de mi amor sença demorer!</l>
