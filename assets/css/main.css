@@ -588,7 +588,7 @@ h1.title {
 .prevnext {
 	text-align: center;
 	width: 100%;
-	font-size:	x-large;
+	:	x-large;
 }
 
 #TEI-title {
@@ -606,7 +606,7 @@ h1.title {
 	padding: 0 0 1% 2%;
 }
 
-#scribal, #diplomatic, #critical, #notes, #reconstruction, #rajna {
+#expand, #notes, #reconstruction, #rajna {
 	display: inline-block;
 	margin: 1% 0% 0% 1%;
 }
@@ -659,10 +659,13 @@ div#toc-header {
 	display: inline-block;
 }
 div#toc {
-	display: inline-block;
+	width: 50%;
 	float: left;
-	margin: 0 0 0 5%;
-	font-family: 'Barlow Semi Condensed', sans-serif;;
+}
+
+div#toc-img {
+	width: 50%;
+	float: left;
 }
 
 h1#edition-criteria-for-padua {
@@ -885,7 +888,7 @@ aside li {
 }
 
 img#logo_unf {
-	margin-top: -1em;
+  margin-top: -1em;
 }
 
 img#logo_marucelliana {

@@ -347,8 +347,14 @@ tei-charName {
 tei-charProp {
   /* Empty Rule Set */
 }
-tei-choice {
-  /* Empty Rule Set */
+tei-choice > tei-abbr {
+  display:none;
+}
+tei-choice > tei-ex:before{
+  content:none !important;
+}
+tei-choice > tei-ex:after{
+  content:none !important;
 }
 tei-cit {
   /* Empty Rule Set */
@@ -528,14 +534,15 @@ tei-g {
   /* Empty Rule Set */
 }
 tei-gap {
-  /* GLS: Depending upon how we handle gap and lacuna, we may want to enclose in [] */
+  margin: 4em 0 3em 4em;
+  display: block;
 }
 tei-gap[data-tei-reason='lost']:before {
   /* content:'['; */
 }
-tei-gap[reason="missing-illumination"] {
-  margin-bottom: 7em;
-  display: inline-block;
+tei-gap[reason="missing-illumination"]:after {
+  white-space: normal;
+  content: 'missing illumination';
 }
 tei-gap[data-tei-reason='illegible']:after {
   /* content: attr(data-content); */
@@ -1500,7 +1507,6 @@ tei-secl>*:last-child:after {
 tei-seg {
   /* Empty Set Rule */
   outline: 0px solid transparent;
-  color: red;
 }
 tei-segmentation {
   /* Empty Rule Set */

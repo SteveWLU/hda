@@ -149,17 +149,11 @@
           <div class="slider round"></div>
       </label> Scribal
   </div>
-  <div id="diplomatic">
+  <div id="expand">
       <label class="switch">
-          <input type="checkbox" checked>
+          <input type="checkbox" name="abbreviations-toggle" checked>
           <div class="slider round"></div>
-      </label> Diplomatic
-  </div>
-  <div id="critical">
-      <label class="switch">
-          <input type="checkbox" checked>
-          <div class="slider round"></div>
-      </label> Critical
+      </label> Expand Abbreviations
   </div>
 
   <div id="notes">
@@ -168,6 +162,7 @@
           <div class="slider round"></div>
       </label> Notes
   </div>
+  <div id="revised"></div>
 </div>
 
 <!-- HTML for transcription and folio navigation -->
@@ -274,6 +269,7 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 <script>
   // CODE TO HIDE A PAGE
@@ -326,38 +322,51 @@ Jekyll static pages</a> and the <a href="http://www.tei-c.org/" title="Text Enco
     }
   }
 
+// CODE TO RUN CETEICEAN
+var CETEIcean = new CETEI()
 
 
   document.getElementById("TEI").innerHTML = ""
   document.getElementById("TEI").appendChild(data)
   CETEIcean.addStyle(document, data)
 
-  //get current page
-  const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
-  //show current page
-  showPage(currentMilestone)
-  });
+//get current page
+const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+//show current page
+showPage(currentMilestone)
+});
 
-   $(function rajna_toggle(){
-// if the corrections checkbox is checked, seg and anchor tags highlight red
-        $('#rajnaCheckbox').click(function(){
-            var checked = $('#rajnaCheckbox').prop('checked');
-            if (checked) {
-                $('seg').addClass('Rajna').fadeIn;
-                $('.anchor').fadeIn();
-            }
-            else {
-                $('seg').removeClass('Rajna').fadeOut;
-                $('.anchor').fadeOut();
-            }
-        });
+const origin = document.querySelector('tei-revisionDesc') // gets the first tei-origin in the document
+const originClone = origin.cloneNode(true) // deep clone the node
+const destination = document.querySelector('#revised') // get the destination div
+destination.appendChild(originClone) // place cloned element in the destination element (after other nodes, if present)
+
+//Variables for toggle buttons
+var options = {
+        "rajna_reconstruction":false,
+        "expanded_abbreviations":true
+    };
+
+ //Function to toggle abbreviations
+ $("input[name='abbreviations-toggle'").change(function(){
+      $("tei-choice").each(function(){
+        $(this).children("tei-ex").toggle();
+        $(this).children("tei-abbr").toggle();
+      })
+      options.expanded_abbreviations = $(this).is(":checked");
     });
 
+//Function to toggle rajna reconstruction
+$("input[name='rajna-reconstruction'").change(function(){
+  options.rajna_reconstruction = $(this).is(":checked");
+  if(options.rajna_reconstruction){
+    $("tei-seg").css("color", "red");
+  } else {
+    $("tei-seg").css("color", "black");
+  }
+});
 
 </script>
-
-<script type="text/javascript" src="date-modified.js"></script>
-
 </div>
 </main>
 </body>

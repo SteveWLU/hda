@@ -215,8 +215,8 @@
                 <!-- insert facs="file.jpg" into milestone -->
                 <l n="2">E pluy de tre any stete in la çitie</l>
                 <l n="3">Ch’el non fo a so tera tornie,<note xml:id="p3"/></l><gap reason="missing-illumination"/>
-                <l n="4">Tanto aveva so amor a Sanguy<ex rend="italic">n</ex> donie.</l>
-                <l n="5">Se Sanguy<ex rend="italic">n</ex> chavalcava i<ex rend="italic">n</ex>
+                <l n="4">Tanto aveva so amor a Sangu<choice><abbr>ȳ</abbr><ex rend="italic">yn</ex></choice> donie.</l>
+                <l n="5">Se Sangu<choice><abbr>ȳ</abbr><ex rend="italic">yn</ex></choice> chavalcava i<choice><abbr>n̄</abbr><ex rend="italic">n</ex></choice>
                     alguna partie,</l>
                 <l n="6">Lo cont Ugo era tutora a so costie,</l>
                 <l n="7">Al bevere e al mançar cun lui era colcie.</l>
