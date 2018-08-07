@@ -612,6 +612,18 @@ h1.title {
 	margin: 1% 0% 0% 1%;
 }
 
+#source-code {
+	margin: 6px 0 0 12px;
+	display: inline-block;
+}
+
+img#github {
+	max-width: 9%;
+    display: inline-block;
+	height: auto;
+	margin: 0 4px 0 0;
+}
+
 /* CSS from rails site */
 /* #rajnaCheckbox {
 	display: block;
