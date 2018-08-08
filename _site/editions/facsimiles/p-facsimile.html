@@ -25,16 +25,16 @@
 <header role="banner" class="page-header" id="top">
     <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
     <div id="header-title">
-      <h1 id="site-title"><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
-      <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+        <h1 id="site-title"><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
+        <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
     </div>
     <div id="nav-menu">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <nav class="site-nav">  
   
  
   <div class="dropdown">
-    <button class="dropbtn">About <i class="fa fa-caret-down"></i> </button>
+    <button class="dropbtn">About</button>
       <div class="dropdown-content">
         
           <a href="/about/versioning.html">Versioning</a>
@@ -50,7 +50,7 @@
   
  
   <div class="dropdown">
-    <button class="dropbtn">Praxis <i class="fa fa-caret-down"></i> </button>
+    <button class="dropbtn">Praxis</button>
       <div class="dropdown-content">
         
           <a href="/general.html">General Criteria</a>
@@ -70,7 +70,7 @@
   
  
   <div class="dropdown">
-    <button class="dropbtn">Editions <i class="fa fa-caret-down"></i> </button>
+    <button class="dropbtn">Editions</button>
       <div class="dropdown-content">
         
           <a href="/editions/b-intro.html">Berlin (B)</a>
@@ -88,7 +88,7 @@
   
  
   <div class="dropdown">
-    <button class="dropbtn">Translation <i class="fa fa-caret-down"></i> </button>
+    <button class="dropbtn">Translation</button>
       <div class="dropdown-content">
         
           <a href="/b-translation.html">Berlin Translation</a>
@@ -99,44 +99,11 @@
 
   
 </nav> 
-<script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-  function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-      var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-    }
-  }
-  (function(document){
-  var div = document.getElementById('dropdown');
-  var icon = document.getElementById('fa fa-caret-down');
-  var open = false;
-
-  div.addEventListener('hover', function(){
-    if(open){
-      icon.className = 'fa fa-carat-down';  
-    } else{
-      icon.className = 'fa fa-carat-down open';
-    }
-
-    open = !open;
-  });
-  </script>
 
     </div>
-    <hr id="nav-break">
+<hr id="nav-break">
 </header>
 <div id="viewer">
-<h1 id="padua-facsimile">Padua Facsimile</h1>
-
 <div id="mirador-viewer"></div>
 <link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css" />
 

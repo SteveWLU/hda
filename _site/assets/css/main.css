@@ -694,18 +694,12 @@ h1#ms-intro {
 .ms-intro-toc {
 	margin: 5% 0 0 5%;
 }
-img#p-toc {
+img#toc {
     float: left;
     display: inline-block;
 	border: 2px solid #5f0000;
 	width: 40%;
 	margin: 5% 0 5% 5%;
-}
-img#b-toc {
-    float: left;
-    display: inline-block;
-		border: 2px solid #5f0000;
-		width: 55%;
 }
 #toc ol {
 	display: table-cell;
@@ -747,6 +741,11 @@ i.progress {
 }
 i.updated {
 	color: green;
+}
+h2#ms-intro {
+	color: #5f0000;
+	margin: 4% 0 2% 2%;
+	font-size: x-large;
 }
 /* #toc ol {
 	counter-reset: item;

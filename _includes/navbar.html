@@ -3,7 +3,7 @@
   {% for item in site.data.navigation.toc %}
  
   <div class="dropdown">
-    <button class="dropbtn">{{ item.title }} <i class="fa fa-caret-down"></i> </button>
+    <button class="dropbtn">{{ item.title }}</button>
       <div class="dropdown-content">
         {% for entry in item.subfolderitems %}
           <a href="{{ entry.url }}">{{ entry.page }}</a>
@@ -14,34 +14,3 @@
 
   {% endfor %}
 </nav> 
-<script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-  function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-      var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-    }
-  }
-  (function(document){
-  var div = document.getElementById('dropdown');
-  var icon = document.getElementById('fa fa-caret-down');
-  var open = false;
-
-  div.addEventListener('hover', function(){
-    if(open){
-      icon.className = 'fa fa-carat-down';  
-    } else{
-      icon.className = 'fa fa-carat-down open';
-    }
-
-    open = !open;
-  });
-  </script>

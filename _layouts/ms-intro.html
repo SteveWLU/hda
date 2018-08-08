@@ -25,46 +25,43 @@
 <header role="banner" class="page-header" id="top">
     <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
     <div id="header-title">
-      <h1 id="site-title"><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></h1>
-      <p>{{site.tagline}}</p>
+        <h1 id="site-title"><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></h1>
+        <p>{{site.tagline}}</p>
     </div>
     <div id="nav-menu">
-      {% include navbar.html %}
+        {% include navbar.html %}
     </div>
+    <hr id="nav-break">
 </header>
 
 <body>
+<h1 id="ms-intro">{{page.title}}</h1>
 
-    <h1 id="ms-intro">{{page.title}}</h1>
+<h2 id="ms-intro">Introduction to Edition</h2>
 
+<p>{{page.intro}}</p>
 
-    <div class="toc-image">
-        <table class="image">
-            <tr><td><img id="b-toc" src="../assets/images/b-illumination.jpg"></td></tr>
-            <tr><td class="caption">{{ page.image }}</td></tr>
-        </table>
-    <div>
-    <div class="toc">
+<div id="ms-intro">
+{% if page.sigla == 'B' %}
+    <div id="img-toc"><img id="toc" src="../assets/images/b-intro.jpg"></div>
+{% elsif page.sigla == 'T' %}
+    <div id="img-toc"><img id="toc" src="../assets/images/t-intro.jpg"></div>
+{% elsif page.sigla == 'P' %}
+    <div id="img-toc"><img id="toc" src="../assets/images/p-intro.jpg"></div>
+{% elsif page.sigla == 'Br' %}
+    <div id="img-toc"><img id="toc" src="../assets/images/br-intro.jpg"></div>
+{% endif %}
+<div id="toc">
         <h2>Table of Contents</h2>
         <ol>
-            <li><a href="{{ page.praxis }}">Edition Criteria</a></li>
-            <li><a href="{{ page.edition }}">Digital Edition</a></li>
-            <li><a href="{{ page.facsimile }}">Digital Facsimile</a></li>
+            <li><a href="{{page.criteria}}">Edition Criteria</a></li>
+            <li><a href="{{page.edition}}">Digital Edition</a></li>
+            <li><a href="{{page.facsimile}}">Digital Facsimile</a></li>
             <li>Concordance</li>
             <li>Codicology</li>
             <li>Glossary</li>
         </ol>
-    </div>
-
+</div>
+</div>
 </body>
-</html>
-
-<figure>
-  <p><img src="eiffel.jpg"
-    width="136" height="200"
-    alt="Eiffel tower">
-  <figcaption>Scale model of the
-    Eiffel tower in
-    Parc Mini-France</figcaption>
-</figure>
 
