@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  <title>Barbieri fragment facsimile</title>
+  <title>Barbieri facsimile</title>
   <meta name="description" content="The Huon d'Auvergne Digital Archive publishes for the first time all four extant Franco-Italian manuscripts of the Huon d'Auvergne romance-epic.">
   <link rel="canonical" href="/editions/facsimiles/br-facsimile.html">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -133,20 +133,13 @@
 
     </div>
     <hr id="nav-break">
-<!-- <nav role="navigation">
-<input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
-<ul class="menu">
-  <li><a href="/about.html" title="about">About</a></li>
-  <li><a href="/praxis.html" title="praxis">Praxis</a></li>
-  <li><a href="/resources.html" title="resources">Editions</a></li>
-  <li><a href="/archive.html" title="Translations">Translation</a></li>
-  <li><a href="/bibliography.html" title="Bibliography">Bibliography</a></li>
-  </ul> -->
 </header>
-<h1 id="barbieri-fragment-facsimile">Barbieri fragment facsimile</h1>
+<div id="viewer">
+<h1 id="barbieri-facsimile">Barbieri Facsimile</h1>
 
 <div id="mirador-viewer"></div>
+<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css" />
+
 <style>
     body {
       background-color: #fff;
@@ -166,35 +159,37 @@
     }
 </style>
 
-<div id="image-viewer">
+<div id="viewer"></div>
+
+<script src="/iiif_viewer/mirador/mirador.js"></script>
 
 <script type="text/javascript">
 
  $(function() {
    Mirador({
-     id: "viewer",
-     layout: "1x1",
-     data: [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/b-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/r-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/t-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     mainMenuSettings: { 'show': false },
-     buildPath: "/iiif_viewer/mirador/",
-     windowObjects: [{
-            loadedManifest: "http://localhost:4000/tiles/barbieri/manifest.json",
-            viewType: "ImageView",
-            displayLayout: false,
-            bottomPanel: false,
-            bottomPanelAvailable: false,
-            bottomPanelVisible: false,
-            sidePanel: false,
-            annotationLayer: false
+     'id': 'viewer',
+     'layout': '1x1',
+     'data': [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/b-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/r-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/t-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     'mainMenuSettings': { 'show': false },
+     'buildPath': '/iiif_viewer/mirador/',
+     'windowObjects': [{
+     'loadedManifest': 'http://localhost:4000/tiles/br-facsimile/manifest.json',
+     'viewType': 'BookView',
+     'displayLayout': true,
+     'bottomPanel': true,
+     'bottomPanelAvailable': true,
+     'bottomPanelVisible': false,
+     'sidePanel': false,
+     'annotationLayer': true
+
      }],
-     annotationEndpoint: { "name": "Local Storage", "module": "LocalStorageEndpoint" }
+     'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
    });
  });
 </script>
 
+
 </div>
-
-
 <hr>
 
 <footer role="contentinfo" class="page-footer">

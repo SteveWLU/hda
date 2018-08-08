@@ -1,10 +1,9 @@
 ---
-layout: default
-title: Barbieri fragment facsimile
-
-
+layout: facsimile
+title: Barbieri facsimile
+iiif_collections: br-facsimile
 ---
 
-# Barbieri fragment facsimile
+# Barbieri Facsimile
 
-{% iiif_presentation barbieri %}
+{% iiif_presentation br-facsimile %}

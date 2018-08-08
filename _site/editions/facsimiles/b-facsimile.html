@@ -147,6 +147,8 @@
 <h1 id="berlin-facsimile">Berlin Facsimile</h1>
 
 <div id="mirador-viewer"></div>
+<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css" />
+
 <style>
     body {
       background-color: #fff;
@@ -166,33 +168,34 @@
     }
 </style>
 
-<div id="image-viewer">
+<div id="viewer"></div>
+
+<script src="/iiif_viewer/mirador/mirador.js"></script>
 
 <script type="text/javascript">
 
  $(function() {
    Mirador({
-     id: "viewer",
-     layout: "1x1",
-     data: [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/b-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/r-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/t-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     mainMenuSettings: { 'show': false },
-     buildPath: "/iiif_viewer/mirador/",
-     windowObjects: [{
-            loadedManifest: "http://localhost:4000/tiles/berlin/manifest.json",
-            viewType: "ImageView",
-            displayLayout: false,
-            bottomPanel: false,
-            bottomPanelAvailable: false,
-            bottomPanelVisible: false,
-            sidePanel: false,
-            annotationLayer: false
+     'id': 'viewer',
+     'layout': '1x1',
+     'data': [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/b-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/r-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/t-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
+     'mainMenuSettings': { 'show': false },
+     'buildPath': '/iiif_viewer/mirador/',
+     'windowObjects': [{
+     'loadedManifest': 'http://localhost:4000/tiles/berlin/manifest.json',
+     'viewType': 'BookView',
+     'displayLayout': true,
+     'bottomPanel': true,
+     'bottomPanelAvailable': true,
+     'bottomPanelVisible': false,
+     'sidePanel': false,
+     'annotationLayer': true
+
      }],
-     annotationEndpoint: { "name": "Local Storage", "module": "LocalStorageEndpoint" }
+     'annotationEndpoint': { 'name':'Local Storage', 'module': 'LocalStorageEndpoint' }
    });
  });
 </script>
-
-</div>
 
 
 <hr>
