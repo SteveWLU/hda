@@ -672,8 +672,9 @@ div#toc-header {
 	display: inline-block;
 }
 div#toc {
-	width: 50%;
+	width: 40%;
 	float: left;
+	margin: 5% 0 0 10%;
 }
 
 div#toc-img {
@@ -696,8 +697,9 @@ h1#ms-intro {
 img#p-toc {
     float: left;
     display: inline-block;
-		border: 2px solid #5f0000;
-		width: 30%;
+	border: 2px solid #5f0000;
+	width: 40%;
+	margin: 5% 0 5% 5%;
 }
 img#b-toc {
     float: left;
@@ -707,6 +709,7 @@ img#b-toc {
 }
 #toc ol {
 	display: table-cell;
+	font-size: small;
 }
 
 #toc h2 {
@@ -716,7 +719,6 @@ img#b-toc {
 }
 
 #toc a, h2 {
-	color: #5f0000;
 	font-size: 1em;
 	font: 'Barlow Semi Condensed', sans-serif;
 }

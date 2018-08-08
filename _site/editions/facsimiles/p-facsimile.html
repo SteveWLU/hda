@@ -133,68 +133,38 @@
 
     </div>
     <hr id="nav-break">
-<!-- <nav role="navigation">
-<input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
-<ul class="menu">
-  <li><a href="/about.html" title="about">About</a></li>
-  <li><a href="/praxis.html" title="praxis">Praxis</a></li>
-  <li><a href="/resources.html" title="resources">Editions</a></li>
-  <li><a href="/archive.html" title="Translations">Translation</a></li>
-  <li><a href="/bibliography.html" title="Bibliography">Bibliography</a></li>
-  </ul> -->
 </header>
-<h1 id="padua-facsimile">Padua Facsimile</h1>
-
-<div id="mirador-viewer"></div>
-<style>
-    body {
-      background-color: #fff;
-      padding: 1em 0;
-      margin: 0 5% !important;
-      width: 90%;
-    }
-    #viewer {
-      display: block;
-      width: 90%;
-      height: 600px;
-      margin: 1em 5%;
-      position: relative;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-</style>
-
-<div id="image-viewer">
-
-<script type="text/javascript">
-
- $(function() {
-   Mirador({
-     id: "viewer",
-     layout: "1x1",
-     data: [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/b-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/r-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/t-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     mainMenuSettings: { 'show': false },
-     buildPath: "/iiif_viewer/mirador/",
-     windowObjects: [{
-            loadedManifest: "http://localhost:4000/tiles/p-facsimile/manifest.json",
-            viewType: "ImageView",
-            displayLayout: false,
-            bottomPanel: false,
-            bottomPanelAvailable: false,
-            bottomPanelVisible: false,
-            sidePanel: false,
-            annotationLayer: false
-     }],
-     annotationEndpoint: { "name": "Local Storage", "module": "LocalStorageEndpoint" }
-   });
- });
+<div class="image-viewer">
+<script defer="true" src="/iiif_viewer/openseadragon/openseadragon.min.js"></script>
+<script>
+//<![CDATA[
+var iiif_viewerfuncs = [];
+window.onload = function() {
+  var arrayLength = iiif_viewerfuncs.length;
+  for (var i = 0; i < arrayLength; i++) {
+    iiif_viewerfuncs[i]();
+  }
+}
+//]]
+</script>
+<div id="openseadragon1" class="iiif_image"></div>
+<script>
+//<![CDATA[
+iiif_viewerfuncs.push(
+  function initOpenSeadragon1() {
+    OpenSeadragon({
+      id: "openseadragon1",
+      minZoomImageRatio: 1,
+      prefixUrl: "/iiif_viewer/openseadragon/images/",
+      tileSources: "/tiles/images//info.json",
+      crossOriginPolicy: false
+    });
+  }
+)
+//]]>
 </script>
 
 </div>
-
-
 <hr>
 
 <footer role="contentinfo" class="page-footer">
