@@ -736,9 +736,9 @@ hr#nav-break {
     width: 100%;
 }
 #status {
-	float: right;
-	margin: 1% 2% 2% 0;
-	padding: 0 0 1% 2%;
+    float: right;
+    margin: .5% 2% 0 0;
+    padding: 0 0 1% 2%;
 }
 i.progress {
 	color: orange;

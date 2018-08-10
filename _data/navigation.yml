@@ -7,6 +7,8 @@ toc:
         url: /about/bibliography.html
       - page: Cite our work
         url: /about/citation.html
+      - page: Source Code
+        url: https://github.com/SteveWLU/hda
   - title: Praxis
     subfolderitems:
       - page: General Criteria
