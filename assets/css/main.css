@@ -749,6 +749,10 @@ h2#ms-intro {
 	margin: 4% 0 2% 2%;
 	font-size: x-large;
 }
+#editions, #collaborators {
+	text-align: center;
+	font-size: larger;
+}
 /* #toc ol {
 	counter-reset: item;
 	font-variant: small-caps;
@@ -1108,14 +1112,15 @@ img#initial {
   max-width: 15%;
   float: left;
   padding-right: 10px;
-  margin-top: -190px;
-  margin-left: -222px;
   margin-bottom: -450px;
+  margin-top: -132px;
+  margin-left: -173px;
 }
 
 p.intro {
 	margin-top: 10em;
 	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;
 }
 
 div#edition-container {
