@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: facsimile
 title: Berlin facsimile
-
-
+iiif_collections: b-facsimile
 ---
 
-# Berlin Facsimile
+<h1>Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)</h1>
 
-{% iiif_presentation berlin %}
+{% iiif_presentation b-facsimile %}

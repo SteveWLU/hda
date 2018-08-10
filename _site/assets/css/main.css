@@ -307,7 +307,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	margin: 0 0 1em 0;
-	font-family: 'Barlow Semi Condensed', sans-serif;	
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;	
 }
 a {
 	color: #000000;
@@ -723,6 +724,7 @@ img#toc {
 #toc ol > li {
 	color: #D6D6D6;
 	font-size: 2em;
+	padding-bottom: 1em;
 }
 
 #edition-footer {
@@ -752,6 +754,9 @@ h2#ms-intro {
 #editions, #collaborators {
 	text-align: center;
 	font-size: larger;
+}
+hr#toc {
+    margin-left: -.5em;
 }
 /* #toc ol {
 	counter-reset: item;
