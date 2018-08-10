@@ -3,7 +3,7 @@ layout: default
 title: Bibliography
 ---
 
-# Complete Bibliography for [Huon d'Auvergne](www.huondauvergne.org)
+# Complete Bibliography for Huon d'Auvergne
 
 ## &#10081; Manuscripts
 

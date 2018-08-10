@@ -41322,7 +41322,7 @@ return paper;
       //control what is available in the side panel. if "sidePanel" is false, these options won't be applied
       "sidePanelOptions" : {
         "toc" : true,
-        "annotations" : false
+        "annotations" : true
       },
       "sidePanelVisible" : true, //whether or not to make the side panel visible in this window on load. This setting is dependent on sidePanel being true
       "overlay" : true, //whether or not to make the metadata overlay available/visible in this window
@@ -41332,7 +41332,7 @@ return paper;
           "annotationCreation" : true, /*whether or not to make annotation creation available in this window,
                        only valid if annotationLayer is set to True and an annotationEndpoint is defined.
                        This setting does NOT affect whether or not a user can edit an individual annotation that has already been created.*/
-          "annotationState" : 'off', //[_'off'_, 'on'] whether or not to turn on the annotation layer on window load
+          "annotationState" : 'on', //[_'off'_, 'on'] whether or not to turn on the annotation layer on window load
           "annotationRefresh" : false, //whether or not to display the refresh icon for annotations
         },
         "imageManipulation" : {

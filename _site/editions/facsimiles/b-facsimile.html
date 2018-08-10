@@ -23,7 +23,7 @@
 <body>
 
 <header role="banner" class="page-header" id="top">
-    <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
+    <div id="dragon"><img id="dragon" src="/assets/images/dragon.png"></div>
     <div id="header-title">
       <h1 id="site-title"><a href="http://localhost:4000" class="site-title">Huon d'Auvergne Digital Archive</a></h1>
       <p>A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
@@ -115,9 +115,6 @@
 </header>
 <h1 id="berlin-facsimile">Berlin Facsimile</h1>
 
-<div id="mirador-viewer"></div>
-<link rel="stylesheet" href="/iiif_viewer/mirador/css/mirador-combined.css" />
-
 <style>
     body {
       background-color: #fff;
@@ -128,7 +125,7 @@
     #viewer {
       display: block;
       width: 90%;
-      height: 600px;
+      height: 1000px;
       margin: 1em 5%;
       position: relative;
     }
@@ -148,7 +145,7 @@
      'id': 'viewer',
      'layout': '1x1',
      'data': [ {'manifestUri': 'http://localhost:4000/tiles/br-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/p-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/b-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/r-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'},{'manifestUri': 'http://localhost:4000/tiles/t-facsimile/manifest.json', 'location': 'This jekyll-iiif site.'} ],
-     'mainMenuSettings': { 'show': false },
+     'mainMenuSettings': { 'show': true },
      'buildPath': '/iiif_viewer/mirador/',
      'windowObjects': [{
      'loadedManifest': 'http://localhost:4000/tiles/berlin/manifest.json',
@@ -157,7 +154,7 @@
      'bottomPanel': true,
      'bottomPanelAvailable': true,
      'bottomPanelVisible': false,
-     'sidePanel': false,
+     'sidePanel': true,
      'annotationLayer': true
 
      }],

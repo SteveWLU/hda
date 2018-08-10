@@ -196,7 +196,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg type="laisse" n="1">
+            <lg type="laisse" n="1"><milestone n="1R" unit="fol."/>
                 <head>Laisse 1</head>
                 <l n="1"><seg>Al tempo de mazo quando el fiorise le prade<note
                             xml:id="t1"/></seg></l>
@@ -308,10 +308,9 @@
                 <l n="72">e luy l(i) comandò, li feze cha<seg>valcare dentorno</seg></l>
                 <l n="73">e bandise la corte da parte <seg>de lo'mperadore.</seg></l>
             </lg>
-            <lg type="laisse" n="4">
+            <lg type="laisse" n="4"><milestone n="2R" unit="fol."/>
                 <head>Laisse 4</head>
-                <l n="74"><milestone n="2R" unit="fol."/><seg>En Pentacosta apresso
-                        l'Asensione</seg></l>
+                <l n="74"><seg>En Pentacosta apresso l'Asensione</seg></l>
                 <l n="75"><seg>e' n'à bandita la corte, tute ne verano,</seg></l>
                 <l n="76"><seg>che debe durare quatro mese al delongo</seg>.<note xml:id="t76"/></l>
                 <l n="77"><seg>E perzò voleano lo'mperio Carlone</seg></l>

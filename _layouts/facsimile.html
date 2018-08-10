@@ -12,6 +12,7 @@
   <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
   <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/iiif_viewer/mirador/css/mirador-combined.css">
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
@@ -23,7 +24,7 @@
 <body>
 
 <header role="banner" class="page-header" id="top">
-    <div id="dragon"><img id="dragon" src="../assets/images/dragon.png"></div>
+    <div id="dragon"><img id="dragon" src="{{ site.baseurl }}/assets/images/dragon.png"></div>
     <div id="header-title">
         <h1 id="site-title"><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></h1>
         <p>{{site.tagline}}</p>
@@ -33,9 +34,12 @@
     </div>
 <hr id="nav-break">
 </header>
-<div id="viewer">
+
+<div id="wrapper">
 {{ content }}
 </div>
+
+
 {% include footer.html %}
 </body>
 </html>

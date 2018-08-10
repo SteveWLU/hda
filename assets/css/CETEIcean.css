@@ -547,6 +547,9 @@ tei-gap[reason="missing-illumination"]:after {
   padding: 4em;
 
 }
+tei-gap[reason="missing-folios"] {
+  display: none;
+}
 tei-gap[data-tei-reason='illegible']:after {
   /* content: attr(data-content); */
 }
