@@ -169,30 +169,31 @@
     </revisionDesc>
   </teiHeader>
   <text>
+  <!-- ꝯ ā, ē, ī, ō, ū ꝉ ⁊ q̄ oꝛ -->
     <body>
       <lg>
-        <l n="9396"><milestone n="1" unit="fol."/>Cil qui mai<ex rend="italic">n</ex>s ja n'oit, n'avoit trop a so<ex rend="italic">n</ex> volere.</l>
-        <l n="9397">Le <ex rend="italic">con</ex>dutor sivre<ex rend="italic">n</ex>t, ni vorent arest(e)re;</l>
-        <l n="9398">Ugon parolle cu<ex rend="italic">m</ex> pietosse chere:</l>
-        <l n="9399">"Sire Guill<ex rend="italic">am</ex>e, ne moy laiser darere.</l>
-        <l n="9400">Je voy giant ci de mai<ex rend="italic">n</ex>tes maynere;</l>
-        <l n="9401">Chascu<ex rend="italic">n</ex>s ver moy si me feit layde chiere,</l>
+        <l n="9396"><milestone n="1" unit="fol."/>Cil qui ma<choice><abbr>ī</abbr><ex rend="italic">in</ex></choice>s ja n'oit, n'avoit trop a s<choice><abbr>о̄</abbr><ex rend="italic">on</ex></choice> volere.</l>
+        <l n="9397">Le <choice><abbr>ꝯ</abbr><ex rend="italic">con</ex></choice>dutor sivr<choice><abbr>ē</abbr><ex rend="italic">en</ex></choice>t, ni vorent arest(e)re;</l>
+        <l n="9398">Ugon parolle c<choice><abbr>ū</abbr><ex rend="italic">um</ex></choice> pietosse chere:</l>
+        <l n="9399">"Sire Guil<choice><abbr>ꝉ</abbr><ex rend="italic">lam</ex></choice>e, ne moy laiser darere.</l>
+        <l n="9400">Je voy giant ci de ma<choice><abbr>ī</abbr><ex rend="italic">in</ex></choice>tes maynere;</l>
+        <l n="9401">Chasc<choice><abbr>ū</abbr><ex rend="italic">un</ex></choice>s ver moy si me feit layde chiere,</l>
         <l n="9402">N'en ont son bon; je li voy tot entiere.</l>
         <l n="9403">Le çaitif voy a dos et a troy em biere,</l>
-        <l n="9404">Jaisir cu<ex rend="italic">m</ex> mors; v(e)spes <ex rend="italic">et</ex> v<ex rend="italic">er</ex>minere</l>
-        <l n="9405"> Le ma<ex rend="italic">n</ex>juent son cors, tretot desfere </l>
-        <l n="9406">Li pieç, li mai<ex rend="italic">n</ex>s <ex rend="italic">et</ex> la lumere.</l>
-        <l n="9407">Ni da ces vespes n'oit puissa<ex rend="italic">n</ex>ce e<ex rend="italic">n</ex>tiere</l>
-        <l n="9408">De so(i) defendre, ta<ex rend="italic">n</ex>t ert lor chativere:</l>
+        <l n="9404">Jaisir c<choice><abbr>ū</abbr><ex rend="italic">um</ex></choice> mors; v(e)spes <choice><abbr>⁊</abbr><ex rend="italic">et</ex></choice> <choice><abbr>ū</abbr><ex rend="italic">ver</ex></choice>minere</l>
+        <l n="9405"> Le m<choice><abbr>ā</abbr><ex rend="italic">an</ex></choice>juent son cors, tretot desfere </l>
+        <l n="9406">Li pieç, li ma<choice><abbr>ī</abbr><ex rend="italic">in</ex></choice>es <choice><abbr>⁊</abbr><ex rend="italic">et</ex></choice> la lumere.</l>
+        <l n="9407">Ni da ces vespes n'oit puiss<choice><abbr>ā</abbr><ex rend="italic">an</ex></choice>ce <choice><abbr>ē</abbr><ex rend="italic">en</ex></choice>tiere</l>
+        <l n="9408">De so(i) defendre, t<choice><abbr>ā</abbr><ex rend="italic">an</ex></choice>t ert lor chativere:</l>
         <l n="9409">Chascun de lor ont soç la letiere</l>
-        <l n="9410">Trente diables q<ex rend="italic">ue</ex> chascu<ex rend="italic">n</ex>s so<ex rend="italic">n</ex> co<ex rend="italic">r</ex>s spere.</l>
+        <l n="9410">Trente diables <choice><abbr>q̄</abbr><ex rend="italic">que</ex></choice> chasc<choice><abbr>ū</abbr><ex rend="italic">un</ex></choice>s s<choice><abbr>ō</abbr><ex rend="italic">on</ex></choice> c<choice><abbr>oꝛ</abbr><ex rend="italic">or</ex></choice>s spere.</l>
         <l n="9411">Lor aïe ert trop de malveisse afere,</l>
         <l n="9412">Car cum ses graffes oy n'a nul ne le fere!</l>
         <l n="9413">Garde cu<ex rend="italic">m</ex> crie. Chascu<ex rend="italic">n</ex> clame soe mere:</l>
-        <l n="9414">‘Aydeç moy, q<ex rend="italic">ue</ex> maleoit soit mo<ex rend="italic">n</ex> pere</l>
-        <l n="9415">Qua<ex rend="italic">n</ex>t moy gendra ava<ex rend="italic">n</ex>t fuisse de pere.’</l>
+        <l n="9414">‘Aydeç moy, <choice><abbr>q̄</abbr><ex rend="italic">que</ex></choice> maleoit soit mo<ex rend="italic">n</ex> pere</l>
+        <l n="9415">Qu<choice><abbr>ā</abbr><ex rend="italic">an</ex></choice>t moy gendra av<choice><abbr>ā</abbr><ex rend="italic">an</ex></choice>t fuisse de pere.’</l>
         <l n="9416">Cest sont celor que segui la banere</l>
-        <l n="9417">De g<ex rend="italic">ra</ex>nt luxurie por Sedaine mainere."</l>
+        <l n="9417">De g<choice><abbr>n̄</abbr><ex rend="italic">ran</ex></choice>t luxurie por Sedaine mainere."</l>
       </lg>
       <lg type="laisse" n="361">
         <head>Laisse 361</head>

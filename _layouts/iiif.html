@@ -60,12 +60,14 @@
 
 
 <div id="TEI-tools">
+{% if page.sigla == 'P' %}
   <div id="show-french">
       <label class="switch">
           <input type="checkbox" name="show-french" unchecked>
           <div class="slider round"></div>
-      </label> Franco-Italian
+      </label> French
   </div>
+{% endif %}
   <div id="expand">
       <label class="switch">
           <input type="checkbox" name="abbreviations-toggle" checked>
@@ -79,6 +81,14 @@
           <div class="slider round"></div>
       </label> Rajna Reconstruction
   </div>
+{% endif %}
+  <div id="notes">
+      <label class="switch">
+          <input type="checkbox" checked>
+          <div class="slider round"></div>
+      </label> Notes
+  </div>
+{% if page.sigla == 'T' %}
   <div id="rajna">
       <a href="{{site.baseurl}}/editions/facsimiles/r-facsimile.html" style="color: #5f0000">Rajna Notebook</a>
   </div>
@@ -88,12 +98,6 @@
   <input type="checkbox" name="rajnaCheckbox" id="rajnaCheckbox" style="display: inline;">
   </form> -->
 {% endif %}
-  <div id="notes">
-      <label class="switch">
-          <input type="checkbox" checked>
-          <div class="slider round"></div>
-      </label> Notes
-  </div>
   <div id="source-code">
       <a href="https://github.com/SteveWLU/hda/blob/development/editions/p.xml"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span>Source Code</a>
   </div>

@@ -308,6 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	margin: 0 0 1em 0;
 	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;	
 }
 a {
 	color: #000000;
@@ -757,6 +758,9 @@ h2#ms-intro {
 hr#toc {
     margin-left: -.5em;
 }
+#status p {
+	font-size: inherit;
+}
 /* #toc ol {
 	counter-reset: item;
 	font-variant: small-caps;
@@ -1146,6 +1150,7 @@ div#image-viewer {
 #post-content {
 	float: left;
 	width: 50%;
+	margin-top: 1%;
 }
 
 #folio-nav {
