@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="site-nav">  
+  {% for item in site.data.navigation.toc %}
+ 
+  <div class="dropdown">
+    <button class="dropbtn">{{ item.title }}</button>
+      <div class="dropdown-content">
+        {% for entry in item.subfolderitems %}
+          <a href="{{ entry.url }}">{{ entry.page }}</a>
+        {% endfor %}
+      
+    </div>
+  </div>
+
+  {% endfor %}
+</nav> 

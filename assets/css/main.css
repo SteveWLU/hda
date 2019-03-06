@@ -122,6 +122,8 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
+  width: 75%;
+  clear: both;
 }
 /**
  * Contain overflow in all browsers.
@@ -289,13 +291,14 @@ th {
   Global settings
 -----------------------------------------------------*/
 body {
-	font: 110% 'Roboto Slab', Georgia, serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	background: white;
 	direction: ltr;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 700;
+	color: #5f0000;
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -304,14 +307,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	margin: 0 0 1em 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;	
 }
 a {
-	color: #42659A;
+	color: #000000;
 	line-height: inherit;
+	text-decoration: none;
 }
-a:hover {
+/* a:hover {
 	color: #213149;
-}
+} */
 img, object, embed {
 	max-width: 100%;
 	display: block;
@@ -362,12 +368,14 @@ header h1 {
 	line-height:1;
 	margin: 0;
 	text-transform: uppercase;
+	text-align:left;
 }
 header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #666;
 	text-transform: uppercase;
+	margin: none;
 }
 /* --------------------------------------------------
    top navigation styles
@@ -379,10 +387,73 @@ nav ul, nav li {
 	min-height: 0;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Barlow Semi Condensed', sans-serif;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 0.1em;
+}
+
+nav li.active a {
+	color: #ffffff;
+}
+
+.site-nav {
+	overflow: hidden;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	float: left;
+	margin-left: 1%;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+		margin: 0;
+		width: 150px;
+		border-radius: 8px;
+		text-decoration: &9660;
+}
+.site-nav a:hover, .dropdown:hover .dropbtn {
+	display:block;
+	background-color: #f5f5f5;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f5f5f5;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.fa-arrow-down{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+.fa-arrow-down.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
 }
 
 /* --------------------------------------------------
@@ -458,7 +529,7 @@ figcaption {
 	font-style: italic;
 }
 blockquote {
-	font: 1.5em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1.5em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #6d6d6d;
 	padding-left: 1em;
@@ -477,7 +548,7 @@ article footer {
 	padding: 1em 0;
 }
 dt {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	color: #42659A;
@@ -503,12 +574,212 @@ dd {
 	width: 50%;
 	text-align: right;
 }
-.previous:before {
-	content: '\00ab\00a0';
+h1.title {
+	padding: 0 1em;
+	font-size: 1.5em;
+	margin: 0 auto;
 }
-.next:after {
-	content: '\00a0\00bb';
+#folio {
+	max-width: 4em;
+	min-width: 4em;
+	display: inline-block;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin: 0 0 3% 11%;
+	font-size: x-large;
+	color: #5f0000;
 }
+.prevnext {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	margin: 0 0 1% 0;
+}
+
+#TEI-title {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2em;
+	margin: 5% 0 0 0;
+	color: #5f0000;
+}
+
+#TEI-tools {
+    border: solid .5px;
+	margin: 1% 0 5% 0;
+	background: #f5f5f5;
+	border-radius: 34px;
+	padding: 0 0 1% 2%;
+}
+
+#show-french, #expand, #reconstruction, #rajna, #notes {
+	display: inline-block;
+	margin: 1% 0% 0% 1%;
+}
+
+#source-code {
+	margin: 6px 0 0 12px;
+	display: inline-block;
+}
+
+img#github {
+	max-width: 9%;
+    display: inline-block;
+	height: auto;
+	margin: 0 4px 0 0;
+}
+
+/* CSS from rails site */
+/* #rajnaCheckbox {
+	display: block;
+}
+
+#rajna-form {
+	display: inline;
+	float: none;
+}
+
+#rajna-label {
+	float: none;
+	display: inline;
+	text-decoration: none;
+} */
+
+.iiif_image {
+	border-left: 1px solid gray;
+	width: 40%;
+	height: 890px;
+	border-style: groove;
+	display: inline-block;
+	position: absolute;
+	float: left;
+}
+img#dragon {
+	max-width: 15%;
+	display: inline-block;
+	height: auto;
+	float: left;
+	margin: none !important;
+}
+h1#site-title {
+	display: inline-block;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+div#header-title {
+	margin: 2% 0 0 17%;
+}
+
+div#toc-header {
+	float: left;
+	color: #5f0000;
+	margin: 5% 0 0 0;
+	display: inline-block;
+}
+div#toc {
+	width: 40%;
+	float: left;
+	margin: 5% 0 0 10%;
+}
+
+div#toc-img {
+	width: 50%;
+	float: left;
+}
+
+h1#edition-criteria-for-padua {
+	margin: 10% 0 0 0;
+	color: #5f0000;
+}
+
+h1#ms-intro {
+	margin: 8% 0 0 0;
+	color: #5f0000;
+}
+.ms-intro-toc {
+	margin: 5% 0 0 5%;
+}
+img#toc {
+    float: left;
+    display: inline-block;
+	border: 2px solid #5f0000;
+	width: 40%;
+	margin: 5% 0 5% 5%;
+}
+#toc ol {
+	font-size: small;
+}
+
+#toc h2 {
+	font-size: 2em;
+	color: #5f0000;
+	font: 'Barlow Semi Condensed', sans-serif;
+}
+
+#toc a, h2 {
+	font-size: 1em;
+	font: 'Barlow Semi Condensed', sans-serif;
+	color: #5f0000;
+    font-size: x-large;
+}
+
+#toc ol > li {
+	color: #D6D6D6;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+#edition-footer {
+    margin: 75% 0 0 0;
+}
+
+hr#nav-break {
+    margin-top: 9%;
+    width: 100%;
+}
+#status {
+    float: right;
+    margin: .5% 2% 0 0;
+    padding: 0 0 1% 2%;
+}
+i.progress {
+	color: orange;
+}
+i.updated {
+	color: green;
+}
+h2#ms-intro {
+	color: #5f0000;
+	margin: 4% 0 2% 2%;
+	font-size: x-large;
+}
+#editions, #collaborators {
+	text-align: center;
+	font-size: larger;
+}
+hr#toc {
+    margin-left: -.5em;
+}
+#status p {
+	font-size: inherit;
+}
+/* #toc ol {
+	counter-reset: item;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	padding-left: 3.5em;
+	line-height: 2.5em;
+}
+#toc ol>li {
+	color: lightgray;
+	float: left;
+	padding-right: 25%;
+	display: block;
+	list-style-type: lower-roman;
+	width: 100%;
+} */
+
+/* HERE */
+/* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
+
 /* --------------------------------------------------
    archive styles
 -----------------------------------------------------*/
@@ -613,11 +884,12 @@ aside li {
    main footer styles
 -----------------------------------------------------*/
 .page-footer {
-  font-family: 'Helvetica Narrow', Arial, sans-serif;
-  background: #white;
+  font-family: 110% 'Barlow Semi Condensed', sans-serif;
+  background: white;
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: black;
+	clear: both;
 }
 .legal {
     font-size: .75em;
@@ -655,7 +927,7 @@ aside li {
 }
 
 img#logo_unf {
-	margin-top: -1em;
+  margin-top: -1em;
 }
 
 img#logo_marucelliana {
@@ -685,9 +957,9 @@ nav li {
 	background: #42659A;
 	margin-bottom: .2em;
 }
-nav li:hover {
-	background: #333;
-}
+/* nav li:hover {
+	background: pink;
+} */
 nav li a {
 	font-size: 1.2em;
 	font-weight: 100;
@@ -701,14 +973,14 @@ nav li a {
 	max-width: 100%;
 	width:100%;
 }
-nav li a:hover {
-	color: white;
-}
+/* nav li a:hover {
+	color: whitesmoke;
+} */
 /*toggle check styles*/
 .toggle-label {
 	display: block;
 	background: #42659A;
-	font: 0.8em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 0.8em 'Barlow Semi Condensed', sans-serif;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: white;
@@ -744,6 +1016,9 @@ dd{
 	margin-bottom: 1em;
 }
 }
+
+
+
 /* --------------------------------------------------
    Larger screen styles
 -----------------------------------------------------*/
@@ -752,7 +1027,7 @@ dd{
    layout styles
 -----------------------------------------------------*/
 html {
-	background: #white;
+	background: white;
 }
 body {
 	width: 80%;
@@ -765,8 +1040,7 @@ body {
 .index, .archive {
   display: inline-block;
   width: 100%;
-  padding-right: 8%;
-  padding-left: 10%;
+  padding: 0 8% 0 10%;
 }
 aside {
 	float: left;
@@ -780,12 +1054,12 @@ aside {
    header styles
 -----------------------------------------------------*/
 header h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #5f0000;
 	text-transform: uppercase;
 }
 /* --------------------------------------------------
@@ -793,7 +1067,6 @@ header p {
 -----------------------------------------------------*/
 nav {
 	background: none;
-	margin-bottom: 2em;
 }
 #menu-toggle, .toggle-label {
 		display: none;
@@ -809,7 +1082,7 @@ nav li {
 	display: inline-block;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
   font-variant: small-caps;
 	color: #5f0000;
 	margin-right: 0.5em;
@@ -818,10 +1091,10 @@ nav li a {
 	text-decoration: none;
 	letter-spacing: 0.1em;
 }
-nav li a:hover {
+/* nav li a:hover {
 	color: white;
 	background: #333;
-}
+} */
 
 /* --------------------------------------------------
    article styles
@@ -841,17 +1114,134 @@ a.more {
 }
 }
 
-/* Local Styles - to be moved into separate files later */
+/* Local Styles - to be sorted or moved into separate files later */
 
 img#initial {
-  max-width: 25%;
+  max-width: 15%;
   float: left;
   padding-right: 10px;
-  margin-top: -190px;
-  margin-left: -222px;
   margin-bottom: -450px;
+  margin-top: -132px;
+  margin-left: -173px;
 }
 
 p.intro {
-    margin-top: 10em;
+	margin-top: 10em;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;
 }
+
+div#edition-container {
+  border: 100% solid #000;
+}
+div#TEI {
+  float: left;
+	width: 50%;
+	margin-top: 4%;
+}
+div#image-viewer {
+	margin-left: 50%;
+	background-color: pink;
+}
+.page-break {
+	color: blue;
+}
+
+#post-content {
+	float: left;
+	width: 50%;
+	margin-top: 1%;
+}
+
+#folio-nav {
+	margin-left: 46%;
+}
+
+/* unsure what these do... maybe the ul and li from p-intro.md */ 
+
+/* ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-right: 20px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+} */
+
+/* --------------------------------------------------
+   main footer styles
+-----------------------------------------------------*/
+
+.hid_page {
+	display: none;
+}
+
+/* Toggle buttons */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 20px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #5f0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px a10d09;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider::after {
+  position:relative;
+  right:-55px;
+
+/* content: "Scribal" */
+}
+
