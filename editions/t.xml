@@ -66,6 +66,21 @@
                     <p>The text is freely available</p>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>Brief notes of editorial or codicological nature are contained in a separate
+                    .html file</note>
+                <note type="ling">Notes on linguistic phenomena.</note>
+                <note type="edit">Notes indicating editorial or scribal intervention</note>
+                <note type="interp">Note on interpretation or on literary and historical
+                    context.</note>
+                <note type="codic">Notes on the codicological and material state of the
+                    manuscript.</note>
+                <note type="refer">Notes that reference other primary sources.</note>
+                <note type="biblio">Notes that reference secondary sources.</note>
+                <note type="trans">Notes on previous scholars' transcriptions</note>
+                <note type="lex">Notes on words or expressions</note>
+                <note type="lit">Notes on literal translations where we differ substantially from original</note>
+            </notesStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
                     <!-- xml:id ??? See Cummings 52 -->
@@ -196,7 +211,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg type="laisse" n="1"><milestone n="1R" unit="fol."/>
+            <lg type="laisse" n="1">
                 <head>Laisse 1</head>
                 <l n="1"><seg>Al tempo de mazo quando el fiorise le prade<note
                             xml:id="t1"/></seg></l>
@@ -210,7 +225,7 @@
                 </l>
                 <l n="6"><seg>che per lor deleto entrano y<ex rend="italic">n</ex>
                     zardine;</seg></l>
-                <l n="7"><seg>tute le polzele ensemele com zovenzele
+                <l n="7"><milestone n="1R" unit="fol."/><seg>tute le polzele ensemele com zovenzele
                         </seg><note xml:id="t7"/></l>
                 <l n="8"><seg>de fiore<note xml:id="t8"/> e de rosse zascun se fa capele,</seg></l>
                 <l n="9"><seg>se sy sbaldise perché amore li à strenzé.</seg></l>
@@ -253,7 +268,7 @@
                     baronia,</l>
                 <l n="35"><seg>senza longo termene</seg> li menò y<ex rend="italic">n</ex>
                     ba(i)lia,</l>
-                <l n="36"><seg><num rend="smallcaps">.v.</num> cente milia homene</seg> de bona zente be<ex
+                <l n="36"><num rend="smallcaps">.v.</num> cente milia homene de bona zente be<ex
                         rend="italic">n</ex> guarnita</l>
                 <l n="37"><seg>senza li pedone e tu</seg>te ly bone arzere,</l>
                 <l n="38"><seg>che la rota non poria</seg> aver miga.</l>
@@ -308,9 +323,10 @@
                 <l n="72">e luy l(i) comandò, li feze cha<seg>valcare dentorno</seg></l>
                 <l n="73">e bandise la corte da parte <seg>de lo'mperadore.</seg></l>
             </lg>
-            <lg type="laisse" n="4"><milestone n="2R" unit="fol."/>
+            <lg type="laisse" n="4">
                 <head>Laisse 4</head>
-                <l n="74"><seg>En Pentacosta apresso l'Asensione</seg></l>
+                <l n="74"><milestone n="2R" unit="fol."/><seg>En Pentacosta apresso
+                        l'Asensione</seg></l>
                 <l n="75"><seg>e' n'à bandita la corte, tute ne verano,</seg></l>
                 <l n="76"><seg>che debe durare quatro mese al delongo</seg>.<note xml:id="t76"/></l>
                 <l n="77"><seg>E perzò voleano lo'mperio Carlone</seg></l>
@@ -383,7 +399,7 @@
                             rend="italic">er</ex> luie.</seg></l>
                 <l n="123">E<ex rend="italic">m</ex> Pentacosta, quando àno m<seg>anzà e bev(u)te</seg>
                 <note xml:id="t123"/> </l>
-                <l n="124">a corte del re quando le tavole se levano susa, <note xml:id="t124"/>  </l>
+                <l n="124">a corte del re quando le tavol<seg>e se levano susa</seg>,<note xml:id="t124"/>  </l>
                 <l n="125">Charlo Martelo avè el <ex rend="italic">con</ex>te Ugo<ex rend="italic"
                         >n</ex>; <seg>p<ex rend="italic">er</ex> man el prendea</seg></l>
                 <l n="126">e molte di altre ch'el tenea p<ex rend="italic">er</ex>
