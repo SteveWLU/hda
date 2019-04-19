@@ -180,7 +180,7 @@
 // CODE TO RUN CETEICEAN
 var CETEIcean = new CETEI()
 {% if page.sigla == 'B' %}
-  CETEIcean.getHTML5("{{site.baseurl}}/editions/b-temp.xml", function(data) {
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/b.xml", function(data) {
 
 {% elsif page.sigla == 'T' %}
   CETEIcean.getHTML5("{{site.baseurl}}/editions/t.xml", function(data) {
