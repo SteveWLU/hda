@@ -4,5 +4,5 @@ title: folio 68v
 manuscript: Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
 sigla: B
 iip: b068v.tif
-milestone: 3
+milestone: 136
 ---

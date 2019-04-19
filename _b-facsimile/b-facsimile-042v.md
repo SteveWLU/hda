@@ -4,5 +4,5 @@ title: folio 42v
 manuscript: Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
 sigla: B
 iip: b042v.tif
-milestone: 3
+milestone: 84
 ---
