@@ -1,8 +1,8 @@
 ---
 layout: edition
-title: folio 5v
+title: folio 6r
 manuscript: Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
 sigla: B
-iip: b005v.tif
+iip: b006r.tif
 milestone: 1
 ---
