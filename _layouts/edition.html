@@ -35,8 +35,6 @@
 {% endfor %}
 
 
-
-
 <!-- edition controls --> 
 <div id="TEI-tools">
 {% if page.sigla == 'P' %}
@@ -202,6 +200,7 @@ var CETEIcean = new CETEI()
 
 //get current page
 const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+
 //show current page
 showPage(currentMilestone)
 });
@@ -243,8 +242,6 @@ $("input[name='show-french'").change(function(){
 });
 
 </script>
-
-
 
 </div>
 </main>
