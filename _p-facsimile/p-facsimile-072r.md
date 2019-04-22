@@ -1,8 +1,8 @@
 ---
 layout: edition
-title: folio 1r
+title: folio 72r
 manuscript: Padua, Biblioteca del Seminario Vescovile, MS 32
 sigla: P
-iip: p01r.tif
-milestone: 1
+iip: p072r.tif
+milestone: 143
 ---
