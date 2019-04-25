@@ -1142,6 +1142,17 @@ div#image-viewer {
 	margin-left: 50%;
 	background-color: pink;
 }
+
+
+div#edition-notes {
+
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  height: 50px;
+}
 .page-break {
 	color: blue;
 }
