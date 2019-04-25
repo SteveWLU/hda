@@ -119,7 +119,6 @@
 </div>
 
 <div id="edition-notes">
-Text
 </div>
 
 <div id="edition-footer">
@@ -210,8 +209,30 @@ showPage(currentMilestone)
 });
 
 
+// to show notes
+var CETEIceannotes = new CETEI()
+{% if page.sigla == 'B' %}
+  CETEIceannotes.getHTML5("{{site.baseurl}}/editions/notes-b.xml", function(data) {
 
+{% elsif page.sigla == 'T' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-t.xml", function(data) {
 
+{% elsif page.sigla == 'P' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-p.xml", function(data) {
+
+{% elsif page.sigla == 'Br' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-br.xml", function(data) {
+
+{% elsif page.sigla == 'B-trans' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-translation-b.xml", function(data) {
+    
+{% endif %}
+
+  document.getElementById("edition-notes").innerHTML = ""
+  document.getElementById("edition-notes").appendChild(data)
+  CETEIceannotes.addStyle(document, data)
+
+});
 
 //Variables for toggle buttons
 var options = {
