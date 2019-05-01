@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+<head>
+        <title>Simple Viewer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #viewer {
+            width: 80%;
+            height: 100%;
+            position: fixed;
+            border-style: dashed;
+            position:relative;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="build/mirador/css/mirador-combined.css">
+        <script src="build/mirador/mirador.js"></script>
+</head>
+
 {% include head.html %}
 
 <body>
-    {% include header.html %}
+
+{% include header.html %}
+        
+<div id="TEI-title">{{page.title}}</div>
+
+            <p>THIS IS very WORKING</p>
+
+    <div id="viewer"></div>
+
+    <div id="edition-footer">
+            {% include footer.html %}
+    </div>
+
+<script type="text/javascript">
+    $(function() {
+    Mirador({
+        id: "viewer",
+        data: [
+    { manifestUri: "http://iiif.wlu.edu/iipsrv?FIF=huon/converted/b065v.tif&CVT=tif"}
+  ]
+});
+
+</script>
+
 </body>
 
 </html>
