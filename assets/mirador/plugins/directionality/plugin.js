@@ -1,66 +1,64 @@
-(function () {
-var directionality = (function () {
-  'use strict';
+/**
+ * plugin.js
+ *
+ * Copyright, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://www.tinymce.com/license
+ * Contributing: http://www.tinymce.com/contributing
+ */
 
-  var PluginManager = tinymce.util.Tools.resolve('tinymce.PluginManager');
+/*global tinymce:true */
 
-  var Tools = tinymce.util.Tools.resolve('tinymce.util.Tools');
+tinymce.PluginManager.add('directionality', function(editor) {
+	function setDir(dir) {
+		var dom = editor.dom, curDir, blocks = editor.selection.getSelectedBlocks();
 
-  var setDir = function (editor, dir) {
-    var dom = editor.dom;
-    var curDir;
-    var blocks = editor.selection.getSelectedBlocks();
-    if (blocks.length) {
-      curDir = dom.getAttrib(blocks[0], 'dir');
-      Tools.each(blocks, function (block) {
-        if (!dom.getParent(block.parentNode, '*[dir="' + dir + '"]', dom.getRoot())) {
-          dom.setAttrib(block, 'dir', curDir !== dir ? dir : null);
-        }
-      });
-      editor.nodeChanged();
-    }
-  };
-  var $_ddklpa2jd09evr9 = { setDir: setDir };
+		if (blocks.length) {
+			curDir = dom.getAttrib(blocks[0], "dir");
 
-  var register = function (editor) {
-    editor.addCommand('mceDirectionLTR', function () {
-      $_ddklpa2jd09evr9.setDir(editor, 'ltr');
-    });
-    editor.addCommand('mceDirectionRTL', function () {
-      $_ddklpa2jd09evr9.setDir(editor, 'rtl');
-    });
-  };
-  var $_1otbxha1jd09evr6 = { register: register };
+			tinymce.each(blocks, function(block) {
+				// Add dir to block if the parent block doesn't already have that dir
+				if (!dom.getParent(block.parentNode, "*[dir='" + dir + "']", dom.getRoot())) {
+					if (curDir != dir) {
+						dom.setAttrib(block, "dir", dir);
+					} else {
+						dom.setAttrib(block, "dir", null);
+					}
+				}
+			});
 
-  var generateSelector = function (dir) {
-    var selector = [];
-    Tools.each('h1 h2 h3 h4 h5 h6 div p'.split(' '), function (name) {
-      selector.push(name + '[dir=' + dir + ']');
-    });
-    return selector.join(',');
-  };
-  var register$1 = function (editor) {
-    editor.addButton('ltr', {
-      title: 'Left to right',
-      cmd: 'mceDirectionLTR',
-      stateSelector: generateSelector('ltr')
-    });
-    editor.addButton('rtl', {
-      title: 'Right to left',
-      cmd: 'mceDirectionRTL',
-      stateSelector: generateSelector('rtl')
-    });
-  };
-  var $_48h3zwa4jd09evrd = { register: register$1 };
+			editor.nodeChanged();
+		}
+	}
 
-  PluginManager.add('directionality', function (editor) {
-    $_1otbxha1jd09evr6.register(editor);
-    $_48h3zwa4jd09evrd.register(editor);
-  });
-  function Plugin () {
-  }
+	function generateSelector(dir) {
+		var selector = [];
 
-  return Plugin;
+		tinymce.each('h1 h2 h3 h4 h5 h6 div p'.split(' '), function(name) {
+			selector.push(name + '[dir=' + dir + ']');
+		});
 
-}());
-})()
+		return selector.join(',');
+	}
+
+	editor.addCommand('mceDirectionLTR', function() {
+		setDir("ltr");
+	});
+
+	editor.addCommand('mceDirectionRTL', function() {
+		setDir("rtl");
+	});
+
+	editor.addButton('ltr', {
+		title: 'Left to right',
+		cmd: 'mceDirectionLTR',
+		stateSelector: generateSelector('ltr')
+	});
+
+	editor.addButton('rtl', {
+		title: 'Right to left',
+		cmd: 'mceDirectionRTL',
+		stateSelector: generateSelector('rtl')
+	});
+});
