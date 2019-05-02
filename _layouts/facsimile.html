@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<head>
-        <title>Simple Viewer</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            #viewer {
-            width: 80%;
-            height: 100%;
-            position: fixed;
-            border-style: dashed;
-            position:relative;
-            }
-        </style>
-        <link rel="stylesheet" type="text/css" href="build/mirador/css/mirador-combined.css">
-        <script src="build/mirador/mirador.js"></script>
-</head>
-
 {% include head.html %}
 
 <body>
@@ -36,12 +19,29 @@
 
 <script type="text/javascript">
     $(function() {
-    Mirador({
-        id: "viewer",
-        data: [
-    { manifestUri: "http://iiif.wlu.edu/iipsrv?FIF=huon/converted/b065v.tif&CVT=tif"}
-  ]
-});
+        Mirador({
+id: "viewer",
+layout: "1x2",
+data: [{
+manifestUri: "http://iiif.lib.harvard.edu/manifests/drs:5981093", 
+location: "Harvard University" 
+},
+{
+manifestUri: "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84539771/manifest.json",
+location: "BnF"
+}],
+windowObjects: [{
+loadedManifest: "http://iiif.lib.harvard.edu/manifests/drs:5981093",
+slotAddress: "row1.column1",
+viewType: "ImageView"
+},
+{
+loadedManifest: "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84539771/manifest.json",
+slotAddress: "row1.column2",
+viewType: "ImageView"
+}]
+        });
+    });
 
 </script>
 
