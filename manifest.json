@@ -1,0 +1,24 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "@id": "http://iiif.wlu.edu/iiif/huon/manifests/manifest.json",
+    "type": "Berlin",
+    "description": "Huon d'Auvergne, Berlin manuscript",
+    "attribution": "Kupferstichkabinett",
+    "logo": "http://127.0.0.1:8887/logo.jpg",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@type": "sc:Canvas",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/converted/b001r.tif",
+                    "label": "p. 22",
+                    "width": 4628,
+                    "height": 6375
+                }
+            ]
+        }
+    ]
+}
