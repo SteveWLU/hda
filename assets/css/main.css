@@ -761,13 +761,6 @@ hr#toc {
 	font-size: inherit;
 }
 
-#viewer {
-	width: 80%;
-	height: 100%;
-	position: fixed;
-	border-style: dashed;
-	position:relative;
-	}
 /* #toc ol {
 	counter-reset: item;
 	font-variant: small-caps;
