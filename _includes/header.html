@@ -8,3 +8,58 @@
     {% include navbar.html %}
   </div>
 </header>
+
+
+<!-- CSS work from May 5, 2019
+<style type="text/css">
+
+## Align three divs horizontally: https://stackoverflow.com/questions/2603700/how-to-align-3-divs-left-center-right-inside-another-div/32122011#32122011
+
+  .page-header {
+    width: 125%;
+  }
+  
+  #header-container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+    background-color: lightyellow;
+  }
+  #header-container > div#dragon {
+    width: 10%;
+    height: 100px;
+  }
+  
+  #header-container > div#header-title {
+    width: 30%;
+    height: 100px;
+  }
+  
+  #header-container > div#nav-menu {
+    width: 60%;
+    height: 100px;
+  }
+  
+  </style>
+  
+  <header role="banner" class="page-header" id="top">
+  
+  <div id="header-container">
+  
+    <div id="dragon"><img id="dragon" src="{{ site.baseurl }}/assets/images/dragon.png"></div>
+  
+  
+    <div id="header-title">
+      <h1 id="site-title"><a href="{{ site.url }}" class="site-title">{{ site.title }}</a></h1>
+      <p>{{site.tagline}}</p>
+    </div>
+  
+  
+    <div id="nav-menu">
+      {% include navbar.html %}
+    </div>
+  
+  </div>
+  
+  </header> -->
