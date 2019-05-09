@@ -14,13 +14,13 @@ toc:
       - page: General Criteria
         url: /general.html
       - page: Berlin Criteria
-        url: /praxis/b-praxis.html
+        url: /b-praxis.html
       - page: Turin Criteria
-        url: /praxis/t-praxis.html
+        url: /t-praxis.html
       - page: Padua Criteria
-        url: /praxis/p-praxis.html
+        url: /p-praxis.html
       - page: Barbieri Fragment Criteria
-        url: /praxis/br-praxis.html
+        url: /br-praxis.html
   - title: Editions
     subfolderitems:
       - page: Berlin (B)
