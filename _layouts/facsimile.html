@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-{% include head.html %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+        <link rel="stylesheet" type="text/css" href="../assets/mirador/css/mirador-combined.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="../assets/mirador/mirador.js"></script>
+    <script src="{{ site.baseurl }}/assets/scripts/modernizr.custom.js"></script>
+    <script src="../assets/js/CETEI.js"></script>
+</head>
 
 <body>
 
@@ -11,50 +28,28 @@
 
     <div id="TEI-title">{{page.title}}</div>
 
-        <div id="viewer" style="width: 100%; height: 100%; position: fixed;"></div>
+        <div id="miradorviewer" style="position:absolute;  width: 80%;
+       height: 75%;"></div>
 
         <div id="edition-footer">
                 {% include footer.html %}
         </div>
-
-        <script src="build/mirador/mirador.js"></script>
+        <script src="http://projectmirador.org/demo/mirador.min.js"></script>
         <script type="text/javascript">
         $(function() {
             Mirador({
-            "id": "viewer", // The CSS ID selector for the containing element.
+            "id": "miradorviewer", // The CSS ID selector for the containing element.
             "layout": "1x1", // The number and arrangement of windows ("row"x"column")?
             "data": [ // This array holds the manifest URIs for the IIIF resources you want Mirador to make available to the user.
             // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
             // provide a location to be displayed in the listing of available manifests.
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/drs:48309543", "location": "Harvard University"}, // Harvard Scroll 
+                { "manifestUri": "http://localhost:4000/manifest.json", "location": "Huon"}, // Harvard Scroll 
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
                 { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
                 { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/drs:5981093", "location": "Harvard University"},
-                { "manifestUri": "http://dams.llgc.org.uk/iiif/4574752/manifest.json", "location": "National Library of Wales"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/via:olvwork576793", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/drs:14033171", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/drs:46909368", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/drs:18259372", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/drs:48331776", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:299843", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:213052", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:169892", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:304136", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:311074", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:200515", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:320161", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:198021", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:165773", "location": "Harvard University"},
-                { "manifestUri": "http://oculus-dev.harvardx.harvard.edu/manifests/huam:320567", "location": "Harvard University"},
-                { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont43", "location": "Yale University"},
-                { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/BeineckeMS10", "location": "Yale University"},
-                { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/BodleianMSBodley113", "location": "Yale University"},
-                { "manifestUri": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b84539771/manifest.json", "location":'BnF' },
-                { "manifestUri": "http://iiif.biblissima.fr/manifests/ark:/12148/btv1b10500687r/manifest.json", "location": 'BnF'},
-                { "manifestUri": "http://www.e-codices.unifr.ch/metadata/iiif/sl-0002/manifest.json", "location": 'e-codices'},
-                { "manifestUri": "http://www.e-codices.unifr.ch/metadata/iiif/bge-cl0015/manifest.json", "location": 'e-codices'}
+                { "manifestUri": "http://dams.llgc.org.uk/iiif/4574752/manifest.json", "location": "National Library of Wales"}
             ],
             // This array allows the user to specify which of the included manifests should appear 
             // in the workspace, and what the configuration of the window (zoom level, open panels, etc.) 
