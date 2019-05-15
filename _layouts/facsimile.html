@@ -34,7 +34,7 @@
         <div id="edition-footer">
                 {% include footer.html %}
         </div>
-        <script src="http://projectmirador.org/demo/mirador.min.js"></script>
+        <script src="../assets/mirador/mirador.js"></script>
         <script type="text/javascript">
         $(function() {
             Mirador({
@@ -43,8 +43,8 @@
             "data": [ // This array holds the manifest URIs for the IIIF resources you want Mirador to make available to the user.
             // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
             // provide a location to be displayed in the listing of available manifests.
-                { "manifestUri": "http://localhost:4000/manifest.json", "location": "Huon"}, // Harvard Scroll 
-                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Walters/qm670kv1873/manifest.json", "location": "Stanford University"},
+                { "manifestUri": "http://localhost:4000/mkbmanifest.json", "location": "Huon"}, // Harvard Scroll 
+                { "manifestUri": "https://iiif.wlu.edu/iiif/huon/manifests/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
                 { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
