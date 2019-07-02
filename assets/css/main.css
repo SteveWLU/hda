@@ -358,18 +358,20 @@ img, object, embed {
   header styles
 -----------------------------------------------------*/
 .page-header {
-	padding: 1em 1em 0;
 	border-bottom:1px solid #e8e8e8;
-	height:100px;
+	padding-left:15px;
+	padding-top:15px;
+	
 }
-header {
-	margin-bottom: 2em;
+
+#site-title {
+	margin:0;
 }
+
 header h1 {
-	font-size: 2em;
-	line-height:1;
 	text-transform: uppercase;
 	text-align:left;
+	margin:0;
 
 }
 header p {
@@ -379,6 +381,16 @@ header p {
 	text-transform: uppercase;
 	margin: none;
 
+}
+
+.headerleft {
+	width:60%;
+	float:left;
+}
+
+.headerright{
+	width:40%;
+	float:right;
 }
 /* --------------------------------------------------
    top navigation styles
@@ -443,7 +455,7 @@ nav li.active a {
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -1029,10 +1041,9 @@ body {
 	margin: 0 auto;
 }
 .page-header {
-	padding: 1em ;
 	border-bottom: 1px solid #e8e8e8;
 	width:100%;
-	line-height:100px;
+	height:100px;
 }
 .index, .archive {
   display: inline-block;
@@ -1051,8 +1062,8 @@ aside {
    header styles
 -----------------------------------------------------*/
 header h1 {
-	font-size: 2.5em;
 	float:left;
+	margin:0;
 
 }
 header p {
@@ -1062,8 +1073,13 @@ header p {
 	text-transform: uppercase;
 	float:left;
 	display:inline-block;
-
 }
+
+.headerleft .headerright {
+	width: 100%;
+}
+
+
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
@@ -1105,6 +1121,8 @@ nav li a {
 article p {
 	font-size: 1.125em;
 	line-height: 1.4;
+	width:80%;
+	margin:auto;
 }
 a.more {
 	margin: 0.5em 0;
@@ -1119,19 +1137,29 @@ a.more {
 
 /* Local Styles - to be sorted or moved into separate files later */
 
-img#initial {
-  max-width: 15%;
-  float: left;
+#initial img {
+  max-width: 40%;
+  display:inline-block;
+  float:right;
+  /*
   padding-right: 10px;
   margin-bottom: -450px;
   margin-top: -132px;
   margin-left: -173px;
+  */
+}
+div#initial {
+width:20%;
+float:left;
 }
 
-p.intro {
-	margin-top: 10em;
+div#intro {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: larger;
+	float:left;
+	text-align:justify;
+	width:75%;
+	margin-top:100px;
 }
 
 div#edition-container {
