@@ -359,6 +359,8 @@ img, object, embed {
 -----------------------------------------------------*/
 .page-header {
 	padding: 1em 1em 0;
+	border-bottom:1px solid #e8e8e8;
+	height:100px;
 }
 header {
 	margin-bottom: 2em;
@@ -366,16 +368,17 @@ header {
 header h1 {
 	font-size: 2em;
 	line-height:1;
-	margin: 0;
 	text-transform: uppercase;
 	text-align:left;
+
 }
 header p {
 	font: 1em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #5F0000;
 	text-transform: uppercase;
 	margin: none;
+
 }
 /* --------------------------------------------------
    top navigation styles
@@ -400,7 +403,7 @@ nav li.active a {
 .site-nav {
 	overflow: hidden;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	margin-left: 1%;
+	float:right;
 }
 
 .dropdown {
@@ -412,10 +415,10 @@ nav li.active a {
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
+    padding: 15px;
     background-color: inherit;
 		margin: 0;
-		width: 150px;
+		width: 100%
 		border-radius: 8px;
 		text-decoration: &9660;
 }
@@ -657,14 +660,6 @@ img#dragon {
 	height: auto;
 	float: left;
 	margin: none !important;
-}
-h1#site-title {
-	display: inline-block;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-div#header-title {
-	margin: 2% 0 0 17%;
 }
 
 div#toc-header {
@@ -1030,12 +1025,14 @@ html {
 	background: white;
 }
 body {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 .page-header {
-	padding: 0 3%;
-	padding-top: 1em;
+	padding: 1em ;
+	border-bottom: 1px solid #e8e8e8;
+	width:100%;
+	line-height:100px;
 }
 .index, .archive {
   display: inline-block;
@@ -1055,19 +1052,25 @@ aside {
 -----------------------------------------------------*/
 header h1 {
 	font-size: 2.5em;
+	float:left;
+
 }
 header p {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #5f0000;
 	text-transform: uppercase;
+	float:left;
+	display:inline-block;
+
 }
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
 nav {
-	background: none;
+float:right;
 }
+
 #menu-toggle, .toggle-label {
 		display: none;
 	}
@@ -1076,7 +1079,7 @@ nav ul {
 	margin: 0;
 	list-style: none;
 	min-height: 0;
-  float: right;
+  	float: right;
 }
 nav li {
 	display: inline-block;
