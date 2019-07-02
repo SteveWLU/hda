@@ -109,7 +109,7 @@
         id: "openseadragon1",
       minZoomImageRatio: 1,
       prefixUrl: "/assets/openseadragon/images/",
-      tileSources: "https://iiif.wlu.edu/iiif/huon/converted/{{ page.iip }}/info.json"
+      tileSources: "https://iiif.wlu.edu/iiif/huon/{{ page.iip }}/info.json"
  
     });
 
@@ -118,12 +118,20 @@
 
 </div>
 
+<footer role="contentinfo" class="page-footer">
+
+<div class="footer">
+
+<div class="footer-row">
 <div id="edition-notes">
 </div>
-
-<div id="edition-footer">
-{% include footer.html %}
 </div>
+</div>
+</footer>
+
+</div>
+</main>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -232,7 +240,9 @@ var CETEIceannotes = new CETEI()
   document.getElementById("edition-notes").appendChild(data)
   CETEIceannotes.addStyle(document, data)
 
+
 });
+
 
 //Variables for toggle buttons
 var options = {
@@ -272,7 +282,6 @@ $("input[name='show-french'").change(function(){
 
 </script>
 
-</div>
-</main>
+
 </body>
 </html>
