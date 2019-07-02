@@ -9,13 +9,57 @@
 <main class="page-content" aria-label="Content">
 <!-- edition controls --> 
 <div id="TEI-tools">
+<div id="mstitle">
+  <h1>{{page.manuscript}}</h1>
+</div>
+ <div id="folio-nav">
+  <!-- Liquid code for transcription and folio navigation -->
+
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign documents = site[the_collection] %}
+  {% endif %}
+  {% for link in documents  %}
+  {% if link.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = documents[forloop.index] %}
+      {% assign nexturl = next.url %}
+      {% assign nexttitle = next.title %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = link %}
+{% endfor %}
+
+
+
+    <!-- from rails site-->
+    <!-- <form id="rajna-form">
+    <label for="rajnaCheckbox" id="rajna-label"> Rajna Notebook</label>
+    <input type="checkbox" name="rajnaCheckbox" id="rajnaCheckbox" style="display: inline;">
+    </form> -->
+
+
+  <!-- HTML for transcription and folio navigation -->
+ 
+  {% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev">&#8617;</a>{% endif %}
+  {{ page.title }}
+  {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next">&#8618;</a>{% endif %}
+</div>
+
+<div id="tools">
+
 {% if page.sigla == 'P' %}
   <div id="show-french">
       <label class="switch">
           <input type="checkbox" name="show-french" unchecked>
           <div class="slider round"></div>
-      </label> French
+            
   </div>
+      </label> French
 {% endif %}
   <div id="expand">
       <label class="switch">
@@ -41,48 +85,18 @@
   <div id="rajna">
       <a href="{{site.baseurl}}/editions/facsimiles/r-facsimile.html" style="color: #5f0000">Rajna Notebook</a>
   </div>
-  <div id="wrapper">
-
-<div id="TEI-title">{{page.manuscript}}</div>
-
-
-<!-- Liquid code for transcription and folio navigation -->
-  
-{% capture the_collection %}{{page.collection}}{% endcapture %}
-  {% if page.collection %}
-    {% assign documents = site[the_collection] %}
-  {% endif %}
-  {% for link in documents  %}
-  {% if link.title == page.title %}
-    {% unless forloop.first %}
-      {% assign prevurl = prev.url %}
-      {% assign prevtitle = prev.title %}
-    {% endunless %}
-    {% unless forloop.last %}
-      {% assign next = documents[forloop.index] %}
-      {% assign nexturl = next.url %}
-      {% assign nexttitle = next.title %}
-    {% endunless %}
-  {% endif %}
-  {% assign prev = link %}
-{% endfor %}
-{% endif %}
-
+    {% endif %}
   <div id="source-code">
       <a href="https://github.com/SteveWLU/hda/blob/development/editions/p.xml"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span>Source Code</a>
   </div>
+ 
   <div id="status">
     <p>Transcription status: <i class="progress">In progress</i><br>Last updated: <i class="updated">August 7, 2018</i></p>
   </div>
 </div>
-
-<!-- HTML for transcription and folio navigation -->
-
-<div class="prevnext">
-{% if prevurl %}<a href="{{site.baseurl}}{{prevurl}}" class="prev">&#8617;</a>{% endif %}
-{{ page.title }}
-{% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next">&#8618;</a>{% endif %}
 </div>
+
+
 
 
 <div id="edition-viewer">
