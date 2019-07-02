@@ -7,33 +7,6 @@
 
 {% include header.html %}
 <main class="page-content" aria-label="Content">
-<div id="wrapper">
-
-<div id="TEI-title">{{page.manuscript}}</div>
-
-
-<!-- Liquid code for transcription and folio navigation -->
-  
-{% capture the_collection %}{{page.collection}}{% endcapture %}
-  {% if page.collection %}
-    {% assign documents = site[the_collection] %}
-  {% endif %}
-  {% for link in documents  %}
-  {% if link.title == page.title %}
-    {% unless forloop.first %}
-      {% assign prevurl = prev.url %}
-      {% assign prevtitle = prev.title %}
-    {% endunless %}
-    {% unless forloop.last %}
-      {% assign next = documents[forloop.index] %}
-      {% assign nexturl = next.url %}
-      {% assign nexttitle = next.title %}
-    {% endunless %}
-  {% endif %}
-  {% assign prev = link %}
-{% endfor %}
-
-
 <!-- edition controls --> 
 <div id="TEI-tools">
 {% if page.sigla == 'P' %}
@@ -68,11 +41,31 @@
   <div id="rajna">
       <a href="{{site.baseurl}}/editions/facsimiles/r-facsimile.html" style="color: #5f0000">Rajna Notebook</a>
   </div>
-  <!-- from rails site-->
-  <!-- <form id="rajna-form">
-  <label for="rajnaCheckbox" id="rajna-label"> Rajna Notebook</label>
-  <input type="checkbox" name="rajnaCheckbox" id="rajnaCheckbox" style="display: inline;">
-  </form> -->
+  <div id="wrapper">
+
+<div id="TEI-title">{{page.manuscript}}</div>
+
+
+<!-- Liquid code for transcription and folio navigation -->
+  
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign documents = site[the_collection] %}
+  {% endif %}
+  {% for link in documents  %}
+  {% if link.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = documents[forloop.index] %}
+      {% assign nexturl = next.url %}
+      {% assign nexttitle = next.title %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = link %}
+{% endfor %}
 {% endif %}
 
   <div id="source-code">
@@ -90,7 +83,6 @@
 {{ page.title }}
 {% if nexturl %}<a href="{{site.baseurl}}{{nexturl}}" class="next">&#8618;</a>{% endif %}
 </div>
-
 
 
 <div id="edition-viewer">
@@ -118,8 +110,6 @@
 
 <div id="edition-notes">
 </div>
-
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 

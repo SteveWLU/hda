@@ -6,7 +6,8 @@
 
 <body>
 {% include header.html %}
-
+<main class="page-content" aria-label="Content">
+<div id="wrapper">
 <h1 id="ms-intro">{{page.title}}</h1>
 
 <h2 id="ms-intro">Introduction to Edition</h2>
@@ -38,9 +39,11 @@
                 <li>Glossary</li>
             </ol>
     </div>
-</div>
+</div></div>
+</main>
 <div id="edition-footer">
         {% include footer.html %}
 </div>
+
 </body>
 </html>
