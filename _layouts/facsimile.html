@@ -41,7 +41,6 @@
             // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
             // provide a location to be displayed in the listing of available manifests.
                 { "manifestUri": "http://localhost:4000/mkbmanifest.json", "location": "Huon"}, // Harvard Scroll 
-                { "manifestUri": "https://iiif.wlu.edu/iiif/huon/manifests/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
                 { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
@@ -51,7 +50,12 @@
             // This array allows the user to specify which of the included manifests should appear 
             // in the workspace, and what the configuration of the window (zoom level, open panels, etc.) 
             // ought to be.
-            "windowObjects": []
+            "windowObjects": [
+            {
+          "loadedManifest" : "http://localhost:4000/mkbmanifest.json", 
+          "canvasID" : "http://iiif/id/and/uri/of/your/canvas/canvas-id", 
+          "viewType" : "BookView"}
+            ]
             });
         });
         </script>
