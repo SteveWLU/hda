@@ -8,9 +8,11 @@
 {% include header.html %}
 <main class="page-content" aria-label="Content">
 <div id="wrapper">
-<h1 id="ms-intro">{{page.title}}</h1>
+<h1>{{page.title}}</h1>
 
-<h2 id="ms-intro">Introduction to Edition</h2>
+<h2>Introduction to Edition</h2>
+
+<div id="teiHeader"></div>
 
 <p>{{page.intro}}</p>
 
@@ -45,5 +47,33 @@
         {% include footer.html %}
 </div>
 
+<script>
+
+var CETEIcean = new CETEI();
+
+{% if page.sigla == 'B' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/b.xml", function(data) {
+
+{% elsif page.sigla == 'T' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/t.xml", function(data) {
+
+{% elsif page.sigla == 'P' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/p.xml", function(data) {
+
+{% elsif page.sigla == 'Br' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/br.xml", function(data) {
+
+{% elsif page.sigla == 'B-trans' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/b-translation.xml", function(data) {
+    
+{% endif %}
+        var meat = data.querySelector("tei-teiHeader");
+        document.getElementById("teiHeader").innerHTML = "";
+        document.getElementById("teiHeader").appendChild(meat);
+        CETEIcean.addStyle(document, data);
+
+});
+
+    </script>
 </body>
 </html>

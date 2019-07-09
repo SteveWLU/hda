@@ -8,11 +8,11 @@
 {% include header.html %}
 <main class="page-content" aria-label="Content">
 <!-- edition controls --> 
-<div id="TEI-tools">
-<div id="mstitle">
+<div class="flex-container" id="TEI-tools">
+<div class="flex-item" id="mstitle">
   <h1>{{page.manuscript}}</h1>
 </div>
- <div id="folio-nav">
+ <div class="flex-item" id="folio-nav">
   <!-- Liquid code for transcription and folio navigation -->
 
 {% capture the_collection %}{{page.collection}}{% endcapture %}
@@ -105,7 +105,7 @@
 <div id="TEI" data-milestone="{{ page.milestone }}"></div>
 
 <!-- Insert OpenSeaDragon viewer and content -->
-<div id="openseadragon1" style="width: 500px; height: 700px; float: right;"></div>
+<div id="openseadragon1"></div>
 </main>
 </div>
 <script src="/assets/js/openseadragon/openseadragon.min.js"></script>
