@@ -42,7 +42,7 @@ Michelangiolo di Cristoforo da Volterra. Ugone d’Alvernia. 1487-88. Biblioteca
 * Bonghi, Giuseppe. [_Arcaismi del Due-Trecento_](http://www.classicitaliani.it/index233.htm).
 * Bourgain, Pascale, and Françoise Vieillard. [_Conseils pour l’édition des textes médiévaux_](https://books.google.com/books?id=ZytdnyZcRqEC&lpg=PA1&dq=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&pg=PA1#v=onepage&q=conseils%20pour%20l'%C3%A9dition%20fascicule%20III&f=false). Fascicule III: Textes littéraires. Éd. du CTHS, École des chartes, 2002.
 * Brambilla Ageno, Franca. _L'Edizione critica dei testi volgari_. Antenore, 1975.
-* [__OVI__](www.gattoweb.ovi.cnr.it) - _Corpus Opera del Vocabolario Italiano dell’italiano antico_.
+* [__OVI__](http://www.ovi.cnr.it/index.php/it/) - _Corpus Opera del Vocabolario Italiano dell’italiano antico_.
 * __DELI__ - Cortelazzo, Manlio, and Paolo Zolli. _Dizionario etimologico della lingua italiana_. Zanichelli, 1979-85.
 * DeSole, Corinna. _Repertorio ragionato dei personaggi citati nei principali cantari cavallerschi italiani_. Edizioni dell’Orso, 1995.
 * [__DMF__](www.atilf.fr/dmf) - _Dictionnaire du Moyen Français_.
