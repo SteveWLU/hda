@@ -77,7 +77,7 @@
 {% endif %}
   <div id="notes">
       <label class="switch">
-          <input type="checkbox" checked>
+          <input type="checkbox" name="notes" checked>
           <div class="slider round"></div>
       </label> Notes
   </div>
@@ -240,7 +240,8 @@ var CETEIceannotes = new CETEI()
 var options = {
         "rajna_reconstruction":false,
         "expanded_abbreviations":true,
-        "show_french":true
+        "show_french":true,
+        "notes":true
     };
 
  //Function to toggle abbreviations
@@ -262,7 +263,7 @@ $("input[name='rajna-reconstruction'").change(function(){
   }
 });
 
-//Function to toggle rajna reconstruction
+//Function to show french
 $("input[name='show-french'").change(function(){
   options.show_french = $(this).is(":checked");
   if(options.show_french){
@@ -271,6 +272,11 @@ $("input[name='show-french'").change(function(){
     $("tei-span").css("color", "black");
   }
 });
+
+// Function to turn notes div on/off 
+$("input[name='notes'").change(function(){
+  $("#edition-notes").toggle();
+  });
 
 </script>
 
