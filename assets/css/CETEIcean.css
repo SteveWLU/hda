@@ -1733,7 +1733,7 @@ tei-table > head {
 tei-teiHeader {
   display:none;
 }
-
+/*
 #teiHeader > tei-teiHeader {
   display: block !important ;
   /*
