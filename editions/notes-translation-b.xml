@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Huon_Customized_Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="huon-schema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
+                <title type="manuscript">Huon d'Auvergne, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
                     Translation Annotations</title>
                 <respStmt>
                     <name xml:id="SSB">Shira Schwam-Baird</name>
@@ -26,6 +26,7 @@
                     manuscript.</note>
                 <note type="refer">Notes that reference other primary sources.</note>
                 <note type="biblio">Notes that reference secondary sources.</note>
+                <note type="alttrans">Notes on alternative possible translations.</note>
                 <note type="trans">Notes on previous scholars' transcriptions</note>
                 <note type="lex">Notes on words or expressions</note>
                 <note type="lit">Notes on literal translations where we differ substantially from original</note>
@@ -57,7 +58,7 @@
                 <note xml:id="trans393" type="lit" resp="#SSB">Literally: [...] many have not remained indoors</note>
                 <note xml:id="trans418" type="codic" resp="#SSB">The illuminator places the king on the ground, not on his horse. See also line 410 where the king puts his hand on Saudin's shoulder with his eyes seemingly closed, an awkward movement when on horseback.</note>
                 <note xml:id="trans463" type="lex" resp="#SSB">There are many such expressions indicating little value. See also lines 988, 1233, 1703, 2559, 3609, 3911, 4097, 4228, 4827, 5905, 6547, 6780, 7511, 7527, 8041, 8440, 8686, 8768, 9558, 10047, 10066, 10236, 10241, 10617, 10773, 10862, 11611 and 11793.</note>
-                <note xml:id="trans531" type="interp" resp="#SSB">The translation is based on understand <hi rend="italic">vera</hi> as deriving from the verb "veer" (refuse, forbid, prohibit). However the line could be transcribed as <hi rend="italic">Mais ni onserent tant qui·l roy levera</hi> which would give the alternative translation: But they didn't dare until the king got up (there are multiple instances of the reflexive use of this verb without a reflexive pronoun, as in lines 2610, 2646, 2974, 8032 and others).</note>
+                <note xml:id="trans531" type="alttrans" resp="#SSB">The translation is based on understand <hi rend="italic">vera</hi> as deriving from the verb "veer" (refuse, forbid, prohibit). However the line could be transcribed as <hi rend="italic">Mais ni onserent tant qui·l roy levera</hi> which would give the alternative translation: But they didn't dare until the king got up (there are multiple instances of the reflexive use of this verb without a reflexive pronoun, as in lines 2610, 2646, 2974, 8032 and others).</note>
                 <note xml:id="trans638" type="interp" resp="#SSB">That is, his fear of her husband.</note>
                 <note xml:id="trans687" type="interp" resp="#SSB">Referring to Lucifer.</note>
                 <note xml:id="trans704" type="interp" resp="#SSB">The "he" is ambiguous here; either it is Charles whom Saudin justifies as the overlord of Hell, or it is the Devil who would serve as Charles's vassal.</note>
@@ -99,7 +100,8 @@
                 <note xml:id="trans2508" type="interp" resp="#SSB">Meaning that he was generally unconcerned with his physical well-being.</note>
                 <note xml:id="trans2568" type="lex" resp="#SSB"><hi rend="italic">entoche</hi> could also mean "poison."</note>
                 <note xml:id="trans2591" type="lex" resp="#SSB"><hi rend="italic">maroy</hi> here seems to be related to some dialectical words in Italian that mean "large stone"; see Pellegrini 1968 "marògna" and Basso 2000 "marogna" and "marògnola." See other instances at lines 2702, 2890, 7283, 7831 and 8097 (where it is spelled <hi rend="italic">marois</hi>). In all instances the corresponding line in Turin has some variation of "preda" or "predon" ("stone" related to OF "perron").</note>
-                <note xml:id="trans2632" type="lex" resp="#SSB">Literally: [...] have deceit; MS T 2614: <hi rend="italic">De c</hi>ossa che me dovesse s[er]<hi rend="italic">vire a piaquimento</hi>. Turin understands <hi rend="italic">plaquement</hi> as coming from "piacere" which would give an alternative translation: "By those who were supposed to serve me at [my] pleasure"</note>
+                <note xml:id="trans2632.1" type="lex" resp="#SSB">Literally: [...] have deceit; MS T 2614: <hi rend="italic">De c</hi>ossa che me dovesse s[er]<hi rend="italic">vire a piaquimento</hi>. Turin understands <hi rend="italic">plaquement</hi> as coming from "piacere" which would give an alternative translation: "By those who were supposed to serve me at [my] pleasure"</note>
+                <note xml:id="trans2632.2" type="alttrans" resp="#SSB">Literally: [...] have deceit; MS T 2614: <hi rend="italic">De c</hi>ossa che me dovesse s[er]<hi rend="italic">vire a piaquimento</hi>. Turin understands <hi rend="italic">plaquement</hi> as coming from "piacere" which would give an alternative translation: "By those who were supposed to serve me at [my] pleasure"</note>
                 <note xml:id="trans2814" type="lit" resp="#SSB">Literally: [...] To be cheered up now</note>
                 <note xml:id="trans2825" type="interp" resp="#SSB">Huon seems to be saying that the apparent poor quality of what is available to eat will make them strong because of their new faith in God.</note>
                 <note xml:id="trans2862" type="interp" resp="#SSB">Reference to his blonde wife Ynide.</note>
@@ -120,18 +122,21 @@
                 <note xml:id="trans3336" type="lex" resp="#SSB">The verb <hi rend="italic">asenere</hi> seems to come from "assennare."</note>
                 <note xml:id="trans3354" type="interp" resp="#SSB">Here Huon addresses the figure aloud.</note>
                 <note xml:id="trans3385" type="refer" resp="#SSB">The word <hi rend="italic">xais</hi> is translated 'stone' since line 3283 states that the devil/hermit condemned to a stone (<hi rend="italic">perons</hi>). See T 3344: <hi rend="italic">intro in gran saso me serà quy un prodomo</hi>. See <hi rend="italic">Alexandre de Paris. Le Roman d'Alexandre</hi>. Trans. Laurence Harf-Lancner. Ed. E. C. Armstrong. Paris : Lettres gothiques (Le Livre de poche), 1976. Laisse 160, lines 2808-2819.</note>
-                <note xml:id="trans3420" type="interp" resp="#SSB">Huon, of course, is seeking the Devil, Lucifer himself, but the trapped devil seems almost to be playing with him. An alternative translation might yet be: You seek the Devil, you can find him right here </note>
+                <note xml:id="trans3420.1" type="interp" resp="#SSB">Huon, of course, is seeking the Devil, Lucifer himself, but the trapped devil seems almost to be playing with him. An alternative translation might yet be: You seek the Devil, you can find him right here </note>
+                <note xml:id="trans3420.2" type="alttrans" resp="#SSB">Huon, of course, is seeking the Devil, Lucifer himself, but the trapped devil seems almost to be playing with him. An alternative translation might yet be: You seek the Devil, you can find him right here </note>
                 <note xml:id="trans3487" type="ling" resp="#SSB">We believe the second <hi rend="italic">le</hi> is a personal pronoun subject form third person plural.</note>
                 <note xml:id="trans3530" type="lit" resp="#SSB">Literally: If you are right [...]</note>
+                <note xml:id="trans3561.1" type="ling" resp="#SSB">It is possible that the verbs in this line are second person singular which would give an alternative translation: You will do justice just as you must (cf. T 3521).</note>
+                <note xml:id="trans3561.2" type="alttrans" resp="#SSB">It is possible that the verbs in this line are second person singular which would give an alternative translation: You will do justice just as you must (cf. T 3521).</note>
                 <note xml:id="trans3563" type="lit" resp="#SSB">Literally: If you are right, right will be with you</note>
-                <note xml:id="trans3566" type="codic" resp="#SSB">If the punctuation were the following: <hi rend="italic">Je suy enci. Por li, or dites que sera</hi>, then the translation would read: "Thus I am here. As for her, tell me now what will be." Cf. T 3523.</note>
+                <note xml:id="trans3566" type="alttrans" resp="#SSB">If the punctuation were the following: <hi rend="italic">Je suy enci. Por li, or dites que sera</hi>, then the translation would read: "Thus I am here. As for her, tell me now what will be." Cf. T 3523.</note>
                 <note xml:id="trans3569" type="refer" resp="#SSB">Cf. T 3522-23.</note>
                 <note xml:id="trans3591" type="lit" resp="#SSB">Literally: so that by lack I not have the wrong</note>
                 <note xml:id="trans3658" type="lit" resp="#SSB">Literally: The lady was dispersed/scattered along with her lord; perhaps a reference to the ashes of their burned bodies being scattered and dispersed by the wind.</note>
                 <note xml:id="trans3688" type="interp" resp="#SSB"><hi rend="italic">Joisse</hi> seems to derive from "joir," thus Huon would be saying that they will do as he asks, that is, convert to Christianity. It could possibly be a form of "juise" which means "judgment." In that case, Huon would be saying that they will follow his judgment.</note>
                 <note xml:id="trans3691" type="refer" resp="#SSB">Cf. T 3655: <hi rend="italic">mostrane la</hi> via p[er]che seremo tuty salve.</note>
                 <note xml:id="trans3723" type="lit" resp="#SSB">Literally: [...] we'll be in holy mercy</note>
-                <note xml:id="trans3728" type="refer" resp="#SSB">'Miserere' from Psalm 50 (51), "Have mercy on me, O God" (also the beginning of Psalms 55 and 56). According to the First Advent encyclopedia, "It is the first psalm at Lauds in all the ferial (week-day) Offices throughout the year". For further details, see Hugh Henry,  "Miserere," <hi rend="italic">The Catholic Encyclopedia</hi>. Vol. 10 (New York: Robert Appleton Company, 1911, consulted 28 Oct. 2014 <http://www.newadvent.org/cathen/10352c.htm>).</note>
+                <note xml:id="trans3728" type="refer" resp="#SSB">'Miserere' from Psalm 50 (51), "Have mercy on me, O God" (also the beginning of Psalms 55 and 56). According to the First Advent encyclopedia, "It is the first psalm at Lauds in all the ferial (week-day) Offices throughout the year". For further details, see Hugh Henry,  "Miserere," <hi rend="italic">The Catholic Encyclopedia</hi>. Vol. 10 (New York: Robert Appleton Company, 1911, consulted 28 Oct. 2014, http://www.newadvent.org/cathen/10352c.htm>).</note>
                 <note xml:id="trans3753" type="interp" resp="#SSB">Despite their abandonment of Huon, he came through the experience uninjured. Thus they are guilty, but he forgives them.</note>
                 <note xml:id="trans3860" type="interp" resp="#SSB">The town's inhabitants want it to be a "commune," that is, a free city without an overlord.</note>
                 <note xml:id="trans3983" type="lit" resp="#SSB">Literally: [...] he had a good heart in His presence</note>
@@ -146,12 +151,13 @@
                 <note xml:id="trans4264" type="ling" resp="#SSB">The double negative is confusing and doesn't exist in Turin.</note>
                 <note xml:id="trans4269" type="lit" resp="#SSB">Literally: [...] for I will truly reassure you</note>
                 <note xml:id="trans4358" type="lit" resp="#SSB">Literally: [...] to my knowledge</note>
-                <note xml:id="trans4360" type="refer" resp="#SSB">This could be a reference to Matthew 7.14: For the gate is narrow and the way is hard, that leads to life and those who find it are few. If so, the text would be transcribed: <hi rend="italic">Stroite ert la voie qui no l'atient a tant</hi> and the translation would read: "The way is narrow for the one who doesn't seize it right away."</note>
+                <note xml:id="trans4360.1" type="refer" resp="#SSB">This could be a reference to Matthew 7.14: For the gate is narrow and the way is hard, that leads to life and those who find it are few. If so, the text would be transcribed: <hi rend="italic">Stroite ert la voie qui no l'atient a tant</hi> and the translation would read: "The way is narrow for the one who doesn't seize it right away."</note>
+                <note xml:id="trans4360.2" type="alttrans" resp="#SSB">This could be a reference to Matthew 7.14: For the gate is narrow and the way is hard, that leads to life and those who find it are few. If so, the text would be transcribed: <hi rend="italic">Stroite ert la voie qui no l'atient a tant</hi> and the translation would read: "The way is narrow for the one who doesn't seize it right away."</note>
                 <note xml:id="trans4396" type="interp" resp="#SSB">It would seem that the scribe didn't understand the source manuscript. The sense in this line is out of step with the rest of the passage that never seems to describe negative reactions to the merchants.</note>
                 <note xml:id="trans4403" type="interp" resp="#SSB">This is an extremely difficult laisse.</note>
                 <note xml:id="trans4437" type="interp" resp="#SSB">Is Prester John being referred to here as a commoner? He appears to be the commoner since he is referred to in the next line. The word <hi rend="italic">petit</hi> could mean small of stature or perhaps his unassuming dress compared to all the nobles in the church.</note>
                 <note xml:id="trans4467" type="interp" resp="#SSB">This clearly means the end of the Holy Office. The word <hi rend="italic">arme</hi> itself could refer metaphorically either to God's presence or God's arms.</note>
-                <note xml:id="trans4514" type="lex" resp="#SSB">The verb <hi rend-"italic">roeler</hi> means "torture" or "break on the wheel."</note>
+                <note xml:id="trans4514" type="lex" resp="#SSB">The verb <hi rend="italic">roeler</hi> means "torture" or "break on the wheel."</note>
                 <note xml:id="trans4563" type="lex" resp="#SSB"><hi rend="italic">corner l'aigue</hi> = announce the time to wash one's hands before a meal (Hindley); see also TL column 876, line 14-20.</note>
                 <note xml:id="trans4604" type="lit" resp="#SSB">Literally: That is not him [...]</note>
                 <note xml:id="trans4612" type="interp" resp="#SSB">The reference to the month in the next line implies that the narrator is speaking of feudal service.</note>
@@ -159,7 +165,7 @@
                 <note xml:id="trans4707" type="refer" resp="#SSB">Tholomé is also the name of one of Alexander the Great’s most trusted men, one of his “douze pers” (Ptolémée). See Branche 1, laisse 31, for the choice of the peers.</note>
                 <note xml:id="trans4716" type="interp" resp="#SSB">This seems to be a kind of shorthand to express the sense that honor and dishonor are the most important considerations in deciding how to live.</note>
                 <note xml:id="trans4743" type="biblio" resp="#SSB">This use of <hi rend="italic">senator</hi> implies one who serves the Emperor of the Holy Roman Empire. See John Watts, <hi rend="italic">The Making of Polities: Europe, 1300-1500</hi>: "In 1239 he [Frederick II] appealed to the cardinals as Senators of Rome, calling on them to convoke a general council of the Church at which the issues in play between himself and the pope could be judged" (p. 58). Cf. Roland's title in the <hi rend="italic">Entrée d'Espagne</hi>.</note>
-                <note xml:id="trans4745" type="interp" resp="#SSB">If <hi rend="italic">Tholomé</hi> were emended to "tal ome" an alternative translation would be: Everyone must serve such a man well, great and small  (cf. T 4745 Servire debe esere tal sire [et] de grande [et] <hi rend="italic">de menore</hi>), for it is not logical that the archbishop is speaking of Duke Tholomeus here.</note>
+                <note xml:id="trans4745" type="alttrans" resp="#SSB">If <hi rend="italic">Tholomé</hi> were emended to "tal ome" an alternative translation would be: Everyone must serve such a man well, great and small  (cf. T 4745 Servire debe esere tal sire [et] de grande [et] <hi rend="italic">de menore</hi>), for it is not logical that the archbishop is speaking of Duke Tholomeus here.</note>
                 <note xml:id="trans4758" type="lex" resp="#SSB"><hi rend="italic">Ranse</hi>: rhyme creation for "rose."</note>
                 <note xml:id="trans4795" type="lit" resp="#SSB">Literally: [...] richly loaded</note>
                 <note xml:id="trans4821" type="interp" resp="#SSB">The king, Galleris, appears to host the royal ambassadors at two different castles.</note>
@@ -170,6 +176,31 @@
                 <note xml:id="trans4962" type="lit" resp="#SSB">Literally: Concerning that the count made an angry face</note>
                 <note xml:id="trans5054" type="refer" resp="#SSB">Cf. T 4890: com più alta [con]pagnia, no[n] soy [con] più el è. Turin seems to have a different meaning.</note>
                 <note xml:id="trans5071" type="lit" resp="#SSB">Literally: [...] you are lying through your throat (the usual body part named in the equivalent English expression is preferred)</note>
+                <note xml:id="trans5072" type="lit" resp="#SSB">Literally: [...] more than the eyes in my face (the usual body part named in the equivalent English expression is preferred)</note>
+                <note xml:id="trans5000" type="interp" resp="#SSB">The implication is that those serving the queen, her daughter and Ynide would be impressed most by Ynide's superior beauty.</note>
+                <note xml:id="trans5131" type="refer" resp="#SSB">Cf. T 4951:  <hi rend="italic">che l'Imperio, p[er]ché</hi> tuto el mondo se mantene</note>
+                <note xml:id="trans5155" type="interp" resp="#SSB">We have not found this proverb in any dictionary of proverbs.</note>
+                <note xml:id="trans5160" type="interp" resp="#SSB">He seems to be threatening Ynide here with the possibility of the king coming to attack her lands for her disobedience of his orders.</note>
+                <note xml:id="trans5182" type="lex" resp="#SSB">This might be Antwerp, Anvers in French.</note>
+                <note xml:id="trans5245" type="lit" resp="#SSB">Literally: From wanting to repent it would be too great a delay (the implication being that any delay, even the brief one from desire to repent to actual repentance, would be too long)</note>
+                <note xml:id="trans5289" type="alttrans" resp="#SSB">An alternative translation is possible if the transcription is punctuated differently.
+Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/ E ou se puet gregno[r] hono[r]s avoir trovés/ Cu[m] le rois obeir e fer sa volontés?
+	The king of France, why has he sent us here,/ Truly desirous that you be honored?/ And where can greater honor be found/ Than by obeying the king and doing his will?</note>
+                <note xml:id="trans5311" type="interp" resp="#SSB">They are trying to pressure Ynide's men to convince her to accept the king's invitation.</note>
+                <note xml:id="trans5336" type="interp" resp="#SSB">Translation based on T 5191: eio vezo cristianità y[n] gran [con]fusion<hi rend="italic">e</hi>. Could <hi rend="italic">construcions</hi> actually be <hi rend="italic">constriicions</hi> in MS, thus "constraint" or "constriction"? In any case, it has to be a negative or problematic outlook which upsets Ynide.</note>
+                <note xml:id="trans5399" type="interp" resp="#SSB">This seems to be a reference to the threat of war against Auvergne.</note>
+                <note xml:id="trans5439" type="interp" resp="#SSB">Is this the same person as Elin line 5261?</note>
+                <note xml:id="trans5460" type="lit" resp="#SSB">Literally: [...] for the divine sin</note>
+                <note xml:id="trans5466" type="lit" resp="#SSB">Literally: [...] sighed from her heart</note>
+                <note xml:id="trans5482" type="lit" resp="#SSB">Literally: And those to whom there is the most [...]</note>
+                <note xml:id="trans5519" type="lit" resp="#SSB">Literally: [...] I have refused my consent to you</note>
+                <note xml:id="trans5560" type="lit" resp="#SSB">Literally: [...] What is this that you have said?</note>
+                <note xml:id="trans5573" type="lit" resp="#SSB">Literally: [...] by the eyes with which I see</note>
+                <note xml:id="trans5574.1" type="interp" resp="#SSB">This has the cadence of a proverb or saying. (Cf. Hindley: venter=to deceive with fine talk)</note>
+                <note xml:id="trans5574.2" type="refer" resp="#SSB">This has the cadence of a proverb or saying. (Cf. Hindley: venter=to deceive with fine talk)</note>
+                <note xml:id="trans5637" type="alttrans" resp="#SSB">Alternative transcription: <hi rend="italic">Et el le baisse, mais ne l'a corompu</hi> would give an alternative translation: "And she embraces him, but has not corrupted him"</note>
+
+
 
 
 
