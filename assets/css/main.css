@@ -290,6 +290,11 @@ th {
 /* --------------------------------------------------
   Global settings
 -----------------------------------------------------*/
+#wrapper {
+	width:90%;
+	margin:auto;
+}
+
 body {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	background: white;
@@ -298,7 +303,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 700;
-	color: #5f0000;
+	color:#000;
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -311,13 +316,18 @@ p {
 	font-size: larger;	
 }
 a {
-	color: #000000;
+	color: #5f0000;
 	line-height: inherit;
 	text-decoration: none;
 }
-/* a:hover {
+ a:hover {
 	color: #213149;
-} */
+}
+
+ul {
+	font-size:larger;
+	line-height: 1.5;
+}
 img, object, embed {
 	max-width: 100%;
 	display: block;
@@ -358,24 +368,43 @@ img, object, embed {
   header styles
 -----------------------------------------------------*/
 .page-header {
-	padding: 1em 1em 0;
+	border-bottom:1px solid #e8e8e8;
+	padding-left:15px;
+	padding-top:15px;
 }
-header {
-	margin-bottom: 2em;
+
+#site-title {
+	margin:0;
+
 }
+
+#site-title a {
+	color:#000;
+}
+
 header h1 {
-	font-size: 2em;
-	line-height:1;
-	margin: 0;
 	text-transform: uppercase;
 	text-align:left;
+	margin:0;
+
 }
 header p {
 	font: 1em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #5F0000;
 	text-transform: uppercase;
 	margin: none;
+
+}
+
+.headerleft {
+	width:60%;
+	float:left;
+}
+
+.headerright{
+	width:40%;
+	float:right;
 }
 /* --------------------------------------------------
    top navigation styles
@@ -400,7 +429,7 @@ nav li.active a {
 .site-nav {
 	overflow: hidden;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	margin-left: 1%;
+	float:right;
 }
 
 .dropdown {
@@ -412,10 +441,10 @@ nav li.active a {
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
+    padding: 15px;
     background-color: inherit;
 		margin: 0;
-		width: 150px;
+		width: 100%
 		border-radius: 8px;
 		text-decoration: &9660;
 }
@@ -440,7 +469,7 @@ nav li.active a {
     text-align: left;
 }
 .dropdown-content a:hover {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -573,11 +602,17 @@ dd {
 	width: 50%;
 	text-align: right;
 }
+
+/* --------------------------------------------------
+   edition styles
+-----------------------------------------------------*/
+
 h1.title {
 	padding: 0 1em;
 	font-size: 1.5em;
 	margin: 0 auto;
 }
+
 #folio {
 	max-width: 4em;
 	min-width: 4em;
@@ -602,21 +637,44 @@ h1.title {
 }
 
 #TEI-tools {
-    border: solid .5px;
-	margin: 1% 0 5% 0;
 	background: #f5f5f5;
-	border-radius: 34px;
-	padding: 0 0 1% 2%;
+	width:100%;
+	overflow:hidden;
+	padding: 15px 10px 0px 10px;
+	display:flex;
 }
 
-#show-french, #expand, #reconstruction, #rajna, #notes {
-	display: inline-block;
-	margin: 1% 0% 0% 1%;
+.flex-item {
+
+}
+#mstitle {
+	width:25%;
 }
 
-#source-code {
-	margin: 6px 0 0 12px;
-	display: inline-block;
+#mstitle h1 {
+	display:inline;
+	font-size:medium;
+}
+
+#folio-nav {
+	width:15%;
+	text-align:center;
+	font-size:large;
+}
+
+#tools {
+	width:60%;
+
+}
+
+#show-french, #expand, #reconstruction, #rajna, #notes, #source-code, #status  {
+display:inline;
+padding-left:10px;
+}
+
+#status {
+	float:right;
+	font-size:small;
 }
 
 img#github {
@@ -624,6 +682,25 @@ img#github {
     display: inline-block;
 	height: auto;
 	margin: 0 4px 0 0;
+}
+
+#openseadragon1 {
+
+width: 50%;
+ height: 700px;
+  float: right;"
+}
+
+#edition-viewer {
+	width:90%;
+	margin:auto;
+}
+
+#edition-notes > tei-note {
+  display: block;
+  padding:.4em; 
+  width:100%;
+  font-size:80%;
 }
 
 /* CSS from rails site */
@@ -650,21 +727,6 @@ img#github {
 	display: inline-block;
 	position: absolute;
 	float: left;
-}
-img#dragon {
-	max-width: 15%;
-	display: inline-block;
-	height: auto;
-	float: left;
-	margin: none !important;
-}
-h1#site-title {
-	display: inline-block;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-}
-
-div#header-title {
-	margin: 2% 0 0 17%;
 }
 
 div#toc-header {
@@ -709,11 +771,11 @@ img#toc {
 
 #toc h2 {
 	font-size: 2em;
-	color: #5f0000;
+	color: #000;
 	font: 'Barlow Semi Condensed', sans-serif;
 }
 
-#toc a, h2 {
+#toc a {
 	font-size: 1em;
 	font: 'Barlow Semi Condensed', sans-serif;
 	color: #5f0000;
@@ -734,11 +796,7 @@ hr#nav-break {
     margin-top: 9%;
     width: 100%;
 }
-#status {
-    float: right;
-    margin: .5% 2% 0 0;
-    padding: 0 0 1% 2%;
-}
+
 i.progress {
 	color: orange;
 }
@@ -890,6 +948,7 @@ aside li {
 	margin-top: 1em;
 	color: black;
 	clear: both;
+		border-top:1px solid #e8e8e8;
 }
 .legal {
     font-size: .75em;
@@ -1030,12 +1089,13 @@ html {
 	background: white;
 }
 body {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 .page-header {
-	padding: 0 3%;
-	padding-top: 1em;
+	border-bottom: 1px solid #e8e8e8;
+	width:100%;
+	height:100px;
 }
 .index, .archive {
   display: inline-block;
@@ -1054,20 +1114,31 @@ aside {
    header styles
 -----------------------------------------------------*/
 header h1 {
-	font-size: 2.5em;
+	float:left;
+	margin:0;
+
 }
 header p {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #5f0000;
 	text-transform: uppercase;
+	float:left;
+	display:inline-block;
 }
+
+.headerleft .headerright {
+	width: 100%;
+}
+
+
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
 nav {
-	background: none;
+float:right;
 }
+
 #menu-toggle, .toggle-label {
 		display: none;
 	}
@@ -1076,7 +1147,7 @@ nav ul {
 	margin: 0;
 	list-style: none;
 	min-height: 0;
-  float: right;
+  	float: right;
 }
 nav li {
 	display: inline-block;
@@ -1102,6 +1173,8 @@ nav li a {
 article p {
 	font-size: 1.125em;
 	line-height: 1.4;
+	width:80%;
+	margin:auto;
 }
 a.more {
 	margin: 0.5em 0;
@@ -1114,30 +1187,47 @@ a.more {
 }
 }
 
-/* Local Styles - to be sorted or moved into separate files later */
+/* --------------------------------------------------
+   custom home page 
+-----------------------------------------------------*/
 
-img#initial {
-  max-width: 15%;
-  float: left;
-  padding-right: 10px;
-  margin-bottom: -450px;
-  margin-top: -132px;
-  margin-left: -173px;
+#initial img {
+  max-width: 40%;
+  display:inline-block;
+  float:right;
 }
 
-p.intro {
-	margin-top: 10em;
+div#initial {
+width:20%;
+float:left;
+}
+
+.flourish img {
+max-width:40%;
+display:block;
+margin:10%;
+float:right;
+}
+
+div.flourish {
+	width:20%;
+float:left;
+}
+
+div.intro {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: larger;
+	float:left;
+	text-align:justify;
+	width:70%;
+	margin-top:50px;
 }
 
-div#edition-container {
-  border: 100% solid #000;
-}
+
 div#TEI {
   float: left;
-	width: 50%;
-	margin-top: 4%;
+  width: 40%;
+
 }
 div#image-viewer {
 	margin-left: 50%;
@@ -1146,14 +1236,14 @@ div#image-viewer {
 
 
 div#edition-notes {
-
-position: fixed;
-  left: 0;
+position:fixed;
+left:0;
   bottom: 0;
-  width: 100%;
-  background-color: gray;
-  height: 150px;
+  height: 120px;
+  overflow: auto;
+  background-color: #f5f5f5;
 }
+
 .page-break {
 	color: blue;
 }
@@ -1162,10 +1252,6 @@ position: fixed;
 	float: left;
 	width: 50%;
 	margin-top: 1%;
-}
-
-#folio-nav {
-	margin-left: 46%;
 }
 
 /* unsure what these do... maybe the ul and li from p-intro.md */ 
@@ -1254,5 +1340,6 @@ input:checked + .slider:before {
   right:-55px;
 
 /* content: "Scribal" */
+}
 }
 

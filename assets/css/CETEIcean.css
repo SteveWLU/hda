@@ -1094,17 +1094,12 @@ tei-node {
 tei-normalization {
   /* Empty Rule Set */
 }
+
+
 tei-note {
-  /*
-  display: block;
-  margin: 1.5em auto 1.5em auto;
-  padding: .5em 1.5em 1.5em 1.5em;
-  border: 1px solid black;
-  border-radius: 15px;
-  width: 325px;
-  position: relative;
-  border: 1px solid #aaaaaa;
-  background: #fafafa;
+  display: none;
+}
+
   /* reset text-indent for note with <l> ancestors. */
   /*
   text-indent: 0;
@@ -1114,7 +1109,12 @@ tei-note {
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   */
+
+
+tei-note:before {
+  content: attr(id) ". ";
 }
+
 tei-notesStmt {
   /* do we want to box each individual <note> if they're in a <notesStmt>? */
   display: none;
@@ -1731,8 +1731,11 @@ tei-table > head {
   text-align: center;
 }
 tei-teiHeader {
-  display: block;
-  display: none;
+  display:none;
+}
+
+#teiHeader > tei-teiHeader {
+  display: block !important ;
   /*
 tei-border-radius: 15px;
 tei-border: 1px solid black;
