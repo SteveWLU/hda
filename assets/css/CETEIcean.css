@@ -1097,7 +1097,7 @@ tei-normalization {
 
 
 tei-note {
-  display: none;
+  
 }
 
   /* reset text-indent for note with <l> ancestors. */
