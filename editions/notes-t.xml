@@ -3,8 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne, Bibliteca del seminario vescovile MS 32 (P),
-                    Annotations</title>
+                <title type="manuscript">Turin, Biblioteca nazionale universitaria N III 19</title>
                 <respStmt>
                     <name xml:id="SPM">Stephen Patrick McCormick</name>
                     <resp>Annotations</resp>

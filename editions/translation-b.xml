@@ -4379,7 +4379,8 @@
                 <l n="3558">Let's test to see if you have the right, if you please,</l>
                 <l n="3559">In my presence you'll prove it to me.</l>
                 <l n="3560">I'll not take it wrong in any way if you are [proved] right;</l>
-                <l n="3561">I will do justice as I should do."</l>
+                <l n="3561">I will do justice just as I must."</l><note xml:id="trans3561"/>
+                <!--NOTE It is possible that the verbs in this line are second person singular which would give an alternative translation: You will do justice just as you must (cf. T 3521).-->
             </lg>
             <lg type="laisse" n="131">
                 <head>Laisse 131</head>
@@ -6205,7 +6206,7 @@
                 <l n="5070">By doing this, one might think that you hated him."</l>
                 <l n="5071">"Wretch," said the lady, "you're lying through your teeth,</l><note xml:id="trans5071"/>
                 <!--NOTE Literally: [...] you are lying through your throat (the usual body part named in the equivalent English expression is preferred)-->
-                <l n="5072">For I love my lord more than the eyes in my head.</l>
+                <l n="5072">For I love my lord more than the eyes in my head.</l><note xml:id="trans5072"/>
                 <!--NOTE Literally: [...] more than the eyes in my face (the usual body part named in the equivalent English expression is preferred)-->
                 <l n="5073">Whoever believed you would be foolish!</l>
                 <l n="5074">Go away, evil, vile man,</l>
@@ -6252,7 +6253,7 @@
                 <l n="5108">Once you are in his household,</l>
                 <l n="5109">Together with the queen and her lovely daughter,</l>
                 <l n="5110">Such a [household] knows how to kneel and serve,</l>
-                <l n="5111">For it wouldn't take care of you alone;</l>
+                <l n="5111">For it wouldn't take care of you alone;</l><note xml:id="trans5111"/>
                 <!--NOTE The implication is that those serving the queen, her daughter and Ynide would be impressed most by Ynide's superior beauty.-->
                 <l n="5112">You'll be more honored than any other person.</l>
                 <l n="5113">Lady, think about whether I speak the truth or lie."</l>
@@ -6278,7 +6279,7 @@
                 <l n="5129">And anyone who does otherwise I don't believe is making a proper
                     effort.</l>
                 <l n="5130">I say this for your sake, fair-faced lady,</l>
-                <l n="5131">That the emperor, on whom the whole world depends,</l>
+                <l n="5131">That the emperor, on whom the whole world depends,</l><note xml:id="trans5131"/>
                 <!--NOTE Cf. T 4951:  <hi rend="italic">che l'Imperio, p[er]ché</hi> tuto el mondo se mantene-->
                 <l n="5132">Has sent for you; and it seems an excuse to me</l>
                 <l n="5133">That you refuse [to come]. Where does this hostility come from?</l>
@@ -6307,13 +6308,13 @@
                 <l n="5152">Now come, my lady, for I believe you would be acting properly."</l>
                 <l n="5153">"Friend," said the countess, "you are in good faith,</l>
                 <l n="5154">But old tradition recounts a proverb: </l>
-                <l n="5155">'It's right to blow on one who gets hot'.</l>
+                <l n="5155">'It's right to blow on one who gets hot'.</l><note xml:id="trans5155"/>
                 <!--NOTE We have not found this proverb in any dictionary of proverbs.-->
                 <l n="5156">I say it for this reason: you're going to leave now;</l>
                 <l n="5157">You'll go away, [my] lords, and I'll remain here."</l>
                 <l n="5158">"Lady," said Tholomeus, "indeed it is praiseworthy of you</l>
                 <l n="5159">When you upset the order of the king!</l>
-                <l n="5160">Think, my lady, what could happen."</l>
+                <l n="5160">Think, my lady, what could happen."</l><note xml:id="trans5160"/>
                 <!--NOTE He seems to be threatening Ynide here with the possibility of the king coming to attack her lands for her disobedience of his orders.-->
                 <l n="5161">"Friend," said the countess, "I have been thinking about it for a long
                     time,</l>
@@ -6340,7 +6341,7 @@
                 <l n="5179">But [rather] was born of Broces, daughter of the duke of Saline.</l>
                 <l n="5180">Her father was the lord of Flanders, up to the sea,</l>
                 <l n="5181">His court was esteemed from here to Salumine.</l>
-                <l n="5182">And I am the wife of the count who rules Unverise,</l>
+                <l n="5182">And I am the wife of the count who rules Unverise,</l><note xml:id="trans5182"/>
                 <!--NOTE This might be Antwerp, Anvers in French.-->
                 <l n="5183">And who is lord of Brabant, of Auvergne and of Cassine,</l>
                 <l n="5184">And Roman senator because of his divine virtue.</l>
@@ -6411,7 +6412,7 @@
                 <l n="5242">A lady who put the world at risk would be a devil."</l>
                 <l n="5243">"[My] lord," replied Ynide, "your sermon is a good one.</l>
                 <l n="5244">If the heart within agreed to it,</l>
-                <l n="5245">It would want to repent without delay."</l>
+                <l n="5245">It would want to repent without delay."</l><note xml:id="trans5245"/>
                 <!--NOTE Literally: From wanting to repent it would be too great a delay (the implication being that any delay, even the brief one from desire to repent to actual repentance, would be too long)-->
             </lg>
             <lg type="laisse" n="203">
@@ -6463,7 +6464,7 @@
                 <l n="5286">The king of France, who has sent us here,</l>
                 <l n="5287">Is truly desirous that you be honored; </l>
                 <l n="5288">Where can greater honor be found </l>
-                <l n="5289">Than by obeying the king and doing his will?</l>
+                <l n="5289">Than by obeying the king and doing his will?</l><note xml:id="trans5289"/>
                 <!--NOTE An alternative translation is possible if the transcription is punctuated differently.
 Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/ E ou se puet gregno[r] hono[r]s avoir trovés/ Cu[m] le rois obeir e fer sa volontés?
 	The king of France, why has he sent us here,/ Truly desirous that you be honored?/ And where can greater honor be found/ Than by obeying the king and doing his will? -->
@@ -6491,7 +6492,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5308">"[My] lord," said Saudin, "you speak wisely."</l>
                 <l n="5309">Roger and Baudoin also spoke together,</l>
                 <l n="5310">As did the archbishop and Berart the captain,</l>
-                <l n="5311">And Morant and Henry both exerted themselves.</l>
+                <l n="5311">And Morant and Henry both exerted themselves.</l><note xml:id="trans5311"/>
                 <!--NOTE They are trying to pressure Ynide's men to convince her to accept the king's invitation.-->
                 <l n="5312">"[My] lord," said Berart, "I'll tell you my opinion:</l>
                 <l n="5313">Let's leave it until tomorrow, I think,</l>
@@ -6520,7 +6521,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5333">And spilled out abundantly on to her breast.</l>
                 <l n="5334">She spoke: "Oh, alas, woe that I was ever born!</l>
                 <l n="5335">Just because of me, sinner that I am,</l>
-                <l n="5336">I see Christianity in great confusion!</l>
+                <l n="5336">I see Christianity in great confusion!</l><note xml:id="trans5336"/>
                 <!--NOTE Translation based on T 5191: eio vezo cristianità y[n] gran [con]fusion<hi rend="italic">e</hi>. Could <hi rend="italic">construcions</hi> actually be <hi rend="italic">constriicions</hi> in MS, thus "constraint" or "constriction"? In any case, it has to be a negative or problematic outlook which upsets Ynide.-->
                 <l n="5337">O Lord God, please grant me this:</l>
                 <l n="5338">Receive my soul, which is in this wretched vessel,</l>
@@ -6594,7 +6595,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5396">From doing anything dishonest or wicked,</l>
                 <l n="5397">For, by that Lord whom sinners call,</l>
                 <l n="5398">You could never manage to hide yourself in a chamber or tower</l>
-                <l n="5399">Without being destroyed by the sharpness of this conflict."</l>
+                <l n="5399">Without being destroyed by the sharpness of this conflict."</l><note xml:id="trans5399"/>
                 <!--NOTE This seems to be a reference to the threat of war against Auvergne.-->
                 <l n="5400">The fair Ynide replied with great sorrow:</l>
                 <l n="5401">"Who are you, friend, that you speak to me thus?</l>
@@ -6641,7 +6642,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <head>Laisse 211</head>
                 <l n="5437">The day was clear and the air was calm,</l>
                 <l n="5438">And the sunlight spilled across the plain.</l>
-                <l n="5439">Baudoin, Thomas, Berart and Uliaine</l>
+                <l n="5439">Baudoin, Thomas, Berart and Uliaine</l><note xml:id="trans5439"/>
                 <!--NOTE Is this the same person as Elin line 5261?-->
                 <l n="5440">Came to the chamber above the main hall.</l>
                 <l n="5441">Ynide's brothers and cousins addressed her:</l>
@@ -6663,7 +6664,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5457">Your precious Son to take on human flesh,</l>
                 <l n="5458">And Your supreme virtue gave Him to us</l>
                 <l n="5459">To heal us of that infernal torment</l>
-                <l n="5460">Where everyone is lodged because of the original sin,</l>
+                <l n="5460">Where everyone is lodged because of the original sin,</l><note xml:id="trans5460"/>
                 <!--NOTE Literally: [...] for the divine sin-->
                 <l n="5461">As I believe, and You can do more and less.</l>
                 <l n="5462">Have mercy on the one from whom my heart [is] not far;</l>
@@ -6673,7 +6674,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
             </lg>
             <lg type="laisse" n="212">
                 <head>Laisse 212</head>
-                <l n="5466">The lady wept and sighed deeply,</l>
+                <l n="5466">The lady wept and sighed deeply,</l><note xml:id="trans5466"/>
                 <!--NOTE Literally: [...] sighed from her heart-->
                 <l n="5467">And when the priest, the great lord, saw it:</l>
                 <l n="5468"><milestone n="38Ra" unit="fol."/>"<hi rend="bold">Remember me</hi>, gentle and holiest Spirit,</l>
@@ -6691,7 +6692,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5479">"Dido and Candace of Syria would be greatly honored,</l>
                 <l n="5480">But I wish to speak and tell you something, [my] lords,</l>
                 <l n="5481">For this world is false and full of vain desire,</l>
-                <l n="5482">And those who have the most have nothing when they leave it</l>
+                <l n="5482">And those who have the most have nothing when they leave it</l><note xml:id="trans5482"/>
                 <!--NOTE Literally: And those to whom there is the most [...]-->
                 <l n="5483">Except for sorrow and pain and travail and martyrdom.</l>
                 <l n="5484">Honor and dishonor come together at the end</l>
@@ -6732,7 +6733,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5516">"[My] lord," said Ynide, "you are very wrong</l>
                 <l n="5517">When you blame me contrary to truth.</l>
                 <l n="5518">For I love my honor more than any creature alive;</l>
-                <l n="5519">For some time, [my] lord, I have refused your proposal,</l>
+                <l n="5519">For some time, [my] lord, I have refused your proposal,</l><note xml:id="trans5519"/>
                 <!--NOTE Literally: [...] I have refused my consent to you-->
                 <l n="5520">However you'll never find me otherwise."</l>
                 <l n="5521">"Lady," said Saudin, "this comes from folly."</l>
@@ -6781,7 +6782,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5557">Lord Saudin, if you remember,</l>
                 <l n="5558">That Charles is in the wrong when he would request of me</l>
                 <l n="5559">Something that treats my lord shamefully."</l>
-                <l n="5560">"[My] lady," said Saudin, "What are you talking about?</l>
+                <l n="5560">"[My] lady," said Saudin, "What are you talking about?</l><note xml:id="trans5560"/>
                 <!--NOTE Literally: [...] What is this that you have said?-->
                 <l n="5561">Don't you know that no man has any power over love?</l>
                 <l n="5562">I'll tell you something, don't consider it a joke:</l>
@@ -6797,9 +6798,9 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5570">That he wouldn't dare do anything but what pleased you."</l>
                 <l n="5571">"Saudin," said Thomas, "how could this be?</l>
                 <l n="5572">If you can't show me something more certain,</l>
-                <l n="5573">I won't be able to believe it, by the eyes in my head."</l>
+                <l n="5573">I won't be able to believe it, by the eyes in my head."</l><note xml:id="trans5573"/>
                 <!--NOTE Literally: [...] by the eyes with which I see-->
-                <l n="5574">"Indeed," said Ynide, "he who puffs deceives with fine talk."</l>
+                <l n="5574">"Indeed," said Ynide, "he who puffs deceives with fine talk."</l><note xml:id="trans5574"/>
                 <!--NOTE This has the cadence of a proverb or saying. (Cf. Hindley: venter=to deceive with fine talk)-->
                 <l n="5575">"[My] lady," said Saudin, "I'll indeed show you right away."</l>
                 <l n="5576">He went straight back to his companions.</l>
@@ -6870,8 +6871,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="5634">For he is cut off and separated from Avarice;</l>
                 <l n="5635">He doesn't like her and she doesn't like him;</l>
                 <l n="5636">He has always held Courtesy and Generosity arm in arm,</l>
-                <l n="5637">And [Avarice] is humbled, she has never corrupted him."</l>
-                <!--NOTE Alternative transcription: <hi rend="italic">Et el le baisse, mais ne l'a corompu</hi> = "And she embraces him, but has not corrupted him"-->
+                <l n="5637">And [Avarice] is humbled, she has never corrupted him."</l><note xml:id="trans5637"/>
+                <!--NOTE Alternative transcription: <hi rend="italic">Et el le baisse, mais ne l'a corompu</hi> would give an alternative translation: "And she embraces him, but has not corrupted him"-->
             </lg>
             <lg type="laisse" n="218">
                 <head>Laisse 218</head>
@@ -10875,7 +10876,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="8972">Whom you never worshipped when you were alive,</l>
                 <l n="8973">That you show me the road to safety,</l>
                 <l n="8974">So that I may return to some [normal] dwelling;</l>
-                <l n="8975">Because I wouldn't dare, just on the basis of your courtesy,</l>
+                <l n="8975">Because I wouldn't dare because you're supernatural</l>
                 <l n="8976">To come with you among the lost people.</l>
                 <l n="8977">And if I have come here foolishly,</l>
                 <l n="8978">I declare my guilt as a man who repents,</l>
@@ -12287,7 +12288,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10148">In Babylonia, while playing chess.</l>
                 <!--NOTE In the chansons de geste, Babylonia usually stands for Cairo -->
                <l n="10149">Then, after much great hardship, he ordered</l>
-                <l n="10150">That the destruction of the Christians not be slow.</l>
+                <l n="10150">The destruction of Christianity; he wasn't slow to act.</l>
                 <l n="10151">It's never possible to excuse this deed;</l>
                 <l n="10152">Let's go forward, I don't want to look at him anymore."</l>
                 <l n="10153">Just as he thought to pass on,</l>
@@ -12385,11 +12386,11 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10232">But once he had seen the two noblemen,</l>
                 <l n="10233">He cried out loud, "You escaped from this,</l>
                 <l n="10234">You who became a hermit, as we know for sure,</l>
-                <!--NOTE Expression similar to line 1702; however cf. T 9888: [...] com feze ly santy o<hi rend="italic">meny</hi>-->
+                <!--NOTE Expression similar to line 1702; however cf. T 9888: [...] com feze ly santy o<hi rend="italic">meny</hi>. A possible alternative translation: [...] as holy men do-->
                 <l n="10235">You don't want to see me; you turn your face aside,</l>
                 <l n="10236">Never would I value you the worth of a button for this.</l>
-                <l n="10237">If you are now a great lord in the kingdom of Aquillon,</l>
-                <!--NOTE <hi rend="italic">Aquillon</hi> is usually defined as "the North wind" or "the North," but here it seems to be a reference to Heaven since William is depicted wearing a halo. -->
+                <l n="10237">If you are now a great lord in the kingdom of the north wind,</l>
+                <!--NOTE <hi rend="italic">aquillon</hi> is usually defined as "the north wind" or "the north," but here it seems to be a reference to Heaven since William is depicted wearing a halo and Turin speaks of the "regno soprano" (cf. 9891).-->
                 <l n="10238">I have more power within this deep place</l>
                 <l n="10239">Than you could ever have in the heavenly house.</l>
                 <l n="10240">Although you have descended from my nation,</l>
@@ -12412,16 +12413,15 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10254">And [William] told him the entire truth about many of them.</l>
                 <l n="10255">For this reason the count desired to know about it at that moment</l>
                 <l n="10256">So that when he returned to noble France,</l>
-                <l n="10257">If he were asked, he could tell everything truly,</l>
+                <l n="10257">If he were asked, he could tell everything truly</l>
                 <l n="10258">What he had found out through what he did and what he saw.</l>
-                <l n="10259">On this occasion the count was very talkative.</l>
-                <l n="10260">William knew it, for that reason he was willing to bear with him,</l>
+                <l n="10259">For this reason the count was very talkative.</l>
+                <l n="10260">William knew it, thus he was willing to bear with him,</l>
                 <l n="10261">But as much as they could [his guides] urged him forward</l>
-                <l n="10262">To accomplish his journey and not be afraid.</l>
-                <l n="10263">In passing [William] addressed himself to those they met,</l>
-                <l n="10264">[Saying] how [Huon] was supposed to leave [that place] of such terrible pain.</l>
-                <l n="10265">There is no man on earth who wouldn't go out of his senses [from such
-                    torment];</l>
+                <l n="10262">To complete his journey and not be afraid.</l>
+                <l n="10263">So he began to move forward toward those whom he listened to</l>
+                <l n="10264">[Who said] how he was supposed to get out of such terrible suffering.</l>
+                <l n="10265">There is no man on earth who wouldn't go out of his senses [from such torment];</l>
                 <l n="10266">The count didn't know about this, nor did he remember it.</l>
                 <l n="10267">He passed on, looking at a great deal;</l>
                 <l n="10268">He saw a lot of torment meted out, harsh and heavy,</l>
@@ -12445,15 +12445,15 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10282">They were reduced to a sorry state by great torment.</l>
                 <l n="10283">"Oh, Aeneas, do you know anything about this situation?"</l>
                 <l n="10284"><milestone n="71Va" unit="fol."/>"Yes, I will indeed tell you part of it.</l>
-                <l n="10285">These [people] were already despised in the world;</l>
+                <l n="10285">These [people] were already ruined in the world;</l>
                 <l n="10286">They appeared humble in the trappings of poverty</l>
                 <l n="10287">In order to deceive others, who still trusted them.</l>
                 <l n="10288">The Gospels say it as we have seen;</l>
-                <l n="10289">Oh, [my] lord, watch out for those hypocrites,</l>
-                <l n="10290">And the one who dwells in the trappings of poverty in order to trick;</l>
+                <l n="10289">Ah, [my] lord, watch out for those hypocrites,</l>
+                <l n="10290">And for those who live in poor dress out of trickery;</l>
                 <l n="10291">They do it all the time to deceive others.</l>
-                <l n="10292">They are called con artists by Him who holds the world in His
-                    control."</l>
+                <l n="10292">He who holds the world in His control calls them the 'rag-smitten.'"</l>
+                <!--NOTE If <hi rend="italic">panç</hi> is not the plural of "pan" but rather a version of "pance," then this invented term would translate as "belly-lover." Cf. T 9947-->
                 <l n="10293">"Indeed," said Huon, "are these people so mad?"</l>
                 <l n="10294">I believe there is rather a large contingent of them in
                     Christendom.</l>
@@ -12521,7 +12521,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10347">"They are not damned except the evil ones</l>
                 <l n="10348">Who knew about the true good way;</l>
                 <l n="10349">They didn't acknowledge the true God.</l>
-                <l n="10350">They trusted their own reasoning so that they turned to falseness.</l>
+                <l n="10350">They trusted their own reasoning so much that they turned to falseness.</l>
                 <l n="10351">They dwell in this darkness here; in this valley</l>
                 <l n="10352">Live the devils whose names are Flagiras,</l>
                 <l n="10353">Ajax, Brugier, along with other devils</l>
@@ -12535,8 +12535,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10360">Let these exist in pain, as it pleases Jesus."</l>
                 <l n="10361">At this word they departed right away;</l>
                 <!--NOTE Cf. T 10013: A questo moto se n'andono atanto-->
-               <l n="10362">They passed the sixth gate near a palace.</l>
-                <l n="10363">A kind of people who were all shorn</l>
+                <l n="10362">They passed the sixth gate near a palace.</l>
+                <l n="10363">They saw a kind of people who were all shaved</l>
                 <l n="10364">Singing around Pythagoras.</l>
                             </lg>
             <lg type="laisse" n="396">
@@ -12601,8 +12601,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10417">That he would go to Hell to demand tribute</l>
                 <l n="10418">From that great prince of all the devils,</l>
                 <l n="10419">And if [the Devil] didn't consent to it completely,</l>
-                <l n="10420">That he challenge him in the name of the emperor;</l>
-                <l n="10421">Afterward [Huon] should know how to say and explain to him well</l>
+                <l n="10420">That he challenge him in the name of the emperor,</l>
+                <l n="10421">That he should then figure out how to say and explain well to [the king]</l>
                 <l n="10422">If the land [of Hell] was such that one could beseige it,</l>
                 <l n="10423">What men he had and what the men could do.</l>
                 <l n="10424">All this was done to drive [Huon] away</l>
@@ -12785,7 +12785,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10571">Now I'll speak to you very forcefully</l>
                 <l n="10572">About this matter; I repent here [and] now.</l>
                 <l n="10573">I don't want to go against your lord for anything at all,</l>
-                <l n="10574">If I made a fuss, you would react badly.</l>
+                <l n="10574">If I offended you, you would react quite badly.</l>
                 <!--NOTE Literally: If I made noise [...]-->
                 <l n="10575">I am his liegeman, and, if he consents,</l>
                 <l n="10576">I and my people will make a gift to him:</l>
@@ -12810,7 +12810,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10594">Whether you wish to remain or to go at present,</l>
                 <l n="10595">Do as you wish from now on;</l>
                 <l n="10596">Take this ring; put [it] on your finger now!"</l>
-                <l n="10597">The count said, "I wouldn't do such a thing to myself!</l>
+                <l n="10597">The count said, "You won't do such a thing to me!</l>
+                <!--NOTE [...] I won't do such a thing to myself-->
                 <l n="10598">Put it there in the bag that you are sending on to [the emperor]."</l>
                 <l n="10599">And they did it, then they ended the conversation.</l>
                             </lg>
@@ -12823,7 +12824,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <!--NOTE Literally: Now he looked at William, at the face and at the forehead-->
                 <l n="10604">Then he said, "How will I do it, worthy one?</l>
                 <l n="10605">If I wish to go, and I would indeed like to leave,</l>
-                <l n="10606">The road is long, the thoughts about it are forbidding.</l>
+                <l n="10606">The road is long, the lands about it are forbidding.</l>
                 <l n="10607">There is no way I'll be able to keep up with you;</l>
                 <l n="10608">I'm weakened and I feel ill all over;</l>
                 <!--NOTE Literally: [...] nor do I feel anything but ill-->
@@ -12867,7 +12868,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10641">Once he was completely sated,</l>
                 <l n="10642">He said something that was overheard:</l>
                 <l n="10643">"I have done such a thing as no one has ever done;</l>
-                <l n="10644">I have received edible food in this place,</l>
+                <l n="10644">I have received edible food in this place</l>
                 <l n="10645">From which I am as well satisfied as I could wish;</l>
                 <l n="10646">May the matter go as God wills it!</l>
                 <l n="10647">Now let's turn back; since our message</l>
@@ -12875,9 +12876,9 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10649">Let those remain who must remain;</l>
                 <l n="10650">I'll depart soon once I have taken a little rest."</l>
                 <l n="10651">He rested on the table that was before him;</l>
-                <l n="10652">Because of what he had eaten and, a little done in,</l>
+                <l n="10652">Because he had eaten and [was] a little done in,</l>
                 <l n="10653">It wasn't long before he fell asleep.</l>
-                <l n="10654"><milestone n="74Ra" unit="fol."/>When Saint William himself realized this,</l>
+                <l n="10654"><milestone n="74Ra" unit="fol."/>When Saint William noticed him this way,</l>
                 <l n="10655">He then blessed him; he commended him to God.</l>
                 <l n="10656">He spoke to the devil who had brought the food:</l>
                 <l n="10657">"Go quickly," he said, "in the name of the sovereign God.</l>
@@ -12900,8 +12901,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <head>Laisse 408</head>
                 <l n="10671">Before the appearance of dawn, Huon awoke;</l>
                 <l n="10672">He felt alert, he didn't appreciate his danger.</l>
-                <l n="10673">He said that indeed henceforth he would be able to go;</l>
-                <l n="10674">From now on the road wouldn't trouble him.</l>
+                <l n="10673">He said that indeed henceforth he would be able to go,</l>
+                <l n="10674">Nor would the road trouble him from now on.</l>
                 <l n="10675">"Where are you, Lord William, come here!</l>
                 <l n="10676">I don't see you at all, don't forget me here!</l>
                 <l n="10677">This place is very evil, I have known it well for a long while,</l>
@@ -12945,8 +12946,9 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10709">From his wife whom the baron [now] truly believed,</l>
                 <l n="10710">For God made a sign to him in this matter.</l>
                 <l n="10711">After all, in that other place, in the eternal depths,</l>
-                <l n="10712">Many had told him about how the emperor Charles</l>
-                <l n="10713">Wanted to seize her, however much she told him no.</l>
+                <l n="10712">Many had told him about how the emperor Charles:</l>
+                <l n="10713">He wanted to seize her, whereas [Huon] refused to believe it.</l>
+                <!--NOTE Literally: [...] when he said no to them (many of the characters Huon has met on his travels spoke to him of Charles' perfidy, but he invariably refused to accept what they said)-->
                 <l n="10714"Once the nobleman had returned to his senses,</l>
                 <l n="10715">He recognized his palace and all the other buildings.</l>
                 <l n="10716">"Holy Mary," he said, "this is a great miracle!</l>
@@ -13005,8 +13007,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10759">The lady spoke to him with kind words;</l>
                 <l n="10760">His chest felt so tight that he didn't utter a word;</l>
                 <l n="10761">He refused to do anything but look [and] weep.</l>
-                <l n="10762">When the lady saw in him his thoroughly kind spirit,</l>
-                <l n="10763">She recognized through this [that] great love urged him.</l>
+                <l n="10762">When the lady saw him, all his good intent,</l>
+                <l n="10763">She recognized through this [that] great love urged him on.</l>
                 <!--NOTE Cf. T 10418.-->
                 <l n="10764">Then she rememberd a wound that [Huon] had on his person,</l>
                 <l n="10765"><milestone n="74Vb" unit="fol."/>On his right shoulder, one that he got in Carcassonne.</l>
@@ -13039,7 +13041,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10788">In order to find honor.</l>
                 <l n="10789">I did much and endured great tribulation</l>
                 <l n="10790">Until I attained the object of my mission.</l>
-                <!--NOTE Alternative translation based on understanding <hi rend="italic">l'ator</hi> as deriving from the verb "atorner": Until I earned the return from my mission.-->
+                <!--NOTE Literally: Until I acquired the compensation of my quest (based on "torne": "dédommagement" in Matsumura)-->
                 <l n="10791">He who would like with all his being to be a singer,</l>
                 <l n="10792">A wise cleric who might be a good writer,</l>
                 <l n="10793">In three months still wouldn't be able to write it down,</l>
@@ -13058,13 +13060,14 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10806">You'll be free of the emperor.</l>
                 <l n="10807">Come with me without any further delay;</l>
                 <l n="10808">I'll show you another marvel."</l>
-                <l n="10809">Then they went to the place above with his table;</l>
+                <l n="10809">Then they went to the place where his table sat;</l>
+                <!--NOTE Literally: [...] to the place with his table on it-->
                 <l n="10810">There was the litter that gave off great light.</l>
                 <l n="10811">The little birds began their singing,</l>
                 <l n="10812">Expressing such a melody and such sweetness</l>
                 <l n="10813">That great numbers of people rushed up all around</l>
                 <l n="10814">Until Huon cried out, "Don't get close to them!</l>
-                <l n="10815">It is a supernatural thing that doesn't reveal its nature."</l>
+                <l n="10815">It's a supernatural thing that doesn't reveal its nature."</l>
                             </lg>
             <lg type="laisse" n="413">
                 <head>Laisse 413</head>
@@ -13215,11 +13218,11 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10941">He placed the litter before King Charles.</l>
                 <l n="10942">No living man had ever seen anything so beautiful,</l>
                 <l n="10943">Nor anything more sumptuous with beautiful workmanship.</l>
-                <l n="10944">No one knew how it had been constructed:</l>
-                <l n="10945">It appeared to be formed from gold together with precious stones</l>
-                <l n="10946">To everyone who was looking at it,</l>
+                <l n="10944">No one could know how it had been enchanted:</l>
+                <l n="10945">It was cast from gold together with precious stones;</l>
+                <l n="10946">So it appeared to everyone who was looking at it,</l>
                 <l n="10947">But so far no one knew what it really was.</l>
-                <!--NOTE <hi rend="italic">semblant</hi> has many meanings, not only "appearance" and "meaning," but it can also imply "misleading appearance" (see Mats, "apparence trompeuse").-->
+                <!--NOTE <hi rend="italic">semblant</hi> has many meanings, not only "appearance" and "meaning," but it can also imply "misleading appearance" (see Matsumura, "apparence trompeuse").-->
                 <l n="10948">The birds took great delight in singing.</l>
                             </lg>
             <lg type="laisse" n="417">
@@ -13229,7 +13232,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="10951">This is the tribute that [the Devil] sends you through me.</l>
                 <l n="10952">Now you can see whether that slender bag</l>
                 <l n="10953">Befits a king, as I believe."</l>
-                <l n="10954">In it were [the Devil's] letters and he eyed it.</l>
+                <l n="10954">In it were [the Devil's] letters and he eyed it at once.</l>
                 <l n="10955">Then he said to the spirit whom he saw before him:</l>
                 <l n="10956">"Now open the bag, that I see right over there;</l>
                 <l n="10957">Present the letter from your lord to mine."</l>
@@ -13313,7 +13316,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11023">About accomplishing what pleases God and our society in this world.</l>
                 <!--NOTE <hi rend="italic">sigle</hi> can be translated in many different ways, Here the context suggests that it is referring to the ensemble of nobles and their people who will all be subject to the new king chosen, hence the importance of pleasing them all in addition to pleasing God. Cf. line 11062 below.-->
                 <l n="11024"><milestone n="76Va" unit="fol."/>We'll start to set this up for everybody,</l>
-                <l n="11025">Because not everyone can be permitted to do it.</l>
+                <l n="11025">Because not everyone can be here then.</l>
                 <l n="11026">I'll speak for the group:</l>
                 <l n="11027">We know Charles left a daughter,</l>
                 <l n="11028">She is quite sensible and of beautiful appearance;</l>
@@ -13435,7 +13438,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11129">[Saudin] recounted to me the situation that has been going on until
                     now.</l>
                 <l n="11130">Because of him I forced my way through, and I was so strengthened</l>
-                <!--NOTE Translation of <hi rend="italic">sforcieç</hi> based on OF "esforcier" which can mean "renforcer." Cf. Mats. and T-L col. 1044. Cf. T 10782 (TLIO "forzare" 1).-->
+                <!--NOTE Translation of <hi rend="italic">sforcieç</hi> based on OF "esforcier" which can mean "renforcer." Cf. Matsumura and T-L col. 1044. Cf. T 10782 (TLIO "forzare" 1).-->
                 <l n="11131">That I spoke quite a lot to the great Demon.</l>
                 <l n="11132">I completed my mission, I took leave of him.</l>
                 <l n="11133">He handed over to me the tribute that I have brought here;</l>
@@ -13610,11 +13613,11 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                     going.</l>
                 <l n="11273">He left nothing out, neither more nor less was there;</l>
                 <l n="11274">When the barons heard this news,</l>
-                <l n="11275">That a large part was accomplished through Huon,</l>
+                <l n="11275">Since a large number of them gathered around Huon,</l>
+                <l n="11276">His deed was known in its great goodness</l>
+                <l n="11277">And to his honor; those [present] took great joy in it.</l>
                 <!--NOTE See section on Huon's experience in Jerusalem, Laisses 62-83 (lines 1688-2280).-->
-                <l n="11276">In his great good action and his honor,</l>
-                <l n="11277">His deed was acknowledged; those [present] took great joy in it.</l>
-                <l n="11278">Everyone rightly pointed out [Huon] to each other.</l>
+                <l n="11278">With good reason everyone pointed out [Huon] to each other.</l>
                 <l n="11279">The count didn't behave arrogantly because of this;</l>
                 <l n="11280">This time he immediately began to weep</l>
                 <l n="11281">As it reminded him of what more he could do.</l>
@@ -13759,7 +13762,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11389">And the pope, if they could find him,</l>
                 <l n="11390">Would be burned or skinned alive.</l>
                 <l n="11391">They besieged the city, from three sides they would take it;</l>
-                <l n="11392">They would pillage and lay waste to the surrounding land,</l>
+                <l n="11392">They pillaged and laid waste to the surrounding land,</l>
                 <l n="11393"><milestone n="79Ra" unit="fol."/>Everyone would be killed if they had not fled.</l>
                 <l n="11394">When the pope saw such a battle imminent,</l>
                 <l n="11395">Neither he nor the cardinals who were there knew of any solution</l>
@@ -13781,8 +13784,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11406">They asked for the king, where he was to be found;</l>
                 <l n="11407">There were quite a few people who pointed him out:</l>
                 <l n="11408">"See there, the lord whom you seek and about whom you speak.</l>
-                <l n="11409">If, for any reason, you are applying to him for someone else,</l>
-                <!--NOTE If <hi rend="italic">adesie</hi> is from OF "adeser" an alternative translation would be: [...] you are approaching him for someone else-->
+                <l n="11409">If, for any reason, you are applying to him for anything,</l>
+                <!--NOTE If <hi rend="italic">adesie</hi> is from OF "adeser" an alternative translation would be: [...] you are approaching him for anything/someone else-->
                 <l n="11410">He will certainly act fairly toward you; you yourself will lose nothing.</l>
                 <!--NOTE See DiStefano, <hi rend="italic">tenir raison</hi>, "justifier, juger équitablement, parler longuement."-->
                 <l n="11411">He is indeed worthy and wise, his people accept good advice</l>
@@ -13819,37 +13822,37 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11436">Swore and vowed in their hearts</l>
                 <l n="11437">That they would never ever budge for him,</l>
                 <l n="11438">And that they would never obey him in their life.</l>
+                <l n="11439">They sent him arrogance and insult,</l>
+                <l n="11440">Nor did they hold him as their lord at all.</l>
                             </lg>
             <lg type="laisse" n="433">
                 <head>Laisse 433</head>
-                <l n="11439">When King William got the reply,</l>
+                <l n="11441">When King William got the reply,</l>
                 <!--NOTE Alternative translation: When King William heard the reply-->
-                <l n="11440">That those very men were failing him who were supposed to serve
+                <l n="11442">That those very men were failing him who were supposed to serve
                     him,</l>
-                <l n="11441">You must truly know that it vexed him very much.</l>
-                <l n="11442">And then afterward, he grieved greatly,</l>
-                <l n="11443">It couldn't be otherwise; thus it was to be.</l>
-                <l n="11444">He gave leave to the messenger, for which he was distressed:</l>
-                <l n="11445">"Go, tell your lord how things are;</l>
-                <l n="11446">May he forgive me, I can't do it,</l>
+                <l n="11443">You must truly know that it vexed him very much.</l>
+                <l n="11444">And then afterward, he grieved greatly,</l>
+                <l n="11445">It couldn't be otherwise; thus it was to be.</l>
+                <l n="11446">He gave leave to the messenger, for which he was distressed:</l>
+                <l n="11447">"Go, tell your lord how things are;</l>
+                <l n="11448">May he forgive me, I can't do it,</l>
                 <!--NOTE Literally: [...] it isn't possible for me to do-->
-                <l n="11447">For those who promised to serve [me] have failed me.</l>
-                <l n="11448">I want to send for Huon; this I believe, he wouldn't fail me;</l>
-                <l n="11449">If he doesn't help me, I am completely undone."</l>
-                <l n="11450">The messenger returned to Rome, to the lord who awaited him;</l>
-                <l n="11451">He gave him the message, which weighed on him heavily.</l>
-                <l n="11452">Then [the pope] promptly sent again to Germany,</l>
-                <l n="11453">Begging the king, the dukes, the counts who were there</l>
-                <l n="11454">To come rescue him as they should.</l>
-                <l n="11455">If they didn't do this, they would betray Holy Church,</l>
-                <l n="11456">But if they deigned to do this willingly,</l>
-                <l n="11457">If they came to the Holy See to drive out the enemy,</l>
-                <l n="11458">Then, let happen afterward whatever might happen,</l>
-                <l n="11459">He, [the pope], would place the crown of the empire on a German,</l>
-                <l n="11460">And he would always support it for them </l>
-                <l n="11461">Against all those who would wish to challenge [it].</l>
-                <l n="11462">[Since William's men] had sent him arrogance and insult,</l>
-                <l n="11463">Nor did they care about their lord at all.</l>
+                <l n="11449">For those who promised to serve [me] have failed me.</l>
+                <l n="11450">I want to send for Huon; this I believe, he wouldn't fail me;</l>
+                <l n="11451">If he doesn't help me, I am completely undone."</l>
+                <l n="11452">The messenger returned to Rome, to the lord who awaited him;</l>
+                <l n="11453">He gave him the message, which weighed on him heavily.</l>
+                <l n="11454">Then [the pope] promptly sent again to Germany,</l>
+                <l n="11455">Begging the king, the dukes, the counts who were there</l>
+                <l n="11456">To come rescue him as they should.</l>
+                <l n="11457">If they didn't do this, they would betray Holy Church,</l>
+                <l n="11458">But if they deigned to do this willingly,</l>
+                <l n="11459">If they came to the Holy See to drive out the enemy,</l>
+                <l n="11460">Then, let happen afterward whatever might happen,</l>
+                <l n="11461">He, [the pope], would place the crown of the empire on a German,</l>
+                <l n="11462">And he would always support it for them </l>
+                <l n="11463">Against all those who would wish to challenge [it].</l>
                             </lg>
             <lg type="laisse" n="434">
                 <head>Laisse 434</head>
@@ -13861,7 +13864,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11469">Then they consulted among themselves:</l>
                 <l n="11470">If the pope was willing to do what he intended,</l>
                 <l n="11471">And he truly meant to offer it to them,</l>
-                <l n="11472">Then let him have assistance without any delay.</l>
+                <l n="11472">Then let him be rescuced without any delay.</l>
                 <l n="11473">"We have an awful lord, we don't esteem him at all;</l>
                 <l n="11474">Compared to anyone else he's a stinking dwarf!</l>
                 <l n="11475">We aren't willing to obey him steadfastly."</l>
@@ -13883,7 +13886,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11489">They spread out over the land took lodging.</l>
                 <l n="11490">Two or three Germans took over two houses,</l>
                 <l n="11491">They didn't care at all about causing hardship for others;</l>
-                <l n="11492">Rather they became completely overbearing and considered themselves more worthy.</l>
+                <l n="11492">Rather they became completely overbearing and swaggered more.</l>
+                <!--NOTE Literally: [...] considered themselves more worthy-->
                 <l n="11493">They remained in the city and did nothing else.</l>
                 <l n="11494">But now we must tell about the Frenchmen.</l>
                             </lg>
@@ -14041,8 +14045,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11609">"Never will we be friends from this year forward."</l>
                 <!--NOTE Cf. T 11245 where the same basic comment is given by the narrator in the third person.-->
                 <l n="11610">The Germans were threatening the French violently,</l>
-                <l n="11611">But [the French] didn't respect them any more than a passing puff of
-                    wind.</l>
+                <l n="11611">But [the French] didn't respect them any more than a gust of wind.</l>
                 <l n="11612">They put aside the matter; each one went to his lodging;</l>
                 <l n="11613">The pope went about splitting the area in half;</l>
                 <l n="11614">The waters of the Tiber separated the two sides.</l>
@@ -14161,8 +14164,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11711">To strike down hard on the infidels;</l>
                 <l n="11712">It was evident there that they really helped each other.</l>
                 <l n="11713">Why should I draw out the story any more?</l>
-                <l n="11714">God loved our men, it was quite evident on that day,</l>
-                <l n="11715">For He had them advance constantly;</l>
+                <l n="11714">God loved our men, it was quite evident on that day</l>
+                <l n="11715">Each time that He had them advance;</l>
                 <l n="11716">No matter what suffering they might have been enduring,</l>
                 <l n="11717">One never saw anyone leave the battlefield.</l>
                 <l n="11718">Our men accomplished so much that God wanted to help them,</l>
@@ -14475,10 +14478,12 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <l n="11979">He left the deliberations, he retired to an isolated spot,</l>
                 <l n="11980">To a remote place where no one would ever go.</l>
                 <l n="11981">He said his prayer with weeping and tears:</l>
-                <l n="11982">"O God the Father, resolved these points for us!</l>
+                <l n="11982">"O God the Father, counsel us on these points!</l>
                 <l n="11983">Don't keep away from this distress that we have,</l>
-                <l n="11984">Among one hundred thousand, there aren't ten who recognize</l>
-                <l n="11985"><milestone n="83Ra" unit="fol."/>That one who should be advising others; still more is wrong now,</l>
+                <l n="11984">Among one hundred thousand, I don't recognize ten [of them].</l>
+                <!--NOTE Huon seems to be indicating that he can't understand the behavior of his fellow Christians.-->
+                <l n="11985"><milestone n="83Ra" unit="fol."/>The one who should counsel others is failing most now;</l>
+                <!--NOTE This is a reference to the pope who is not dealing well with the situation.-->
                 <l n="11986">Such a transgression is underway here as well</l>
                 <l n="11987">That will cause great harm to the people of the world;</l>
                 <l n="11988">Henceforth we'll see Christians in sorrow and lamentation."</l>
