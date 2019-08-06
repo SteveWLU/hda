@@ -806,8 +806,13 @@ tei-l {
 tei-1 + tei-1 {
   
 }
+/*
+tei-l::before {
+  content: attr(n) ". ";
+}*/
+
 tei-l[data-lineno]:before {
-  content: attr(data-lineno);
+  content: attr("data-lineno");
   position: absolute;
   left: 2em;
 }
@@ -1095,10 +1100,16 @@ tei-normalization {
   /* Empty Rule Set */
 }
 
-
 tei-note {
-  
+display:block;
+
 }
+
+tei-l tei-note {
+  display:inline;
+}
+
+
 
   /* reset text-indent for note with <l> ancestors. */
   /*
@@ -1111,8 +1122,11 @@ tei-note {
   */
 
 
-tei-note:before {
+  tei-note:before {
   content: attr(id) ". ";
+  vertical-align: super;
+  font-size: 70%;
+  padding: 1px;
 }
 
 tei-notesStmt {

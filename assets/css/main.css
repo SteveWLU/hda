@@ -696,12 +696,7 @@ width: 50%;
 	margin:auto;
 }
 
-#edition-notes > tei-note {
-  display: block;
-  padding:.4em; 
-  width:100%;
-  font-size:80%;
-}
+
 
 /* CSS from rails site */
 /* #rajnaCheckbox {
@@ -1244,7 +1239,10 @@ left:0;
   height: 120px;
   overflow: auto;
   background-color: #f5f5f5;
+  width:100%;
+  padding-left: 10px;
 }
+
 
 .page-break {
 	color: blue;
@@ -1278,6 +1276,7 @@ li {
 .hid_page {
 	display: none;
 }
+
 
 /* Toggle buttons */
 

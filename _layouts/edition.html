@@ -108,7 +108,7 @@
 <div id="openseadragon1"></div>
 </main>
 </div>
-<script src="/assets/js/openseadragon/openseadragon.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/openseadragon/openseadragon.min.js"></script>
 
 <script type="text/javascript">
     var viewer = OpenSeadragon({
@@ -122,7 +122,7 @@
 </script>
 
 
-<div id="edition-notes">
+<div id="edition-notes" data-milestone="{{ page.milestone }}">
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -208,9 +208,8 @@ const currentMilestone = document.getElementById("TEI").getAttribute("data-miles
 showPage(currentMilestone)
 });
 
-
 // to show notes
-var CETEIceannotes = new CETEI()
+var CETEIceanNotes = new CETEI()
 {% if page.sigla == 'B' %}
   CETEIceannotes.getHTML5("{{site.baseurl}}/editions/notes-b.xml", function(data) {
 
@@ -230,10 +229,17 @@ var CETEIceannotes = new CETEI()
 
   document.getElementById("edition-notes").innerHTML = ""
   document.getElementById("edition-notes").appendChild(data)
-  CETEIceannotes.addStyle(document, data)
+  CETEIceanNotes.addStyle(document, data)
 
+//get current page
+const currentNoteMilestone = document.getElementById("edition-notes").getAttribute("data-milestone");
+
+//show current page
+showPage(currentNoteMilestone)
 
 });
+
+
 
 
 //Variables for toggle buttons
