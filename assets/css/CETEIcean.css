@@ -694,7 +694,7 @@ tei-hi[rend="caps"] {
   /* font-weight:bold; */
 }
 tei-hi[rend="italic"] {
-  /* font-style: italic; */
+  font-style: italic; 
 }
 tei-hi[rend="red-initial"] {
   font-family: 'MedievalSharp';
@@ -1106,7 +1106,7 @@ display:block;
 }
 
 tei-l tei-note {
-  display:inline;
+
 }
 
 
@@ -1123,11 +1123,9 @@ tei-l tei-note {
 
 
   tei-note:before {
-  content: attr(id) ". ";
-  vertical-align: super;
-  font-size: 70%;
-  padding: 1px;
 }
+
+
 
 tei-notesStmt {
   /* do we want to box each individual <note> if they're in a <notesStmt>? */

@@ -219,7 +219,8 @@
     <text>
         <body>
             <lg type="laisse" n="1">
-                <note xml:id="p1"/>
+                <note place="end" id="p1" type="interp" resp="#SPM">Laisse division not marked in
+                    manuscript.</note>
                 <milestone n="1R" unit="fol."/>
                 <head>Laisse 1</head>
                 <l n="1"><gap reason="missing folios" quantity="2"/>E perçò era Ugo d’Alvernia
@@ -1250,7 +1251,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <corr cert="high" resp="#scribe">Montà <add place="above">è</add><note
                                 xml:id="p739"/> i<ex rend="italic">n</ex></corr>
                     </choice> man lo scudo e à inbraçere</l>
-                <!-- ambraçere ? ; OFr bracier with Franco-Italianate prefix (INTRO) -->
+                <!-- ambraçere ? ; OFr bracier with Franco-Italianate prefix (INTRO) -->
                 <l n="740">La lança in man sença mentire,</l>
                 <l n="741">E montà i<ex rend="italic">n</ex> arçon, non prende strivere.<note
                         xml:id="p741"/></l>
@@ -1373,7 +1374,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="832">Chun plaque a Dio, da llui si fui lasie,</l>
                 <l n="833">Si andè in una camera e çà non demorie:</l>
                 <l n="834">La porta seré, si lla ben fermie,</l>
-                <!-- LZM la portâ seré -->
+                <!-- LZM la portâ seré -->
                 <l n="835">E quell fellon a soa camera fo tornie.”</l>
                 <l n="836">Quando lo re l'intende, ell non sa que 'l die;</l>
                 <l n="837">El çurà a Dio lo fiol sante Marie</l>
@@ -1600,7 +1601,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     </choice></l>
                 <l n="1020">Çò ch'el conte li à deresné.</l>
                 <l n="1021">Quando lo re l’intende, si à lo cavo trolé;</l>
-                <!-- troler : incerto, tormentato; troublé through lenition; Vallecalle « trolé » est l’équivalent de l’ancien français « crolé » : “agité”. “Il a agité la tête”. C’est un signe de mécontentement banal dans les chansons de geste françaises, auquel correspond la formule stsréotypée « il a le chief crolé » ou « en a le chief crolé »… -->
+                <!-- troler : incerto, tormentato; troublé through lenition; Vallecalle « trolé » est l’équivalent de l’ancien français « crolé » : “agité”. “Il a agité la tête”. C’est un signe de mécontentement banal dans les chansons de geste françaises, auquel correspond la formule stsréotypée « il a le chief crolé » ou « en a le chief crolé »… -->
                 <l n="1022">Çura a Dio la verasia maisté</l>
                 <l n="1023">Che se de questa cossa el troverà la verité,</l>
                 <l n="1024">Che Sufia serà arssa e bruxé,</l>
@@ -3221,8 +3222,8 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <corr cert="medium" resp="#SPM">andè</corr>
                     </choice><note xml:id="p2205"/> a dona Nida a conter e a parler</l>
                 <l n="2206">E a çelladamente si lli prexon:</l>
-                <!-- Vallecalle équivalent de l’adverbe ancien français « celeement » 
-                    (“en secret”), précédé de « a ». Also, prexon comes from pregare.  -->
+                <!-- Vallecalle équivalent de l’adverbe ancien français « celeement » 
+                    (“en secret”), précédé de « a ». Also, prexon comes from pregare.  -->
                 <l n="2207">"Madona," diss'elo, "anch'io sia çubler,</l>
                 <l n="2208">De Carlo Martelo io sson messaçer</l>
                 <l n="2209">E so anbaxada non ve die celer.</l>
@@ -3684,7 +3685,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                     il faudrait intégrer aussi dans la parenthèse la fin du vers et le vers suivant 
                     qui indiquent sa puissance. La construction de la phrase est interrompue par 
                     cette longue coupure et par le passage au style direct, et l’interrogative 
-                    indirecte « como per lo signor » reste en suspens. -->
+                    indirecte « como per lo signor » reste en suspens. -->
                 <l n="2543">"Al inferno me manda o' è gran pietançe,</l>
                 <l n="2544">P<ex rend="italic">er</ex> querir trabuto a quel che fè partançe</l>
                 <l n="2545">Dell'alto segolo per sso superbançe,</l>
@@ -3798,7 +3799,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2616">P<ex rend="italic">er</ex> mi ovré la vostra pregiere</l>
                 <l n="2617">E a quel Dio che n'à<note xml:id="p2617"/> in balie,</l>
                 <l n="2618">Ché questo viaço no tegna i<ex rend="italic">n</ex>tra quidie,</l>
-                <!-- Meaning of these lines obscure ; Gdfry OF cuidié, “pensée”; note quidie, 
+                <!-- Meaning of these lines obscure ; Gdfry OF cuidié, “pensée”; note quidie, 
                     vowel harmonization -->
                 <l n="2619">Quando io vo cercando lo regno diabloie.</l>
                 <l n="2620">Se plui vivesse che non fè Isachie,</l>
@@ -5240,7 +5241,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="3635">Lo çentil conte p<ex rend="italic">er</ex> aver guarixon,</l>
                 <l n="3636"><sic>Viaçamente</sic><corr cert="medium" resp="#SPM">Vi<ex
                             rend="brackets">v</ex>açamente</corr><note xml:id="p3636"/> se çetà
-                    de l'arçon,</l>
+                    de l'arçon,</l>
                 <l n="3637">Là no fo amor ni conpagnon.</l>
             </lg>
             <lg type="laisse" n="136">

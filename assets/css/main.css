@@ -28,6 +28,12 @@ body, html {
   padding: 0;
 }
 
+.hid_page {
+	display: none;
+}
+
+
+
 /* HTML5 display definitions
    ========================================================================== */
 
@@ -1273,9 +1279,6 @@ li {
    main footer styles
 -----------------------------------------------------*/
 
-.hid_page {
-	display: none;
-}
 
 
 /* Toggle buttons */
