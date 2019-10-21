@@ -161,6 +161,11 @@
         if (hide && n.childNodes.length === 0) {
           n.classList.add('hid_page')
         }
+        //RAFF 10/19 just this if statement
+        if (hide && n.tagName === 'tei-note') {
+           n.classList.add('hid_note')
+        }
+
       } else if (n.nodeType === Node.TEXT_NODE) {
         // We mostly operate at text node level by storing and restoring text data.
 
@@ -177,6 +182,7 @@
       }
     }
   }
+
 
 // CODE TO RUN CETEICEAN
 var CETEIcean = new CETEI()
@@ -201,14 +207,49 @@ var CETEIcean = new CETEI()
   document.getElementById("TEI").appendChild(data)
   CETEIcean.addStyle(document, data)
 
-//get current page
-const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
+  //get current page
+  const currentMilestone = document.getElementById("TEI").getAttribute("data-milestone");
 
-//show current page
-showPage(currentMilestone)
+  //show current page
+  showPage(currentMilestone)
+
+
+
+// to show notes
+var CETEIceanNotes = new CETEI()
+{% if page.sigla == 'B' %}
+  CETEIceannotes.getHTML5("{{site.baseurl}}/editions/notes-b.xml", function(data) {
+{% elsif page.sigla == 'T' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-t.xml", function(data) {
+{% elsif page.sigla == 'P' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-p.xml", function(data) {
+{% elsif page.sigla == 'Br' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-br.xml", function(data) {
+{% elsif page.sigla == 'B-trans' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-translation-b.xml", function(data) {
+    
+{% endif %}
+  document.getElementById("edition-notes").innerHTML = ""
+  document.getElementById("edition-notes").appendChild(data)
+  CETEIceanNotes.addStyle(document, data)
+
+  // to get note IDs RAFF 10/19
+  var visible_ids = Array.from(document.querySelectorAll('#TEI tei-note:not(.hid_note)')).map(function(n) {return n.getAttribute('xml:id')})
+ 
+  var visible_notes = document.querySelectorAll('#TEI tei-note:not(.hid_note)')
+
+
+  /// Raff 10/19
+  visible_ids.forEach(function (id) {
+    if (id){
+      var note = data.querySelector('tei-note[target="#'+ id +'"]')
+      document.getElementById('edition-notes').appendChild(note)
+
+    }
+  });
+
 });
-
-
+  });
 //Variables for toggle buttons
 var options = {
         "rajna_reconstruction":false,

@@ -32,6 +32,9 @@ body, html {
 	display: none;
 }
 
+.hid_note {
+	display:none;
+}
 
 
 /* HTML5 display definitions
