@@ -106,7 +106,7 @@
 
 <!-- Insert OpenSeaDragon viewer and content -->
 <div id="openseadragon1"></div>
-</main>
+
 </div>
 <script src="{{ site.baseurl }}/assets/js/openseadragon/openseadragon.min.js"></script>
 
@@ -213,7 +213,8 @@ var CETEIcean = new CETEI()
   //show current page
   showPage(currentMilestone)
 
-
+  // to get note IDs RAFF 10/19
+var visible_ids = Array.from(document.querySelectorAll('#TEI  tei-note:not(.hid_note)')).map(function(n) {return n.getAttribute('xml:id')})
 
 // to show notes
 var CETEIceanNotes = new CETEI()
@@ -229,27 +230,26 @@ var CETEIceanNotes = new CETEI()
   CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-translation-b.xml", function(data) {
     
 {% endif %}
-  document.getElementById("edition-notes").innerHTML = ""
-  document.getElementById("edition-notes").appendChild(data)
-  CETEIceanNotes.addStyle(document, data)
-
-  // to get note IDs RAFF 10/19
-  var visible_ids = Array.from(document.querySelectorAll('#TEI tei-note:not(.hid_note)')).map(function(n) {return n.getAttribute('xml:id')})
- 
-  var visible_notes = document.querySelectorAll('#TEI tei-note:not(.hid_note)')
+  //document.getElementById("edition-notes").innerHTML = ""
+  //document.getElementById("edition-notes").appendChild(data)
+  //CETEIceanNotes.addStyle(document, data)
 
 
-  /// Raff 10/19
-  visible_ids.forEach(function (id) {
-    if (id){
-      var note = data.querySelector('tei-note[target="#'+ id +'"]')
-      document.getElementById('edition-notes').appendChild(note)
 
-    }
+/// Raff 10/19
+    visible_ids.forEach(function (id) {
+      if (id){
+        var note = data.querySelector('tei-note[target="#'+ id +'"]')
+        document.getElementById('edition-notes').appendChild(note)
+        console.log(note)
+      }
+    });
+
   });
+
 
 });
-  });
+
 //Variables for toggle buttons
 var options = {
         "rajna_reconstruction":false,

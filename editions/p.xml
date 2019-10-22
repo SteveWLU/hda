@@ -849,10 +849,10 @@
                 <l n="458">E vete <choice>
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
-                    </choice><note xml:id="p458.1"/> <note xml:id="p458.2"/> che iera <choice>
+                    </choice><note xml:id="p458.1"/> che iera <choice>
                         <sic>sul sul</sic>
                         <corr cert="medium" resp="#SPM">sul</corr>
-                    </choice><note xml:id="p458"/> so destrier.</l>
+                    </choice><note xml:id="p458.2"/> so destrier.</l>
                 <l n="459">Dolçemente lo <choice>
                         <sic>çonte</sic>
                         <corr cert="high" resp="#scribe"><add place="inline">c</add>onte</corr>
@@ -2975,7 +2975,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2032">O vollesse <choice>
                         <sic>e</sic>
                         <corr cert="medium" resp="#SPM">o</corr>
-                    </choice><note xml:id="p2028"/> non, lì la convin laser,</l>
+                    </choice><note xml:id="p2032"/> non, lì la convin laser,</l>
                 <l n="2033">Unde lo conte se presse a maraviar,</l>
                 <l n="2034">Enfra ssi dir e parler:</l>
                 <l n="2035">"Io creço che da chi<note xml:id="p2035"/> inanci nessun pò ander."</l>
@@ -3339,7 +3339,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <sic>perdermo</sic>
                         <corr cert="medium" resp="#SPM">p<ex rend="brackets">re</ex><ex
                                 rend="italic">n</ex>demo</corr>
-                    </choice><note xml:id="p22979"/> le arme e 'l guarnians,</l>
+                    </choice><note xml:id="p2297"/> le arme e 'l guarnians,</l>
                 <!-- dell -->
                 <l n="2298">Si ensiremo fuora al tor<ex rend="italic">n</ex>iamans."</l>
                 <l n="2299">Elo responde, "Vui parlé saviamans!"</l>
@@ -8178,7 +8178,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="5635">Che llo cadelleto apresso è llevé</l>
                 <l n="5636">E che a Carlo Martelo savesse bon oré,</l>
                 <l n="5637">Fuora de le fenestre li diavoli l'à porté.</l>
-                <l n="5638">Asé a Carlo brai e crié,<note xml:id="p5638"/></l>
+                <l n="5638">Asé a Carlo brai e crié,<note xml:id="p5638.1"/><note xml:id="p5638.2"/></l>
                 <l n="5639">Mo' a llui no<ex rend="italic">n</ex> val un dené.</l>
                 <l n="5640">In tal maniera el fo porté</l>
                 <l n="5641">Che mai de lui non sse sape enbassé,</l>
