@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://localhost:4000/mkbmanifest.json",
-  "label": "TEST BERLIN Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
+  "@id": "http://127.0.0.1:4000/b-manifest.json",
+  "label": "Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
   "description": "Huon d'Auvergne, Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
   "metadata": [
     { "label": "Creator", "value": "Huon" },
@@ -4244,62 +4244,12 @@
             ]
           },
 
-          {
-            "@type": "sc:Canvas",
-            "@id": "http://localhost:3000/segPap_022/canvas/1",
-            "label": "b085v",
-            "width": 4628,
-            "height": 6312,
-            "images": [
-              {
-                "@type": "oa:Annotation",
-                "motivation": "sc:painting",
-                "on": "http://localhost:3000/segPap_022/canvas/1",
-                "resource": {
-                  "@type": "dctypes:Image",
-                  "@id": "https://iiif.wlu.edu/iiif/huon/b085v.tif",
-  
-                  "service": {
-                    "@context":  "http://iiif.io/api/image/2/context.json",
-                    "@id": "https://iiif.wlu.edu/iiif/huon/b085v.tif",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                }
-              }
-            ]
-          },
-
-          {
-            "@type": "sc:Canvas",
-            "@id": "http://localhost:3000/segPap_022/canvas/1",
-            "label": "b086r",
-            "width": 4501,
-            "height": 6289,
-            "images": [
-              {
-                "@type": "oa:Annotation",
-                "motivation": "sc:painting",
-                "on": "http://localhost:3000/segPap_022/canvas/1",
-                "resource": {
-                  "@type": "dctypes:Image",
-                  "@id": "https://iiif.wlu.edu/iiif/huon/b086r.tif",
-  
-                  "service": {
-                    "@context":  "http://iiif.io/api/image/2/context.json",
-                    "@id": "https://iiif.wlu.edu/iiif/huon/b086r.tif",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                }
-              }
-            ]
-          },
-
         {
          "@type": "sc:Canvas",
           "@id": "http://localhost:3000/segPap_022/canvas/2",
-          "label": "b086v",
-          "width": 4684,
-          "height": 6302,
+          "label": "b085v",
+          "width": 4628,
+          "height": 6312,
           "images": [
             {
               "@type": "oa:Annotation",

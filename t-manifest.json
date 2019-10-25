@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://localhost:4000/mkbmanifest.json",
-  "label": "TEST TURIN Turin, Biblioteca Nazionale, MS N.III.19",
+  "@id": "http://127.0.0.1:4000/t-manifest.json",
+  "label": "Turin, Biblioteca Nazionale, MS N.III.19",
   "description": "Huon d'Auvergne, Turin, Biblioteca Nazionale, MS N.III.19",
   "metadata": [
     { "label": "Creator", "value": "Huon" },

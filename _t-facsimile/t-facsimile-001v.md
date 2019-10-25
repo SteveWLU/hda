@@ -1,8 +1,8 @@
 ---
 layout: edition
 title: folio 1v
-manuscript: Turin, Biblioteca nazionale universitaria N III 19
+manuscript: Turin, Biblioteca Nazionale, MS N.III.19
 sigla: T
-iip: t001v.tif
-milestone: 2
+iip: t001r.tif
+milestone: 1
 ---

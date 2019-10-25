@@ -1,8 +1,8 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://localhost:4000/mkbmanifest.json",
-  "label": "TEST BOLOGNA Bologna, Biblioteca comunale dell'Archiginnasio, MS B. 3489",
+  "@id": "http://127.0.0.1:4000/br-manifest.json",
+  "label": "Bologna, Biblioteca comunale dell'Archiginnasio, MS B. 3489",
   "description": "Huon d'Auvergne, Bologna, Biblioteca comunale dell'Archiginnasio, MS B. 3489",
   "metadata": [
     { "label": "Creator", "value": "Huon" },
