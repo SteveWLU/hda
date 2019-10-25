@@ -219,15 +219,14 @@
     <text>
         <body>
             <lg type="laisse" n="1">
-                <note place="end" id="p1" type="interp" resp="#SPM">Laisse division not marked in
-                    manuscript.</note>
+                <note xml:id="p1" />
                 <milestone n="1R" unit="fol."/>
                 <head>Laisse 1</head>
                 <l n="1"><gap reason="missing folios" quantity="2"/>E perçò era Ugo d’Alvernia
                     sevrie;</l>
                 <!-- insert facs="file.jpg" into milestone -->
                 <l n="2">E pluy de tre any stete in la çitie</l>
-                <l n="3">Ch’el non fo a so tera tornie,<note place="end" id="p3" type="codic" resp="#SPM">Space for illumination.</note></l>
+                <l n="3">Ch’el non fo a so tera tornie,<note xml:id="p3" /></l>
                 <l n="4">Tanto aveva so amor a Sanguy<ex rend="italic">n</ex> donie.</l>
                 <l n="5">Se Sanguy<ex rend="italic">n</ex> chavalcava i<ex rend="italic">n</ex>
                     alguna partie,</l>
@@ -253,8 +252,7 @@
                 <l n="21">Che fè Sufia, a chi Dio <choice>
                         <sic>lo cuor <hi rend="red-corr">Dio</hi></sic>
                         <corr cert="medium" resp="#SPM">lo cuor </corr>
-                    </choice>crevant;<note place="end" id="p21" type="edit" resp="#SPM">MS <hi rend="italic">lo cuor Dio
-                        crevant</hi></note></l>
+                    </choice>crevant;<note xml:id="p21" /></l>
                 <l n="22">Tal cossa comete per le men esiant</l>
                 <l n="23">Unde Ugo ne fo irado e dolant.</l>
                 <l n="24">La dona vene a Sanguy<ex rend="italic">n</ex>, non fè demoramant,</l>
@@ -588,7 +586,7 @@
             <lg type="laisse" n="8">
                 <head>Laisse 8</head>
                 <l n="280"><hi rend="blue-initial">G</hi>ran duol à Sanguy<ex rend="brackets">n</ex>
-                    quando olde la rasson;</l>
+                    quando olde la rasson;<note xml:id="p280" /></l>
                 <l n="281">Del so <choice>
                         <sic>conpagno<ex rend="italic">n</ex> tal</sic>
                         <corr cert="medium" resp="#SPM">conpagno<ex rend="italic">n</ex>
@@ -851,7 +849,7 @@
                 <l n="458">E vete <choice>
                         <sic>Sanguy</sic>
                         <corr cert="medium" resp="#SPM">Sanguy<ex rend="brackets">n</ex></corr>
-                    </choice><note xml:id="p458.1"/> che iera <choice>
+                    </choice><note xml:id="p458.1"/> <note xml:id="p458.2"/> che iera <choice>
                         <sic>sul sul</sic>
                         <corr cert="medium" resp="#SPM">sul</corr>
                     </choice><note xml:id="p458"/> so destrier.</l>
