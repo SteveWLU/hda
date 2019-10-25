@@ -33,6 +33,8 @@
         </div>
         <script src="{{site.baseurl}}/assets/mirador/mirador.js"></script>
         <script type="text/javascript">
+
+        {% if page.sigla == 'B' %}
         $(function() {
             Mirador({
             "id": "miradorviewer", // The CSS ID selector for the containing element.
@@ -40,7 +42,7 @@
             "data": [ // This array holds the manifest URIs for the IIIF resources you want Mirador to make available to the user.
             // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
             // provide a location to be displayed in the listing of available manifests.
-                { "manifestUri": "http://localhost:4000/mkbmanifest.json", "location": "Huon"}, // Harvard Scroll 
+                { "manifestUri": "http://127.0.0.1:4000/b-manifest.json", "location": "Huon"}, // Harvard Scroll 
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
                 { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
                 { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
@@ -51,12 +53,93 @@
             // ought to be.
             "windowObjects": [
             {
-          "loadedManifest" : "http://localhost:4000/mkbmanifest.json", 
+          "loadedManifest" : "http://127.0.0.1:4000/b-manifest.json", 
           "canvasID" : "http://iiif/id/and/uri/of/your/canvas/canvas-id", 
           "viewType" : "BookView"}
             ]
             });
         });
+
+        {% elsif page.sigla == 'T' %}
+        $(function() {
+            Mirador({
+            "id": "miradorviewer", // The CSS ID selector for the containing element.
+            "layout": "1x1", // The number and arrangement of windows ("row"x"column")?
+            "data": [ // This array holds the manifest URIs for the IIIF resources you want Mirador to make available to the user.
+            // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
+            // provide a location to be displayed in the listing of available manifests.
+                { "manifestUri": "http://127.0.0.1:4000/t-manifest.json", "location": "Huon"}, // Harvard Scroll 
+                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
+                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
+                { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
+                { "manifestUri": "http://dams.llgc.org.uk/iiif/4574752/manifest.json", "location": "National Library of Wales"}
+            ],
+            // This array allows the user to specify which of the included manifests should appear 
+            // in the workspace, and what the configuration of the window (zoom level, open panels, etc.) 
+            // ought to be.
+            "windowObjects": [
+            {
+          "loadedManifest" : "http://127.0.0.1:4000/t-manifest.json", 
+          "canvasID" : "http://iiif/id/and/uri/of/your/canvas/canvas-id", 
+          "viewType" : "BookView"}
+            ]
+            });
+        });
+
+        {% elsif page.sigla == 'P' %}
+        $(function() {
+            Mirador({
+            "id": "miradorviewer", // The CSS ID selector for the containing element.
+            "layout": "1x1", // The number and arrangement of windows ("row"x"column")?
+            "data": [ // This array holds the manifest URIs for the IIIF resources you want Mirador to make available to the user.
+            // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
+            // provide a location to be displayed in the listing of available manifests.
+                { "manifestUri": "http://127.0.0.1:4000/p-manifest.json", "location": "Huon"}, // Harvard Scroll 
+                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
+                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
+                { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
+                { "manifestUri": "http://dams.llgc.org.uk/iiif/4574752/manifest.json", "location": "National Library of Wales"}
+            ],
+            // This array allows the user to specify which of the included manifests should appear 
+            // in the workspace, and what the configuration of the window (zoom level, open panels, etc.) 
+            // ought to be.
+            "windowObjects": [
+            {
+          "loadedManifest" : "http://127.0.0.1:4000/p-manifest.json", 
+          "canvasID" : "http://iiif/id/and/uri/of/your/canvas/canvas-id", 
+          "viewType" : "BookView"}
+            ]
+            });
+        });
+
+        {% elsif page.sigla == 'Br' %}
+        $(function() {
+            Mirador({
+            "id": "miradorviewer", // The CSS ID selector for the containing element.
+            "layout": "1x1", // The number and arrangement of windows ("row"x"column")?
+            "data": [ // This array holds the manifest URIs for the IIIF resources you want Mirador to make available to the user.
+            // Each manifest object must have a manifest URI pointing to a valid IIIF manifest, and may also
+            // provide a location to be displayed in the listing of available manifests.
+                { "manifestUri": "http://127.0.0.1:4000/br-manifest.json", "location": "Huon"}, // Harvard Scroll 
+                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/Stanford/ege1/manifest.json", "location": "Stanford University"},
+                { "manifestUri": "http://dms-data.stanford.edu/data/manifests/BnF/jr903ng8662/manifest.json ", "location": "Stanford University"},
+                { "manifestUri": "http://manifests.ydc2.yale.edu/manifest/Admont23", "location": "Yale University"},
+                { "manifestUri": "http://dams.llgc.org.uk/iiif/4574752/manifest.json", "location": "National Library of Wales"}
+            ],
+            // This array allows the user to specify which of the included manifests should appear 
+            // in the workspace, and what the configuration of the window (zoom level, open panels, etc.) 
+            // ought to be.
+            "windowObjects": [
+            {
+          "loadedManifest" : "http://127.0.0.1:4000/br-manifest.json", 
+          "canvasID" : "http://iiif/id/and/uri/of/your/canvas/canvas-id", 
+          "viewType" : "BookView"}
+            ]
+            });
+        });
+
+        {% endif %}
+
         </script>
     </div>
 </main>
