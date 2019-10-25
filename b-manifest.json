@@ -1,0 +1,4326 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://localhost:4000/mkbmanifest.json",
+  "label": "Berlin",
+  "description": "Huon d'Auvergne, Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
+  "metadata": [
+    { "label": "Creator", "value": "Huon" },
+    { "label": "Title", "value": [
+        { "@value": "Huon", "@language": "en" },
+        { "@value": "Huon", "@language": "fr" }
+    ]
+    },
+    { "label": "Created Date", "value": "1341" }
+  ],
+  "attribution": "Kupferstichkabinett",
+  "logo": "http://localhost:4000/assets/images/logos/logo_tei.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:3000/segPap_022/canvas/1",
+          "label": "t001r",
+          "width": 4438,
+          "height": 6127,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://localhost:3000/segPap_022/canvas/1",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://iiif.wlu.edu/iiif/huon/t001r.tif",
+
+                "service": {
+                  "@context":  "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t001r.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t001v",
+            "width": 4441,
+            "height": 6106,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t001v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t001v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t002r",
+            "width": 4537,
+            "height": 6132,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t002r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t002r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t002v",
+            "width": 4385,
+            "height": 6138,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t002v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t002v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t003r",
+            "width": 4623,
+            "height": 6357,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t003r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t003r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t003v",
+            "width": 4628,
+            "height": 6375,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t003v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t003v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t004r",
+            "width": 4642,
+            "height": 6335,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t004r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t004r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t004v",
+            "width": 4424,
+            "height": 6152,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t004v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t004v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t005r",
+            "width": 4590,
+            "height": 6329,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t005r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t005r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t005v",
+            "width": 4636,
+            "height": 6365,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t005v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t005v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t006r",
+            "width": 4646,
+            "height": 6416,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t006r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t006r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t006v",
+            "width": 4593,
+            "height": 6343,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t006v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t006v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t007r",
+            "width": 4716,
+            "height": 6367,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t007r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t007r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t007v",
+            "width": 4686,
+            "height": 6390,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t007v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t007v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t008r",
+            "width": 4684,
+            "height": 6387,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t008r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t008r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t008v",
+            "width": 4748,
+            "height": 6474,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t008v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t008v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t009r",
+            "width": 4668,
+            "height": 6365,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t009r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t009r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t009v",
+            "width": 4671,
+            "height": 6370,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t009v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t009v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t010r",
+            "width": 4723,
+            "height": 6440,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t010r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t010r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t010v",
+            "width": 4579,
+            "height": 6411,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t010v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t010v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t011r",
+            "width": 4727,
+            "height": 6387,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t011r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t011r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t011v",
+            "width": 4636,
+            "height": 6326,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t011v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t011v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t012r",
+            "width": 4720,
+            "height": 6353,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t012r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t012r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t012v",
+            "width": 4744,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t012v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t012v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t013r",
+            "width": 4744,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t013r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t013r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t013v",
+            "width": 4611,
+            "height": 6272,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t013v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t013v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t014r",
+            "width": 4700,
+            "height": 6351,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t014r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t014r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t014v",
+            "width": 4563,
+            "height": 6211,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t014v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t014v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t015r",
+            "width": 4715,
+            "height": 6371,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t015r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t015r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t015v",
+            "width": 4614,
+            "height": 6272,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t015v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t015v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t016r",
+            "width": 4677,
+            "height": 6320,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t016r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t016r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t016v",
+            "width": 4617,
+            "height": 6264,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t016v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t016v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t017r",
+            "width": 4695,
+            "height": 6332,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t017r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t017r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t017v",
+            "width": 4600,
+            "height": 6221,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t017v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t017v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t018r",
+            "width": 4717,
+            "height": 6373,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t018r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t018r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t018v",
+            "width": 4588,
+            "height": 6251,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t018v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t018v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t019r",
+            "width": 4638,
+            "height": 6289,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t019r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t019r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t019v",
+            "width": 4598,
+            "height": 6210,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t019v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t019v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t020r",
+            "width": 4636,
+            "height": 6254,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t020r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t020r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t020v",
+            "width": 4485,
+            "height": 6140,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t020v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t020v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t021r",
+            "width": 4612,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t021r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t021r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t021v",
+            "width": 4644,
+            "height": 6260,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t021v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t021v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t022r",
+            "width": 4700,
+            "height": 6213,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t022r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t022r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t022v",
+            "width": 4585,
+            "height": 6213,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t022v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t022v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t023r",
+            "width": 4634,
+            "height": 6355,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t023r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t023r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t023v",
+            "width": 4578,
+            "height": 6248,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t023v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t023v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t024r",
+            "width": 4603,
+            "height": 6346,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t024r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t024r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t024v",
+            "width": 4655,
+            "height": 6257,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t024v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t024v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t025r",
+            "width": 4621,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t025r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t025r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t025v",
+            "width": 4566,
+            "height": 6248,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t025v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t025v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t026r",
+            "width": 4636,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t026r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t026r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t026v",
+            "width": 4567,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t026v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t026v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t027r",
+            "width": 4645,
+            "height": 6342,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t027r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t027r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t027v",
+            "width": 4552,
+            "height": 6290,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t027v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t027v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t028r",
+            "width": 4633,
+            "height": 6390,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t028r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t028r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t028v",
+            "width": 4542,
+            "height": 6238,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t028v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t028v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t029r",
+            "width": 4598,
+            "height": 6271,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t029r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t029r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t029v",
+            "width": 4425,
+            "height": 6167,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t029v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t029v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t030r",
+            "width": 4623,
+            "height": 6342,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t030r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t030r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t030v",
+            "width": 4636,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t030v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t030v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t031r",
+            "width": 4603,
+            "height": 6258,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t031r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t031r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t031v",
+            "width": 4643,
+            "height": 6247,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t031v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t031v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t032r",
+            "width": 4626,
+            "height": 6277,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t032r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t032r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t032v",
+            "width": 4630,
+            "height": 6330,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t032v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t032v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t033r",
+            "width": 4637,
+            "height": 6293,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t033r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t033r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t033v",
+            "width": 4660,
+            "height": 6386,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t033v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t033v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t034r",
+            "width": 4585,
+            "height": 6187,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t034r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t034r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t034v",
+            "width": 4729,
+            "height": 6389,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t034v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t034v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t035r",
+            "width": 4659,
+            "height": 6312,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t035r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t035r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t035v",
+            "width": 4674,
+            "height": 6364,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t035v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t035v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t036r",
+            "width": 4584,
+            "height": 6262,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t036r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t036r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t036v",
+            "width": 4673,
+            "height": 6315,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t036v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t036v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t037r",
+            "width": 4615,
+            "height": 6236,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t037r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t037r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t037v",
+            "width": 4584,
+            "height": 6233,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t037v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t037v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t038r",
+            "width": 4613,
+            "height": 6275,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t038r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t038r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t038v",
+            "width": 4667,
+            "height": 6371,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t038v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t038v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t039r",
+            "width": 4598,
+            "height": 6192,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t039r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t039r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t039v",
+            "width": 4670,
+            "height": 6391,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t039v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t039v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t040r",
+            "width": 4565,
+            "height": 6174,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t040r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t040r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t040v",
+            "width": 4640,
+            "height": 6271,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t040v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t040v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t041r",
+            "width": 4624,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t041r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t041r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t041v",
+            "width": 4683,
+            "height": 6376,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t041v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t041v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t042r",
+            "width": 4603,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t042r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t042r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t042v",
+            "width": 4550,
+            "height": 6243,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t042v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t042v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t043r",
+            "width": 4629,
+            "height": 6261,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t043r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t043r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t043v",
+            "width": 4692,
+            "height": 6340,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t043v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t043v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t044r",
+            "width": 4496,
+            "height": 6232,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t044r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t044r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t044v",
+            "width": 4576,
+            "height": 6247,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t044v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t044v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t045r",
+            "width": 4685,
+            "height": 6315,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t045r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t045r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t045v",
+            "width": 4684,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t045v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t045v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t046r",
+            "width": 4670,
+            "height": 6342,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t046r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t046r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t046v",
+            "width": 4672,
+            "height": 6350,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t046v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t046v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t047r",
+            "width": 4685,
+            "height": 6295,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t047r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t047r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t047v",
+            "width": 4675,
+            "height": 6361,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t047v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t047v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t048r",
+            "width": 4637,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t048r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t048r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t048v",
+            "width": 4599,
+            "height": 6311,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t048v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t048v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t049r",
+            "width": 4648,
+            "height": 6293,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t049r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t049r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t049v",
+            "width": 4682,
+            "height": 6355,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t049v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t049v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t050r",
+            "width": 4656,
+            "height": 6348,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t050r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t050r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t050v",
+            "width": 4666,
+            "height": 6305,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t050v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t050v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t051r",
+            "width": 4678,
+            "height": 6283,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t051r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t051r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t051v",
+            "width": 4664,
+            "height": 6330,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t051v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t051v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t052r",
+            "width": 4625,
+            "height": 6314,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t052r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t052r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t052v",
+            "width": 4672,
+            "height": 6362,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t052v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t052v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t053r",
+            "width": 4648,
+            "height": 6386,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t053r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t053r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t053v",
+            "width": 4613,
+            "height": 6250,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t053v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t053v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t054r",
+            "width": 4610,
+            "height": 6343,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t054r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t054r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t054v",
+            "width": 4648,
+            "height": 6279,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t054v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t054v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t055r",
+            "width": 4662,
+            "height": 6299,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t055r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t055r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t055v",
+            "width": 4660,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t055v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t055v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t056r",
+            "width": 4580,
+            "height": 6374,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t056r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t056r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t056v",
+            "width": 4648,
+            "height": 6326,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t056v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t056v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t057r",
+            "width": 4516,
+            "height": 6236,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t057r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t057r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t057v",
+            "width": 4637,
+            "height": 6316,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t057v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t057v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t058r",
+            "width": 4443,
+            "height": 6228,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t058r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t058r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t058v",
+            "width": 4615,
+            "height": 6262,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t058v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t058v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t059r",
+            "width": 4568,
+            "height": 6210,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t059r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t059r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t059v",
+            "width": 4660,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t059v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t059v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t060r",
+            "width": 4461,
+            "height": 6261,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t060r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t060r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t060v",
+            "width": 4564,
+            "height": 6231,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t060v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t060v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t061r",
+            "width": 4466,
+            "height": 6194,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t061r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t061r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t061v",
+            "width": 4569,
+            "height": 6226,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t061v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t061v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t062r",
+            "width": 4418,
+            "height": 6246,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t062r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t062r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t062v",
+            "width": 4565,
+            "height": 6145,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t062v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t062v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t063r",
+            "width": 4484,
+            "height": 6243,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t063r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t063r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t063v",
+            "width": 4599,
+            "height": 6221,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t063v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t063v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t064r",
+            "width": 4435,
+            "height": 6158,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t064r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t064r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t064v",
+            "width": 4592,
+            "height": 6230,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t064v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t064v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t065r",
+            "width": 4459,
+            "height": 6210,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t065r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t065r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t065v",
+            "width": 4500,
+            "height": 6215,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t065v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t065v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t066r",
+            "width": 4474,
+            "height": 6206,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t066r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t066r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t066v",
+            "width": 4608,
+            "height": 6289,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t066v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t066v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t067r",
+            "width": 4480,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t067r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t067r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t067v",
+            "width": 4579,
+            "height": 6266,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t067v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t067v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t068r",
+            "width": 4460,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t068r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t068r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t068v",
+            "width": 4641,
+            "height": 6280,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t068v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t068v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t069r",
+            "width": 4542,
+            "height": 6304,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t069r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t069r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t069v",
+            "width": 4621,
+            "height": 6306,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t069v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t069v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t070r",
+            "width": 4476,
+            "height": 6243,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t070r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t070r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t070v",
+            "width": 4626,
+            "height": 6300,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t070v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t070v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t071r",
+            "width": 4517,
+            "height": 6293,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t071r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t071r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t071v",
+            "width": 4648,
+            "height": 6314,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t071v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t071v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t072r",
+            "width": 4504,
+            "height": 6305,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t072r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t072r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t072v",
+            "width": 4618,
+            "height": 6265,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t072v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t072v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t073r",
+            "width": 4565,
+            "height": 6311,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t073r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t073r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t073v",
+            "width": 4592,
+            "height": 6234,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t073v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t073v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t074r",
+            "width": 4472,
+            "height": 6209,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t074r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t074r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t074v",
+            "width": 4620,
+            "height": 6251,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t074v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t074v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t075r",
+            "width": 4487,
+            "height": 6190,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t075r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t075r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t075v",
+            "width": 4636,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t075v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t075v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t076r",
+            "width": 4559,
+            "height": 6266,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t076r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t076r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t076v",
+            "width": 4624,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t076v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t076v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t077r",
+            "width": 4548,
+            "height": 6300,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t077r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t077r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t077v",
+            "width": 4578,
+            "height": 6224,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t077v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t077v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t078r",
+            "width": 4549,
+            "height": 6206,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t078r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t078r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t078v",
+            "width": 4634,
+            "height": 6304,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t078v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t078v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t079r",
+            "width": 4520,
+            "height": 6258,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t079r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t079r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t079v",
+            "width": 4635,
+            "height": 6260,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t079v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t079v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t080r",
+            "width": 4492,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t080r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t080r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t080v",
+            "width": 4623,
+            "height": 6268,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t080v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t080v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t081r",
+            "width": 4594,
+            "height": 6322,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t081r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t081r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t081v",
+            "width": 4650,
+            "height": 6265,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t081v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t081v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t082r",
+            "width": 4594,
+            "height": 6285,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t082r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t082r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t082v",
+            "width": 4594,
+            "height": 6285,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t082v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t082v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t083r",
+            "width": 4513,
+            "height": 6201,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t083r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t083r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t083v",
+            "width": 4624,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t083v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t083v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t084r",
+            "width": 4474,
+            "height": 6184,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t084r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t084r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t084v",
+            "width": 4622,
+            "height": 6263,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t084v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t084v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t085r",
+            "width": 4497,
+            "height": 6223,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t085r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t085r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t085v",
+            "width": 4628,
+            "height": 6312,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t085v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t085v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "http://localhost:3000/segPap_022/canvas/1",
+            "label": "t086r",
+            "width": 4501,
+            "height": 6289,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "http://localhost:3000/segPap_022/canvas/1",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t086r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/t086r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+        {
+         "@type": "sc:Canvas",
+          "@id": "http://localhost:3000/segPap_022/canvas/2",
+          "label": "t086v",
+          "width": 4684,
+          "height": 6302,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://localhost:3000/segPap_022/canvas/2",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://iiif.wlu.edu/iiif/huon/t086v.tif",
+
+                "service": {
+                  "@context":  "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/t086v.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json" 
+                }
+              }  
+            }  
+          ]
+        }
+      ] 
+    }
+  ]
+}
+
+
