@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "http://localhost:4000/mkbmanifest.json",
-  "label": "Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
+  "label": "TEST BERLIN Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
   "description": "Huon d'Auvergne, Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
   "metadata": [
     { "label": "Creator", "value": "Huon" },

@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "http://localhost:4000/mkbmanifest.json",
-  "label": "Berlin",
+  "label": "TEST PADUA Padua, Biblioteca del Seminario Vescovile, MS 32",
   "description": "Huon d'Auvergne, Padua, Biblioteca del Seminario Vescovile, MS 32",
   "metadata": [
     { "label": "Creator", "value": "Huon" },
