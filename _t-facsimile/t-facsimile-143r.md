@@ -1,8 +1,8 @@
 ---
 layout: edition
-title: folio 1r
+title: folio 143r
 manuscript: Turin, Biblioteca Nazionale, MS N.III.19
 sigla: T
-iip: t001r.tif
-milestone: 1
+iip: t143r.tif
+milestone: 285
 ---
