@@ -1,8 +1,8 @@
 ---
 layout: edition
-title: folio 1r
+title: folio 85v
 manuscript: Turin, Biblioteca Nazionale, MS N.III.19
 sigla: T
-iip: t001r.tif
-milestone: 1
+iip: t085v.tif
+milestone: 170
 ---

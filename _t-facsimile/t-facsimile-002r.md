@@ -3,6 +3,6 @@ layout: edition
 title: folio 2r
 manuscript: Turin, Biblioteca Nazionale, MS N.III.19
 sigla: T
-iip: t001r.tif
-milestone: 1
+iip: t002r.tif
+milestone: 3
 ---
