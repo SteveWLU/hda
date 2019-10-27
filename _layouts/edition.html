@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {% include head.html %}
 
@@ -101,11 +101,11 @@
 
 <div id="edition-viewer">
   
-<!-- Insert TEI content-->
-<div id="TEI" data-milestone="{{ page.milestone }}"></div>
+  <!-- Insert TEI content-->
+  <div id="TEI" data-milestone="{{ page.milestone }}"></div>
 
-<!-- Insert OpenSeaDragon viewer and content -->
-<div id="openseadragon1"></div>
+  <!-- Insert OpenSeaDragon viewer and content -->
+  <div id="openseadragon1"></div>
 
 </div>
 <script src="{{ site.baseurl }}/assets/js/openseadragon/openseadragon.min.js"></script>
@@ -181,7 +181,7 @@
         }
       }
     }
-  } 
+  }
 
 
 // CODE TO RUN CETEICEAN
@@ -213,8 +213,7 @@ var CETEIcean = new CETEI()
   //show current page
   showPage(currentMilestone)
 
-  // to get note IDs RAFF 10/19
-var visible_ids = Array.from(document.querySelectorAll('#TEI  tei-note:not(.hid_note)')).map(function(n) {return n.getAttribute('xml:id')})
+ 
 
 // to show notes
 var CETEIceanNotes = new CETEI()
@@ -234,7 +233,8 @@ var CETEIceanNotes = new CETEI()
   //document.getElementById("edition-notes").appendChild(data)
   //CETEIceanNotes.addStyle(document, data)
 
-
+ // to get note IDs RAFF 10/19
+  var visible_ids = Array.from(document.querySelectorAll('#TEI  tei-note:not(.hid_page')).map(function(n) {return n.getAttribute('xml:id')})
 
 /// Raff 10/19
     visible_ids.forEach(function (id) {
@@ -248,7 +248,6 @@ var CETEIceanNotes = new CETEI()
   });
 
 
-});
 
 //Variables for toggle buttons
 var options = {

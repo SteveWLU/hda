@@ -48,38 +48,7 @@ var CETEI = (function () {
           return dl;
         }
       ]],
-        "note": [
-         ["[place=end]", function(elt){
-        if (!this.noteIndex){
-          this["noteIndex"] = 1;
-        } else {
-          this.noteIndex++;
-        }
-        let id = "_note_" + this.noteIndex;
-        let link = document.createElement("a");
-        link.setAttribute("id", "src" + id);
-        link.setAttribute("href", "#" + id);
-        link.innerHTML = this.noteIndex;
-        let content = document.createElement("sup");
-        content.appendChild(link);
 
-        let notes = document.querySelector("ol.notes");
-        if (!notes) {
-          notes = document.createElement("ol");
-          notes.setAttribute("class", "notes");
-          this.dom.appendChild(notes);
-        }
-         document.getElementById("edition-notes").appendChild(notes);
-        let note = document.createElement("li");
-        note.id = id;
-        note.innerHTML = elt.innerHTML
-        notes.appendChild(note);
-
-
-        return content;
-      }],
-      ["_", ["(",")"]]
-    ],
       "table": function(elt) {
         let table = document.createElement("table");
         table.innerHTML = elt.innerHTML;

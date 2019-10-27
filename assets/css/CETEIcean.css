@@ -1100,14 +1100,11 @@ tei-normalization {
   /* Empty Rule Set */
 }
 
-tei-note {
-
+tei-note:before {
+content: attr(id);
+color: red;
 }
 
-tei-l tei-note {
-
-
-}
 
 
 
@@ -1120,10 +1117,6 @@ tei-l tei-note {
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   */
-
-
-  tei-note:before {
-}
 
 
 
