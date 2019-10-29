@@ -885,6 +885,7 @@
                         torne aré</hi></note>
                 <note target="#p4611" type="ling" resp="#SPM">"tormenta," metathesis</note>
                 <note target="#p4634" type="edit" resp="#SPM">MS <hi rend="italic">delent</hi></note>
+                <note target="#p4635" resp="MKB">?</note>
                 <note target="#p4639" type="interp" resp="#SPM">Br <hi rend="italic">Com çil chi caço
                         e non prent nient</hi>; B 9878; T 9572; "someone who talks but does not
                     act."</note>
@@ -1052,6 +1053,7 @@
                 <note target="#p5458" type="interp" resp="#SPM">Possible missing line that would
                     introduce Huon's response to Guielmo's question.</note>
                 <note target="#p5474" type="ling" resp="#SPM">"cerchado," metathesis.</note>
+                <note target="#p5482" resp="#MKB">??</note>
                 <note target="#p5483" type="edit" resp="#SPM">MS <hi rend="italic">flnins</hi>; the
                     sense of this lexeme is unclear. I propose <hi rend="hi">florins</hi> in light
                     of the context.</note>
@@ -1079,9 +1081,10 @@
                     manuscript damaged here and second part of word is illegible.</note>
                 <!-- type also codic -->
                 <note target="#p5629" type="edit" resp="#SPM">MS <hi rend="italic">vte</hi></note>
-                <note target="#p5638" type="codic" resp="#SPM">Space for illumination.</note>
-                <note target="#p5638" type="interp" resp="#SPM">Alternatively <hi rend="italic">Dio à
+                <note target="#p5638.1" type="codic" resp="#SPM">Space for illumination.</note>
+                <note target="#p5638.2" type="interp" resp="#SPM">Alternatively <hi rend="italic">Dio à
                         fatto per nui miracolo--çoè miracoli--e vertue.</hi></note>
+                <note target="#p5656" resp="#MKB">??</note>
                 <note target="#p5661" type="edit" resp="#SPM">MS <hi rend="italic">...in</hi>;
                     manuscript damged here; <hi rend="italic">Sandin</hi> is clear from context and
                     visible final <hi rend="italic">-in</hi>.</note>
