@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+    <body>
+    {% include header.html %}
+
+        <main class="page-content" aria-label="Content">
+        <div id="wrapper">
+        
+        <h1>{{page.title}}</h1>
+
+        <h2>&#10081; 1. Introduction</h2>
+        <div id="teiHeader"></div>
+
+        <h2>&#10081; 2. Abbreviations</h2>
+        <div id="abbr"></div>
+
+        </div>
+        </main>
+
+        <div id="edition-footer">
+                {% include footer.html %}
+        </div>
+
+        <script>
+
+        var CETEIcean = new CETEI();
+
+        CETEIcean.getHTML5("{{site.baseurl}}/praxis/b-praxis.xml", function(data) {
+
+                var intro = data.querySelector("tei-div[type='intro']")
+                document.getElementById("teiHeader").innerHTML = ""
+                document.getElementById("teiHeader").appendChild(intro)
+                CETEIcean.addStyle(document, data)
+
+                var abbr = data.querySelector("tei-div[type='abbr']")
+                document.getElementById("abbr").innerHTML = ""
+                document.getElementById("abbr").appendChild(abbr)
+                CETEIcean.addStyle(document, data)
+
+        });
+
+        </script>
+
+    </body>
+
+</html>

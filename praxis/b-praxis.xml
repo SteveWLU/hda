@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="intro">INTRODUCTION
+        <p>For the Berlin _Huon d'Auvergne_, punctuation and citations are according to the general
+          norms outlined in the overall document. However, the Berlin _Huon d'Auvergne_ is very
+          close to Old French. For that reason we keep close to the most respected norms for Old
+          French editions. There are situations in which Old French norms do not work with the
+          Franco-Italian text, so these are made explicit in the following list.</p>
+      </div>
+      <div type="abbr">ABBREVIATIONS
+        <p>For the Berlin _Huon d'Auvergne_, punctuation and citations are according to the general
+          norms outlined in the overall document. However, the Berlin _Huon d'Auvergne_ is very
+          close to Old French. For that reason we keep close to the most respected norms for Old
+          French editions. There are situations in which Old French norms do not work with the
+          Franco-Italian text, so these are made explicit in the following list.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

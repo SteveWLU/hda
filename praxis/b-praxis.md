@@ -3,42 +3,6 @@ layout: default
 permalink: b-praxis.html
 ---
 
-
-# A collapsible section with markdown
-
-<p>
-<details><summary>Cool Dropdown #1</summary><br>
-
-```js
-// so wow, much amazing... you can even put code in these drop downs!
-
-```s
-
-[Or a link - like to google](https://google.com)
-
-- Or a List
-  - or a nested List
-  - like this
-  - with 😄 emojis
-- Like this
-
-Or even just normal text
-
-</details>
-
-<details><summary>Cool Dropdown #2</summary><br>
-
-More cool text hiding in my dropdown
-
-</details>
-
-<details><summary>Cool Dropdown #3</summary><br>
-
-Easter egg! 🥚🥚🥚
-
-</details>
-</p>
-
 # Criteria of Edition for Berlin
 
 ## &#10081; 1. Introduction

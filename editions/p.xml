@@ -103,34 +103,34 @@
                         <origDate cert="medium" evidence="internal">second half of fourteenth
                             century or first half of fifteenth</origDate>
                         <!-- <seg type="textLang" subtype="LAT">Latin</seg> ? See Cummings 55 -->
-                        <note> Manuscript P (MS 32 of the Biblioteca del Seminario Vescovile di
-                            Padova) is a paper codex dated on palaegraphical grounds to between the
-                            second half of the fourteenth and the first half of the fifteenth
-                            centuries. Unlike B and T, the scribe does not include a completion
-                            date. Linguistic evidence locates the codex generally in the Veneto.
-                                <p>Manuscript P represents a highly characteristic iteration of the
-                                Huon d'Auvergne romance epic; not only does it conserve narrative
-                                segments not present in the B-T branch, but it also presents
-                                intriguing alternative character sketches of central figures such as
-                                Ynide, Huon's wife, and Giborg, the wife of Guillaume d'Orange.</p>
-                            <p>In coming versions of the Huon Digital Archive Project, and in
-                                collaboration with the Seminario Vescovile of Padua, the digital
-                                edition of MS P will feature high-resolution digital scans to allow
-                                the reader to interrogate palaeographical and codicological features
-                                of the manuscript. Reading the text within the manuscript context
-                                will also allow for greater interpretative precision.</p>
-                            <p>As with MS T, the Italian philologist Pio Rajna transcribed the
-                                contents of P in a research notebook. In collaboration with the
-                                Marucelliana library in Florence, we will add scans of Rajna's
-                                notebook to the Huon archive, all of which will include interactive
-                                annotation features.</p></note>
-                        <note>
-                            <p>The manuscript entered early into the collection of the Seminario
-                                Vescovile. Michela Scattolini notes that MS P may have belonged to
-                                the collection of Alfonso Speroni-Alvarotti, and would have been
-                                acquired by the Seminario Vescovile in 1720.</p>
-                        </note>
                     </head>
+                    <history>
+                        <p>Manuscript P (MS 32 of the Biblioteca del Seminario Vescovile di
+                        Padova) is a paper codex dated on palaegraphical grounds to between the
+                        second half of the fourteenth and the first half of the fifteenth
+                        centuries. Unlike B and T, the scribe does not include a completion
+                        date. Linguistic evidence locates the codex generally in the Veneto.
+                        <p>Manuscript P represents a highly characteristic iteration of the
+                        Huon d'Auvergne romance epic; not only does it conserve narrative
+                        segments not present in the B-T branch, but it also presents
+                        intriguing alternative character sketches of central figures such as
+                        Ynide, Huon's wife, and Giborg, the wife of Guillaume d'Orange.</p>
+                        <p>In coming versions of the Huon Digital Archive Project, and in
+                        collaboration with the Seminario Vescovile of Padua, the digital
+                        edition of MS P will feature high-resolution digital scans to allow
+                        the reader to interrogate palaeographical and codicological features
+                        of the manuscript. Reading the text within the manuscript context
+                        will also allow for greater interpretative precision.</p>
+                        <p>As with MS T, the Italian philologist Pio Rajna transcribed the
+                        contents of P in a research notebook. In collaboration with the
+                        Marucelliana library in Florence, we will add scans of Rajna's
+                        notebook to the Huon archive, all of which will include interactive
+                        annotation features.</p>
+                        <p>The manuscript entered early into the collection of the Seminario
+                        Vescovile. Michela Scattolini notes that MS P may have belonged to
+                        the collection of Alfonso Speroni-Alvarotti, and would have been
+                        acquired by the Seminario Vescovile in 1720.</p>
+                    </history>
                     <msContents>
                         <textLang mainLang="FI">Franco-Italian</textLang>
                         <msItem>
