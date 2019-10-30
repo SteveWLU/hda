@@ -8,8 +8,8 @@ tei-p {
     margin-bottom: .5em;
 }
 
-tei-list[type=simple] {
-    list-style-type: none;
+tei-list[type=numbered] {
+    list-style-type: decimal;
 }
 
 tei-list[type=simple]>tei-item {
@@ -24,3 +24,17 @@ tei-lb:before {
     white-space: pre;
     content: "\A";
   }
+
+tei-head[type=sub-section] {
+    font-style: bold;
+    color: #5f0000;
+}
+
+table, td {
+    border: none;
+}
+
+td {
+    padding: 15px;
+}
+

@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/tutorial.css">
+  <script src="{{site.baseurl}}/assets/js/tutorial.js"></script>
 
 {% include head.html %}
 
-    <body>
+</head>
+
+<body>
     {% include header.html %}
 
-        <main class="page-content" aria-label="Content">
-        <div id="wrapper">
-        
+    <main class="page-content" aria-label="Content">
+    
+    <div id="wrapper">    
         <h1>{{page.title}}</h1>
 
-        <h2>&#10081; 1. Introduction</h2>
-        <div id="teiHeader"></div>
+        <div id="tei-praxis"></div>
 
-        <h2>&#10081; 2. Abbreviations</h2>
-        <div id="abbr"></div>
+    </div>
 
-        </div>
-        </main>
+    </main>
 
         <div id="edition-footer">
                 {% include footer.html %}
@@ -30,17 +36,14 @@
 
         CETEIcean.getHTML5("{{site.baseurl}}/praxis/b-praxis.xml", function(data) {
 
-                var intro = data.querySelector("tei-div[type='intro']")
-                document.getElementById("teiHeader").innerHTML = ""
-                document.getElementById("teiHeader").appendChild(intro)
-                CETEIcean.addStyle(document, data)
-
-                var abbr = data.querySelector("tei-div[type='abbr']")
-                document.getElementById("abbr").innerHTML = ""
-                document.getElementById("abbr").appendChild(abbr)
+                var teipraxis = data.querySelector("tei-text")
+                document.getElementById("tei-praxis").innerHTML = ""
+                document.getElementById("tei-praxis").appendChild(teipraxis)
                 CETEIcean.addStyle(document, data)
 
         });
+
+
 
         </script>
 
