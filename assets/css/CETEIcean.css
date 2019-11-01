@@ -1381,7 +1381,7 @@ tei-recordingStmt {
 }
 tei-ref {
   color: #5f0000;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
 }
 tei-region {

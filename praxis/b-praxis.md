@@ -3,49 +3,13 @@ layout: default
 permalink: b-praxis.html
 ---
 
-
-# A collapsible section with markdown
-
-<p>
-<details><summary>Cool Dropdown #1</summary><br>
-
-```js
-// so wow, much amazing... you can even put code in these drop downs!
-
-```s
-
-[Or a link - like to google](https://google.com)
-
-- Or a List
-  - or a nested List
-  - like this
-  - with 😄 emojis
-- Like this
-
-Or even just normal text
-
-</details>
-
-<details><summary>Cool Dropdown #2</summary><br>
-
-More cool text hiding in my dropdown
-
-</details>
-
-<details><summary>Cool Dropdown #3</summary><br>
-
-Easter egg! 🥚🥚🥚
-
-</details>
-</p>
-
 # Criteria of Edition for Berlin
 
 ## &#10081; 1. Introduction
 
 <details>
 
-<summary>&#10081; 1. Introduction</summary>
+<!-- <summary>&#10081; 1. Introduction</summary>
 For the Berlin _Huon d'Auvergne_, punctuation and citations are according to the general norms outlined in the overall document.
 However, the Berlin _Huon d'Auvergne_ is very close to Old French. For that reason we keep close to the most respected norms for Old French editions. There are situations in which Old French norms do not work with the Franco-Italian text, so these are made explicit in the following list.
 
@@ -55,9 +19,9 @@ However, the Berlin _Huon d'Auvergne_ is very close to Old French. For that reas
 
 Capitalization is as in French: of nouns, not adjectives for origins; thus, _le g[ra]nt Françoi_ (v. 9042), but _la françoise gient_ (v. 11494). We capitalize names of places, names of people, but not titles unless part of a place name (e.g., _saint Laçaron_, v. 2232, but _Saint Pol_, v. 7953). Names of God and Mary are capitalized, as are the pronominalized attributes used for them (_Diex_; _Marie_; _Verge_; _Crucifis_; etc.), but not pronouns refering to them.
 
-"v." designates a line number in order to  avoid confusion with the number one  that use of the English "l." could create (it looks too much like the number one), and "vv." stands for "lines."
+"v." designates a line number in order to  avoid confusion with the number one  that use of the English "l." could create (it looks too much like the number one), and "vv." stands for "lines." -->
 
-## &#10081; 3. Punctuation in the MS
+<!-- ## &#10081; 3. Punctuation in the MS
 
 Periods appear at the end of most lines as well as before and after some names, rather inconsistently (e.g., Uliens., v. 10093; rois .agollāt., v. 10092). Similarly, numbers, here always Roman numerals (not Arabic), appear relatively consistently with periods around them:
 
@@ -78,13 +42,12 @@ There is usually a dot at the end of each line in the MS.
 We use conventional modern punctuation: commas, colons, semicolons, etc., with the addition of the raised dot (∙). This is used in two cases.
     <ol>
     <li>To designate the enclisis of an object pronoun initiating with vowel with a preceding pronoun (personal or relative), preposition or conjunction ending in a vowel so that the following pronoun begins with a consonant. Thus: _je∙l_ (v. 2631, 2812, etc.) or _ge∙l_ (v. 4271, etc.); _me∙l_ (v. 1537, etc.); _mi∙s_ (v. 8906); _ne∙l_ = negative + pronoun (v. 270, 472, etc.), _ne∙lle_ (v. 5530, 5573), _no∙l_ (v. 874, 8998); _qe∙l_ (v. 5527), _qi∙l_ (v. 2457), _que∙l_ (v. 9247, 11365), _qui∙l_ (v. 398, etc.); _si∙l_ (711, 2905, etc.) _te∙l_ (v. 6522, etc.); _ve∙l_ (v. 3844, etc.). For treatment of definite articles, see "word division."</li>
-    
-<!-- <li>To designate syntactic doubling or assimilation, written or not. In Italian usage, editors have generally used or recommended that convention with certain variations; Brambilla-Ageno recommends the raised dot for syntactic doubling (127), offering examples from Contini's _Poeti del Duecento_: "_né inn∙altra vista_", "_n'e nonn∙attende [...]_"; Furlati writes _a∙rre, que∙rre_, and uses a dash for "assimilation at a distance" like _nnol-mel, a llor-ver dire_. Donadello, in his edition of the _Tristano Veneto_, also uses the raised dot for syntactic doubling: _a∙ssi, che∙sse_, etc. (38). Similarly Allaire in her edition of the _Tristano Panciatichiano_, _e∙lla, per∙ll_, etc., but using a space alone for assimilation of the negative: _no si, no gli_, etc. (9). We therefore, given the nature of this text, use the raised dot also for assimilations, whether expressed by a doubled consonant or not: _a∙nos_ (6443, "with us"); _a∙sspirç_ (7744, "to the spirits"), etc. Standard usage of the preposition plus article, as in "del" and similar standard Old French usage of "es" dictates one word for those and similar usages. -->
+<li>To designate syntactic doubling or assimilation, written or not. In Italian usage, editors have generally used or recommended that convention with certain variations; Brambilla-Ageno recommends the raised dot for syntactic doubling (127), offering examples from Contini's _Poeti del Duecento_: "_né inn∙altra vista_", "_n'e nonn∙attende [...]_"; Furlati writes _a∙rre, que∙rre_, and uses a dash for "assimilation at a distance" like _nnol-mel, a llor-ver dire_. Donadello, in his edition of the _Tristano Veneto_, also uses the raised dot for syntactic doubling: _a∙ssi, che∙sse_, etc. (38). Similarly Allaire in her edition of the _Tristano Panciatichiano_, _e∙lla, per∙ll_, etc., but using a space alone for assimilation of the negative: _no si, no gli_, etc. (9). We therefore, given the nature of this text, use the raised dot also for assimilations, whether expressed by a doubled consonant or not: _a∙nos_ (6443, "with us"); _a∙sspirç_ (7744, "to the spirits"), etc. Standard usage of the preposition plus article, as in "del" and similar standard Old French usage of "es" dictates one word for those and similar usages.
 </ol>
 <br>
 <br>
 <br>
-More to come in this section.
+<!-- More to come in this section.
 
   <h2 class="praxis">&#10081; 4. Abbreviations</h2>
 
@@ -505,14 +468,14 @@ More to come in this section.
                   <dd>t[r](o)ve[n]t 11543</dd>
                   <dd>t[r](o)sq[ue] 5180</dd>
 
-              <dt>(r) above the line --> vowel+r or r+vowel  (ur, re, ri, er)</dt>
+              <dt>(r) above the line -- vowel+r or r+vowel  (ur, re, ri, er)</dt>
                   <dd>c(r)[e]anter 10142</dd>
                   <dd>co[n]t[e](r) 12127</dd>
                   <dd>p(r)[i]nceps  10418</dd>
                   <dd>past[u](r)e[r]   8476</dd>
                   <dd>pereg(r)[i]nage 7248</dd>
 
-              <dt>(s) above the line --> [e](s)</dt>
+              <dt>(s) above the line -- [e](s)</dt>
                   <dd>te[m]p[e](s)t 2614</dd>
 
               <dt>Special characters</dt>
@@ -532,7 +495,7 @@ More to come in this section.
                   <dd><a href="http://www.rialfri.eu/rialfriPHP/public/lessico/lessico">RIALFRI Lexicon</a></dd>
                   <dd><a href="http://tlio.ovi.cnr.it/TLIO/">TLIO</a></dd>
 
-              <dt>Numbers</dt>
+              <!-- <dt>Numbers</dt>
                   <dd>In Berlin, larger numbers are written in Roman numerals (there are no Arabic numbers) and usually between dots (though this is not entirely consistent). We reproduce these in small roman numerals. However, larger numbers are sometimes surmounted by a "c" or an "m".  These we reproduce as superscripts of the roman numeral to facilitate reading: <%= image_tag("b-.x.-abbr.png", alt: "b-qnt-abbr.png") %> .x. with an m above, v. 9334).  In one case we find "or" after "iiii," clearly a representation of the Latin "quattuor" <%= image_tag("b-.iiii.-abbr.png", alt: "b-qnt-abbr.png") %> (v. 76).</dd>
 
              </dl>
@@ -576,7 +539,7 @@ More to come in this section.
                 <li class="praxis">Some expressions in their multiplicity require one decision because of the spelling in this MS; for example, _or endroit_ (12 appearances), which here we represent always as two words since it also appears as _ore endroit_ (1 appearance, v. 11055); the choice lies between emending one form or writing all as two words. Since they are written as two words in the MS, we use two words. Editors have varied in their treatment of this form.</li>
                 <li class="praxis">Common to Franco-Italian texts is the problem of the prosthetic e- before s + consonant: [Discussion to follow.]</li>
                 <li class="praxis">Other prefixes are more problematic, most especially a-. [Discussion to follow.]</li>
-                </ul>
+                </ul> -->
 <!--
 
 
