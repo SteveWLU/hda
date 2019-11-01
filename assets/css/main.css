@@ -26,6 +26,7 @@ html {
 body, html {
   margin: 0;
   padding: 0;
+
 }
 
 .hid_page {
@@ -308,6 +309,7 @@ body {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	background: white;
 	direction: ltr;
+
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Barlow Semi Condensed', sans-serif;
@@ -651,11 +653,11 @@ h1.title {
 	overflow:hidden;
 	padding: 15px 10px 0px 10px;
 	display:flex;
+	flex-direction: row;
 }
 
-.flex-item {
 
-}
+
 #mstitle {
 	width:25%;
 }
@@ -1233,6 +1235,7 @@ div.intro {
 div#TEI {
   float: left;
   width: 40%;
+  margin-bottom: 150px;
 
 }
 div#image-viewer {
