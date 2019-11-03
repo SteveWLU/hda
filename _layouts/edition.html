@@ -9,7 +9,7 @@
 <main class="page-content" aria-label="Content">
 <!-- edition controls --> 
 <div class="flex-container" id="TEI-tools">
-  
+
 <div class="flex-item" id="mstitle">
   <h1>{{page.manuscript}}</h1>
 </div>
@@ -219,15 +219,15 @@ var CETEIcean = new CETEI()
 // to show notes
 var CETEIceanNotes = new CETEI()
 {% if page.sigla == 'B' %}
-  CETEIceannotes.getHTML5("{{site.baseurl}}/editions/notes-b.xml", function(data) {
+  CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-b.xml", function(data) {
 {% elsif page.sigla == 'T' %}
-  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-t.xml", function(data) {
+  CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-t.xml", function(data) {
 {% elsif page.sigla == 'P' %}
-  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-p.xml", function(data) {
+  CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-p.xml", function(data) {
 {% elsif page.sigla == 'Br' %}
-  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-br.xml", function(data) {
+  CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-br.xml", function(data) {
 {% elsif page.sigla == 'B-trans' %}
-  CETEIcean.getHTML5("{{site.baseurl}}/editions/notes-translation-b.xml", function(data) {
+  CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-translation-b.xml", function(data) {
     
 {% endif %}
   //document.getElementById("edition-notes").innerHTML = ""

@@ -86,7 +86,7 @@
      </head>
      <history>
         <p>Berlin Kupferstichkabinett 78 D 8 (B) is a parchment manuscript sumptuously decorated for the Gonzaga household, as demonstrated by the Gonzaga coat of arms repeated three times at the top of folio 1R. The colophon dates the manuscript to 1341. This is the manuscript listed as number 21 in the Gonzaga inventory of 1407. B passed through noble families in the Italian peninsula and then to the English Hamilton family. In the 19th century, the Prussian government bought the manuscript, and this volume passed to the Kupferstichkabinett as Hamilton 337.</p>
-        <p>Manuscript pages measure approximately 380 x 270 mm (size varies somewhat). Folio 1R is unusually in three columns, one above and two below, and the final folio is in a single column. Otherwise there are two columns per folio. Folios 33-42 are inserted into the original; the catchwords of 32V do not match the beginning of 33R and Folio 42 is blank, recto and verso. B contains 76 multicolor illuminations, and laisse-initials are rubricated with alternating blue and red. There are no illuminations in 33R-42V. Thirteen gatherings hold 85 folios in 461 laisses consisting of 12,225 lines plus one line of Amens.
+        <p>Manuscript pages measure approximately 380 x 270 mm (size varies somewhat). Folio 1R is unusually in three columns, one above and two below, and the final folio is in a single column. Otherwise there are two columns per folio. Folios 33-42 are inserted into the original; the catchwords of 32V do not match the beginning of 33R and Folio 42 is blank, recto and verso. B contains 76 multicolor illuminations, and laisse-initials are rubricated with alternating blue and red. There are no illuminations in 33R-42V. Thirteen gatherings hold 85 folios in 461 laisses consisting of 12,225 lines plus one line of Amens.</p>
         <p>While close to Old French chanson de geste language, there is northern Italian influence in lexicon and form. The poem is in rhyming laisses, which can be mostly brought to decasyllables or alexandrines. Forty-eight quotes in Latin appear throughout the text.
         </p>
      </history>
@@ -168,8 +168,9 @@
  <text>
   <body>
    <lg type="laisse" n="1">
+    <milestone n="1Ra" unit="fol."/>
     <head>Laisse 1</head>
-     <l n="1"><milestone n="1Ra" unit="fol."/><hi rend="red-initial">A</hi>l tamps de may quand furent li praël<note xml:id="b1"/></l>
+     <l n="1"><hi rend="red-initial">A</hi>l tamps de may quand furent li praël<note xml:id="b1"/></l>
     <l n="2">Tot reverdis, lorer et arboisel,</l>
     <l n="3">Que en amors vient maintes mainer d'oisel,  </l>
     <l n="4">Por ce chantent et font li son mout bel,  </l>

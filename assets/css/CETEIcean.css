@@ -806,6 +806,7 @@ tei-l {
 tei-1 + tei-1 {
   
 }
+
 /*
 tei-l::before {
   content: attr(n) ". ";
@@ -1097,11 +1098,13 @@ tei-normalization {
 }
 
 tei-lg tei-note:before {
-content: "*";
+/*content: attr(id);*/
+content:"*";
 }
 
 tei-note:before {
-  content: "Line " attr(n) ": ";
+  /*&content: "Line " attr(n) ": ";*/
+  content:"* ";
 }
 
 tei-note[target] {
