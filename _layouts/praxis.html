@@ -32,9 +32,20 @@
 
         <script>
 
-        var CETEIcean = new CETEI();
+            var CETEIcean = new CETEI()
+            {% if page.sigla == 'B' %}
+            CETEIcean.getHTML5("{{site.baseurl}}/praxis/b-praxis.xml", function(data) {
 
-        CETEIcean.getHTML5("{{site.baseurl}}/praxis/b-praxis.xml", function(data) {
+            {% elsif page.sigla == 'T' %}
+            CETEIcean.getHTML5("{{site.baseurl}}/praxis/t-praxis.xml", function(data) {
+
+            {% elsif page.sigla == 'P' %}
+            CETEIcean.getHTML5("{{site.baseurl}}/praxis/p-praxis.xml", function(data) {
+
+            {% elsif page.sigla == 'Br' %}
+            CETEIcean.getHTML5("{{site.baseurl}}/praxis/br-praxis.xml", function(data) {
+
+            {% endif %}
 
                 var teipraxis = data.querySelector("tei-text")
                 document.getElementById("tei-praxis").innerHTML = ""
