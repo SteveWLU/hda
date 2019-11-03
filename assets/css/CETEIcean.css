@@ -811,9 +811,7 @@ tei-l::before {
   content: attr(n) ". ";
 }*/
 
-tei-l[data-lineno]:before {
-  content: attr(n);
-}
+
 tei-lacunaEnd {
   /* Empty Rule Set */
 }
@@ -1103,9 +1101,13 @@ content: "*";
 }
 
 tei-note:before {
-  content: attr(target);
+  content: "Line " attr(n) ": ";
 }
 
+tei-note[target] {
+  display: block;
+  line-height: 1.5; 
+}
   /* reset text-indent for note with <l> ancestors. */
   /*
   text-indent: 0;
