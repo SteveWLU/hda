@@ -109,7 +109,7 @@
                         Padova) is a paper codex dated on palaegraphical grounds to between the
                         second half of the fourteenth and the first half of the fifteenth
                         centuries. Unlike B and T, the scribe does not include a completion
-                        date. Linguistic evidence locates the codex generally in the Veneto.
+                        date. Linguistic evidence locates the codex generally in the Veneto.</p>
                         <p>Manuscript P represents a highly characteristic iteration of the
                         Huon d'Auvergne romance epic; not only does it conserve narrative
                         segments not present in the B-T branch, but it also presents
@@ -315,7 +315,7 @@
                 <l n="69">E dì ch’el me vegna a parlar sença demoramant,</l>
                 <l n="70">Ch’io li voio contar e dir el mio talant</l>
                 <l n="71">Chomo io l’amo plui che cossa vivant.”</l>
-                <l n="72"><milestone n="2V" unit="fol."/>Quando la demixela <choice>
+                <l n="72"><milestone n="2V" unit="fol."/>Quando la demixela<choice>
                         <sic>t'intende</sic>
                         <corr cert="medium" resp="#SPM"><ex rend="brackets">l</ex>'intende</corr>
                     </choice>,<note xml:id="p72"/> se meraveia fortema<ex rend="italic">n</ex>t</l>
