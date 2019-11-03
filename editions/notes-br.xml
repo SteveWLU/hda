@@ -50,9 +50,9 @@
         </front>
         <body>
             <div>
-                <note n="1" target="br2" type="ling" resp="#SPM">camin "road"</note>
-                <note n="2" target="br8" type="ling" resp="#SPM">guenchire "to flee"</note>
-                <note n="3" target="br10" type="ling" resp="#SPM">çival "horse"</note>
+                <note n="1" target="#br2" type="ling" resp="#SPM">camin "road"</note>
+                <note n="2" target="#br8" type="ling" resp="#SPM">guenchire "to flee"</note>
+                <note n="3" target="#br10" type="ling" resp="#SPM">çival "horse"</note>
             </div>
         </body>
     </text>
