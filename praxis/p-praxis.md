@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: praxis
+title: Edition Criteria for Padua
+sigla: P
+editor: Stephen P. McCormick
 permalink: p-praxis.html
 ---
 
