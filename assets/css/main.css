@@ -1009,6 +1009,14 @@ img#logo_marucelliana {
 .right, .left {
 	float: none;
 }
+
+div.intro > p {
+	font-size: large;
+}
+
+div#initial {
+	display: none;
+}
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
