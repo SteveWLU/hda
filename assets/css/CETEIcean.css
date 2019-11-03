@@ -812,9 +812,7 @@ tei-l::before {
 }*/
 
 tei-l[data-lineno]:before {
-  content: attr("data-lineno");
-  position: absolute;
-  left: 2em;
+  content: attr(n);
 }
 tei-lacunaEnd {
   /* Empty Rule Set */
@@ -1100,11 +1098,13 @@ tei-normalization {
   /* Empty Rule Set */
 }
 
-tei-note:before {
-content: attr(id);
-color: red;
+tei-lg tei-note:before {
+content: "*";
 }
 
+tei-note:before {
+  content: attr(target);
+}
 
   /* reset text-indent for note with <l> ancestors. */
   /*
