@@ -25,9 +25,10 @@ tei-lb:before {
     content: "\A";
   }
 
-tei-head[type=sub-section] {
+tei-head[type=subsection] {
     font-style: bold;
-    color: #5f0000;
+    color: blue;
+    /* color: #5f0000; */
 }
 
 table, td {
