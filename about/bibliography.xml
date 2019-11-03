@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="contents">
+        <pb xml:id="toc"/>
+        <head type="section">Table of Contents</head>
+        <list type="simple">
+          <item><ref target="#mss">1. Manuscripts</ref></item>
+          <item><ref target="#reference">2. Reference Works</ref></item>
+          <item><ref target="#secondary">3. Secondary Material</ref></item>
+        </list>
+      </div>
+    </front>
+    <body>
+
+      <!-- 1. Manuscripts -->
+      <pb xml:id="mss"/>
+      <div>
+        <head type="section"><ref target="#toc">&#10081; 1. Manuscripts </ref></head>
+        <list type="simple">
+          <item><hi rend="italics">Huon d’Auvergne</hi>. 1341. MS 78 D 8 (olim MS Hamilton 337).
+            Kupferstichkabinett, Berlin.</item>
+          <item><hi rend="italics">Huon d’Auvergne</hi>. N.d. MS 32. Biblioteca del seminario,
+            Padua.</item>
+          <item><hi rend="italics">Huon d’Auvergne</hi>. N.d. MS B. 3429. Biblioteca
+            dell’Archiginnasio, Bologna.</item>
+          <item><hi rend="italics">Huon d’Auvergne</hi>. 1441. MS N.III.19. Biblioteca Nazionale
+            Universitaria, Turin.</item>
+          <item>Andrea da Barberino. <hi rend="italics">Ugone d’Alvernia</hi>. Fifteenth century,
+            Biblioteca Nationale Centrale, Florence, II.II.58. (Date: Allaire, Andrea p. 126)</item>
+          <item>—. <hi rend="italics">Ugone d’Alvernia</hi>. Mid-fifteenth century, before 1472,
+            Biblioteca Nazionale Centrale, Florence, Panciatichiano 34. (Date: Allaire, Andrea p.
+            126)</item>
+          <item>—. <hi rend="italics">Ugone d’Alvernia</hi>. 1509, Parma, Pal. 32. (Date: Allaire,
+            Andrea p. 126)</item>
+          <item>—. <hi rend="italics">Ugone d’Alvernia</hi>. 1511, Biblioteca Nationale Centrale,
+            Florence, II.II.59. (Date: Allaire, Andrea p. 126)</item>
+          <item>—. <hi rend="italics">Ugone d’Alvernia</hi>. 1515, Vaticano, Barb. lat. 4101. (Date:
+            Allaire, Andrea p. 126)</item>
+          <item>—. <hi rend="italics">Ugone d’Alvernia</hi>. 1520-22, Biblioteca Laurenziana,
+            Florence, Redi 177. (Date: Allaire, Andrea p. 126)</item>
+          <item>[“Incomincia vna famosa &amp; antica historia chiamata Carlo Martello”]. 1506,
+            Vinetia, Marchio Sessa; Milano, Biblioteca Pinacoteca Accademia Ambrosiana, S.P.XII.19
+            (Sala della Rosa); olim S.Q.O.V.43.</item>
+          <item>[“Incomincia vna famosa &amp; anticha historia chiamata Carlo Martello”]. 1506,
+            Vinetia, Marchio Sessa; Biblioteca Universitaria, Bologna, A.5.Tab. 1.M.2. 196/2.</item>
+          <item><hi rend="italics">Carlo Martello, Ugo Conte Dalvernia</hi>. 1507, Milano,
+            Johannemaria Farre; British Library, London, General Reference Collection
+            G.10747.</item>
+          <item><hi rend="italics">Carlo Martello, Ugo Conte Dalvernia</hi>. 1507, Milano, per
+            Iohannemaria Farre ad instantia de Iohanne Antonio da Legnano; Milan, Biblioteca
+            Braidense, AB. 09. 0049.</item>
+          <item><hi rend="italics">Carlo Martello ed Ugo Conte [D]alvernia</hi>. 1507, Milano, Da
+            Legna[n]o; Munich, Bayerische Staatsbibliothek, Res/4 P.o.it 102.</item>
+          <item>Michelangiolo di Cristoforo da Volterra. Ugone d’Alvernia. 1487-88. Biblioteca
+            Medicea Laurenziana, Florence, MS Mediceo Palatino 82. 170ff. (Date: Allaire, Andrea p.
+            126)</item>
+          <item>Michelagnolo (Michelangelo) da Volterra. <hi rend="italics">Huon d'Auvergne</hi>.
+            1487-88. MS Med. Palat. 82. Biblioteca Laurenziana, Florence.</item>
+        </list>
+      </div>
+
+      <!-- 2. Reference Works -->
+      <pb xml:id="reference"/>
+      <div>
+        <head type="section"><ref target="#toc">&#10081; 2. Reference Works</ref></head>
+        <p>(In <emph>BOLD</emph> are standard abbreviations used in the field for reference, though
+          entries are listed by Modern Language Association 8th edition conventions).</p>
+        <list type="simple">
+          <item><ref target="http://vocabolario.signum.sns.it/">Accademia dell Crusca</ref> - <hi
+              rend="italics">Vocabolario della Crusca</hi>. 11 vols. Galileiana M. Cellini,
+            1863-19.</item>
+          <item><ref target="http://www.arlima.net/"><emph>ARLIMA</emph></ref> - <hi rend="italics"
+              >Archives de littérature du moyen âge</hi>. Dir. Laurent Brun, Université
+            d’Ottawa.</item>
+          <item><ref target="http://artfl-project.uchicago.edu/"><emph>ARTFL</emph></ref> - <hi
+              rend="italics">American and French Research on the Treasury of the French
+              Language</hi>. Dir. Robert Morrissey). DEAF Baldinger, Kurt, et al.</item>
+          <item>Baker, Craig. “Editing Medieval Texts.” <hi rend="italics">Handbook of Medieval
+              Studies: Terms, Methods, Trends</hi>, edited by Albrecht Claasen, de Gruyter, 2010,
+            pp. 427-50.</item>
+          <item><ref target="http://www.deaf-page.de/index.htm"><emph>DEAF</emph></ref> - Baldinger,
+            Kurt, et al. <hi rend="italics">Dictionnaire étymologique de l’ancien français</hi>.
+            Niemeyer, 1974.</item>
+          <item>Battaglia, Salvatore. <hi rend="italics">Grande dizionario della lingua
+              italiana</hi>. 21 vols. Gen. Ed., Giorgio Bárberi Squarotti. UTET, 1961-.</item>
+          <item><emph>DEI</emph> - Battisti, Carlo, and G. Alessio. <hi rend="italics">Dizionario
+              etimologico italiano</hi>. G. Barbera, 1950-57.</item>
+          <item><ref target="http://tlio.ovi.cnr.it/TLIO/"><emph>TLIO</emph></ref> - Beltrami,
+            Pietro G., dir. <hi rend="italics">Tesoro della Lingua Italiana delle Origini</hi> (part
+            of (<ref target="http://artfl-project.uchicago.edu/content/ovi-search-form) databases"
+                ><emph>ARTFL</emph></ref>)</item>
+          <item>Bloch, O., and W. von Wartburg. <hi rend="italics">Dictionnaire étymologique de la
+              langue française</hi>. 2 vols. PUF, 1932.</item>
+          <item>Bonghi, Giuseppe. <ref target="http://www.classicitaliani.it/index233.htm"><hi
+                rend="italics">Arcaismi del Due-Trecento</hi></ref>.</item>
+          <item>Bourgain, Pascale, and Françoise Vieillard. <ref target="https://bit.ly/2oFShNV"><hi
+                rend="italics">Conseils pour l’édition des textes médiévaux</hi></ref>. Fascicule
+            III: Textes littéraires. Éd. du CTHS, École des chartes, 2002.</item>
+          <item>Brambilla Ageno, Franca. <hi rend="italics">L'Edizione critica dei testi
+              volgari</hi>. Antenore, 1975.</item>
+          <item><ref target="http://www.ovi.cnr.it/index.php/it/"><emph>OVI</emph></ref> - <hi
+              rend="italics">Corpus Opera del Vocabolario Italiano dell’italiano antico</hi>.</item>
+          <item><emph>DELI</emph> - Cortelazzo, Manlio, and Paolo Zolli. <hi rend="italics"
+              >Dizionario etimologico della lingua italiana</hi>. Zanichelli, 1979-85.</item>
+          <item>DeSole, Corinna. <hi rend="italics">Repertorio ragionato dei personaggi citati nei
+              principali cantari cavallerschi italiani</hi>. Edizioni dell’Orso, 1995.</item>
+          <item><ref target="www.atilf.fr/dmf"><emph>DMF</emph></ref> - <hi rend="italics"
+              >Dictionnaire du Moyen Français</hi>.</item>
+          <item><ref target="http://www.deaf-page.de/index.htm"><emph>DEAF</emph></ref> - <hi
+              rend="italics">Dictionnaire étymologique de l’ancien français</hi>. Niemeyer,
+            1974-.</item>
+          <item>DuCange, Domino, et. al. <hi rend="italics">Glossarium mediæ et infimæ
+              latinitatis</hi>. L. Favre, 1883-1887.</item>
+          <item>Duval, Frédéric. “Transcrire le français médiéval. De l’ ‘instruction’ de Paul Meyer
+            à la description linguistique contemporaine.” <hi rend="italics">Bibliothèque de l’École
+              des chartres</hi>, vol. 170, 2012, pp. 321-42.</item>
+          <item>Flutre, Ferdinand. <hi rend="italics">Table des noms propres avec toutes leur
+              variantes, figurant dans les romans du moyen âge écrits en français ou en provençal et
+              actuellement publiés ou analysés</hi>. Champion, 1966.</item>
+          <item>Foulet, Alfred, and Mary Blakely Speer. <hi rend="italics">On Editing Old French
+              Texts</hi>. Regents Press of Kansas, 1979.</item>
+          <item><ref target="https://www3.nd.edu/~italnet/fiola/"><emph>FIOLA</emph></ref> - <hi
+              rend="italics">Franco-Italian On-Line Archive</hi>. Dir. Leslie Zarker Morgan and
+            David P. Bénéteau.</item>
+          <item><ref target="http://gallica.bnf.fr/ark:/12148/bpt6k50634z"><emph>Gdf</emph></ref> -
+            Godefroy, Frédéric. <hi rend="italics">Dictionnaire de l’ancienne langue française et de
+              toutes ses dialectes, du IXe au XVe s.</hi> 10 vols. F. Vieweg, 1880-1902. Rep.
+            Kraus.</item>
+          <item>—. <ref target="http://micmap.org/dicfro/search/complement-godefroy/"><hi
+                rend="italics">Dictionnaire de l’ancienne langue française et de toutes ses
+                dialectes, du IXe au XVe s.</hi></ref> Complément. Bouillon, 1893.</item>
+          <item><ref target="https://www.lexilogos.com/francais_ancien.htm"><emph>GdfC</emph></ref>
+            - —. Lexique de l’ancien français. Paris: Champion, 1982.</item>
+          <item>Greimas, Algirdas Julien. <ref target="http://ducange.enc.sorbonne.fr/"><hi
+                rend="italics">Dictionnaire de l’ancien français</hi></ref>. Larousse, 1992.
+            (multiple editions).</item>
+          <item>Hindley, Alan, Frederick W. Langley, and Brian J. Levy. <hi rend="italics">Old
+              French-English Dictionary</hi>. Cambridge UP, 2006.</item>
+          <item>Holden, Anthony J. “L’Édition des textes médiévaux.” <hi rend="italics">Critique et
+              éditions de textes</hi>. Actes du XVIIe Congrès International de linguistique et
+            philologie romanes (Aix-en-Provence, 29 août- 3 septembre 1983). Vol. 9. Publications
+            Université de Provence, 1986. 377-82.</item>
+          <item>Holtus, Günter. <hi rend="italics">Lexikalische Untersuchungen zur Interferenz: die
+              franko-italienische Entrée d’Espagne</hi>. Tübingen: Niemeyer, 1979. Beihefte zur
+            Zeitschrift für romanische Philologie 170.</item>
+          <item>Lepage, Yvan G. <hi rend="italics">Guide de l’édition de textes en ancien
+              français</hi>. Champion, 2001.</item>
+          <item>Matsumura, Takeshi. <hi rend="italics">Dictionnaire du français médiéval</hi>. Dir.
+            Michel Zink. Paris: Belles Lettres, 2015.</item>
+          <item>Meyer, Paul. “Instruction pour la publication des anciens textes.” <hi
+              rend="italics">Bulletin de la Société des Anciens Textes Français</hi>, vol. 34, 1908,
+            pp. 64-79. Reprinted in <hi rend="italics">Bulletin de l’École des chartes</hi>, vol.
+            71, 1910, pp. 224-33.</item>
+          <item><ref target="http://archive.org/details/romanischesetymo00meyeuoft"
+              ><emph>REW</emph></ref> - Meyer-Lübke, Wilhelm. <hi rend="italics">Romanisches
+              etymologisches Wörterbuch</hi>. Winter, 1911 (and other editions).</item>
+          <item>Modern Language Association of America. <ref
+              target="https://www.mla.org/Resources/Research/Surveys-Reports-and-Other-Documents/Publishing-and-Scholarship/Reports-from-the-MLA-Committee-on-Scholarly-Editions/Guidelines-for-Editors-of-Scholarly-Editions"
+                ><hi rend="italics">Guidelines for Editors of Scholarly Editions</hi></ref>. Revised
+            29 June 2011.</item>
+          <item>Moisan, André. <hi rend="italics">Répertoire des noms propres de personnes et de
+              lieux cités dans les chansons de geste françaises et les œuvres étrangères
+              dérivées</hi>. 5 vols. Massot, 1986.</item>
+          <item><ref
+              target="https://reichert-verlag.de/en/series/linguistics_series/sprachwissenschaft_lessico_etimologico_italiano"
+                ><emph>LEI</emph></ref> - Pfister, Max, et al. <hi rend="italics">Lessico
+              etimologico italiano</hi>. Reichert, 1984-.</item>
+          <item>Pope, Mildred K. <hi rend="italics">From Latin to Modern French with Especial
+              Consideration of Anglo-Norman</hi>. Phonology and Morphology. Manchester UP,
+            1934.</item>
+          <item><ref target="http://www.rialfri.eu/rialfriWP/"><emph>RIALFrI</emph></ref> - <hi
+              rend="italics">Repertorio informatizzato antica letteratura franco-italiana</hi>).
+            Dir. Francesca Gambino, Università di Padova.</item>
+          <item>Rohlfs, Gerhard. <hi rend="italics">Grammatica storica della lingua italiana e dei
+              suoi dialetti</hi>. 3 vols. Einaudi, 1966.</item>
+          <item>Roques, Mario. “Établissement de règles pratiques pour l’édition des anciens textes
+            français et provençaux.” <hi rend="italics">Romania</hi>, vol. 52, 1926, pp.
+            243-49.</item>
+          <item>Smith, Marc H. “Conseils pour l’édition des documents en langue italienne
+            (XIVe-XVIIe siècle.” <hi rend="italics">Bibliothèque de l’École des chartes</hi>, vol.
+            159, 2001, pp. 541-78.</item>
+          <item>Stussi, Alfredo, ed. <hi rend="italics">Testi veneziani del Duecento e dei primi del
+              Trecento</hi>. Nistri-Lischi, 1965.</item>
+          <item><ref target="http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm"
+              ><emph>TL</emph></ref> - Tobler, Adolf. <hi rend="italics">Altfranzösisches
+              Wörterbuch</hi>. Wiesbaden: Franz Steiner, 1969. Electronic version created by eds.
+            Peter Blumenthal and Achim Stein. 2002.</item>
+          <item><ref target="http://www.uni-stuttgart.de/lingrom/stein/tl/bezug.htm"
+              ><emph>TL</emph></ref> - Tobler, Adolf, and Lommatzsch, E. <hi rend="italics"
+              >Französisches etymologisches Wörterbuch</hi>. Franz Steiner, 1954-63.</item>
+          <item>Vieillard, Françoise, and Olivier Guyotjeannin, eds. <ref
+              target="https://bit.ly/2C3VZ78"><hi rend="italics">Conseils pour l’édition des textes
+                médiévaux</hi></ref>. I. Fascicule I: conseils généraux. Paris: Éd. du CTHS: École
+            des chartes, 2001.</item>
+          <item><ref target="https://apps.atilf.fr/lecteurFEW/"><emph>FEW</emph></ref> - Wartburg,
+            Walther von. <hi rend="italics">Französisches etymologisches Wörterbuch</hi>. 25 vols. +
+            Supp. F. Klopp, 1921-.</item>
+          <item>Zaccarello, Michelangelo. <hi rend="italics">L'edizione critica del testo
+              letterario. Primo corso di filologia italiana</hi>. Le Monnier, 2017.</item>
+        </list>
+      </div>
+
+      <!-- 3. Secondary Material -->
+      <pb xml:id="secondary"/>
+      <div>
+        <head type="section"><ref target="#toc">&#10081; 3. Secondary Material: Modern Editions and
+            Studies</ref></head>
+        <list type="simple">
+          <item>Allaire, Gloria. "Considerations on Huon d'Auvergne / Ugo d'Alvernia."
+              <hi rend="italics">Viator</hi>, vol. 32, 2001, pp. 185-203.</item>
+          <item>Andrea da Barberino. <hi rend="italics">Storia d'Ugone d'Alvernia</hi>. Ed. F. Zambrini. Romagnoli,
+            1882. rpt. Commissione per i testi di lingua, 1968.</item>
+          <item>Anglade, J. "Notice sur un manuscrit de Ugo d'Alvernia." <hi rend="italics">Romania</hi>, vol. 45,
+            1918-19, pp. 108-16.</item>
+          <item>Bartholomaeis, Vincenzo de. “La Discesa di Ugo d'Alvernia all'inferno secondo il
+            frammento di Giovanni Maria Barbieri.” <hi rend="italics">Memorie. Classe di Scienze morali. Sezione di
+              scienze storico- filologiche e sezioni di scienze giuridiche. Reale accademia delle
+              scienze dell'Istituto di Bologna</hi>, ser. 2, vol. 10; ser. 3, Vol 3., 1929, pp.
+            3-54.</item>
+          <item>Bédier, Joseph, ed. <hi rend="italics">Le Lai de l'Ombre par Jean Renart</hi>. Fribourg,
+            1890.</item>
+          <item>Bédier, Joseph, ed. <hi rend="italics">Le Lai de l'Ombre par Jean Renart</hi>. Paris, 1907.</item>
+          <item>Bartolucci, Lidia. “Attraverso i volgarizzamenti italiani della ‘Lettera del Prete
+            Gianni’: Annotazioni sui manoscritti della biblioteca marciana (mss. It. IX 142 e IT. XI
+            6).” <hi rend="italics">Quaderni di Lingue e Letterature</hi>, vol. 18, 1993, pp. 137-50.</item>
+          <item>—. “L’Oriente nelle versioni italiane della ‘Lettera del Prete Gianni’. I
+            rifacimenti.” in <hi rend="italics">Medioevo romanzo e orientale. Oralità, scrittura, modelli
+              narrativi</hi>. Colloquio Internazionale Napoli, 17-19 febbraio 1994. Edited by
+            Antonio Pioletti e Francesca Rizzo Nervo, Rubbettino, 199, pp. 221-34.</item>
+          <item>—. “Qualche appunto sulla ‘Lettera del Prete Gianni’ nella versione del manoscritto
+            Cambridge. Fra ‘Anglici’ e ‘Tribus judaerorum’.” <hi rend="italics">Filologia romanza, filologia
+              germanica: intersezioni e diffrazioni</hi>. Colloquio internazionale, Verona 3-5
+            aprile 1995. Edited by A. M. Babbi, Adele Cipolla e Marcello Meli, Fiorini, 1997, pp.
+            309-20.</item>
+          <item>—. “La ricezione della ‘Lettera del Prete Gianni’ nella letteratura romanza
+            medioevale: il caso di Reinbert.” <hi rend="italics">Quaderni di Lingue e Letterature</hi>, vol. 21,
+            1996, pp. 151-56.</item>
+          <item>Bennett, Philip E. “Les avatars de Guibourg I: Cycle de Guillaume, Wolfram, i
+            Nerbonesi.” In <hi rend="italics">limine Romaniae : chanson de geste et épopée européenne</hi>, Actes
+            du XVIIIe Congrès international de la Société Rencesvals pour l’étude des épopées
+            romanes (20-24 juillet 2009). Edited by Carlos Alvar and Constance Cecile Carta, Lang,
+            2011, pp. 93-105.</item>
+          <item>—. “La parentèle cyclique de Huon d’Auvergne.” In <hi rend="italics">“Par deviers Rome m’en
+              revenrai errant”. XXe congrès international de la Société Rencesvals pour l’étude des
+              épopées romanes</hi>. Edited by Maria Careri, Caterina Menichetti et Maria Teresa
+            Rachetta, Viella, 2017, pp. 475-84.</item>
+          <item>Bennett, Philip E., and Leslie Zarker Morgan. “The Avatars of Orable-Guibourc from
+            French chanson de geste to Italian romanzo cavalleresco. A Persistent Multiple
+            Alterity.” <hi rend="italics">Francigena</hi>, vol. 1, 2015, pp. 165-213.</item>
+          <item>-. "Guillaume d'Orange: Fighter of Demons and Harrower of Hell." <hi rend="italics">Myth and Legend
+              in French Literature. Essays in Honour of A. J. Steele</hi>, edited by Keith Aspley et
+            al., The Modern Humanities Research Association, 1982, pp. 24-46.</item>
+          <item>Beretta, Carlo. “Osservazioni sul metro del codice V7 (Marciano Fr. VII) della
+              <hi rend="italics">Chanson de Roland</hi>.” <hi rend="italics">La Tradizione epica e cavalleresca in Italia (XII-XVI
+              sec.)</hi>, edited by Claudio Gigante and Giovanni Palumbo, Lang, 2010, pp. 38-71.
+            Destini incrociati 3.</item>
+          <item>Bernstein, Alan E. <hi rend="italics">The Formation of Hell. Death and Retribution in the Ancient
+              and Early Christian Worlds</hi>. Cornell, 1993.</item>
+          <item>-. <hi rend="italics">Hell and Its Rivals. Death and Retribution among Christians, Jews, and
+              Muslims in the Early Middle Ages</hi>. Cornell, 2017.</item>
+          <item>-. "Questions de théodicée dans Huon d'Auvergne." In <hi rend="italics">“Par deviers Rome m’en
+              revenrai errant”. XXe congrès international de la Société Rencesvals pour l’étude des
+              épopées romanes</hi>. Edited by Maria Careri, Caterina Menichetti et Maria Teresa
+            Rachetta, Viella, 2017, pp. 485-91.</item>
+          <item>—. “Loi divine, loi humaine: grâce et croisade. Huon d’Auvergne (Fin XIe-début
+            XVe).” <ref target="http://www.juslittera.com/crbst_62.html"><hi rend="italics">Le Trésor de
+                Juslittera</hi>.</ref>)</item>
+          <item>Bloch, Howard, et al., eds. <hi rend="italics">Rethinking the New Medievalism.</hi> JHUP,
+            2014.</item>
+          <item>Boese, Helmut. <hi rend="italics">Die lateinischen Handschriften der Sammlung Hamilton zu
+              Berlin</hi>. Harrassowitz, 1966, p. 164.</item>
+          <item>Borroni, Fabia. <hi rend="italics">Le Carte Rajna della Biblioteca Marucelliana. Catalogo e
+              Bibliografia</hi>. Sansoni, 1956.</item>
+          <item>Braghirolli, Willelmo, Gaston Paris, and Paul Meyer. "Inventaire des manuscrits en
+            langue française possédés par Francesco Gonzaga I, capitaine de Mantoue, mort en 1407,"
+              <hi rend="italics">Romania</hi>, vol. 9, 1880, pp. 497-514.</item>
+          <item>Breeze, Andrew. "Sir John Paston on 'Ser Hughe Lavernoys'." <hi rend="italics">Notes and
+              Queries</hi>, vol. 48, 2001, pp. 10-11.</item>
+          <item><hi rend="italics">Catalogue of the Magnificent Collection of Manuscripts from Hamilton
+            Palace</hi>. London 1883. p. 56, #337.</item>
+          <item>Cattaneo, Antonella Sabina. [“Il manoscritto berlinese del Huon d’Auvergne (Berlin,
+            Kupferstichkabinett 78 D8 [Hamilton 337]) : studio paleograpfico, linguistico et
+            artistico.”](http://www.theses.fr/2015EPHE4023) Diss. Sous la direction de Fabio Zinelli
+            et de Maria Luisa Meneghetti. 02-06-2015 à Paris, EPHE en cotutelle avec l’Università
+            degli studi (Macerata, Italie) , dans le cadre de École doctorale de l’École pratique
+            des hautes études (Paris), en partenariat avec Savoirs et Pratiques du Moyen ge au XIXe
+            siècle (Paris) (équipe de recherche).</item>
+          <item>Collomp, Dennis. “Le motif du Pape combattant dans l’épopée.” <hi rend="italics">Le Clerc au Moyen
+              Age</hi>. Université de Provence, 1995, pp. 93-112. Cuer Ma 37.</item>
+          <item>Constantinidis, Anna. “Les signes diacritiques dans l’établissement de textes en
+            franco-italien : l’usage de l’accent dans l’édition de la Chanson d’Aspremont. ”
+              <hi rend="italics">Actes du XXVIIe Congrès international de linguistique et de philologie
+              romanes</hi> (Nancy, 15-20 juillet 2013). Edited by by Éva Buchi, Jean-Paul Chauveau,
+            Jean-Marie Pierrel, Editions de linguistique et de philologie, 2016, vol. 2, pp.
+            1361-74.</item>
+          <item>Crane, T. F. “The Mountain of Nida: An Episode of the Alexander Legend.” <hi rend="italics">The
+              Romanic Review</hi>, vol. 9, 1918, pp.129-53.</item>
+          <item>Crescini, V. “Orlando nella Chanson de Roland e nei poemi del Bojardo e
+            dell’Ariosto.” <hi rend="italics">Il Propugnatore</hi>, vol. 13, 1880, pp. 44-69.</item>
+          <item>Dante Alighieri. <hi rend="italics">The Divine Comedy of Dante Alighieri</hi>. Edited and
+            translated by Robert M. Durling and Ronald L. Martinez, Oxford UP, 1996-2011. 3
+            vols.</item>
+          <item>Dante Alighieri. <hi rend="italics">Monarchia</hi>. Eng: On World Government. Translated by Herbert
+            W. Schneider. Macmillan/Library of Liberal Arts, 1957.</item>
+          <item>Debenedetti, Santorre. "Intorno al testo del frammento Barbieri dell'<hi rend="italics">Ugone
+              d'Alvernia</hi>." <hi rend="italics">Archivum Romanicum</hi>, vol. 14, 1930, pp. 269-73.</item>
+          <item>Delcorno Branca, Daniela. <hi rend="italics">Il Romanzo cavalleresco medievale</hi>. Sansoni,
+            1974.</item>
+          <item>DeVries, Kelly. <hi rend="italics">Medieval Military Technology</hi>. Broadview, 1992.</item>
+          <item>Di Stefano, Giuseppe. <hi rend="italics">Nouveau dictionnaire historique des locutions. Ancien
+              Français, Moyen Français, Renaissance</hi>. Brepols, 2015. 2 vols.</item>
+          <item>Gardner, Eileen. <hi rend="italics">Medieval Visions of Heaven and Hell</hi>. A Sourcebook.
+            Garland, 1993.</item>
+          <item>Giacon, Carla. "La redazione padovana dell'<hi rend="italics">Huon d'Auvergne</hi>: Studio,
+            Edizione, Glossario." Diss. Università degli studi, Padova, 1960-61.</item>
+          <item>Everson, Jane E. <hi rend="italics">The Italian Romance Epic in the Age of Humanism. The Matter of
+              Italy and the World of Rome.</hi> Oxford UP, 2001.</item>
+          <item>Graf, A. “Di un poema inedito di Carlo Martello e di Ugo conte d'Alvernia.” Giornale
+            di Filologia Romanza, vol. 1, 1878, pp. 92-110.</item>
+          <item>Holden, Anthony J. Rev. of Günter Holtus, ed. <hi rend="italics">La Versione franco-italiana della
+              ‘Bataille d’Aliscans’: Codex Marcianus fr. VIII (=252)</hi>. <hi rend="italics">Medium Ævum</hi>,
+            vol. 56, no. 2, 1987, pp. 332- 34.</item>
+          <item>Holtus, Günter. "Considerazioni sulla lingua dell’« Huon d’Auvergne» (B, T, P)."
+              <hi rend="italics">Cultura dell’Italia padana e la presenza francese nei secoli XIII-XV</hi>. (Pavia,
+            11-14 settembre 1994). Edited by Luigina Morini, Edizioni dell’Orso, 2001, pp.
+            41-54.</item>
+          <item>-. “L’État actuel des recherches sur le franco-italien: corpus de textes et
+            description linguistique.” in <hi rend="italics">La Chanson de Geste: Écriture, Intertextualités,
+              Translations</hi>, edited by François Suard, 1994, pp. 147-71. <hi rend="italics">Cahiers du
+              département de français. Littérales</hi> 14.</item>
+          <item>-. "Ist das Franko-Italienische eine Sprache oder ein Dialekt?" <hi rend="italics">Beiträge zum
+              romanischen Mittelalter</hi>, edited by Kurt Baldinger, 1977, Niemeyer, pp.
+            79-97.</item>
+          <item>-. <hi rend="italics">Lexikalische Untersuchungen zur Interferenz: die franko-italienische Entrée
+              d’Espagne</hi>. Niemeyer, 1979.</item>
+          <item>-. "Les problèmes posés par l’édition de textes franco-italiens. À propos de
+            quelques leçons problématiques de V 4, V 8, et d’autres manuscrits." <hi rend="italics">Au Carrefour
+              des routes d’Europe: La chanson de geste. Xe Congrès international de la Société
+              Rencesvals pour l’étude des épopées romanes</hi>. Strasbourg 1985. Cuer Ma, 1987. Vol.
+            2, pp. 675-96.</item>
+          <item>-, ed. <hi rend="italics">La Versione franco-italiana della ‘Bataille d’Aliscans’: Codex Marcianus
+              fr. VIII (=252)</hi>. Niemeyer, 1985. Beihefte zur Zeitschrift für romanische
+            Philologie 205.</item>
+          <item>Holtus, Günter, and Peter Wunderli. <hi rend="italics">Les Épopées Romanes</hi>. Dir. Rita Lejeune,
+            Jeanne Wathelet-Willem, Henning Krauss. Tome 1 / 2, Fascicule 10. Grundriss der
+            romanischen Literaturen des Mittelalters 10. Franco-italien et épopée franco-italienne.
+            Winter, 2005.</item>
+          <item>Ker, W. P. “The Craven Angels.” <hi rend="italics">The Modern Language Review</hi>, vol. 6, no.1,
+            Jan. 1911, pp. 85-87.</item>
+          <item>Krauss, Henning. <hi rend="italics">Epica feudale e pubblico borghese. Per la storia poetica di
+              Carlomagno in Italia</hi>. Translated by Andrea Fassò. Liviana Editrice, 1980.</item>
+          <item>Kristeller, Paul Oscar, comp. <hi rend="italics">Iter Italicum</hi>. <ref
+              target="http://cf.itergateway.org/italicum/record.cfm?idx=1Warburg"><hi rend="italics">A Finding List
+                of Uncatalogued or Incompletely Catalogued Humanistic Manuscripts of the Renaissance
+                in Italian and Other Libraries</hi></ref>. Volume III. Federal Republic of Germany.
+            Berlin, Kupferstichkabinett (1968). Institute/Brill, 1963-1997. (bibliography useful
+            though our ms. not there)</item>
+          <item>Labie-Leurquin, Anne Françoise. “Huon d’Auvergne.” <hi rend="italics">Dictionnaire des lettres
+              françaises</hi>, vol. 1 <hi rend="italics">Le Moyen Age</hi>, edited by Cardinal Georges Grente.
+            1964. New editors, Geneviève Hasenohr and Michel Zink. 4 vols. Fayard, 1994, vol. 1, pp.
+            702-703.</item>
+          <item>Lemm, Siegfried, and Martin Löpelmann.<ref
+              target="http://bilder.manuscripta-mediaevalia.de/hs/katalogseiten/HSK0007_b164_jpg.htm"
+                ><hi rend="italics">Mitteilungen aus der königlichen Bibliothek</hi></ref> IV. Kurzes Verzeichnis
+            der romanischen Handschriften. Berlin: Weidmannsche Buchhandlung, 1918. p. 14.</item>
+          <item>Landow, George P. <hi rend="italics">Hypertext: The Convergence of Contemporary Critical Theory and
+              Technology.</hi> JHU Press, 1992.</item>
+          <item>Ludovisi, Idido. <hi rend="italics">L'Ugo d'Alvernia secondo il codice franco-italiano della
+              biblioteca vescovile di Padova</hi>. Mele, 1895.</item>
+          <item>Mainone, Friedrich. <hi rend="italics">Formenlehre und Syntax in der Berliner franco-venezianischen
+              Chanson de geste von Huon d'Auvergne</hi>. Verlag Robert Noske, Borna Bez,
+            1936.</item>
+          <item>-. <hi rend="italics">Laut- und Formenlehre in der Berliner franco-venezianischen Chanson de geste
+              von Huon d'Auvergne</hi>. Erster Teil: Reimprüfung und Lautlehre.
+            Inaugural-Dissertation zur Erlangung der Doktorwürde. Universitäts Buchdruckerei von
+            Gustav Schade, 1911.</item>
+          <item>Martin da Canal. <hi rend="italics">Les estoires de Venise: cronaca veneziana in lingua francese
+              dalle origini al 1275</hi>. Edited by Alberto Limentani. L.S. Olschki, 1972.</item>
+          <item>Martina, Piero Andrea. “Les aventures avec le lion. Huon d’Auvergne, Yvain (et les
+            autres...).” <hi rend="italics">Reinardus</hi>, vol. 26, 2014, pp. 107-24.</item>
+          <item>McCormick, Stephen P. "Cartography and Epic in Florentine Humanism and Andrea da
+            Barberino’s Ugone d’Alvernia.” <hi rend="italics">Viator</hi>, vol. 45, no. 3, 2014, pp. 339-62.</item>
+          <item>-. "Como fa la foja: Versions of Female Authority in the Huon d'Auvergne Manuscript
+            Tradition." <hi rend="italics">Italian Studies</hi>, vol. 70, no. 1, 2015, pp. 33-52.</item>
+          <item>-. "A Contextual Analysis of Two Franco-Italian Manuscripts of the Huon d'Auvergne
+            Romance Epic." <hi rend="italics">Digital Philology</hi>, vol. 5, no. 2, 2016, pp. 208-27.</item>
+          <item>-. "The ‘Franco-Italian’ Epic in Medieval Lombardia." Diss. U of Oregon,
+            2011.</item>
+          <item>-. "Les humanités numériques et la tradition manuscrite de Huon d'Auvergne."
+              <hi rend="italics">«Par deviers Rome m’en renvenrai errant»: Atti del XXème Congrès International de
+              la Societé Rencesvals pour l’étude des épopées romanes</hi> (Rome, Italy, 20-25 July
+            2015), edited by M. Careri, C. Menichetti, T. Rachetta, Viella, 2017. 571-78.</item>
+          <item>-. <ref target="https://frenchofitaly.ace.fordham.edu/?page_id=46"><hi rend="italics">The
+                Manuscript Tradition and Reception of the Huon d’Auvergne, a Franco-Italian
+                romance-epic</hi>.</ref> The French of Italy.</item>
+          <item>-. "Peregrinatio animae: Cartographic Spaces and Epistemological Debates in the
+            Franco-Italian Huon d'Auvergne." <hi rend="italics">Francigena</hi>, vol. 3, 2017, pp. 79-109.</item>
+          <item><hi rend="italics">Medieval French Roman d’Alexandre, The</hi>. Edited by Edward Cooke Armstrong,
+            Alfred Foulet, et al. Princeton UP/ PUF, 1937-1976.</item>
+          <item>Meregazzi, Luisa A. "L'episodio del Prete Gianni nell'Ugo d'Alvernia." <hi rend="italics">Studi
+              romanzi</hi>, vol. 26, 1935, pp. 5-69.</item>
+          <item>-. "L'Ugo d'Alvernia: Poema Franco-Italiano." <hi rend="italics">Studi romanzi</hi>, vol. 27, 1937,
+            pp. 5-87.</item>
+          <item>Millardet, G. "Rev: F. Mainone, Laut- und Formenlehre in der Berliner
+            franco-venezianischen Chanson de geste von Huon d'Auvergne. Erster Teil: Reimprüfung und
+            Lautlehre. Inaugural-Dissertation zur Erlangung der Doktorwürde. Berlin: Universitäts
+            Buchdruckerei von Gustav Schade, 1911." <hi rend="italics">Revue des langues modernes</hi>, vol. 55,
+            1912, pp. 125-28.</item>
+          <item>Möhren, Frank Walt. «Huon d'Auvergne» / «Ugo d'Alvernia»: Objet de la lexicographie
+            française ou italienne?" <hi rend="italics">Medioevo Romanzo</hi>, vol. 4, 1977, pp. 312-25.</item>
+          <item>Morgan, Leslie Zarker. "Les Avatars de Guibourc II. Orable, Guibourc, Tiborga :
+            Métamorphose d’une protagoniste littéraire française en Italie.” <hi rend="italics">In limine Romaniae
+              : chanson de geste et épopée européenne, Actes du XVIIIe Congrès international de la
+              Société Rencesvals pour l’étude des épopées romanes (20-24 juillet 2009)</hi>, edited
+            by Carlos Alvar and Constance Cecile Carta, Peter Lang, 2011, pp. 355-74.</item>
+          <item>-. "Chrétien de Troyes comme sous-texte de Huon d’Auvergne?” <hi rend="italics">Les Chansons de
+              Geste. Actes du XVIe Congrès International de la Société Rencesvals pour l’Étude des
+              Épopées Romanes</hi>. Granada, 21-25 juillet 2003, edited by C. Alvar et J. Paredes,
+            Editorial Universidad de Granada, 2005. pp. 649-63.</item>
+          <item>-. “Crusade as Metaphor: Variations on an Epic Theme in Huon d’Auvergne.” <hi rend="italics">Epic
+              and Crusade: Proceedings of the Colloquium of the Société Rencesvals British
+              Branch</hi>, Lucy Cavendish College, Cambridge, 27-28 March 2004. Edited by Philip E.
+            Bennett, Anne Elizabeth Cobby and Jane E. Everson. Société Rencesvals British Branch,
+            2006, pp. 65-87. <hi rend="italics">British Rencesvals Publications</hi> 4.</item>
+          <item>-. "Les deux Romes de Huon d'Auvergne et le bon gouvernement." <hi rend="italics">«Par deviers Rome
+              m’en renvenrai errant»: Atti del XXème Congrès International de la Societé Rencesvals
+              pour l’étude des épopées romanes</hi> (Rome, Italy, 20-25 July 2015), edited by M.
+            Careri, C. Menichetti, T. Rachetta, Viella, 2017. 579-91.</item>
+          <item>-. "Dirige gressus meos: The Dialectic of Obedience in <hi rend="italics">Huon d'Auvergne</hi>."
+              <hi rend="italics">Neophilologus</hi>, vol. 88, 2004, pp. 19-32.</item>
+          <item>-. "Female enfances: At the Intersection of Romance and Epic." <hi rend="italics">The Court
+              Reconvenes: Courtly Literature Across the Disciplines. Selected Papers from the 9th
+              Triennial Congress of the International Courtly Literature Society, University of
+              British Columbia, Vancouver, 25-31 July 1998</hi>, edited by C. W. Carroll and B. K.
+            Altmann, Boydell and Brewer, 2003, pp. 141-49.</item>
+          <item>-, ed. <hi rend="italics">‘La Geste Francor’: Chansons de geste of Ms. Marc. Fr. XIII (=256)</hi>.
+            Edition with glossary, introduction and notes. 2 vols. Medieval and Renaissance Texts
+            and Studies, 2009.</item>
+          <item>-. "Literary Afterlives in Huon d'Auvergne: ‘The Art of [Dantean] Citation.’”
+              <hi rend="italics">“Accessus ad auctores”: Studies in Honor of Christopher Kleinhenz</hi>. edited by
+            Fabian Alfie and Andrea Dini, ACMRS, 2011, pp. 61-74.</item>
+          <item>-. "Le merveilleux destin de Guiborc d'Orange." <ref
+              target="https://scholarworks.iu.edu/journals/index.php/olifant/article/view/13905"
+                ><hi rend="italics">Epic Studies: Acts of the Seventeenth International Congress of the Société
+                Rencesvals for the Study of Romance Epic, July 22-28, 2006</hi></ref>, edited by
+            Anne Berthelot et. al., pp. 321-37. Special issue <hi rend="italics">Olifant</hi>, vol. 25, no. 1-2,
+            2006 [2008].</item>
+          <item>—. “(Mis)Quoting Dante: Early Epic Intertextuality in <hi rend="italics">Huon d’Auvergne</hi>.”
+              <hi rend="italics">Neophilologus</hi>, vol. 93, 2008, pp. 577-99.</item>
+          <item>-. "Nida and Carlo Martello: The Padua Manuscript of <hi rend="italics">Huon d’Auvergne</hi> (Ms.
+            32 of the Biblioteca del Seminario Vescovile, 45R-49V)." <hi rend="italics">Olifant</hi>, vol. 23,
+            2004, pp. 65-114.</item>
+          <item>-. "The Passion of Ynide: Ynide's Defense in <hi rend="italics">Huon d'Auvergne</hi> (Berlin,
+            Staatsbibliothek, Hamilton 337) (I), (II).” <hi rend="italics">Medioevo Romanzo</hi>, vol. 27, 2003,
+            pp. 67-85, pp. 425-62.</item>
+          <item>-. "Le <hi rend="italics">Roman d'Alexandre</hi> dans <hi rend="italics">Huon d'Auvergne</hi>: tourisme et
+            truismes dans une épopée du XIVe siècle." <hi rend="italics">Epic Connections / Rencontres épiques.
+              Proceedings of the Nineteenth International Conference of the Société Rencesvals,
+              Oxford, 13–17 August 2012</hi>. Ed. Marianne J. Ailes, Philip E. Bennett and Anne
+            Elizabeth Cobby, Société Rencesvals British Branch, 2015, pp. 509-27. Société Rencesvals
+            British Branch Publications 7.</item>
+          <item>—. “Una lettera inedita di Pio Rajna, seguita da una breve nota di Gaston Paris alla
+            Biblioteca del Seminario Vescovile di Padova a proposito di Huon d’Auvergne.”
+              <hi rend="italics">Zeitschrift für romanische Philologie</hi>, vol. 122, 2006, pp. 184-89.</item>
+          <item>-. "The Turin <hi rend="italics">Octavien</hi> Retraced: Needed Updates for Turin Manuscript
+            Records." <hi rend="italics">Romania</hi>, vol. 135, 2017, pp. 445-51.</item>
+          <item>-. "War is Hell (for Saracens): A Footnote to Aspremont's Afterlife in Italy."
+              <hi rend="italics">"Moult a sans et vallour": Studies in Medieval French Literature in Honor of
+              William W. Kibler</hi>, edited by Monica L. Wright, Norris J. Lacy, and Rupert T.
+            Pickens, Rodopi, 2012, pp. 289-304.</item>
+          <item>-. "Ynide and Charles Martel. Turin, Biblioteca Nazionale N III 19, Folios 72R-89R.”
+              <hi rend="italics">Medioevo Romanzo</hi>, vol. 29, 2005, pp. 433-54; vol. 31, 2007, pp.
+            70-110.</item>
+          <item>Morgan, Leslie Zarker and Nancy Bradley-Cromey, editors. <ref
+              target="https://scholarworks.iu.edu/journals/index.php/olifant/issue/view/1300/showToc"
+                ><hi rend="italics">Franco-Italian and Italian Romance Epic</hi></ref>. Special issue
+              <hi rend="italics">Olifant</hi>, vol. 21, 1996.</item>
+          <item>Morlino, Luca. [“‘Alie Ystorie ac dotrine’ : Il Livre d’Enanchet nel quadro della
+            letteratura franco-italiana.”](www.paduaresearch.cab.unipd.it/2151/1/merged.pdf) Diss.
+            Padova, 2010.</item>
+          <item>Nichols, Stephen. "Introduction: Philology in a Manuscript Culture."
+              <hi rend="italics">Speculum</hi>, vol. 65, no. 1, 1990, pp. 1-10.</item>
+          <item>Olschki, Leonardo. <hi rend="italics">Manuscrits français à peintures des bibliothèques
+              d’Allemagne</hi>. Olschki, 1932, pp. 38-39; plate XLIV.</item>
+          <item>Owen, D.D.R. <hi rend="italics">The Vision of Hell: Infernal Journeys in Medieval French
+              Literature</hi>. Barnes and Noble, 1970.</item>
+          <item>Palumbo, Giovanni, and Anna Constantinidis. “La Chanson d’Aspremont: à propos d’une
+            nouvelle édition du corpus français.” In <hi rend="italics">Limine Romaniae : chanson de geste et
+              épopée européenne</hi>, Actes du XVIIIe Congrès international de la Société Rencesvals
+            pour l’étude des épopées romanes (20-24 juillet 2009). Edited by Carlos Alvar and
+            Constance Cecile Carta. Lang, 2011, pp. 533-51.</item>
+          <item>Paris, Gaston. “Périodiques.” <hi rend="italics">Romania</hi>, vol. 7, 1878, pp. 625-29. (pp.
+            626-27, A Graf. “Di un poema inedito di Carlo Martello e di Ugo conte
+            d’Alvernia.”)</item>
+          <item>Rajna, Pio. “Rotta di Roncisvalle nella letteratura cavalleresca italiana.” <hi rend="italics">Il
+              Propugnatore</hi>, vol. 3, no. 2, 1870, pp. 384-409; vol. 4, no. 1, 1872, pp. 52-78,
+            333-390; vol. 4, no. 2, 1872, pp. 53-133.</item>
+          <item>-. Transcription of Padua Biblioteca del Seminario Vescovile Cod. 32. Biblioteca
+            Marucelliana, Florence, Carte Rajna XII.M.101. Sala consultazione manoscritti e rari,
+            n.d.</item>
+          <item>Rajna, Pio. Transcription of Torino N.III.19. Biblioteca Marucelliana, Florence,
+            Carte Rajna XIX.15. Sala consultazione manoscritti e rari, n. d.</item>
+          <item>Reinhold, J. Rev: <hi rend="italics">Laut- und Formenlehre</hi> by F. Mainone. ZfRP, vol. 39, 1919,
+            pp. 376-77.</item>
+          <item>Renier, Rodolfo, editor. <hi rend="italics">La Discesa di Ugo d'Alvernia allo inferno secondo il
+              codice franco-italiano della Nazionale di Torino</hi>. Gaetano Romagnoli, 1883.</item>
+          <item>Sahle, Peter. "About." <ref target="http://www.digitale-edition.de/vlet-about.html"
+                ><hi rend="italics">A Catalogue of Digital Scholarly Editions</hi></ref>, Accessed 13 January
+            2018.</item>
+          <item>Siemens, Ray, et al. "Toward Modeling the Social Edition: An Approach to
+            Understanding the Electronic Scholarly Edition in the Context of New and Emerging Social
+            Media.” <hi rend="italics">Literary and Linguistic Computing</hi>, vol. 27, no. 4, 2012, pp.
+            445-61.</item>
+          <item>Scattolini, Michela G. “Appunti sulla tradizione della Storia di <hi rend="italics">Ugone
+              d’Alvernia</hi> di Andrea da Barberino.” <hi rend="italics">Rassegna di letteratura europea</hi>,
+            vol. 36, 2010, pp. 25-42.</item>
+          <item>—. “‘Chorisantes itaque puniuntur’: storia di un ‘exemplum,’ dai ‘danseurs maudits’
+              all’<hi rend="italics">Huon d’Auvergne</hi>.” <hi rend="italics">La Parola del testo</hi>, vol. 14, 2010, pp.
+            333-49.</item>
+          <item>-. "Interpretazioni delle varianti e dinamiche della tradizione: l'episodio della
+            discesa all'inferno nell'Huon d'Auvergne." In <hi rend="italics">Codici, testi, interpretazioni: studi
+              dell'epica romanza medievale</hi>, edited by Paolo di Luca and Doriana Piacentino.
+            Photocity Edizioni University Press, 2015. pp. 141-60.</item>
+          <item>—. <ref
+              target="http://www.academia.edu/1364125/Note_per_unedizione_sinottica_dellHuon_dAuvergne"
+              >“Note per un’edizione sinottica dell’Huon d’Auvergne.”</ref>
+            <hi rend="italics">El texto medieval: de la edicion a la interpretación</hi>. Edited by Pilar Lorenzo
+            Gradín and Simone Marcenaro. Universidad de Santiago, 2012, pp. 97-112. Verba – Anexo n°
+            68. 21 November 2012.</item>
+          <item>—. “Il pellegrinaggio di Huon d’Auvergne fra epica e agiografia.” <hi rend="italics">Identitad
+              europea e intercambios culturales en el camino de Santiago de Compostela, siglos
+              XI-XV</hi>. Edited by Santiago López Martínez-Morás et al., Santiago de Compostela,
+            2013, pp. 385-404.</item>
+          <item>-. "Ricerche sulla tradizione dell’Huon d’Auvergne." Diss. Siena Scuola di dottorato
+            europea in filologia romanza, 2010.</item>
+          <item>Schwam-Baird, Shira. “To Be Emperor: The French-German Rivalry in the Franco-Italian
+            Epic Huon d’Auvergne.” Medieval Perspectives 33 (2018), 19-29.</item>
+          <item>-. "La Résistance d'Ynide dans l'épopée franco-italienne Huon d'Auvergne : femme
+            exceptionnelle / femme admirable?" <hi rend="italics">«Par deviers Rome m’en renvenrai errant»: Atti
+              del XXème Congrès International de la Societé Rencesvals pour l’étude des épopées
+              romanes</hi> (Rome, Italy, 20-25 July 2015), edited by M. Careri, C. Menichetti, T.
+            Rachetta, Viella, 2017. 637-46.</item>
+          <item>Seidlitz, W. von. “Die illustrierten handschriften der Hamilton-Sammlung zu Berlin.”
+              <hi rend="italics">Berichte und Mittheilungen aus Sammlungen und Museen</hi>, vol. 6, 1883, pp.
+            256-273; esp. p.268.</item>
+          <item>Stengel, Edmund. "Eine weitere Textstelle aus der franco-venezianischen Chanson de
+            geste von Huon d'Auvergne. (Nach der Berliner und der Turiner Handschrift)."
+              <hi rend="italics">Festschrift zum 13. Neuphilologentage</hi>, C. Meyer, 1908, pp. 35-49.</item>
+          <item>-. "Huons von Auvergne Keuschheitsprobe, Episode aus der franco-venezianischen
+            Chanson de geste von Huon d'Auvergne nach den drei erhaltenen Fassungen, der Berliner,
+            Turiner und Paduaner." <hi rend="italics">Mélanges... Wilmotte</hi>, Champion, 1910, vol. 2, pp.
+            685-713.</item>
+          <item>-. "Karl Martels Entführung in die Hölle und Wilhem Capets Wahl zu seinem
+            Nachfolger. Stelle aus der Chanson von Huon d'Auvergne (1) nach der Berliner Hs."
+              <hi rend="italics">Studi letterari e linguistici dedicati a Pio Rajna nel quarantesimo anno del suo
+              insegnamento</hi>. Hoepli, 1911, pp. 873- 91.</item>
+          <item>-. "Roms Befreiung durch Huon d'Auvergne und dessen Tod. Schlussepisode (1) der
+            franco-venezianischen 'Chanson' von Huon d'Auvergne. Text der Berliner Handschrift, zum
+            ersten Mal veröffentlich." <hi rend="italics">Miscellanea di Studi critici in onore di V.
+            Crescini</hi>. Fratelli Stagni, 1927. 267-90.</item>
+          <item>-. <hi rend="italics">Huon's aus Auvergne Höllenfahrt Nach der Berliner und Paduaner Hs.
+              Festschrift der Universität Greifswald</hi>. F. W. Kunike, 1908.</item>
+          <item>-. <hi rend="italics">Huons aus Auvergne Suche nach dem Holleneingang nach der Berliner Hs.
+              Festschrift der Universität Greifswald</hi>. Emil Hartmann, 1912.</item>
+          <item>-. "Rev. of Floovent-Studien. Untersuchungen zur altfranzösischen Epik. By Gustav
+            Brockstedt. Kiel: Robert Cordes, 1907." <hi rend="italics">Zeitschrift für französische Sprache und
+              Litteratur</hi>, vol. 33, 1908, pp. 159-63.</item>
+          <item>Sunderland, Luke. <hi rend="italics">Rebel Barons: Resisting Royal Power in Medieval Culture</hi>.
+            Oxford UP, 2017. </item>
+          <item>Thomas, Antoine. “Le no 44 des manuscrits français des Gonzague.” <hi rend="italics">Romania</hi>,
+            vol. 10, 1881, pp. 406-408. Tobler, Adolf. “Die Berliner Handschrift des Huon
+            d’Auvergne.” Sitzungsberichte der königlich preussischen Akademie der Wissenschaften zu
+            Berlin Phil.-hist. Kl., vol. 27, 1884, pp. 605-20.</item>
+          <item>Tobler, Adolf. "Die Berliner Handschrift des Huon d'Auvergne." <hi rend="italics">Sitzungsberichte
+              der königlich preussischen Akademie der Wissenschaften zu Berlin Phil.-hist. Kl.</hi>,
+            vol. 27, 1884, pp. 605-20.</item>
+          <item>Vallecalle, Jean-Claude. "Les chansons de geste franco-italiennes: héritage et
+            réinterprétation d'une tradition littéraire." <hi rend="italics">Limine Romaniae. Chanson de geste et
+              épopée européene</hi>, edited by Carlos Alvar et Constance Carta, Lang, 2012, pp.
+            61-90.</item>
+          <item>—.“La colère du héros dans l’épopée franco-italienne.” <hi rend="italics">Romania</hi>, vol. 135,
+            2017, pp. 352-62.</item>
+          <item>—.“La divination dans les chansons de geste franco-italiennes du XIVe siècle.”
+              <hi rend="italics">“Moult a sans et vallour”: Studies in Medieval French Literature in Honor of
+              William W. Kibler</hi>. Edited by Monica L. Wright, Norris J. Lacy and Rupert T.
+            Pickens. Rodopi, 2012, pp. 385-99. Faux Titres 378.</item>
+          <item>—. “Frontières du monde, frontières de l’épique : le voyage en enfer de Huon
+            d’Auvergne.” <hi rend="italics">“Le monde entour et environ”. La geste, la route et le livre dans la
+              littérature médiévale</hi>. Mélanges offerts à Claude Roussel. Edited by Émilie
+            Goudeau et al., Presses de l’Université Blaise Pascal, 2017, pp. 217-25.</item>
+          <item>—. “Le masque et le miroir dans Aquilon de Bavière.” <hi rend="italics">Cahiers de Recherches
+              Médiévales et Humanistes</hi>, vol. 35, no. 1, 2018, pp. 271-81.</item>
+          <item>—. “Oiseaux de paradis, les anges neutres dans Huon d’Auvergne.” <hi rend="italics">Du temps que
+              les bestes parloient</hi>. Mélanges offerts au professeur Roger Bellon. Edited by
+            Valérie Méot-Bourquin and Aurélie Barre, Garnier, 2018, pp. 393-402.</item>
+          <item>—. “Ordre terrestre ou sainteté : l’épilogue de Huon d’Auvergne.” <hi rend="italics">Études
+              offertes à Danielle Buschinger</hi>. Edited by Florent Gabaude, Jürgen Kühnel et
+            Mathieu Olivier, Publications du Centre d’Études Médiévales de Picardie, 2016, vol. 1,
+            pp. 400-09.</item>
+          <item>—. “Le traître et son destin dans l’épopée franco-italienne.” <hi rend="italics">Crimes et
+              châtiments dans la chanson de geste</hi>. Edited by Bernard Ribémont, Klincksieck,
+            2008, pp. 179-202.</item>
+          <item>Van Heerden, Helga Dieta. "L’<hi rend="italics">Inferno</hi> e <hi rend="italics">Ugone d’Alvernia</hi>: Analisi
+            morfologica di un testo cavalleresco e analisi comparativa di alcuni inferni." M.A.;
+            University Of The Witwatersrand, 1987.</item>
+          <item>Vidossi, Giuseppe, and Felice Arese. <hi rend="italics">“Huon d’Auvergne.” Le Origini. Testi
+              latini, italiani, provenzali e franco-italiani</hi>. Edited A. Viscardi, Riccardi,
+            1956, pp. 1200-18.</item>
+          <item>Viscardi, Antonio, ed. <hi rend="italics">Letteratura franco-italiana</hi>. Istituto di filologia
+            romanza della R. Università di Roma, Tipografia modenese, 1941.</item>
+          <item>Vitale-Brovarone, Alessandro. "De la chanson de Huon d'Auvergne à la <hi rend="italics">Storia di
+              Ugone d'Avernia</hi> d'Andrea da Barberino: techniques et méthodes de la traduction et
+            de l'élaboration." <hi rend="italics">Charlemagne et l'épopée romane. Actes du VIIe Congrès
+              international de la Société Rencesvals</hi> (Liège 28 août - 4 septembre 1976), edited
+            by Madeleine Tyssens and Claude Thiry, Les Belles lettres, 1978. vol. 2, pp.
+            393-403.</item>
+          <item>Vitullo, Juliann M. <hi rend="italics">The Chivalric Epic in Medieval Italy</hi>. U P of Florida,
+            2000.</item>
+          <item>—. “Orality, Literacy, and the Prose Epic: The Case of Andrea da Barberino’s <hi rend="italics">Ugo
+              d’Alvernia</hi>.” <hi rend="italics">The Italianist</hi>, vol. 13, 1993, pp. 29-46.</item>
+          <item>Warren, Michelle R. "Philology in Ruins." <hi rend="italics">Floriligium</hi>, vol. 32, 2015, pp.
+            59-76.</item>
+          <item>Wescher, Paul. <hi rend="italics">Beschreibendes Verzeichnis der Miniaturen-Handschriften und
+              Einzelblätter des Kupferstichkabinetts der Staatl. Museen Berlin</hi>. J.J.Weber,1931,
+            pp. 68-70.</item>
+        </list>
+      </div>
+
+    </body>
+  </text>
+</TEI>

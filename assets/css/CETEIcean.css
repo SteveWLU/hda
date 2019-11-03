@@ -503,7 +503,7 @@ tei-egXML {
   white-space: pre;
 }
 tei-emph {
-  font-style: italic;
+  font-weight: bolder;
 }
 tei-encodingDesc {
   display: none;
