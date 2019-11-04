@@ -323,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	margin: 0 0 1em 0;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: larger;	
+	font-size: large;	
 }
 a {
 	color: #5f0000;
@@ -342,7 +342,6 @@ img, object, embed {
 	max-width: 100%;
 	display: block;
 	height: auto;
-	margin: 1em auto;
 }
 .left {
 	float: left;
@@ -350,6 +349,12 @@ img, object, embed {
 .right {
 	float: right;
 }
+/*---------
+Columns and Rows
+----------*/
+
+
+
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
 /* For modern browsers */
 .cf:before,
@@ -439,7 +444,12 @@ nav li.active a {
 .site-nav {
 	overflow: hidden;
 	font-family: 'Barlow Semi Condensed', sans-serif;
-	float:right;
+	float: right;
+}
+
+.site-nav a:hover, .dropdown:hover .dropbtn {
+	display:block;
+	background-color: #f5f5f5;
 }
 
 .dropdown {
@@ -458,10 +468,7 @@ nav li.active a {
 		border-radius: 8px;
 		text-decoration: &9660;
 }
-.site-nav a:hover, .dropdown:hover .dropbtn {
-	display:block;
-	background-color: #f5f5f5;
-}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -949,13 +956,14 @@ aside li {
    main footer styles
 -----------------------------------------------------*/
 .page-footer {
-  font-family: 110% 'Barlow Semi Condensed', sans-serif;
-  background: white;
+  	font-family: 110% 'Barlow Semi Condensed', sans-serif;
+  	background: white;
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: black;
 	clear: both;
-		border-top:1px solid #e8e8e8;
+	border-top:1px solid #e8e8e8;
+	width: 100%;
 }
 .legal {
     font-size: .75em;
@@ -1006,6 +1014,31 @@ img#logo_marucelliana {
 -----------------------------------------------------*/
 @media only screen and (max-width: 950px) {
 
+/*---------------------------------------------------
+	index page styles
+----------------------------------------------------*/
+div.col-1 {
+	display: none;
+}
+
+div.col-2 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+p.intro::first-letter {
+	color: tomato;
+	font-size: 60px;
+}
+
+p.intro:before {
+	content: "LINKING INSTITUTIONS ";
+	font-weight: bold;
+}
+
 .right, .left {
 	float: none;
 }
@@ -1031,9 +1064,7 @@ nav li {
 	background: #42659A;
 	margin-bottom: .2em;
 }
-/* nav li:hover {
-	background: pink;
-} */
+
 nav li a {
 	font-size: 1.2em;
 	font-weight: 100;
@@ -1047,10 +1078,7 @@ nav li a {
 	max-width: 100%;
 	width:100%;
 }
-/* nav li a:hover {
-	color: whitesmoke;
-} */
-/*toggle check styles*/
+
 .toggle-label {
 	display: block;
 	background: #42659A;
@@ -1100,6 +1128,11 @@ dd{
 /* --------------------------------------------------
    layout styles
 -----------------------------------------------------*/
+p.intro:before {
+	content: "INKING INSTITUTIONS ";
+	font-weight: bold;
+}
+
 html {
 	background: white;
 }
@@ -1133,6 +1166,7 @@ header h1 {
 	margin:0;
 
 }
+
 header p {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
@@ -1177,10 +1211,6 @@ nav li a {
 	text-decoration: none;
 	letter-spacing: 0.1em;
 }
-/* nav li a:hover {
-	color: white;
-	background: #333;
-} */
 
 /* --------------------------------------------------
    article styles
@@ -1200,6 +1230,39 @@ a.more {
 .legal {
 	text-align: center;
 }
+
+/*---------------------------------------------------
+	index page styles
+----------------------------------------------------*/
+div.col-1 {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+div.col-2 {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+
+}
+
+.intro {
+    padding-top: 7%;
+}
+
+img#initial {
+	max-width: 55%;
+	padding-right: 5px;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: large;
 }
 
 /* --------------------------------------------------
@@ -1238,7 +1301,6 @@ div.intro {
 	margin-top:50px;
 }
 
-
 div#TEI {
   float: left;
   width: 40%;
@@ -1250,7 +1312,6 @@ div#image-viewer {
 	background-color: pink;
 }
 
-
 div#edition-notes {
 position:fixed;
 left:0;
@@ -1261,7 +1322,6 @@ left:0;
   width:100%;
   padding-left: 10px;
 }
-
 
 .page-break {
 	color: blue;
@@ -1291,8 +1351,6 @@ li {
 /* --------------------------------------------------
    main footer styles
 -----------------------------------------------------*/
-
-
 
 /* Toggle buttons */
 
