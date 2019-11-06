@@ -18,7 +18,7 @@ The Huon d’Auvergne Digital Archive. Edited by Leslie Zarker Morgan &amp; Step
 
 > Morgan, Leslie Zarker, ed. Digital Edition of Huon d’Auvergne According to Turin, Biblioteca Nazionale Universitaria, N III 19. Washington &amp; Lee U, 31 Aug. 2017, www.huondauvergne.org/t, version 1.0.0. Accessed 23 Apr. 2018.
 
-> Schwam-Baird, Shira, trans. Translation of Huon d’Auvergne According to Berlin, Kupferstichkabinett 78 D 8. Washington &amp; Lee U, 31 Aug. 2017, www.huondauvergne.org/b-translation, version 1.0.0. Accessed 23 Apr. 2018.
+> Schwam-Baird, Shira, trans. Translation of Huon d’Auvergne According to Berlin, Kupferstichkabinett 78 D 8. Washington &amp; Lee U, 31 Aug. 2017, www.huondauvergne.org/translation-b, version 1.0.0. Accessed 23 Apr. 2018.
 
 
 ## We would like to thank for their support:

@@ -13,9 +13,9 @@
 <div class="flex-item" id="mstitle">
   <h1>{{page.manuscript}}</h1>
 </div>
- <div class="flex-item" id="folio-nav">
-  <!-- Liquid code for transcription and folio navigation -->
 
+<!-- Liquid code for transcription and folio navigation -->
+ <div class="flex-item" id="folio-nav">
 {% capture the_collection %}{{page.collection}}{% endcapture %}
   {% if page.collection %}
     {% assign documents = site[the_collection] %}
@@ -102,7 +102,7 @@
 
 <div id="edition-viewer">
   
-  <!-- Insert TEI content-->
+  <!-- Insert TEI Content-->
   <div id="TEI" data-milestone="{{ page.milestone }}"></div>
 
   <!-- Insert OpenSeaDragon viewer and content -->
@@ -200,7 +200,7 @@ var CETEIcean = new CETEI()
   CETEIcean.getHTML5("{{site.baseurl}}/editions/br.xml", function(data) {
 
 {% elsif page.sigla == 'BT' %}
-  CETEIcean.getHTML5("{{site.baseurl}}/editions/b-translation.xml", function(data) {
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/translation-b.xml", function(data) {
     
 {% endif %}
 
