@@ -12,7 +12,7 @@ toc:
   - title: Praxis
     subfolderitems:
       - page: General Criteria
-        url: /test-praxis.html
+        url: /gen-praxis.html
       - page: Berlin Criteria
         url: /b-praxis.html
       - page: Turin Criteria
@@ -21,6 +21,8 @@ toc:
         url: /p-praxis.html
       - page: Barbieri Fragment Criteria
         url: /br-praxis.html
+      - page: Translation Criteria
+        url: /trans-praxis.html
   - title: Editions
     subfolderitems:
       - page: Berlin (B)
@@ -34,4 +36,4 @@ toc:
   - title: Translation
     subfolderitems:
       - page: Berlin Translation
-        url: /b-translation.html
+        url: /editions/b-translation.html

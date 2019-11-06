@@ -33,7 +33,10 @@
         <script>
 
             var CETEIcean = new CETEI()
-            {% if page.sigla == 'B' %}
+            {% if page.sigla == 'G' %}
+            CETEIcean.getHTML5("{{site.baseurl}}/praxis/gen-praxis.xml", function(data) {
+
+            {% elsif page.sigla == 'B' %}
             CETEIcean.getHTML5("{{site.baseurl}}/praxis/b-praxis.xml", function(data) {
 
             {% elsif page.sigla == 'T' %}
@@ -43,6 +46,9 @@
             CETEIcean.getHTML5("{{site.baseurl}}/praxis/p-praxis.xml", function(data) {
 
             {% elsif page.sigla == 'Br' %}
+            CETEIcean.getHTML5("{{site.baseurl}}/praxis/br-praxis.xml", function(data) {
+            
+            {% elsif page.sigla == 'BT' %}
             CETEIcean.getHTML5("{{site.baseurl}}/praxis/br-praxis.xml", function(data) {
 
             {% endif %}
