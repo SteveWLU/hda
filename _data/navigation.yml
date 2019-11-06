@@ -22,7 +22,7 @@ toc:
       - page: Barbieri Fragment Criteria
         url: /br-praxis.html
       - page: Translation Criteria
-        url: /trans-praxis.html
+        url: /bt-praxis.html
   - title: Editions
     subfolderitems:
       - page: Berlin (B)
@@ -36,4 +36,4 @@ toc:
   - title: Translation
     subfolderitems:
       - page: Berlin Translation
-        url: /editions/b-translation.html
+        url: /editions/bt-intro.html

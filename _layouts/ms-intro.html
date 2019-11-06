@@ -24,12 +24,17 @@
     <img id="toc" src="../assets/images/p-intro.jpg">
 {% elsif page.sigla == 'Br' %}
     <img id="toc" src="../assets/images/br-intro.jpg">
+{% elsif page.sigla == 'BT' %}
+    <img id="toc" src="../assets/images/bt-intro.jpg">
 {% endif %}
     <div id="toc">
             <h2>Table of Contents</h2>
             <hr id="toc">
             <ol>
                 <li><a href="{{page.criteria}}">Edition Criteria</a></li>
+                {% if page.sigla == 'BT' %}
+                <li><a href="{{page.translation}}">Translation</a></li>
+                {% endif %}
                 <li><a href="{{page.edition}}">Digital Edition</a></li>
                 <li><a href="{{page.facsimile}}">Digital Facsimile</a></li>
                 {% if page.sigla == 'T' %}
