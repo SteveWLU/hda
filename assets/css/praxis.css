@@ -1,0 +1,41 @@
+tei-div {
+    display: block;
+}
+
+tei-p {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+tei-list[type=numbered] {
+    list-style-type: decimal;
+}
+
+tei-list[type=simple]>tei-item {
+    display: list-item;
+}
+
+tei-hi[rend=italics] {
+    font-style: italic;
+}
+
+tei-lb:before {
+    white-space: pre;
+    content: "\A";
+  }
+
+tei-head[type=subsection] {
+    font-style: bold;
+    color: blue;
+    /* color: #5f0000; */
+}
+
+table, td {
+    border: none;
+}
+
+td {
+    padding: 15px;
+}
+

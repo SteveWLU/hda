@@ -1,0 +1,9 @@
+---
+layout: edition
+translator: Shira Schwam-Baird
+title: folio 26v
+manuscript: Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
+sigla: BT
+iip: b026v.tif
+milestone: 52
+---

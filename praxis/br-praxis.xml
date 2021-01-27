@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="contents">
+        <pb xml:id="toc"/>
+        <head type="section">Table of Contents</head>
+        <list type="simple">
+          <item><ref target="#intro">1. Introduction</ref></item>
+          <item><ref target="#caps">2. Capitalization</ref></item>
+          <item><ref target="#punct">3. Punctuation</ref></item>
+          <item><ref target="#abbr">4. Abbreviations</ref></item>
+          <item><ref target="#separ">5. Separation of Words</ref></item>
+        </list>
+      </div>
+    </front>
+    <body>
+
+    <!-- 1. INTRODUCTION -->
+      <pb xml:id="intro"/>
+      <div type="intro">
+        <head type="section"><ref target="#toc">&#10081; 1. Introduction </ref></head>
+        <p>Introduction to Barbieri</p>
+      </div>
+
+      <!-- 2. CAPITALIZATION -->
+      <pb xml:id="caps"/>
+      <div type="caps">
+        <head type="section"><ref target="#toc">&#10081; 2. Capitalization</ref></head>
+        <p>Capitalization for Barbieri</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,8 @@
+---
+layout: edition
+title: folio 164r
+manuscript: Florence, Biblioteca Marucelliana, Carte Rajna XIX.15
+sigla: R
+iip: r164r.tif
+milestone: 327
+---

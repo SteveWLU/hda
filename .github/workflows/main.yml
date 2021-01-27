@@ -1,0 +1,23 @@
+name: Create Search Index, Build then Deploy Jekyll site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate-build-deploy:
+    name: Create, Build and Deploy Jekyll Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+      - name: Build the search index
+        uses: tameney22/search-index-action@master
+        id: index
+        with:
+          xml-list: 'b.xml br.xml p.xml t.xml'
+          xml-directory: './editions'
+          index-directory:  './assets/js/search'    
+      - name: Build and deploy the site to '_site' on the master branch
+        uses: tameney22/jekyll-cd@master
