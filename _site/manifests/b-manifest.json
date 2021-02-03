@@ -1,0 +1,4302 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://stevewlu.github.io/manifests/b-manifest.json",
+  "label": "Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
+  "description": "Huon d'Auvergne, Berlin, Kupferstichkabinett, Hamilton 337 (= 78 D 8)",
+  "metadata": [
+        { "label": "Place of conservation",
+        "value": "Berlin"
+        },
+        { "label": "Held by", 
+        "value": "Kupferstichkabinett" 
+        },
+        { "label": "Shelfmark", 
+            "value": "Hamilton 337 (= 78 D 8)" 
+        },
+        { "label": "Title", 
+        "value": "Huon d'Auvergne" 
+        },
+        { "label": "Incipit",
+        "value": "Al tamps de may quand furent li praël"
+        },
+        { "label": "Explicit",
+          "value": "Amen. Am[en]. Amen."
+        },
+        { "label": "Scribe", 
+        "value": "Unknown" 
+        },
+        { "label": "Poet", 
+        "value": "Unknown" 
+        },
+        { "label": "Date", 
+        "value": "1341, dated by scribe" 
+        },
+        { "label": "Language",
+        "value": "Franco-Italian, heavily Old French"
+        },
+        { "label": "Place of creation", 
+        "value": "Unknown" 
+        }
+    ],
+  "attribution": "Kupferstichkabinett",
+  "logo": "https://stevewlu.github.io/assets/images/logos/logo_tei.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://stevewlu.github.io/iiif/canvas/001",
+          "label": "b001r",
+          "width": 4438,
+          "height": 6127,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://stevewlu.github.io/iiif/canvas/001",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://iiif.wlu.edu/iiif/huon/b001r.tif",
+
+                "service": {
+                  "@context":  "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b001r.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/002",
+            "label": "b001v",
+            "width": 4441,
+            "height": 6106,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/002",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b001v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b001v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/003",
+            "label": "b002r",
+            "width": 4537,
+            "height": 6132,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/003",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b002r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b002r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/004",
+            "label": "b002v",
+            "width": 4385,
+            "height": 6138,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/004",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b002v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b002v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/005",
+            "label": "b003r",
+            "width": 4623,
+            "height": 6357,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/005",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b003r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b003r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/006",
+            "label": "b003v",
+            "width": 4628,
+            "height": 6375,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/006",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b003v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b003v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/007",
+            "label": "b004r",
+            "width": 4642,
+            "height": 6335,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/007",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b004r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b004r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/008",
+            "label": "b004v",
+            "width": 4424,
+            "height": 6152,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/008",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b004v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b004v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/009",
+            "label": "b005r",
+            "width": 4590,
+            "height": 6329,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/009",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b005r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b005r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/010",
+            "label": "b005v",
+            "width": 4636,
+            "height": 6365,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/010",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b005v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b005v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/011",
+            "label": "b006r",
+            "width": 4646,
+            "height": 6416,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/011",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b006r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b006r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/012",
+            "label": "b006v",
+            "width": 4593,
+            "height": 6343,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/012",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b006v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b006v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/013",
+            "label": "b007r",
+            "width": 4716,
+            "height": 6367,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/013",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b007r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b007r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/014",
+            "label": "b007v",
+            "width": 4686,
+            "height": 6390,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/014",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b007v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b007v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/015",
+            "label": "b008r",
+            "width": 4684,
+            "height": 6387,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/015",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b008r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b008r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/016",
+            "label": "b008v",
+            "width": 4748,
+            "height": 6474,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/016",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b008v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b008v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/017",
+            "label": "b009r",
+            "width": 4668,
+            "height": 6365,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/017",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b009r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b009r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/018",
+            "label": "b009v",
+            "width": 4671,
+            "height": 6370,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/018",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b009v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b009v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/019",
+            "label": "b010r",
+            "width": 4723,
+            "height": 6440,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/019",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b010r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b010r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/020",
+            "label": "b010v",
+            "width": 4579,
+            "height": 6411,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/020",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b010v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b010v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/021",
+            "label": "b011r",
+            "width": 4727,
+            "height": 6387,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/021",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b011r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b011r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/022",
+            "label": "b011v",
+            "width": 4636,
+            "height": 6326,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/022",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b011v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b011v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/023",
+            "label": "b012r",
+            "width": 4720,
+            "height": 6353,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/023",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b012r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b012r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/024",
+            "label": "b012v",
+            "width": 4744,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/024",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b012v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b012v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/025",
+            "label": "b013r",
+            "width": 4744,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/025",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b013r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b013r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/026",
+            "label": "b013v",
+            "width": 4611,
+            "height": 6272,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/026",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b013v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b013v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/027",
+            "label": "b014r",
+            "width": 4700,
+            "height": 6351,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/027",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b014r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b014r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/028",
+            "label": "b014v",
+            "width": 4563,
+            "height": 6211,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/028",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b014v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b014v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/029",
+            "label": "b015r",
+            "width": 4715,
+            "height": 6371,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/029",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b015r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b015r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/030",
+            "label": "b015v",
+            "width": 4614,
+            "height": 6272,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/030",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b015v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b015v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/031",
+            "label": "b016r",
+            "width": 4677,
+            "height": 6320,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/031",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b016r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b016r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/032",
+            "label": "b016v",
+            "width": 4617,
+            "height": 6264,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/032",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b016v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b016v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/033",
+            "label": "b017r",
+            "width": 4695,
+            "height": 6332,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/033",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b017r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b017r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/034",
+            "label": "b017v",
+            "width": 4600,
+            "height": 6221,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/034",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b017v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b017v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/035",
+            "label": "b018r",
+            "width": 4717,
+            "height": 6373,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/035",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b018r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b018r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/036",
+            "label": "b018v",
+            "width": 4588,
+            "height": 6251,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/036",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b018v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b018v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/037",
+            "label": "b019r",
+            "width": 4638,
+            "height": 6289,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/037",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b019r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b019r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/038",
+            "label": "b019v",
+            "width": 4598,
+            "height": 6210,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/038",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b019v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b019v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/039",
+            "label": "b020r",
+            "width": 4636,
+            "height": 6254,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/039",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b020r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b020r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/040",
+            "label": "b020v",
+            "width": 4485,
+            "height": 6140,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/040",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b020v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b020v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/041",
+            "label": "b021r",
+            "width": 4612,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/041",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b021r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b021r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/042",
+            "label": "b021v",
+            "width": 4644,
+            "height": 6260,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/042",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b021v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b021v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/043",
+            "label": "b022r",
+            "width": 4700,
+            "height": 6213,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/043",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b022r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b022r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/044",
+            "label": "b022v",
+            "width": 4585,
+            "height": 6213,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/044",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b022v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b022v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/045",
+            "label": "b023r",
+            "width": 4634,
+            "height": 6355,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/045",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b023r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b023r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/046",
+            "label": "b023v",
+            "width": 4578,
+            "height": 6248,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/046",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b023v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b023v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/047",
+            "label": "b024r",
+            "width": 4603,
+            "height": 6346,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/047",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b024r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b024r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/048",
+            "label": "b024v",
+            "width": 4655,
+            "height": 6257,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/048",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b024v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b024v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/049",
+            "label": "b025r",
+            "width": 4621,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/049",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b025r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b025r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/050",
+            "label": "b025v",
+            "width": 4566,
+            "height": 6248,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/050",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b025v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b025v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/051",
+            "label": "b026r",
+            "width": 4636,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/051",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b026r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b026r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/052",
+            "label": "b026v",
+            "width": 4567,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/052",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b026v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b026v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/053",
+            "label": "b027r",
+            "width": 4645,
+            "height": 6342,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/053",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b027r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b027r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/054",
+            "label": "b027v",
+            "width": 4552,
+            "height": 6290,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/054",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b027v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b027v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/055",
+            "label": "b028r",
+            "width": 4633,
+            "height": 6390,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/055",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b028r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b028r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/056",
+            "label": "b028v",
+            "width": 4542,
+            "height": 6238,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/056",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b028v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b028v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/057",
+            "label": "b029r",
+            "width": 4598,
+            "height": 6271,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/057",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b029r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b029r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/058",
+            "label": "b029v",
+            "width": 4425,
+            "height": 6167,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/058",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b029v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b029v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/059",
+            "label": "b030r",
+            "width": 4623,
+            "height": 6342,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/059",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b030r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b030r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/060",
+            "label": "b030v",
+            "width": 4636,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/060",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b030v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b030v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/061",
+            "label": "b031r",
+            "width": 4603,
+            "height": 6258,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/061",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b031r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b031r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/062",
+            "label": "b031v",
+            "width": 4643,
+            "height": 6247,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/062",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b031v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b031v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/063",
+            "label": "b032r",
+            "width": 4626,
+            "height": 6277,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/063",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b032r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b032r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/064",
+            "label": "b032v",
+            "width": 4630,
+            "height": 6330,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/064",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b032v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b032v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/065",
+            "label": "b033r",
+            "width": 4637,
+            "height": 6293,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/065",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b033r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b033r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/066",
+            "label": "b033v",
+            "width": 4660,
+            "height": 6386,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/066",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b033v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b033v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/067",
+            "label": "b034r",
+            "width": 4585,
+            "height": 6187,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/067",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b034r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b034r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/068",
+            "label": "b034v",
+            "width": 4729,
+            "height": 6389,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/068",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b034v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b034v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/069",
+            "label": "b035r",
+            "width": 4659,
+            "height": 6312,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/069",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b035r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b035r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/070",
+            "label": "b035v",
+            "width": 4674,
+            "height": 6364,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/070",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b035v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b035v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/071",
+            "label": "b036r",
+            "width": 4584,
+            "height": 6262,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/071",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b036r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b036r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/072",
+            "label": "b036v",
+            "width": 4673,
+            "height": 6315,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/072",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b036v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b036v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/073",
+            "label": "b037r",
+            "width": 4615,
+            "height": 6236,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/073",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b037r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b037r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/074",
+            "label": "b037v",
+            "width": 4584,
+            "height": 6233,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/074",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b037v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b037v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/075",
+            "label": "b038r",
+            "width": 4613,
+            "height": 6275,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/075",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b038r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b038r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/076",
+            "label": "b038v",
+            "width": 4667,
+            "height": 6371,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/076",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b038v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b038v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/077",
+            "label": "b039r",
+            "width": 4598,
+            "height": 6192,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/077",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b039r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b039r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/078",
+            "label": "b039v",
+            "width": 4670,
+            "height": 6391,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/078",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b039v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b039v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/079",
+            "label": "b040r",
+            "width": 4565,
+            "height": 6174,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/079",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b040r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b040r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/080",
+            "label": "b040v",
+            "width": 4640,
+            "height": 6271,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/080",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b040v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b040v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/081",
+            "label": "b041r",
+            "width": 4624,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/081",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b041r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b041r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/082",
+            "label": "b041v",
+            "width": 4683,
+            "height": 6376,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/082",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b041v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b041v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/083",
+            "label": "b042r",
+            "width": 4603,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/083",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b042r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b042r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/084",
+            "label": "b042v",
+            "width": 4550,
+            "height": 6243,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/084",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b042v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b042v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/085",
+            "label": "b043r",
+            "width": 4629,
+            "height": 6261,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/085",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b043r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b043r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/086",
+            "label": "b043v",
+            "width": 4692,
+            "height": 6340,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/086",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b043v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b043v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/087",
+            "label": "b044r",
+            "width": 4496,
+            "height": 6232,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/087",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b044r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b044r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/088",
+            "label": "b044v",
+            "width": 4576,
+            "height": 6247,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/088",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b044v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b044v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/089",
+            "label": "b045r",
+            "width": 4685,
+            "height": 6315,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/089",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b045r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b045r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/090",
+            "label": "b045v",
+            "width": 4684,
+            "height": 6410,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/090",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b045v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b045v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/091",
+            "label": "b046r",
+            "width": 4670,
+            "height": 6342,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/091",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b046r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b046r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/092",
+            "label": "b046v",
+            "width": 4672,
+            "height": 6350,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/092",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b046v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b046v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/093",
+            "label": "b047r",
+            "width": 4685,
+            "height": 6295,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/093",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b047r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b047r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/094",
+            "label": "b047v",
+            "width": 4675,
+            "height": 6361,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/094",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b047v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b047v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/095",
+            "label": "b048r",
+            "width": 4637,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/095",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b048r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b048r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/096",
+            "label": "b048v",
+            "width": 4599,
+            "height": 6311,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/096",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b048v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b048v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/097",
+            "label": "b049r",
+            "width": 4648,
+            "height": 6293,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/097",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b049r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b049r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/098",
+            "label": "b049v",
+            "width": 4682,
+            "height": 6355,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/098",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b049v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b049v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/099",
+            "label": "b050r",
+            "width": 4656,
+            "height": 6348,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/099",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b050r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b050r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/0100",
+            "label": "b050v",
+            "width": 4666,
+            "height": 6305,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/100",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b050v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b050v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/101",
+            "label": "b051r",
+            "width": 4678,
+            "height": 6283,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/101",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b051r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b051r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/102",
+            "label": "b051v",
+            "width": 4664,
+            "height": 6330,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/102",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b051v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b051v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/103",
+            "label": "b052r",
+            "width": 4625,
+            "height": 6314,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/103",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b052r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b052r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/104",
+            "label": "b052v",
+            "width": 4672,
+            "height": 6362,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/104",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b052v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b052v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/105",
+            "label": "b053r",
+            "width": 4648,
+            "height": 6386,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/105",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b053r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b053r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/106",
+            "label": "b053v",
+            "width": 4613,
+            "height": 6250,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/106",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b053v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b053v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/107",
+            "label": "b054r",
+            "width": 4610,
+            "height": 6343,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/107",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b054r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b054r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/108",
+            "label": "b054v",
+            "width": 4648,
+            "height": 6279,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/108",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b054v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b054v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/109",
+            "label": "b055r",
+            "width": 4662,
+            "height": 6299,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/109",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b055r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b055r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/110",
+            "label": "b055v",
+            "width": 4660,
+            "height": 6297,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/110",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b055v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b055v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/111",
+            "label": "b056r",
+            "width": 4580,
+            "height": 6374,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/111",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b056r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b056r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/112",
+            "label": "b056v",
+            "width": 4648,
+            "height": 6326,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/112",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b056v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b056v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/113",
+            "label": "b057r",
+            "width": 4516,
+            "height": 6236,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/113",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b057r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b057r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/114",
+            "label": "b057v",
+            "width": 4637,
+            "height": 6316,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/114",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b057v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b057v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/115",
+            "label": "b058r",
+            "width": 4443,
+            "height": 6228,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/115",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b058r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b058r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/116",
+            "label": "b058v",
+            "width": 4615,
+            "height": 6262,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/116",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b058v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b058v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/117",
+            "label": "b059r",
+            "width": 4568,
+            "height": 6210,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/117",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b059r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b059r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/118",
+            "label": "b059v",
+            "width": 4660,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/118",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b059v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b059v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/119",
+            "label": "b060r",
+            "width": 4461,
+            "height": 6261,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/119",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b060r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b060r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/120",
+            "label": "b060v",
+            "width": 4564,
+            "height": 6231,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/120",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b060v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b060v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/121",
+            "label": "b061r",
+            "width": 4466,
+            "height": 6194,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/121",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b061r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b061r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/122",
+            "label": "b061v",
+            "width": 4569,
+            "height": 6226,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/122",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b061v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b061v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/123",
+            "label": "b062r",
+            "width": 4418,
+            "height": 6246,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/123",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b062r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b062r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/124",
+            "label": "b062v",
+            "width": 4565,
+            "height": 6145,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/124",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b062v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b062v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/125",
+            "label": "b063r",
+            "width": 4484,
+            "height": 6243,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/125",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b063r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b063r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/126",
+            "label": "b063v",
+            "width": 4599,
+            "height": 6221,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/126",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b063v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b063v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/127",
+            "label": "b064r",
+            "width": 4435,
+            "height": 6158,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/127",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b064r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b064r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/128",
+            "label": "b064v",
+            "width": 4592,
+            "height": 6230,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/128",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b064v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b064v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/129",
+            "label": "b065r",
+            "width": 4459,
+            "height": 6210,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/129",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b065r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b065r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/130",
+            "label": "b065v",
+            "width": 4500,
+            "height": 6215,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/130",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b065v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b065v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/131",
+            "label": "b066r",
+            "width": 4474,
+            "height": 6206,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/131",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b066r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b066r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/132",
+            "label": "b066v",
+            "width": 4608,
+            "height": 6289,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/132",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b066v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b066v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/133",
+            "label": "b067r",
+            "width": 4480,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/133",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b067r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b067r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/134",
+            "label": "b067v",
+            "width": 4579,
+            "height": 6266,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/134",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b067v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b067v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/135",
+            "label": "b068r",
+            "width": 4460,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/135",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b068r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b068r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/136",
+            "label": "b068v",
+            "width": 4641,
+            "height": 6280,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/136",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b068v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b068v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/137",
+            "label": "b069r",
+            "width": 4542,
+            "height": 6304,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/137",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b069r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b069r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/138",
+            "label": "b069v",
+            "width": 4621,
+            "height": 6306,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/138",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b069v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b069v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/139",
+            "label": "b070r",
+            "width": 4476,
+            "height": 6243,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/139",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b070r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b070r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/140",
+            "label": "b070v",
+            "width": 4626,
+            "height": 6300,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/140",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b070v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b070v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/141",
+            "label": "b071r",
+            "width": 4517,
+            "height": 6293,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/141",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b071r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b071r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/142",
+            "label": "b071v",
+            "width": 4648,
+            "height": 6314,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/142",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b071v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b071v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/143",
+            "label": "b072r",
+            "width": 4504,
+            "height": 6305,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/143",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b072r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b072r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/144",
+            "label": "b072v",
+            "width": 4618,
+            "height": 6265,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/144",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b072v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b072v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/145",
+            "label": "b073r",
+            "width": 4565,
+            "height": 6311,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/145",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b073r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b073r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/146",
+            "label": "b073v",
+            "width": 4592,
+            "height": 6234,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/146",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b073v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b073v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/147",
+            "label": "b074r",
+            "width": 4472,
+            "height": 6209,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/147",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b074r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b074r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/148",
+            "label": "b074v",
+            "width": 4620,
+            "height": 6251,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/148",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b074v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b074v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/149",
+            "label": "b075r",
+            "width": 4487,
+            "height": 6190,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/149",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b075r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b075r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/150",
+            "label": "b075v",
+            "width": 4636,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/150",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b075v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b075v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/151",
+            "label": "b076r",
+            "width": 4559,
+            "height": 6266,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/151",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b076r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b076r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/152",
+            "label": "b076v",
+            "width": 4624,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/152",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b076v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b076v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/153",
+            "label": "b077r",
+            "width": 4548,
+            "height": 6300,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/153",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b077r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b077r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/154",
+            "label": "b077v",
+            "width": 4578,
+            "height": 6224,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/154",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b077v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b077v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/155",
+            "label": "b078r",
+            "width": 4549,
+            "height": 6206,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/155",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b078r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b078r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/156",
+            "label": "b078v",
+            "width": 4634,
+            "height": 6304,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/156",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b078v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b078v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/157",
+            "label": "b079r",
+            "width": 4520,
+            "height": 6258,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/157",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b079r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b079r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/158",
+            "label": "b079v",
+            "width": 4635,
+            "height": 6260,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/158",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b079v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b079v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/159",
+            "label": "b080r",
+            "width": 4492,
+            "height": 6278,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/159",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b080r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b080r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/160",
+            "label": "b080v",
+            "width": 4623,
+            "height": 6268,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/160",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b080v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b080v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/161",
+            "label": "b081r",
+            "width": 4594,
+            "height": 6322,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/161",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b081r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b081r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/162",
+            "label": "b081v",
+            "width": 4650,
+            "height": 6265,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/162",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b081v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b081v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/163",
+            "label": "b082r",
+            "width": 4594,
+            "height": 6285,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/163",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b082r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b082r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/164",
+            "label": "b082v",
+            "width": 4594,
+            "height": 6285,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/164",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b082v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b082v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/165",
+            "label": "b083r",
+            "width": 4513,
+            "height": 6201,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/165",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b083r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b083r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/166",
+            "label": "b083v",
+            "width": 4624,
+            "height": 6302,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/166",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b083v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b083v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/167",
+            "label": "b084r",
+            "width": 4474,
+            "height": 6184,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/167",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b084r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b084r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/168",
+            "label": "b084v",
+            "width": 4622,
+            "height": 6263,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/168",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b084v.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b084v.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+          {
+            "@type": "sc:Canvas",
+            "@id": "https://stevewlu.github.io/iiif/canvas/169",
+            "label": "b085r",
+            "width": 4497,
+            "height": 6223,
+            "images": [
+              {
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": "https://stevewlu.github.io/iiif/canvas/169",
+                "resource": {
+                  "@type": "dctypes:Image",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b085r.tif",
+  
+                  "service": {
+                    "@context":  "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wlu.edu/iiif/huon/b085r.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              }
+            ]
+          },
+
+        {
+         "@type": "sc:Canvas",
+          "@id": "https://stevewlu.github.io/iiif/canvas/170",
+          "label": "b085v",
+          "width": 4628,
+          "height": 6312,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://stevewlu.github.io/iiif/canvas/170",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://iiif.wlu.edu/iiif/huon/b086v.tif",
+
+                "service": {
+                  "@context":  "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.wlu.edu/iiif/huon/b086v.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json" 
+                }
+              }  
+            }  
+          ]
+        }
+      ] 
+    }
+  ]
+}
+
+
