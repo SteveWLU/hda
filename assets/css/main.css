@@ -26,7 +26,17 @@ html {
 body, html {
   margin: 0;
   padding: 0;
+
 }
+
+.hid_page {
+	display: none;
+}
+
+.hid_note {
+	display:none;
+}
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -122,6 +132,8 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
+  width: 75%;
+  clear: both;
 }
 /**
  * Contain overflow in all browsers.
@@ -275,27 +287,34 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+/* table, td {
+    border: 1px solid black;
 }
-td,
-th {
-  padding: 0;
-}
+td {
+  padding: 10;
+} */
+
  /* end normalize styles
  */
 /* --------------------------------------------------
   Global settings
 -----------------------------------------------------*/
+#wrapper {
+	width:90%;
+	margin:auto;
+}
+
 body {
-	font: 110% 'Roboto Slab', Georgia, serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	background: white;
 	direction: ltr;
+
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 700;
+	color:#000;
+	font-size: revert;
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -304,19 +323,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	margin: 0 0 1em 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: large;	
 }
 a {
-	color: #42659A;
+	color: #5f0000;
 	line-height: inherit;
+	text-decoration: none;
 }
-a:hover {
+ a:hover {
 	color: #213149;
+}
+
+ul {
+	font-size:larger;
+	line-height: 1.5;
 }
 img, object, embed {
 	max-width: 100%;
 	display: block;
 	height: auto;
-	margin: 1em auto;
 }
 .left {
 	float: left;
@@ -324,6 +350,12 @@ img, object, embed {
 .right {
 	float: right;
 }
+/*---------
+Columns and Rows
+----------*/
+
+
+
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
 /* For modern browsers */
 .cf:before,
@@ -352,22 +384,43 @@ img, object, embed {
   header styles
 -----------------------------------------------------*/
 .page-header {
-	padding: 1em 1em 0;
+	border-bottom:1px solid #e8e8e8;
+	padding-left:15px;
+	padding-top:15px;
 }
-header {
-	margin-bottom: 2em;
+
+#site-title {
+	margin:0;
 }
-header h1 {
-	font-size: 2em;
-	line-height:1;
-	margin: 0;
+
+#site-title a {
+	color:#000;
+	font-size: 2rem !important;
+}
+
+.page-header h1 {
 	text-transform: uppercase;
+	text-align:left;
+	margin:0;
+
 }
-header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+/* header p */
+#nav-subtitle {
+	font: 1em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #5F0000;
 	text-transform: uppercase;
+	margin: none;
+}
+
+.headerleft {
+	width:60%;
+	float:left;
+}
+
+.headerright{
+	width:40%;
+	float:right;
 }
 /* --------------------------------------------------
    top navigation styles
@@ -379,10 +432,77 @@ nav ul, nav li {
 	min-height: 0;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Barlow Semi Condensed', sans-serif;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 0.1em;
+}
+
+nav li.active a {
+	color: #ffffff;
+}
+
+.site-nav a {
+	/* overflow: hidden; */
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: black;
+	font-size: 20px;
+	/* float: right; */
+}
+
+.site-nav a:hover, .dropdown:hover .dropbtn {
+	display:block;
+	background-color: #f5f5f5;
+}
+/*
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 15px;
+    background-color: inherit;
+		margin: 0;
+		width: 100%;
+		border-radius: 8px;
+		text-decoration: &9660;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ffffff;
+} */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.fa-arrow-down{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+.fa-arrow-down.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
 }
 
 /* --------------------------------------------------
@@ -458,7 +578,7 @@ figcaption {
 	font-style: italic;
 }
 blockquote {
-	font: 1.5em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1.5em 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
 	color: #6d6d6d;
 	padding-left: 1em;
@@ -477,7 +597,7 @@ article footer {
 	padding: 1em 0;
 }
 dt {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	color: #42659A;
@@ -503,12 +623,306 @@ dd {
 	width: 50%;
 	text-align: right;
 }
-.previous:before {
-	content: '\00ab\00a0';
+
+/* --------------------------------------------------
+   edition styles
+-----------------------------------------------------*/
+
+div#TEI {
+	/* float: left; */
+	/* width: 40%; */
+	/* margin-bottom: 150px; */
+	font-size: larger;
+	overflow-y: auto;
+	padding: 20px;
+
 }
-.next:after {
-	content: '\00a0\00bb';
+div#image-viewer {
+	margin-left: 50%;
+	background-color: pink;
 }
+
+div#edition-notes {
+	/* position:fixed;
+	left:0;
+	bottom: 0;
+	height: 120px;
+	overflow: auto;
+	background-color: #f5f5f5;
+	width:100%;
+	padding-left: 10px; */
+	padding: 10px;
+}
+
+h1.title {
+	padding: 0 1em;
+	font-size: 1.5em;
+	margin: 0 auto;
+}
+
+#folio {
+	max-width: 4em;
+	min-width: 4em;
+	display: inline-block;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin: 0 0 3% 11%;
+	font-size: x-large;
+	color: #5f0000;
+}
+.prevnext {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	margin: 0 0 1% 0;
+}
+
+#TEI-title {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2em;
+	margin: 5% 0 0 0;
+	color: #5f0000;
+}
+
+#TEI-tools {
+	background: #f5f5f5;
+	padding: 15px;
+	/* width:100%;
+	overflow:hidden;
+	display:flex;
+	flex-direction: row; */
+}
+
+div#TEI-tools * {
+    vertical-align: middle;
+}
+
+
+/* #mstitle {
+	width:25%;
+} */
+
+/* #mstitle h1  */
+#mstitle {
+	/* display:inline; */
+	font-size:medium;
+}
+
+#folio-nav {
+	/* width:10%; */
+	text-align:center;
+	font-size:large;
+}
+
+#tools {
+	width:65%;
+}
+
+#show-french, #expand, #reconstruction, #rajna, #notes, #source-code, #status  {
+display:inline;
+padding-left:10px;
+}
+
+#status {
+	float:right;
+	font-size:small;
+}
+
+img#github {
+	max-width: 9%;
+    display: inline-block;
+	height: auto;
+	margin: 0 4px 0 0;
+}
+
+#openseadragon1, #TEI {
+
+/* width: 50%; */
+ height: 78vh;
+  /* float: right; */
+}
+
+/* Custom scrollbar styling */
+#TEI::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#TEI::-webkit-scrollbar {
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#TEI::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(250, 250, 250, 0.3);
+	background-color: #5f0000;
+}
+
+tei-l {
+	width: revert;
+	margin-left: revert;
+}
+
+#edition-viewer {
+	width:90%;
+	margin:auto;
+}
+
+
+
+/* CSS from rails site */
+/* #rajnaCheckbox {
+	display: block;
+}
+
+#rajna-form {
+	display: inline;
+	float: none;
+}
+
+#rajna-label {
+	float: none;
+	display: inline;
+	text-decoration: none;
+} */
+
+.iiif_image {
+	border-left: 1px solid gray;
+	width: 40%;
+	height: 890px;
+	border-style: groove;
+	display: inline-block;
+	position: absolute;
+	float: left;
+}
+
+#edition-toc  {
+	position:fixed;
+	left:0;
+	overflow: auto;
+  	background-color: #f5f5f5;
+  	padding-left: 0px;
+}
+
+/* --------------------------------------------------
+   ms intro styles
+-----------------------------------------------------*/
+
+div.thinwrapper {
+	width:80%;
+	margin:auto;
+}
+
+div#toc-header {
+	float: left;
+	color: #5f0000;
+	margin: 5% 0 0 0;
+	display: inline-block;
+}
+
+
+div#toc {
+	/* width: 40%;
+	float: left; */
+	margin: 5% 0 0 10%;
+}
+
+div#toc-img {
+	width: 50%;
+	float: left;
+}
+
+h1#edition-criteria-for-padua {
+	margin: 10% 0 0 0;
+	color: #5f0000;
+}
+
+h1#ms-intro {
+	margin: 8% 0 0 0;
+	color: #5f0000;
+}
+
+.ms-intro-toc {
+	margin: 5% 0 0 5%;
+}
+img#toc {
+    /* float: left;
+    display: inline-block; */
+	border: 2px solid #5f0000;
+	/* width: 40%; */
+	/* margin: 5% 0 5% 5%; */
+}
+#toc ol {
+	font-size: small;
+}
+
+#toc h2 {
+	font-size: 2em;
+	color: #000;
+	font: 'Barlow Semi Condensed', sans-serif;
+}
+
+#toc a {
+	font-size: 1em;
+	font: 'Barlow Semi Condensed', sans-serif;
+	color: #5f0000;
+    font-size: x-large;
+}
+
+#toc ol > li {
+	color: #D6D6D6;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+#edition-footer {
+    margin: 75% 0 0 0;
+}
+
+hr#nav-break {
+    margin-top: 9%;
+    width: 100%;
+}
+
+i.updated {
+	color: green;
+}
+h2#ms-intro {
+	color: #5f0000;
+	margin: 4% 0 2% 2%;
+	font-size: x-large;
+}
+#editions, #collaborators {
+	text-align: center;
+	font-size: larger;
+}
+hr#toc {
+    margin-left: -.5em;
+}
+#status p {
+	font-size: inherit;
+}
+
+/* #toc ol {
+	counter-reset: item;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	padding-left: 3.5em;
+	line-height: 2.5em;
+}
+#toc ol>li {
+	color: lightgray;
+	float: left;
+	padding-right: 25%;
+	display: block;
+	list-style-type: lower-roman;
+	width: 100%;
+} */
+
+/* HERE */
+/* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
+
 /* --------------------------------------------------
    archive styles
 -----------------------------------------------------*/
@@ -613,11 +1027,14 @@ aside li {
    main footer styles
 -----------------------------------------------------*/
 .page-footer {
-  font-family: 'Helvetica Narrow', Arial, sans-serif;
-  background: #white;
+  	font-family: 110% 'Barlow Semi Condensed', sans-serif;
+  	background: white;
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: black;
+	clear: both;
+	border-top:1px solid #e8e8e8;
+	width: 100%;
 }
 .legal {
     font-size: .75em;
@@ -655,7 +1072,7 @@ aside li {
 }
 
 img#logo_unf {
-	margin-top: -1em;
+  margin-top: -1em;
 }
 
 img#logo_marucelliana {
@@ -666,14 +1083,60 @@ img#logo_marucelliana {
 /* --------------------------------------------------
    Smaller screen styles
 -----------------------------------------------------*/
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 992px) {
+/* --------------------------------------------------
+   ms intro styles
+-----------------------------------------------------*/
+
+div.thinwrapper {
+	width: 92%;
+}
+
+/*---------------------------------------------------
+	index page styles
+----------------------------------------------------*/
+/* div.col-1 */
+#big-l {
+	display: none !important;
+}
+
+/* div.col-2 */
+#index-content {
+	width: 100%;
+	/* display: flex;
+	flex-direction: column; */
+	justify-content: center;
+
+}
+
+p.intro::first-letter {
+	color: tomato;
+	font-size: 60px;
+}
+
+p.intro:before {
+	content: "LINKING INSTITUTIONS ";
+	font-weight: bold;
+}
 
 .right, .left {
 	float: none;
 }
+
+div.intro > p {
+	font-size: large;
+}
+
+div#initial {
+	display: none;
+}
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
+#site-title a {
+	font-size: 1.3rem !important;
+}
+
 nav {
 	background: none;
 	margin-bottom: 1em;
@@ -682,12 +1145,10 @@ nav ul {
 	display: none;
 }
 nav li {
-	background: #42659A;
+	/* background: #42659A; */
 	margin-bottom: .2em;
 }
-nav li:hover {
-	background: #333;
-}
+
 nav li a {
 	font-size: 1.2em;
 	font-weight: 100;
@@ -701,14 +1162,11 @@ nav li a {
 	max-width: 100%;
 	width:100%;
 }
-nav li a:hover {
-	color: white;
-}
-/*toggle check styles*/
+
 .toggle-label {
 	display: block;
 	background: #42659A;
-	font: 0.8em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 0.8em 'Barlow Semi Condensed', sans-serif;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: white;
@@ -744,6 +1202,9 @@ dd{
 	margin-bottom: 1em;
 }
 }
+
+
+
 /* --------------------------------------------------
    Larger screen styles
 -----------------------------------------------------*/
@@ -751,22 +1212,28 @@ dd{
 /* --------------------------------------------------
    layout styles
 -----------------------------------------------------*/
+p.intro:before {
+	content: "INKING INSTITUTIONS ";
+	font-weight: bold;
+}
+
 html {
-	background: #white;
+	background: white;
 }
 body {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 .page-header {
-	padding: 0 3%;
-	padding-top: 1em;
+	border-bottom: 1px solid #e8e8e8;
+	width:100%;
+	height:100px;
 }
-.index, .archive {
+/* .index, */
+ .archive {
   display: inline-block;
   width: 100%;
-  padding-right: 8%;
-  padding-left: 10%;
+  /*padding: 0 8% 0 10%;*/
 }
 aside {
 	float: left;
@@ -780,21 +1247,36 @@ aside {
    header styles
 -----------------------------------------------------*/
 header h1 {
-	font-size: 3em;
+	float:left;
+	margin:0;
+
 }
-header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+
+.page-header p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #5f0000;
 	text-transform: uppercase;
+	float:left;
+	display:inline-block;
 }
+
+.headerleft .headerright {
+	width: 100%;
+}
+
+
 /* --------------------------------------------------
    top navigation styles
 -----------------------------------------------------*/
-nav {
-	background: none;
-	margin-bottom: 2em;
-}
+.dropdown-item {
+	text-transform: capitalize !important;
+} 
+
+/* nav {
+float:right;
+} */
+
 #menu-toggle, .toggle-label {
 		display: none;
 	}
@@ -803,24 +1285,20 @@ nav ul {
 	margin: 0;
 	list-style: none;
 	min-height: 0;
-  float: right;
+  	float: right;
 }
 nav li {
 	display: inline-block;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
-  font-variant: small-caps;
+	font: 1em 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
+  	font-variant: small-caps;
 	color: #5f0000;
 	margin-right: 0.5em;
 	padding: .25em 1em;
 	display: inline-block;
 	text-decoration: none;
 	letter-spacing: 0.1em;
-}
-nav li a:hover {
-	color: white;
-	background: #333;
 }
 
 /* --------------------------------------------------
@@ -829,6 +1307,8 @@ nav li a:hover {
 article p {
 	font-size: 1.125em;
 	line-height: 1.4;
+	width:80%;
+	margin:auto;
 }
 a.more {
 	margin: 0.5em 0;
@@ -839,19 +1319,175 @@ a.more {
 .legal {
 	text-align: center;
 }
+
+/*---------------------------------------------------
+	index page styles
+----------------------------------------------------*/
+/* div.col-1 {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
-/* Local Styles - to be moved into separate files later */
+div.col-2 {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+
+} */
+
+.intro {
+    padding-top: 7%;
+}
 
 img#initial {
-  max-width: 25%;
-  float: left;
-  padding-right: 10px;
-  margin-top: -190px;
-  margin-left: -222px;
-  margin-bottom: -450px;
+	max-width: 65%;
+	max-height: 85%;
+	/* padding-right: 5px; */
 }
 
-p.intro {
-    margin-top: 10em;
+#index-content div {
+	padding-right: 2px;
+	padding-left: 2px;
 }
+
+.index {
+	/* display: flex;
+	flex-direction: row; */
+	justify-content: center;
+	font-size: large;
+}
+
+/* --------------------------------------------------
+   custom home page 
+-----------------------------------------------------*/
+
+#initial img {
+  max-width: 40%;
+  display:inline-block;
+  /* float:right; */
+}
+
+div#initial {
+width:20%;
+float:left;
+}
+
+.flourish img {
+max-width:40%;
+display:block;
+margin:10%;
+float:right;
+}
+
+div.flourish {
+	width:20%;
+float:left;
+}
+
+div.intro {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;
+	/* float:left; */
+	text-align:justify;
+	width:70%;
+	margin-top:50px;
+}
+
+.page-break {
+	color: blue;
+}
+
+#post-content {
+	float: left;
+	width: 50%;
+	margin-top: 1%;
+}
+
+/* unsure what these do... maybe the ul and li from p-intro.md */ 
+
+/* ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-right: 20px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+} */
+
+/* --------------------------------------------------
+   main footer styles
+-----------------------------------------------------*/
+
+/* Toggle buttons */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 20px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #5f0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px a10d09;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider::after {
+  position:relative;
+  right:-55px;
+
+/* content: "Scribal" */
+}
+}
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+
+<body>
+{% include header.html %}
+
+<main class="page-content" aria-label="Content">
+    <div class="thinwrapper"> 
+        <div class="container-fluid">
+            <div class="row justify-content-md-center">
+                <div class="col-sm-12 col-md-9">
+                    <h1>{{page.title}}</h1>
+                    <p id="demo"></p>
+                    {% if page.sigla == 'B' or page.sigla == 'T' or page.sigla == 'P' or page.sigla == 'Br' %}
+                    <h2>Introduction to Edition</h2>
+
+                    {% elsif page.sigla == 'BT' %}
+                    <h2>Introduction to Translation</h2>
+
+                    {% endif %}
+
+                    {% if page.sigla == 'B' %}
+                    <div id="teiHeader-B"></div>
+
+                    {% elsif page.sigla == 'T' %}
+                    <div id="teiHeader-T"></div>
+
+                    {% elsif page.sigla == 'P' %}
+                    <div id="teiHeader-P"></div>
+
+                    {% elsif page.sigla == 'Br' %}
+                    <div id="teiHeader-Br"></div>
+
+                    {% elsif page.sigla == 'BT' %}
+                    <div id="teiHeader-BT"></div>
+
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-6">
+                    {% if page.sigla == 'B' %}
+                        <img id="toc" src="../assets/images/b-intro.jpg">
+                    {% elsif page.sigla == 'T' %}
+                        <img id="toc" src="../assets/images/t-intro.jpg">
+                    {% elsif page.sigla == 'P' %}
+                        <img id="toc" src="../assets/images/p-intro.jpg">
+                    {% elsif page.sigla == 'Br' %}
+                        <img id="toc" src="../assets/images/br-intro.jpg">
+                    {% elsif page.sigla == 'BT' %}
+                        <img id="toc" src="../assets/images/b-intro.jpg">
+                    {% endif %}
+                </div>
+                <div class="col-md-6">
+                    <div id="toc">
+                        <h2>Table of Contents</h2>
+                        <hr id="toc">
+                        <ol>
+                            {% if page.sigla == 'B' or page.sigla == 'T' or page.sigla == 'P' or page.sigla == 'Br' %}
+                            <li><a href="{{page.criteria}}">Edition Criteria</a></li>
+                            {% elsif page.sigla == 'BT' %}
+                            <li><a href="{{page.criteria}}">Translation Methodology</a></li>
+                            <li><a href="{{page.edition}}">Translation</a></li>
+                            {% endif %}
+                            {% if page.sigla == 'B' %}
+                            <li><a href="{{page.edition}}">Digital Edition</a></li>
+                            <li><a href="{{page.translation}}">Berlin Translation</a></li>
+                            {% elsif page.sigla == 'T' or page.sigla == 'P' or page.sigla == 'Br' %}
+                            <li><a href="{{page.edition}}">Digital Transcription</a></li>
+                            {% endif %}
+                            <li><a href="{{page.facsimile}}">Digital Facsimile</a></li>
+                            {% if page.sigla == 'T' %}
+                            <li><a href="{{page.notebook}}">Rajna Notebook</a></li>
+                            {% endif %}
+                            <li>Concordance</li>
+                            <li>Codicology</li>
+                            <li>Glossary</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% include footer.html %}
+
+<script>
+
+var CETEIcean = new CETEI();
+
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/b.xml", function(data) {
+
+    var intro = data.querySelector("tei-acquisition")
+        document.getElementById("teiHeader-B").innerHTML = ""
+        document.getElementById("teiHeader-B").appendChild(intro)
+        CETEIcean.addStyle(document, data)
+  });
+
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/t.xml", function(data) {
+
+    var intro = data.querySelector("tei-acquisition")
+        document.getElementById("teiHeader-T").innerHTML = ""
+        document.getElementById("teiHeader-T").appendChild(intro)
+        CETEIcean.addStyle(document, data)
+  });
+
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/p.xml", function(data) {
+
+    var intro = data.querySelector("tei-acquisition")
+        document.getElementById("teiHeader-P").innerHTML = ""
+        document.getElementById("teiHeader-P").appendChild(intro)
+        CETEIcean.addStyle(document, data)
+  });
+
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/br.xml", function(data) {
+
+    var intro = data.querySelector("tei-acquisition")
+        document.getElementById("teiHeader-Br").innerHTML = ""
+        document.getElementById("teiHeader-Br").appendChild(intro)
+        CETEIcean.addStyle(document, data)
+  });
+
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/translation-b.xml", function(data) {
+
+    var intro = data.querySelector("tei-acquisition")
+        document.getElementById("teiHeader-BT").innerHTML = ""
+        document.getElementById("teiHeader-BT").appendChild(intro)
+        CETEIcean.addStyle(document, data)
+  });
+
+  /* TRYING TO GET CETEICEAN TO RETURN LINE NUMBERS
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/b.xml", function(data) {
+
+    /*
+    var linenumbers = data.querySelector("tei-l").getAttribute("data-n")
+        document.getElementById("demo").appendChild(linenumbers)
+        console.log(linenumbers)
+  });
+  
+  visible_ids.forEach(function (id) {
+      if (id){
+        var note = data.querySelector('tei-note[target="#'+ id +'"]')
+        document.getElementById('edition-notes').appendChild(note)
+        console.log(note)
+    */
+
+    </script>
+</body>
+</html>

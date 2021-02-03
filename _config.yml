@@ -1,3 +1,13 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -6,16 +16,71 @@
 title: Huon d'Auvergne Digital Archive
 description: "The Huon d'Auvergne Digital Archive publishes for the first time
 all four extant Franco-Italian manuscripts of the Huon d'Auvergne romance-epic."
-tagline: "A digital edition of Huon d'Auvergne, a pre-modern, Franco-Italian Epic."
-baseurl: "" #add in later in deployment: /hda
-url: "" #add in later in deployment in deploytment: http:huondauvergne.org
+tagline: "A digital edition and translation of Huon d'Auvergne, a pre-modern, Franco-Italian Epic"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.huondauvergne.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username: SteveWLU
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-include: _pages
+
+collections:
+  b-edition:
+        title: "Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)"
+          description: "Berlin Edition"
+  t-edition:
+        title: "Turin, Biblioteca nazionale universitaria N III 19"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Turin, Biblioteca nazionale universitaria N III 19"
+          description: "Turin Edition"
+  p-edition:
+        title: "Padua, Biblioteca del seminario vescovile, MS 32"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Padua, Biblioteca del seminario vescovile, MS 32"
+          description: "Pauda Edition"
+          attribution: "jekyll-iiif demo"
+          logo: "logo.jpg"
+  br-edition:
+        title: "Bologna, Biblioteca Comunale dell'Archiginnasio, MS B. 3489"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Bologna, Biblioteca Comunale dell'Archiginnasio, MS B. 3489"
+          description: "Barbieri Edition"
+  b-translation:
+        title: "Berlin, Kupferstichkabinett 78 D 8 (olim Hamilton 337)"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Translation of Berlin, Kupferstichkabinett 78 D 8"
+          description: "Berlin Translation"
+  r-edition:
+        title: "Florence, Biblioteca Marucelliana, Carte Rajna XIX.15"
+        output: true
+        iiif: true
+        paged: true
+        fields:
+          label: "Franco-Italian Huon d'Auvergne as conserved in Florence, Biblioteca Marucelliana, Carte Rajna XIX.15"
+          description: "Rajna Notebook"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

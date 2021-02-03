@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="contents">
+        <pb xml:id="toc"/>
+        <head type="section">Table of Contents</head>
+        <list type="simple">
+          <item><ref target="#intro">1. Introduction</ref></item>
+          <item><ref target="#caps">2. Capitalization</ref></item>
+          <item><ref target="#punct">3. Punctuation</ref></item>
+          <item><ref target="#abbr">4. Abbreviations</ref></item>
+          <item><ref target="#separ">5. Separation of Words</ref></item>
+        </list>
+      </div>
+    </front>
+    <body>
+
+      <!-- 1. INTRODUCTION -->
+      <pb xml:id="intro"/>
+      <div type="intro">
+        <head type="section"><ref target="#toc">&#10081; 1. Introduction </ref></head>
+        <p>For the Berlin <hi rend="italics">Huon d'Auvergne</hi>, punctuation and citations are
+          according to the general norms outlined in the overall document. However, the Berlin <hi rend="italics">Huon
+          d'Auvergne</hi> is very close to Old French. For that reason we keep close to the most
+          respected norms for Old French editions. There are situations in which Old French norms do
+          not work with the Franco-Italian text, so these are made explicit in the following
+          list.</p>
+      </div>
+
+      <!-- 2. CAPITALIZATION -->
+      <pb xml:id="caps"/>
+      <div type="caps">
+        <head type="section"><ref target="#toc">&#10081; 2. Capitalization</ref></head>
+        <p>Capitalization is as in French: of nouns, not adjectives for origins; thus, <hi rend="italics">le g[ra]nt
+          Françoi</hi> (v. 9042), but <hi rend="italics">la françoise gient</hi> (v. 11494). We capitalize names of places,
+          names of people, but not titles unless part of a place name (e.g., <hi rend="italics">saint Laçaron</hi>, v.
+          2232, but <hi rend="italics">Saint Pol</hi>, v. 7953). Names of God and Mary are capitalized, as are the
+          pronominalized attributes used for them (<hi rend="italics">Diex</hi>; <hi rend="italics">Marie</hi>; <hi rend="italics">Verge</hi>; <hi rend="italics">Crucifis</hi>; etc.), but
+          not pronouns refering to them.</p>
+        <p>"v." designates a line number in order to avoid confusion with the number one that use of
+          the English "l." could create (it looks too much like the number one), and "vv." stands
+          for "lines."</p>
+      </div>
+
+      <!-- 3. PUNCTUATION -->
+      <pb xml:id="punct"/>
+      <div type="punct">
+        <head type="section"><ref target="#toc">&#10081; 3. Punctuation</ref></head>
+        <p>Periods appear at the end of most lines as well as before and after some names, rather
+          inconsistently (e.g., Uliens., v. 10093; rois .agollāt., v. 10092). Similarly, numbers,
+          here always Roman numerals (not Arabic), appear relatively consistently with periods
+          around them:</p>
+
+        <figure>
+          <graphic n="10238" url="../assets/images/mss/b-vii-punct.png"/>
+        </figure>
+
+        <p>These we have conventionalized through the text.</p>
+
+        <p>In the initial folios, there is a slash between the two hemistichs of each line (v.
+          338).</p>
+
+        <figure>
+          <graphic n="338" url="../assets/images/mss/b-hemistich-punct.png"/>
+        </figure>
+
+        <p>Consecutive usage of this slash stops at the end of 18Rb; 47Rb also contains lines with
+          the divider as do occasional lines throughout the manuscript, with no evident plan (47Rb;
+          53Va; 62V- 63R; 72Ra; 73Vb; 84V).</p>
+
+        <p>There is usually a dot at the end of each line in the MS.</p>
+
+        <p>[...] : Three points in square brackets represents missing text in the MS; there are
+          incomplete lines and missing lines between completed lines.</p>
+
+        <p>&lt; &gt; are used for interpolations, either our additions, suggestions from other
+          editors, or information gleaned from other sources. These are all annotated.</p>
+
+        <p>We use conventional modern punctuation: commas, colons, semicolons, etc., with the
+          addition of the raised dot (∙). This is used in two cases:</p>
+
+        <list type="numbered">
+          <item>To designate the enclisis of an object pronoun initiating with vowel with a
+            preceding pronoun (personal or relative), preposition or conjunction ending in a vowel
+            so that the following pronoun begins with a consonant. Thus: <hi rend="italics">je∙l</hi> (v. 2631, 2812,
+            etc.) or <hi rend="italics">ge∙l</hi> (v. 4271, etc.); <hi rend="italics">me∙l</hi> (v. 1537, etc.); <hi rend="italics">mi∙s</hi> (v. 8906); <hi rend="italics">ne∙l</hi> =
+            negative + pronoun (v. 270, 472, etc.), <hi rend="italics">ne∙lle</hi> (v. 5530, 5573), <hi rend="italics">no∙l</hi> (v. 874, 8998);
+            <hi rend="italics">qe∙l</hi> (v. 5527), <hi rend="italics">qi∙l</hi> (v. 2457), <hi rend="italics">que∙l</hi> (v. 9247, 11365), <hi rend="italics">qui∙l</hi> (v. 398, etc.);
+            <hi rend="italics">si∙l</hi> (711, 2905, etc.) <hi rend="italics">te∙l</hi> (v. 6522, etc.); <hi rend="italics">ve∙l</hi> (v. 3844, etc.). For treatment
+            of definite articles, see "word division."</item>
+        </list>
+
+        <p>More to come in this section.</p>
+      </div>
+
+      <!-- 4. ABBREVIATIONS -->
+      <pb xml:id="abbr"/>
+      <div type="abbr">
+        <head type="section"><ref target="#toc">&#10081; 4. Abbreviations</ref></head>
+        <p>Berlin uses both a wide variety and frequent abbreviations, in comparison with, for
+          example, the <hi rend="italics">Roland</hi> V4 (Beretta xxiii-xxvii) or Aliscans (Holtus xxiii-xxiv). The
+          frequency may be partially due to a difference in text length, but is also in general
+          usage, with the result that the number of abbreviations in B's version of Huon is very
+          large.</p>
+        <p>We follow the most frequent fully-expanded form found in the text where possible; where
+          there is none (e.g. <hi rend="italics">parjurer</hi> and its forms) we follow either the rhyme, if the word in
+          question is in rhyme position; or the authoritative dictionary in the field if not it is
+          not (Tobler-Lommatzsch [TL] for Old French; the <hi rend="italics">Tesoro della lingua italiana delle
+          origini</hi> [TLIO] for Italian or <hi rend="italics">Dizionario etimologico italiano</hi> [DELI], where the example
+          is before or contemporary with our text, 1341; the <hi rend="italics">Glossarium mediae et infimae
+          latinitatis</hi> [DuCange] for Latin). The asterisk (*) stands for "in rhyme position." There
+          are a total of 12,317 expanded abbreviations in the text, and ten hiatuses where text is
+          missing.</p>
+        <p>Wherever the abbreviation creates a double letter, the abbreviation is written first.</p>
+        <p>We give examples of appearances of the resolution with the line number of its appearance,
+          and where there is a possible issue, we give the full form for comparison. Italics in the
+          edition itself are used for the expansions of abbreviations; here, italics with square
+          brackets [ ] represent the expanded word from the text with the expansion in the brackets.
+          For the MS form, we attempt to reproduce typographically the actual appearance where
+          possible, and otherwise provide a copy of an actual appearance from the MS. Since the
+          transcription is available to all, we do not give specific line numbers unless
+          necessary.</p>
+      </div>
+
+      <!-- abbreviations with apostrophe -->
+      <div type="table">
+        <head type="subsection">4.1. Apostrophe</head>
+        <table>
+          <row>
+            <cell role="label">[ab]</cell>
+            <cell>h'itason: <hi rend="italics">h[ab]itason</hi> (<hi rend="italics">habitason</hi>, v. 6601)</cell>
+          </row>
+          <row>
+            <cell role="label">[am], [ame]</cell>
+            <cell>Guill'e: <hi rend="italics">Guill[am]e</hi> (5 appearances); Guill': <hi rend="italics">Guill[ame]</hi> (2 appearances);
+              Guilla'me: <hi rend="italics">Guilla[u]me</hi> (2 appearances). Based on: <hi rend="italics">Guillame</hi> (v. 9086, 9092);
+              <hi rend="italics">Guielme</hi> (v. 9805). See also .W. below. </cell>
+          </row>
+          <row>
+            <cell role="label">[an]</cell>
+            <cell>roll't: <hi rend="italics">Roll[an]t</hi> (one appearance each <hi rend="italics">Rolland</hi> and <hi rend="italics">Rolla[n]t</hi>*)</cell>
+          </row>
+          <row>
+            <cell role="label">[ar]</cell>
+            <cell>K'lle: <hi rend="italics">K[ar]le</hi> (24 appearances); Ka'lle: <hi rend="italics">Ka[r]le</hi> (9 appearances); <hi rend="italics">K[ar]lles</hi>
+              (2 appearances); Ka[r]lles (1 appearance); <hi rend="italics">Ka[r]lle[s]</hi> (1 appearance); <hi rend="italics">K[ar]llon</hi>
+              (19 appearances, 11 in rhyme position); <hi rend="italics">K[ar]llon</hi> (3, in rhyme position);
+              <hi rend="italics">K[ar]ll[e]</hi> (1 appearance); <hi rend="italics">K[arlle]</hi> (1 appearance). Based on: <hi rend="italics">Karlle</hi> (5);
+              <hi rend="italics">Karllon</hi> (2, 1 in rhyme position).</cell>
+          </row>
+          <row>
+            <cell role="label">[e], [es]</cell>
+            <cell>d': <hi rend="italics">d[e]</hi>, <hi rend="italics">d[es]</hi> (to agree with following noun form);ierl'm; isrl'm:
+              <hi rend="italics">Jer[usa]l[e]m</hi>, <hi rend="italics">J[e](ru)s[a]l[e]m</hi> (2appearances of <hi rend="italics">Jerusalem</hi>; 3 of <hi rend="italics">Jerusalant</hi>*)
+            </cell>
+          </row>
+          <row>
+            <cell role="label">[er]</cell>
+            <cell>B'tagne/B'taigne: <hi rend="italics">B[er]tagne</hi>/<hi rend="italics">B[er]taigne</hi>; <hi rend="italics">v[er]goigné</hi>; <hi rend="italics">Alv[er]naus</hi>,
+              <hi rend="italics">Av[er]ne</hi>, <hi rend="italics">Auv[er]gne</hi>, etc.; <hi rend="italics">av[er]sai[r]e</hi>; <hi rend="italics">rev[er]tie</hi>; <hi rend="italics">v[er]tu</hi>; <hi rend="italics">V[er]ge</hi>;
+              <hi rend="italics">crev[er]</hi>*; <hi rend="italics">env[er]s</hi> </cell>
+          </row>
+          <row>
+            <cell role="label">[ival]</cell>
+            <cell>ch'r: <hi rend="italics">ch[ival]er</hi>, <hi rend="italics">ch[ivale]rie</hi> (<hi rend="italics">chivaler</hi>, 6 appearances; <hi rend="italics">chivalerie</hi>,
+              once)</cell>
+          </row>
+          <row>
+            <cell role="label">[o]</cell>
+            <cell>m'lt: <hi rend="italics">m[o]lt</hi>, 7 (<hi rend="italics">molt</hi>, 8 appearances; <hi rend="italics">molte</hi> v. 1308)</cell>
+          </row>
+          <row>
+            <cell role="label">[u]</cell>
+            <cell>sb'tāce: <hi rend="italics">s[u]bsta[n]ce</hi> (cf. <hi rend="italics">substa[n]ce</hi> v. 9889); sb'teīr: <hi rend="italics">s[u]bste[n]ir</hi>;
+              <hi rend="italics">D[omi]n[u]m-</hi></cell>
+          </row>
+          <row>
+            <cell role="label">[us], [s]</cell>
+            <cell>brāch': <hi rend="italics">bra[n]ch[us]</hi>; iū': <hi rend="italics">ju[s]</hi>; vēc': <hi rend="italics">ve[n]c[us]</hi>*; <hi rend="italics">pl[us]</hi>
+              <hi rend="italics">laudam[us]</hi></cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with tironian note -->
+      <div type="table">
+        <head type="subsection">4.2. 7 (tironian note)</head>
+        <table>
+          <row>
+            <cell role="label">[et]</cell>
+            <cell>1085 appearances (et appearances 613, e 436 appearances in text, with no
+              distinction of position; that is, e appears before vowels and consonants, as does et).
+              Thus we follow the convention of other Franco-Italian editions (Beretta, Holtus,
+              Wunderli) and use [et].</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'r' -->
+      <div>
+        <head type="subsection">4.3. Abbreviations with 'r'</head>
+        <figure>
+          <graphic n="78" url="../assets/images/mss/b-olo-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label">[r]</cell>
+            <cell><hi rend="italics">hono[r]</hi> (99 appearances), <hi rend="italics">Ka[r]lles</hi> (see above, <hi rend="italics">K'lle</hi>), <hi rend="italics">aut[r]e</hi> (autre(s),
+              360 appearances)</cell>
+          </row>
+          <row>
+            <cell role="label">[er]</cell>
+            <cell><hi rend="italics">h[er]nois</hi> (<hi rend="italics">hernois</hi>, 2 appearances); <hi rend="italics">t[er]min</hi> (<hi rend="italics">terme</hi>, 2 appearances);
+              <hi rend="italics">habit[er]</hi> (<hi rend="italics">habiter</hi>, 4 appearances) <hi rend="italics">et[er]ne</hi> (eterne, v. 8841); <hi rend="italics">v[er]tu</hi>
+              (<hi rend="italics">vertu(s)</hi>, 7 appearances); <hi rend="italics">s[er]pent</hi> (<hi rend="italics">serpent</hi>, v. 8673); <hi rend="italics">s[er]ve</hi> (33 forms of
+              <hi rend="italics">serv-</hi>); <hi rend="italics">v[er]ités</hi>; <hi rend="italics">v[er]ser</hi> </cell>
+          </row>
+          <row>
+            <cell role="label">[ir]</cell>
+            <cell><hi rend="italics">v[ir]tus</hi> (Latin; DuCange); <hi rend="italics">asp[ir]</hi>, v. 10762 (cf. <hi rend="italics">aspirt</hi>, v. 8063)</cell>
+          </row>
+          <row>
+            <cell role="label">[ro]</cell>
+            <cell><hi rend="italics">ba[ro]ner</hi> (<hi rend="italics">baron-</hi>, 86 occurrences)</cell>
+          </row>
+          <row>
+            <cell role="label">[re]</cell>
+            <cell><hi rend="italics">aut[re]s</hi> (360 forms), <hi rend="italics">pe[re]gri[n]e</hi> (<hi rend="italics">peregris</hi>, v. 9172*)</cell>
+          </row>
+          <row>
+            <cell role="label">[ré]</cell>
+            <cell><hi rend="italics">ap[ré]s</hi> (26 appearances,TL <hi rend="italics">après</hi>); <hi rend="italics">p[ré]s</hi> (38 appearances, TL <hi rend="italics">près</hi>)</cell>
+          </row>
+          <row>
+            <cell role="label">[ri]</cell>
+            <cell><hi rend="italics">p[ri]me</hi>, <hi rend="italics">p[ri]meran</hi> and various combinations (48 appearances; cf. <hi rend="italics">primer/e</hi>
+              5/1; <hi rend="italics">primeran/e</hi> 8 apperances), <hi rend="italics">prime</hi> (1)), <hi rend="italics">pet[ri]ne</hi> (2 apperarances, cf.
+              <hi rend="italics">petral</hi>, v. 6209; <hi rend="italics">petrine</hi>, v. 9627); <hi rend="italics">C[ri]ator</hi> (<hi rend="italics">Criator</hi>, 15 appearances;
+              <hi rend="italics">Creator</hi>, 9 appearances)</cell>
+          </row>
+          <row>
+            <cell role="label">[ra]</cell>
+            <cell><hi rend="italics">g[ra]nt</hi> (<hi rend="italics">grant</hi>, 153 appearances)</cell>
+          </row>
+          <row>
+            <cell role="label">[or]</cell>
+            <cell><hi rend="italics">vanegl[or]ie</hi> (<hi rend="italics">vaneglorie</hi>, 3 appearances); <hi rend="italics">gl[or]iois</hi> (<hi rend="italics">glorios</hi>, 3
+              appearances; <hi rend="italics">gloriois</hi>, v. 156) </cell>
+          </row>
+          <row>
+            <cell role="label">[tr]</cell>
+            <cell><hi rend="italics">m[etr]erent</hi>, <hi rend="italics">me[tre]rent</hi> (metre, v. 519; <hi rend="italics">metroit</hi> 2 appearances, etc.)</cell>
+          </row>
+          <row>
+            <cell role="label">[ur]</cell>
+            <cell><hi rend="italics">nat[ur]e</hi> (7100)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'con/com' -->
+      <div>
+        <head type="subsection">4.4. Abbreviations with 'con' / 'com'</head>
+        <figure>
+          <graphic url="../assets/images/mss/b-Ͻ-abbr.png"/>
+          <!-- find line number -->
+        </figure>
+        <table>
+          <row>
+            <cell role="label">[con] or [com]</cell>
+            <cell><hi rend="italics">con</hi> appears 6 times alone; two of these are for "conte," referring to Huon (v.
+              641, 3491); one is for the conjunction "comme" (v. 708); the other three are "with"
+              <hi rend="italics">com</hi> appears 175 times as an adverb and a conjunction. Therefore the one time that
+              the abbreviation appears alone as a preposition, we expand as <hi rend="italics">[con]</hi> (v. 2516) and
+              the one time it appears alone as a conjunction we expand as <hi rend="italics">[com]</hi> (v. 2280). When
+              the abbreviation is used within a word, in general we expand <hi rend="italics">[con]</hi>, e.g.,
+              <hi rend="italics">[con]q[ui]st</hi>, v. 49, but before vowels and the labials b and p we expand as <hi rend="italics">[com]</hi>,
+              following the usage of the text; e.g., <hi rend="italics">co[m]bate</hi>, v. 1099; <hi rend="italics">[com]peigno[n]s</hi>, v. 78
+              (example, above). </cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with dot above n/e -->
+      <div>
+        <head type="subsection">4.5. dne with a dot above between the n and e (7 appearances)</head>
+        <table>
+          <row>
+            <cell><hi rend="italics">D[omi]ne</hi>, from Latin, similarly <hi rend="italics">D[omi]n[u]m</hi>; cf. v. 6063 with the full form
+              and v. 3318, <hi rend="italics">Domi[n]e</hi> </cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with titulus -->
+      <div>
+        <head type="subsection">4.6. titulus (long line above vowel)</head>
+        <table>
+          <row>
+            <cell role="label">[en]</cell>
+            <cell><hi rend="italics">ente[n]dim[en]t</hi>, <hi rend="italics">co[n]v[en]t</hi>, etc., both in rhyme; <hi rend="italics">Devotem[en]t</hi>, not in
+              rhyme.</cell>
+          </row>
+          <row>
+            <cell role="label">[m]</cell>
+            <cell>before labials: e.g., <hi rend="italics">aco[m]plir</hi>; <hi rend="italics">fla[m]be</hi>, but not across word boundaries:
+              e.g., <hi rend="italics">i[n] parolle</hi>, though the MS itself does not follow that rule at times, e.g.,
+              <hi rend="italics">Em p[ar]durable</hi> (v. 9790). Exception: <hi rend="italics">no[n]portant</hi> (cf. v. 6082, where the <hi rend="italics">non</hi>
+              seems to be felt still in its complete form). <hi rend="italics">cu[m]</hi>, <hi rend="italics">co[m]</hi> for adverb or
+              conjunction (MSI come, MSF comme); <hi rend="italics">cum</hi> full form, 254 appearances; <hi rend="italics">com</hi> full form,
+              75 appearances; cu[m] 220 appearances, co[m] 2 appearances. This was a surprising
+              situation: <hi rend="italics">con</hi>, for the preposition "with," appears only 3 times. <hi rend="italics">Com</hi> also
+              functions as a preposition, so the 56 times <hi rend="italics">cū</hi> functions as a preposition, it must
+              be resolved <hi rend="italics">cu[m]</hi>; <hi rend="italics">cō</hi>, however, can be resolved as <hi rend="italics">co[n]</hi> (one time, v.
+              5804).</cell>
+          </row>
+          <row>
+            <cell role="label">[m]</cell>
+            <cell>for Latin finals: <hi rend="italics">s[er]vu[m]</hi>, v. 6938</cell>
+          </row>
+          <row>
+            <cell role="label">[n]</cell>
+            <cell><hi rend="italics">no[n]</hi>, <hi rend="italics">co[n]</hi>, <hi rend="italics">cu[n]</hi> (<hi rend="italics">con</hi>, full form for "with," 3 appearances, as
+              preposition—see above); where doubled, the abbreviated [n] or [m] is written first,
+              e.g., <hi rend="italics">enco[m]me[n]ce</hi>; in cases where the two different, we follow modern convention:
+              e.g., <hi rend="italics">om[n]ipote[n]t</hi> </cell>
+          </row>
+          <row>
+            <cell role="label">[omi]</cell>
+            <cell><hi rend="italics">d[omi]ne</hi> in Latin quotes, e.g., v. 8443</cell>
+          </row>
+          <row>
+            <cell role="label">[on]</cell>
+            <cell><hi rend="italics">s[on]t</hi>, v. 888; <hi rend="italics">n[on]</hi> (<hi rend="italics">non</hi>, 688 appearances; <hi rend="italics">nen</hi>, 15 appearances)</cell>
+          </row>
+          <row>
+            <cell role="label">[u]</cell>
+            <cell><hi rend="italics">to[u]t</hi> (perhaps from copyist error reading 'n'?) v. 1086</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'v' over vowel -->
+      <div>
+        <head type="subsection">4.7. titulus (long line above vowel)</head>
+        <table>
+          <row>
+            <cell role="label">[st]</cell>
+            <cell>ē: <hi rend="italics">e[st]</hi> (70 times; cf. Holtus, <hi rend="italics">Aliscans</hi>, where this appears 63 times, p.
+              XXIII; e.g., here v. 10305)</cell>
+          </row>
+          <row>
+            <cell role="label">[est]</cell>
+            <cell>pōes: <hi rend="italics">po[est]és</hi> (v. 10305)</cell>
+          </row>
+          <row>
+            <cell role="label">[s]</cell>
+            <cell>nō: <hi rend="italics">no[s]</hi> (v. 5748)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations for 'ost' -->
+      <div>
+        <head type="subsection">4.8. The abbreviation 'nre'</head>
+        <figure>
+          <graphic url="../assets/images/mss/b-nre-abbr.png"/>
+          <!-- find line number -->
+        </figure>
+        <table>
+          <row>
+            <cell role="label"><hi rend="italics">n[ost]re</hi></cell>
+            <cell>(6 appearances; 18 <hi rend="italics">nostre</hi>, 10 <hi rend="italics">notre</hi>, 4 <hi rend="italics">notra</hi> when unabbreviated)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'p' -->
+      <div>
+        <head type="subsection">4.9. There are three abbreviations with the letter p plus the
+          standard abbreviation for "r" plus vowel.</head>
+        <table>
+          <row>
+            <cell role="label">ᵱ</cell>
+            <cell>The abbreviations of p are problematic due to the differences in development of
+              French and Italian area dialects. Two abbreviations are very specific and not
+              problematic, but the p with a cross-stroke over the descender can designate three
+              possible resolutions. In that case, we separate longer words from the abbreviation
+              alone. Most specific words or expressions can follow the most frequent appearances,
+              but the prepositions <hi rend="italics">par</hi>, <hi rend="italics">per</hi>, <hi rend="italics">por</hi> when alone pose a challenge. <hi rend="italics">par</hi> appears
+              206 times; <hi rend="italics">per</hi> 53, and <hi rend="italics">por</hi> 733. However, they have different meanings, these are
+              not just prepositions. <hi rend="italics">par</hi> is also from the verb "to appear," and furthermore
+              functions as an adverbial intensifier. <hi rend="italics">per</hi> means "father" (42 times), "jewel" (2
+              times), "stone" (two times), "peer (of the realm)" (1 time), "equal" (twice) and
+              "Peter" (once), and is the preposition only 11 times. Furthermore, the abbreviation of
+              a letter (<hi rend="italics">i</hi> or <hi rend="italics">r</hi>) above the letter appears with p. --When an abbreviation with p
+              appears within a lexical item, it follows the other words of the family where these
+              exist; if not, the listed lemma of TL or DELI (as appropriate to the form).</cell>
+          </row>
+          <row>
+            <cell role="label">[ar]</cell>
+            <cell><hi rend="italics">p[ar]don</hi> 3 unabbreviated forms with <hi rend="italics">pardon</hi>, none with <hi rend="italics">perdon</hi>, so all
+              resolved to <hi rend="italics">p[ar]don</hi>; <hi rend="italics">ap[ar]tient</hi> (there are no full forms, but 7 abbreviated
+              forms; TL lists <hi rend="italics">apartenir</hi> and its forms); <hi rend="italics">p[ar]don</hi> (cf. 5801, <hi rend="italics">pardona</hi>, et al.);
+              <hi rend="italics">p[ar]fon/de/s/nt/[n]t</hi> (TL <hi rend="italics">parfont</hi>); <hi rend="italics">p[ar]jur</hi> (no full forms; TL lists <hi rend="italics">parjurer</hi>
+              and its combinations); <hi rend="italics">p[ar]ler</hi> and its forms; <hi rend="italics">p[ar]tir</hi> and its forms;
+              <hi rend="italics">p[ar]tenir</hi> (see <hi rend="italics">ap[ar]tient</hi>); <hi rend="italics">p[ar]ame/t</hi> (TL <hi rend="italics">paramer</hi>); <hi rend="italics">p[ar] desus</hi> (5
+              appearances); <hi rend="italics">p[ar]durable</hi> (TL); <hi rend="italics">p[ar]manable</hi>, <hi rend="italics">p[ar]manray</hi> (TL <hi rend="italics">parmanable</hi>,
+              <hi rend="italics">parmanoir</hi>; cf. <hi rend="italics">porman</hi>, v. 9455); <hi rend="italics">p[ar]tenant</hi> (see <hi rend="italics">apartenir</hi>, above);
+              <hi rend="italics">p[ar]venir</hi> (cf. <hi rend="italics">parvi[n]t</hi>, v. 6007)</cell>
+          </row>
+          <row>
+            <cell role="label">[er]</cell>
+            <cell><hi rend="italics">p[er]cevoir</hi> (no full forms; cf. <hi rend="italics">percepire</hi> [DELI 1342], TL <hi rend="italics">apercevoir</hi> /
+              <hi rend="italics">apercoivre</hi>); <hi rend="italics">p[er]te/ament</hi> (apert, 3 appearances); <hi rend="italics">emp[er]er</hi> (cf. <hi rend="italics">emperer</hi>, v.
+              4807); <hi rend="italics">p[er]ceüe</hi> and related forms (see <hi rend="italics">ap[er]cevoir)</hi>; <hi rend="italics">p[er]chace[n]t</hi> (no full
+              forms; cf. <hi rend="italics">Aquilon de Bavière</hi> and use of "per" as intensifier for <hi rend="italics">peramer</hi>);
+              <hi rend="italics">p[er]dre</hi> and related forms; <hi rend="italics">p[er]dicion</hi> (TL <hi rend="italics">perdicïon</hi>); <hi rend="italics">p[er]e</hi> (cf. <hi rend="italics">per</hi>, 38
+              appearances; <hi rend="italics">pere</hi>, 42 appearances "father/s"); <hi rend="italics">p[er]egrin</hi> (cf. <hi rend="italics">peregris</hi>, v.
+              9172, <hi rend="italics">pereg(r)[i]nage</hi>, v. 7248); <hi rend="italics">p[er]fis</hi> (TL <hi rend="italics">perfide</hi>); <hi rend="italics">p[er]gamin</hi> (there is
+              nothing else like this in the MS -- TL lists parchemin and TLIO pergameno—because of
+              the following voiced consonant I chose this form); <hi rend="italics">p[er]ir</hi>, <hi rend="italics">p[er]il</hi> and related
+              forms (cf. <hi rend="italics">peril</hi> v. 9349; <hi rend="italics">perilos/e</hi> vv. 6987, 7278; <hi rend="italics">perir</hi>, vv. 1336, 10566);
+              <hi rend="italics">p[er]ine</hi> (cf. per, 4 appearances "stone; precious gem"); <hi rend="italics">p[er]on</hi> (<hi rend="italics">peron</hi> 7
+              appearances); <hi rend="italics">P[er]se</hi> (cf. <hi rend="italics">Pers</hi>, v. 4017); <hi rend="italics">p[er]son/e/s</hi> (TL <hi rend="italics">persone</hi>; DELI
+              <hi rend="italics">persona</hi>); <hi rend="italics">p[er]tu/s</hi> (TL <hi rend="italics">pertuis</hi>, DELI <hi rend="italics">pertugio</hi>); <hi rend="italics">sop[er]be</hi> (cf. TL
+              <hi rend="italics">superbe</hi>, <hi rend="italics">superbie</hi>; DELI <hi rend="italics">superbo</hi>, <hi rend="italics">superbia</hi>); <hi rend="italics">sop[er]chier</hi>, <hi rend="italics">sop[er]cler</hi>,
+              <hi rend="italics">sup[er]chier</hi> (DELI <hi rend="italics">soverchiare</hi>, <hi rend="italics">soperchiare</hi> av 1292); <hi rend="italics">sp[er]ance</hi> (cf.
+              <hi rend="italics">esperance</hi> v. 1233; <hi rend="italics">esperance/se</hi>; <hi rend="italics">sperance</hi> 2 appearances); <hi rend="italics">sp[er]du</hi> (cf.
+              <hi rend="italics">p[er]dre</hi> and related forms); <hi rend="italics">sp[er]on</hi> (cf. <hi rend="italics">esperon</hi> (TL <hi rend="italics">superne</hi>; DELI <hi rend="italics">superno</hi>
+              [Dante]); <hi rend="italics">temp[er]ance</hi> (<hi rend="italics">temperance</hi>, v. 1772)</cell>
+          </row>
+          <row>
+            <cell role="label">[or]</cell>
+            <cell><hi rend="italics">nonp[or]tant</hi> (cf. v. 6082, <hi rend="italics">portant</hi>, 3 appearances); <hi rend="italics">p[or]segui</hi>,
+              <hi rend="italics">p[or]sevrant</hi> (TL <hi rend="italics">porsivre</hi>, <hi rend="italics">porsivir</hi>; nothing similar); <hi rend="italics">p[or]longais</hi> (TL
+              <hi rend="italics">porloignier</hi>; DELI <hi rend="italics">prolungare</hi>; I have used the OF prefix here because of the vowel,
+              though the u of the DELI form is anaphonesis typical of the Tuscan area); <hi rend="italics">p[or]mi</hi>
+              (10 appearances in the text)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'p' and slash -->
+      <div>
+        <head type="subsection">4.10. p with a slash, longer on the left (cf. Aliscans, V4)</head>
+        <figure>
+          <graphic n="661" url="../assets/images/mss/b-pslash-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label">[ro]</cell>
+            <cell><hi rend="italics">p[ro]don/[n]</hi> (<hi rend="italics">prodom</hi>, 8 appearances; <hi rend="italics">prodom/e</hi>, 12 appearances; <hi rend="italics">prodon</hi>, 21
+              appearances); <hi rend="italics">p[ro]met</hi>, etc. (cf. <hi rend="italics">promis</hi>, <hi rend="italics">prometoit</hi>, etc.); <hi rend="italics">p[or]veüs</hi> (TL
+              <hi rend="italics">porvëoir</hi>): only 8 forms in the entire MS. Note that "<hi rend="italics">p[ar]fon</hi>" forms are clearly
+              –<hi rend="italics">ar</hi>- because of the abbreviation form (12 appearances), in the absence of any fully
+              expanded forms.</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'p' and short line or dot -->
+      <div>
+        <head type="subsection">4.11. ṗ (p with a short line over it); this form alternates with p with
+          double dot (see above)</head>
+        <figure>
+          <graphic n="9976" url="../assets/images/mss/b-pline-abbr.png"/>
+          <graphic n="9983" url="../assets/images/mss/b-pline2-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label">[re]</cell>
+            <cell><hi rend="italics">prendre</hi> and its forms with prefixes: <hi rend="italics">ap[re]ndre</hi>; <hi rend="italics">emp[re]ndre</hi>;
+              <hi rend="italics">mesp[re]ndoit</hi>; <hi rend="italics">porp[re]nent</hi>; <hi rend="italics">po[r]p[re]ndro[n]s</hi>; <hi rend="italics">p[re]nant</hi>; <hi rend="italics">rep[re]nt</hi>,
+              <hi rend="italics">sorp[re]ndre</hi> (TL <hi rend="italics">prendre</hi>; DELI <hi rend="italics">prendere</hi>); <hi rend="italics">ap[re]sente</hi> (present, 20
+              appearances); <hi rend="italics">ap[re]ste</hi> and forms (cf. <hi rend="italics">apreste</hi>/<hi rend="italics">té</hi>/<hi rend="italics">teç</hi>, 5 forms); <hi rend="italics">asp[re]ment</hi>
+              (cf. <hi rend="italics">aspre</hi> v. 10073, <hi rend="italics">Aspremo[n]t</hi> v. 10094); <hi rend="italics">p[re]cios</hi> (TL <hi rend="italics">precïos</hi>; DELI
+              <hi rend="italics">prezioso</hi>); <hi rend="italics">p[re]dica[n]se</hi> (TL <hi rend="italics">predicance</hi>; DELI <hi rend="italics">predicazione</hi>); <hi rend="italics">p[re]ga</hi> and
+              its forms (DELI <hi rend="italics">pregare</hi>); <hi rend="italics">p[re]se/ssant</hi>, <hi rend="italics">p[re]senter</hi> and its forms (TL
+              <hi rend="italics">present</hi>, <hi rend="italics">presenter</hi>; DELI <hi rend="italics">presente</hi>, <hi rend="italics">presentare</hi>); <hi rend="italics">p[re]sie</hi> (TL <hi rend="italics">presse</hi>; DELI
+              <hi rend="italics">pressa</hi>, Dante); <hi rend="italics">p[re]ste</hi> (<hi rend="italics">prest/eés</hi> 12 appearances as noun); <hi rend="italics">p[re]voir/e</hi>,
+              <hi rend="italics">p[re]vonde</hi>* (<hi rend="italics">prevoir</hi> 3 appearances); <hi rend="italics">rep[re]sion</hi> (TL <hi rend="italics">represser</hi>; DELI
+              <hi rend="italics">repressione</hi>/<hi rend="italics">reprimere</hi>); <hi rend="italics">rep[re]sent</hi> (TL <hi rend="italics">representer</hi>); <hi rend="italics">semp[re]</hi> (TL
+              <hi rend="italics">sempre(s)</hi>; DELI <hi rend="italics">sempre</hi>)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviations with 'p' and an apostrophe -->
+      <div>
+        <head type="subsection">4.12. p' (p with an apostrophe over it)</head>
+        <figure>
+          <graphic n="9894" url="../assets/images/mss/b-pst-abbr.png"/>
+          <graphic n="9907" url="../assets/images/mss/b-pmer-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label">[ri]</cell>
+            <cell>past participle and perfect forms from prendre: <hi rend="italics">ap[ri]s</hi>, <hi rend="italics">desp[ri]st</hi>,
+              <hi rend="italics">emp[ri]se</hi> <hi rend="italics">entrep[ri]s</hi>, <hi rend="italics">porp[ri]s</hi>, <hi rend="italics">p[ri]st</hi>, <hi rend="italics">pristrent</hi>, <hi rend="italics">sorp[ri]st</hi> (<hi rend="italics">prist</hi>
+              50 appearances); <hi rend="italics">mesp[ri]son</hi> (<hi rend="italics">mesprison</hi> 8 appearances); <hi rend="italics">p[ri]ma</hi> and its various
+              derivatives, <hi rend="italics">p[ri]mer</hi>, <hi rend="italics">p[ri]mera/in</hi>, etc. (<hi rend="italics">prime/r</hi> etc. 8 appearances);
+              <hi rend="italics">p[ri]nce</hi>, <hi rend="italics">p[ri]ncer</hi> (TL <hi rend="italics">prince</hi>, <hi rend="italics">princeps</hi>; DELI <hi rend="italics">principe</hi>); <hi rend="italics">p[ri]nceps</hi>
+              (<hi rend="italics">princeps</hi> v. 12076); <hi rend="italics">p[ri]ser</hi> and its forms: <hi rend="italics">prissa</hi>, <hi rend="italics">p[ri]sse</hi>* [=prix]
+              (<hi rend="italics">prise</hi> 2 appearances [&lt; priser]; TL <hi rend="italics">prise</hi>); <hi rend="italics">p[ri]son/s</hi> (<hi rend="italics">prison/s</hi> 10
+              appearances; some are nouns, some forms of <hi rend="italics">pris(i)er)</hi>; <hi rend="italics">p[ri]vés</hi> (<hi rend="italics">privé</hi>* v.
+              376)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- abbreviation oddities with 'p' -->
+      <div>
+        <head type="subsection">4.13. p abbreviation oddities<figure> </figure></head>
+        <table>
+          <row>
+            <cell role="label">3633</cell>
+            <cell><hi rend="italics">p[ri]son</hi> (8 other appearances of <hi rend="italics">prison</hi> in full and 6 other abbreviated forms,
+              but here <hi rend="italics">p</hi> with cross stroke on descender.</cell>
+          </row>
+          <row>
+            <cell role="label">4285</cell>
+            <cell><hi rend="italics">p[or] voire</hi> (<hi rend="italics">p</hi> with both cross stroke and dot above.</cell>
+          </row>
+          <row>
+            <cell role="label">7275</cell>
+            <cell><hi rend="italics">sorp[ra]gne</hi> an unidentifiable abbreviation, seems to be two dots, above; so this
+              should be <hi rend="italics">[re]</hi> or <hi rend="italics">[ri]</hi>, but rigorous sight rhyme imposes <hi rend="italics">–agne</hi>hi rend="italics".</cell>
+            <cell><figure>
+                <graphic n="7275" url="../assets/images/mss/b-sorpgne-abbr.png"/>
+              </figure></cell>
+          </row>
+          <row>
+            <cell role="label">8624</cell>
+            <cell>p[ri]sse* but dot above, not an apostrophe (vowel dictated by rhyme.</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- ambiguous abbreviations with 'p' and slash -->
+      <div>
+        <p>Where p with the abbreviation of a slash on the descender appears alone without other
+          indications the resolution is decided as follows.</p>
+        <list type="simple">
+          <item>if there are other expressions with the preposition, it follows the majority of
+            those (e.g., <hi rend="italics">par force</hi> (7 appearances) v. <hi rend="italics">por force</hi> (2 appearances) ==> <hi rend="italics">p[ar]
+            force</hi>;</item>
+          <item>>in parallel expressions, where one is the full form, the other follows: e.g., <hi rend="italics">ᵱ
+            mons [et] por vaus [et] ᵱ ces poi agu</hi> (v. 4985) ==> <hi rend="italics">p[er] mons [et] por vaus [et]
+            p[or] ces poi agu</hi>;</item>
+          <item>where there is an equal number of expressions, the resolution is <hi rend="italics">p[or]</hi> since that
+            is by far the most frequent (e.g., <hi rend="italics">par vos</hi>, 8 appearances; <hi rend="italics">por vos</hi>, 8 appearances,
+            the 9 abbreviations are resolved <hi rend="italics">p[or] vos</hi>).</item>
+          <item>>where there are no similar expressions or other means to judge, the resolution is
+            <hi rend="italics">p[or]</hi> given its predominance.</item>
+        </list>
+      </div>
+
+      <!-- abbreviations with 'q' -->
+      <div>
+        <head type="subsection">4.14. Abbreviations with 'q'</head>
+        <p>The abbreviations of <hi rend="italics">q</hi> are also problematic. There are again three possible
+          abbreviations: <hi rend="italics">q</hi> with a letter (like an <hi rend="italics">i</hi>) above; <hi rend="italics">q</hi> with the titulus above; and <hi rend="italics">q</hi>
+          with a cross-stroke on the descender. <hi rend="italics">q</hi> with a cross-stroke appears 28 times and
+          resolved <hi rend="italics">q[ui]</hi>, as demonstrated by other full forms in the text: <hi rend="italics">[con]q[ui]st</hi>,
+          <hi rend="italics">[con]q[ui]s</hi>, <hi rend="italics">q[ui]e[r]t</hi> (2 appearances), <hi rend="italics">sorq[ui]die</hi>, <hi rend="italics">q[ui]er</hi>, <hi rend="italics">q[ui]</hi> (8
+          appearances), <hi rend="italics">plaq[ui]ment</hi> (2 appearances), <hi rend="italics">req[ui]e[r]</hi>, <hi rend="italics">delinq[ui]re</hi>, <hi rend="italics">req[ui]s</hi>,
+          <hi rend="italics">q[ui]d</hi>, <hi rend="italics">req[ui]rois</hi>, <hi rend="italics">q[ui]er</hi>, <hi rend="italics">[con]q[ui]sons</hi>, <hi rend="italics">tranq[ui]limant</hi>, <hi rend="italics">req[ui]e[r]</hi>,
+          <hi rend="italics">nasq[ui]</hi>, <hi rend="italics">q[ui]sm req[ui]er</hi>. References to TL or DELI or both clarify specific uses
+          within words or expressions.</p>
+        <p>However, since the palatalization in the two language areas proceeded differently, <hi rend="italics">qu-</hi>
+          represents a variety of different phonemes and no standard existed at the time. Is it the
+          same as <hi rend="italics">q-</hi> alone? Thus in some cases we must decide how to establish use: within an
+          individual lexical family? within a certain part of speech (e.g., demonstratives)? should
+          we create a regularity when none existed at the time or in the text? For example, final
+          <hi rend="italics">–que</hi> alternates with <hi rend="italics">–qe</hi>, <hi rend="italics">–c</hi> and <hi rend="italics">–che</hi>. I have chosen for now to standardize in
+          <hi rend="italics">–qu-</hi> in part because it makes reading easier, and follows modern French usage in
+          spelling with <hi rend="italics">q-</hi>. Then the question of the final vowel: <hi rend="italics">-e</hi> or <hi rend="italics">–i</hi>? Each has a
+          specific meaning in the modern languages. In the original text, there are 89 forms <hi rend="italics">q</hi>
+          alone; 494 of <hi rend="italics">qe</hi>; 137 of <hi rend="italics">qi</hi>; 472 of <hi rend="italics">qu</hi>; 1089 of <hi rend="italics">que</hi>; 687 of <hi rend="italics">qui</hi> (though there
+          are also some questions of word division involved for conjunctions; more about this
+          below). The more frequent form by far is therefore <hi rend="italics">que</hi>, but that might be expected as
+          being the object case (for which there are many more possibilities than the subject case:
+          direct object, object of preposition, etc.) and an interrogative form. Because of the
+          difficulty of metrics in a Franco-Italian text, I have not in general elided <hi rend="italics">u</hi> before
+          vowels, with the exceptions noted below.</p>
+        <figure>
+          <graphic n="21" url="../assets/images/mss/b-qi-abbr.png"/>
+          <graphic n="49" url="../assets/images/mss/b-qst.abbr.png"/>
+          <graphic n="363" url="../assets/images/mss/b-qaua-abbr.png"/>
+        </figure>
+        <p>The second (<hi rend="italics">q</hi> with a slash on the descender) appears 28 times and is always resolved
+          <hi rend="italics">q[ui]</hi>, as attested by other forms of the same words in complete form for the most part,
+          with 8 of those <hi rend="italics">qui</hi> alone. The first (<hi rend="italics">q</hi> with <hi rend="italics">i</hi> above the line) appears 17 times and
+          is resolved in <hi rend="italics">q[ui]</hi> when subject. <hi rend="italics">q[ui]</hi> alone can represent relative pronouns as
+          subject ("who"); demonstrative pronouns (since <hi rend="italics">qui</hi> also stands for the palatalized
+          Modern Italian <hi rend="italics">quelli</hi>, MSF <hi rend="italics">ceux</hi>); the interrogative for a person; and the proverbial
+          pronoun "he/she who." Other abbreviated forms—relative pronoun direct object, the
+          conjunction, an interrogative for a thing or fact—are resolved <hi rend="italics">q[ue]</hi>. Where the <hi rend="italics">u</hi> is
+          already present and the q bears an abbreviation, the final vowel follows the same rule.
+          This means that 523 <hi rend="italics">q</hi> with a dot or similar designation above were expanded as <hi rend="italics">q[ue]</hi>
+          in addition to those surmounted by an <hi rend="italics">i</hi>. In Old French itself usage was not regular;
+          Ménard notes that dialectal usage varied and is explicable.</p>
+      </div>
+
+      <!-- abbreviations with 'q' - examples -->
+      <div>
+        <table>
+          <row>
+            <cell role="label">[u]</cell>
+            <cell><hi rend="italics">acq[u]isons</hi> (aquis 3 appearances); <hi rend="italics">q[u]e</hi> (que 1089 appearances); <hi rend="italics">q[u]erant</hi>
+              (<hi rend="italics">querent</hi> 2 appearances); <hi rend="italics">q[u]i</hi> (<hi rend="italics">qui</hi> 687 appearances)</cell>
+          </row>
+          <row>
+            <cell role="label">[u']</cell>
+            <cell>Where the <hi rend="italics">q</hi> surmounted by an <hi rend="italics">i</hi> precedes a word beginning with an <hi rend="italics">i</hi> (vv. 501,
+              507) and <hi rend="italics">jusq[u']a</hi> (v. 4613)</cell>
+          </row>
+          <row>
+            <cell role="label">[ue]</cell>
+            <cell><hi rend="italics">adon/[n]q[ue]</hi> (9 from crossed q, see also ӡ below; <hi rend="italics">adonque</hi> 5 appearances);
+              <hi rend="italics">auq[ue]s</hi> (6 from crossed <hi rend="italics">q</hi>, see also ӡ below; <hi rend="italics">auque/s</hi> 10 appearances);
+              <hi rend="italics">aveq[ue]/cq[ue]</hi> (21 with crossed <hi rend="italics">q</hi>, see also ӡ below; <hi rend="italics">avec</hi> 1 appearance; <hi rend="italics">avech</hi>
+              39 appearances; <hi rend="italics">aveque</hi> 1 appearance); <hi rend="italics">donq[ue]</hi> (6 from crossed <hi rend="italics">q</hi>, see also ӡ
+              below; <hi rend="italics">donque</hi> 10 appearances); <hi rend="italics">enfraciq[ue]</hi>, <hi rend="italics">fraciq[ue]</hi> (one with crossed <hi rend="italics">q</hi>,
+              and both with crossed <hi rend="italics">q</hi>, respectively; see also ӡ below; <hi rend="italics">enfracique</hi>, <hi rend="italics">fracique</hi> 1
+              appearance each); <hi rend="italics">enq[ue]ste</hi> (<hi rend="italics">enqueste</hi> 6 appearances); <hi rend="italics">finq[ue]</hi> (<hi rend="italics">finqe</hi> v.
+              1947); <hi rend="italics">ilueq[ue]</hi> (<hi rend="italics">iluec</hi>, <hi rend="italics">iluech</hi>, <hi rend="italics">iloc</hi>, <hi rend="italics">iloch</hi> 1 appearance each); <hi rend="italics">onq[ue]/s</hi>
+              (1/10 appearances, respectively; <hi rend="italics">onque/s</hi> 23 appearances); <hi rend="italics">oq[ue]ison/s</hi> (7
+              appearances; <hi rend="italics">oqueison/nt/ns</hi> 5 appearances, also <hi rend="italics">oqeison</hi> 3 appearances);
+              <hi rend="italics">orq[ue]nois</hi> (1 appearance; <hi rend="italics">orquenoy</hi>* v. 1239); <hi rend="italics">plaq[ue]</hi> (v. 7966; cf. <hi rend="italics">Geste
+              Francor</hi>, v. 3167 <hi rend="italics">plaqe</hi>, 3rd person; cf. Latin PLACERE; DELI <hi rend="italics">piacere</hi>), <hi rend="italics">q[ue]l/le</hi>
+              (<hi rend="italics">quel</hi>, <hi rend="italics">quele</hi>, <hi rend="italics">quela</hi>, <hi rend="italics">quelle</hi> 41, 2, 1, 3 appearances); <hi rend="italics">q[ue]ran/[n]t</hi>,
+              <hi rend="italics">q[ue]re</hi>, <hi rend="italics">q[ue]ste</hi> and other forms of that verb and related nouns (<hi rend="italics">quera</hi>,
+              <hi rend="italics">querant</hi>, <hi rend="italics">quera</hi>, etc.); <hi rend="italics">q[ue]relle</hi> (<hi rend="italics">querelle</hi> 5 appearances); <hi rend="italics">req[ue]rie</hi> and
+              other forms of the verb <hi rend="italics">requerir</hi> (<hi rend="italics">requeri</hi>, <hi rend="italics">requert</hi>, <hi rend="italics">requerir</hi>, etc.)</cell>
+          </row>
+          <row>
+            <cell role="label">[ui]</cell>
+            <cell>for <hi rend="italics">q</hi> with a slash on the descender. <hi rend="italics">conq[ui]sons</hi> (cf. <hi rend="italics">conquis</hi>, <hi rend="italics">conquist</hi>
+              4, 2 appearances); <hi rend="italics">delinq[ui]re</hi> (v. 3026); <hi rend="italics">nasq[ui]</hi> (<hi rend="italics">nasqui</hi>, 3 appearances);
+              <hi rend="italics">plaq[ui]ment</hi> (<hi rend="italics">plaquiment/[n]t</hi> 4 appearances); <hi rend="italics">q[ui]d</hi> in Latin quote (see Lewis
+              &amp; Short <hi rend="italics">quis</hi>, <hi rend="italics">quid</hi>); <hi rend="italics">q[ui]ert</hi> (<hi rend="italics">quiert</hi> 10 appearances); <hi rend="italics">q[ui]s</hi> (<hi rend="italics">quis</hi> 4
+              appearances); <hi rend="italics">req[ui]e[r]</hi> (<hi rend="italics">requier</hi> 20 appearances); <hi rend="italics">sorq[ui]die</hi> (TL
+              <hi rend="italics">sorquidier</hi>/<hi rend="italics">sorcuidier</hi>); <hi rend="italics">tra[n]q[ui]lima[n]t</hi> (TL <hi rend="italics">tranquilité</hi>; DELI
+              <hi rend="italics">tranquillo</hi>)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- Abbreviation 'qnt' with two dots -->
+      <div>
+        <head type="subsection">4.15. 'qnt' with two dots over the <hi rend="italics">n</hi></head>
+        <figure>
+          <graphic n="4718" url="../assets/images/mss/b-qnt-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label">q[ua]nt</cell>
+            <cell><hi rend="italics">q[ua]nt</hi> is expanded from <hi rend="italics">qnt</hi> with the two dots over the <hi rend="italics">n</hi> 13 times (2263,
+              4718, 4721, 4729, 4764, 4770, 4790, 4806, 4809, 4895, 4931, 7999, 8119). It is
+              interesting that a group of these are all in the same section of the MS., the Ynide
+              episode (132 <hi rend="italics">quant</hi>; 391 <hi rend="italics">qua[n]t)</hi></cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- Abbreviation 'sce' with line -->
+      <div>
+        <head type="subsection">4.16. ce (with line over the <hi rend="italics">e</hi>)</head>
+        <figure>
+          <graphic url="../assets/images/mss/b-sce-abbr.png"/>
+          <!-- find line number -->
+        </figure>
+        <table>
+          <row>
+            <cell role="label">s[ain]c[t]e</cell>
+            <cell><hi rend="italics">s[ain]c[t]e</hi> appears 11 times (e.g., v. 1557, above); cf. <hi rend="italics">saint</hi> (12
+              appearances), <hi rend="italics">sainte</hi> (1 appearance)</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- Abbreviation ʃ with loop -->
+      <div>
+        <head type="subsection">4.17. The abbreviation ʃ with loop</head>
+        <figure>
+          <graphic url="../assets/images/mss/b-sius-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label"/>
+            <cell><hi rend="italics">s[er]gians/t</hi>; <hi rend="italics">s[er]mon</hi> and forms of the verb and nouns related to it;
+              <hi rend="italics">s[er]pant</hi>, <hi rend="italics">s[er]pent</hi>; <hi rend="italics">s[er]ve</hi> and forms of the verb and nouns related to
+              it</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- Abbreviation of 'vre' -->
+      <div>
+        <head type="subsection">4.18. The abbreviation of <hi rend="italics">vre</hi></head>
+        <figure>
+          <graphic url="../assets/images/mss/b-vre-abbr.png"/>
+        </figure>
+        <table>
+          <row>
+            <cell role="label">v[est]re</cell>
+            <cell><hi rend="italics">v[est]re</hi>, 56 appearances: <hi rend="italics">vetre</hi> 37, <hi rend="italics">vestre</hi> 32, <hi rend="italics">vostre</hi> 6, that is 37
+              without <hi rend="italics">–s-</hi> and 38 with <hi rend="italics">–s-</hi>, and 69 with <hi rend="italics">–e-</hi> vs. 6 with <hi rend="italics">–o-</hi>. Since the form is
+              very close and similar to <hi rend="italics">notre/nostre</hi>, we follow the usage there, expanding with
+              the <hi rend="italics">–es-</hi>.</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- Abbreviation .W. -->
+      <div>
+        <head type="subsection">4.19. The abbreviation .W.</head>
+        <p>no complete forms. <hi rend="italics">W[illame]</hi>, 33 appearances; W'll'ame: <hi rend="italics">W[i]ll[a]me</hi> (6 appearances,
+          vv. 9171, 9325, 9700, 9750, 10139, 10160); Wi'ame: <hi rend="italics">Wi[ll]ame</hi> (once v. 7945); W'll'e:
+          <hi rend="italics">W[i]ll[am]e</hi> (once, v. 9332); Will'me: <hi rend="italics">Will[a]me</hi> (once v. 9155); W'lla'me:
+          <hi rend="italics">W[i]lla[u]me</hi> (once, v. 11547). See Guill'e, above.</p>
+      </div>
+
+      <!-- Abbreviation x with dot -->
+      <div>
+        <head type="subsection">4.20. x with dot above</head>
+        <p><hi rend="italics">[Crist]</hi> <hi rend="italics">Crist</hi> appears 5 times unabbreviated.</p>
+      </div>
+
+      <!-- Abbreviation x with r or rho -->
+      <div>
+        <head type="subsection">4.21. x with r above or followed by rho</head>
+        <table>
+          <row>
+            <cell role="label">followed by <hi rend="italics">a</hi></cell>
+            <cell><hi rend="italics">[cristi]</hi>: <hi rend="italics">[cristi]an</hi>, <hi rend="italics">[cristi]anté</hi>. <hi rend="italics">Cristian(s)</hi> appears unabbreviated 5
+              times, <hi rend="italics">cristianteç</hi> once.</cell>
+          </row>
+          <row>
+            <cell role="label">followed by <hi rend="italics">i</hi></cell>
+            <cell><hi rend="italics">[crist]</hi>: <hi rend="italics">[crist]ians</hi> 4 times, <hi rend="italics">[crist]iane</hi> 2 times</cell>
+          </row>
+          <row>
+            <cell role="label">followed by <hi rend="italics">n</hi></cell>
+            <cell><hi rend="italics">[criste]</hi>: <hi rend="italics">[criste]nté</hi>. In unabbreviated form, we find <hi rend="italics">cristenté(s)</hi> 8 times,
+              <hi rend="italics">cristienteç</hi> once, <hi rend="italics">cristinité</hi> twice.</cell>
+          </row>
+        </table>
+      </div>
+
+      <!-- Abbreviation yhu -->
+      <div>
+        <head type="subsection">4.22. The abbreviation yhu</head>
+        <p><hi rend="italics">Yh[es]u</hi></p>
+      </div>
+
+      <!-- Letters above the line -->
+      <div>
+        <head type="subsection">4.23. Abbreviations as letters above the line</head>
+        <p>While the <hi rend="italics">Conseils</hi> counsels that letters written above the line should not be
+          considered restituted, i.e., should not be written as abbreviations (Fasc. 1, p. 31),
+          certain of these are in fact abbreviations; that is, they represent more than one letter.
+          Corrections and insertions arhi rend="italics"e frequently marked by a caret below the line for placement
+          of the insertion above the line or in the margin. The use of above-the-line abbreviations
+          of one letter is frequent in this manuscript, and as such is remarkable and worthy of
+          note. Therefore in the electronic version, these are visible: the letter above the line is
+          in parentheses (as are standard additions above the line) and the expanded letters are in
+          italics as are other abbreviations. In a final view, it will be possible for the reader to
+          see the text without these parentheses. For this reason we have avoided parentheses in our
+          edition so as to facilitate programming the final version.</p>
+        <p>The combinations in question are: e above the line, i above the line, o above the line, r
+          above the line. The forms that use them are as follows.</p>
+      </div>
+
+      <!-- The letter e above the line [n](e) -->
+      <div>
+        <head type="subsection">4.24. The letter e above the line for [n](e)</head>
+        <list type="simple">
+          <item>Alemag[n](e) 10583</item>
+          <item>apraig[n](e) 6515</item>
+          <item>armag[n](e) 5864</item>
+          <item>bergogn[n](e) 8805</item>
+          <item>Bertag[n](e) 11061</item>
+          <item>besog[n](e) 8807</item>
+          <item>catag[n](e) 2518</item>
+          <item>compag[n](e) 5146</item>
+          <item>dog[n](e) 8806</item>
+          <item>estrag[n]e 5858</item>
+          <item>graig[n](e) 2500</item>
+          <item>habitaig[n](e) 2517</item>
+          <item>hag[n](e) 2514</item>
+          <item>magag[n](e) 7282</item>
+          <item>mo[n]tag[n](e), mointaig[n](e) 2391, 2515, 7729, 7849, 7901, 9225</item>
+          <item>ovrag[n](e) 9265</item>
+          <item>reg[n](e) 5145</item>
+          <item>sovaig[n](e) 2512</item>
+          <item>vieg[n](e) 78</item>
+        </list>
+      </div>
+
+      <!-- The letter e above the line for [r](e), (e)[r], [r](i) -->
+      <div>
+        <head type="subsection">4.25. The letter e above the line for [r](e), (e)[r], [r](i)</head>
+        <list type="simple">
+          <item>aut[r](e) 4430, 5120</item>
+          <item>aut[r](e)mans 5520</item>
+          <item>c[r](e)anter 10142</item>
+          <item>co[n]t(e)[r] 12127</item>
+          <item>est[r](e) 10029</item>
+          <item>oscu[r](e) 10053</item>
+          <item>quat[r](e) 5828, 7129, 11036</item>
+        </list>
+      </div>
+
+      <!-- The letter i above the line for [r](i) -->
+      <div>
+        <head type="subsection">4.26. The letter i above the line for [r](i)</head>
+        <list type="simple">
+          <item>p[r](i)nceps 10418</item>
+          <item>entrep[r](i) 6022</item>
+        </list>
+      </div>
+
+      <!-- The letter o above the line for [r]o -->
+      <div>
+        <head type="subsection">4.27. The letter (o) above the line for [r]o</head>
+        <list type="simple">
+          <item>t[r](o)ve[r]a 1043</item>
+          <item>t[r](o)von 1173</item>
+          <item>t[r](o)veron 1331</item>
+          <item>t[r](o)ver 1379</item>
+          <item>t[r](o)ver 1412</item>
+          <item>t[r](o)ver 1544</item>
+          <item>t[r](o)veç 3474</item>
+          <item>t[r](o)va 3954</item>
+          <item>t[r](o)vant 4277</item>
+          <item>t[r](o)vés 4292</item>
+          <item>t[r](o)ver 7005</item>
+          <item>t[r](o)va 7264</item>
+          <item>t[r](o)ve 7269</item>
+          <item>t[r](o)vie 7501</item>
+          <item>t[r](o)veç 8286</item>
+          <item>t[r](o)vé 8309</item>
+          <item>t[r](o)vés 8382</item>
+          <item>t[r](o)veron 9387</item>
+          <item>t[r](o)ve 10279</item>
+          <item>t[r](o)vie 10288</item>
+          <item>t[r](o)vere 10414</item>
+          <item>t[r](o)va 11342</item>
+          <item>t[r](o)ve[n]t 11543</item>
+          <item>t[r](o)sq[ue] 5180</item>
+        </list>
+      </div>
+
+      <!-- The letter r above the line -->
+      <div>
+        <head type="subsection">4.28. The letter r above the line --> vowel+r or r+vowel (ur, re, ri,
+          er)</head>
+        <list type="simple">
+          <item>c(r)[e]anter 10142</item>
+          <item>co[n]t[e](r) 12127</item>
+          <item>p(r)[i]nceps 10418</item>
+          <item>past[u](r)e[r] 8476</item>
+          <item>pereg(r)[i]nage 7248</item>
+        </list>
+      </div>
+
+      <!-- The letter s above the line  -->
+      <div>
+        <head type="subsection">4.29. The letter s above the line --> [e](s)</head>
+        <list type="simple">
+          <item>te[m]p[e](s)t 2614</item>
+        </list>
+      </div>
+
+      <!-- Special characters  -->
+      <div>
+        <head type="subsection">4.30. Special characters</head>
+        <div>
+          <head type="subsection">Three particular characters are present in this MS</head>
+          <table>
+            <row>
+              <cell role="label">Final "z" shape</cell>
+              <cell>This character represents m and is drawn out into a "z" shape at the end of the
+                word. written as <hi rend="italics">m</hi> with footnote (v. 5150) ; cf. <hi rend="italics">Conseils</hi> fasc. I p. 28, #
+                11.</cell>
+            </row>
+            <row>
+              <cell role="label">Final ӡ</cell>
+              <cell>The character ӡ at the end of a word represents [ue]. Examples: <hi rend="italics">arciveʃqӡ</hi> for
+                <hi rend="italics">arcivesq[ue]</hi> (19 plus possibly 1 erased; <hi rend="italics">arcivesqe</hi> 7 appearances; <hi rend="italics">arcivesch</hi> 1,
+                <hi rend="italics">arcivesche</hi> 1); <hi rend="italics">ci[n]cqӡ</hi> (once, v. 11668); <hi rend="italics">jusq[ue]</hi> and its combinations (57,
+                all with final ӡ; <hi rend="italics">jusque</hi>, <hi rend="italics">jusqe</hi> 2 appearances each); <hi rend="italics">adonqӡ</hi> for <hi rend="italics">adonq[ue]</hi>
+                (2); <hi rend="italics">donqӡ</hi> (7); <hi rend="italics">fraciqӡ</hi> (2); <hi rend="italics">enfraciqӡ</hi> (1); <hi rend="italics">auqӡ</hi> (1); <hi rend="italics">aveqӡ</hi> (1);
+                <hi rend="italics">tr/[r]osq[ue]</hi>, <hi rend="italics">trosq[ue]mant</hi> (18 total appearances; <hi rend="italics">trosch</hi> 3 appearances;
+                <hi rend="italics">trosqe</hi> 4 appearances; <hi rend="italics">trosque</hi> 1 appearance); <hi rend="italics">vesq[ue]</hi> (3 appearances; <hi rend="italics">vesque</hi>
+                2 appearances; <hi rend="italics">vesqe</hi> 8 appearances; <hi rend="italics">vesque</hi> 2; <hi rend="italics">vesch/e</hi> twice also). There is
+                one odd case with two abbreviations for the same thing: <hi rend="italics">auqӡ</hi> that also has the
+                line above the <hi rend="italics">q</hi> (l. 3323). </cell>
+            </row>
+            <row>
+              <cell role="label">Final j</cell>
+              <cell>The final j at the end of Roman numerals stands for "one"; this is transcribed
+                as "i" (<hi rend="italics">Conseils</hi> 5a, p. 24).</cell>
+            </row>
+          </table>
+        </div>
+      </div>
+
+      <!-- Numbers -->
+      <div>
+        <head type="subsection">4.31. Numbers</head>
+        <p>In Berlin, larger numbers are written in Roman numerals (there are no Arabic numbers) and
+          usually between dots (though this is not entirely consistent). We reproduce these in small
+          roman numerals. However, larger numbers are sometimes surmounted by a "c" or an "m". These
+          we reproduce as superscripts of the roman numeral to facilitate reading (.x. with an m
+          above, v. 9334). In one case we find "or" after "iiii," clearly a representation of the
+          Latin "quattuor" (v. 76).</p>
+        <figure>
+          <graphic n="9334" url="../assets/images/mss/b-.x.-abbr.png"/>
+          <graphic n="76" url="../assets/images/mss/b-.iiii.-abbr.png"/>
+        </figure>
+      </div>
+
+      <!-- 5. SEPARATION OF WORDS -->
+      <pb xml:id="separ"/>
+      <div type="separ">
+        <div>
+          <head type="section"><ref target="#toc">&#10081; 5. Separation of Words</ref></head>
+          <p>We follow standard practice for separation of words in early texts. The separation of
+            words in the MS is varying and not always logical.</p>
+        </div>
+
+        <div>
+          <head type="subsection">The letter r above the line --> vowel+r or r+vowel (ur, re, ri,
+            er)</head>
+          <list type="simple">
+            <item>We join <hi rend="italics">–ment/-mant</hi> to the adjective for adverbs.</item>
+            <item>Three times, numbers larger than 100 appear written out: 186, 6536 and 11668.
+              These we write in two words, as is the French usage, not the Italian (&lt; <hi rend="italics">emtroi
+              cent</hi>; <hi rend="italics">cincque cent</hi>).</item>
+            <item>Conjunctions and prepositions are more complicated matters, since editors tend to
+              use the conventions for the language of edition, viz., French or Italian, which
+              differ: <hi rend="italics"> fin que</hi> vx. <hi rend="italics">finché</hi>, <hi rend="italics">por que</hi> vs. <hi rend="italics">perché</hi>, for example. In keeping with
+              the nearness to Old French, we follow French conventions here. Thus <hi rend="italics">jusque</hi> and its
+              variants are one word (<hi rend="italics">jusq'a</hi>; <hi rend="italics">jusque</hi>; <hi rend="italics">jusqe</hi>hi rend="italics"; <hi rend="italics">jusq[ue]</hi>). We write out the form in
+              its entirety even before a vowel, since syllable count is problematic. Similarly,
+              <hi rend="italics">trosque</hi> (<hi rend="italics">trosch'a</hi>, <hi rend="italics">trosqe</hi>, <hi rend="italics">trosq[ue]</hi>). Other forms, however, are written separately
+              (numbers in parentheses are line numbers of the poem).</item>
+          </list>
+        </div>
+
+        <div>
+          <head type="subsection">Examples:</head>
+          <list type="simple">
+            <item><hi rend="italics">ainç che</hi> (3999)</item>
+            <item><hi rend="italics">anch che</hi> (7533)</item>
+            <item><hi rend="italics">enfraci que</hi> (1155); <hi rend="italics">enfraci q[ue]</hi> (4470, 6560)</item>
+            <item><hi rend="italics">fin che</hi> (2148); <hi rend="italics">fin q'</hi> (4466); <hi rend="italics">fin que</hi> (4696); <hi rend="italics">fin q[ue]</hi> (7986); <hi rend="italics">fin qe</hi>
+              (1947)</item>
+            <item><hi rend="italics">for ch'</hi> (5328), <hi rend="italics">fors che</hi> (4920); <hi rend="italics">fors qe</hi> (2819)</item>
+            <item><hi rend="italics">fraci que</hi> (2053, 9966) cf. <hi rend="italics">enfraci que</hi></item>
+            <item><hi rend="italics">ni anch</hi> (1041, 1453): <hi rend="italics">ni</hi> = "or" in a negative sense; Ital. <hi rend="italics">neanche</hi> is not
+              attested until 1686 acc. to DELI ("assolutamente no, in nessun caso [...]") although
+              this seems to be the meaning in line 1041.</item>
+            <item><hi rend="italics">por choi</hi> (5156); <hi rend="italics">por qoi</hi> (5235, 5684); <hi rend="italics">por qoy</hi> (5623, 8719); <hi rend="italics">po[r] qoy</hi>
+              (5357); por quoy (879, 2216, 3414, 7730, 10166); <hi rend="italics">po[r] quoy</hi> (10990). Some editors
+              use one word, others two; the editor of <hi rend="italics">Aquilon de Bavière</hi> (Wunderli) uses <hi rend="italics">porcoi</hi>
+              as does Limentani in <hi rend="italics">Estoires de Venise</hi> (Martino da Canale). Both are prose;
+              <hi rend="italics">Aquilon</hi> is dated late fourteenth-early fifteenth century; <hi rend="italics">Estoires</hi> second half of
+              the thirteenth century. The editors of the <hi rend="italics">Entrée d'Espagne</hi> (Thomas), editors of the
+              <hi rend="italics">Continuazione dell'Entrée</hi> (Di Ninni) and <hi rend="italics">Guerra d'Attila</hi> (Stendardo), on the other
+              hand, give <hi rend="italics">por qoy</hi>, <hi rend="italics">por quei</hi>/<hi rend="italics">par qoi</hi>, etc. The <hi rend="italics">Entrée</hi> and <hi rend="italics">Continuazione</hi> date to
+              the first half of the fourteenth and the <hi rend="italics">Guerra</hi> to mid-fourteenth. The differences
+              are also of genre. Therefore we have kept the two as separate lexemes.</item>
+            <item><hi rend="italics">pois qe</hi> (1324, 1340, 1911, 8382); <hi rend="italics">pois que</hi> (8465, 8531, 10345); <hi rend="italics">pois qui</hi>
+              (8078); <hi rend="italics">poiq qu'</hi> (2549, 10411, 12045)</item>
+            <item><hi rend="italics">puis che</hi> (4842); <hi rend="italics">puis que</hi> (9785, 9795)</item>
+            <item><hi rend="italics">pur che</hi> (4741); <hi rend="italics">pur que</hi> (727); <hi rend="italics">pur qe</hi> (8084)</item>
+            <item><hi rend="italics">selong ch'</hi> (5199); <hi rend="italics">selonch che</hi> (2218, 4725)</item>
+            <item><hi rend="italics">si che</hi> (11042); <hi rend="italics">si qe</hi> (1845, 5549; 5901); <hi rend="italics">si que</hi> (11770; 12152)</item>
+          </list>
+        </div>
+        <div>
+          <head type="subsection">Separation of adverbs</head>
+          <p>Adverbs, together with prepositions, are another element of possible difficulty. Again
+            we follow French convention for those that exist in French, so for example, <hi rend="italics">aval</hi>,
+            <hi rend="italics">amont</hi>; <hi rend="italics">deci</hi>, <hi rend="italics">dela</hi>, <hi rend="italics">deprés</hi>, <hi rend="italics">desoz</hi>/<hi rend="italics">desoç</hi>. Certain forms are particularly found in
+            rhyme.</p>
+          <list type="simple">
+            <item><hi rend="italics">dela</hi>, for example, 16 of 22 appearances where it means "over there." This is not
+              "from there," which would be two words: in v. 5206, on the other hand, "from there,"
+              is distinguished in two words. In some cases, it could mean either, and thus we have
+              left it in two words: 7192 ("he saw clearly that he could do nothing over there" OR
+              "from there he saw clearly he could do nothing").</item>
+            <item><hi rend="italics">deça</hi> as preposition or adverb appears 15 times (one appearance is a form of
+              "devoir"): three times in rhyme, four times as par deça (one of those in rhyme) and
+              five times in contrast with dela; only four are not in those sort of formulaic
+              positions. Similarly, <hi rend="italics">deza</hi> appears once with <hi rend="italics">dela</hi> and once in rhyme.</item>
+            <item><hi rend="italics">deci</hi> is much more complicated: it means "until" in its various combinations,
+              whereas in our text it usually means "from here" as in "get out of here" when it
+              appears alone. We thus keep all the combinations documented in T-L (<hi rend="italics">deci que</hi>, <hi rend="italics">deci en</hi>,
+              etc.) making seven appearances; the others (<hi rend="italics">de ci</hi>) are the equivalent of "d'ici," for
+              14 appearances.</item>
+            <item><hi rend="italics">desor</hi> is also deceptive since <hi rend="italics">des or</hi> (16 appearances), <hi rend="italics">des ore</hi> (1 appearance) has
+              a totally different meaning ("from now on" vs. "above" or "on top (of)"), which is
+              much more frequent (57 appearances). There are a few cases in which either could be
+              the form, and these are marked in the notes. <hi rend="italics">Des or(e) mes</hi> is also written as three
+              words, following OF (4 appearances).</item>
+            <item><hi rend="italics">desoz</hi>/<hi rend="italics">desoç</hi> appear respectively 1 and 7 times.</item>
+            <item><hi rend="italics">aval(s)</hi> appears 12 times total: as <hi rend="italics">a val</hi> once (in a combination, v. <hi rend="italics">Non sta d'aler
+              a val</hi>, <hi rend="italics">a plagne [et] poy</hi>; otherwise it is either contrasted with <hi rend="italics">amon(t)</hi> clearly (4
+              times) or acts as an adverb juxtaposed to the main verb (1 time).</item>
+            <item><hi rend="italics">amon(t)</hi> appears nine times total: four times with <hi rend="italics">aval(s)</hi>, otherwise alone, always
+              as an adverb.</item>
+            <item><hi rend="italics">tutor</hi>, <hi rend="italics">totore</hi>, etc. are written in one word, like <hi rend="italics">tuttora</hi>, Old Italian; cf.
+              <hi rend="italics">Treccani</hi>, <hi rend="italics">Enciclopedia Dantesca</hi>); similarly for <hi rend="italics">tothore</hi> (&lt; from Lat. HORA(M)).
+              <hi rend="italics">enfra</hi> is the Italian, not the French <hi rend="italics">enfre(s)ci a</hi> (TL); cf. other Franco-Italian
+              texts like the <hi rend="italics">Entrée d'Espagne</hi>; <hi rend="italics">Geste Francor</hi>; <hi rend="italics">Guerra d'Attila</hi>, <hi rend="italics">Bovo d'Antona
+              Laurenziana</hi>; cf. also infra, also found in <hi rend="italics">Estoires de Venise</hi> and <hi rend="italics">Aquilon de
+              Baviere</hi>.</item>
+          </list>
+        </div>
+        <div>
+          <p>Some expressions in their multiplicity require one decision because of the spelling in
+            this MS; for example, <hi rend="italics">or endroit</hi> (12 appearances), which here we represent always as
+            two words since it also appears as <hi rend="italics">ore endroit</hi> (1 appearance, v. 11055); the choice
+            lies between emending one form or writing all as two words. Since they are written as
+            two words in the MS, we use two words. Editors have varied in their treatment of this
+            form.</p>
+        </div>
+        <div>
+          <p>Common to Franco-Italian texts is the problem of the prosthetic e- before s +
+            consonant: [Discussion to follow.]</p>
+          <p>Other prefixes are more problematic, most especially a-. [Discussion to follow.]</p>
+        </div>
+      </div>
+
+      <!-- FOOTNOTES TO INSERT
+  1. After section on special characters:
+  Linked Bibliography
+            <a href="http://ducange.enc.sorbonne.fr">DuCange</a>
+            <a href="https://ia801904.us.archive.org/35/items/LewisAndShortANewLatinDictionary/lewisandshort.pdf">Lewis &amp; Short</a>
+            <a href="http://www.rialfri.eu/rialfriPHP/public/lessico/lessico">RIALFRI Lexicon</a>
+            <a href="http://tlio.ovi.cnr.it/TLIO/">TLIO</a>
+  2. After section on abbreviations of q: FN: Philippe Ménard, Manuel du français du moyen âge, 1. syntaxe de l'ancien français 
+        (Sobodi, 1973), ¶64, "Remarques," p. 80. -->
+
+    </body>
+  </text>
+</TEI>
