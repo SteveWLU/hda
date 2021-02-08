@@ -1,0 +1,1493 @@
+/* add syntax highlight styles */
+@import url("syntax-highlighting.css");
+
+/** Table of Contents
+
+Global settings
+
+**/
+
+
+/* Global Settings */
+/* Portions of styles taken from or modified from normalize.css */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+
+ * Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+/**
+ * Remove default margin.
+ */
+body, html {
+  margin: 0;
+  padding: 0;
+
+}
+
+.hid_page {
+	display: none;
+}
+
+.hid_note {
+	display:none;
+}
+
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,strong {
+  font-weight: bold;
+}
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  width: 75%;
+  clear: both;
+}
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+/**
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,input,optgroup,select,textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,select {
+  text-transform: none;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+
+/* table, td {
+    border: 1px solid black;
+}
+td {
+  padding: 10;
+} */
+
+ /* end normalize styles
+ */
+/* --------------------------------------------------
+  Global settings
+-----------------------------------------------------*/
+#wrapper {
+	width:90%;
+	margin:auto;
+}
+
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	background: white;
+	direction: ltr;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 700;
+	color:#000;
+	font-size: revert;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	margin: 0 0 1em 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: large;	
+}
+a {
+	color: #5f0000;
+	line-height: inherit;
+	text-decoration: none;
+}
+ a:hover {
+	color: #213149;
+}
+
+ul {
+	font-size:larger;
+	line-height: 1.5;
+}
+img, object, embed {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+/*---------
+Columns and Rows
+----------*/
+
+
+
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
+}
+
+/* --------------------------------------------------
+  header styles
+-----------------------------------------------------*/
+.page-header {
+	border-bottom:1px solid #e8e8e8;
+	padding-left:15px;
+	padding-top:15px;
+}
+
+#site-title {
+	margin:0;
+}
+
+#site-title a {
+	color:#000;
+	font-size: 2rem !important;
+}
+
+.page-header h1 {
+	text-transform: uppercase;
+	text-align:left;
+	margin:0;
+
+}
+/* header p */
+#nav-subtitle {
+	font: 1em 'Barlow Semi Condensed', sans-serif;
+	font-weight: 400;
+	color: #5F0000;
+	text-transform: uppercase;
+	margin: none;
+}
+
+.headerleft {
+	width:60%;
+	float:left;
+}
+
+.headerright{
+	width:40%;
+	float:right;
+}
+/* --------------------------------------------------
+   top navigation styles
+-----------------------------------------------------*/
+nav ul, nav li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	min-height: 0;
+}
+nav li a {
+	font: 1em 'Barlow Semi Condensed', sans-serif;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+nav li.active a {
+	color: #ffffff;
+}
+
+.site-nav a {
+	/* overflow: hidden; */
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: black;
+	font-size: 20px;
+	/* float: right; */
+}
+
+.site-nav a:hover, .dropdown:hover .dropbtn {
+	display:block;
+	background-color: #f5f5f5;
+}
+/*
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 15px;
+    background-color: inherit;
+		margin: 0;
+		width: 100%;
+		border-radius: 8px;
+		text-decoration: &9660;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ffffff;
+} */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.fa-arrow-down{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+.fa-arrow-down.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
+}
+
+/* --------------------------------------------------
+   article styles
+-----------------------------------------------------*/
+.index, .archive {
+	padding: 0 1em 0;
+}
+article header {
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #aaa;
+}
+article h2 {
+	font-size: 2em;
+	font-weight: 400;
+	line-height:1.2;
+	color: #42659A;
+	margin-bottom:0.2em;
+}
+article h3 {
+	font-weight: 400;
+	font-size: 1.4em;
+	color: #42659A;
+	margin-bottom: 0;
+}
+article h2 a {
+	text-decoration:none;
+}
+article time {
+	display: block;
+	font-size: 0.8em;
+	color: #666;
+	margin-bottom: 0;
+}
+a.more {
+	display: block;
+	text-align: right;
+}
+a.more:before {
+	content: '[';
+}
+a.more:after {
+	content: ']';
+}
+p code {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+pre {
+	font-size: 1.4em;
+	line-height: 1.6;
+	color: white;
+	padding: .5em 1em;
+	margin-bottom: 1em;
+	border-left: 1em solid #42659A;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 90%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+figcaption {
+	font-size: 0.9em;
+	font-style: italic;
+}
+blockquote {
+	font: 1.5em 'Barlow Semi Condensed', sans-serif;
+	font-weight: 400;
+	color: #6d6d6d;
+	padding-left: 1em;
+	margin: 1em 0;
+	border-left: 4px solid #6d6d6d;
+}
+cite {
+	display: block;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+}
+article footer {
+	background: none;
+	border-top: 1px solid #aaa;
+	font-size: 0.8em;
+	padding: 1em 0;
+}
+dt {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #42659A;
+	margin-bottom:0;
+}
+dd {
+	margin-bottom:1em;
+}
+.taglist time {
+	display: inline;
+	font-size: 1em;
+}
+.pagination {
+	width: 100%;
+	font-size: 1.2em;
+}
+.prevLink {
+	float: left;
+	width: 50%;
+}
+.nextLink {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+/* --------------------------------------------------
+   edition styles
+-----------------------------------------------------*/
+
+div#TEI {
+	/* float: left; */
+	/* width: 40%; */
+	/* margin-bottom: 150px; */
+	font-size: larger;
+	overflow-y: auto;
+	padding: 20px;
+
+}
+div#image-viewer {
+	margin-left: 50%;
+	background-color: pink;
+}
+
+div#edition-notes {
+	/* position:fixed;
+	left:0;
+	bottom: 0;
+	height: 120px;
+	overflow: auto;
+	background-color: #f5f5f5;
+	width:100%;
+	padding-left: 10px; */
+	padding: 10px;
+}
+
+h1.title {
+	padding: 0 1em;
+	font-size: 1.5em;
+	margin: 0 auto;
+}
+
+#folio {
+	max-width: 4em;
+	min-width: 4em;
+	display: inline-block;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin: 0 0 3% 11%;
+	font-size: x-large;
+	color: #5f0000;
+}
+.prevnext {
+	text-align: center;
+	width: 100%;
+	font-size: 2em;
+	margin: 0 0 1% 0;
+}
+
+#TEI-title {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 2em;
+	margin: 5% 0 0 0;
+	color: #5f0000;
+}
+
+#TEI-tools {
+	background: #f5f5f5;
+	padding: 15px;
+	/* width:100%;
+	overflow:hidden;
+	display:flex;
+	flex-direction: row; */
+}
+
+div#TEI-tools * {
+    vertical-align: middle;
+}
+
+
+/* #mstitle {
+	width:25%;
+} */
+
+/* #mstitle h1  */
+#mstitle {
+	/* display:inline; */
+	font-size:medium;
+}
+
+#folio-nav {
+	/* width:10%; */
+	text-align:center;
+	font-size:large;
+}
+
+#tools {
+	width:65%;
+}
+
+#show-french, #expand, #reconstruction, #rajna, #notes, #source-code, #status  {
+display:inline;
+padding-left:10px;
+}
+
+#status {
+	float:right;
+	font-size:small;
+}
+
+img#github {
+	max-width: 9%;
+    display: inline-block;
+	height: auto;
+	margin: 0 4px 0 0;
+}
+
+#openseadragon1, #TEI {
+
+/* width: 50%; */
+ height: 78vh;
+  /* float: right; */
+}
+
+/* Custom scrollbar styling */
+#TEI::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#TEI::-webkit-scrollbar {
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#TEI::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(250, 250, 250, 0.3);
+	background-color: #5f0000;
+}
+
+tei-l {
+	width: revert;
+	margin-left: revert;
+}
+
+#edition-viewer {
+	width:90%;
+	margin:auto;
+}
+
+
+
+/* CSS from rails site */
+/* #rajnaCheckbox {
+	display: block;
+}
+
+#rajna-form {
+	display: inline;
+	float: none;
+}
+
+#rajna-label {
+	float: none;
+	display: inline;
+	text-decoration: none;
+} */
+
+.iiif_image {
+	border-left: 1px solid gray;
+	width: 40%;
+	height: 890px;
+	border-style: groove;
+	display: inline-block;
+	position: absolute;
+	float: left;
+}
+
+#edition-toc  {
+	position:fixed;
+	left:0;
+	overflow: auto;
+  	background-color: #f5f5f5;
+  	padding-left: 0px;
+}
+
+/* --------------------------------------------------
+   ms intro styles
+-----------------------------------------------------*/
+
+div.thinwrapper {
+	width:80%;
+	margin:auto;
+}
+
+div#toc-header {
+	float: left;
+	color: #5f0000;
+	margin: 5% 0 0 0;
+	display: inline-block;
+}
+
+
+div#toc {
+	/* width: 40%;
+	float: left; */
+	margin: 5% 0 0 10%;
+}
+
+div#toc-img {
+	width: 50%;
+	float: left;
+}
+
+h1#edition-criteria-for-padua {
+	margin: 10% 0 0 0;
+	color: #5f0000;
+}
+
+h1#ms-intro {
+	margin: 8% 0 0 0;
+	color: #5f0000;
+}
+
+.ms-intro-toc {
+	margin: 5% 0 0 5%;
+}
+img#toc {
+    /* float: left;
+    display: inline-block; */
+	border: 2px solid #5f0000;
+	/* width: 40%; */
+	/* margin: 5% 0 5% 5%; */
+}
+#toc ol {
+	font-size: small;
+}
+
+#toc h2 {
+	font-size: 2em;
+	color: #000;
+	font: 'Barlow Semi Condensed', sans-serif;
+}
+
+#toc a {
+	font-size: 1em;
+	font: 'Barlow Semi Condensed', sans-serif;
+	color: #5f0000;
+    font-size: x-large;
+}
+
+#toc ol > li {
+	color: #D6D6D6;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+#edition-footer {
+    margin: 75% 0 0 0;
+}
+
+hr#nav-break {
+    margin-top: 9%;
+    width: 100%;
+}
+
+i.updated {
+	color: green;
+}
+h2#ms-intro {
+	color: #5f0000;
+	margin: 4% 0 2% 2%;
+	font-size: x-large;
+}
+#editions, #collaborators {
+	text-align: center;
+	font-size: larger;
+}
+hr#toc {
+    margin-left: -.5em;
+}
+#status p {
+	font-size: inherit;
+}
+
+/* #toc ol {
+	counter-reset: item;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	padding-left: 3.5em;
+	line-height: 2.5em;
+}
+#toc ol>li {
+	color: lightgray;
+	float: left;
+	padding-right: 25%;
+	display: block;
+	list-style-type: lower-roman;
+	width: 100%;
+} */
+
+/* HERE */
+/* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
+
+/* --------------------------------------------------
+   archive styles
+-----------------------------------------------------*/
+.archive ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.archive h3 {
+	font-size: 1.4em;
+}
+.archive h3:target {
+	color: #dc8b21;
+	font-size: 1.6em;
+}
+.archive li {
+	margin-bottom: 0.5em;
+}
+.tag-cloud {
+	max-width: 600px;
+}
+.tag-cloud li {
+	display: inline-block;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+}
+.tag-cloud a {
+	text-decoration: none;
+	font-size: 0.8em;
+	background: #42659A;
+	color: white;
+	padding: 0.125em 0.5em;
+	border-radius: 0.25em;
+}
+.return {
+	display: none;
+}
+h3:target + .taglist .return {
+	display: block;
+}
+.return a {
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #dc8b21;
+}
+.return a:before {
+	content: '\25b2\00a0';
+}
+/* --------------------------------------------------
+   sidebar styles
+-----------------------------------------------------*/
+
+/*
+Commented out March 13, 2018. Add back in if need template for connecting to
+git, twitter, etc.
+
+aside {
+	padding: 0 1em 0;
+}
+aside h3 {
+	color: #4d4d4d;
+	font-size: 1.4em;
+	margin-top: 1em;
+	margin-bottom: .4em;
+}
+aside p {
+	margin-left: 1em;
+}
+aside ul {
+	list-style: none;
+	padding: 0;
+	margin:0;
+	margin-left: 1em;
+}
+aside li {
+	margin-bottom: 0.5em;
+}
+.social {
+	display: flex;
+	justify-content: space-around;
+}
+.social a {
+	text-indent: -9000em;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+.github {
+	background: url(../images/github.svg) no-repeat;
+}
+.fb {
+	background: url(../images/facebook.svg) no-repeat;
+}
+.linked {
+	background: url(../images/linkedin.svg) no-repeat;
+}
+.twitter {
+	background: url(../images/twitter.svg) no-repeat;
+} */
+
+/* --------------------------------------------------
+   main footer styles
+-----------------------------------------------------*/
+.page-footer {
+  	font-family: 110% 'Barlow Semi Condensed', sans-serif;
+  	background: white;
+	padding: 2em 1em;
+	margin-top: 1em;
+	color: black;
+	clear: both;
+	border-top:1px solid #e8e8e8;
+	width: 100%;
+}
+.legal {
+    font-size: .75em;
+    margin: 0;
+    font-variant: small-caps;
+}
+.page-footer a {
+	color: #5f0000;
+}
+.top-link {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.top-link:before {
+	content: '\25b2\00a0';
+}
+
+/* Image containters for footer (use 25% for four, and 50% for two, etc) */
+.footer-column-1 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.footer-column-2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.footer-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img#logo_unf {
+  margin-top: -1em;
+}
+
+img#logo_marucelliana {
+  margin-right: 0.5em;
+}
+
+
+/* --------------------------------------------------
+   Smaller screen styles
+-----------------------------------------------------*/
+@media only screen and (max-width: 992px) {
+/* --------------------------------------------------
+   ms intro styles
+-----------------------------------------------------*/
+
+div.thinwrapper {
+	width: 92%;
+}
+
+/*---------------------------------------------------
+	index page styles
+----------------------------------------------------*/
+/* div.col-1 */
+#big-l {
+	display: none !important;
+}
+
+/* div.col-2 */
+#index-content {
+	width: 100%;
+	/* display: flex;
+	flex-direction: column; */
+	justify-content: center;
+
+}
+
+p.intro::first-letter {
+	color: tomato;
+	font-size: 60px;
+}
+
+p.intro:before {
+	content: "LINKING INSTITUTIONS ";
+	font-weight: bold;
+}
+
+.right, .left {
+	float: none;
+}
+
+div.intro > p {
+	font-size: large;
+}
+
+div#initial {
+	display: none;
+}
+/* --------------------------------------------------
+   top navigation styles
+-----------------------------------------------------*/
+#site-title a {
+	font-size: 1.3rem !important;
+}
+
+nav {
+	background: none;
+	margin-bottom: 1em;
+}
+nav ul {
+	display: none;
+}
+nav li {
+	/* background: #42659A; */
+	margin-bottom: .2em;
+}
+
+nav li a {
+	font-size: 1.2em;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 0.2em;
+	padding: .5em 0;
+	display: block;
+	max-width: 5em;
+	text-align: center;
+	max-width: 100%;
+	width:100%;
+}
+
+.toggle-label {
+	display: block;
+	background: #42659A;
+	font: 0.8em 'Barlow Semi Condensed', sans-serif;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: white;
+	padding: .5em 0;
+	text-decoration: none;
+	width: 5em;
+	cursor: pointer;
+	}
+#menu-toggle {
+	display: none;
+}
+#menu-toggle:checked + .toggle-label {
+	background: #4d4d4d;
+}
+#menu-toggle:checked + .toggle-label span {
+	display: none;
+}
+#menu-toggle:checked + .toggle-label:before {
+	content: 'close';
+}
+#menu-toggle:checked ~ ul {
+	display: block;
+}
+
+pre {
+	font-size: 1.2em;
+	width: 90%;
+}
+
+dd{
+	padding: 0;
+	margin:0;
+	margin-bottom: 1em;
+}
+}
+
+
+
+/* --------------------------------------------------
+   Larger screen styles
+-----------------------------------------------------*/
+@media only screen and (min-width: 951px) {
+/* --------------------------------------------------
+   layout styles
+-----------------------------------------------------*/
+p.intro:before {
+	content: "INKING INSTITUTIONS ";
+	font-weight: bold;
+}
+
+html {
+	background: white;
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+.page-header {
+	border-bottom: 1px solid #e8e8e8;
+	width:100%;
+	height:100px;
+}
+/* .index, */
+ .archive {
+  display: inline-block;
+  width: 100%;
+  /*padding: 0 8% 0 10%;*/
+}
+aside {
+	float: left;
+	width: 30%;
+	max-width: 320px;
+	padding-top: 1em;
+	padding-left: 2.5%;
+}
+
+/* --------------------------------------------------
+   header styles
+-----------------------------------------------------*/
+header h1 {
+	float:left;
+	margin:0;
+
+}
+
+.page-header p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 400;
+	color: #5f0000;
+	text-transform: uppercase;
+	float:left;
+	display:inline-block;
+}
+
+.headerleft .headerright {
+	width: 100%;
+}
+
+
+/* --------------------------------------------------
+   top navigation styles
+-----------------------------------------------------*/
+.dropdown-item {
+	text-transform: capitalize !important;
+} 
+
+/* nav {
+float:right;
+} */
+
+#menu-toggle, .toggle-label {
+		display: none;
+	}
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	min-height: 0;
+  	float: right;
+}
+nav li {
+	display: inline-block;
+}
+nav li a {
+	font: 1em 'Roboto Slab', 'Helvetica Narrow', Arial, sans-serif;
+  	font-variant: small-caps;
+	color: #5f0000;
+	margin-right: 0.5em;
+	padding: .25em 1em;
+	display: inline-block;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+/* --------------------------------------------------
+   article styles
+-----------------------------------------------------*/
+article p {
+	font-size: 1.125em;
+	line-height: 1.4;
+	width:80%;
+	margin:auto;
+}
+a.more {
+	margin: 0.5em 0;
+}
+/* --------------------------------------------------
+   main footer styles
+-----------------------------------------------------*/
+.legal {
+	text-align: center;
+}
+
+/*---------------------------------------------------
+	index page styles
+----------------------------------------------------*/
+/* div.col-1 {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+div.col-2 {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+
+} */
+
+.intro {
+    padding-top: 7%;
+}
+
+img#initial {
+	max-width: 65%;
+	max-height: 85%;
+	/* padding-right: 5px; */
+}
+
+#index-content div {
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.index {
+	/* display: flex;
+	flex-direction: row; */
+	justify-content: center;
+	font-size: large;
+}
+
+/* --------------------------------------------------
+   custom home page 
+-----------------------------------------------------*/
+
+#initial img {
+  max-width: 40%;
+  display:inline-block;
+  /* float:right; */
+}
+
+div#initial {
+width:20%;
+float:left;
+}
+
+.flourish img {
+max-width:40%;
+display:block;
+margin:10%;
+float:right;
+}
+
+div.flourish {
+	width:20%;
+float:left;
+}
+
+div.intro {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: larger;
+	/* float:left; */
+	text-align:justify;
+	width:70%;
+	margin-top:50px;
+}
+
+.page-break {
+	color: blue;
+}
+
+#post-content {
+	float: left;
+	width: 50%;
+	margin-top: 1%;
+}
+
+/* unsure what these do... maybe the ul and li from p-intro.md */ 
+
+/* ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin-right: 20px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+} */
+
+/* --------------------------------------------------
+   main footer styles
+-----------------------------------------------------*/
+
+/* Toggle buttons */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 20px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #5f0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px a10d09;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider::after {
+  position:relative;
+  right:-55px;
+
+/* content: "Scribal" */
+}
+}
+
