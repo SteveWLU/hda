@@ -153,7 +153,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 22 January 2021</change>
+            <change>Content last updated 29 January 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -737,7 +737,7 @@
                 <l n="507">If he wanted to take her by force, he saw clearly he couldn't.</l>
                 <l n="508">The count had lots of friends and fine knights,</l>
                 <l n="509">For a better man than he one could never find.</l>
-                <l n="510">Therefore it would be necessary to conquer him subtly,</l>
+                <l n="510">Therefore it would be necessary for him to get hold of her subtly,<note xml:id="trans510"/></l>
                 <l n="511">Employing trickery and shrewdness.</l>
                 <l n="512">The king declared himself unfortunate and didn't know how he would do
                     it:</l>
@@ -754,25 +754,25 @@
                 <l n="523">The more he thought about it, the less he knew what to do,</l>
                 <l n="524"><cb n="b"/>And he dared not reveal what was wrong
                     with him to anyone,</l>
-                <l n="525">How his heart was crazed by the love that beset it!</l>
+                <l n="525">His heart was crazed by the love that beset it;</l>
                 <l n="526">He said that he would die if he couldn't accomplish [his purpose].</l>
                 <l n="527">For three full days he spoke to no one,</l>
                 <l n="528">Nor did any porter dare open to anyone.</l>
                 <l n="529">Everyone wondered about this;</l>
                 <l n="530">Everyone wanted to go back to his own land,</l>
-                <l n="531">But they didn't dare so long as the king prohibited it,<note xml:id="trans531"/></l>
+                <l n="531">But they didn't dare until the king saw them,</l>
                 <l n="532">For each one feared the anger of the king.</l>
             </lg>
             <lg type="laisse" n="21">
                 <head>Laisse 21</head>
-                <l n="533">After the fourth such day passed hurriedly,</l>
+                <l n="533">The fourth day came along quickly,</l>
                 <l n="534">Many of the barons didn't have the courage</l>
                 <l n="535">To enter the chamber where the king lay</l>
                 <l n="536">In order to ask or request anything,</l>
                 <l n="537">So greatly did they fear their lord.</l>
                 <l n="538">But a minstrel whom the king loved very much,</l>
                 <l n="539">Whom many people called Saudin,</l>
-                <l n="540">Finally entered by everyone's mutual consent.</l>
+                <l n="540">[Finally] entered by everyone's mutual consent.</l>
                 <l n="541">He went up to the bed where the king lay,</l>
                 <l n="542">And found him moaning and making great lament</l>
                 <l n="543">To himself, like a suffering woman.</l>
@@ -784,7 +784,7 @@
                 <l n="549">You are the ruler and everything depends on you,</l>
                 <l n="550">Nor will anyone oppose your orders.</l>
                 <l n="551">If anyone did so, he would soon repent it;</l>
-                <l n="552">Were anyone to say or do anything at court,</l>
+                <l n="552">Were anyone to say or do anything to you at court,</l>
                 <l n="553">Justice would be rendered at your command.</l>
                 <l n="554">So don't you worry about it;</l>
                 <l n="555">Show your courage bravely to everyone!"</l>
@@ -799,16 +799,15 @@
                 <l n="561"><milestone n="5R" unit="fol."/><cb n="a"/>Tell what this is about to everyone great
                     and small;</l>
                 <l n="562">If this is handled wisely, you shall accrue more honor,</l>
-                <l n="563">For we'll advise you as to the best thing to do."</l>
+                <l n="563">For they'll advise you as to the best thing to do."</l>
                 <l n="564">At this last speech the king sighed and wept,</l>
                 <l n="565">Then he looked up; there was no one there besides them.</l>
                 <l n="566">The king thought that he might reveal his love</l>
                 <l n="567">To the minstrel. He was always the right one in such an affair</l>
                 <l n="568">For carrying messages and gathering information.</l>
                 <l n="569">He wouldn't reveal to anyone the hatred he felt for Huon the count:</l>
-                <l n="570">He knew how to keep things to himself,</l>
-                <l n="571">For which reason it will be evident later, because he will harm
-                    [Huon].</l>
+                <l n="570">He must be on guard from them,</l>
+                <l n="571">Since it will happen later that he'll harm them.<note xml:id="trans571"/></l>
                 <l n="572">For this reason the king thought that he might advance his project,</l>
                 <l n="573">So he said to Saudin, "I love and value you highly,</l>
                 <l n="574">But can I trust you?" "Indeed, my good sir,</l>
@@ -820,16 +819,16 @@
             </lg>
             <lg type="laisse" n="23">
                 <head>Laisse 23</head>
-                <l n="579">"Saudin," said the king, "Now, listen to me concerning this matter;</l>
-                <l n="580">I will tell you something about it. But it must be in secret(</l>
+                <l n="579">"Saudin," said the king, "Now, listen to me;</l>
+                <l n="580">I'll tell you something. But it must be in secret---</l>
                 <l n="581">Be careful not to talk about it to anyone except those you absolutely
                     must</l>
                 <l n="582">From here on out. Now help me with this,</l>
                 <l n="583">And if you do you shall have a fine reward for it.</l>
                 <l n="584">I am in love with such a creature, now you'll hear,</l>
                 <l n="585">Such that I don't believe I can bear the weight of grief</l>
-                <l n="586">If I don't get her, thanks to God or thanks to you.</l>
-                <l n="587">I know it's not right; that's what weighs on me so much.</l>
+                <l n="586">If I don't get her with God's help or yours.</l>
+                <l n="587">I know it's not right; it weighs on me a great deal.</l>
                 <l n="588">But I can't change how I feel; I've never had such a great desire!</l>
                 <l n="589">If I cannot have what I long for, I believe I shall surely die;</l>
                 <l n="590">No other cure could there be for this."</l>
@@ -840,8 +839,7 @@
                 <l n="595">And if someone did do so, within a month</l>
                 <l n="596">He would repent of it and come back to you right away,</l>
                 <l n="597">Or else flee like a wretch into hiding.</l>
-                <l n="598"><cb n="b"/>Have no fear now, [my] cherished lord.
-                    So, recount it all to me;</l>
+                <l n="598"><cb n="b"/>Have no fear now, [my] lord. So, recount it all to me;</l>
                 <l n="599">I promise to think about a good plan for you now."</l>
                 <l n="600">After this speech the king felt comforted.</l>
             </lg>
