@@ -153,7 +153,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 29 January 2021</change>
+            <change>Content last updated 12 February 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -846,7 +846,7 @@
             <lg type="laisse" n="24">
                 <head>Laisse 24</head>
                 <l n="601">Then he said to Saudin, "My friend, listen to this:</l>
-                <l n="602">It's love for Ynide, Huon's wife, whom everyone saw at the feast,</l>
+                <l n="602">It's love for Ynide, Huon's wife, whom everyone at the feast looked at,</l>
                 <l n="603">That has so wounded my heart!</l>
                 <l n="604">I am sure that there is no other such woman in all of Christendom,</l>
                 <l n="605">Nor will anyone ever find one more worthy or wise,</l>
@@ -877,25 +877,24 @@
             <lg type="laisse" n="25">
                 <head>Laisse 25</head>
                 <l n="627">The emperor Charles sent for twelve counts;</l>
-                <l n="628">Each of them was wise, as was completely proper for them.</l>
+                <l n="628">Each of them was wise, as befit them.</l>
                 <l n="629">Once they were gathered before him, they knelt down,</l>
                 <l n="630">And Charles appealed to them, welcoming them.</l>
                 <l n="631">He implored them to give him good counsel</l>
                 <l n="632">About how they wanted him to accomplish this affair;</l>
                 <l n="633">And if in any way they let him down, despite his desire,</l>
                 <l n="634">Right away, they would all be disinherited.</l>
-                <l n="635"><milestone n="5V" unit="fol."/><cb n="a"/>At this point he told it all( </l>
+                <l n="635"><milestone n="5V" unit="fol."/><cb n="a"/>At this point he laid out the situation--</l>
                 <l n="636">Why he had been so afflicted;</l>
                 <l n="637">He explained the whole matter of his love for Ynide,</l>
                 <l n="638">But he kept quiet for now the other aspect of the matter.<note xml:id="trans638"/></l>
                 <l n="639">When they had heard it all, they were completely stunned,</l>
-                <l n="640">Everyone lost their ability to speak.</l>
+                <l n="640">Everyone was at a loss for words.</l>
                 <l n="641">They looked at one another, for each feared the count;</l>
-                <l n="642">People, both the foolish and the wise, usually spoke only well of
-                    him.</l>
+                <l n="642">Everyone, both foolish and wise, spoke very well of him.</l>
                 <l n="643">But the king admonished them:</l>
-                <l n="644">"What do you think about this? Shall I therefore die because of you,</l>
-                <l n="645">Or indeed shall I gain what I desire?"</l>
+                <l n="644">"What do you think about this? Will I therefore die because of you,</l>
+                <l n="645">Or indeed will I gain what I desire?"</l>
                 <l n="646">"My lord," they said, "these are strange doings;</l>
                 <l n="647">We can't see this being accomplished without great danger."</l>
             </lg>
@@ -906,10 +905,10 @@
                 <l n="650">Several people will die accomplishing this task</l>
                 <l n="651">But neither I nor anyone else here can refuse;</l>
                 <l n="652">What you request, we must carry through.</l>
-                <l n="653">The lady is very wise; the her lord's friends will never fail her:</l>
+                <l n="653">The lady is very wise; her lord's friends will never fail her:</l>
                 <l n="654">They would rather die for her.</l>'
                 <l n="655">And the count is very brave; there is no one like him in the world.</l>
-                <l n="656">If he becomes aware of this matter, they will defend themselves. </l>
+                <l n="656">If he becomes aware of this matter, they will defend themselves. <note xml:id="trans656"/></l>
                 <l n="657">You know that they will wage a great war against you because of it.</l>
                 <l n="658">And then we cannot imagine any good piece of advice to give you."</l>
                 <l n="659">"I actually have one," the jongleur answered him,</l>
@@ -932,7 +931,7 @@
                 <l n="673">That he will maintain his honor in good faith,</l>
                 <l n="674">[And that] then he will fulfill the honor of Your Lordship,</l>
                 <l n="675">Nor will he ever cause any harm to it.</l>
-                <l n="676">Having promised thus, he'll be committed for sure;</l>
+                <l n="676">Having promised thus, he'll do his utmost for sure;</l>
                 <l n="677">He shall be loyal, as you'll be able to see.</l>
                 <l n="678">Once you have gotten all this from the count,</l>
                 <l n="679">Then you'll tell him that he is to be an ambassador.</l>
@@ -941,13 +940,13 @@
                 <l n="682">That is, to Hell, where everyone suffers,</l>
                 <l n="683">And he must be able to tell you about the kingdom of shadow</l>
                 <l n="684">[And] all the fortresses that belong to it</l>
-                <l n="685">And whether all the land around there can be besieged.</l>
+                <l n="685">And whether all the land around there can be occupied.</l>
                 <l n="686">Before he returns from that land</l>
                 <l n="687">He must speak to him who is the greatest of them all,<note xml:id="trans687"/></l>
-                <l n="688">[And] without any rest or respite, he must find out from him,</l>
+                <l n="688">[And] without any rest or respite, he must find out from him</l>
                 <l n="689">Whether he wants to remain your friend, peacefully or amicably:</l>
                 <l n="690">[If so] he must pay you the tribute that he has always kept from you; </l>
-                <l n="691">If not, you shall challenge all his people.</l>
+                <l n="691">If not, you shall challenge them, his people.</l>
                 <l n="692">Then you will levy your biggest army,</l>
                 <l n="693">And seek him out through hills and valleys;</l>
                 <l n="694">He wouldn't escape either in a castle or a tower</l>
@@ -963,7 +962,7 @@
                 <l n="704">By rights the king should be its shepherd;<note xml:id="trans704"/></l>
                 <l n="705">In this enterprise I believe today that [Huon] will earn praise.</l>
                 <l n="706">Before the Devil sees his land all around laid waste, </l>
-                <l n="707">You will have, sire, his service for all his possessions;<note xml:id="trans707"/></l>
+                <l n="707">He will be completely the king's man; you will see his service;</l>
                 <l n="708">[The Devil] will send such tribute as is fitting to your honor.</l>
                 <l n="709"><milestone n="6R" unit="fol."/><cb n="a"/>Send then, sire, for Huon the count;</l>
                 <l n="710">First make him swear [to do] this task;</l>
@@ -993,8 +992,8 @@
                 <l n="731">Raised him up and seated him by himself.</l>
                 <l n="732">Laughing, he said, "Dear, sweet, gentle friend,</l>
                 <l n="733">I don't know of any man living better than you, </l>
-                <l n="734">Braver, wiser, of more worth.</l>
-                <l n="735">After God and compared to other people,</l>
+                <l n="734">Braver, wiser, of more worth</l>
+                <l n="735">In the eyes of God and other people.</l>
                 <l n="736">By my faith, I love you more than a brother or near relation.</l>
                 <l n="737">I'll explain the matter to you right away that causes me to lament:</l>
                 <l n="738">You must make a journey for me; I know no one more valiant,</l>
@@ -1021,7 +1020,7 @@
                 <l n="756">And that afterward he might remain safe and sound and alive.</l>
                 <l n="757">With great devotion he kissed the relics;</l>
                 <l n="758">To please the king, he pronounced his oath</l>
-                <l n="759">Right away and in the exact way that he was told,</l>
+                <l n="759">Right away and in the exact way they planned it,</l>
                 <l n="760">And he promised truly to execute without any trickery</l>
                 <l n="761">All that the king would now tell him to do.</l>
                 <l n="762">And he swore all this quickly.</l>

@@ -3,27 +3,6 @@ layout: bibliography
 title: Bibliography
 ---
 # *Huon d’Auvergne* Bibliography
-#huon/bibliography 
-
-TO DO:
-- [ ] Italics with. “Atti” - yes/no; where?
-
-
-
-> Fontibus irriguam spatiabar forte per urbem,<br> 
-> Que tribus a vicis nome tenet, ocia passu<br>
-> Castigans modico, cum celsa in sede theatri<br>
-> Karoleas acies et gallica gesta boantem<br>
-> Cantorem aspitio; pendet plebecula circum,<br>
-> Auribus arrectis; illam suus allicit Orpheus.<br>
-> Asculto tacito: Francorum dedita lingue<br>
-> Carmina barbarico passim deformat hiatu,<br> 
-> Tramite nulla suo, nulli innitentia penso<br>
-> Ad libitum volvens; vulgo tamen illa placebant.<br> [^1] 
-
-> “I was strolling through the city rich in spring waters which takes its name from the three roads [Treviso], passing time with no particular haste, when I see upon a stage a performer shouting the deeds of France and the military exploits of Charlemagne. The people crowd around and listen intently as their Orpheus draws them in. I listened in silence. With an unrefined accent he distorts here and there the songs composed in the language of the French and modifies them at whim with no particular care for order. And nonetheless the crowd was pleased.”  
-
-[^1]: Cited in Holtus and Wunderli, “Franco-italien et épopée franco-italienne,” 41. 
 
 ## &#10081;  Manuscripts and Early Print Editions
 -*Huon d’Auvergne*. 1341. MS 78 D 8 (olim MS Hamilton 337). Kupferstichkabinett, Berlin.<br>
@@ -85,7 +64,7 @@ TO DO:
 
 ## &#10081;  2. Reference Works
  In **BOLD** are standard abbreviations used in the field for reference, though entries are listed by Modern Language Association 8th edition conventions).
- 
+
 -[*Vocabolario degli Accademici della Crusca - Lessicografia della crusca in rete, Accademia della Crusca, Firenze*](http://www.lessicografia.it/index.jsp). -  11 vols. Galileiana M. Cellini 1863-19.<br>
 
 
@@ -194,7 +173,7 @@ TO DO:
 [**LEI**](https://reichert-verlag.de/en/series/linguistics_series/sprachwissenschaft_lessico_etimologico_italiano) - Pfister, Max, et al. *Lessico etimologico italiano*. Reichert, 1984-.<br>
 
 
--Pope, Mildred K. *Fr0m Latin to Modern French with Especial Consideration of Anglo-Norman*. Phonology and Morphology. Manchester UP, 1934.<br>
+-Pope, Mildred K. *From Latin to Modern French with Especial Consideration of Anglo-Norman*. Phonology and Morphology. Manchester UP, 1934.<br>
 
 
 -[**RIALFrI**](http://www.rialfri.eu/rialfriWP/) - *Repertorio informatizzato antica letteratura franco-italiana*). Dir. Francesca Gambino, Università di Padova.<br>
@@ -341,7 +320,7 @@ TO DO:
 -Di Stefano, Giuseppe. *No”veau dictionnaire historique des locutions. Ancien Français, Moyen Français, Renaissance*. Brepols, 2015. 2 vols.<br>
 
 
-### E 
+### E
 -Everson, Jane E. *Th” Italian Romance Epic in the Age of Humanism. The Matter of Italy and the World of Rome.* Oxford UP, 2001.<br>
 
 
@@ -593,7 +572,7 @@ Morgan, Leslie Zarker “Una lettera inedita di Pio Rajna, seguita da una breve 
 
 
 ### T
--Thomas, Antoine. “Le no 44 des manuscrits français des Gonzague.” *Romania*, vol. 10, 1881, pp. 406-408. 
+-Thomas, Antoine. “Le no 44 des manuscrits français des Gonzague.” *Romania*, vol. 10, 1881, pp. 406-408.
 
 
 -Tobler, Adolf. “Die Berliner Handschrift des Huon d’Auvergne.” *Sitzungsberichte der königlich preussischen Akademie der Wissenschaften zu Berlin Phil.-hist. Kl.*, vol. 27, 1884, pp. 605-20.<br>
