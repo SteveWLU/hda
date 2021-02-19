@@ -197,7 +197,11 @@
 <note target="#b3286" type="interp" resp="#LZM"> 3286] For this section, cf. <hi rend="italic">Le roman d'Alexandre</hi>, Branche III, laisses 160-162, part of the "Dangerous Valley" where Alexander confronts a demon in order to leave. (Harf-Lancner trans. of E. C. Armstrong, pp. 470-477).</note>
 <note target="#b3354" type="interp" resp="#LZM"> 3354] Here Huon addresses the figure aloud.</note>
 <note target="#b3361" type="codic" resp="#LZM"> 3361] The MS seems to be missing the abbreviation for an "r" here: <hi rend="italic">archiere</hi>, "archer," as in vv. 1710, 9216, 11662, 1204 <hi rend="italic">archiers</hi></note>
+<<<<<<< HEAD
+     <note target="#b3383" type="ref" resp="#LZM"> 3383] Quilidés: At this point it is unclear to whom this might refer. One suggestion is that this might deriving from Bacchylides (ca. 518-ca. 451 BCE), a Greek lyric poet who was included in the list of nine lyric poets. Longinus, for example, praises him, which might account for his name being familiar if not his poems.</note>
+=======
 <note target="#b3383" type="ref" resp="#LZM"> 3383] Quilidés: At this point it is unclear to whom this might refer. </note>
+>>>>>>> master
 <note target="#b3398" type="interp" resp="#LZM"> 3398] This might be a reference to Dante's hell: those inside the walls of Hell (Canto 10) cannot see the present and see the future only dimly (10.94-105).</note>
    <note target="#b3445" type="lex" resp="#LZM"> 3445] <hi rend="italic">stropoit</hi>: a metathesis from Italian "storpiare": 'impedire', 'to hamper' attested 14th century (DELI). Two uses of an <hi rend="italic">str-</hi> form are attested in other texts: <hi rend="italic">Aliscans, stropez</hi> 'portare in esilio' (from 'storber'); and <hi rend="italic">Attila, stropie</hi>, 'to rub' (from 'stroppicciare'), neither of which seem likely here.</note>
 <note target="#b3503" type="codic" resp="#LZM">3503] MS: oi ge, with <hi rend="italic">ge</hi> expunctuated, the <hi rend="italic">g</hi> with a dot above, the <hi rend="italic">e</hi> with dot both above and below.  "Natural" i.e., from a liaison outside of marriage, and therefore not legally an heir (though a woman as an heir held varying positions through the eras and in different locations).</note>
@@ -327,7 +331,11 @@
    <note target="#b5478" type="lex" resp="#LZM">5478] <hi rend="italic">reïre</hi>: from the prefix RE- + ire</note>
    <note target="#b5479" type="interp" resp="#LZM">5479]  Candace is the wife of Darius of Syria in the legend of Alexander the Great, with whom she falls in love. She figures in <hi rend="italic">Roman d'Alexandre</hi> Bk 3. See Meregazzi, "L'Ugo d'Alvernia," pp. 19-22 on other Alexander romance derivations in the poem, though she does not discuss the Ynide embassy episode, and Morgan, “Le Roman d’Alexandre dans Huon d'Auvergne: tourisme et truismes dans une épopée du XIVe siècle,” in <hi rend="italic">Epic Connections / Rencontres épiques Proceedings of the Nineteenth International Conference of the Société Rencesvals</hi>, Oxford, 13–17 August 2012, ed. Marianne J. Ailes, Philip E. Bennett and Anne Elizabeth Cobby (Société Rencesvals British Branch, 2015), pp. 509-27. Alexander tricked her, pretending to be a messenger and not himself, though he then revealed the trick and spent the night with her and then left– as Aeneas also left Dido. So she is suggesting what might happen to her.</note> 
 <note target="#b5482" type="codic" resp="#LZM">5482] MS appears to read <hi rend="italic">niiēs</hi></note>
+<<<<<<< HEAD
+     <note target="#b5491" type="lex" resp="#LZM">5491] <hi rend="italic">Lachebire</hi>: unknown figure. Not in Moisan, Langlois or Flutre. </note>
+=======
     <note target="#b5491" type="lex" resp="#LZM">5491] <hi rend="italic">Lachebire</hi>: </note>
+>>>>>>> master
     <note target="#b5514" type="lex" resp="#LZM">5514]  <hi rend="italic">ait</hi>: we understand as a form of "to help" based upon the T l5324, "<hi rend="italic">Dio aiute da mi</hi>a parte che più l'averà biasemato" though in general in B "ait" is a form of "avoir."</note>
    <note target="#b5532" type="interp" resp="#LZM">5532] The forms here are unlike others we have seen in this text; and these lines are omitted from the T MS. We have interpreted <hi rend="italic">sorer</hi> as "suer" and <hi rend="italic">scaulir</hi> as "echauffer" through an Italianate "caldo" since Ital "scaldare"=to burn, though one might expect opposite expressions. The T text (in a different order) does mention the 'fire of love,' v. 5346, "Lo feu d'amore sovente li fate sentire." Holtus (<hi rend="italic">Lexikalische</hi>, pp. 454-55), relates it to "essorer," with varying meanings according to the text; 'to relax, cool off.'</note>
    <note target="#b5537" type="lex" resp="#LZM">5537] <hi rend="italic">païr</hi>: this is a hapax legomenon in the text. It could be three verbs: to pay; to appear; to become pale.</note>
@@ -1100,7 +1108,11 @@ Stengel ("Huons Suche," p. 43): puis après [se] signa</note>
 <note target="#b9642" type="refer" resp="#LZM">9642] Cf. <hi rend="italic">Inf</hi>. 24.15.</note>  
 <note target="#b9653" type="refer" resp="#LZM">9653] Meregazzi, <hi rend="italic">Inf</hi>. 3.109-11; cf. Graf, p. 108.</note>
 <note target="#b9655" type="codic" resp="#LZM">9655] There is no abbreviation at all on the word 'etres'. The illumination shows Charon with an oar, not a sail; T 9314 gives "remo," 'oar.' </note>
+<<<<<<< HEAD
+2<note target="#b9656" type="refer" resp="#LZM">9656] Cf. <hi rend="italic">Inf</hi>. 3.111. </note>
+=======
 <note target="#b9656" type="refer" resp="#LZM">9656] Cf. <hi rend="italic">Inf</hi>. 3.111. </note>
+>>>>>>> master
 <note target="#b9657" type="refer" resp="#LZM">9657] Cf. <hi rend="italic">Inf</hi>. 8.17; 8.24 where Phlegyas (Flegïas) and Filippo Argenti appear. </note>
 <note target="#b9659" type="codic" resp="#LZM">9659] The first three words of the line were scratched out and then replaced.</note>
 <note target="#b9661" type="refer" resp="#LZM">9661]  For <hi rend="italic">confés</hi>, see Mainone (<hi rend="italic">Laut</hi>, p. 24). </note>
@@ -1201,7 +1213,11 @@ Stengel ("Huons Suche," p. 43): puis après [se] signa</note>
 <note target="#b10233" type="lex" resp="#LZM">10233] We are assuming that <hi rend="italic">camperon</hi> comes from the verb <hi rend="italic">campare</hi>; cf. OF 'eschamper'. T 9887 reads "O tu, da quel capiron [oh you, in that hooded cape], which would seem to indicate some difficulty in the source since it is so different.</note>
  <note target="#b10237" type="lex" resp="#LZM">10237] <hi rend="italic">Aquillon</hi>: cf l. 9320, "le aquilenois", and <hi rend="italic">Entrée d'Espagne</hi>, "le ciel"</note> 
  <note target="#b10243" type="refer" resp="#LZM">10243] There are no other forms of this as noun or as adjective. However, the suffix <hi rend="italic">-borg</hi> does appear, where <hi rend="italic">-urg</hi> does not. "The Burgundian" is Girard, lord of Vienne, known not only for his pride but his fierce fighting against the Saracens.</note>
+<<<<<<< HEAD
+     <note target="#b10246" type="codic" resp="#LZM">10246] <hi rend="italic">non vaut si</hi> is written over a scratch-out. Attributed to Solomon are the biblical books of Proverbs, Ecclesiastes and the Song of Solomon, plus an apocryphal Wisdom of Solomon. Various vernacular versions of the Proverbs exist in Old French. </note>
+=======
 <note target="#b10246" type="codic" resp="#LZM">10246] <hi rend="italic">non vaut si</hi> is written over a scratch-out.</note>
+>>>>>>> master
 <note target="#b10247" type="codic" resp="#LZM">10247] The <hi rend="italic">bone</hi> is very hard to read because of a black smear at the top of the folio that almost completely covers it.</note>
 <note target="#b10258" type="interp" resp="#LZM">10258] The original could have read "por voir et por semblant"; cf. 2912, 3930, etc. ("por voir") and 2450, 10258, etc., ("por semblant"), something like "truly and seemingly"</note>
 <note target="#b10263" type="lex" resp="#LZM">10263] MS: S a paser. This is a problematic section; see Turin, 9918 -19: <hi rend="italic">Se la penserò, el se </hi> mese questo chi l'aten<hi rend="italic">de</hi>;  <hi rend="italic">el comandò: "Do</hi>vite y[n]sire de pene tante gra[n]d<hi rend="italic">e</hi> [...].Two alternatives seem possible: either <hi rend="italic">s'apa<ex rend="angle">rl</ex>er</hi>: he began to discuss/talk with those whom he met.  Or, to follow Turin, <hi rend="italic">pa<ex rend="brackets">n</ex>ser</hi> for "pensée", though it is normally masculine in OF.</note>
