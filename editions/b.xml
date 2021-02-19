@@ -171,7 +171,11 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
+<<<<<<< HEAD
       <change>Last updated February 12, 2021</change>
+=======
+      <change>Last updated February 4, 2021</change>
+>>>>>>> master
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1101,7 +1105,11 @@
           <l n="704">A droit dovroit il <ex rend="angle">re</ex> estre de luy li son pastor;<note xml:id="b704"/></l>
         <l n="705">De ceste ovre prandra, ce croy, huy lausor.</l>
         <l n="706">Quant qui il si voge, gaste sa te<ex rend="italic">r</ex>re entor.</l>
+<<<<<<< HEAD
         <l n="707">De tot au roy sera; vereç son servior;</l>
+=======
+        <l n="707">De tot avroy, ser, avereç son servior;</l>
+>>>>>>> master
         <l n="708">Tiel trehu mandera con co<ex rend="italic">n</ex>vient v<ex rend="italic"
             >est</ex>re honor.</l>
         <l n="709"><milestone n="6R" unit="fol."/><cb n="a"/>Mandés sire adonque p<ex rend="italic">or</ex>
@@ -1135,8 +1143,13 @@
         <l n="731">Sus le leva aprés de lui l'asent.</l>
         <l n="732">En riant dist, "Biaus douç amis <ex rend="italic">et</ex> jent,</l>
         <l n="733">Meudre de vos non say hom vivent,</l>
+<<<<<<< HEAD
         <l n="734">Plus pros, plus saige, de meillor valime<ex rend="italic">n</ex>t</l>
         <l n="735">En aprés Dieu <ex rend="italic">et</ex> aprés autre gient.</l>
+=======
+        <l n="734">Plus pros, plus saige, de meillor valime<ex rend="italic">n</ex>t.</l>
+        <l n="735">En aprés Dieu <ex rend="italic">et</ex> aprés autre gient;</l>
+>>>>>>> master
         <l n="736">De foy vos aim plus de frer o parent.</l>
         <l n="737">De un mon afaire a vos si m'en lament:</l>
         <l n="738">Par vos me stoit he<ex rend="italic">r</ex>rer, no<ex rend="italic">n</ex> say un
@@ -1174,7 +1187,11 @@
         <l n="756">E qu'aprés li remaint sain et sauf <ex rend="italic">et</ex> vivant.</l>
         <l n="757">Devoteme<ex rend="italic">n</ex>t il veit le reliques baisant;</l>
         <l n="758">Por complaisir au roy, il fist li sarema<ex rend="italic">n</ex>t</l>
+<<<<<<< HEAD
           <l n="759">Tot en tiel mainere cum alo<ex rend="angle">n</ex>t devisant,<note xml:id="b759"/></l>
+=======
+          <l n="759">Tot en tiel mainere cum alot devisant,<note xml:id="b759"/></l>
+>>>>>>> master
         <l n="760">Et il ot prometu de mante<ex rend="italic">n</ex>ir voirma<ex rend="italic"
             >n</ex>t</l>
         <l n="761">Tot sainç mauvés engin ce che dira e<ex rend="italic">n</ex> presa<ex
