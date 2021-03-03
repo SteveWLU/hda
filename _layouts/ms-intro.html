@@ -44,21 +44,21 @@
             <div class="row justify-content-md-center">
                 <div class="col-md-6">
                     {% if page.sigla == 'B' %}
-                        <img id="toc" src="../assets/images/b-intro.jpg">
+                        <img id="ms-intro-toc" src="../assets/images/b-intro.jpg">
                     {% elsif page.sigla == 'T' %}
-                        <img id="toc" src="../assets/images/t-intro.jpg">
+                        <img id="ms-intro-toc" src="../assets/images/t-intro.jpg">
                     {% elsif page.sigla == 'P' %}
-                        <img id="toc" src="../assets/images/p-intro.jpg">
+                        <img id="ms-intro-toc" src="../assets/images/p-intro.jpg">
                     {% elsif page.sigla == 'Br' %}
-                        <img id="toc" src="../assets/images/br-intro.jpg">
+                        <img id="ms-intro-toc" src="../assets/images/br-intro.jpg">
                     {% elsif page.sigla == 'BT' %}
-                        <img id="toc" src="../assets/images/b-intro.jpg">
+                        <img id="ms-intro-toc" src="../assets/images/b-intro.jpg">
                     {% endif %}
                 </div>
                 <div class="col-md-6">
-                    <div id="toc">
+                    <div id="ms-intro-toc">
                         <h2>Table of Contents</h2>
-                        <hr id="toc">
+                        <hr id="ms-intro-toc">
                         <ol>
                             {% if page.sigla == 'B' or page.sigla == 'T' or page.sigla == 'P' or page.sigla == 'Br' %}
                             <li><a href="{{page.criteria}}">Edition Criteria</a></li>

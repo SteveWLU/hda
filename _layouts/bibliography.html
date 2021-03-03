@@ -1,24 +1,84 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {% include head.html %}
 
+<head>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+
 <style>
 
-<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/></style>
+#toc a.nav-link.active {
+  color:#5f0000;
+}
 
-<nav id="toc" data-toggle="toc"></nav>
+#toc a.nav-link {
+  font-size: large;
+  color: gray;
+  font-variant: none;
+  font-family: inherit;
+}
 
+ul.bib {
+ padding: 0 0 0.75em 0; 
+ margin: 0; 
+ list-style: none;
+ line-height: 2em;
+}
+
+ul.bib>li {
+ text-indent: -0.75em; 
+ margin: 0.33em 0.5em 0.5em 1.5em;
+}
+
+nav[data-toggle="toc"] {
+  top: 42px;
+}
+
+nav[data-toggle=toc] .nav-link.active+ul {
+    display: flex;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle="toc"] {
+    margin-bottom: 42px;
+    position: static;
+  }
+
+  /* PICK ONE */
+  /* don't expand nested items, which pushes down the rest of the page when navigating */
+  /* nav[data-toggle="toc"] .nav .active .nav {
+    display: none;
+  }
+  
+  /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+  
+  nav[data-toggle='toc'] .nav .nav {
+    display: block;
+  }
+  
+}
+
+</style>
+</head>
 
 <body data-spy="scroll" data-target="#toc">
+   
   <div class="container">
     <div class="row">
+      <div class="col-4"></div>
+      <div class="col-8"><h1>Huon d'Auvergne Bibliography</h1></div>
+    </div>
+    <div class="row">
       <!-- sidebar, which will move to the top on a small screen -->
-      <div class="col-sm-3">
+      <div class="col-4">
         <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
       </div>
       <!-- main content area -->
-      <div class="col-sm-9">{{content}}</div>
+      <div class="col-8">{{content}}</div>
     </div>
   </div>
 
