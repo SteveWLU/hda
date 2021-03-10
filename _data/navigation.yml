@@ -1,8 +1,8 @@
 toc:
   - title: About
     subfolderitems:
-      - page: Versioning
-        url: /about/versioning.html
+      - page: Collaborators
+        url: /about/collaborators.html
       - page: Bibliography
         url: /about/bibliography.html
       - page: Cite our work
@@ -11,18 +11,16 @@ toc:
         url: https://github.com/SteveWLU/hda
       - page: Technical Notes
         url: /about/technical-notes.html
-  - title: Praxis
+  - title: Edition Criteria
     subfolderitems:
-      - page: General Criteria
-        url: /test-praxis.html
       - page: Berlin Criteria
-        url: /b-praxis.html
+        url: /b-criteria.html
       - page: Turin Criteria
-        url: /t-praxis.html
+        url: /t-criteria.html
       - page: Padua Criteria
-        url: /p-praxis.html
+        url: /p-criteria.html
       - page: Barbieri Fragment Criteria
-        url: /br-praxis.html
+        url: /br-criteria.html
   - title: Editions
     subfolderitems:
       - page: Berlin (B)
