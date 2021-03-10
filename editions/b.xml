@@ -171,7 +171,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Last updated February 28, 2021</change>
+      <change>Last updated March 8, 2021</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -5996,7 +5996,7 @@
         <l n="4145">Com el en deüst dire, "Ferai qua<ex rend="italic">n</ex>t qe te plist;</l>
         <l n="4146">Sor toy sera el pejor, qe a topin te mist.</l>
         <l n="4147">No sas la o tu vas, ni avenir te poïst;</l>
-          <l n="4148">Toe venture ert fable pecé, hom le p<ex rend="italic">er</ex>cevist."</l>
+          <l n="4148">Toe venture ert fable, pe<hi rend="angle">r</hi> ce hom le p<ex rend="italic">er</ex>cevist."<note xml:id="b4148"/></l>
         <l n="4149"><cb n="b"/>A mangier p<ex rend="italic">ri</ex>st le
             quue<ex rend="italic">n</ex>s, qe li segne entist;</l>
         <l n="4150">Bien soit qui il dist voir, mes le quue<ex rend="italic">r</ex> l'atendrist;</l>

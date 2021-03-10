@@ -6,7 +6,7 @@ title: Technical Notes
 
 # Technical Notes
 
-For TEI Encoding criteria, please see the Praxis section of the website. 
+For TEI Encoding criteria, please see the Criteria section of the website. 
 
 ## Jekyll 
 The *Huon d'Auvergne* Digital Archive is built using the static site framework [Jekyll](https://jekyllrb.com/). We chose this framework for several reasons. 1) The textual and static nature of our project does not necessitate a robust or dynamic database-driven platform. 2) Familiarity with Jekyll in our small development team. 3) The potential of Jekyll to integrate with new technologies like the CETEIcean Javascript library and the International Image Interoperability Framework. 
