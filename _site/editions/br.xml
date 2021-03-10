@@ -188,14 +188,14 @@
         </front>
         <body>
             <lg type="laisse" n="1"><milestone n="1R" unit="fol."/>
-                <l n="1">﻿Come le filç vait (au pere secors) querire</l>
+                <l n="1">Come le filç vait (au pere secors) querire<note xml:id="br1"/></l>
                 <l n="2">N(i'l carel) qant de l'arch ensire</l>
-                <l n="3">Non cort si fort por son camin fornire</l>
+                <l n="3">Non cort si fort por son camin<note xml:id="br3"/> fornire</l>
                 <l n="4">Come lo dragon vient le çival ferire </l>
                 <l n="5">De ses grant ales la trestot feit covrire, </l>
                 <l n="6">Por mi li çef les vot as dens salire</l>
                 <l n="7">Estrangolé l'a aino q'il soit partire </l>
-                <l n="8">Petit le laise stratornere ne guenchire</l>
+                <l n="8">Petit le laise stratornere ne guenchire<note xml:id="br8"/></l>
                 <l n="9">Qant l'a oçis si ne le vout gue<ex rend="italic">r</ex>pire</l>
                 <l n="10">Li quens d'Avernie voit son çival morire</l>
                 <l n="11">Pieté li prent si çet un gran sospire</l>
