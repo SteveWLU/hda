@@ -354,6 +354,8 @@ img, object, embed {
 Columns and Rows
 ----------*/
 
+
+
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
 /* For modern browsers */
 .cf:before,
@@ -452,8 +454,6 @@ nav li.active a {
 	display:block;
 	background-color: #f5f5f5;
 }
-
-
 /*
 
 .dropdown {
@@ -814,7 +814,7 @@ div.thinwrapper {
 	margin:auto;
 }
 
-div#ms-intro-toc-header {
+div#toc-header {
 	float: left;
 	color: #5f0000;
 	margin: 5% 0 0 0;
@@ -822,13 +822,13 @@ div#ms-intro-toc-header {
 }
 
 
-div#ms-intro-toc {
+div#toc {
 	/* width: 40%;
 	float: left; */
 	margin: 5% 0 0 10%;
 }
 
-div#ms-intro-toc-img {
+div#toc-img {
 	width: 50%;
 	float: left;
 }
@@ -838,31 +838,39 @@ h1#edition-criteria-for-padua {
 	color: #5f0000;
 }
 
+h1#ms-intro {
+	margin: 8% 0 0 0;
+	color: #5f0000;
+}
+
 .ms-intro-toc {
 	margin: 5% 0 0 5%;
 }
-img#ms-intro-toc {
+img#toc {
+    /* float: left;
+    display: inline-block; */
 	border: 2px solid #5f0000;
+	/* width: 40%; */
+	/* margin: 5% 0 5% 5%; */
 }
-
-#ms-intro-toc ol {
+#toc ol {
 	font-size: small;
 }
 
-#ms-intro-toc h2 {
+#toc h2 {
 	font-size: 2em;
 	color: #000;
 	font: 'Barlow Semi Condensed', sans-serif;
 }
 
-#ms-intro-toc a {
+#toc a {
 	font-size: 1em;
 	font: 'Barlow Semi Condensed', sans-serif;
 	color: #5f0000;
     font-size: x-large;
 }
 
-#ms-intro-toc ol > li {
+#toc ol > li {
 	color: #D6D6D6;
 	font-size: 2em;
 	padding-bottom: 1em;
@@ -889,12 +897,31 @@ h2#ms-intro {
 	text-align: center;
 	font-size: larger;
 }
-hr#ms-intro-toc {
+hr#toc {
     margin-left: -.5em;
 }
 #status p {
 	font-size: inherit;
 }
+
+/* #toc ol {
+	counter-reset: item;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	padding-left: 3.5em;
+	line-height: 2.5em;
+}
+#toc ol>li {
+	color: lightgray;
+	float: left;
+	padding-right: 25%;
+	display: block;
+	list-style-type: lower-roman;
+	width: 100%;
+} */
+
+/* HERE */
+/* CSS style from gem: style="width: 100%; height: 500px; border: 1px solid grey" */
 
 /* --------------------------------------------------
    archive styles
