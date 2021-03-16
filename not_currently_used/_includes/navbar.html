@@ -1,0 +1,23 @@
+
+<div class="collapse navbar-collapse justify-content-end site-nav" id="navbarNavDropdown">
+  <ul class="navbar-nav">
+    {% for item in site.data.navigation.toc %}
+    {% if item.title == "Search" %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% else %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ item.title }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          {% for entry in item.subfolderitems %}
+              <a class="dropdown-item" href="{{ entry.url }}">{{ entry.page }}</a>
+          {% endfor %}
+        </div>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
