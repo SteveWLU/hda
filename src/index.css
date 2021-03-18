@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed");
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #5f0000;
+  line-height: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #213149;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: revert;
+}
+
+p {
+  margin: 0 0 1em 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: large;
+}
+
+p.intro:before {
+  content: "INKING INSTITUTIONS ";
+  font-weight: bold;
+}
+
+img#initial {
+  max-width: 65%;
+  max-height: 85%;
+}
+
+/* Navbar Styles */
+#site-title {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+}
+
+#nav-subtitle {
+  font: 1em "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  color: #5f0000;
+  text-transform: uppercase;
+  margin: none;
+}
+
+#responsive-navbar-nav {
+  text-transform: uppercase;
+  font-size: large;
+}
+/* Homepage Styles */
+#home > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p.intro {
+  text-align: justify;
+  padding-top: 25%;
+}
+
+/* Styles for mobile */
+@media only screen and (max-width: 951px) {
+  /* Navbar Styles */
+  #site-title {
+    font-size: 1.3rem !important;
+  }
+
+  #nav-subtitle {
+    display: none;
+  }
+
+  #home > div {
+    padding: 13px;
+  }
+
+  /* Homepage Styles */
+  p.intro::first-letter {
+    color: tomato;
+    font-size: 60px;
+  }
+
+  p.intro:before {
+    content: "LINKING INSTITUTIONS ";
+    font-weight: bold;
+  }
+
+  #big-l {
+    display: none !important;
+  }
+
+  p.intro {
+    padding-top: 1%;
+  }
+}
