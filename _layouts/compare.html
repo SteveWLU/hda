@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+<style>
+  .TEI {
+      height: 73vh;
+      overflow-y: auto;
+      padding: 0 3px;
+  }
+
+  .TEI::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #F5F5F5;
+  }
+
+  .TEI::-webkit-scrollbar {
+      width: 8px;
+      background-color: #F5F5F5;
+  }
+
+  .TEI::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(250, 250, 250, 0.3);
+      background-color: #5f0000;
+  }
+</style>
+<body>
+
+{% include header.html %}
+<main class="page-content" aria-label="Content">
+  <h2 class="text-center">Compare Manuscripts</h2>
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <h2>B TEI</h2>
+        <div class="TEI" id="b"></div>
+      </div>
+      <div class="col">
+        <h2>BR TEI</h2>
+        <div class="TEI" id="br"></div>
+      </div>
+      <div class="col">
+        <h2>P TEI</h2>
+        <div class="TEI" id="p"></div>
+      </div>
+      <div class="col">
+        <h2>T TEI</h2>
+        <div class="TEI" id="t"></div>
+      </div>
+    </div>
+    
+    
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+// Load JSON
+var correspondences;
+$.getJSON("./crspnds.json", (data) => {
+  correspondences = data;
+  console.log("CRSPNDS:", correspondences);
+});  
+
+var CETEIcean = new CETEI();
+ 
+const TeiToHtml = async function() {
+    var xmls = ["b", "t", "p", "br"]
+    await Promise.all(xmls.map(async (xml) => {
+      const data = await CETEIcean.getHTML5(`{{site.baseurl}}/editions/${xml}.xml`)
+      document.getElementById(`${xml}`).appendChild(data);
+      CETEIcean.addStyle(document, data)
+    }));
+}
+
+TeiToHtml().then(() => {
+  $('tei-l').click((event) => {
+    console.log("CLICKED")
+    const tei = $(event.target).closest('.TEI').attr('id')
+    const lineNum = $(event.target).attr('n')
+    console.log(tei);
+    // loop through json until you find the matching record
+    for (var i = 0; i < correspondences.length; i++) {
+      if (correspondences[i][tei] == lineNum) {
+        // we have found the record that matches the linenum and tei clicked
+        console.log(correspondences[i])
+      }
+    }
+  })
+})
+
+</script>
+
+</div>
+</main>
+</body>
+</html>

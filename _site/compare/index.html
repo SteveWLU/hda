@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Compare</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/assets/scripts/modernizr.custom.js"></script>
+    <script src="../assets/js/CETEI.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<style>
+  .TEI {
+      height: 73vh;
+      overflow-y: auto;
+      padding: 0 3px;
+  }
+
+  .TEI::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #F5F5F5;
+  }
+
+  .TEI::-webkit-scrollbar {
+      width: 8px;
+      background-color: #F5F5F5;
+  }
+
+  .TEI::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(250, 250, 250, 0.3);
+      background-color: #5f0000;
+  }
+</style>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light page-header">
+    <div class="d-flex flex-column bd-highlight mb-3">
+        <h1 id="site-title"><a class="navbar-brand" href="http://localhost:4000">Huon d'Auvergne Digital Archive</a></h1>
+        <p class="bd-highlight" id="nav-subtitle">A digital edition and translation of Huon d'Auvergne, a pre-modern, Franco-Italian Epic</p>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+<div class="collapse navbar-collapse justify-content-end site-nav" id="navbarNavDropdown">
+  <ul class="navbar-nav">
+    
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <a class="dropdown-item" href="/about/versioning.html">Versioning</a>
+          
+              <a class="dropdown-item" href="/about/bibliography.html">Bibliography</a>
+          
+              <a class="dropdown-item" href="/about/citation.html">Cite our work</a>
+          
+              <a class="dropdown-item" href="https://github.com/SteveWLU/hda">Source Code</a>
+          
+              <a class="dropdown-item" href="/about/technical-notes.html">Technical Notes</a>
+          
+        </div>
+      </li>
+    
+    
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Praxis
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <a class="dropdown-item" href="/test-praxis.html">General Criteria</a>
+          
+              <a class="dropdown-item" href="/b-praxis.html">Berlin Criteria</a>
+          
+              <a class="dropdown-item" href="/t-praxis.html">Turin Criteria</a>
+          
+              <a class="dropdown-item" href="/p-praxis.html">Padua Criteria</a>
+          
+              <a class="dropdown-item" href="/br-praxis.html">Barbieri Fragment Criteria</a>
+          
+        </div>
+      </li>
+    
+    
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Editions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <a class="dropdown-item" href="/editions/b-intro.html">Berlin (B)</a>
+          
+              <a class="dropdown-item" href="/editions/t-intro.html">Turin (T)</a>
+          
+              <a class="dropdown-item" href="/editions/p-intro.html">Padua (P)</a>
+          
+              <a class="dropdown-item" href="/editions/br-intro.html">Barbieri Fragment (Br)</a>
+          
+        </div>
+      </li>
+    
+    
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Translation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <a class="dropdown-item" href="/editions/bt-intro.html">Berlin Translation</a>
+          
+        </div>
+      </li>
+    
+    
+    
+      <li class="nav-item">
+        <a class="nav-link" href="/search/">Search</a>
+      </li>
+    
+    
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Compare
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <a class="dropdown-item" href="/compare/">V1</a>
+          
+              <a class="dropdown-item" href="/compare/v2">V2</a>
+          
+        </div>
+      </li>
+    
+    
+  </ul>
+</div>
+</nav>
+<main class="page-content" aria-label="Content">
+  <h2 class="text-center">Compare Manuscripts</h2>
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col">
+        <h2>B TEI</h2>
+        <div class="TEI" id="b"></div>
+      </div>
+      <div class="col">
+        <h2>BR TEI</h2>
+        <div class="TEI" id="br"></div>
+      </div>
+      <div class="col">
+        <h2>P TEI</h2>
+        <div class="TEI" id="p"></div>
+      </div>
+      <div class="col">
+        <h2>T TEI</h2>
+        <div class="TEI" id="t"></div>
+      </div>
+    </div>
+    
+    
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+// Load JSON
+var correspondences;
+$.getJSON("./crspnds.json", (data) => {
+  correspondences = data;
+  console.log("CRSPNDS:", correspondences);
+});  
+
+var CETEIcean = new CETEI();
+ 
+const TeiToHtml = async function() {
+    var xmls = ["b", "t", "p", "br"]
+    await Promise.all(xmls.map(async (xml) => {
+      const data = await CETEIcean.getHTML5(`/editions/${xml}.xml`)
+      document.getElementById(`${xml}`).appendChild(data);
+      CETEIcean.addStyle(document, data)
+    }));
+}
+
+TeiToHtml().then(() => {
+  $('tei-l').click((event) => {
+    console.log("CLICKED")
+    const tei = $(event.target).closest('.TEI').attr('id')
+    const lineNum = $(event.target).attr('n')
+    console.log(tei);
+    // loop through json until you find the matching record
+    for (var i = 0; i < correspondences.length; i++) {
+      if (correspondences[i][tei] == lineNum) {
+        // we have found the record that matches the linenum and tei clicked
+        console.log(correspondences[i])
+      }
+    }
+  })
+})
+
+</script>
+
+</div>
+</main>
+</body>
+</html>

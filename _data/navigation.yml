@@ -39,3 +39,9 @@ toc:
         url: /editions/bt-intro.html
   - title: Search
     url: /search/
+  - title: Compare
+    subfolderitems:
+      - page: V1
+        url: /compare/
+      - page: V2
+        url: /compare/v2

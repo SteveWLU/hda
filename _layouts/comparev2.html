@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+<style>
+  .card-body {
+    padding: 0px
+  }
+  /* .TEI {
+      height: 73vh;
+      overflow-y: auto;
+      padding: 0 3px;
+  }
+
+  .TEI::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #F5F5F5;
+  }
+
+  .TEI::-webkit-scrollbar {
+      width: 8px;
+      background-color: #F5F5F5;
+  }
+
+  .TEI::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(250, 250, 250, 0.3);
+      background-color: #5f0000;
+  } */
+</style>
+<body>
+
+{% include header.html %}
+<main class="page-content" aria-label="Content">
+  <h2 class="text-center">Compare Manuscripts - Version 2</h2>
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-11 col-md-5 m-auto">
+          <div class="TEI accordion" id="accordionExample"></div>
+      </div>
+    </div>    
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+// Load JSON
+// var correspondences;
+// $.getJSON("./crspnds.json", (data) => {
+//   correspondences = data;
+//   console.log("CRSPNDS:", correspondences);
+// });  
+
+var CETEIcean = new CETEI();
+
+// Dictionary to hold tei htmls
+var teiDict = new Map()
+ 
+const TeiToHtml = async function() {
+    var xmls = ["b", "t", "p", "br"]
+    await Promise.all(xmls.map(async (xml) => {
+      const data = await CETEIcean.getHTML5(`{{site.baseurl}}/editions/${xml}.xml`)
+      // document.getElementById(`${xml}`).appendChild(data);
+      teiDict.set(xml, data);
+      // CETEIcean.addStyle(document, data)
+    }));
+
+    let data = await $.getJSON("./crspnds.json");
+    return data;
+}
+
+TeiToHtml().then((correspondences) => {
+  console.log(correspondences)
+  console.log(teiDict)
+  createAccordion("b", correspondences)
+
+})
+
+function getLineText(tei, lineNum) {
+  return $(teiDict.get(tei)).find(`tei-l[n='${lineNum}']`).text();
+}
+
+function createAccordion(mainTei, corr) {
+  var accordionHtml = ""
+  for (const record of corr) {
+    let otherTeiLineTexts = Object.keys(record).filter(name => name != mainTei).map(restTei => getLineText(restTei, record[restTei]));
+    console.log(otherTeiLineTexts)
+    accordionHtml += createCard(getLineText(mainTei, record[mainTei]), otherTeiLineTexts);
+    // corrText.push(toAdd)
+  }
+
+  $('.accordion').append(accordionHtml);
+
+
+}
+
+var cardCount = 0;
+function createCard(header, body) {
+  // Creates an accordion with a list group in the body and a header
+  let accordionCard =  `
+  <div class="card">
+    <div class="card-header" id="heading-${cardCount}">
+      <h2 class="mb-0">
+        <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-${cardCount}" aria-expanded="true" aria-controls="collapse-${cardCount}">
+          ${header}
+        </button>
+      </h2>
+    </div>
+    <div id="collapse-${cardCount}" class="collapse" aria-labelledby="heading-${cardCount}" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul class="list-group">
+  `
+  body.map((line) => {
+    accordionCard +=  `
+      <li class="list-group-item">${line}</li>
+    `
+  })
+
+  // closing tags
+  accordionCard += `</ul></div></div></div>`
+  cardCount++; // increment count so each card has a unique identifier
+
+  return accordionCard;
+
+}
+
+</script>
+
+</main>
+</body>
+</html>
