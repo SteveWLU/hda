@@ -203,7 +203,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Last updated December 3, 2020</change>
+            <change>Last updated Narch 10, 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -3620,13 +3620,13 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <head>Laisse 81</head>
                 <l n="2504"><hi rend="red-initial">Q</hi>uando in la nave fo i<ex rend="italic"
                         >n</ex>trado Ugo l'insenie,</l>
-                <l n="2505">Andoncha à lla sso via pie:</l>
-                <l n="2506">Or lli ssia Domenedio in ahie.</l>
-                <l n="2507">Tre çorni andà ch'el no demorà mie;</l>
-                <l n="2508">Al quarto çorno, avanti la cunplie,</l>
+                <l n="2505">Andoncha à lla sso via pie:<note xml:id="p2505"/></l>
+                <l n="2506">Or lli ssia Domenedio in ahie.<note xml:id="p2506"/></l>
+                <l n="2507">Tre çorni andà ch'el no demorà mie;<note xml:id="p2507"/></l>
+                <l n="2508">Al quarto çorno, avanti la cunplie,<note xml:id="p2508"/></l>
                 <l n="2509">Una çitade vete che pareva en oblie;</l>
                 <l n="2510">De bona çente era ben guarnie.</l>
-                <l n="2511"><milestone n="52R" unit="fol."/>Antona l'apelava queli de la contre,</l>
+                <l n="2511"><milestone n="52R" unit="fol."/>Antona l'apelava queli de la contre,<note xml:id="p2511"/></l>
                 <l n="2512">Tadio l'apelava queli de la <choice>
                         <sic>trie</sic>
                         <corr cert="medium" resp="#SPM">t<ex rend="brackets">e</ex>rie</corr>
