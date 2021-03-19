@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "https://stevewlu.github.io/manifests/p-manifest.json",
+  "@id": "https://huondauvergne.org/manifests/p-manifest.json",
   "label": "Padua, Biblioteca del Seminario Vescovile, MS 32",
   "description": "Huon d'Auvergne, Padua, Biblioteca del Seminario Vescovile, MS 32",
   "metadata": [
@@ -42,14 +42,14 @@
   ],
 
   "attribution": "Biblioteca del Seminario Vescovile",
-  "logo": "http://stevewlu.github.io/assets/images/logos/logo_vescovile.png",
+  "logo": "https://huondauvergne.org/assets/images/logos/logo_vescovile.png",
   "sequences": [
     {
       "@type": "sc:Sequence",
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "https://stevewlu.github.io/iiif/canvas/001",
+          "@id": "https://huondauvergne.org/iiif/canvas/001",
           "label": "p001r",
           "width": 1184,
           "height": 1575,
@@ -57,7 +57,7 @@
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://stevewlu.github.io/iiif/canvas/001",
+              "on": "https://huondauvergne.org/iiif/canvas/001",
               "resource": {
                 "@type": "dctypes:Image",
                 "@id": "https://iiif.wlu.edu/iiif/huon/p001r.tif",
@@ -74,7 +74,7 @@
 
         {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/002",
+            "@id": "https://huondauvergne.org/iiif/canvas/002",
             "label": "p001v",
             "width": 1173,
             "height": 1575,
@@ -82,7 +82,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/002",
+                "on": "https://huondauvergne.org/iiif/canvas/002",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p001v.tif",
@@ -99,7 +99,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/003",
+            "@id": "https://huondauvergne.org/iiif/canvas/003",
             "label": "p002r",
             "width": 1187,
             "height": 1575,
@@ -107,7 +107,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/003",
+                "on": "https://huondauvergne.org/iiif/canvas/003",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p002r.tif",
@@ -124,7 +124,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/004",
+            "@id": "https://huondauvergne.org/iiif/canvas/004",
             "label": "p002v",
             "width": 1176,
             "height": 1572,
@@ -132,7 +132,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/004",
+                "on": "https://huondauvergne.org/iiif/canvas/004",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p002v.tif",
@@ -149,7 +149,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/005",
+            "@id": "https://huondauvergne.org/iiif/canvas/005",
             "label": "p003r",
             "width": 1187,
             "height": 1575,
@@ -157,7 +157,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/005",
+                "on": "https://huondauvergne.org/iiif/canvas/005",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p003r.tif",
@@ -174,7 +174,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/006",
+            "@id": "https://huondauvergne.org/iiif/canvas/006",
             "label": "p003v",
             "width": 1173,
             "height": 1575,
@@ -182,7 +182,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/006",
+                "on": "https://huondauvergne.org/iiif/canvas/006",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p003v.tif",
@@ -199,7 +199,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/007",
+            "@id": "https://huondauvergne.org/iiif/canvas/007",
             "label": "p004r",
             "width": 1187,
             "height": 1575,
@@ -207,7 +207,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/007",
+                "on": "https://huondauvergne.org/iiif/canvas/007",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p004r.tif",
@@ -224,7 +224,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/008",
+            "@id": "https://huondauvergne.org/iiif/canvas/008",
             "label": "p004v",
             "width": 1176,
             "height": 1575,
@@ -232,7 +232,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/008",
+                "on": "https://huondauvergne.org/iiif/canvas/008",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p004v.tif",
@@ -249,7 +249,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/009",
+            "@id": "https://huondauvergne.org/iiif/canvas/009",
             "label": "p005r",
             "width": 1187,
             "height": 1575,
@@ -257,7 +257,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/009",
+                "on": "https://huondauvergne.org/iiif/canvas/009",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p005r.tif",
@@ -274,7 +274,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/010",
+            "@id": "https://huondauvergne.org/iiif/canvas/010",
             "label": "p005v",
             "width": 1170,
             "height": 1572,
@@ -282,7 +282,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/010",
+                "on": "https://huondauvergne.org/iiif/canvas/010",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p005v.tif",
@@ -299,7 +299,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/011",
+            "@id": "https://huondauvergne.org/iiif/canvas/011",
             "label": "p006r",
             "width": 1190,
             "height": 1575,
@@ -307,7 +307,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/011",
+                "on": "https://huondauvergne.org/iiif/canvas/011",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p006r.tif",
@@ -324,7 +324,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/012",
+            "@id": "https://huondauvergne.org/iiif/canvas/012",
             "label": "p006v",
             "width": 1170,
             "height": 1575,
@@ -332,7 +332,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/012",
+                "on": "https://huondauvergne.org/iiif/canvas/012",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p006v.tif",
@@ -349,7 +349,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/013",
+            "@id": "https://huondauvergne.org/iiif/canvas/013",
             "label": "p007r",
             "width": 1190,
             "height": 1575,
@@ -357,7 +357,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/013",
+                "on": "https://huondauvergne.org/iiif/canvas/013",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p007r.tif",
@@ -374,7 +374,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/014",
+            "@id": "https://huondauvergne.org/iiif/canvas/014",
             "label": "p007v",
             "width": 1173,
             "height": 1572,
@@ -382,7 +382,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/014",
+                "on": "https://huondauvergne.org/iiif/canvas/014",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p007v.tif",
@@ -399,7 +399,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/015",
+            "@id": "https://huondauvergne.org/iiif/canvas/015",
             "label": "p008r",
             "width": 1187,
             "height": 1575,
@@ -407,7 +407,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/015",
+                "on": "https://huondauvergne.org/iiif/canvas/015",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p008r.tif",
@@ -424,7 +424,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/016",
+            "@id": "https://huondauvergne.org/iiif/canvas/016",
             "label": "p008v",
             "width": 1176,
             "height": 1575,
@@ -432,7 +432,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/016",
+                "on": "https://huondauvergne.org/iiif/canvas/016",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p008v.tif",
@@ -449,7 +449,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/017",
+            "@id": "https://huondauvergne.org/iiif/canvas/017",
             "label": "p009r",
             "width": 1190,
             "height": 1575,
@@ -457,7 +457,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/017",
+                "on": "https://huondauvergne.org/iiif/canvas/017",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p009r.tif",
@@ -474,7 +474,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/018",
+            "@id": "https://huondauvergne.org/iiif/canvas/018",
             "label": "p009v",
             "width": 1173,
             "height": 1572,
@@ -482,7 +482,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/018",
+                "on": "https://huondauvergne.org/iiif/canvas/018",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p009v.tif",
@@ -499,7 +499,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/019",
+            "@id": "https://huondauvergne.org/iiif/canvas/019",
             "label": "p010r",
             "width": 1173,
             "height": 1575,
@@ -507,7 +507,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/019",
+                "on": "https://huondauvergne.org/iiif/canvas/019",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p010r.tif",
@@ -524,7 +524,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/020",
+            "@id": "https://huondauvergne.org/iiif/canvas/020",
             "label": "p010v",
             "width": 1176,
             "height": 1575,
@@ -532,7 +532,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/020",
+                "on": "https://huondauvergne.org/iiif/canvas/020",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p010v.tif",
@@ -549,7 +549,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/021",
+            "@id": "https://huondauvergne.org/iiif/canvas/021",
             "label": "p011r",
             "width": 1190,
             "height": 1575,
@@ -557,7 +557,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/021",
+                "on": "https://huondauvergne.org/iiif/canvas/021",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p011r.tif",
@@ -574,7 +574,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/022",
+            "@id": "https://huondauvergne.org/iiif/canvas/022",
             "label": "p011v",
             "width": 1176,
             "height": 1575,
@@ -582,7 +582,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/022",
+                "on": "https://huondauvergne.org/iiif/canvas/022",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p011v.tif",
@@ -599,7 +599,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/023",
+            "@id": "https://huondauvergne.org/iiif/canvas/023",
             "label": "p012r",
             "width": 1187,
             "height": 1575,
@@ -607,7 +607,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/023",
+                "on": "https://huondauvergne.org/iiif/canvas/023",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p012r.tif",
@@ -624,7 +624,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/024",
+            "@id": "https://huondauvergne.org/iiif/canvas/024",
             "label": "p012v",
             "width": 1176,
             "height": 1575,
@@ -632,7 +632,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/024",
+                "on": "https://huondauvergne.org/iiif/canvas/024",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p012v.tif",
@@ -649,7 +649,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/025",
+            "@id": "https://huondauvergne.org/iiif/canvas/025",
             "label": "p013r",
             "width": 1190,
             "height": 1575,
@@ -657,7 +657,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/025",
+                "on": "https://huondauvergne.org/iiif/canvas/025",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p013r.tif",
@@ -674,7 +674,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/026",
+            "@id": "https://huondauvergne.org/iiif/canvas/026",
             "label": "p013v",
             "width": 1176,
             "height": 1575,
@@ -682,7 +682,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/026",
+                "on": "https://huondauvergne.org/iiif/canvas/026",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p013v.tif",
@@ -699,7 +699,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/027",
+            "@id": "https://huondauvergne.org/iiif/canvas/027",
             "label": "p014r",
             "width": 1190,
             "height": 1575,
@@ -707,7 +707,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/027",
+                "on": "https://huondauvergne.org/iiif/canvas/027",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p014r.tif",
@@ -724,7 +724,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/028",
+            "@id": "https://huondauvergne.org/iiif/canvas/028",
             "label": "p014v",
             "width": 1173,
             "height": 1575,
@@ -732,7 +732,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/028",
+                "on": "https://huondauvergne.org/iiif/canvas/028",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p014v.tif",
@@ -749,7 +749,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/029",
+            "@id": "https://huondauvergne.org/iiif/canvas/029",
             "label": "p015r",
             "width": 1187,
             "height": 1575,
@@ -757,7 +757,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/029",
+                "on": "https://huondauvergne.org/iiif/canvas/029",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p015r.tif",
@@ -774,7 +774,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/030",
+            "@id": "https://huondauvergne.org/iiif/canvas/030",
             "label": "p015v",
             "width": 1170,
             "height": 1575,
@@ -782,7 +782,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/030",
+                "on": "https://huondauvergne.org/iiif/canvas/030",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p015v.tif",
@@ -799,7 +799,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/031",
+            "@id": "https://huondauvergne.org/iiif/canvas/031",
             "label": "p016r",
             "width": 1190,
             "height": 1575,
@@ -807,7 +807,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/031",
+                "on": "https://huondauvergne.org/iiif/canvas/031",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p016r.tif",
@@ -824,7 +824,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/032",
+            "@id": "https://huondauvergne.org/iiif/canvas/032",
             "label": "p016v",
             "width": 1170,
             "height": 1575,
@@ -832,7 +832,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/032",
+                "on": "https://huondauvergne.org/iiif/canvas/032",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p016v.tif",
@@ -849,7 +849,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/033",
+            "@id": "https://huondauvergne.org/iiif/canvas/033",
             "label": "p017r",
             "width": 1190,
             "height": 1575,
@@ -857,7 +857,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/033",
+                "on": "https://huondauvergne.org/iiif/canvas/033",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p017r.tif",
@@ -874,7 +874,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/034",
+            "@id": "https://huondauvergne.org/iiif/canvas/034",
             "label": "p017v",
             "width": 1176,
             "height": 1575,
@@ -882,7 +882,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/034",
+                "on": "https://huondauvergne.org/iiif/canvas/034",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p017v.tif",
@@ -899,7 +899,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/035",
+            "@id": "https://huondauvergne.org/iiif/canvas/035",
             "label": "p018r",
             "width": 1187,
             "height": 1575,
@@ -907,7 +907,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/035",
+                "on": "https://huondauvergne.org/iiif/canvas/035",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p018r.tif",
@@ -924,7 +924,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/036",
+            "@id": "https://huondauvergne.org/iiif/canvas/036",
             "label": "p018v",
             "width": 1176,
             "height": 1575,
@@ -932,7 +932,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/036",
+                "on": "https://huondauvergne.org/iiif/canvas/036",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p018v.tif",
@@ -949,7 +949,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/037",
+            "@id": "https://huondauvergne.org/iiif/canvas/037",
             "label": "p019r",
             "width": 1193,
             "height": 1575,
@@ -957,7 +957,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/037",
+                "on": "https://huondauvergne.org/iiif/canvas/037",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p019r.tif",
@@ -974,7 +974,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/038",
+            "@id": "https://huondauvergne.org/iiif/canvas/038",
             "label": "p019v",
             "width": 1173,
             "height": 1575,
@@ -982,7 +982,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/038",
+                "on": "https://huondauvergne.org/iiif/canvas/038",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p019v.tif",
@@ -999,7 +999,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/039",
+            "@id": "https://huondauvergne.org/iiif/canvas/039",
             "label": "p020r",
             "width": 1187,
             "height": 1575,
@@ -1007,7 +1007,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/039",
+                "on": "https://huondauvergne.org/iiif/canvas/039",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p020r.tif",
@@ -1024,7 +1024,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/040",
+            "@id": "https://huondauvergne.org/iiif/canvas/040",
             "label": "p020v",
             "width": 1173,
             "height": 1575,
@@ -1032,7 +1032,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/040",
+                "on": "https://huondauvergne.org/iiif/canvas/040",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p020v.tif",
@@ -1049,7 +1049,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/041",
+            "@id": "https://huondauvergne.org/iiif/canvas/041",
             "label": "p021r",
             "width": 1190,
             "height": 1575,
@@ -1057,7 +1057,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/041",
+                "on": "https://huondauvergne.org/iiif/canvas/041",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p021r.tif",
@@ -1074,7 +1074,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/042",
+            "@id": "https://huondauvergne.org/iiif/canvas/042",
             "label": "p021v",
             "width": 1173,
             "height": 1575,
@@ -1082,7 +1082,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/042",
+                "on": "https://huondauvergne.org/iiif/canvas/042",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p021v.tif",
@@ -1099,7 +1099,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/043",
+            "@id": "https://huondauvergne.org/iiif/canvas/043",
             "label": "p022r",
             "width": 1190,
             "height": 1575,
@@ -1107,7 +1107,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/043",
+                "on": "https://huondauvergne.org/iiif/canvas/043",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p022r.tif",
@@ -1124,7 +1124,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/044",
+            "@id": "https://huondauvergne.org/iiif/canvas/044",
             "label": "p022v",
             "width": 1176,
             "height": 1575,
@@ -1132,7 +1132,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/044",
+                "on": "https://huondauvergne.org/iiif/canvas/044",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p022v.tif",
@@ -1149,7 +1149,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/045",
+            "@id": "https://huondauvergne.org/iiif/canvas/045",
             "label": "p023r",
             "width": 1190,
             "height": 1575,
@@ -1157,7 +1157,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/045",
+                "on": "https://huondauvergne.org/iiif/canvas/045",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p023r.tif",
@@ -1174,7 +1174,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/046",
+            "@id": "https://huondauvergne.org/iiif/canvas/046",
             "label": "p023v",
             "width": 1173,
             "height": 1575,
@@ -1182,7 +1182,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/046",
+                "on": "https://huondauvergne.org/iiif/canvas/046",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p023v.tif",
@@ -1199,7 +1199,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/047",
+            "@id": "https://huondauvergne.org/iiif/canvas/047",
             "label": "p024r",
             "width": 1190,
             "height": 1575,
@@ -1207,7 +1207,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/047",
+                "on": "https://huondauvergne.org/iiif/canvas/047",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p024r.tif",
@@ -1224,7 +1224,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/048",
+            "@id": "https://huondauvergne.org/iiif/canvas/048",
             "label": "p024v",
             "width": 1176,
             "height": 1575,
@@ -1232,7 +1232,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/048",
+                "on": "https://huondauvergne.org/iiif/canvas/048",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p024v.tif",
@@ -1249,7 +1249,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/049",
+            "@id": "https://huondauvergne.org/iiif/canvas/049",
             "label": "p025r",
             "width": 1187,
             "height": 1575,
@@ -1257,7 +1257,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/049",
+                "on": "https://huondauvergne.org/iiif/canvas/049",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p025r.tif",
@@ -1274,7 +1274,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/050",
+            "@id": "https://huondauvergne.org/iiif/canvas/050",
             "label": "p025v",
             "width": 1176,
             "height": 1575,
@@ -1282,7 +1282,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/050",
+                "on": "https://huondauvergne.org/iiif/canvas/050",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p025v.tif",
@@ -1299,7 +1299,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/051",
+            "@id": "https://huondauvergne.org/iiif/canvas/051",
             "label": "p026r",
             "width": 1190,
             "height": 1575,
@@ -1307,7 +1307,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/051",
+                "on": "https://huondauvergne.org/iiif/canvas/051",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p026r.tif",
@@ -1324,7 +1324,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/052",
+            "@id": "https://huondauvergne.org/iiif/canvas/052",
             "label": "p026v",
             "width": 1176,
             "height": 1575,
@@ -1332,7 +1332,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/052",
+                "on": "https://huondauvergne.org/iiif/canvas/052",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p026v.tif",
@@ -1349,7 +1349,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/053",
+            "@id": "https://huondauvergne.org/iiif/canvas/053",
             "label": "p027r",
             "width": 1190,
             "height": 1575,
@@ -1357,7 +1357,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/053",
+                "on": "https://huondauvergne.org/iiif/canvas/053",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p027r.tif",
@@ -1374,7 +1374,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/054",
+            "@id": "https://huondauvergne.org/iiif/canvas/054",
             "label": "p027v",
             "width": 1176,
             "height": 1575,
@@ -1382,7 +1382,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/054",
+                "on": "https://huondauvergne.org/iiif/canvas/054",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p027v.tif",
@@ -1399,7 +1399,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/055",
+            "@id": "https://huondauvergne.org/iiif/canvas/055",
             "label": "p028r",
             "width": 1190,
             "height": 1575,
@@ -1407,7 +1407,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/055",
+                "on": "https://huondauvergne.org/iiif/canvas/055",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p028r.tif",
@@ -1424,7 +1424,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/056",
+            "@id": "https://huondauvergne.org/iiif/canvas/056",
             "label": "p028v",
             "width": 1176,
             "height": 1575,
@@ -1432,7 +1432,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/056",
+                "on": "https://huondauvergne.org/iiif/canvas/056",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p028v.tif",
@@ -1449,7 +1449,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/057",
+            "@id": "https://huondauvergne.org/iiif/canvas/057",
             "label": "p029r",
             "width": 1190,
             "height": 1575,
@@ -1457,7 +1457,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/057",
+                "on": "https://huondauvergne.org/iiif/canvas/057",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p029r.tif",
@@ -1474,7 +1474,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/058",
+            "@id": "https://huondauvergne.org/iiif/canvas/058",
             "label": "p029v",
             "width": 1176,
             "height": 1575,
@@ -1482,7 +1482,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/058",
+                "on": "https://huondauvergne.org/iiif/canvas/058",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p029v.tif",
@@ -1499,7 +1499,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/059",
+            "@id": "https://huondauvergne.org/iiif/canvas/059",
             "label": "p030r",
             "width": 1190,
             "height": 1575,
@@ -1507,7 +1507,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/059",
+                "on": "https://huondauvergne.org/iiif/canvas/059",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p030r.tif",
@@ -1524,7 +1524,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/060",
+            "@id": "https://huondauvergne.org/iiif/canvas/060",
             "label": "p030v",
             "width": 1176,
             "height": 1575,
@@ -1532,7 +1532,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/060",
+                "on": "https://huondauvergne.org/iiif/canvas/060",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p030v.tif",
@@ -1549,7 +1549,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/061",
+            "@id": "https://huondauvergne.org/iiif/canvas/061",
             "label": "p031r",
             "width": 1187,
             "height": 1575,
@@ -1557,7 +1557,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/061",
+                "on": "https://huondauvergne.org/iiif/canvas/061",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p031r.tif",
@@ -1574,7 +1574,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/062",
+            "@id": "https://huondauvergne.org/iiif/canvas/062",
             "label": "p031v",
             "width": 1176,
             "height": 1575,
@@ -1582,7 +1582,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/062",
+                "on": "https://huondauvergne.org/iiif/canvas/062",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p031v.tif",
@@ -1599,7 +1599,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/063",
+            "@id": "https://huondauvergne.org/iiif/canvas/063",
             "label": "p032r",
             "width": 1190,
             "height": 1575,
@@ -1607,7 +1607,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/063",
+                "on": "https://huondauvergne.org/iiif/canvas/063",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p032r.tif",
@@ -1624,7 +1624,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/064",
+            "@id": "https://huondauvergne.org/iiif/canvas/064",
             "label": "p032v",
             "width": 1173,
             "height": 1575,
@@ -1632,7 +1632,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/064",
+                "on": "https://huondauvergne.org/iiif/canvas/064",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p032v.tif",
@@ -1649,7 +1649,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/065",
+            "@id": "https://huondauvergne.org/iiif/canvas/065",
             "label": "p033r",
             "width": 1187,
             "height": 1575,
@@ -1657,7 +1657,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/065",
+                "on": "https://huondauvergne.org/iiif/canvas/065",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p033r.tif",
@@ -1674,7 +1674,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/066",
+            "@id": "https://huondauvergne.org/iiif/canvas/066",
             "label": "p033v",
             "width": 1176,
             "height": 1575,
@@ -1682,7 +1682,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/066",
+                "on": "https://huondauvergne.org/iiif/canvas/066",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p033v.tif",
@@ -1699,7 +1699,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/067",
+            "@id": "https://huondauvergne.org/iiif/canvas/067",
             "label": "p034r",
             "width": 1187,
             "height": 1575,
@@ -1707,7 +1707,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/067",
+                "on": "https://huondauvergne.org/iiif/canvas/067",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p034r.tif",
@@ -1724,7 +1724,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/068",
+            "@id": "https://huondauvergne.org/iiif/canvas/068",
             "label": "p034v",
             "width": 1176,
             "height": 1575,
@@ -1732,7 +1732,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/068",
+                "on": "https://huondauvergne.org/iiif/canvas/068",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p034v.tif",
@@ -1749,7 +1749,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/069",
+            "@id": "https://huondauvergne.org/iiif/canvas/069",
             "label": "p035r",
             "width": 1187,
             "height": 1575,
@@ -1757,7 +1757,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/069",
+                "on": "https://huondauvergne.org/iiif/canvas/069",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p035r.tif",
@@ -1774,7 +1774,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/070",
+            "@id": "https://huondauvergne.org/iiif/canvas/070",
             "label": "p035v",
             "width": 1176,
             "height": 1575,
@@ -1782,7 +1782,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/070",
+                "on": "https://huondauvergne.org/iiif/canvas/070",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p035v.tif",
@@ -1799,7 +1799,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/071",
+            "@id": "https://huondauvergne.org/iiif/canvas/071",
             "label": "p036r",
             "width": 1190,
             "height": 1575,
@@ -1807,7 +1807,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/071",
+                "on": "https://huondauvergne.org/iiif/canvas/071",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p036r.tif",
@@ -1824,7 +1824,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/072",
+            "@id": "https://huondauvergne.org/iiif/canvas/072",
             "label": "p036v",
             "width": 1173,
             "height": 1575,
@@ -1832,7 +1832,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/072",
+                "on": "https://huondauvergne.org/iiif/canvas/072",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p036v.tif",
@@ -1849,7 +1849,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/073",
+            "@id": "https://huondauvergne.org/iiif/canvas/073",
             "label": "p037r",
             "width": 1187,
             "height": 1575,
@@ -1857,7 +1857,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/073",
+                "on": "https://huondauvergne.org/iiif/canvas/073",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p037r.tif",
@@ -1874,7 +1874,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/074",
+            "@id": "https://huondauvergne.org/iiif/canvas/074",
             "label": "p037v",
             "width": 1176,
             "height": 1575,
@@ -1882,7 +1882,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/074",
+                "on": "https://huondauvergne.org/iiif/canvas/074",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p037v.tif",
@@ -1899,7 +1899,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/075",
+            "@id": "https://huondauvergne.org/iiif/canvas/075",
             "label": "p038r",
             "width": 1187,
             "height": 1575,
@@ -1907,7 +1907,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/075",
+                "on": "https://huondauvergne.org/iiif/canvas/075",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p038r.tif",
@@ -1924,7 +1924,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/076",
+            "@id": "https://huondauvergne.org/iiif/canvas/076",
             "label": "p038v",
             "width": 1176,
             "height": 1575,
@@ -1932,7 +1932,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/076",
+                "on": "https://huondauvergne.org/iiif/canvas/076",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p038v.tif",
@@ -1949,7 +1949,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/077",
+            "@id": "https://huondauvergne.org/iiif/canvas/077",
             "label": "p039r",
             "width": 1190,
             "height": 1575,
@@ -1957,7 +1957,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/077",
+                "on": "https://huondauvergne.org/iiif/canvas/077",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p039r.tif",
@@ -1974,7 +1974,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/078",
+            "@id": "https://huondauvergne.org/iiif/canvas/078",
             "label": "p039v",
             "width": 1176,
             "height": 1575,
@@ -1982,7 +1982,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/078",
+                "on": "https://huondauvergne.org/iiif/canvas/078",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p039v.tif",
@@ -1999,7 +1999,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/079",
+            "@id": "https://huondauvergne.org/iiif/canvas/079",
             "label": "p040r",
             "width": 1190,
             "height": 1575,
@@ -2007,7 +2007,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/079",
+                "on": "https://huondauvergne.org/iiif/canvas/079",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p040r.tif",
@@ -2024,7 +2024,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/080",
+            "@id": "https://huondauvergne.org/iiif/canvas/080",
             "label": "p040v",
             "width": 1173,
             "height": 1575,
@@ -2032,7 +2032,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/080",
+                "on": "https://huondauvergne.org/iiif/canvas/080",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p040v.tif",
@@ -2049,7 +2049,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/081",
+            "@id": "https://huondauvergne.org/iiif/canvas/081",
             "label": "p041r",
             "width": 1190,
             "height": 1575,
@@ -2057,7 +2057,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/081",
+                "on": "https://huondauvergne.org/iiif/canvas/081",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p041r.tif",
@@ -2074,7 +2074,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/082",
+            "@id": "https://huondauvergne.org/iiif/canvas/082",
             "label": "p041v",
             "width": 1173,
             "height": 1575,
@@ -2082,7 +2082,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/082",
+                "on": "https://huondauvergne.org/iiif/canvas/082",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p041v.tif",
@@ -2099,7 +2099,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/083",
+            "@id": "https://huondauvergne.org/iiif/canvas/083",
             "label": "p042r",
             "width": 1187,
             "height": 1575,
@@ -2107,7 +2107,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/083",
+                "on": "https://huondauvergne.org/iiif/canvas/083",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p042r.tif",
@@ -2124,7 +2124,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/084",
+            "@id": "https://huondauvergne.org/iiif/canvas/084",
             "label": "p042v",
             "width": 1176,
             "height": 1575,
@@ -2132,7 +2132,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/084",
+                "on": "https://huondauvergne.org/iiif/canvas/084",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p042v.tif",
@@ -2149,7 +2149,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/085",
+            "@id": "https://huondauvergne.org/iiif/canvas/085",
             "label": "p043r",
             "width": 1187,
             "height": 1575,
@@ -2157,7 +2157,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/085",
+                "on": "https://huondauvergne.org/iiif/canvas/085",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p043r.tif",
@@ -2174,7 +2174,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/086",
+            "@id": "https://huondauvergne.org/iiif/canvas/086",
             "label": "p043v",
             "width": 1173,
             "height": 1575,
@@ -2182,7 +2182,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/086",
+                "on": "https://huondauvergne.org/iiif/canvas/086",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p043v.tif",
@@ -2199,7 +2199,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/087",
+            "@id": "https://huondauvergne.org/iiif/canvas/087",
             "label": "p044r",
             "width": 1187,
             "height": 1575,
@@ -2207,7 +2207,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/087",
+                "on": "https://huondauvergne.org/iiif/canvas/087",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p044r.tif",
@@ -2224,7 +2224,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/088",
+            "@id": "https://huondauvergne.org/iiif/canvas/088",
             "label": "p044v",
             "width": 1170,
             "height": 1575,
@@ -2232,7 +2232,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/088",
+                "on": "https://huondauvergne.org/iiif/canvas/088",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p044v.tif",
@@ -2249,7 +2249,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/089",
+            "@id": "https://huondauvergne.org/iiif/canvas/089",
             "label": "p045r",
             "width": 1190,
             "height": 1575,
@@ -2257,7 +2257,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/089",
+                "on": "https://huondauvergne.org/iiif/canvas/089",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p045r.tif",
@@ -2274,7 +2274,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/090",
+            "@id": "https://huondauvergne.org/iiif/canvas/090",
             "label": "p045v",
             "width": 1176,
             "height": 1575,
@@ -2282,7 +2282,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/090",
+                "on": "https://huondauvergne.org/iiif/canvas/090",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p045v.tif",
@@ -2299,7 +2299,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/091",
+            "@id": "https://huondauvergne.org/iiif/canvas/091",
             "label": "p046r",
             "width": 1190,
             "height": 1575,
@@ -2307,7 +2307,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/091",
+                "on": "https://huondauvergne.org/iiif/canvas/091",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p046r.tif",
@@ -2324,7 +2324,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/092",
+            "@id": "https://huondauvergne.org/iiif/canvas/092",
             "label": "p046v",
             "width": 1173,
             "height": 1575,
@@ -2332,7 +2332,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/092",
+                "on": "https://huondauvergne.org/iiif/canvas/092",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p046v.tif",
@@ -2349,7 +2349,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/093",
+            "@id": "https://huondauvergne.org/iiif/canvas/093",
             "label": "p047r",
             "width": 1190,
             "height": 1575,
@@ -2357,7 +2357,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/093",
+                "on": "https://huondauvergne.org/iiif/canvas/093",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p047r.tif",
@@ -2374,7 +2374,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/094",
+            "@id": "https://huondauvergne.org/iiif/canvas/094",
             "label": "p047v",
             "width": 1176,
             "height": 1575,
@@ -2382,7 +2382,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/094",
+                "on": "https://huondauvergne.org/iiif/canvas/094",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p047v.tif",
@@ -2399,7 +2399,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/095",
+            "@id": "https://huondauvergne.org/iiif/canvas/095",
             "label": "p048r",
             "width": 1187,
             "height": 1575,
@@ -2407,7 +2407,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/095",
+                "on": "https://huondauvergne.org/iiif/canvas/095",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p048r.tif",
@@ -2424,7 +2424,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/096",
+            "@id": "https://huondauvergne.org/iiif/canvas/096",
             "label": "p048v",
             "width": 1167,
             "height": 1575,
@@ -2432,7 +2432,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/096",
+                "on": "https://huondauvergne.org/iiif/canvas/096",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p048v.tif",
@@ -2449,7 +2449,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/097",
+            "@id": "https://huondauvergne.org/iiif/canvas/097",
             "label": "p049r",
             "width": 1190,
             "height": 1575,
@@ -2457,7 +2457,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/097",
+                "on": "https://huondauvergne.org/iiif/canvas/097",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p049r.tif",
@@ -2474,7 +2474,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/098",
+            "@id": "https://huondauvergne.org/iiif/canvas/098",
             "label": "p049v",
             "width": 1173,
             "height": 1575,
@@ -2482,7 +2482,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/098",
+                "on": "https://huondauvergne.org/iiif/canvas/098",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p049v.tif",
@@ -2499,7 +2499,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/099",
+            "@id": "https://huondauvergne.org/iiif/canvas/099",
             "label": "p050r",
             "width": 1190,
             "height": 1575,
@@ -2507,7 +2507,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/099",
+                "on": "https://huondauvergne.org/iiif/canvas/099",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p050r.tif",
@@ -2524,7 +2524,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/100",
+            "@id": "https://huondauvergne.org/iiif/canvas/100",
             "label": "p050v",
             "width": 1170,
             "height": 1575,
@@ -2532,7 +2532,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/100",
+                "on": "https://huondauvergne.org/iiif/canvas/100",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p050v.tif",
@@ -2549,7 +2549,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/101",
+            "@id": "https://huondauvergne.org/iiif/canvas/101",
             "label": "p051r",
             "width": 1190,
             "height": 1575,
@@ -2557,7 +2557,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/101",
+                "on": "https://huondauvergne.org/iiif/canvas/101",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p051r.tif",
@@ -2574,7 +2574,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/102",
+            "@id": "https://huondauvergne.org/iiif/canvas/102",
             "label": "p051v",
             "width": 1170,
             "height": 1575,
@@ -2582,7 +2582,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/102",
+                "on": "https://huondauvergne.org/iiif/canvas/102",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p051v.tif",
@@ -2599,7 +2599,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/103",
+            "@id": "https://huondauvergne.org/iiif/canvas/103",
             "label": "p052r",
             "width": 1190,
             "height": 1575,
@@ -2607,7 +2607,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/103",
+                "on": "https://huondauvergne.org/iiif/canvas/103",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p052r.tif",
@@ -2624,7 +2624,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/104",
+            "@id": "https://huondauvergne.org/iiif/canvas/104",
             "label": "p052v",
             "width": 1173,
             "height": 1575,
@@ -2632,7 +2632,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/104",
+                "on": "https://huondauvergne.org/iiif/canvas/104",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p052v.tif",
@@ -2649,7 +2649,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/105",
+            "@id": "https://huondauvergne.org/iiif/canvas/105",
             "label": "p053r",
             "width": 1190,
             "height": 1575,
@@ -2657,7 +2657,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/105",
+                "on": "https://huondauvergne.org/iiif/canvas/105",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p053r.tif",
@@ -2674,7 +2674,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/106",
+            "@id": "https://huondauvergne.org/iiif/canvas/106",
             "label": "p053v",
             "width": 1170,
             "height": 1575,
@@ -2682,7 +2682,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/106",
+                "on": "https://huondauvergne.org/iiif/canvas/106",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p053v.tif",
@@ -2699,7 +2699,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/107",
+            "@id": "https://huondauvergne.org/iiif/canvas/107",
             "label": "p054r",
             "width": 1187,
             "height": 1575,
@@ -2707,7 +2707,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/107",
+                "on": "https://huondauvergne.org/iiif/canvas/107",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p054r.tif",
@@ -2724,7 +2724,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/108",
+            "@id": "https://huondauvergne.org/iiif/canvas/108",
             "label": "p054v",
             "width": 1176,
             "height": 1575,
@@ -2732,7 +2732,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/108",
+                "on": "https://huondauvergne.org/iiif/canvas/108",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p054v.tif",
@@ -2749,7 +2749,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/109",
+            "@id": "https://huondauvergne.org/iiif/canvas/109",
             "label": "p055r",
             "width": 1190,
             "height": 1575,
@@ -2757,7 +2757,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/109",
+                "on": "https://huondauvergne.org/iiif/canvas/109",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p055r.tif",
@@ -2774,7 +2774,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/110",
+            "@id": "https://huondauvergne.org/iiif/canvas/110",
             "label": "p055v",
             "width": 1173,
             "height": 1575,
@@ -2782,7 +2782,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/110",
+                "on": "https://huondauvergne.org/iiif/canvas/110",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p055v.tif",
@@ -2799,7 +2799,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/111",
+            "@id": "https://huondauvergne.org/iiif/canvas/111",
             "label": "p056r",
             "width": 1190,
             "height": 1575,
@@ -2807,7 +2807,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/111",
+                "on": "https://huondauvergne.org/iiif/canvas/111",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p056r.tif",
@@ -2824,7 +2824,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/112",
+            "@id": "https://huondauvergne.org/iiif/canvas/112",
             "label": "p056v",
             "width": 1173,
             "height": 1575,
@@ -2832,7 +2832,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/112",
+                "on": "https://huondauvergne.org/iiif/canvas/112",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p056v.tif",
@@ -2849,7 +2849,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/113",
+            "@id": "https://huondauvergne.org/iiif/canvas/113",
             "label": "p057r",
             "width": 1190,
             "height": 1575,
@@ -2857,7 +2857,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/113",
+                "on": "https://huondauvergne.org/iiif/canvas/113",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p057r.tif",
@@ -2874,7 +2874,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/114",
+            "@id": "https://huondauvergne.org/iiif/canvas/114",
             "label": "p057v",
             "width": 1173,
             "height": 1575,
@@ -2882,7 +2882,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/114",
+                "on": "https://huondauvergne.org/iiif/canvas/114",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p057v.tif",
@@ -2899,7 +2899,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/115",
+            "@id": "https://huondauvergne.org/iiif/canvas/115",
             "label": "p058r",
             "width": 1190,
             "height": 1575,
@@ -2907,7 +2907,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/115",
+                "on": "https://huondauvergne.org/iiif/canvas/115",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p058r.tif",
@@ -2924,7 +2924,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/116",
+            "@id": "https://huondauvergne.org/iiif/canvas/116",
             "label": "p058v",
             "width": 1165,
             "height": 1569,
@@ -2932,7 +2932,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/116 ",
+                "on": "https://huondauvergne.org/iiif/canvas/116 ",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p058v.tif",
@@ -2949,7 +2949,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/117",
+            "@id": "https://huondauvergne.org/iiif/canvas/117",
             "label": "p059r",
             "width": 1210,
             "height": 1569,
@@ -2957,7 +2957,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/117",
+                "on": "https://huondauvergne.org/iiif/canvas/117",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p059r.tif",
@@ -2974,7 +2974,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/118",
+            "@id": "https://huondauvergne.org/iiif/canvas/118",
             "label": "p059v",
             "width": 1167,
             "height": 1572,
@@ -2982,7 +2982,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/118",
+                "on": "https://huondauvergne.org/iiif/canvas/118",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p059v.tif",
@@ -2999,7 +2999,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/119",
+            "@id": "https://huondauvergne.org/iiif/canvas/119",
             "label": "p060r",
             "width": 1208,
             "height": 1572,
@@ -3007,7 +3007,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/119",
+                "on": "https://huondauvergne.org/iiif/canvas/119",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p060r.tif",
@@ -3024,7 +3024,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/120",
+            "@id": "https://huondauvergne.org/iiif/canvas/120",
             "label": "p060v",
             "width": 1152,
             "height": 1569,
@@ -3032,7 +3032,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/120",
+                "on": "https://huondauvergne.org/iiif/canvas/120",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p060v.tif",
@@ -3049,7 +3049,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/121",
+            "@id": "https://huondauvergne.org/iiif/canvas/121",
             "label": "p061r",
             "width": 1208,
             "height": 1575,
@@ -3057,7 +3057,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/121",
+                "on": "https://huondauvergne.org/iiif/canvas/121",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p061r.tif",
@@ -3074,7 +3074,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/122",
+            "@id": "https://huondauvergne.org/iiif/canvas/122",
             "label": "p061v",
             "width": 1176,
             "height": 1569,
@@ -3082,7 +3082,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/122",
+                "on": "https://huondauvergne.org/iiif/canvas/122",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p061v.tif",
@@ -3099,7 +3099,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/123",
+            "@id": "https://huondauvergne.org/iiif/canvas/123",
             "label": "p062r",
             "width": 1208,
             "height": 1572,
@@ -3107,7 +3107,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/123",
+                "on": "https://huondauvergne.org/iiif/canvas/123",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p062r.tif",
@@ -3124,7 +3124,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/124",
+            "@id": "https://huondauvergne.org/iiif/canvas/124",
             "label": "p062v",
             "width": 1170,
             "height": 1575,
@@ -3132,7 +3132,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/124",
+                "on": "https://huondauvergne.org/iiif/canvas/124",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p062v.tif",
@@ -3149,7 +3149,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/125",
+            "@id": "https://huondauvergne.org/iiif/canvas/125",
             "label": "p063r",
             "width": 1193,
             "height": 1572,
@@ -3157,7 +3157,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/125",
+                "on": "https://huondauvergne.org/iiif/canvas/125",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p063r.tif",
@@ -3174,7 +3174,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/126",
+            "@id": "https://huondauvergne.org/iiif/canvas/126",
             "label": "p063v",
             "width": 1164,
             "height": 1575,
@@ -3182,7 +3182,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/126",
+                "on": "https://huondauvergne.org/iiif/canvas/126",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p063v.tif",
@@ -3199,7 +3199,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/127",
+            "@id": "https://huondauvergne.org/iiif/canvas/127",
             "label": "p064r",
             "width": 1208,
             "height": 1575,
@@ -3207,7 +3207,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/127",
+                "on": "https://huondauvergne.org/iiif/canvas/127",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p064r.tif",
@@ -3224,7 +3224,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/128",
+            "@id": "https://huondauvergne.org/iiif/canvas/128",
             "label": "p064v",
             "width": 1161,
             "height": 1572,
@@ -3232,7 +3232,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/128",
+                "on": "https://huondauvergne.org/iiif/canvas/128",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p064v.tif",
@@ -3249,7 +3249,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/129",
+            "@id": "https://huondauvergne.org/iiif/canvas/129",
             "label": "p065r",
             "width": 1205,
             "height": 1560,
@@ -3257,7 +3257,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/129",
+                "on": "https://huondauvergne.org/iiif/canvas/129",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p065r.tif",
@@ -3274,7 +3274,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/130 ",
+            "@id": "https://huondauvergne.org/iiif/canvas/130 ",
             "label": "p065v",
             "width": 1170,
             "height": 1566,
@@ -3282,7 +3282,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/130",
+                "on": "https://huondauvergne.org/iiif/canvas/130",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p065v.tif",
@@ -3299,7 +3299,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/131",
+            "@id": "https://huondauvergne.org/iiif/canvas/131",
             "label": "p066r",
             "width": 1193,
             "height": 1572,
@@ -3307,7 +3307,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/131",
+                "on": "https://huondauvergne.org/iiif/canvas/131",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p066r.tif",
@@ -3324,7 +3324,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/132",
+            "@id": "https://huondauvergne.org/iiif/canvas/132",
             "label": "p066v",
             "width": 1158,
             "height": 1572,
@@ -3332,7 +3332,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/132",
+                "on": "https://huondauvergne.org/iiif/canvas/132",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p066v.tif",
@@ -3349,7 +3349,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/133",
+            "@id": "https://huondauvergne.org/iiif/canvas/133",
             "label": "p067r",
             "width": 1205,
             "height": 1575,
@@ -3357,7 +3357,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/133",
+                "on": "https://huondauvergne.org/iiif/canvas/133",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p067r.tif",
@@ -3374,7 +3374,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/134",
+            "@id": "https://huondauvergne.org/iiif/canvas/134",
             "label": "p067v",
             "width": 1161,
             "height": 1572,
@@ -3382,7 +3382,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/134",
+                "on": "https://huondauvergne.org/iiif/canvas/134",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p067v.tif",
@@ -3399,7 +3399,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/135",
+            "@id": "https://huondauvergne.org/iiif/canvas/135",
             "label": "p068r",
             "width": 1202,
             "height": 1575,
@@ -3407,7 +3407,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/135",
+                "on": "https://huondauvergne.org/iiif/canvas/135",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p068r.tif",
@@ -3424,7 +3424,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/136",
+            "@id": "https://huondauvergne.org/iiif/canvas/136",
             "label": "p068v",
             "width": 1164,
             "height": 1575,
@@ -3432,7 +3432,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/136",
+                "on": "https://huondauvergne.org/iiif/canvas/136",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p068v.tif",
@@ -3449,7 +3449,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/137",
+            "@id": "https://huondauvergne.org/iiif/canvas/137",
             "label": "p069r",
             "width": 1193,
             "height": 1572,
@@ -3457,7 +3457,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/137",
+                "on": "https://huondauvergne.org/iiif/canvas/137",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p069r.tif",
@@ -3474,7 +3474,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/138",
+            "@id": "https://huondauvergne.org/iiif/canvas/138",
             "label": "p069v",
             "width": 1170,
             "height": 1572,
@@ -3482,7 +3482,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/138",
+                "on": "https://huondauvergne.org/iiif/canvas/138",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p069v.tif",
@@ -3499,7 +3499,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/139",
+            "@id": "https://huondauvergne.org/iiif/canvas/139",
             "label": "p070r",
             "width": 1193,
             "height": 1569,
@@ -3507,7 +3507,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/139",
+                "on": "https://huondauvergne.org/iiif/canvas/139",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p070r.tif",
@@ -3524,7 +3524,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/140",
+            "@id": "https://huondauvergne.org/iiif/canvas/140",
             "label": "p070v",
             "width": 1179,
             "height": 1572,
@@ -3532,7 +3532,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/140",
+                "on": "https://huondauvergne.org/iiif/canvas/140",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p070v.tif",
@@ -3549,7 +3549,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/141",
+            "@id": "https://huondauvergne.org/iiif/canvas/141",
             "label": "p071r",
             "width": 1190,
             "height": 1569,
@@ -3557,7 +3557,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/141",
+                "on": "https://huondauvergne.org/iiif/canvas/141",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p071r.tif",
@@ -3574,7 +3574,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/142",
+            "@id": "https://huondauvergne.org/iiif/canvas/142",
             "label": "p071v",
             "width": 1173,
             "height": 1569,
@@ -3582,7 +3582,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/142",
+                "on": "https://huondauvergne.org/iiif/canvas/142",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p071v.tif",
@@ -3599,7 +3599,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/143",
+            "@id": "https://huondauvergne.org/iiif/canvas/143",
             "label": "p072r",
             "width": 1190,
             "height": 1572,
@@ -3607,7 +3607,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/143",
+                "on": "https://huondauvergne.org/iiif/canvas/143",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p072r.tif",
@@ -3624,7 +3624,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/144",
+            "@id": "https://huondauvergne.org/iiif/canvas/144",
             "label": "p072v",
             "width": 1182,
             "height": 1575,
@@ -3632,7 +3632,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/144",
+                "on": "https://huondauvergne.org/iiif/canvas/144",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p072v.tif",
@@ -3649,7 +3649,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/145",
+            "@id": "https://huondauvergne.org/iiif/canvas/145",
             "label": "p073r",
             "width": 1190,
             "height": 1566,
@@ -3657,7 +3657,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/145",
+                "on": "https://huondauvergne.org/iiif/canvas/145",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p073r.tif",
@@ -3674,7 +3674,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/146",
+            "@id": "https://huondauvergne.org/iiif/canvas/146",
             "label": "p073v",
             "width": 1167,
             "height": 1572,
@@ -3682,7 +3682,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/146",
+                "on": "https://huondauvergne.org/iiif/canvas/146",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p073v.tif",
@@ -3699,7 +3699,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/147",
+            "@id": "https://huondauvergne.org/iiif/canvas/147",
             "label": "p074r",
             "width": 1196,
             "height": 1569,
@@ -3707,7 +3707,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/147",
+                "on": "https://huondauvergne.org/iiif/canvas/147",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p074r.tif",
@@ -3724,7 +3724,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/148",
+            "@id": "https://huondauvergne.org/iiif/canvas/148",
             "label": "p074v",
             "width": 1170,
             "height": 1569,
@@ -3732,7 +3732,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/148",
+                "on": "https://huondauvergne.org/iiif/canvas/148",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p074v.tif",
@@ -3749,7 +3749,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/149",
+            "@id": "https://huondauvergne.org/iiif/canvas/149",
             "label": "p075r",
             "width": 1193,
             "height": 1572,
@@ -3757,7 +3757,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/149",
+                "on": "https://huondauvergne.org/iiif/canvas/149",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p075r.tif",
@@ -3774,7 +3774,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/150",
+            "@id": "https://huondauvergne.org/iiif/canvas/150",
             "label": "p075v",
             "width": 1167,
             "height": 1566,
@@ -3782,7 +3782,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/150",
+                "on": "https://huondauvergne.org/iiif/canvas/150",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p075v.tif",
@@ -3799,7 +3799,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/151",
+            "@id": "https://huondauvergne.org/iiif/canvas/151",
             "label": "p076r",
             "width": 1196,
             "height": 1575,
@@ -3807,7 +3807,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/151",
+                "on": "https://huondauvergne.org/iiif/canvas/151",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p076r.tif",
@@ -3824,7 +3824,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/152",
+            "@id": "https://huondauvergne.org/iiif/canvas/152",
             "label": "p076v",
             "width": 1173,
             "height": 1572,
@@ -3832,7 +3832,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/152",
+                "on": "https://huondauvergne.org/iiif/canvas/152",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p076v.tif",
@@ -3849,7 +3849,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/153",
+            "@id": "https://huondauvergne.org/iiif/canvas/153",
             "label": "p077r",
             "width": 1187,
             "height": 1572,
@@ -3857,7 +3857,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/153",
+                "on": "https://huondauvergne.org/iiif/canvas/153",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p077r.tif",
@@ -3874,7 +3874,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/154",
+            "@id": "https://huondauvergne.org/iiif/canvas/154",
             "label": "p077v",
             "width": 1179,
             "height": 1572,
@@ -3882,7 +3882,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/154",
+                "on": "https://huondauvergne.org/iiif/canvas/154",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p077v.tif",
@@ -3899,7 +3899,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/155",
+            "@id": "https://huondauvergne.org/iiif/canvas/155",
             "label": "p078r",
             "width": 1175,
             "height": 1569,
@@ -3907,7 +3907,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/155",
+                "on": "https://huondauvergne.org/iiif/canvas/155",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p078r.tif",
@@ -3924,7 +3924,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/156",
+            "@id": "https://huondauvergne.org/iiif/canvas/156",
             "label": "p078v",
             "width": 1173,
             "height": 1572,
@@ -3932,7 +3932,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/156",
+                "on": "https://huondauvergne.org/iiif/canvas/156",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p078v.tif",
@@ -3949,7 +3949,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/157",
+            "@id": "https://huondauvergne.org/iiif/canvas/157",
             "label": "p079r",
             "width": 1169,
             "height": 1572,
@@ -3957,7 +3957,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/157",
+                "on": "https://huondauvergne.org/iiif/canvas/157",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p079r.tif",
@@ -3974,7 +3974,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/158",
+            "@id": "https://huondauvergne.org/iiif/canvas/158",
             "label": "p079v",
             "width": 1161,
             "height": 1572,
@@ -3982,7 +3982,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/158",
+                "on": "https://huondauvergne.org/iiif/canvas/158",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p079v.tif",
@@ -3999,7 +3999,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/159",
+            "@id": "https://huondauvergne.org/iiif/canvas/159",
             "label": "p080r",
             "width": 1196,
             "height": 1575,
@@ -4007,7 +4007,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/159",
+                "on": "https://huondauvergne.org/iiif/canvas/159",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p080r.tif",
@@ -4024,7 +4024,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/160",
+            "@id": "https://huondauvergne.org/iiif/canvas/160",
             "label": "p080v",
             "width": 1187,
             "height": 1572,
@@ -4032,7 +4032,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/160",
+                "on": "https://huondauvergne.org/iiif/canvas/160",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p080v.tif",
@@ -4049,7 +4049,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/161",
+            "@id": "https://huondauvergne.org/iiif/canvas/161",
             "label": "p081r",
             "width": 1187,
             "height": 1572,
@@ -4057,7 +4057,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/161",
+                "on": "https://huondauvergne.org/iiif/canvas/161",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p081r.tif",
@@ -4074,7 +4074,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/162",
+            "@id": "https://huondauvergne.org/iiif/canvas/162",
             "label": "p081v",
             "width": 1161,
             "height": 1569,
@@ -4082,7 +4082,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/162",
+                "on": "https://huondauvergne.org/iiif/canvas/162",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p081v.tif",
@@ -4099,7 +4099,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/163",
+            "@id": "https://huondauvergne.org/iiif/canvas/163",
             "label": "p082r",
             "width": 1199,
             "height": 1569,
@@ -4107,7 +4107,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/163",
+                "on": "https://huondauvergne.org/iiif/canvas/163",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p082r.tif",
@@ -4124,7 +4124,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/164",
+            "@id": "https://huondauvergne.org/iiif/canvas/164",
             "label": "p082v",
             "width": 1161,
             "height": 1572,
@@ -4132,7 +4132,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/164",
+                "on": "https://huondauvergne.org/iiif/canvas/164",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p082v.tif",
@@ -4149,7 +4149,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/165",
+            "@id": "https://huondauvergne.org/iiif/canvas/165",
             "label": "p083r",
             "width": 1202,
             "height": 1572,
@@ -4157,7 +4157,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/165",
+                "on": "https://huondauvergne.org/iiif/canvas/165",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p083r.tif",
@@ -4174,7 +4174,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/166",
+            "@id": "https://huondauvergne.org/iiif/canvas/166",
             "label": "p083v",
             "width": 1167,
             "height": 1575,
@@ -4182,7 +4182,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/166",
+                "on": "https://huondauvergne.org/iiif/canvas/166",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p083v.tif",
@@ -4199,7 +4199,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/167",
+            "@id": "https://huondauvergne.org/iiif/canvas/167",
             "label": "p084r",
             "width": 1196,
             "height": 1572,
@@ -4207,7 +4207,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/167",
+                "on": "https://huondauvergne.org/iiif/canvas/167",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p084r.tif",
@@ -4224,7 +4224,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/168",
+            "@id": "https://huondauvergne.org/iiif/canvas/168",
             "label": "p084v",
             "width": 1167,
             "height": 1572,
@@ -4232,7 +4232,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/168",
+                "on": "https://huondauvergne.org/iiif/canvas/168",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p084v.tif",
@@ -4249,7 +4249,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/169",
+            "@id": "https://huondauvergne.org/iiif/canvas/169",
             "label": "p085r",
             "width": 1187,
             "height": 1575,
@@ -4257,7 +4257,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/169",
+                "on": "https://huondauvergne.org/iiif/canvas/169",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p085r.tif",
@@ -4274,7 +4274,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/170",
+            "@id": "https://huondauvergne.org/iiif/canvas/170",
             "label": "p085v",
             "width": 1161,
             "height": 1572,
@@ -4282,7 +4282,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/170",
+                "on": "https://huondauvergne.org/iiif/canvas/170",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p085v.tif",
@@ -4299,7 +4299,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/171",
+            "@id": "https://huondauvergne.org/iiif/canvas/171",
             "label": "p086r",
             "width": 1196,
             "height": 1572,
@@ -4307,7 +4307,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/171",
+                "on": "https://huondauvergne.org/iiif/canvas/171",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p086r.tif",
@@ -4324,7 +4324,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/172",
+            "@id": "https://huondauvergne.org/iiif/canvas/172",
             "label": "p086v",
             "width": 1134,
             "height": 1572,
@@ -4332,7 +4332,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/172",
+                "on": "https://huondauvergne.org/iiif/canvas/172",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p086v.tif",
@@ -4349,7 +4349,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/173",
+            "@id": "https://huondauvergne.org/iiif/canvas/173",
             "label": "p087r",
             "width": 1232,
             "height": 1569,
@@ -4357,7 +4357,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/173",
+                "on": "https://huondauvergne.org/iiif/canvas/173",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p087r.tif",
@@ -4374,7 +4374,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/174",
+            "@id": "https://huondauvergne.org/iiif/canvas/174",
             "label": "p087v",
             "width": 1164,
             "height": 1575,
@@ -4382,7 +4382,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/174",
+                "on": "https://huondauvergne.org/iiif/canvas/174",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p087v.tif",
@@ -4399,7 +4399,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/175",
+            "@id": "https://huondauvergne.org/iiif/canvas/175",
             "label": "p088r",
             "width": 1202,
             "height": 1569,
@@ -4407,7 +4407,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/175",
+                "on": "https://huondauvergne.org/iiif/canvas/175",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p088r.tif",
@@ -4424,7 +4424,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/176",
+            "@id": "https://huondauvergne.org/iiif/canvas/176",
             "label": "p088v",
             "width": 1152,
             "height": 1569,
@@ -4432,7 +4432,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/176",
+                "on": "https://huondauvergne.org/iiif/canvas/176",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p088v.tif",
@@ -4449,7 +4449,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/177",
+            "@id": "https://huondauvergne.org/iiif/canvas/177",
             "label": "p089r",
             "width": 1196,
             "height": 1572,
@@ -4457,7 +4457,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/177",
+                "on": "https://huondauvergne.org/iiif/canvas/177",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p089r.tif",
@@ -4474,7 +4474,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/178",
+            "@id": "https://huondauvergne.org/iiif/canvas/178",
             "label": "p089v",
             "width": 1149,
             "height": 1575,
@@ -4482,7 +4482,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/178",
+                "on": "https://huondauvergne.org/iiif/canvas/178",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p089v.tif",
@@ -4499,7 +4499,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/179",
+            "@id": "https://huondauvergne.org/iiif/canvas/179",
             "label": "p090r",
             "width": 1208,
             "height": 1572,
@@ -4507,7 +4507,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/179",
+                "on": "https://huondauvergne.org/iiif/canvas/179",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p090r.tif",
@@ -4524,7 +4524,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/180",
+            "@id": "https://huondauvergne.org/iiif/canvas/180",
             "label": "p090v",
             "width": 1164,
             "height": 1575,
@@ -4532,7 +4532,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/180",
+                "on": "https://huondauvergne.org/iiif/canvas/180",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p090v.tif",
@@ -4549,7 +4549,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/181",
+            "@id": "https://huondauvergne.org/iiif/canvas/181",
             "label": "p091r",
             "width": 1193,
             "height": 1572,
@@ -4557,7 +4557,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/181",
+                "on": "https://huondauvergne.org/iiif/canvas/181",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p091r.tif",
@@ -4574,7 +4574,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/182",
+            "@id": "https://huondauvergne.org/iiif/canvas/182",
             "label": "p091v",
             "width": 1170,
             "height": 1569,
@@ -4582,7 +4582,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/182",
+                "on": "https://huondauvergne.org/iiif/canvas/182",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p091v.tif",
@@ -4599,7 +4599,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/183",
+            "@id": "https://huondauvergne.org/iiif/canvas/183",
             "label": "p092r",
             "width": 1193,
             "height": 1563,
@@ -4607,7 +4607,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/183",
+                "on": "https://huondauvergne.org/iiif/canvas/183",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p092r.tif",
@@ -4624,7 +4624,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/184",
+            "@id": "https://huondauvergne.org/iiif/canvas/184",
             "label": "p092v",
             "width": 1167,
             "height": 1572,
@@ -4632,7 +4632,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/184",
+                "on": "https://huondauvergne.org/iiif/canvas/184",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p092v.tif",
@@ -4649,7 +4649,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/185",
+            "@id": "https://huondauvergne.org/iiif/canvas/185",
             "label": "p093r",
             "width": 1184,
             "height": 1572,
@@ -4657,7 +4657,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/185",
+                "on": "https://huondauvergne.org/iiif/canvas/185",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p093r.tif",
@@ -4674,7 +4674,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/186",
+            "@id": "https://huondauvergne.org/iiif/canvas/186",
             "label": "p093v",
             "width": 1140,
             "height": 1572,
@@ -4682,7 +4682,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/186",
+                "on": "https://huondauvergne.org/iiif/canvas/186",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p093v.tif",
@@ -4699,7 +4699,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/187",
+            "@id": "https://huondauvergne.org/iiif/canvas/187",
             "label": "p094r",
             "width": 1220,
             "height": 1569,
@@ -4707,7 +4707,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/187",
+                "on": "https://huondauvergne.org/iiif/canvas/187",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p094r.tif",
@@ -4724,7 +4724,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/188",
+            "@id": "https://huondauvergne.org/iiif/canvas/188",
             "label": "p094v",
             "width": 1167,
             "height": 1572,
@@ -4732,7 +4732,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/188",
+                "on": "https://huondauvergne.org/iiif/canvas/188",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p094v.tif",
@@ -4749,7 +4749,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/189",
+            "@id": "https://huondauvergne.org/iiif/canvas/189",
             "label": "p095r",
             "width": 1223,
             "height": 1569,
@@ -4757,7 +4757,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/189",
+                "on": "https://huondauvergne.org/iiif/canvas/189",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p095r.tif",
@@ -4774,7 +4774,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/190",
+            "@id": "https://huondauvergne.org/iiif/canvas/190",
             "label": "p095v",
             "width": 1152,
             "height": 1572,
@@ -4782,7 +4782,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/190",
+                "on": "https://huondauvergne.org/iiif/canvas/190",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p095v.tif",
@@ -4799,7 +4799,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/191",
+            "@id": "https://huondauvergne.org/iiif/canvas/191",
             "label": "p096r",
             "width": 1208,
             "height": 1572,
@@ -4807,7 +4807,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/191",
+                "on": "https://huondauvergne.org/iiif/canvas/191",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p096r.tif",
@@ -4824,7 +4824,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/192",
+            "@id": "https://huondauvergne.org/iiif/canvas/192",
             "label": "p096v",
             "width": 1176,
             "height": 1575,
@@ -4832,7 +4832,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/192",
+                "on": "https://huondauvergne.org/iiif/canvas/192",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p096v.tif",
@@ -4849,7 +4849,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/193",
+            "@id": "https://huondauvergne.org/iiif/canvas/193",
             "label": "p097r",
             "width": 1181,
             "height": 1572,
@@ -4857,7 +4857,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/193",
+                "on": "https://huondauvergne.org/iiif/canvas/193",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p097r.tif",
@@ -4874,7 +4874,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/194",
+            "@id": "https://huondauvergne.org/iiif/canvas/194",
             "label": "p097v",
             "width": 1167,
             "height": 1575,
@@ -4882,7 +4882,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/194",
+                "on": "https://huondauvergne.org/iiif/canvas/194",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p097v.tif",
@@ -4899,7 +4899,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/195",
+            "@id": "https://huondauvergne.org/iiif/canvas/195",
             "label": "p098r",
             "width": 1199,
             "height": 1575,
@@ -4907,7 +4907,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/195",
+                "on": "https://huondauvergne.org/iiif/canvas/195",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p098r.tif",
@@ -4924,7 +4924,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/196",
+            "@id": "https://huondauvergne.org/iiif/canvas/196",
             "label": "p098v",
             "width": 1173,
             "height": 1572,
@@ -4932,7 +4932,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/196",
+                "on": "https://huondauvergne.org/iiif/canvas/196",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p098v.tif",
@@ -4949,7 +4949,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/197",
+            "@id": "https://huondauvergne.org/iiif/canvas/197",
             "label": "p099r",
             "width": 1193,
             "height": 1569,
@@ -4957,7 +4957,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/197",
+                "on": "https://huondauvergne.org/iiif/canvas/197",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p099r.tif",
@@ -4974,7 +4974,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/198",
+            "@id": "https://huondauvergne.org/iiif/canvas/198",
             "label": "p099v",
             "width": 1176,
             "height": 1575,
@@ -4982,7 +4982,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/198",
+                "on": "https://huondauvergne.org/iiif/canvas/198",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p099v.tif",
@@ -4999,7 +4999,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/199",
+            "@id": "https://huondauvergne.org/iiif/canvas/199",
             "label": "p100r",
             "width": 1190,
             "height": 1575,
@@ -5007,7 +5007,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/199",
+                "on": "https://huondauvergne.org/iiif/canvas/199",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p100r.tif",
@@ -5024,7 +5024,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/200",
+            "@id": "https://huondauvergne.org/iiif/canvas/200",
             "label": "p100v",
             "width": 1176,
             "height": 1572,
@@ -5032,7 +5032,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/200",
+                "on": "https://huondauvergne.org/iiif/canvas/200",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p100v.tif",
@@ -5049,7 +5049,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/201",
+            "@id": "https://huondauvergne.org/iiif/canvas/201",
             "label": "p101r",
             "width": 1187,
             "height": 1572,
@@ -5057,7 +5057,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/201",
+                "on": "https://huondauvergne.org/iiif/canvas/201",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p101r.tif",
@@ -5074,7 +5074,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/202",
+            "@id": "https://huondauvergne.org/iiif/canvas/202",
             "label": "p101v",
             "width": 1176,
             "height": 1575,
@@ -5082,7 +5082,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/202",
+                "on": "https://huondauvergne.org/iiif/canvas/202",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p101v.tif",
@@ -5099,7 +5099,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/203",
+            "@id": "https://huondauvergne.org/iiif/canvas/203",
             "label": "p102r",
             "width": 1184,
             "height": 1572,
@@ -5107,7 +5107,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/203",
+                "on": "https://huondauvergne.org/iiif/canvas/203",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p102r.tif",
@@ -5124,7 +5124,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/204",
+            "@id": "https://huondauvergne.org/iiif/canvas/204",
             "label": "p102v",
             "width": 1179,
             "height": 1572,
@@ -5132,7 +5132,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/204",
+                "on": "https://huondauvergne.org/iiif/canvas/204",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p102v.tif",
@@ -5149,7 +5149,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/205",
+            "@id": "https://huondauvergne.org/iiif/canvas/205",
             "label": "p103r",
             "width": 1184,
             "height": 1572,
@@ -5157,7 +5157,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/205",
+                "on": "https://huondauvergne.org/iiif/canvas/205",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p103r.tif",
@@ -5174,7 +5174,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/206",
+            "@id": "https://huondauvergne.org/iiif/canvas/206",
             "label": "p103v",
             "width": 1179,
             "height": 1572,
@@ -5182,7 +5182,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/206",
+                "on": "https://huondauvergne.org/iiif/canvas/206",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p103v.tif",
@@ -5199,7 +5199,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/207",
+            "@id": "https://huondauvergne.org/iiif/canvas/207",
             "label": "p104r",
             "width": 1184,
             "height": 1575,
@@ -5207,7 +5207,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/207",
+                "on": "https://huondauvergne.org/iiif/canvas/207",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p104r.tif",
@@ -5224,7 +5224,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/208",
+            "@id": "https://huondauvergne.org/iiif/canvas/208",
             "label": "p104v",
             "width": 1176,
             "height": 1572,
@@ -5232,7 +5232,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/208",
+                "on": "https://huondauvergne.org/iiif/canvas/208",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p104v.tif",
@@ -5249,7 +5249,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/209",
+            "@id": "https://huondauvergne.org/iiif/canvas/209",
             "label": "p105r",
             "width": 1184,
             "height": 1569,
@@ -5257,7 +5257,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/209",
+                "on": "https://huondauvergne.org/iiif/canvas/209",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p105r.tif",
@@ -5274,7 +5274,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/211",
+            "@id": "https://huondauvergne.org/iiif/canvas/211",
             "label": "p105v",
             "width": 1176,
             "height": 1575,
@@ -5282,7 +5282,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/211",
+                "on": "https://huondauvergne.org/iiif/canvas/211",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p105v.tif",
@@ -5299,7 +5299,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/212",
+            "@id": "https://huondauvergne.org/iiif/canvas/212",
             "label": "p106r",
             "width": 1187,
             "height": 1572,
@@ -5307,7 +5307,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/212",
+                "on": "https://huondauvergne.org/iiif/canvas/212",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p106r.tif",
@@ -5324,7 +5324,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/213",
+            "@id": "https://huondauvergne.org/iiif/canvas/213",
             "label": "p106v",
             "width": 1173,
             "height": 1575,
@@ -5332,7 +5332,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/213",
+                "on": "https://huondauvergne.org/iiif/canvas/213",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p106v.tif",
@@ -5349,7 +5349,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/214",
+            "@id": "https://huondauvergne.org/iiif/canvas/214",
             "label": "p107r",
             "width": 1187,
             "height": 1575,
@@ -5357,7 +5357,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/214",
+                "on": "https://huondauvergne.org/iiif/canvas/214",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p107r.tif",
@@ -5374,7 +5374,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/215",
+            "@id": "https://huondauvergne.org/iiif/canvas/215",
             "label": "p107v",
             "width": 1176,
             "height": 1572,
@@ -5382,7 +5382,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/215",
+                "on": "https://huondauvergne.org/iiif/canvas/215",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p107v.tif",
@@ -5399,7 +5399,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/216",
+            "@id": "https://huondauvergne.org/iiif/canvas/216",
             "label": "p108r",
             "width": 1187,
             "height": 1572,
@@ -5407,7 +5407,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/216",
+                "on": "https://huondauvergne.org/iiif/canvas/216",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p108r.tif",
@@ -5424,7 +5424,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/217",
+            "@id": "https://huondauvergne.org/iiif/canvas/217",
             "label": "p108v",
             "width": 1173,
             "height": 1572,
@@ -5432,7 +5432,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/217",
+                "on": "https://huondauvergne.org/iiif/canvas/217",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p108v.tif",
@@ -5449,7 +5449,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/218",
+            "@id": "https://huondauvergne.org/iiif/canvas/218",
             "label": "p109r",
             "width": 1190,
             "height": 1572,
@@ -5457,7 +5457,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/218",
+                "on": "https://huondauvergne.org/iiif/canvas/218",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p109r.tif",
@@ -5474,7 +5474,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/219",
+            "@id": "https://huondauvergne.org/iiif/canvas/219",
             "label": "p109v",
             "width": 1182,
             "height": 1572,
@@ -5482,7 +5482,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/219",
+                "on": "https://huondauvergne.org/iiif/canvas/219",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p109v.tif",
@@ -5499,7 +5499,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/220",
+            "@id": "https://huondauvergne.org/iiif/canvas/220",
             "label": "p110r",
             "width": 1187,
             "height": 1572,
@@ -5507,7 +5507,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/220",
+                "on": "https://huondauvergne.org/iiif/canvas/220",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p110r.tif",
@@ -5524,7 +5524,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/221",
+            "@id": "https://huondauvergne.org/iiif/canvas/221",
             "label": "p110v",
             "width": 1182,
             "height": 1572,
@@ -5532,7 +5532,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/221",
+                "on": "https://huondauvergne.org/iiif/canvas/221",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p110v.tif",
@@ -5549,7 +5549,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/222",
+            "@id": "https://huondauvergne.org/iiif/canvas/222",
             "label": "p111r",
             "width": 1181,
             "height": 1572,
@@ -5557,7 +5557,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/222",
+                "on": "https://huondauvergne.org/iiif/canvas/222",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p111r.tif",
@@ -5574,7 +5574,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/223",
+            "@id": "https://huondauvergne.org/iiif/canvas/223",
             "label": "p111v",
             "width": 1176,
             "height": 1572,
@@ -5582,7 +5582,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/223",
+                "on": "https://huondauvergne.org/iiif/canvas/223",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p111v.tif",
@@ -5599,7 +5599,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/224",
+            "@id": "https://huondauvergne.org/iiif/canvas/224",
             "label": "p112r",
             "width": 1190,
             "height": 1575,
@@ -5607,7 +5607,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/224",
+                "on": "https://huondauvergne.org/iiif/canvas/224",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p112r.tif",
@@ -5624,7 +5624,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/225",
+            "@id": "https://huondauvergne.org/iiif/canvas/225",
             "label": "p112v",
             "width": 1176,
             "height": 1569,
@@ -5632,7 +5632,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/225",
+                "on": "https://huondauvergne.org/iiif/canvas/225",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p112v.tif",
@@ -5649,7 +5649,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/226",
+            "@id": "https://huondauvergne.org/iiif/canvas/226",
             "label": "p113r",
             "width": 1187,
             "height": 1572,
@@ -5657,7 +5657,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/226",
+                "on": "https://huondauvergne.org/iiif/canvas/226",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p113r.tif",
@@ -5674,7 +5674,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/227",
+            "@id": "https://huondauvergne.org/iiif/canvas/227",
             "label": "p113v",
             "width": 1173,
             "height": 1572,
@@ -5682,7 +5682,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/227",
+                "on": "https://huondauvergne.org/iiif/canvas/227",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p113v.tif",
@@ -5699,7 +5699,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/228",
+            "@id": "https://huondauvergne.org/iiif/canvas/228",
             "label": "p114r",
             "width": 1181,
             "height": 1575,
@@ -5707,7 +5707,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/228",
+                "on": "https://huondauvergne.org/iiif/canvas/228",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p114r.tif",
@@ -5724,7 +5724,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/229",
+            "@id": "https://huondauvergne.org/iiif/canvas/229",
             "label": "p114v",
             "width": 1179,
             "height": 1575,
@@ -5732,7 +5732,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/229",
+                "on": "https://huondauvergne.org/iiif/canvas/229",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p114v.tif",
@@ -5749,7 +5749,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/230",
+            "@id": "https://huondauvergne.org/iiif/canvas/230",
             "label": "p115r",
             "width": 1190,
             "height": 1575,
@@ -5757,7 +5757,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/230",
+                "on": "https://huondauvergne.org/iiif/canvas/230",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p115r.tif",
@@ -5774,7 +5774,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/231",
+            "@id": "https://huondauvergne.org/iiif/canvas/231",
             "label": "p115v",
             "width": 1182,
             "height": 1572,
@@ -5782,7 +5782,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/231",
+                "on": "https://huondauvergne.org/iiif/canvas/231",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p115v.tif",
@@ -5799,7 +5799,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/232",
+            "@id": "https://huondauvergne.org/iiif/canvas/232",
             "label": "p116r",
             "width": 1184,
             "height": 1572,
@@ -5807,7 +5807,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/232",
+                "on": "https://huondauvergne.org/iiif/canvas/232",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p116r.tif",
@@ -5824,7 +5824,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/233",
+            "@id": "https://huondauvergne.org/iiif/canvas/233",
             "label": "p116v",
             "width": 1179,
             "height": 1572,
@@ -5832,7 +5832,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/233",
+                "on": "https://huondauvergne.org/iiif/canvas/233",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p116v.tif",
@@ -5849,7 +5849,7 @@
 
           {
             "@type": "sc:Canvas",
-            "@id": "https://stevewlu.github.io/iiif/canvas/234",
+            "@id": "https://huondauvergne.org/iiif/canvas/234",
             "label": "p117r",
             "width": 1184,
             "height": 1575,
@@ -5857,7 +5857,7 @@
               {
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "on": "https://stevewlu.github.io/iiif/canvas/234",
+                "on": "https://huondauvergne.org/iiif/canvas/234",
                 "resource": {
                   "@type": "dctypes:Image",
                   "@id": "https://iiif.wlu.edu/iiif/huon/p117r.tif",
@@ -5874,7 +5874,7 @@
 
         {
          "@type": "sc:Canvas",
-          "@id": "https://stevewlu.github.io/iiif/canvas/235",
+          "@id": "https://huondauvergne.org/iiif/canvas/235",
           "label": "p117v",
           "width": 1182,
           "height": 1575,
@@ -5882,7 +5882,7 @@
             {
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://stevewlu.github.io/iiif/canvas/235",
+              "on": "https://huondauvergne.org/iiif/canvas/235",
               "resource": {
                 "@type": "dctypes:Image",
                 "@id": "https://iiif.wlu.edu/iiif/huon/p117v.tif",
