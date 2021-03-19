@@ -33,14 +33,14 @@ title: HDA Collaborators
                     <a href="">Hussiny El-Hussiny</a> (Wasington & Lee University, '24)<br>
                     <a href="">Jordan Hettleman</a> (Loyola University Maryland, '24)<br>
                     <a href="">Yoseph Tamene</a> (Wasington & Lee University, '24)<br>
-                    <a href="http://scholarslab.org/people/brandon-walsh/>Brandon Walsh">Yoseph Tamene</a> (Scholars' Lab, University of Virginia)<br>
-                    <a href="http://library.wlu.edu/about/library-directory/jeff-barry">Yoseph Tamene</a> (Washington and Lee University)<br>
+                    <a href="http://scholarslab.org/people/brandon-walsh/>Brandon Walsh">Brandon Walsh</a> (Scholars' Lab, University of Virginia)<br>
                 </div>
                 <div class="participant_section">
                 <h3 id="sub-header">HDA Alumni</h3>
                     <a href="">Megan Doherty</a>, TEI markup and IIIF implementation, Washington & Lee University, '19<br>
                     <a href="">Dashiell Dericks</a>, TEI development and markup (Washington & Lee University, '18)<br>
                     <a href="">Abdurrafey Khan</a>, TEI markup and UI development, Washington & Lee University, '17<br>
+                    <a href="http://library.wlu.edu/about/library-directory/jeff-barry">Jeff Barry</a> (Washington and Lee University)<br>
                 </div>
                 <div class="participant_section">
                 <h3>Collaborating Institutions</h3>
