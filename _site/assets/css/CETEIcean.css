@@ -692,6 +692,9 @@ tei-hi[rend="caps"] {
 tei-hi[rend="italic"] {
   font-style: italic; 
 }
+tei-hi[rend="super"] {
+  vertical-align: super;
+}
 tei-hi[rend="red-initial"] {
   font-family: 'MedievalSharp';
   color: red;

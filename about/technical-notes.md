@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 permalink: about/technical-notes.html
 title: Technical Notes
 ---

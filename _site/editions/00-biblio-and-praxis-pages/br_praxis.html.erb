@@ -1,9 +1,0 @@
-<% unless params.key?('criteria') %>
-    <% @current_page = 'br_criteria' %>
-    <% @current_page_short = 'br criteria' %>
-    <%= render 'layouts/criteria_interface' %>
-<% else %>
-    <% @current_page = 'br_manuscript' %>
-    <% @current_page_short = 'br criteria' %>
-    <%= render 'layouts/criteria_interface' %>
-<% end %>
