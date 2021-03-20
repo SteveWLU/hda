@@ -30,9 +30,10 @@ title: HDA Collaborators
                 </div> 
                 <div class="participant_section">
                 <h3 id="sub-header">Current Research Associates</h3>
-                    <a href="">Hussiny El-Hussiny</a> (Wasington & Lee University, '24)<br>
-                    <a href="">Jordan Hettleman</a> (Loyola University Maryland, '24)<br>
-                    <a href="">Yoseph Tamene</a> (Wasington & Lee University, '24)<br>
+                    <a href="">Hussiny El-Hussiny</a> (Washington & Lee University, '24)<br>
+                    <a href="">Jordan Hettleman</a> (Loyola University Maryland, '21)<br>
+                    <a href="">Alexander Ali Reza Khaledan</a> (Loyola University Maryland, '21)<br>
+                    <a href="https://yosephtamene.com/">Yoseph Tamene</a> (Washington & Lee University, '22)<br>
                     <a href="http://scholarslab.org/people/brandon-walsh/>Brandon Walsh">Brandon Walsh</a> (Scholars' Lab, University of Virginia)<br>
                 </div>
                 <div class="participant_section">
