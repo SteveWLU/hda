@@ -40,9 +40,9 @@ title: HDA Collaborators
                 </div>
                 <div class="participant_section">
                 <h2 id="sub-header">Current Research Associates</h2>
-                    <p><a href="">Alexander Ali Reza Khaledan</a>, Computer Science, Loyola University Maryland, Class of 2021.<br>
+                    <p><a href="https://www.linkedin.com/in/akhaledan/">Alexander Ali Reza Khaledan</a>, Computer Science, Loyola University Maryland, Class of 2021.<br>
                     Version 3.0, including transition to React.js, adding user account interface with annotation and comment tools, and SQL database support (Jan. - May, 2021).</p>
-                    <p><a href="">Hussiny El-Hussiny</a>, Computer Science, Washington & Lee University, Class of 2024.<br>
+                    <p><a href="https://www.linkedin.com/in/mohamed-s-elhussiny-hussiny-6a2256180/">Hussiny El-Hussiny</a>, Computer Science, Washington & Lee University, Class of 2024.<br>
                     Programming for Version 3.0, including text analysis tools and data visualization using using Python and the Natural Language Toolkit (NLTK), experimentation with neural networks (Summer 2021).</p>
                     <p><a href="https://www.linkedin.com/in/jordan-hettleman-ba5998178/">Jordan Hettleman</a>, Computer Science, Loyola University Maryland, Class of 2021.<br>
                     Version 3.0, including transition to React.js, adding user account interface with annotation and comment tools, and SQL database support (Jan. - May, 2021).</p>
