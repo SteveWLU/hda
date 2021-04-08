@@ -107,7 +107,7 @@
                         <origin><p><origPlace></origPlace></p></origin>
                         <!-- <seg type="textLang" subtype="LAT">Latin</seg> ? See Cummings 55 -->
                         <provenance></provenance>
-                        <acquisation>
+                        <acquisition>
                             <p>Manuscript P (MS 32 of the Biblioteca del Seminario Vescovile di
                                 Padova) is a paper codex dated on palaegraphical grounds to between the
                                 second half of the fourteenth and the first half of the fifteenth
@@ -133,7 +133,7 @@
                                 Vescovile. Michela Scattolini notes that MS P may have belonged to
                                 the collection of Alfonso Speroni-Alvarotti, and would have been
                                 acquired by the Seminario Vescovile in 1720.</p>
-                        </acquisation>
+                        </acquisition>
                     </history>
                     <msContents>
                         <textLang mainLang="FI">Franco-Italian</textLang>
@@ -3618,6 +3618,7 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
             </lg>
             <lg type="laisse" n="81">
                 <head>Laisse 81</head>
+                <!-- Start Meregazzi (1936) -->
                 <l n="2504"><hi rend="red-initial">Q</hi>uando in la nave fo i<ex rend="italic"
                         >n</ex>trado Ugo l'insenie,</l>
                 <l n="2505">Andoncha à lla sso via pie:<note xml:id="p2505"/></l>
@@ -3631,28 +3632,31 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                         <sic>trie</sic>
                         <corr cert="medium" resp="#SPM">t<ex rend="brackets">e</ex>rie</corr>
                     </choice><note xml:id="p2512"/>,</l>
-                <l n="2513">Lo qual Tadio l'aveva in balie.</l>
+                <l n="2513">Lo qual Tadio l'aveva in balie.<note xml:id="p2508"/></l>
                 <l n="2514">La cente de la citade non dessirava no<ex rend="italic">n</ex> nie,<note
                         xml:id="p2514"/></l>
+                <!-- 'çente' as Meregazzi? -->
                 <l n="2515">Ni no amava tricador ni boxie.</l>
-                <l n="2516">Da puo che Ugo fè de França partie,</l>
+                <l n="2516">Da puo che Ugo fè de França partie,<note xml:id="p2516"/></l>
                 <l n="2517">Ell no<ex rend="italic">n</ex> trovà alguna albergarie</l>
-                <l n="2518">O' e' fosse plu honorado ni s<ex rend="italic">er</ex>vie.</l>
+                <l n="2518">O' e' fosse plu honorado ni s<ex rend="italic">er</ex>vie.<note xml:id="p2518"/></l>
                 <l n="2519">Quando ello fo al porto arivie,</l>
-                <l n="2520">La nave ligà a una brancha ramie,</l>
+                <l n="2520">La nave ligà a una brancha ramie,<note xml:id="p2520"/></l>
                 <l n="2521">Su la riva à ell so cavallo menie.</l>
                 <l n="2522">Quando se n'avete li baroni de la contrie,</l>
-                <l n="2523">Incontra li andè, si ll'à ben recevuie,</l>
-                <l n="2524">In la citade lo menà si ll'à ben ostalie.</l>
-                <l n="2525">Or lo <ex rend="italic">con</ex>seia Dio, lo fiol sante Ma<ex
+                <l n="2523">Incontra li andè, si ll'à ben recevuie,<note xml:id="p2523"/></l>
+                <!-- receuvie? -->
+                <l n="2524">In la citade lo menà, si ll'à ben ostalie.<note xml:id="p2524"/></l>
+                <l n="2525">Or lo <ex rend="italic">con</ex>seia Dio lo fiol sante Ma<ex
                         rend="italic">r</ex>ie,</l>
                 <l n="2526">Se de qui inanci no troverà piçor albergarie,</l>
-                <l n="2527">Ben porà loldar lo fiol sante Marie.</l>
+                <l n="2527">Ben porà loldar lo fiol sante Marie.<note xml:id="p2527"/></l>
+                <!-- Sante / sante ? -->
             </lg>
             <lg type="laisse" n="82">
                 <head>Laisse 82</head>
                 <l n="2528"><hi rend="blue-initial">Q</hi>uela çente vete U<ex rend="italic">go</ex>
-                    sença alguna dotançe.</l>
+                    sença alguna dotançe.<note xml:id="p2528"/></l>
                 <l n="2529">Da puo ch'el se partì de Françe</l>
                 <l n="2530">E trapassà Ungaria e Provançe,</l>
                 <l n="2531">Non ave i<ex rend="italic">n</ex> alguna tera tal paciençe</l>
@@ -3660,22 +3664,23 @@ page 675, bottom line 47-49, OFr. with accusative object pronoun, "se penser"; e
                 <l n="2533">De bever e de mançar ave al so talançe.</l>
                 <l n="2534">Lo bon Tadio, che tuti li altri avançe,</l>
                 <l n="2535">No fè longa demorançe;</l>
-                <l n="2536">Al conte parlà, domando-lo de so meschançe;</l>
+                <l n="2536">Al conte parlà, domando-lo de so meschançe;<note xml:id="p2536"/></l>
                 <l n="2537"><milestone n="52V" unit="fol."/>Quando ello parlà de lui, li <choice>
                         <sic>parsse</sic>
                         <corr cert="medium" resp="#SPM">p<ex rend="brackets">re</ex>sse</corr>
-                    </choice><note xml:id="p2537"/> pietançe.</l>
-                <l n="2538">Lo conte Ugo che inver Dio à gran fidançe,</l>
-                <l n="2539">Si lli contà tuta la sso sperançe,</l>
-                <l n="2540">Como per lo so signor, l'inperador de Françe</l>
-                <l n="2541">--Carlo à nome si tien el mondo in balançe</l>
+                </choice><note xml:id="p2537"/> pietançe.<note xml:id="p2537"/></l>
+                <l n="2538">Lo conte Ugo, che inver Dio à gran fidançe,</l>
+                <l n="2539">Si lli contà tuta la sso sperançe,<note xml:id="p2539"/></l>
+                <l n="2540">Como per lo so signor, l'inperador de Françe<note xml:id="p2540"/></l>
+                <l n="2541">--Carlo à nome, si tien el mondo in balançe</l>
                 <l n="2542">Tanto à in ssi orogoio e possançe--:</l>
+      <!-- STOP -->
                 <!-- Vallecalle - si l’on met entre parenthèses la précision sur le nom de Charles, 
                     il faudrait intégrer aussi dans la parenthèse la fin du vers et le vers suivant 
                     qui indiquent sa puissance. La construction de la phrase est interrompue par 
                     cette longue coupure et par le passage au style direct, et l’interrogative 
                     indirecte « como per lo signor » reste en suspens. -->
-                <l n="2543">"Al inferno me manda o' è gran pietançe,</l>
+                <l n="2543">"A l'inferno me manda, o' è gran pietançe,</l>
                 <l n="2544">P<ex rend="italic">er</ex> querir trabuto a quel che fè partançe</l>
                 <l n="2545">Dell'alto segolo per sso superbançe,</l>
                 <l n="2546">Ch'èno<note xml:id="p2546"/> seradi in la scura habitançe."</l>

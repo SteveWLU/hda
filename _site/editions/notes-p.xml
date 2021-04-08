@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
- <teiHeader>
- <fileDesc>
- <titleStmt>
- <title type="manuscript">Huon d'Auvergne, Kupferstichkabinett 78 D 8 (olim Hamilton 337)
- Annotations</title>
- <respStmt>
- <name xml:id="SPM">Stephen Patrick McCormick</name>
- <resp>Annotations</resp>
- </respStmt>
- </titleStmt>
- <publicationStmt>
- <publisher>Washington and Lee University</publisher>
- <pubPlace>Lexington, Virginia</pubPlace>
- </publicationStmt>
- <sourceDesc>
- <msDesc xml:lang="en">
- <!-- xml:id ??? See Cummings 52 -->
- <!-- add encodingDesc -->
- <msIdentifier>
- <country>Germany</country>
- <settlement>Berlin</settlement>
- <repository>Kupferstichkabinett</repository>
- <idno>78 D 8</idno>
- </msIdentifier>
- </msDesc>
- </sourceDesc>
- </fileDesc>
- </teiHeader>
- <text>
- <front>
- <divGen type="toc"/>
- </front>
- <body>
- <div>
-    <!-- updated 28 Feb 2021 -->  
- <note xml:id="p1" type="interp" resp="#SPM">Laisse division not marked in
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="manuscript">Huon d'Auvergne, Kupferstichkabinett 78 D 8 (olim Hamilton
+                    337) Annotations</title>
+                <respStmt>
+                    <name xml:id="SPM">Stephen Patrick McCormick</name>
+                    <resp>Annotations</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Washington and Lee University</publisher>
+                <pubPlace>Lexington, Virginia</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- xml:id ??? See Cummings 52 -->
+                    <!-- add encodingDesc -->
+                    <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Berlin</settlement>
+                        <repository>Kupferstichkabinett</repository>
+                        <idno>78 D 8</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <div>
+                <!-- updated 28 Feb 2021 -->
+                <note xml:id="p1" type="interp" resp="#SPM">Laisse division not marked in
                     manuscript.</note>
                 <note xml:id="p3" type="codic" resp="#SPM">Space for illumination.</note>
                 <note xml:id="p21" type="edit" resp="#SPM">MS <hi rend="italic">lo cuor Dio
@@ -75,12 +75,13 @@
                 <note xml:id="p134" type="ling" resp="#SPM"><hi>l'è</hi>, example of unstressed
                     subject pronoun; cf. Rohlfs §446</note>
                 <!-- Provide more information for n=9 -->
-                <note xml:id="p136" type="ling" resp="#SPM">cf. Morgan, <title rend="italic">La Geste
-                        francor</title>, p. 948: "<quote>docler : Not listed in any Italian or Old
-                        French dictionary. It is always opposed to low places, leading to believe it
-                        means either “tower”, “hill”, or some other type of raised spot. [...]
-                        Since, furthermore, the form appears six times in this manuscript (plus one
-                        as doclé), it seems unlikely to be an error each time.</quote>”</note>
+                <note xml:id="p136" type="ling" resp="#SPM">cf. Morgan, <title rend="italic">La
+                        Geste francor</title>, p. 948: "<quote>docler : Not listed in any Italian or
+                        Old French dictionary. It is always opposed to low places, leading to
+                        believe it means either “tower”, “hill”, or some other type of raised spot.
+                        [...] Since, furthermore, the form appears six times in this manuscript
+                        (plus one as doclé), it seems unlikely to be an error each
+                    time.</quote>”</note>
                 <note xml:id="p142" type="edit" resp="#SPM">"conseiller"</note>
                 <note xml:id="p164" type="ling" resp="#SPM">"torment", metathesis</note>
                 <note xml:id="p169" type="edit" resp="#SPM">MS <hi rend="italic">de cuor
@@ -289,7 +290,7 @@
                 <note xml:id="p1222" type="edit" resp="#SPM">MS <hi rend="#italic"
                     >liamant</hi>.</note>
                 <note xml:id="p1228" type="edit" resp="#SPM">MS <hi rend="#italic"
-                        >lolodi</hi>.</note>
+                    >lolodi</hi>.</note>
                 <note xml:id="p1266" type="edit" resp="#SPM">This line repeats.</note>
                 <!-- Find way to insert the extra line for the diplomatic edition; .css should display the line in a different color. -->
                 <note xml:id="p1274" type="edit" resp="#SPM">MS <hi rend="#italic">chavlcha</hi>;
@@ -527,18 +528,37 @@
                         >ii</hi>.</note>
                 <note xml:id="p2492" type="interp" resp="#SPM">Cf. <title rend="italic">Roman
                         d'Alexandre</title></note>
-    <!--Start Meregazzi 1936 -->
-                <note xml:id="p2505" type="edit" resp="#SPM">Meregazzi does not accent the verb form of "à" in her transcription.</note>
-                <note xml:id="p2506" type="edit" resp="#SPM">Meregazzi: allie</note>
-                <note xml:id="p2507" type="edit" resp="#SPM">Meregazzi: zorni; demora nie. Meregazzi transcribes "ç" as "z" throughout.</note>
-                <note xml:id="p2508" type="edit" resp="#SPM">Meregazzi: cumplie</note>
-                <note xml:id="p2511" type="edit" resp="#SPM">Meregazzi: contr[i]e</note>
-  <!--STOP-Feb. 1, 2021-->              
-                <note xml:id="p2512" type="edit" resp="#SPM">MS <hi rend="italic">trie</hi></note>
-                <note xml:id="p2514" type="interp" resp="#SPM">Read <hi rend="italic">ne mie</hi>;
-                    cf. ll. 814, 2606, 4854.</note>
+                <!--Start Meregazzi (1936) -->
+                <note xml:id="p2505" type="edit" resp="#SPM">Meregazzi does not accent the verb form
+                    of "à" in her transcription.</note>
+                <!-- include Meregazzi line numbers? NO; italics or quotes for her readings? what "type" are we using for these? "trans" for transcription; Periods at end? No when MS readings, Yes when longer note or commentary; Punctiation after 'Meregazzi'? -->
+                <!-- Manuscript form ""; what Meregazzi gives in double quotes; the translation (English or French, but modern) in single quotes ''; Meregazzi: ... ; word from own transcrption in italics; MS: sor - the manuscript form not used; use B, T, P, Br + line number (no space, T1234) to cite other manuscript version-->
+                <note xml:id="p2506" type="trans" resp="#SPM">Meregazzi: "allie"</note>
+                <note xml:id="p2507" type="trans" resp="#SPM">Meregazzi: "zorni"; "demora nie". Meregazzi
+                    transcribes "ç" as "z" throughout.</note>
+                <note xml:id="p2508" type="trans" resp="#SPM">Meregazzi: "cumplie"</note>
+                <note xml:id="p2511" type="trans" resp="#SPM">Meregazzi: "contr[i]e"</note>
+                <note xml:id="p2512" type="trans" resp="#SPM">MS <hi rend="italic">trie</hi>;
+                    Meregazzi: "trie"</note>
+                <note xml:id="p2513" type="trans" resp="#SPM">Meregazzi: "llo"; in her transcription,
+                    Meregazzi does not always conserve the double consant in the manuscript.</note>
+                <note xml:id="p2514" type="interp" resp="#SPM">Meregazzi: "çente"; read <hi
+                        rend="italic">ne mie</hi>; cf. ll. 814, 2606, 4854.</note>
+                <!-- Notes with two "types"? -->
+                <note xml:id="p2516" type="trans" resp="#SPM">Meregazzi transcribes the verb form
+                    "fe" as fe' throughout.</note>
+                <note xml:id="p2518" type="trans" resp="#SPM">Meregazzi: "o e"</note>
+                <note xml:id="p2520" type="trans" resp="#SPM">Meregazzi: "liga"</note>
+                <note xml:id="p2523" type="trans" resp="#SPM">Meregazzi: "recevie"</note>
+                <note xml:id="p2524" type="trans" resp="#SPM">Meregazzi: "mena"</note>
+                <note xml:id="p2527" type="trans" resp="#SPM">Meregazzi: "Sancte"</note>
+                <!-- Laisse 82 -->
+                <note xml:id="p2528" type="trans" resp="#SPM">Meregazzi: "ve'"</note>
+                <note xml:id="p2536" type="trans" resp="#SPM">Meregazzi: "parla"; "domandolo"</note>
                 <note xml:id="p2537" type="edit" resp="#SPM">MS <hi rend="italic"
-                    >parsse</hi>.</note>
+                    >parsse</hi>; Meregazzi: "quando ello parla, de lui li paresse pietanze."</note>
+                <note xml:id="p2539" type="trans" resp="#SPM">Meregazzi: "conta"</note>
+                <note xml:id="p2540" type="trans" resp="#SPM">Meregazzi: "imperador"</note>
                 <note xml:id="p2546" type="ling" resp="#SPM">Rohlfs, Italia meridionale, §336. Ne
                     paragogico.</note>
                 <note xml:id="p2548" type="edit" resp="scribe">MS <hi rend="italic">questa</hi>;
@@ -600,8 +620,8 @@
                     partie en latin en partie en franco-italien, selon un procédé apprécié par les
                     poètes franco-italiens : cf. Holtus et Wunderli, Grundriss der romanischen
                     Literaturen des Mittelalters. Volume III. Les épopées romanes, t. 1/2, fascicule
-                    10, Franco-italien et épopée franco-italienne, Heidelberg, Winter, 2005,
-                    p. 141-142.</note>
+                    10, Franco-italien et épopée franco-italienne, Heidelberg, Winter, 2005, p.
+                    141-142.</note>
                 <!-- code for bibliography -->
                 <note xml:id="p2865" type="edit" resp="#SPM">MS <hi rend="italic"
                     >Matando</hi>.</note>
@@ -862,11 +882,10 @@
                         signa, e questo dix'elo alora</hi>; the order of this sentence must be
                     altered to make sense, as read in B 9766</note>
                 <!-- Cite B; link for line number. -->
-                <note xml:id="p4559" type="edit" resp="#SPM">MS mo<ex
-                            rend="italic">r</ex>neti; the scribe may have attempted to
-                    correct here with the abbreviation for <hi rend="italic">r</hi>; from the
-                    context however <hi rend="italic">morti</hi> is clearly what was
-                    intended.</note>
+                <note xml:id="p4559" type="edit" resp="#SPM">MS mo<ex rend="italic">r</ex>neti; the
+                    scribe may have attempted to correct here with the abbreviation for <hi
+                        rend="italic">r</hi>; from the context however <hi rend="italic">morti</hi>
+                    is clearly what was intended.</note>
                 <note xml:id="p4575" type="edit" resp="#SPM">MS <hi rend="italic">dur</hi>; Br <hi
                         rend="italic">Poi qoi Guliaume por conduit le rova</hi></note>
                 <note xml:id="p4579" type="edit" resp="#SPM">MS <hi rend="italic">detosto
@@ -1081,7 +1100,7 @@
                 <note xml:id="p5676" type="interp" resp="#SPM">"Ponetença"</note>
                 <note xml:id="p5678" type="codic" resp="#SPM">Last folio torn; likely end of text.
                     Cf. McCormick.</note>
-   </div>
- </body>
- </text>
+            </div>
+        </body>
+    </text>
 </TEI>
