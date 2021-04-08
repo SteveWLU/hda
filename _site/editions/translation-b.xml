@@ -125,7 +125,12 @@
                             </p>
                         </origin>
                         <provenance>unknown</provenance>
-                        <acquisition>library acquisition information</acquisition>
+                        <acquisition><p>This is a translation of Berlin, Kupferstichkabinett MS 78 D 8 (olim Hamilton 337), a codex listed in the Gonzaga inventory of 1407. The first folio
+                            bears three copies of the coat of arms of the Gonzaga family. The manuscript passed
+                            through noble families in the Italian peninsula and then to the English Hamilton
+                            family. In the 19th century, the Prussian government bought a group of the Hamilton
+                            manuscripts that included B. The manuscript was first described by Adolf Tobler in
+                            1884.</p></acquisition>
                     </history>
                 </msDesc>
             </sourceDesc>
