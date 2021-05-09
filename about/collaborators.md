@@ -20,7 +20,7 @@ title: HDA Collaborators
                 </div>
                 <div class="participant_section">
                 <h2 class="about">Collaborating Scholars</h2>
-                    <p><a href="http://www.ed.ac.uk/profile/philip-bennett">Philip E. Bennett</a>, Professor Emerita and Honorary Fellow, University of Edinburgh.<br>
+                    <p><a href="http://www.ed.ac.uk/profile/philip-bennett">Philip E. Bennett</a>, Professor Emeritus and Honorary Fellow, University of Edinburgh.<br>
                     Old French philology, historical and literary context, and commentary and annotation of editions.</p>
                     <p><a href="https://history.arizona.edu/people/alan-e-bernstein">Alan Bernstein</a>, Professor Emeritus, University of Arizona.<br>
                     History and literary representations of Hell, commentary and annotation of editions.</p>
@@ -65,7 +65,7 @@ title: HDA Collaborators
                     <p><a href="http://www.archiginnasio.it/">Biblioteca Comunale dell'Archiginnasio</a> (Bologna, Italy)</p>
                     <p><a href="http://www.maru.firenze.sbn.it/">Biblioteca Marucelliana</a> (Florence, Italy)</p>
                     <p><a href="http://www.bnto.librari.beniculturali.it/">Biblioteca Nazionale di Torino</a> (Turin, Italy)</p>
-                    <p><a href="http://www.bibliotecaseminariopda.it/">Biblioteca Antica del Seminario Vescovile di Padova</a> (Padua, Italy</p>
+                    <p><a href="http://www.bibliotecaseminariopda.it/">Biblioteca Antica del Seminario Vescovile di Padova</a> (Padua, Italy)</p>
                 </div> 
         </div>
     </div>

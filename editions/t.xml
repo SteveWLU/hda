@@ -92,7 +92,7 @@
                     <history>
                         <origin><p><origPlace></origPlace></p></origin>
                         <provenance></provenance>
-                        <acquistion>
+                        <acquisition>
                             <p>The scribe of manuscript N.III.19 of the Turin Biblioteca Nazionale
                                 dates the work to 1441. A paper codex measuring 27 cm by 20 cm,
                                 manuscript T survives today despite a tortuous history. In 1904, a
@@ -121,7 +121,7 @@
                                 transcribed from the manuscript. Additionally, the “MS Image” button
                                 will allow for a side-by-side comparison of manuscript T and the
                                 transcription.</p>
-                        </acquistion>
+                        </acquisition>
                     </history>
                     <msContents>
                         <textLang mainLang="fi">Franco-Italian</textLang>
@@ -196,12 +196,12 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Last updated December 3, 2020</change>
+            <change>Last updated March 21, 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <lg type="laisse" n="1">
+            <lg type="laisse" n="1"><milestone n="1R" unit="fol."/>
                 <head>Laisse 1</head>
                 <l n="1"><seg>Al tempo de mazo quando el fiorise le prade<note
                             xml:id="t1"/></seg></l>
@@ -215,7 +215,7 @@
                 </l>
                 <l n="6"><seg>che per lor deleto entrano y<ex rend="italic">n</ex>
                     zardine;</seg></l>
-                <l n="7"><milestone n="1R" unit="fol."/><seg>tute le polzele ensemele com zovenzele
+                <l n="7"><seg>tute le polzele ensemele com zovenzele
                         </seg><note xml:id="t7"/></l>
                 <l n="8"><seg>de fiore<note xml:id="t8"/> e de rosse zascun se fa capele,</seg></l>
                 <l n="9"><seg>se sy sbaldise perché amore li à strenzé.</seg></l>
