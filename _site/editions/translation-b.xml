@@ -125,7 +125,12 @@
                             </p>
                         </origin>
                         <provenance>unknown</provenance>
-                        <acquisition>library acquisition information</acquisition>
+                        <acquisition><p>This is a translation of Berlin, Kupferstichkabinett MS 78 D 8 (olim Hamilton 337), a codex listed in the Gonzaga inventory of 1407. The first folio
+                            bears three copies of the coat of arms of the Gonzaga family. The manuscript passed
+                            through noble families in the Italian peninsula and then to the English Hamilton
+                            family. In the 19th century, the Prussian government bought a group of the Hamilton
+                            manuscripts that included B. The manuscript was first described by Adolf Tobler in
+                            1884.</p></acquisition>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -1122,7 +1127,7 @@
                 <l n="839">And the king quickly reassured him about the matter,</l>
                 <l n="840">Saying cheerfully that he would return safe and sound,</l>
                 <l n="841">And that a fine reward would be waiting for him for his labor;</l>
-                <l n="842">And, by his soul, his wife and honor could be entrusted to him [the
+                <l n="842">And, by his soul, his wife and domains could be entrusted to him [the
                     king].</l>
                 <l n="843">The count then bowed down and kissed his feet.</l>
                 <l n="844">"I trust you, lord king," said the good count,</l>
@@ -1131,7 +1136,7 @@
                 <l n="847">Alas! What an evil oath this traitor king made!</l>
                 <l n="848">For this sin his soul will be still today in damnation,</l>
                 <l n="849">If he hasn't repented with a totally true heart.</l>
-                <l n="850">I don't believe it happened, even on his last day, </l>
+                <l n="850">I don't believe it happened, even on his last day,<note xml:id="trans850"/></l>
                 <l n="851">That he ever improved; on the contrary, he became even worse.</l>
                 <l n="852">Let the Devil keep him who was his servant!</l>
             </lg>
@@ -1167,7 +1172,7 @@
                 <l n="878">Whatever may be the result, I will ask him now</l>
                 <l n="879">Why he has shown himself so angry toward me."</l>
                 <l n="880">So on the third day, the lady spoke to him:</l>
-                <l n="881">With her [were] his brothers-in-law, who were very sensible,<note xml:id="trans881"/></l>
+                <l n="881">With them [were] his brothers-in-law, who were very sensible,<note xml:id="trans881"/></l>
                 <l n="882">Thomas and Baudoin, who loved her very much,</l>
                 <l n="883">And her two nephews, who were of a good age,</l>
                 <l n="884">Called Samson and Rainer,</l>
@@ -1175,19 +1180,18 @@
                  <l n="886">All of them gathered together before the count.</l>
                 <l n="887">They addressed him graciously and begged him most earnestly</l>
                 <l n="888">To reassure his people who were quite uneasy,</l>
-                <l n="889">Saying that it would be best for him to tell them what he intended to
-                    do;</l>
-                <l n="890">He should take good counsel and not be afraid.</l>
+                <l n="889">Saying that it would be best for him to tell them what he intended to do</l>
+                <l n="890">And not be afraid; in this way he would be taking good advice.</l>
                 <l n="891">They spoke about it and begged him so repeatedly</l>
-                <l n="892">That he promised to do what they wished.</l>
+                <l n="892">That he promised them to do what they wished.</l>
                 <l n="893">Then they were reassured, and he sent for his council.</l>
                 <l n="894"><cb n="b"/>He spoke of and discussed many
                     matters,</l>
                 <l n="895">But he hid everything regarding his great task.</l>
                 <l n="896">Instead he called for setting up a great court:</l>
-                <l n="897">"Let it go on for ten days, or even nine, by my faith,</l>
+                <l n="897">"Let it take place in ten days, or even nine, by my faith,</l>
                 <l n="898">And everyone will prepare as best he can</l>
-                <l n="899">To honor me simply with his goodness.</l>
+                <l n="899">To go ahead and honor me with his goodness.</l>
                 <l n="900">Then it will be necessary for me to leave on the king's business</l>
                 <l n="901">On which I have been sent and dispatched by the king himself.</l>
                 <l n="902">At that moment, when I will be separated from you,</l>
@@ -1196,15 +1200,14 @@
             <lg type="laisse" n="35">
                 <head>Laisse 35</head>
                 <l n="904">The court was publicly announced and was known both far and wide;</l>
-                <l n="905">Everyone was very pleased to come.</l>
+                <l n="905">Everyone came very quickly to the court.</l>
                 <l n="906">People came from many foreign lands,</l>
                 <l n="907">And the noble count of Auvergne received them very well.</l>
                 <l n="908">They were provided with every possible pleasure and joy.</l>
-                <l n="909">As far as the count was concerned, nothing was hidden</l>
-                <l n="910">Except for one thing alone that everyone was waiting for at the
-                    dinner.</l>
-                <l n="911">Everyone came safely to the court being held,</l>
-                <l n="912">Where each person was happily received.</l>
+                <l n="909">As far as what the count had to do, nothing was mentioned</l>
+                <l n="910">Except for one thing: he expected everyone at dinner,</l>
+                <l n="911">That everyone definitely came to the court being held,</l>
+                <l n="912">Where each person would be happily received.</l>
                 <l n="913">During that time the court filled up;</l>
                 <l n="914">The people passed time in the vaulted hall.</l>
                 <l n="915">So welcome were they made in the hall,</l>
@@ -1228,20 +1231,20 @@
                 <l n="930">"Go quickly," he said, "take a horse, it's faster,</l>
                 <l n="931"><milestone n="7V" unit="fol."/><cb n="a"/>Bring the pilgrim to me as quickly as
                     possible.</l>
-                <l n="932">Put him on the horse and come at a fast pace."</l>
+                <l n="932">Put him on the horse and come at a trot."</l>
                 <l n="933">And [the young man] did exactly as he was ordered.</l>
             </lg>
             <lg type="laisse" n="37">
                 <head>Laisse 37</head>
                 <l n="934">[The young man] left when he heard the order from his lord;</l>
                 <l n="935">He mounted a horse without much delay.</l>
-                <l n="936">He rode with such strength and speed</l>
-                <l n="937">That he soon came up to the pilgrim in the shade of a tree.</l>
+                <l n="936">He rode with strength and speed</l>
+                <l n="937">Until he came up to the pilgrim in the shade of a tree.</l>
                 <l n="938">The pilgrim did not greet him at all, nor did the young man greet
                     him,</l>
                 <l n="939">But rather said, "You whoreson porter,</l>
                 <l n="940">On whose account a grand court has been disturbed!</l>
-                <l n="941">Everyone would have eaten by now and started the jousting</l>
+                <l n="941">Everyone would have eaten by now and started the merrymaking</l>
                 <l n="942">Along with many other entertainments,</l>
                 <l n="943">But you have disturbed all that with your delay."</l>
                 <l n="944">He grabbed him by the hair and jerked him around;</l>
@@ -1252,14 +1255,14 @@
                 <l n="949">Whether he wanted to or not, he promised that day,</l>
                 <l n="950">That he would say nothing to any man born of woman.</l>
                 <l n="951">But if Huon's servant had really known</l>
-                <l n="952">What thing he was bringing through the wall of a tower,</l>
-                <l n="953">Never at all would he have gone even a step with him.</l>
-                <l n="954">Had they actually known that he was a treacherous devil,</l>
-                <l n="955">They would have chased him away. He had come to the court</l>
-                <l n="956">In order to lead Huon, that good count, into error </l>
-                <l n="957">Because of their desire for his death.</l>
+                <l n="952">What thing he was, indeed he never would have advanced<note xml:id="trans952"/></l>
+                <l n="953">One step past the edge of a tower toward him.<note xml:id="trans953"/></l>
+                <l n="954">Know truly that the treacherous devils</l>
+                <l n="955">Chased him out to accomplish their desire</l>
+                <l n="956">To lead Huon, the good count, to death:</l>
+                <l n="957">[The devil] had come to the court to lead [Huon] astray.</l>
                 <l n="958">If God, our Lord and Redeemer, doesn't take care,</l>
-                <l n="959">The Devil planned to cause dishonor to many people.</l>
+                <l n="959">The devil planned to cause dishonor to many people.</l>
                 <l n="960">For this reason he didn't yet want to avenge his shame;</l>
                 <l n="961">Rather he thought to do something even worse to someone else.</l>
             </lg>
@@ -1279,12 +1282,12 @@
                 <l n="973">Eat, in the name of Jesus, all that pleases you."</l>
                 <l n="974">Then the count made the sign of the cross over the food.</l>
                 <l n="975">When the devil saw this, he could bear no more:</l>
-                <l n="976">The table, the food, the meat(from where it was,</l>
+                <l n="976">The table, the food,the chair where he was,</l>
                 <l n="977">He caused it to fly up into the air and out the window,</l>
-                <l n="978">So that the food was scattered every which way.</l>
+                <l n="978">So that none of the food was scattered at all.</l>
                 <l n="979">With great fury he left, crying as loudly as he could,</l>
                 <l n="980">"Well, noble count of Auvergne, woe to you!</l>
-                <l n="981">You have tricked me for your own true salvation,</l>
+                <l n="981">You have tricked me with your kind greeting.</l>
                 <l n="982">And here I truly thought I had deceived you,</l>
                 <l n="983">And furthermore fooled your entire naive court.</l>
                 <l n="984">But because of the name of the Sovereign whom you have mentioned,</l>
@@ -1297,7 +1300,7 @@
                 <l n="991">You will die on the journey, miserable wherever you go.</l>
                 <l n="992">Others will be joyful and you will be bitterly disappointed.</l>
                 <l n="993">I have no more to say to you; I have said too much already."</l>
-                <l n="994">He left there immediately and kept to his route;</l>
+                <l n="994">He left there immediately, he had to go;<note xml:id="trans994"/></l>
                 <l n="995">He moved quickly until he got to Hell.</l>
                 <l n="996">He had stayed away too long and was badly received.</l>
                 <l n="997">No one [in Hell] touched any of that food</l>
@@ -1311,7 +1314,7 @@
                 <l n="1002">That really happened at Huon's court.</l>
                 <l n="1003">The people were frightened and becoming more so.</l>
                 <l n="1004">They didn't know what to think; everyone waited,</l>
-                <l n="1005"><milestone n="8R" unit="fol."/><cb n="a"/>No one seemed able to eat anymore.</l>
+                <l n="1005"><milestone n="8R" unit="fol."/><cb n="a"/>No one made any prestense of eating anymore.</l>
                 <l n="1006">But the noble Count Huon went around cheering everyone up,</l>
                 <l n="1007">Circulating among them and preaching comfort.</l>
                 <l n="1008">Then he said to them, "[My] lords, be reassured;</l>
@@ -1325,8 +1328,8 @@
                 <l n="1016">He satisfied his hunger with no more than a quarter measure of bread</l>
                 <l n="1017">And some water which he drank to satisfy his thirst; </l>
                 <l n="1018">Such food had been enough for him for a long time.</l>
-                <l n="1019">To tell the truth, he ate that way intentionally,</l>
-                <l n="1020">Such that everyone marveled at him;</l>
+                <l n="1019">He made a point of saying other good things</l>
+                <l n="1020">To everyone such that they marveled at him;</l>
                 <l n="1021">People believed his life to be rather saintly.</l>
                 <l n="1022">Everyday when night came he mortified his flesh.</l>
                 <l n="1023">It is not up to me to tell about all the good he did,</l>
@@ -1335,7 +1338,7 @@
                 <l n="1026">He said prayers every day; he was never lax in the practice</l>
                 <l n="1027">Of saying the Office of the Virgin and doing good works.</l>
                 <l n="1028">But I'll stop talking of this now and explain later.</l>
-                <l n="1029">When the court finished the meal they washed up.</l>
+                <l n="1029">When the court finished the meal they washed [their hands].</l>
             </lg>
             <lg type="laisse" n="40">
                 <head>Laisse 40</head>
@@ -1344,15 +1347,15 @@
                 <l n="1032">He explained many things to them</l>
                 <l n="1033">About all that he thought would occur</l>
                 <l n="1034">And what they should do when these happened.<note xml:id="trans1034"/></l>
-                <l n="1035">After this, he told them about his painful dispute,</l>
-                <l n="1036">How Charles Martel had entrusted him with the great task.</l>
-                <l n="1037">With his barons, who always advised him,</l>
+                <l n="1035">Along with this, he told them about [Charles's] claim [against the Devil],</l>
+                <l n="1036">How Charles Martel and his barons, who advised all this to him,.</l>
+                <l n="1037">Had entrusted him with the great task.</l>
                 <l n="1038">He explained the whole affair, he hid nothing from them:</l>
                 <l n="1039">"I am well aware of my part in this and am really upset,</l>
                 <l n="1040">But it cannot be otherwise; it will be as God pleases.</l>
-                <l n="1041">For nothing in the world would I be forsworn;</l>
-                <l n="1042"><cb n="b"/>I will never devalue loyalty;</l>
-                <l n="1043">As long as I am alive, I will be faithful.</l>
+                <l n="1041">Nevertheless I will never be forsworn;</l>
+                <l n="1042"><cb n="b"/>I will never break faith;</l>
+                <l n="1043">As long as I am alive, I will keep my word.</l>
                 <l n="1044">One thing I beg of you; when I have left,</l>
                 <l n="1045">You won't let yourselves be greatly afflicted by my absence.</l>
                 <l n="1046">It's not worth it, rather it would be harmful;</l>
