@@ -9,8 +9,8 @@ toc:
         url: /about/citation.html
       - page: Source Code
         url: https://github.com/SteveWLU/hda
-      - page: Technical Notes
-        url: /about/technical-notes.html
+      - page: Versioning & Progress
+        url: /about/versioning.html
   - title: Edition Criteria
     subfolderitems:
       - page: Berlin Criteria

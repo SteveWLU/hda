@@ -1,12 +1,11 @@
 ---
 layout: about
-permalink: about/technical-notes.html
-title: Technical Notes
+permalink: about/versioning.html
+title: HDA Versions and Progress Updates
 ---
 
-# Technical Notes
 
-For TEI Encoding criteria, please see the Criteria section of the website. 
+# HDA Version 2.0 (current)
 
 ## Jekyll 
 The *Huon d'Auvergne* Digital Archive is built using the static site framework [Jekyll](https://jekyllrb.com/). We chose this framework for several reasons. 1) The textual and static nature of our project does not necessitate a robust or dynamic database-driven platform. 2) Familiarity with Jekyll in our small development team. 3) The potential of Jekyll to integrate with new technologies like the CETEIcean Javascript library and the International Image Interoperability Framework. 
@@ -24,6 +23,16 @@ Manifests for each of the manuscript facsimiles are available:
 * BR manifest
 * P manifest 
 * R manifest
-* T manifest 
+* T manifest
 
-## Credits 
+# HDA Development
+
+## HDA Version 3.0 Development Notes and Progress Updates
+
+We are currently developing HDA 3.0. and key features of the new version will include user account creation, user annotation functionality, and collaborative commentary and resolution of editorial queries. The HDA user account will also include a suggest and feedback feature. HDA 3.0. is being developed using [ReactJS](https://reactjs.org/) to manage the user database. 
+
+# Archived versions of the HDA
+
+## HDA Version 1.0
+Version 1.0 of the *Huon d'Auvergne* Digital Archive is built using Ruby on Rails. The site includes transcriptions of all four Franco-Italian manuscripts (B, T, P, Br) and a draft English translation of manuscript B.
+
