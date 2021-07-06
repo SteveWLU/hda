@@ -138,7 +138,7 @@
                 <note target="#trans2950" type="lit" resp="#SSB">2950] Literally: And in the width of the body there was more than one part [of a <hi rend="italic">toise</hi>]; according to PEB, "one part" indicates "one half," thus "three feet."</note>
                 <note target="#trans2957" type="lex" resp="#SSB">2957] Literally: [...] that buys everything</note>
                 <note target="#trans3004" type="lex" resp="#SSB">3004] "Generous Giver" is an epithet for God.</note>
-                <note target="#trans3015" type="lex" resp="#SSB">3015] <hi rend="italic">fire</hi> is one of the possible forms of the present subjunctive of "ferir" which gives the present translation. However, Mainone thinks this is the infinitive of "faire" in the rhyme position.</note>
+                <note target="#trans3015" type="lex" resp="#SSB">3015] <hi rend="italic">fire</hi> is one of the possible forms of the present subjunctive of "ferir" which gives the present translation. See note in the transcription for this line for other possibilities.</note>
                 <note target="#trans3076" type="alttrans" resp="#SSB">3076] Alternative translation based on understanding <hi rend="italic">s'aseöri</hi> as coming from "s'asseürer" : [...] he had never been so protected / For he had never been guarded in this way.</note>
                 <note target="#trans3088" type="lex" resp="#SSB">3088] Huon seems to be saying that he will leave some of the heavy fighting to the lion.</note>
                 <note target="#trans3171" type="interp" resp="#SSB">3171] Lines 3168-71 have been reordered for clarity.</note>
@@ -155,9 +155,15 @@
                 <note target="#trans3385" type="refer" resp="#SSB">3385] The word <hi rend="italic">xais</hi> is translated 'stone' since line 3283 states that the devil/hermit condemned to a stone (<hi rend="italic">perons</hi>). See T 3344: <hi rend="italic">intro in gran saso me serà quy un prodomo</hi>. See <hi rend="italic">Alexandre de Paris. Le Roman d'Alexandre</hi>. Trans. Laurence Harf-Lancner. Ed. E. C. Armstrong. Paris : Lettres gothiques (Le Livre de poche), 1976. Laisse 160, lines 2808-2819. Cf. Lat. SAXUM, 'sasso' in Modern Italian.</note>
                 <note target="#trans3396" type="lit" resp="#SSB">3396] Literally: He besieges your land around and about</note>
                 <note target="#trans3420" type="interp" resp="#SSB">3420] Huon, of course, is seeking the Devil, Lucifer himself, but the trapped devil seems almost to be playing with him. An alternative translation might yet be: You seek the Devil, you can find him right here </note>
-                <note target="#trans3487" type="ling" resp="#SSB">3487] We believe the second <hi rend="italic">le</hi> is a personal pronoun subject form third person plural.</note>
+                <note target="#trans3460" type="lit" resp="#SSB">3460] Literally: Then there will be quickly gotten for us the best [thing]</note>
+                <note target="#trans3468" type="alttrans" resp="#SSB">3468] Could this mean "on the side of the mountain"?.</note>
+                <note target="#trans3487" type="lit" resp="#SSB">3487] Literally: [...] the field, they emptied it </note>
                 <note target="#trans3504" type="interp" resp="#SSB">3504] Presumably not a stepsister or sister-in-law of some sort.</note>
+                <note target="#trans3513" type="interp" resp="#SSB">3513] It is unclear from the original whether everything is "his" or "hers" owing to the agreement of adjectives in Romance languages (including the possessive) with the noun they modify. The translation is based on the idea that if everything is the sister's, it is also his through his marriage to her.
+</note>
                 <note target="#trans3530" type="lit" resp="#SSB">3530] Literally: If you are right [...]</note>
+                <note target="#trans3532" type="lit" resp="#SSB">3532] Literally: [...] then he took her by the finger </note>
+                <note target="#trans3553" type="interp" resp="#SSB">3553] Cf. T 3513; B seems to be using a construction similar to "farcela" in MSI.</note>
                 <note target="#trans3561" type="ling" resp="#SSB">3561] It is possible that the verbs in this line are second person singular which would give an alternative translation: You will do justice just as you must (cf. T 3521).</note>
                 <note target="#trans3563" type="lit" resp="#SSB">3563] Literally: If you are right, right will be with you</note>
                 <note target="#trans3566" type="alttrans" resp="#SSB">3566] If the punctuation were the following: <hi rend="italic">Je suy enci. Por li, or dites que sera</hi>, then the translation would read: "I am here. As for her, tell me now what will be." Cf. T 3523.</note>
@@ -168,28 +174,40 @@
                 <note target="#trans3723" type="lit" resp="#SSB">3723] Literally: [...] we'll be in holy mercy</note>
                 <note target="#trans3728" type="refer" resp="#SSB">3728] <q rend="bold" xml:lang="la">Miserere</q> from Psalm 50 (51), "Have mercy on me, O God" (also the beginning of Psalms 55 and 56). According to the First Advent encyclopedia, "It is the first psalm at Lauds in all the ferial (week-day) Offices throughout the year". For further details, see Hugh Henry,  "Miserere," <hi rend="italic">The Catholic Encyclopedia</hi>. Vol. 10 (New York: Robert Appleton Company, 1911, consulted 28 Oct. 2014, http://www.newadvent.org/cathen/10352c.htm>).</note>
                 <note target="#trans3753" type="interp" resp="#SSB">3753] Despite their abandonment of Huon, he came through the experience uninjured. Thus they are guilty, but he forgives them.</note>
+                <note target="#trans3788" type="lex" resp="#SSB">3788] <hi rend="italic">l'en</hi> = "l'on" (translated as "everyone")</note>
+                <note target="#trans3792" type="interp" resp="#SSB">3792] There seems to be a switch of subjects here without specifying names.</note>
                 <note target="#trans3801" type="lit" resp="#SSB">3801] Literally: Who would sacrifice God's person [in the Eucharist]</note>
                 <note target="#trans3849" type="lex" resp="#SSB">3849] As opposed to the "porte marine" (the sea gate)</note>
-                <note target="#trans3860" type="interp" resp="#SSB">3860] The town's inhabitants want it to be a "commune," that is, a free city without an overlord.</note>
+                <note target="#trans3851" type="interp" resp="#SSB">3851] The <hi rend="italic">deschacimant</hi> or "expulsion" has not yet taken place. The dispute is over the town's inhabitants desire for a "commune," that is, a free town without an overlord.</note>
+                <note target="#trans3914" type="lit" resp="#SSB">3914] Literally: If you wish to be such  [...] (rearrangement of these two lines for clarity)</note>
                 <note target="#trans3983" type="lit" resp="#SSB">3983] Literally: [...] he had a good heart toward Him</note>
+                <note target="#trans4020" type="interp" resp="#SSB">4020] Cf. T 3981 ynnanzo voleno a onore morire che es<hi rend="italic">ere afamà</hi> </note>
+                <note target="#trans4024" type="alttrans" resp="#SSB">4024] Alternative translation: The battalions having been formed, they advanced to strike them.</note>
                 <note target="#trans4052" type="ling" resp="#SSB">4052] As in other passages, the text alternates between singular and plural without clarifying who is meant. Here <hi rend="italic">luy</hi> could be the lion or could be Huon.</note>
+                <note target="#trans4056" type="interp" resp="#SSB">4056] As happens so often in this text, singular and plural forms are mixed up leading to a lack of clarity. However, the miniature at the bottom of the folio page shows the lion in battle along with the knights. </note>
                 <note target="#trans4070" type="lex" resp="#SSB">4070] The term <hi rend="italic">croupon</hi> is a technical term for a horse's hindquarters.</note>
                 <note target="#trans4071" type="lex" resp="#SSB">4071] Could <hi rend="italic">cors</hi> mean "horn"? Is this marvelous horse a unicorn?</note>
+                <note target="#trans4099" type="lit" resp="#SSB">4099] Literally: [...] you won't be fallen</note>
                 <note target="#trans4159" type="refer" resp="#SSB">4159] Cf. T 4116: <hi rend="italic">El ne poria ben y[n]sire male asay</hi>.</note>
                 <note target="#trans4164" type="lit" resp="#SSB">4164] Literally: [...] as a well-bred man</note>
                 <note target="#trans4204" type="refer" resp="#SSB">4204] NOTE Cf. lines 8329 and 8529 for similar references to the opening of Psalm 133.</note>
                 <note target="#trans4206" type="interp" resp="#SSB">4206] This negative rendering of the "Golden Rule" is attributed to Rabbi Hillel in the Babylonian Talmud, <hi rend="italic">Shabbath</hi> folio 31a, but various forms of the "Golden Rule" exist in both positive and negative forms (<hi rend="bold">do</hi> unto others, etc.) in many cultures from many periods.</note>
-                <note target="#trans4228" type="lit" resp="#SSB">4228] Literally: Or anything worth [a bit of] chervil</note>
-                <note target="#trans4254" type="interp" resp="#SSB">4255] This entire section is confusing in that the young man doesn’t identify the people on the ship as merchants until line 4275 in the next laisse. Cf. Turin which is also problematic but there is immediately specific mention of sailors on the ship in lines T 4211-4214.</note>
-                <note target="#trans4260" type="interp" resp="#SSB">4260] This is a flashback of the merchants from Prester John’s land about their arrival and departure from Cappadocia owing to the conflict going on.</note>
+                <note target="#trans4228" type="lit" resp="#SSB">4228] Literally: [...] worth the price of chervil to him</note>
+                <note target="#trans4229" type="lex" resp="#SSB">4229] Here the <hi rend="italic">en</hi> is "on" [=one]</note>
+                <note target="#trans4254" type="interp" resp="#SSB">4254] This entire section is confusing in that the young man doesn’t identify the people on the ship as merchants until line 4275 in the next laisse. However, in T 4211-4214, there is specific mention of sailors on the ship. Thus the words in the square brackets were added for clarity. </note>
+                <note target="#trans4263" type="interp" resp="#SSB">4263] This appears to be a flashback of how the merchants from Prester John’s land arrived at and quickly left Cappadocia owing to the conflict going on. For that reason, they do not know how the war turned out, unlike Huon who Christianized the people and himself set up Samson as ruler, as he recounts below in lines 4293ff.</note>
                 <note target="#trans4264" type="ling" resp="#SSB">4264] The double negative is confusing and doesn't exist in Turin.</note>
                 <note target="#trans4269" type="lit" resp="#SSB">4269] Literally: [...] for I will truly reassure you</note>
                 <note target="#trans4283" type="lit" resp="#SSB">4283] Literally: [...] the one of Moses</note>
+                <note target="#trans4294" type="lit" resp="#SSB">4294] Literally: It was Cappadocia [...]</note>
+                <note target="#trans4299" type="ling" resp="#SSB">4299] The verb "conserver" takes a direct object. In OF "li" is singular as an indirect object, but in Italian it is the third-person plural direct object. Thus Italian usage seems to be dominant in this instance. Cf. Mascipelli, <hi rend="italic">La</hi> Geste francor <hi rend="italic">nel cod. marc. V13</hi>., p. 294.</note>
                 <note target="#trans4358" type="lit" resp="#SSB">4358] Literally: [...] to my knowledge</note>
                 <note target="#trans4360" type="refer" resp="#SSB">4360] This could be a reference to Matthew 7.14: For the gate is narrow and the way is hard, that leads to life and those who find it are few. If so, the text would be transcribed: <hi rend="italic">Stroite ert la voie qui no l'atient a tant</hi> and the translation would read: "The way is narrow for the one who doesn't seize it right away."</note>
+                <note target="#trans4372" type="lit" resp="#SSB">4372] Literally: That might well be proven to me to be false</note>
                 <note target="#trans4396" type="interp" resp="#SSB">4396] It would seem that the scribe didn't understand the source manuscript. The sense in this line is out of step with the rest of the passage that never seems to describe negative reactions to the merchants.</note>
+                <note target="#trans4399" type="interp" resp="#SSB">4399] The lack of subject nouns leads to confusion. We have added subjects that seem reasonable from the context for clarification.</note>
                 <note target="#trans4403" type="interp" resp="#SSB">4403] This is an extremely difficult passage, requiring one of our rare emendations to make sense.</note>
-                <note target="#trans4437" type="interp" resp="#SSB">4437] Is Prester John being referred to here as a commoner? He appears to be the commoner since he is referred to in the next line. The word <hi rend="italic">petit</hi> could mean small of stature or perhaps his unassuming dress compared to all the nobles in the church.</note>
+                <note target="#trans4437" type="interp" resp="#SSB">4437] Is Prester John being referred to here as an urbanite or a commoner? He must be the person mentioned since he is referred to in the next line. The word <hi rend="italic">petit</hi> could mean small of stature or perhaps refer to unassuming dress as compared to all the nobles in the church. In any case, not only does he not appear smaller in the illumination at the bottom of folio 31r which shows Huon on his knees; rather he is the largest figure in the miniature as befits his importance.</note>
                 <note target="#trans4467" type="lit" resp="#SSB">4467] Literally: [...] God's armor</note>
                 <note target="#trans4514" type="lex" resp="#SSB">4514] The verb <hi rend="italic">roeler</hi> means "torture" or "break on the wheel."</note>
                 <note target="#trans4515" type="lit" resp="#SSB">4515] Literally: [...] his soul, it is damned</note>
@@ -220,7 +238,7 @@
                 <note target="#trans5155" type="interp" resp="#SSB">5155] We have not found this proverb in any dictionary of proverbs.</note>
                 <note target="#trans5160" type="interp" resp="#SSB">5160] He seems to be threatening Ynide here with the possibility of the king coming to attack her lands for her disobedience of his orders.</note>
                 <note target="#trans5182" type="lex" resp="#SSB">5182] This might be Antwerp, Anvers in French.</note>
-                 <note target="#trans5245" type="lit" resp="#SSB">5245] Literally: From wanting to repent it would be too great a delay (the implication being that any delay, even the brief one from desire to repent to actual repentance, would be too long)</note>
+                <note target="#trans5245" type="lit" resp="#SSB">5245] Literally: From wanting to repent it would be too great a delay (the implication being that any delay, even the brief one from desire to repent to actual repentance, would be too long)</note>
                 <note target="#trans5289" type="alttrans" resp="#SSB">5289] An alternative translation is possible if the transcription is punctuated differently.
 Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/ E ou se puet gregno[r] hono[r]s avoir trovés/ Cu[m] le rois obeir e fer sa volontés?
 	The king of France, why has he sent us here,/ Truly desirous that you be honored?/ And where can greater honor be found/ Than by obeying the king and doing his will?</note>
