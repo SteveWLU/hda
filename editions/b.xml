@@ -171,7 +171,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Last updated 05 July 2021</change>
+      <change>Last updated 07 July 2021</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -881,15 +881,14 @@
         <l n="539">Que li plusor Saudin i nomerent</l>
         <l n="540">Entra dedanç por la ment de la gient.</l>
         <l n="541">Vient au lit o li rois si estent,</l>
-        <l n="542">Trova lui plaindre et fer grant li ga(u)me<ex rend="italic">n</ex>t <note
-            xml:id="b542"/></l>
+        <l n="542">Trova lui plaindre et fer grant li ga(u)me<ex rend="italic">n</ex>t <note xml:id="b542"/></l>
         <l n="543">Enfra soi meesme, com fame dolosent.</l>
         <l n="544">Deva<ex rend="italic">n</ex>t ses pieç li ber a jenols stent,</l>
         <l n="545">E dist, "Mon sire de quoi avés spavent?</l>
         <l n="546">Al siegle n'ait rien si l'ais desirent</l>
         <l n="547">Qui aseç tost no<ex rend="italic">n</ex> l'aieç de present;</l>
         <l n="548">Sainçe grant pois si l'avreç quiteme<ex rend="italic">n</ex>t.</l>
-        <l n="549">Ja estes sire, et tot a vos atent;</l>
+          <l n="549">Ja estes sire, et tot a vos atent;<note xml:id="b549"/></l>
         <l n="550">Ni desdira nuls vestre mandame<ex rend="italic">n</ex>t.</l>
         <l n="551">S'il le feïst, si n'avroit pentiment;</l>
         <l n="552">Vos ert il dit ni fait a cort nient,</l>
@@ -6389,7 +6388,7 @@
         <l n="4434"><hi rend="blue-initial">U</hi>gon entra en la glisse pois si regarde entor;</l>
         <l n="4435">La glisse il vit tot plaine de p<ex rend="italic">ri</ex>nce e de contor,</l>
         <l n="4436">E de rois et de duch, d'autre g<ex rend="italic">ra</ex>nt vavasor;</l>
-          <l n="4437">Non vit fors un vilan; petit le samble alor.<note xml:id="b4437"/></l>
+          <l n="4437">Non vit fors un vilan; petit le samble alor<note xml:id="b4437"/></l>
         <l n="4438">Davant l'auter estoit desor li grés altor,</l>
         <l n="4439">A pieç le prestes que parolle entre lor</l>
           <l n="4440">De l'ofice dire et comencier le jor.<note xml:id="b4440"/></l>
@@ -6501,8 +6500,8 @@
             >.i.</num> sol pan.</l>
         <l n="4523">De v<ex rend="italic">est</ex>re queste vos aquit c<ex rend="italic"
           >er</ex>teman,</l>
-        <l n="4524">Da part de Diex le sire soveran."</l>
-        <l n="4525">Por ce le di, "V<ex rend="italic">est</ex>re feit son plaisan.</l>
+        <l n="4524">Da part de Diex le sire soveran;</l>
+        <l n="4525">Por ce le di, v<ex rend="italic">est</ex>re feit son plaisan.</l>
         <l n="4526">Laiseç aler ce qe stoit penser van;</l>
         <l n="4527">Je vos aquit de ce d'ore en avan."<note xml:id="b4527"/></l>
         <l n="4528">"Ce ert inposible dou tot a hom te<ex rend="italic">r</ex>ran,</l>
@@ -6614,7 +6613,7 @@
         <l n="4607">Qui de rien che le mostre no<ex rend="italic">n</ex> prisse <num
             rend="smallcaps">.i. </num> petit flor.</l>
         <l n="4608">Celor l'en dist <ex rend="italic">et</ex> querent p<ex rend="italic">or</ex>
-          amor,</l>
+          amor</l>
         <l n="4609">Que il romaigne; si sera lo meillor.</l>
         <l n="4610">De <num rend="smallcaps">.vii.</num> roiames estoit cestuy signor,</l>
         <l n="4611">Aseç gi ot p<ex rend="italic">ri</ex>nceps, duch <ex rend="italic">et</ex>
@@ -6780,7 +6779,7 @@
             >n</ex>t creüs.</l>
         <l n="4725">Sove<ex rend="italic">n</ex>s soy cançe dame, selonch che ai leüs,</l>
         <l n="4726">Com fait la foille l'aubre quant le vent fert desus.</l>
-        <l n="4727">Mais p<ex rend="italic">or</ex> moi n'armaroit, se je avrai poüs,</l>
+          <l n="4727">Mais p<ex rend="italic">or</ex> moi n'armaroit, se je avrai poüs,<note xml:id="b4727"/></l>
         <l n="4728">Che face conse ch'al coe<ex rend="italic">n</ex>s né moi soit mal tenus.</l>
         <l n="4729">Vois alirés por li q<ex rend="italic">ua</ex>nt il v'oit plasus,</l>
         <l n="4730">E da part la roine le portés <num rend="smallcaps">.c.</num> salus."</l>
@@ -6801,7 +6800,7 @@
             >n</ex>s de douçor,<note xml:id="b4739"/></l>
         <l n="4740">Qua<ex rend="italic">n</ex>t si s'encline a te<ex rend="italic">r</ex>ren
           servior,</l>
-        <l n="4741">A chascune crieture pur che le motre amor.</l>
+          <l n="4741">A chascune crieture pur che le motre amor.<note xml:id="b4741"/></l>
         <l n="4742">Avés vos entendus le notre emp<ex rend="italic">er</ex>eor,</l>
         <l n="4743"><cb n="b"/>Choma<ex rend="italic">n</ex>t il soy remembre
           del notre senator?</l>
