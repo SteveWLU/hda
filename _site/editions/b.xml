@@ -171,7 +171,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Last updated 07 July 2021</change>
+      <change>Last updated 09 July 2021</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -236,7 +236,7 @@
         <l n="39">Por ce qu'il rois soi sent tant avancie,</l>
         <l n="40">Plus qe non fu onque si ancestre mie, </l>
         <l n="41">Plus orgoillos en fu et outrecuidie.</l>
-        <l n="42">A tout il tout l'avoir et desertie,</l>
+        <l n="42">A tout il tout l'avoir, et desertie,</l>
         <l n="43"><milestone n="1V" unit="fol."/><cb n="a"/>Et maintes dames ha v<ex rend="italic">er</ex>goigné <ex rend="italic">et</ex> ho<ex rend="italic">n</ex>ie.</l>
         <l n="44">Par ce n'est mie de la gient acherie;</l>
         <l n="45">Anchois le haëte la giant d<ex rend="italic">e</ex> la <ex rend="italic">con</ex>trie.</l>
@@ -3564,7 +3564,7 @@
         <l n="2405">Pl<ex rend="italic">us</ex> qu'il se soit tenir, pl<ex rend="italic">us</ex>
           Diex gerdon l'envoie;</l>
           <l n="2406">Qua<ex rend="italic">n</ex>t clame soi pentiç de ce que feit il oie,<note xml:id="b2406"/></l>
-        <l n="2407">Lor non poit romanir la grace Dieu no<ex rend="italic">n</ex> soie.</l>
+          <l n="2407">Lor non poit romanir la grace Dieu no<ex rend="italic">n</ex> soie.<note xml:id="b2407"/></l>
         <l n="2408">Por ce dist Diex, "Un tel odor en te<ex rend="italic">r</ex>re oie</l>
         <l n="2409">Que passe tot le ciel que ma ire peçoie."</l>
         <l n="2410">Ce dist il por pechere qua<ex rend="italic">n</ex>t il feit foloie,</l>
@@ -5252,7 +5252,7 @@
           en sera,</l>
         <l n="3576">La bataille dava<ex rend="italic">n</ex>t ci or endroit si fera</l>
         <l n="3577">Se puis avoir cival. Por ce no<ex rend="italic">n</ex> rema<ex rend="italic"
-            >n</ex>dra</l>
+            >n</ex>dra<note xml:id="b3577"/></l>
         <l n="3578">Ni me co<ex rend="italic">m</ex>bate a toy. Por tiel <ex rend="italic"
             >con</ex>va<ex rend="italic">n</ex>t sera:</l>
         <l n="3579">Qi avra reison, justisse el mostrera,</l>
@@ -5838,7 +5838,7 @@
         <l n="4020">Ava<ex rend="italic">n</ex>t voilent morir qe il soient afamé.</l>
         <l n="4021">Mes envers ces de l'ost, pou sont de gia<ex rend="italic">n</ex>t trové;</l>
         <l n="4022">Enç en le camp sunt <num rend="smallcaps">.ii.</num> part ascemblé,</l>
-        <l n="4023">Non poit remandre qu'il non seit la meslé:</l>
+          <l n="4023">Non poit remandre qu'il non seit la meslé:<note xml:id="b4023"/></l>
           <l n="4024">L'eschiere fait, le ferir avancé.<note xml:id="b4024"/></l>
         <l n="4025">"Diex," dit li quue<ex rend="italic">n</ex>s, "des or sera mostré,</l>
         <l n="4026">Qui vasalage avra <ex rend="italic">et</ex> li pris plus po<ex rend="italic"
@@ -6852,7 +6852,7 @@
         <l n="4776">Che c'est el cuer de moy qe por trehus s'envoie;</l>
         <l n="4777">Ne est rens au siegle che a son plaisir soie,</l>
         <l n="4778">Che ne soit acomplie por moy, o çe moroie;</l>
-        <l n="4779">Omais nen say plus dir, a vos le laseroie,</l>
+          <l n="4779">Omais nen say plus dir, a vos le laseroie,<note xml:id="b4779"/></l>
         <l n="4780">Fors dou reparier e complir vetre voie.</l>
         <l n="4781">A tot donés larçemant ors, arçe<ex rend="italic">n</ex>s <ex rend="italic"
             >et</ex> monoie,</l>
@@ -6898,14 +6898,14 @@
         <l n="4808">E celors respondrent, "Por la dame le cont."</l>
         <l n="4809">Le rois formant sospire q<ex rend="italic">ua</ex>nt intendus il i ont;</l>
         <l n="4810">"Segnors," ce dit le rois, "notre sir saç sont</l>
-        <l n="4811">Mais chi consoil li done, de ce ne moi plairo<ex rend="italic">n</ex>t</l>
+        <l n="4811">Mais chi consoil li done, de ce ne moi plairo<ex rend="italic">n</ex>t,</l>
         <l n="4812">A impacer d'autrui dame, je ne croy qe be<ex rend="italic">n</ex> vo<ex
             rend="italic">n</ex>t."<note xml:id="b4812"/></l>
         <l n="4813">"Sire," dit l'arcivesqe," por g<ex rend="italic">ra</ex>ns amors q'il ont</l>
         <l n="4814">A le que<ex rend="italic">n</ex>s Hue, et il por ce le font."</l>
-        <l n="4815">Le rois se taist et a ce non respont.</l>
+        <l n="4815">Le rois se taist et a ce non respont,</l>
         <l n="4816">Si com cil che conuit la ço<ex rend="italic">n</ex>se, cum la vo<ex
-            rend="italic">n</ex>t,</l>
+            rend="italic">n</ex>t;</l>
         <l n="4817">Por la dotanse, li son choir li ascont.</l>
         <l n="4818">Autre çonses le dit, e de ce lessé ont.</l>
         <l n="4819">Honorés i oit le rois, atan com il savro<ex rend="italic">n</ex>t.</l>
@@ -6976,7 +6976,7 @@
         <l n="4866">"Sire Riçars, bein savons vos bufois,<note xml:id="b4866"/></l>
         <l n="4867">E de vos, et des autres, che pas n'ame le rois,</l>
         <l n="4868">Né pais le suen honors n'amastes nule fois.</l>
-        <l n="4869">Chi volt aler, si aille, che por ce n'armandrois</l>
+          <l n="4869">Chi volt aler, si aille, che por ce n'armandrois<note xml:id="b4869"/></l>
         <l n="4870">Che ne soit acomplis ce qe fere devrois."</l>
         <l n="4871">Aprés parolle le sir de Vermandois,<note xml:id="b4871"/></l>
         <l n="4872">E Gui de Barcelune, chi est saç e prois,</l>
@@ -6989,7 +6989,7 @@
         <l n="4877">Si oit bien grans tort cil ch'altru blasmerois.</l>
         <l n="4878">Chi autrui blasme, a luy ne est lois;</l>
         <l n="4879">Quant serons armé, prendre e entre<ex rend="italic">r</ex> en to<ex
-            rend="italic">r</ex>nois,</l>
+            rend="italic">r</ex>nois,<note xml:id="b4879"/></l>
         <l n="4880">Alors se conotra le solaus de la nois.</l>
           <l n="4881">La çassons por ch'el di or endroit lasserois."<note xml:id="b4881"/></l>
       </lg>
@@ -7010,7 +7010,7 @@
         <l n="4889">Né mais por aus ne fu me<ex rend="italic">n</ex>çoigne né busdie,</l>
         <l n="4890">E ne sera por nos s'il plait al Fil Marie.</l>
         <l n="4891">De l'aler ou de remanoir a v(e)tre plasir sie,</l>
-        <l n="4892">E se volés autrema<ex rend="italic">n</ex>s, por nos n'armagna mie."</l>
+          <l n="4892">E se volés autrema<ex rend="italic">n</ex>s, por nos n'armagna mie."<note xml:id="b4892"/></l>
         <l n="4893">Lor parlle Enri, ch'est plans de felonie,</l>
         <l n="4894">Ce ch'el oit in volor, pas s'il ne·l dit mie:</l>
         <l n="4895">"Sire Ruçer," fit il, "q<ex rend="italic">ua</ex>nt l'ome vos chastie,</l>
@@ -7107,7 +7107,7 @@
         <l n="4967">Çascuns remaint dolant et irescu,</l>
         <l n="4968">La plus part creüt ch'en la mer seit fondu,</l>
         <l n="4969">Que plus novelles ne se oit mes de lu.</l>
-        <l n="4970">Diex le conseil e cil chi est aremansu."</l>
+          <l n="4970">Diex le conseil e cil chi est aremansu."<note xml:id="b4970"/></l>
         <l n="4971">"Lase," dit la contesse, "mais nen voil vivre plu,</l>
         <l n="4972"><cb n="b"/>Qua<ex rend="italic">n</ex>t ma sp<ex
             rend="italic">er</ex>ance <ex rend="italic">et</ex> mo<ex rend="italic">n</ex> sir ay

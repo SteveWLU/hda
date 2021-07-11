@@ -158,7 +158,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 7 July 2021</change>
+            <change>Content last updated 9 July 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -5615,7 +5615,7 @@
                 <head>Laisse 180</head>
                 <l n="4750">Each one took [his] leave from the king with a bow,</l>
                 <l n="4751">Except for Roger and Saudin and the lord of Mainz,</l>
-                <l n="4752">And Morant d'Hautefeuille (may God grant them grief!),</l>
+                <l n="4752">And Morant d'Hautefeuille---may God grant them grief!---</l>
                 <l n="4753">And Aumeri the traitor, those in whom [Charles] had confidence.</l>
                 <l n="4754">"[My] lords," said the king, "you know my intention;</l>
                 <l n="4755">Love troubles me; it puts me in peril;</l>
@@ -5637,19 +5637,19 @@
             <lg type="laisse" n="181">
                 <head>Laisse 181</head>
                 <l n="4770">The barons then sighed when they saw the king's grief,</l>
-                <l n="4771">Saying, "Oh, gentle sire, you must not be afraid,</l>
+                <l n="4771">Saying, "Oh, gentle sire, don't be afraid,</l>
                 <l n="4772">For after the pain joy will come to you next."</l>
-                <l n="4773">Then the king gave them the ring and the belt,</l>
+                <l n="4773">Then the king gave them the ring and the purse,</l>
                 <l n="4774">And the great diadem with which he was crowned.</l>
                 <l n="4775">"[My] lords," said the king, "I can certainly tell you,</l>
                 <l n="4776">That it is this heart of mine being sent as tribute,</l>
                 <l n="4777">There is nothing in the world that could please her</l>
                 <l n="4778">That I wouldn't do, I'm dying of this.</l>
-                <l n="4779">Henceforth I don't know what else to say (I'll leave it to you),</l>
-                <l n="4780">Except to go on your way and accomplish your mission.</l>
+                <l n="4779">I don't know what else to say at this point, I'll leave it to you)</l>
+                <l n="4780">Just accomplish your mission and come back.</l>
                 <l n="4781">Give everyone generous amounts of gold, silver and coins,</l>
                 <l n="4782"><milestone n="33V" unit="fol."/><cb n="a"/>Horses and palfreys and expensive silk fabrics.</l>
-                <l n="4783">If you can convince her to heal me,</l>
+                <l n="4783">If you can convince her who wages war on me,<note xml:id="trans4783"/></l>
                 <l n="4784">Never will I ask for any other paradise from God."</l>
             </lg>
             <lg type="laisse" n="182">
@@ -5658,48 +5658,48 @@
                 <l n="4786">For we have brought about many other [such] matters.</l>
                 <l n="4787">It would be impossible [...]</l>
                 <l n="4788">A lady couldn't [...]. "<note xml:id="trans4788"/></l>
-                 <l n="4789">"Noble sire," said Roger, "this is true."</l>
+                <l n="4789">"Noble sire," said Roger, "this is true."</l>
                 <l n="4790">They took leave of the king. When he embraced them,</l>
                 <l n="4791">At [their] departure, many tears were shed.</l>
-                <l n="4792">Many leave in joy who return in sorrow,</l>
+                <l n="4792">Many leave in joy who return in sorrow,<note xml:id="trans4792"/></l>
                 <l n="4793">As you'll be able to hear before this story ends.</l>
                 <l n="4794">Close to nightfall, each one got ready,</l>
                 <l n="4795">And the horses and baggage were loaded with riches.<note xml:id="trans4795"/></l>
-                 <l n="4796">They left Paris just as matins were rung,</l>
+                <l n="4796">They left Paris just as matins were rung,</l>
                 <l n="4797">They set off as a group by the direct road to Blaye.</l>
                 <l n="4798">They crossed many hills and many valleys,</l>
                 <l n="4799">On the second day they lodged in the city,</l>
                 <l n="4800">For the lord of the town honored them greatly.</l>
                 <l n="4801">On the third day toward matins they took their leave,</l>
                 <l n="4802">And crossed the Gironde river, entering into Gascony.</l>
-                <l n="4803">They found the king at Galleris's castle,</l>
+                <l n="4803">They found the king at Galleris Castle,</l>
                 <l n="4804">Him and his barons, who were enjoying themselves there.</l>
             </lg>
             <lg type="laisse" n="183">
                 <head>Laisse 183</head>
-                <l n="4805">They crossed the drawbridge of Galleris's castle;</l>
+                <l n="4805">They crossed the drawbridge of Galleris Castle;</l>
                 <l n="4806">The king rejoiced when he recognized them.</l>
                 <l n="4807">He asked about the emperor, how he was doing, and where they were
                     going,</l>
-                <l n="4808">And they replied, "[We're going] to Count Huon's lady."</l>
-                <l n="4809">The king sighed deeply when he heard them;</l>
+                <l n="4808">And they replied, "[We're going] for Count Huon's lady."</l>
+                <l n="4809">The king sighed deeply when he understood them:</l>
                 <l n="4810">"[My] lords," said the king, "our ruler is wise,</l>
-                <l n="4811">But whoever gives him advice, they don't please me in this matter,</l>
+                <l n="4811">But whoever gives him advice doesn't please me in this matter,</l>
                 <l n="4812">I don't believe they do well troubling someone else's wife."</l>
                 <l n="4813">"Sire," said the archbishop, "he does it for this,</l>
                 <l n="4814">For the great love that he has for Count Huon."</l>
-                <l n="4815">The king stopped speaking and did not reply to this.</l>
-                <l n="4816">Just like those who understand the situation, how it's going,</l>
+                <l n="4815">The king stopped speaking and didn't reply to this,</l>
+                <l n="4816">Just like those who understand the situation, how it's going;</l>
                 <l n="4817">Out of fear, he hid his own feelings.</l>
                 <l n="4818">He spoke of other matters, and they let [the subject] drop.</l>
                 <l n="4819">The king honored [his visitors] as much as he could.</l>
                 <l n="4820"><cb n="b"/>Then at dawn around matins, they took
                     their leave,</l>
-                <l n="4821">They would lodge that night in Castle Charions.<note xml:id="trans4821"/></l>
+                <l n="4821">They would lodge that night in Charions Castle.</l>
                  </lg>
             <lg type="laisse" n="184">
                 <head>Laisse 184</head>
-                <l n="4822">Our company was lodged in Castle Charions;</l>
+                <l n="4822">Our company was lodged in Charions Castle;</l>
                 <l n="4823">A little before matins, their equipment was loaded,</l>
                 <l n="4824">And their host came out then, and spoke to them thus:</l>
                 <l n="4825">"Where are you going, [my] lords? Tell me your intention,</l>
@@ -5707,7 +5707,7 @@
                 <l n="4827">From this point forward there is nothing worth a penny</l>
                 <l n="4828">Either to eat or to drink, if you haven't brought it [with you]</l>
                 <l n="4829">Until you get to Le Mans or Nevers, that strong, established city."</l>
-                <l n="4830">Roger and the archbishop asked him why,</l>
+                <l n="4830">Roger and the archbishop asked him why:</l>
                 <l n="4831">"What is the reason for this?" And he explained it to them,</l>
                 <l n="4832">"[My] lords," said the host, "about a league from here</l>
                 <l n="4833">You'll find a [body of] water that is very calm and wide;</l>
@@ -5715,8 +5715,8 @@
                 <l n="4835">The lord who held it went away a long time ago,</l>
                 <l n="4836">[He was] the best knight ever born on earth.</l>
                 <l n="4837">But the one who sent him away is much blamed for it,</l>
-                <l n="4838">Because he thinks to have [the lord's] lady, and for this reason has sent for her.</l>
-                <l n="4839">But [this lord] is so courteous and valiant and wise,</l>
+                <l n="4838">Because he thinks to have the lady, and for this reason has sent for her.</l>
+                <l n="4839">But she is so courteous and valiant and wise,</l>
                 <l n="4840">That our emperor's intentions will be in vain."</l>
             </lg>
             <lg type="laisse" n="185">
@@ -5743,7 +5743,7 @@
                     Paris;</l>
                 <l n="4859">You appear in good faith, and I have faith in you."</l>
                 <l n="4860">"[My] lords," said Richard, "what is your pleasure--<note xml:id="trans4860"/></l>
-               <l n="4861">Go forward or go back?"</l>
+                <l n="4861">Go forward or go back?"</l>
                 <l n="4862">Both Roger and Saudin cried out their answers:</l>
                 <l n="4863">"We have no fear of any man alive on earth."</l>
             </lg>
@@ -5764,7 +5764,7 @@
                 <l n="4876">Everyone knows what's black or indeed violet or blue,</l>
                 <l n="4877">He who would accuse others would surely be very wrong.</l>
                 <l n="4878">He who accuses others gains no praise;</l>
-                <l n="4879">When we are armed to take up and enter a tourney,</l>
+                <l n="4879">When we are armed to take up and enter combat,</l>
                 <l n="4880">Then we will distinguish the day from the night.</l>
                 <l n="4881">[But] let's leave [it] for that day; let's drop [it] at once."</l>
             </lg>
@@ -6666,7 +6666,7 @@
                 <head>Laisse 219</head>
                 <l n="5661">"Yes, indeed," said Saudin, who was very wicked.</l>
                 <l n="5662">He came up to Ynide, holding tightly beneath his mantle</l>
-                <l n="5663">The [royal] crown, girdle and ring.</l>
+                <l n="5663">The [royal] crown, purse and ring.</l>
                 <l n="5664">With just Thomas and the lady and himself forming a little group,</l>
                 <l n="5665">He said "[My] lady, the king, Charles Martel,</l>
                 <l n="5666">Offers to you his body and his seal. </l>
@@ -6740,9 +6740,8 @@
                 <l n="5726">All of this is in order to violate my body,</l>
                 <l n="5727">And for this [reason] they have sent my lord far from me.</l>
                 <l n="5728">If this is the truth, now look at the proof!"</l>
-                <l n="5729">She took hold of the crown and the ring and the girdle,</l>
-                <l n="5730">[And] as everyone was watching, she hurled [them] down and broke
-                    [them],</l>
+                <l n="5729">She took hold of the crown and the ring and the purse,</l>
+                <l n="5730">[And] as everyone was watching, she hurled [them] down and destroyed [them],</l>
                 <l n="5731">Saying, "Oh, [my] noble people, don't be so covetous</l>
                 <l n="5732">That you would consent to the disgrace of the count or myself!"</l>
                 <l n="5733">She cried out aloud and said, "Oh, sweet Progenitrix,</l>
@@ -7048,7 +7047,7 @@
                 <l n="5990">Thus they finished the mission for their lady.</l>
                 <l n="5991">Ynide divided up the great treasure [the ambassadors had brought]</l>
                 <l n="5992">Between the poor people and her barons.</l>
-                <l n="5993">The diadem, the ring, the jeweled girdle</l>
+                <l n="5993">The diadem, the ring, the jeweled purse</l>
                 <l n="5994">She sent to a rich abbey</l>
                 <l n="5995">Belonging to the order of Saint Margery.<note xml:id="trans5995"/></l>
                 <l n="5996"><milestone n="41V" unit="fol."/><cb n="a"/>There was an abbess there who was elderly and
