@@ -158,7 +158,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 9 July 2021</change>
+            <change>Content last updated 14 July 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -5583,8 +5583,8 @@
                 <l n="4724">Very often those who believed her lose faith in her.</l>
                 <l n="4725">Often a lady is changeable, according to what I have read,</l>
                 <l n="4726">As a tree leaf turns when the wind strikes it.</l>
-                <l n="4727">But if I could do anything, she would never be in a situation</l>
-                <l n="4728">Where she would do something that would reflect badly on the count or myself.</l>
+                <l n="4727">But if I could do anything, I would prevent</l>
+                <l n="4728">Her from doing anything that would reflect badly on the count or myself.</l>
                 <l n="4729">You'll go to her as soon as it pleases you,</l>
                 <l n="4730">And bring her a hundred greetings from the queen."</l>
             </lg>
@@ -5765,8 +5765,8 @@
                 <l n="4877">He who would accuse others would surely be very wrong.</l>
                 <l n="4878">He who accuses others gains no praise;</l>
                 <l n="4879">When we are armed to take up and enter combat,</l>
-                <l n="4880">Then we will distinguish the day from the night.</l>
-                <l n="4881">[But] let's leave [it] for that day; let's drop [it] at once."</l>
+                <l n="4880">Then we will distinguish light from dark.</l>
+                <l n="4881">For now you should leave the matter for that day."</l>
             </lg>
             <lg type="laisse" n="187">
                 <head>Laisse 187</head>
@@ -5780,7 +5780,7 @@
                 <l n="4889">Nor has there ever been among them any lying or trickery,</l>
                 <l n="4890">And there won't be [any] among us if it pleases the Son of Mary.</l>
                 <l n="4891">Let it be according to your pleasure concerning going or staying,</l>
-                <l n="4892">And if you wish otherwise, don't stay for our sake."</l>
+                <l n="4892">And if you wish otherwise, it doesn't matter to us."</l>
                 <l n="4893">Then Henry, who was full of wickedness, spoke up;</l>
                 <l n="4894">He didn't say at all what he really wanted [to say]:</l>
                 <l n="4895">"Lord Roger," he said, "when a man chastises you,</l>
@@ -5794,11 +5794,11 @@
             <lg type="laisse" n="188">
                 <head>Laisse 188</head>
                 <l n="4901">"Roger," said Morant, "he is completely right</l>
-                <l n="4902">When he leaves you [the decision] to stay or go."</l>
+                <l n="4902">When he leaves up to you the yea and the nay."</l>
                 <l n="4903">"Indeed," said the archbishop, "and we recognize it."</l>
-                <l n="4904">"Indeed," said Saudin, "[if we return], we'll all return together."</l>
+                <l n="4904">"Indeed," said Saudin, "[if we leave], we'll all leave together."</l>
                 <l n="4905">The host called them: "Come now, gentlemen.</l>
-                <l n="4906">Load up, my friends, what's needed."</l>
+                <l n="4906">Load up, my friends, with what's needed."</l>
                 <l n="4907">And they did it right away, without any delay;</l>
                 <l n="4908">Bread and wine and foodstuffs, cooked meat and fish.</l>
                 <l n="4909">"[My] lords," said the host, "I and my son</l>
@@ -5820,15 +5820,14 @@
                 <l n="4922">They sheltered themselves as best they could that night.</l>
                 <l n="4923">As soon as day dawned, each one took to the road,</l>
                 <l n="4924">Looking this way and that all day long,</l>
-                <l n="4925">(For they saw no house or habitation anywhere there),</l>
-                <l n="4926">Saying to one another, "This is a great calamity.</l>
-                <l n="4927">In such a situation, in such a quandary, we'll shelter by the
-                    Flores,"</l>
-                <l n="4928">(Such was the name of that river).</l>
+                <l n="4925">For they saw no house or habitation anywhere there,</l>
+                <l n="4926">Saying to one another, "This is a great misfortune.""</l>
+                <l n="4927">In such a situation, in such a quandary, they camped on the banks of the Flores,</l>
+                <l n="4928">Such was the name of that river.</l>
                 <l n="4929">There they drank and ate from what they had brought with them,</l>
                 <l n="4930">They talked about this and that;</l>
                 <l n="4931">They traveled by day, once dawn brightened,</l>
-                <l n="4932">For a long time just as the poem says.</l>
+                <l n="4932">All along in the direction they found.<note xml:id="trans4932"/></l>
                 <l n="4933">As the sun descended, they arrived at the bridge.</l>
                 <l n="4934"><milestone n="34V" unit="fol."/><cb n="a"/>Saudin spoke first since he recognized
                     the porter:</l>
@@ -5853,12 +5852,12 @@
                 <l n="4950">And through his might alone the city had been conquered,</l>
                 <l n="4951">And the people baptized, and our faith adopted.</l>
                 <l n="4952">Then the people great and small wanted to proclaim him king,</l>
-                <l n="4953">That he take possession [of that land] of earthly splendor,</l>
-                <l n="4954">For out of love for [Huon] all of Syria would arise,</l>
+                <l n="4953">That he take possession of earthly glory,</l>
+                <l n="4954">For out of love for him all of Syria would subject itself to him,</l>
                 <l n="4955">And Greece and Turkey and Salonica and Valdrue,</l>
-                <l n="4956">Vermandois, Valisars, and Tarsia,<note xml:id="trans4956"/></l>
-                <l n="4957">Even the stout-limbed Olidans from Tartary, </l>
-                <l n="4958">Everyone would cross [the sea] to oppose the deceitful king.<note xml:id="trans4958"/></l>
+                <l n="4956">Vermidonois, Valisars, and Tarsia,<note xml:id="trans4956"/></l>
+                <l n="4957">Even the Olidans the Mighty of Tartary, </l>
+                <l n="4958">Everyone would trample the faithless king.<note xml:id="trans4958"/></l>
                 <l n="4959">"Either he will absolve you of the promise,</l>
                 <l n="4960">Or he will be destroyed and confounded,</l>
                 <l n="4961">And the crown of France will be rendered to you."</l>
@@ -5874,13 +5873,13 @@
                 <l n="4968">Most of them believe that he was lost at sea,</l>
                 <l n="4969">Because no further news was ever heard concerning him.</l>
                 <l n="4970">May God counsel him and those who are left behind."</l>
-                <l n="4971">"Alas," said the countess, "I have no more any desire to live,</l>
+                <l n="4971">"Alas," said the countess, "I no longer have any desire to live,</l>
                 <l n="4972"><cb n="b"/>When I have lost my hope and my
                     lord."</l>
                 <l n="4973">She wrung her hands and pulled out her hair;</l>
                 <l n="4974">"Oh, knighthood, what has happened to</l>
                 <l n="4975">Great generosity and perfect honor,</l>
-                <l n="4976">The arm of justice and the tree of virtue?</l>
+                <l n="4976">The arm of justice and the tree of virtue,<note xml:id="trans4976"/></l>
                 <l n="4977">The counselor of all counselors for the bereft betrayed,</l>
                 <l n="4978">Oh, Christianity, how [...]</l>
                 <l n="4979">Oh, wretched king, if only you had never been born!</l>
@@ -5910,9 +5909,9 @@
                 <l n="4999">That everyone throughout the city, great and small, wept.</l>
                 <l n="5000">At that moment here was Galudin, crying out fearfully</l>
                 <l n="5001">Breaking through the crowd without stopping.</l>
-                <l n="5002">When he saw Ynide, who had lost all her color,</l>
+                <l n="5002">When he saw Ynide, who had gone pale.</l>
                 <l n="5003">He greeted her properly [and] nobly for the love</l>
-                <l n="5004">Of the God of glory, the true Creator;</l>
+                <l n="5004">Of the God of glory, the true Creator:</l>
                 <l n="5005">"[My] lady," he said, "there are ambassadors</l>
                 <l n="5006">Whom the great emperor has sent to you.</l>
                 <l n="5007">What do you command? State your will,</l>
@@ -5920,7 +5919,7 @@
             </lg>
             <lg type="laisse" n="193">
                 <head>Laisse 193</head>
-                <l n="5009">"[My] lady," said Galudin, "what do you wish to command [me to do]?"</l>
+                <l n="5009">"[My] lady," said Galudin, "what is your command?"</l>
                 <l n="5010"><milestone n="35R" unit="fol."/><cb n="a"/>"Oh, alas," said Ynide, "just let me
                     be!</l>
                 <l n="5011">I'd rather die than endure any longer."</l>
@@ -5939,9 +5938,9 @@
                 <l n="5024">And may He totally confound villains and scoundrels!"</l>
                 <l n="5025">"Indeed," said Thomas, "and the evil advisors</l>
                 <l n="5026">Who inflict pain and suffering on others."</l>
-                <l n="5027">As these words were said, they rode to the square</l>
-                <l n="5028">To dismount, but then together with the knights</l>
-                <l n="5029">Climbed to the highest level.</l>
+                <l n="5027">As these words were said, they went to dismount</l>
+                <l n="5028">In the square; the knights went together</l>
+                <l n="5029">Up to the high hall.</l>
                 <l n="5030">Now you'll hear told and recounted</l>
                 <l n="5031">How one side argued with the other.</l>
                 <l n="5032">The very first one to speak was Roger,</l>
@@ -5960,17 +5959,17 @@
                 <l n="5042">May He grant complete joy to everyone, young and old,</l>
                 <l n="5043">And most of all to the great king [here] on earth;</l>
                 <l n="5044">And to you, noble lady, and to all your family.</l>
-                <l n="5045">The emperor, who possesses this world in torment,</l>
+                <l n="5045">The emperor, who possesses this tormented world,</l>
                 <l n="5046">Has sent us here and the reason is this:</l>
                 <l n="5047"><cb n="b"/>[It is] out of love for your lord, whom he loves more heartily</l>
-                <l n="5048">Than Calisor [loved] or [Arthur] king of Guineste loved,<note xml:id="trans5048"/></l>
-                <l n="5049">Or Achilles [loved] Patroclus of Floreste.</l>
+                <l n="5048">Than Calisor [did] or the king of Guineste,<note xml:id="trans5048"/></l>
+                <l n="5049">Or [than] Achilles [loved] Patroclus of Floreste.</l>
                 <l n="5050">It is indeed thus the evident truth,</l>
                 <l n="5051">Seeing that he has given you full authority over him</l>
                 <l n="5052">Solely to honor you, in the name of God the Heavenly King.</l>
                 <l n="5053">You will be together with his wife and his daughter,</l>
-                <l n="5054">With the most exalted company; I don't know what happens afterward.<note xml:id="trans5054"/></l>
-                 <l n="5055">This you will have, if it delights and pleases you,</l>
+                <l n="5054">I don't know how you could be with more exalted company</l>
+                <l n="5055">Than you will have, if it delights and pleases you,</l>
                 <l n="5056">Until the count comes back from this quest."</l>
                 <l n="5057">"I won't come," said the lady, "by [God's] highest majesty."</l>
             </lg>
@@ -5980,23 +5979,22 @@
                 <l n="5059">"Lady," he said, "the emperor of Paris</l>
                 <l n="5060">Has dispatched and sent us out of great love,</l>
                 <l n="5061">Only to honor both you and the marquis.</l>
-                <l n="5062">By rights he is obliged to do it, for [your lord] is his friend."</l>
-                <l n="5063">"[This last thing you said is] true," replied Ynide, "but [the first
-                    thing] is not at all.</l>
+                <l n="5062">By rights he is obliged to do it, for he is his friend."</l>
+                <l n="5063">"True," replied Ynide, "but not all of [what you are saying].</l>
                 <l n="5064">One [thing] is white, and indeed the other gray."</l>
                 <l n="5065">To this comment replied Henry,</l>
                 <l n="5066">The one from Aubespine, a cursed scoundrel,</l>
                 <l n="5067">And Teris uttered nothing else about it.</l>
                 <l n="5068">"Lady," said the scoundrel, "your lord's honor</l>
-                <l n="5069">And that of mine as well cannot be disappointed.</l>
-                <l n="5070">By doing this, one might think that you hated him."</l>
+                <l n="5069">And that of mine as well cannot be violated.</l>
+                <l n="5070">From this, one might think that you hated him."<note xml:id="trans5070"/></l>
                 <l n="5071">"Wretch," said the lady, "you're lying through your teeth,<note xml:id="trans5071"/></l>
                 <l n="5072">For I love my lord more than the eyes in my head.<note xml:id="trans5072"/></l>
-               <l n="5073">Whoever believed you would be foolish!</l>
+                <l n="5073">Whoever believed you would be foolish!</l>
                 <l n="5074">Go away, evil, vile man,</l>
                 <l n="5075">For no good ever comes from a base heart, </l>
                 <l n="5076">And if [something good] does come out, it immediately regrets [it].</l>
-                <l n="5077">We know well what your wishes are."</l>
+                <l n="5077">We know you well [and] what your wishes are."</l>
                 <l n="5078">He retreated, distressed and embarrassed.</l>
                 <l n="5079">The next to speak was Belencer the marquis,</l>
                 <l n="5080">He was wise and courtly, humble and well-bred;</l>
@@ -6028,10 +6026,10 @@
                 <l n="5099">Next Morant d'Hautefeuille spoke:</l>
                 <l n="5100">"Fair one," he said, "the king has the intention</l>
                 <l n="5101">To serve you as long as he lives.</l>
-                <l n="5102">He doesn't wish to separate you from the queen,</l>
-                <l n="5103">He wishes to honor you as much as her, together,</l>
-                <l n="5104">Because at the departure of your lord</l>
-                <l n="5105">Above all things he was begging this of [the king],</l>
+                <l n="5102">He doesn't wish to make a distinction between you and the queen,</l>
+                <l n="5103">[But] to honor you as much as her, together,</l>
+                <l n="5104">Because at departure your lord</l>
+                <l n="5105">Was begging this of [the king] above all things,</l>
                 <l n="5106">And my lord made a vow to him</l>
                 <l n="5107">To take care of you always as long as he lived.</l>
                 <l n="5108">Once you are in his household,</l>
@@ -6764,7 +6762,7 @@
                 <l n="5746">We are seven barons, the least among us is a count;</l>
                 <l n="5747">If we have done anything that could be perceived as evil,</l>
                 <l n="5748">--God help the lady and you--so have us hanged."</l>
-                <l n="5749">The archbishop, who didn't wish to remain there, spoke:</l>
+                <l n="5749">The archbishop, who didn't wish to hold back, spoke:</l>
                 <l n="5750">"There are those who appear to buy when they want to sell,</l>
                 <l n="5751">And those who think to ascend when they must descend."</l>
                 <l n="5752">"Indeed," said Henry, "and break all their limbs."</l>
