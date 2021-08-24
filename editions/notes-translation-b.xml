@@ -261,28 +261,33 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans5537.2" type="lit" resp="#SSB">5537] Literally: [...] badly satisfied. Alternative translation: [...] you make him appear ill</note>
                 <note target="#trans5560" type="lit" resp="#SSB">5560] Literally: [...] What is this that you have said?</note>
                 <note target="#trans5573" type="lit" resp="#SSB">5573] Literally: [...] by the eyes with which I see</note>
-                <note target="#trans5574" type="interp" resp="#SSB">5574] This has the cadence of a proverb or saying. (Cf. Hindley: venter=to deceive with fine talk)</note>
+                <note target="#trans5574.1" type="interp" resp="#SSB">5574] This has the cadence of a proverb or saying. Literally: [...] it is [just] wind that huffs and puffs</note>
+                <note target="#trans5574.2" type="lit" resp="#SSB">5574] This has the cadence of a proverb or saying. Literally: [...] it is [just] wind that huffs and puffs</note>
                 <note target="#trans5585" type="alttrans" resp="#SSB">5585] Alternative transcription based on <hi rend="italic">por mains</hi> and <hi rend="italic">cobré</hi> understood as coming from "combrer": Saudin and Roger took each other by the hand </note>
-                <note target="#trans5637" type="alttrans" resp="#SSB">5637] Alternative transcription: <hi rend="italic">Et el le baisse, mais ne l'a corompu</hi> would give an alternative translation: And she embraces him, but has not corrupted him</note>
+                <note target="#trans5602" type="lex" resp="#SSB">5602] Translation is based on understanding <hi rend="italic">aubré</hi> < "ovrer" and <hi rend="italic">raissé</hi> < "rasseoir"</note>
+                <note target="#trans5637" type="alttrans" resp="#SSB">5637] Alternative translation: And she [Generosity?] embraces him, but has not corrupted him</note>
                 <note target="#trans5646" type="lex" resp="#SSB"> 5646] The word <hi rend="italic">caume</hi> means "psalm," but the relevant line sounds more like a proverb.</note>
                 <note target="#trans5660" type="refer" resp="#SSB">5660] Psalm 40.11: <q rend="bold" xml:lang="la">Tu autem Domine miserere mei et resuscita me et retribuam eis</q> (But thou, O Lord, have mercy on me, and raise me up again: and I will requite them). Or it could be: <q rend="bold" xml:lang="la">Tu autem Domine miserere nobis</q> (But Thou, O Lord, have mercy upon us), a phrase said at the end of biblical readings in the liturgy of the medieval church.</note>
+                <note target="#trans5666" type="lex" resp="#SSB"> 5666]<hi rend="italic">cors</hi> could mean "heart" or "body," so there may be a double entendre in play here. </note>
                 <note target="#trans5669" type="lit" resp="#SSB">5669] Literally: [...] I am not such a youth</note>
                 <note target="#trans5677" type="lit" resp="#SSB">5677] Literally: Everyone stayed bent over under his hat</note>
-                <note target="#trans5679" type="interp" resp="#SSB">5679] The implication is that the crown, the girdle and the ring are authentic items belonging to the queen, not newly fabricated. See line 5663 as well as the following laisse, Laisse 220.</note>
-                <note target="#trans5681" type="lit" resp="#SSB">5681] Literally: This is the heart enclosed under such cloth (Saudin has the treasures, which represent the irresistible passion the king has for Ynide, hidden under his mantle; see lines 5662-63)</note>
+                <note target="#trans5681" type="lit" resp="#SSB">5681] Literally: This is the heart enclosed under such cloth (The meaning is unclear, either referring to the king's heart covered by his royal robes, or to Saudin having the treasures, which represent the irresistible passion of the king for Ynide, hidden under his mantle; see lines 5662-63)</note>
                 <note target="#trans5697" type="refer" resp="#SSB">5697] Cf. T 5472: Ora l'alta sezia desopra, la raina sederite (could this be a reference to the high position on the Wheel of Fortune?)</note>
-                <note target="#trans5724" type="interp" resp="#SSB">5724] "The one who is praised" seems to be a reference to Huon.</note>
+                <note target="#trans5724" type="interp" resp="#SSB">5724] "The one who is prized" seems to be a reference to Huon.</note>
                 <note target="#trans5739" type="lit" resp="#SSB">5739] Literally: [...] only in order to cut and split</note>
-                <note target="#trans5755" type="interp" resp="#SSB">5755] Brief account of the relationship between Crassus and Sulla available at https://www.thoughtco.com/marcus-licinius-crassus-112456, accessed on 8-25-2018.</note>
+                <note target="#trans5755" type="interp" resp="#SSB">5755] Plutarch, <hi rend="italic">Crassus</hi> 6. The identity of <hi rend="italic">Sulliendre</hi> seems to be Sulla, the Roman dictator, who worked with Crassus, the Roman general, member of the Triumvirate with Julius Caesar and Pompey (PEB).  A brief account of the relationship between Crassus and Sulla available at https://www.thoughtco.com/marcus-licinius-crassus-112456, accessed on 8-25-2018.</note>
                 <note target="#trans5762" type="lit" resp="#SSB">5762] Literally: Once before my heart told you [...]</note>
-                <note target="#trans5772" type="interp" resp="#SSB">5772] This appears to be an ironic comment, since God obviously judged him harshly as Baudoin believes Saudin will be judged.</note>
-                <note target="#trans5786" type="refer" resp="#SSB">5786] Matthew 6.24: No man can serve two masters.</note>
-                <note target="#trans5802" type="interp" resp="#SSB">5802] Clear reference to the legend of the lance of Longinus.</note>
+                <note target="#trans5772" type="interp" resp="#SSB">5772] This appears to be an ironic comment, since God obviously judged him harshly which is how Baudoin believes Saudin will be judged. Perhaps there was a sarcastic use in circulation of the expression "faire grace" to indicate "getting what one deserved.""</note>
+                <note target="#trans5786" type="refer" resp="#SSB">5786] Cf. Matthew 6.24: No man can serve two masters.</note>
+                <note target="#trans5802" type="lit" resp="#SSB">5802] Literally: Forgave te one for the devilry/ That he gave Him in His body with a lance.</note>
+                <note target="#trans5807" type="interp" resp="#SSB">5807] Note that in lines 5815-17 below, Ynide decides that the partial punishment of beating and running the ambassadors out or town will replace a death sentence, thus showing some mercy.</note>
                 <note target="#trans5812" type="refer" resp="#SSB">5812] Quote from <hi rend="italic">Catonis distichorum</hi> 30: Quae culpare soles, ea tu ne feceris ipse, Turpe est doctori, cum culpa redarguit ipsum. [Those things you are accustomed to blame do not do yourself; It is bad for a wise man when his own guilt comes back (to haunt him)]. Text and translation provided by Jim Marchand at: http://faculty.georgetown.edu/jod/texts/distich.html.</note>
                 <note target="#trans5813" type="lex" resp="#SSB">5813] Translation based on understanding <hi rend="italic">invieor</hi> as deriving from either "envier," "enviier" or "enuier." Their semantic fields overlap.</note>
+                <note target="#trans5848" type="lit" resp="#SSB">5848] Literally: [...] who have descended from our families</note>
                 <note target="#trans5858" type="lit" resp="#SSB">5858] Literally: "Just like those who thought to swallow an unknown death"</note>
                 <note target="#trans5866" type="lit" resp="#SSB">5866] Literally: "[..]. as long as blood remains to them."</note>
-                <note target="#trans5867" type="interp" resp="#SSB">5867] This seems to be metaphorical to imply that they are alike in their perfidy, something like saying that they are "birds of a feather."</note>
+                <note target="#trans5867.1" type="interp" resp="#SSB">5867] Literally: [...] who are descended from the same family. However, this seems to be metaphorical to imply that they are alike in their perfidy, similar to "birds of a feather," despite some family links between certain of the ambassadors. Cf. line 4705.</note>
+                <note target="#trans5867.2" type="lit" resp="#SSB">5867] Literally: [...] who are descended from the same family. However, this seems to be metaphorical to imply that they are alike in their perfidy, similar to "birds of a feather," despite some family links between certain of the ambassadors. Cf. line 4705.</note>
                 <note target="#trans5905" type="lit" resp="#SSB">5905] Literally: For the armed troops there weren't worth a lily</note>
                 <note target="#trans5911" type="lit" resp="#SSB">5911] Literally: [...] she showed [her] eyes and face</note>
                 <note target="#trans5920" type="lit" resp="#SSB">5920] Literally: They assembled the ambassadors among themselves</note>
@@ -290,25 +295,37 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans5938" type="alttrans" resp="#SSB">5938] Could <hi rend="italic">noriç</hi> be <hi rend="italic">n'oriç</hi>? In OI "ne" could be the first person plural object pronoun. If so, an alternative translation would be: [...] Oh, worthy folk, noble people, listen to me!</note>
                 <note target="#trans5970" type="lit" resp="#SSB">5970] Literally: So bloody that they neither ate nor drank</note>
                 <note target="#trans5979" type="lit" resp="#SSB">5979] Literally: At the ancient Prime [hour]</note>
-                <note target="#trans5982" type="refer" resp="#SSB">5982] This seems to be an echo of the creation story in Genesis.</note>
-                <note target="#trans5995" type="interp" resp="#SSB">5995] Margery is a variant of Margaret. However, with the confusion between between "r" and "l" could the reference be to Saint Marcelline/a?</note>
+                <note target="#trans5982" type="refer" resp="#SSB">5982] This seems to be an echo of the creation story in Genesis. However, this apparent Latin quote doesn't appear in the relevant passage of the Vulgate Bible. See relevant note to this line in the transcription.</note>
+                <note target="#trans5995" type="interp" resp="#SSB">5995] Margery is a variant of Margaret. However, with the confusion between "r" and "l" in the manuscript, could the reference be to Saint Marcelline/a? See relevant note to this line in the transcription.</note>
                 <note target="#trans6040" type="lit" resp="#SSB">6040] Literally: Each one of them threw himself down [...]</note>
                 <note target="#trans6056" type="interp" resp="#SSB">6056] The choice here of <hi rend="italic">torment</hi> for the weather event instead of "tempeste" suggests the actual torment they feel during the tempest.</note>
                 <note target="#trans6088" type="refer" resp="#SSB">6088] Cf. T 5823: <hi rend="italic">anze che</hi> nesun de my mal ne diga</note>
                 <note target="#trans6098" type="lit" resp="#SSB">6098] Literally: [...] you have truly seized my heart</note>
                 <note target="#trans6099" type="refer" resp="#SSB">6099] Cf. T 5794: <hi rend="italic">quando andare</hi> vuy y[n]tendo y[n] crudele paiesse</note>
                 <note target="#trans6101" type="lit" resp="#SSB">6101] Literally: [...] the writings tell it</note>
-                <note target="#trans6115" type="alttrans" resp="#SSB">6115] This could also be translated as: That He watch over both of you, that you not be killed</note>
+                <note target="#trans6105" type="alttrans" resp="#SSB">6105] Alternative translation: Once you have passed this high mountain in one piece [based on <hi rend="italic">entre</hi> from Latin INTEGRUM (T-L entre adj, col. 624, cf. <hi rend="italic">entier</hi>)]</note>
+                <note target="#trans6115" type="alttrans" resp="#SSB">6115] Alternative translation: That They keep both of you from being killed ("both of you" refers to Huon and his horse)</note>
+                <note target="#trans6126" type="alttrans" resp="#SSB">6126] Alternative translation: If you didn't believe that you would be wronging God (based on <hi rend="italic">Si non quidasse</hi>)</note>
+                <note target="#trans6144" type="lit" resp="#SSB">6144] Literally: Hope in Whom led him forward</note>
+                <note target="#trans6161" type="lit" resp="#SSB">6161] Literally: He could have had good, and he went seeking bad</note>
+                <note target="#trans6178" type="lit" resp="#SSB">6178] Literally: </note>
                 <note target="#trans6188" type="lit" resp="#SSB">6188] Literally: [...] truly one will be able to tell</note>
-                <note target="#trans6213" type="interp" resp="#SSB">6213] Reference to setting up Samson as Christian rule of Cappadocia. Cf. Laisses 152-154.</note>
+                <note target="#trans6213" type="interp" resp="#SSB">6213] Reference to setting up Samson as Christian rule of Cappadocia. Cf. Laisses 152-154. This is an interesting use of <hi rend="italic">vasal</hi>, probably chosen since it fit the rhyme of the laisse.</note>
+                <note target="#trans6228" type="refer" resp="#SSB">6228] This would seem to refer to a Hell similar to that of Dante's <hi rend="italic">Inferno</hi>, where Lucifer is encased in ice. However, when Huon arrives before Lucifer, such is not the case.</note>
+                <note target="#trans6248" type="lex" resp="#SSB">6248] <hi rend="italic">roé</hi> could also mean "round"; however, the illustrator pictures a kind of dappling on the white horse. (PEB) </note>
                 <note target="#trans6271" type="refer" resp="#SSB">6271] Reference to Lazarus. Cf. John 11.1-44.</note>
                 <note target="#trans6296" type="interp" resp="#SSB">6296] Something is missing including the word in the rhyme position, but it seems clear that the count is trying to scout out from a high vantage point where he is.</note>
+                <note target="#trans6297" type="lex" resp="#SSB">6297] One is tempted to translate <hi rend="italic">fiere</hi> as "highest" since Huon is climbing in order to find a good vantage point to see where he is, but there doesn't seem to be any other use of this word with that meaning.</note>
                 <note target="#trans6301" type="refer" resp="#SSB">6301] Cf. T 5992: Alora vorave avere creduto <hi rend="italic">a Tadeus lo fero</hi></note>
+                <note target="#trans6304" type="interp" resp="#SSB">6304] See relevant note in transcription concerning Agolant. Non-Christian opponents were often referred to as demons and devils.</note>
                 <note target="#trans6349" type="lit" resp="#SSB">6349] Literally: [...] began to want [him]</note>
                 <note target="#trans6350" type="lit" resp="#SSB">6350] Literally: [...] and had no desire to laugh</note>
+                <note target="#trans6371" type="alttrans" resp="#SSB">6371] Alternative translation: He shouted at [the beasts] [...] (Huon could be calling to his horse to move him out of danger or yelling at the wild beasts to fend them off while he moves his horse out of danger.)</note>
+                <note target="#trans6380" type="lex" resp="#SSB">6380] <hi rend="italic">brasche</hi> (from "branche") translates as "patte" or "griffe" in Matsamura. The spelling in Huon is apparently unique but appears three times. Cf. lines 2920 and 3264 where it refers to the lion's paws.</note>
                 <note target="#trans6387" type="refer" resp="#SSB">6387] This is adapted from Psalm 51.7: <q rend="bold" xml:lang="la">Domine labia mea aperies; et os meum annunciabit laudem Tuam</q> (Lord, you open my lips; and my mouth proclaims your praise).</note>
                 <note target="#trans6398" type="lit" resp="#SSB">6398] Literally: [...] devoting himself to the path</note>
                 <note target="#trans6408" type="interp" resp="#SSB">6408] This line is problematic. Either the prefix of the verb or the noun at the end of the line is wrong. Cf. T 6099: <hi rend="italic">quando ch</hi>'el [con]sente a soa speranza bona. The translation follows Stengel's emendation.</note>
+                <note target="#trans6428" type="lit" resp="#SSB">6428] Literally: I have seen marvel upon the other marvels</note>
                 <note target="#trans6431" type="lex" resp="#SSB">6431] The term <hi rend="italic">orquenois</hi> means a certain type of horse from the Orkneys.</note>
                 <note target="#trans6436" type="lit" resp="#SSB">6436] Literally: [...] while winking with their eyes</note>
                 <note target="#trans6460" type="lit" resp="#SSB">6460] Literally: It is to me great tenderness in the heart from seeing you</note>
