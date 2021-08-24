@@ -171,7 +171,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Last updated 14 July 2021</change>
+      <change>Last updated 04 August 2021</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -7411,7 +7411,7 @@
         <l n="5170">Que e<ex rend="italic">st</ex> la çaisons? Le po<ex rend="italic">r</ex>tés vos
           aïne?"</l>
         <l n="5171">La dame respo<ex rend="italic">n</ex>t, a le color rosine:</l>
-        <l n="5172">"Uger," fit ille,"forma<ex rend="italic">n</ex>s m'avés la strine<note
+        <l n="5172">"Uger," fit ille,"forma<ex rend="italic">n</ex>s mavés la strine<note
             xml:id="b5172"/></l>
         <l n="5173">Qua<ex rend="italic">n</ex>t vos me requerés le secrois de ma aiti<ex
             rend="italic">n</ex>e.</l>
@@ -7611,7 +7611,7 @@
           >n</ex>trés,</l>
         <l n="5294">E mai<ex rend="italic">n</ex>tes te<ex rend="italic">r</ex>res <ex rend="italic"
             >et</ex> ars et exillés."</l>
-        <l n="5295">"Sir," dit Thomais, "por moy n'armai<ex rend="italic">n</ex>rés</l>
+          <l n="5295">"Sir," dit Thomais, "por moy n'armai<ex rend="italic">n</ex>rés<note xml:id="b5295"/></l>
         <l n="5296">De fer tot ce qe mon signor plaërés."</l>
       </lg>
       <lg type="laisse" n="205">
@@ -7630,7 +7630,7 @@
         <l n="5306">Thomais respo<ex rend="italic">n</ex>t, "Por le co<ex rend="italic">r</ex>s
             sai<ex rend="italic">n</ex>t Abran,</l>
         <l n="5307">Ne armaroit po<ex rend="italic">r</ex> moy de co<ex rend="italic">m</ex>plir ses
-          talan."</l>
+            talan."<note xml:id="b5307"/></l>
         <l n="5308">"Sir," dit Saudi<ex rend="italic">n</ex>s, "vos pa<ex rend="italic">r</ex>leç
           saçeman."</l>
         <l n="5309">E Ruçer e Baldoins ont parllé e<ex rend="italic">n</ex>samblema<ex rend="italic"
@@ -7643,7 +7643,7 @@
         <l n="5314">E pues trero<ex rend="italic">n</ex>s a fins ces parleman."</l>
         <l n="5315">La baronie respo<ex rend="italic">n</ex>t, "A le v<ex rend="italic">est</ex>re
           coman."</l>
-        <l n="5316"><milestone n="37R" unit="fol."/><cb n="a"/>L'une part s'an veit, e l'autre arman;</l>
+          <l n="5316"><milestone n="37R" unit="fol."/><cb n="a"/>L'une part s'an veit, e l'autre arman;<note xml:id="b5316"/></l>
         <l n="5317">Les ambaseors qi oit po<ex rend="italic">r</ex>té g<ex rend="italic">ra</ex>nt
           afan</l>
         <l n="5318">A coucer sunt alés a le palés autan.</l>
@@ -7710,13 +7710,13 @@
         <l n="5358">Haÿ, orible mo<ex rend="italic">r</ex>s, a qe baës, a qe ais atendue?</l>
         <l n="5359">Qar vien a moy, car lons te<ex rend="italic">m</ex>ps t'ay querue!</l>
         <l n="5360">Haÿ, rois de Franse, o ais amors metue?</l>
-          <l n="5361">Se si cum m'oÿ m'avés coneüe</l>
+          <l n="5361">Se si cum moy, m'avés coneüe</l>
         <l n="5362">Mais no<ex rend="italic">n</ex> serés en tiel queste metue,</l>
         <l n="5363">Ava<ex rend="italic">n</ex>t moy lairoge le cue<ex rend="italic">r</ex>s avo<ex
             rend="angle">ir</ex> fendue,<note xml:id="b5363"/></l>
         <l n="5364">E l'arme de moy del tout avoir p<ex rend="italic">er</ex>due,</l>
         <l n="5365">Que mais feïst ço<ex rend="italic">n</ex>se qe toy eüst plaüe,</l>
-        <l n="5366">E in part qe mon sir n'aüst blaume creüe."</l>
+        <l n="5366">Em part qe mon sir n'aüst blaume creüe."</l>
         <l n="5367">E lors Tobie si l'oit recherue.</l>
       </lg>
       <lg type="laisse" n="208">
@@ -7797,7 +7797,7 @@
         <l n="5417">Merci vos quier, por Diex le Criator,</l>
         <l n="5418">Que aieç piteç de ceste peceor!</l>
         <l n="5419">Ostés moy, pere, de paine <ex rend="italic">et</ex> de langor;</l>
-        <l n="5420">Avech vos, pere, moy menés des or.</l>
+          <l n="5420">Avech vos, pere, moy menés des or.<note xml:id="b5420"/></l>
         <l n="5421">Ne voil plus ester a ces mo<ex rend="italic">n</ex>t traïtor,</l>
         <l n="5422">Pues q'ay p<ex rend="italic">er</ex>dus mo<ex rend="italic">n</ex> droiturel
           signor."</l>
@@ -7840,7 +7840,7 @@
             rend="italic">n</ex>e·</l>
         <l n="5449">Ynide se jenoille cu<ex rend="italic">m</ex> pieutuse vaine.</l>
         <l n="5450">Dit, "Aÿ, verais Sir, le cui tot bien domai<ex rend="italic">n</ex>e</l>
-        <l n="5451">Si voir, cum çe le croy, e tu le sais po<ex rend="italic">r</ex> c<ex
+        <l n="5451">Si voir cum çe le croy, e tu le sais po<ex rend="italic">r</ex> c<ex
             rend="italic">er</ex>taine,</l>
         <l n="5452">Que fustes Diex e hom a e<ex rend="italic">n</ex>glotir mo<ex rend="italic"
             >r</ex>t estraine</l>
@@ -7912,8 +7912,8 @@
         <l n="5494">L'arcivesqe de Maance oit p<ex rend="italic">ri</ex>mera<ex rend="italic"
           >n</ex>s parleç:</l>
         <l n="5495">"Segnor," fit il, "je vos pri qe la sale vuidez."</l>
-        <l n="5496">E celor le fist, tantost qe nus n'i arema<ex rend="italic">n</ex>reç</l>
-        <l n="5497">Afors cestor qe devant voi conteç;</l>
+          <l n="5496">E celor le fist, tantost qe nus n'i arema<ex rend="italic">n</ex>reç<note xml:id="b5496"/></l>
+          <l n="5497">Afors cestor qe devant voi conteç;<note xml:id="b5497"/></l>
         <l n="5498">Deva<ex rend="italic">n</ex>t Ynide ert ensamble aresteç.</l>
         <l n="5499">L'arcivesq<ex rend="italic">ue</ex> comançe, cu<ex rend="italic">m</ex> vos oïr
           porez:</l>
@@ -7957,7 +7957,7 @@
           "s'il e<ex rend="italic">r</ex>t v<ex rend="italic">est</ex>re plaisir,</l>
         <l n="5523">Ces parlema<ex rend="italic">n</ex>s em breu avrais fenir."</l>
         <l n="5524">E çascun respo<ex rend="italic">n</ex>t, "Soie sans pl<ex rend="italic">us</ex>
-          armanir."</l>
+            armanir."<note xml:id="b5524"/></l>
         <l n="5525">"Ou tré vos arere, baro<ex rend="italic">n</ex>s, e lasés moy a lei dir</l>
         <l n="5526">Çonse q'elle ne seit, me li stoit descovrir.</l>
         <l n="5527">Fors la dame e Tomais <ex rend="italic">et</ex> moy, ne voil qe·l deça oïr."</l>
@@ -8023,7 +8023,7 @@
         <l n="5571">"Saudi<ex rend="italic">n</ex>s," ce dit Tomais, "e ce come estre porois?</l>
         <l n="5572">Se plus c<ex rend="italic">er</ex>taine cosse ne m'en motrerois,</l>
         <l n="5573">Ne·lle poroie croire, po<ex rend="italic">r</ex> les oil don ge vois."</l>
-        <l n="5574">"Voir," dit Ynide, "il e<ex rend="italic">n</ex> vent qe bufois."</l>
+        <l n="5574">"Voir," dit Ynide, "il e<ex rend="italic">st</ex> vent qe bufois."</l>
         <l n="5575">"Dame," ce dit Saudi<ex rend="italic">n</ex>s, "le voi<ex rend="italic">r</ex>
           motreray demanois."</l>
         <l n="5576">A ses cupai<ex rend="italic">n</ex>gn il s'en vie<ex rend="italic">n</ex>t tot
@@ -8266,8 +8266,8 @@
             rend="angle">r</ex>endre,<note xml:id="b5747"/></l>
         <l n="5748">Diex hait la dame e vos se no<ex rend="italic">s</ex> fetes apendre."</l>
         <l n="5749">L'arcivesqe parolle, qe pl<ex rend="italic">us</ex> no<ex rend="italic">n</ex>
-          veut armendre:</l>
-        <l n="5750">"Tiel motre d'açater q'oit talant de vendre,</l>
+            veut armendre:<note xml:id="b5749"/></l>
+          <l n="5750">"Tiel motre d'açater q'oit talant de vendre,<note xml:id="b5750"/></l>
         <l n="5751">E tiel cuide monter qe li stuit descendre."</l>
         <l n="5752">"Voire," dist Henri, "e briser tretot li me<ex rend="italic">m</ex>bre."</l>
         <l n="5753">"E ploier," dist Ruçer, "qua<ex rend="italic">n</ex>t cuide destendre."</l>
