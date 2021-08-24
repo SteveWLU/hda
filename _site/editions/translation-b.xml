@@ -158,7 +158,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 30 July 2021</change>
+            <change>Content last updated 18 August 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -6539,7 +6539,7 @@
                 <l n="5551">He said: "Oh, [my] lady," with a pitiful voice,</l>
                 <l n="5552">"Oh, Ynide, oh, fair one, so what will become of the king?</l>
                 <l n="5553">Must he die in such complete distress?</l>
-                <l n="5554">[My] God! Think, [my] lady, if it is [to be] renown and praise for you </l>
+                <l n="5554">Oh, think, [my] lady, if it is [to be] renown and praise for you </l>
                 <l n="5555">Or indeed blame and talk and isolation?"</l>
                 <l n="5556">The lady replied, "I have already told you many times,</l>
                 <l n="5557">Lord Saudin, if you remember,</l>
@@ -6548,21 +6548,20 @@
                 <l n="5560">"[My] lady," said Saudin, "What are you talking about?<note xml:id="trans5560"/></l>
                 <l n="5561">Don't you know that no man has any power over love?</l>
                 <l n="5562">I'll tell you something, don't consider it a joke:</l>
-                <l n="5563">I'm not dropping [this] at all because of Thomas, who is loyal and
-                    true,</l>
-                <l n="5564">[And] to whom I give earthly honor. On you lies the weight</l>
-                <l n="5565">Of the peace and repose of Christendom.</l>
-                <l n="5566">And you could thus ruin it all, [my] lady, if you pleased."</l>
+                <l n="5563">I'm not going to stop [speaking] at all on account of Thomas, who is loyal and true,</l>
+                <l n="5564">To whom I give earthly honor. On you lies the burden [of responsibility]</l>
+                <l n="5565">For the peace and repose of Christendom.</l>
+                <l n="5566">And you could thus ruin it all, [my] lady, if it so pleased you."</l>
                 <l n="5567">"How is that possible?" said Ynide, "You'll have to explain that to
                     me."</l>
-                <l n="5568">"[My] lady," said Saudin, "the Roman emperor</l>
-                <l n="5569">Has been so trapped and enclosed in your snare</l>
+                <l n="5568">"[My] lady," said Saudin, "you have the Roman emperor</l>
+                <l n="5569">So trapped and enclosed in your snare</l>
                 <l n="5570">That he wouldn't dare do anything but what pleased you."</l>
                 <l n="5571">"Saudin," said Thomas, "how could this be?</l>
                 <l n="5572">If you can't show me something more certain,</l>
                 <l n="5573">I won't be able to believe it, by the eyes in my head."<note xml:id="trans5573"/></l>
-                 <l n="5574">"Indeed," said Ynide, "he who puffs deceives with fine talk."<note xml:id="trans5574"/></l>
-                 <l n="5575">"[My] lady," said Saudin, "I'll indeed show you right away."</l>
+                <l n="5574">"Indeed," said Ynide, "this is all hot air."<note xml:id="trans5574"/></l>
+                <l n="5575">"[My] lady," said Saudin, "I'll show you the truth right away."</l>
                 <l n="5576">He went straight back to his companions.</l>
             </lg>
             <lg type="laisse" n="216">
@@ -6592,7 +6591,7 @@
                 <l n="5599">One is wealth, which everyone desires;</l>
                 <l n="5600">The other is love, which has tormented the world.</l>
                 <l n="5601">On these two [things], which have been thoroughly sought,</l>
-                <l n="5602">Evil is entirely based and created.</l>
+                <l n="5602">Evil is entirely based and created.<note xml:id="trans5602"/></l>
                 <l n="5603">Now I will speak about Saudin, who desired more than anything</l>
                 <l n="5604">To accomplish the wish of his lord,</l>
                 <l n="5605">And to betray and trick the countess.</l>
@@ -6600,38 +6599,37 @@
             </lg>
             <lg type="laisse" n="217">
                 <head>Laisse 217</head>
-                <l n="5607">Before he had eaten or drunk,</l>
+                <l n="5607">Before food or drink were served,</l>
                 <l n="5608">Saudin went to the palace.</l>
                 <l n="5609">He had the great treasure brought with him;</l>
                 <l n="5610">You'll soon hear about this wicked traitor!</l>
                 <l n="5611">He had all the barons come with him;</l>
-                <l n="5612">Seeing Ynide, he spoke thus:</l>
+                <l n="5612">With Ynide watching, he spoke thus:</l>
                 <l n="5613">"[My] lords," he said, "a noble heart</l>
-                <l n="5614">Cannot fail to feel pity. </l>
-                <l n="5615">And whenever [the heart] is lacking [it], it is often wrong. </l>
-                <l n="5616">In what way can one who has suffered</l>
-                <l n="5617">Pain and torment obtain it?</l>
-                <l n="5618">And if he can't obtain it completely,</l>
-                <l n="5619">He doesn't stop asking himself how someone else,</l>
-                <l n="5620">Either relatives or friends, might have pity for him.</l>
-                <l n="5621">And he must certainly acknowledge those others [from whom he expects
-                    pity],</l>
-                <l n="5622"><milestone n="39R" unit="fol."/><cb n="a"/>For power, courtesy and virtue rule in them.</l>
+                <l n="5614">Cannot fail to feel mercy. </l>
+                <l n="5615">And when [the beloved's heart] fails him, he often ponders </l>
+                <l n="5616">In what way one who has suffered</l>
+                <l n="5617">Pain and torment may earn it.</l>
+                <l n="5618">And if he can't earn it all by himself,</l>
+                <l n="5619">He often considers how someone else might obtain [it],</l>
+                <l n="5620">Either a relative or friend on whom she might rely.</l>
+                <l n="5621">And and the other hand, he must certainly recognize</l>
+                <l n="5622"><milestone n="39R" unit="fol."/><cb n="a"/>That in them reign power, courtesy and virtue.</l>
                 <l n="5623">You'll understand why I tell you this:</l>
                 <l n="5624">I've been acting on behalf of the emperor,</l>
-                <l n="5625">So without blame I'm explaining that he might have caused offense</l>
-                <l n="5626">And told exactly how the matter stood:</l>
-                <l n="5627">Whether false or not, it simply happened,</l>
-                <l n="5628">But yet our lord has so much good in him,</l>
-                <l n="5629">He wishes to deserve you however he can.</l>
+                <l n="5625">For I'm explaining that he might have caused offense without fault."</l>
+                <l n="5626">And he went on recounting exactly how the matter stood:</l>
+                <l n="5627">Whether in error or not, nevertheless it happened.</l>
+                <l n="5628">"But yet our lord has so much good in him,</l>
+                <l n="5629">He wishes to reward you all however he can.</l>
                 <l n="5630">He has sent you all this wealth,</l>
-                <l n="5631">For it to be given and shared out among you.</l>
-                <l n="5632">And once it is all delivered and spent,</l>
-                <l n="5633">You'll have more, however much you please</l>
-                <l n="5634">For he is cut off and separated from Avarice;</l>
+                <l n="5631">For it to be given and shared out among you;</l>
+                <l n="5632">And once you have distributed and spent it,</l>
+                <l n="5633">You'll have more, however much you please,</l>
+                <l n="5634">For he has given up and separated from Avarice;</l>
                 <l n="5635">He doesn't like her and she doesn't like him;</l>
-                <l n="5636">He has always held Courtesy and Generosity arm in arm,</l>
-                <l n="5637">And [Avarice] is humbled, she has never corrupted him."<note xml:id="trans5637"/></l>
+                <l n="5636">He has always held Courtesy and Generosity close,</l>
+                <l n="5637">And he kisses them without corrupting them."<note xml:id="trans5637"/></l>
                 </lg>
             <lg type="laisse" n="218">
                 <head>Laisse 218</head>
@@ -6639,22 +6637,22 @@
                     face,</l>
                 <l n="5639">For he had explained the emperor's case well.</l>
                 <l n="5640">There was no man of high estate there in that hall </l>
-                <l n="5641">Who didn't say quietly to his neighbor:</l>
+                <l n="5641">Who didn't say quietly and furtively to his neighbor:</l>
                 <l n="5642">"Saudin spoke well, and who would contradict him?</l>
                 <l n="5643">He must be very wise, by the body of Saint Hilaire!"</l>
                 <l n="5644">At this point Saudin lit up with joy,</l>
                 <l n="5645">Just like one who believes that he's accomplishing his task.</l>
-                <l n="5646">But the ancient scholars have a proverb that says,<note xml:id="trans5646"/></l>
+                <l n="5646">But the ancient scholars have a proverb that says:<note xml:id="trans5646"/></l>
                 <l n="5647">"He who doesn't find anyone to contradict him rules all."</l>
                 <l n="5648">Ynide saw their people all standing there completely silent;</l>
-                <l n="5649">No one at all moved forward to seize the treasure.</l>
+                <l n="5649">No one there came forth to seize the treasure.</l>
                 <l n="5650">"Oh," said the lady, "may the true and supreme Father</l>
                 <l n="5651">Protect me from this powerful Caesar!</l>
                 <l n="5652">This son of the Devil thinks to trick me;</l>
                 <l n="5653">Oh, Mother of God, do not allow him to do so!"</l>
                 <l n="5654">Then, speaking aloud, weeping bitter tears:</l>
                 <l n="5655">"Barons," she said, "what are you contemplating?</l>
-                <l n="5656">Are you sleeping? What are you thinking?"</l>
+                <l n="5656">Are you asleep? Why are you slumbering?"</l>
                 <l n="5657">Berart replied, hardly delaying an instant:</l>
                 <l n="5658">"Saudin," he said, "have you anything else to show us,</l>
                 <l n="5659">Any other offers to put forth or give?</l>
@@ -6664,27 +6662,26 @@
                 <head>Laisse 219</head>
                 <l n="5661">"Yes, indeed," said Saudin, who was very wicked.</l>
                 <l n="5662">He came up to Ynide, holding tightly beneath his mantle</l>
-                <l n="5663">The [royal] crown, purse and ring.</l>
+                <l n="5663">The crown, the purse and the ring.</l>
                 <l n="5664">With just Thomas and the lady and himself forming a little group,</l>
                 <l n="5665">He said "[My] lady, the king, Charles Martel,</l>
-                <l n="5666">Offers to you his body and his seal. </l>
-                <l n="5667">Never in our time has there been a richer or more beautiful
-                    treasure."</l>
+                <l n="5666">Offers you himself and his seal.<note xml:id="trans5666"/> </l>
+                <l n="5667">Never in our time has there been a richer or more beautiful treasure."</l>
                 <l n="5668">He raised [his] mantle and appealed to Thomas:</l>
-                <l n="5669">"Look, [my] lord, I'm certainly not some stooge<note xml:id="trans5669"/></l>
-                <l n="5670">Just because she isn't accustomed to one speaking so directly.</l>
-                <l n="5671">Now take [this], [my] lady, don't resist him any longer.</l>
+                <l n="5669">"Look, [my] lord, I'm certainly not some stooge,"<note xml:id="trans5669"/></l>
+                <l n="5670">[He said] only so that [Thomas] wouldn't know why he spoke so quickly.</l>
+                <l n="5671">"Now take [this], [my] lady, don't resist him any longer.</l>
                 <l n="5672">There has never been such a gift since the time of Israel,</l>
                 <l n="5673">The jewels, rubies and carbuncle are worth more</l>
                 <l n="5674">Than the castle Illium of Troy."</l>
                 <l n="5675">A feeble colt would have gone more than half a league</l>
-                <l n="5676">Before anyone young or old could have spoken;</l>
+                <l n="5676">Before anyone young or old spoke up;</l>
                 <l n="5677">Everyone hid under his hat.<note xml:id="trans5677"/></l>
-                 <l n="5678">Saudin looked around and then redoubled his rant:</l>
-                <l n="5679">"My lady, take this gift for it is not new, <note xml:id="trans5679"/></l>
+                <l n="5678">Saudin looked around and then redoubled his rant:</l>
+                <l n="5679">"My lady, take this gift for it is not surprising,</l>
                 <l n="5680">For you possess the premier flower on the bush,</l>
-                <l n="5681">Which is the [king's] heart hidden under this cloth.<note xml:id="trans5681"/></l>
-                <l n="5682">He can no more resist you than the wolf the lamb."</l>
+                <l n="5681">Which is the [king's] heart hidden away under such cloth.<note xml:id="trans5681"/></l>
+                <l n="5682">He can no more resist you than the lamb can the wolf."</l>
                 <l n="5683">"Saudin," said the lady, "you are a mercenary!"</l>
             </lg>
             <lg type="laisse" n="220">
@@ -6721,23 +6718,23 @@
             <lg type="laisse" n="221">
                 <head>Laisse 221</head>
                 <l n="5711">Ynide wept and was overtaken by great sorrow,</l>
-                <l n="5712">All her people gathered around there.</l>
+                <l n="5712">All her noblemen gathered around there.</l>
                 <l n="5713">Then she recounted to them Saudin's plot.</l>
                 <l n="5714">"[My] lords," she said, "this malevolent traitor</l>
                 <l n="5715">Believes he can trick us in such a manner,</l>
                 <l n="5716">Saying that the king has sent for me,</l>
                 <l n="5717">Because he had sworn and promised it to my lord,</l>
-                <l n="5718">And all these riches and these silk fabrics,</l>
+                <l n="5718">And all these riches and these woven silks,</l>
                 <l n="5719">And these horses and these palfreys from Frisia</l>
                 <l n="5720">He sent you because of his great nobility— </l>
-                <l n="5721">So that it be delivered to you and spent </l>
+                <l n="5721">So that they be distributed among you and spent </l>
                 <l n="5722">And the pain and the sorrow done away with.</l>
                 <l n="5723">And with this treasure alone he thinks to separate</l>
-                <l n="5724">You from the one who is praised by good people.<note xml:id="trans5724"/></l>
+                <l n="5724">You from the one who is prized by good people.<note xml:id="trans5724"/></l>
                 <l n="5725">But one thing I'll tell you, don't treat this lightly:</l>
                 <l n="5726">All of this is in order to violate my body,</l>
                 <l n="5727">And for this [reason] they have sent my lord far from me.</l>
-                <l n="5728">If this is the truth, now look at the proof!"</l>
+                <l n="5728">Now look at the proof [to see] whether this is the truth!"</l>
                 <l n="5729">She took hold of the crown and the ring and the purse,</l>
                 <l n="5730">[And] as everyone was watching, she hurled [them] down and destroyed [them],</l>
                 <l n="5731">Saying, "Oh, [my] noble people, don't be so covetous</l>
@@ -6758,19 +6755,19 @@
                 <l n="5743">But only to honor [you], according to my understanding.</l>
                 <l n="5744">I beg mercy from you, in the name of the One who allowed himself to be
                     hung from the Cross,</l>
-                <l n="5745">For he who has done wrong shouldn't complain.</l>
+                <l n="5745">For he who has done no wrong shouldn't have to go to court.</l>
                 <l n="5746">We are seven barons, the least among us is a count;</l>
                 <l n="5747">If we have done anything that could be perceived as evil,</l>
-                <l n="5748">--God help the lady and you--so have us hanged."</l>
-                <l n="5749">The archbishop, who didn't wish to hold back, spoke:</l>
+                <l n="5748">God help the lady and you if you have us hanged."</l>
+                <l n="5749">The archbishop, who didn't wish to hold back any longer, spoke:</l>
                 <l n="5750">"There are those who appear to buy when they want to sell,</l>
                 <l n="5751">And those who think to ascend when they must descend."</l>
                 <l n="5752">"Indeed," said Henry, "and break all their limbs."</l>
                 <l n="5753">"And [those who] bend," said Roger, "when they think to stretch
                     [up]."</l>
                 <l n="5754">"Indeed," said Morant, "and Crassus</l>
-                <l n="5755">Served King Sulla when [Sulla] considered [Crassus] to have offended him,<note xml:id="trans5755"/></l>
-                 <l n="5756">And king Porus, the great Alexander."</l>
+                <l n="5755">Served King Sulla when he intended to attack him,<note xml:id="trans5755"/></l>
+                <l n="5756">And king Porus, the great Alexander."</l>
                 <l n="5757">Saudin replied, "And Pelias in the port of Endre</l>
                 <l n="5758">Did the same to Jason when he intended to destroy him.</l>
                 <l n="5759">But I'll tell you something that bears the same stamp:</l>
@@ -6780,20 +6777,19 @@
                 <head>Laisse 223</head>
                 <l n="5761">(Laisse 223) "Oh, traitor," said Ynide, "wretched scoundrel!</l>
                 <l n="5762">Once before I told you exactly what I thought<note xml:id="trans5762"/></l>
-                 <l n="5763">When you brought me greetings from your king,</l>
+                <l n="5763">When you brought me greetings from the king,</l>
                 <l n="5764">That if you were ever again seen in Auvergne,</l>
                 <l n="5765">You and your companions would be hanged!"</l>
                 <l n="5766">"[My] lady," said Saudin, "you were wrong."</l>
                 <l n="5767">"Pig!" said Berart. "Be quiet, don't speak again,</l>
                 <l n="5768">For in a short while you'll be hanged.</l>
                 <l n="5769">You're doing just what the son of Daedalus did,</l>
-                <l n="5770">When a creature thought he could deceive the wind:</l>
-                <l n="5771">He wanted to be a bird, when he was born of woman.</l>
-                <l n="5772">But God certainly granted him mercy for it, according to what I have
-                    read,<note xml:id="trans5772"/></l>
-                  <l n="5773">Since he fell from the sky, thinking to soar.</l>
-                <l n="5774"><milestone n="40R" unit="fol."/><cb n="a"/>Everyone great and small still speaks of it,</l>
-                <l n="5775">And we will deal with you thoroughly before you leave."</l>
+                <l n="5770">Who believed something that then failed him:</l>
+                <l n="5771">He wanted to be a bird whereas he was born of woman.</l>
+                <l n="5772">But God certainly granted him mercy for it, according to what I've read,<note xml:id="trans5772"/></l>
+                <l n="5773">Since he fell from the sky, thinking to soar.</l>
+                <l n="5774"><milestone n="40R" unit="fol."/><cb n="a"/>Everyone great and small still mocks them</l>
+                <l n="5775">As they will [mock] all of you before you leave."</l>
                 <l n="5776">"Indeed," said Baudoin, "let [him] be taken,</l>
                 <l n="5777">For I consider it a dishonor that we have endured [this] for so
                     long."</l>
@@ -6802,10 +6798,10 @@
                 <l n="5780">Before [anyone] had eaten or drunk.</l>
                 <l n="5781">Ynide and her barons gathered in a chamber;</l>
                 <l n="5782">They held a discussion there that would not please others;</l>
-                <l n="5783">It couldn't be otherwise, according to what Isaias,</l>
-                <l n="5784">Who <hi rend="bold">discerned</hi> the truth, predicted in Latin,</l>
+                <l n="5783">It couldn't be otherwise, according to what Isaiah the grammarian,</l>
+                <l n="5784">Who <hi rend="bold">discerned</hi> the truth, demonstrated,</l>
                 <l n="5785">For one cannot serve <hi rend="bold">two</hi> lords.</l>
-                <l n="5786">This Zeno has told you, who concluded this verse.<note xml:id="trans5786"/></l>
+                <l n="5786">This Zeno has told you, who included this saying.<note xml:id="trans5786"/></l>
                  </lg>
             <lg type="laisse" n="224">
                 <head>Laisse 224</head>
@@ -6820,24 +6816,24 @@
                 <l n="5795">But [did] indeed [merit] some punishment by which they would be
                     chastised,</l>
                 <l n="5796">So that such an embassy would never be carried out [again];</l>
-                <l n="5797">In any case, it should be as Ynide pleased.</l>
+                <l n="5797">In any case, it would be as Ynide pleased.</l>
                 <l n="5798">Then the countess spoke; listen now to what she said;</l>
                 <l n="5799">She began and laid out wise reasoning:</l>
                 <l n="5800">"[My] lords," she said, "He who saved the world</l>
-                <l n="5801">From the Devil forgave him for the wound</l>
+                <l n="5801">Forgave [Longinus] for the wound</l>
                 <l n="5802">That he gave Him in His body with a lance,<note xml:id="trans5802"/></l>
-                <l n="5803">And even more, He lit up [the world],</l>
-                <l n="5804">And with His mouth He said to us and commanded</l>
-                <l n="5805"><hi rend="bold">Forgive us</hi> to those who will forgive [others].</l>
+                <l n="5803">And even more, He enlightened him;</l>
+                <l n="5804">And with His mouth He said to us and commanded [us to say]</l>
+                <l n="5805"><hi rend="bold">'Forgive us'</hi> whom He will then forgive.</l>
                 <l n="5806">Those who have mercy on others, God likewise will have [mercy] on them.</l>
-                <l n="5807">Rather, if possible, it should be observed by us in the same way.</l>
+                <l n="5807">But, if I can, this will be partially observed between us.<note xml:id="trans5807"/></l>
             </lg>
             <lg type="laisse" n="225">
                 <head>Laisse 225</head>
                 <l n="5808">The lady said, "[My] lords, listen, please:</l>
-                <l n="5809">[They say that] one acts wrongly ever to take pity on traitors;</l>
+                <l n="5809">One acts wrongly ever to take pity on traitors;</l>
                 <l n="5810">On the contrary one should hang [them] right away without delay.</l>
-                <l n="5811">But people <hi rend="bold">who read</hi> used to say a verse</l>
+                <l n="5811">But people <hi rend="bold">who read</hi> used to say a proverb</l>
                 <l n="5812"><cb n="b"/>'<hi rend="bold">It is shameful for a wise man when [his own] guilt</hi> blames him,'<note xml:id="trans5812"/></l>
                 <l n="5813">Nor should a prominent man be a troublemaker.<note xml:id="trans5813"/></l>
                 <l n="5814">So think hard [about it], for we are all sinners,</l>
@@ -6849,14 +6845,14 @@
                 <l n="5820">"What is your pleasure, my lady?" and she said to them:</l>
                 <l n="5821">"Have these ambassadors completely stripped,</l>
                 <l n="5822">And then led right away to the main square,</l>
-                <l n="5823">Barefoot and in their shifts, without dignity."</l>
+                <l n="5823">Barefoot and in their shifts, without finery."</l>
                 <l n="5824">And they replied: "My lady, in the name of the Creator[, right
                     away]."</l>
                 <l n="5825">They returned to the hall. No need to ask, [my] lords,</l>
                 <l n="5826">Whether Charles's men were terribly afraid,</l>
                 <l n="5827">Full of sighs, anguish and sweat!</l>
                 <l n="5828">But the four servants came with a great furor,</l>
-                <l n="5829">Calling out in loud voices: "Oh, debauchers, scoundrels,</l>
+                <l n="5829">Calling out in loud voices: "Oh, debauched scoundrels,</l>
                 <l n="5830">You are dead men today,</l>
                 <l n="5831">Your emperor cannot save you!"</l>
                 <l n="5832">The cries [and] tumult and clamor were so loud,</l>
@@ -6877,15 +6873,15 @@
                 <l n="5845">"Oh, noble barons, have pity on us!</l>
                 <l n="5846">You are young and valiant knights.</l>
                 <l n="5847">Each one of us has important land holdings</l>
-                <l n="5848">And important family that descend from our lines,</l>
-                <l n="5849">[My] God, think therefore what could happen</l>
+                <l n="5848">And powerful relatives of our lineage,<note xml:id="trans5848"/></l>
+                <l n="5849">Oh, think therefore what could happen</l>
                     <l n="5850"><milestone n="40V" unit="fol."/><cb n="a"/>Should we be condemned and killed.</l>
                 <l n="5851">Your desire wouldn't be achieved through this;</l>
                 <l n="5852">Rather there would be war and increased anger."</l>
                 <l n="5853">"Indeed," said the archbishop, "it could not fail</l>
                 <l n="5854">That vengeance would be taken on [you] all.</l>
-                <l n="5855">We are consecrated, blessed and ordained,</l>
-                <l n="5856">And loyal counts, marquis and knights."</l>
+                <l n="5855">I am consecrated, blessed and ordained,</l>
+                <l n="5856">And [these are] counts, marquis and knights chosen [by the emperor]."</l>
                 </lg>
             <lg type= "laisse" n="227">
                 <head> Laisse 227</head>
@@ -6893,15 +6889,15 @@
                 <l n="5858">Just like those who believed they would suffer an extraordinary
                     death,<note xml:id="trans5858"/></l>
                 <l n="5859">Saying to one another: "O true Sovereign King,</l>
-                <l n="5860">Exalted, gracious Virgin, have mercy on us!"</l>
+                <l n="5860">Exalted, gracious <hi rend="bold">Virgin</hi>, have mercy on us!"</l>
                 <l n="5861">But Galeran of Brittany called out loudly:</l>
                 <l n="5862">"Have mercy, my lady, on this captive company!"</l>
                 <l n="5863">Ynide summoned Alisant of Aquitaine:</l>
-                <l n="5864">"Have [them] all shaved for me, such that not a hair remain there;</l>
+                <l n="5864">"Have [them] all shaved for me, such that not a hair remain;</l>
                 <l n="5865">Then have them brought out to the open country,</l>
                 <l n="5866">Beating them with strips of leather as long as they still have
                     blood.<note xml:id="trans5866"/></l>
-                <l n="5867">And those you see over there, who are descended from the same family,<note xml:id="trans5867"/></l>
+                <l n="5867">And those you see over there, who are cut from the same cloth,<note xml:id="trans5867"/></l>
                 <l n="5868">Make the blood run down to their heels;</l>
                 <l n="5869">And [put] the archbishop in front, make him the leader.</l>
                 <l n="5870">As for Saudin and Roger, take no pity whatsoever on them,</l>
@@ -6912,7 +6908,7 @@
                     it.</l>
                 <l n="5875">And once you have done this, let them not suffer anymore,</l>
                 <l n="5876">Rather cast them out into the open countryside,</l>
-                <l n="5877">Don't leave them at all</l>
+                <l n="5877">Never let them out of your sight</l>
                 <l n="5878">Until the mountain blocks the sun."</l>
             </lg>
             <lg type="laisse" n="228">
@@ -6920,8 +6916,8 @@
                 <l n="5879">"Alisant," said the lady, "you have heard my orders.</l>
                 <l n="5880">Before you return, make sure they have gone so far</l>
                 <l n="5881">That they have crossed over the river; then you'll free them,</l>
-                <l n="5882">And then give them these letters and tell them politely</l>
-                <l n="5883">That they should present these to the king from me."</l>
+                <l n="5882">And then give them this letter and tell them politely</l>
+                <l n="5883">That they should present it to the king from me."</l>
                 <l n="5884">And they replied, "Just as you wish."</l>
                 <l n="5885">Alisant and Grailet, Melians and Gralant,</l>
                 <l n="5886">And many others of their household, with a demeanor of fierce pride,</l>
@@ -6929,8 +6925,8 @@
                 <l n="5888"><cb n="b"/>Don't ask, [my] lords, if the crowd was large</l>
                 <l n="5889">With men, women, old men and children;</l>
                 <l n="5890">Great racket and noise and tumult,</l>
-                <l n="5891">With cries and shrieks; horses closely packed,</l>
-                <l n="5892">Air and earth torn apart, like at the end of the world.</l>
+                <l n="5891">With cries and shrieks, horses colliding,</l>
+                <l n="5892">Soil and earth torn apart, like at the end of the world.</l>
                 <l n="5893">The ambassadors trembled, seeing this,</l>
                 <l n="5894">Everyone running in a furor, full of outrage,</l>
                 <l n="5895">Crying out, "Death, death to these foul deceivers,</l>
@@ -6944,17 +6940,17 @@
             <lg type= "laisse" n="229">
                 <head>Laisse 229</head>
                 <l n="5902">The din was deafening, and the cries</l>
-                <l n="5903">Of the young, the elderly, and the little squires redoubled.</l>
+                <l n="5903">Of youths, old men and young squires redoubled.</l>
                 <l n="5904">The ambassadors might have already been killed and hacked to pieces,</l>
-                <l n="5905">For the armed troops were useless in this situation,<note xml:id="trans5905"/></l>
+                <l n="5905">For the armed men were useless in this situation,<note xml:id="trans5905"/></l>
                 <l n="5906">For everyone was shrieking: "Death to the king of Saint Denis</l>
                 <l n="5907">And those who love him and those who would follow him!"</l>
                 <l n="5908">There was no more respite for them after these words.</l>
                 <l n="5909">Once the countess had heard the news [of what was happening],</l>
                 <l n="5910">As fast as she could, she ran through the palace,</l>
                 <l n="5911">Went to a window, then peeked out.<note xml:id="trans5911"/></l>
-                <l n="5912">She took a great quantity of money</l>
-                <l n="5913">And tossed it down to both rich men and beggars.</l>
+                <l n="5912">She took great handfuls of money</l>
+                <l n="5913">And tossed them down to both rich men and beggars.</l>
                 <l n="5914">And once she had stopped the people with the money,</l>
                 <l n="5915">They let go and abandoned the ambassadors;</l>
                 <l n="5916">They ran to the loot in [groups of] ten and twenty and thirty.</l>
@@ -6963,9 +6959,9 @@
                 <l n="5919">A good thousand [men] wearing armor mounted horses.</l>
                 <l n="5920">They surrounded the ambassadors,<note xml:id="trans5920"/></l>
                 <l n="5921">[Who were] sorrowful and overcome by fear,</l>
-                <l n="5922">Exhausted and anxious, cold and turning pale,</l>
+                <l n="5922">Exhausted and anxious, cold and pallid,</l>
                 <l n="5923">Just like those who are dead and gone.</l>
-                <l n="5924">They kept their heads down as if they were dead.</l>
+                <l n="5924">They kept their heads down as if half-dead.</l>
             </lg>
 
             <lg type="laisse" n="230">
@@ -6985,25 +6981,25 @@
                 <l n="5937">Then Ynide spoke, once she could be heard;</l>
                 <l n="5938">She said: "Oh, worthy folk, noble people, subjects!<note xml:id="trans5938"/></l>
                 <l n="5939">I truly know well that you love me faithfully!</l>
-                <l n="5940">Let justice be carried out; have mercy on them."</l>
+                <l n="5940">Let justice be carried out; I beg you to have mercy on them."</l>
                 <l n="5941">Everyone cried out: "Lady, as you please!"</l>
-                <l n="5942">Then the noise and tumult and cries increased.</l>
+                <l n="5942">Then the noise and tumult and cries quieted down.</l>
                 <l n="5943">For this reason the sage tells a wise parable:</l>
-                <l n="5944">"The anger of the people is cursed by God,</l>
+                <l n="5944">The anger of the people is cursed by God,</l>
                 <l n="5945">For together they act like sheep;</l>
                 <l n="5946">When a hundred of them or twenty or ten are together,</l>
                 <l n="5947">They think to graze in the lushest pasture,</l>
                 <l n="5948">But [just] a boy with a little stick</l>
                 <l n="5949">Makes them run and change their direction.</l>
                 <l n="5950">If one falls, the next one falls over him;</l>
-                <l n="5951">So people do out of fear of authority."</l>
-                <l n="5952">Let us leave this [subject], for Jesus Christ knows it well.</l>
+                <l n="5951">So people do out of fear of authority.</l>
+                <l n="5952">Let's drop this [subject], for Jesus Christ knows it well.</l>
             </lg>
             <lg type="laisse" n="231">
                 <head>Laisse 231</head>
-                <l n="5953">Now we leave that [subject] to the One who knows everything,</l>
-                <l n="5954">For each one is blessed according to [his] acts;</l>
-                <l n="5955">It is best now for me to return to my moral tale.</l>
+                <l n="5953">Now let's leave that [subject] to the One who knows everything,</l>
+                <l n="5954">So that each one be blessed according to [their] acts;</l>
+                <l n="5955">Now I need to return to my moral tale.</l>
                 <l n="5956">Twelve sergeants prepared themselves,</l>
                 <l n="5957">Holding leather strips. When the trumpets sounded,</l>
                 <l n="5958">They then began whipping the ambassadors,</l>
@@ -7017,15 +7013,15 @@
                 <l n="5965">[Saw] blood flowing down from all over them.</l>
                 <l n="5966">But the other barons had hardly been touched.</l>
                 <l n="5967">At that point Berart and Baudoin ordered:</l>
-                <l n="5968">"Don't hit them anymore for that was surely enough."</l>
-                <l n="5969">And the others did so, and then threw them out [of the city],</l>
+                <l n="5968">"Don't hit them anymore for that's enough."</l>
+                <l n="5969">And the others did so, and then expelled them,</l>
                 <l n="5970">Too bloody to eat or drink;<note xml:id="trans5970"/></l>
                 <l n="5971">Alisant led them to the river,</l>
-                <l n="5972">And then he gave the letters to the archbishop:</l>
-                <l n="5973">"Give these to the king from my lady.</l>
+                <l n="5972">And then he gave the letter to the archbishop:</l>
+                <l n="5973">"Give this to the king from my lady.</l>
                 <l n="5974">Henceforth go to whatever place pleases you.</l>
-                <l n="5975">Forgive me for what has been done."</l>
-                <l n="5976">"Sire," said the archbishop, "we will always love you.</l>
+                <l n="5975">Forgive me for whatever might have been done to you."</l>
+                <l n="5976">"Sire," said the archbishop, "we will always have affection for you.</l>
                 <l n="5977">Are we now released?" And the other replied, "Yes."</l>
             </lg>
             <lg type="laisse" n="232">
@@ -7034,10 +7030,10 @@
                 <l n="5979">On the very first morning,<note xml:id="trans5979"/></l>
                 <l n="5980">When he felt the sweet gracious hand</l>
                 <l n="5981">That first formed him into this life,</l>
-                <l n="5982">When <hi rend="bold">it was said "Behold it is good</hi>"-for I've indeed heard it,<note xml:id="trans5982"/></l>
+                <l n="5982">When <hi rend="bold">it was said "Behold [My] hand"</hi>-for I've indeed heard it,<note xml:id="trans5982"/></l>
                 <l n="5983">That He formed us most holy and sweet and pious-</l>
                 <l n="5984">Nor did the prophets have [greater joy] with their company</l>
-                <l n="5985">When they were led into that holy life,</l>
+                <l n="5985">When they were led into the holy way,</l>
                 <l n="5986">Than the joy that the archbishop and that group of barons</l>
                 <l n="5987">Had when they heard those words.</l>
                 <l n="5988">[Ynide's men] commended them to the Son of Holy Mary,</l>
@@ -7063,15 +7059,15 @@
                 <l n="6004">Concerning both the nun and Ynide</l>
                 <l n="6005">I need to leave off, and instead I'll tell you</l>
                 <l n="6006">How the ambassadors were pressing on.</l>
-                <l n="6007">Not a one could have managed more than a trot</l>
-                <l n="6008">Even if they had been beaten or whipped.</l>
+                <l n="6007">No one who has ever been beaten or whipped</l>
+                <l n="6008">Can manage more than a trot.</l>
                 <l n="6009">They often turned back toward the old castle</l>
                 <l n="6010">To see if other people were following them.</l>
-                <l n="6011">For this reason the sage says (which is a wise proverb),</l>
+                <l n="6011">For this reason the sage says--which is a wise proverb--</l>
                 <l n="6012">"One who has felt fire should truly be afraid</l>
                 <l n="6013">For good is recognized through evil."</l>
-                <l n="6014">All day long they walked united in [their] distress,</l>
-                <l n="6015">While no one spoke. Then it was midnight,</l>
+                <l n="6014">All day long they walked together, preoccupied,</l>
+                <l n="6015">While no one spoke. Then it was past midnight,</l>
                 <l n="6016">When several of them were so exhausted and slowed down,</l>
                 <l n="6017">That, since their souls were leaving their bodies,</l>
                 <l n="6018">They collapsed on the spot whether they wanted to or not.</l>
@@ -7101,14 +7097,14 @@
                 <l n="6038">Nor any creature other than beasts and birds.</l>
                 <l n="6039">That night they took their lodging alongside an uncultivated field;</l>
                 <l n="6040">Each one of them collapsed because of his great hunger.<note xml:id="trans6040"/></l>
-                <l n="6041">They had no bedclothes of silk or scarlet, nor fine coverlets,</l>
+                <l n="6041">They had no bedclothes of silk or scarlet or sendal,</l>
                 <l n="6042">Nothing other than the earth and the open ground.</l>
             </lg>
             <lg type="laisse" n="235">
                 <l n="6043">That night they slept on the thick grass,</l>
                 <l n="6044">There was no other bed, nor carpet spread out.</l>
                 <l n="6045">Their suffering increased still more:</l>
-                <l n="6046">Precisely at midnight the open space was disturbed,</l>
+                <l n="6046">At about midnight the open space was disturbed,</l>
                 <l n="6047">For the sky darkened and the air appeared [to be] colored</l>
                 <l n="6048">With gold and azure, it seemed it had been split by fire!</l>
                 <l n="6049">Lightening descended and fine hailstones,</l>
@@ -7127,7 +7123,7 @@
                 <l n="6062">Most gratefully did they greet and thank Him:</l>
                 <l n="6063">"<hi rend="bold">Remember us, O Lord</hi>, for we needed [it],</l>
                 <l n="6064"><hi rend="bold">According to</hi> your <hi rend="bold">great mercy</hi>."</l>
-                <l n="6065">And once they had recited the <hi rend="bold">Gloria</hi> refrain,</l>
+                <l n="6065">And once they had recited the <hi rend="bold">Gloria</hi> after the psalm</l>
                 <l n="6066">[And] beaten their breasts, they set off on the road,</l>
                 <l n="6067">Grieving and weeping over what had happened to them.</l>
             </lg>
@@ -7173,7 +7169,7 @@
                 <l n="6102">May God grant [it] to you, since you have good faith.</l>
                 <l n="6103">I don't know what else to say; may He have mercy on you;</l>
                 <l n="6104">One thing I will say, don't think it foolish:</l>
-                <l n="6105"><cb n="b"/>Once you have passed this high mountain in one piece,</l>
+                <l n="6105"><cb n="b"/>Once you have passed between these high mountains,<note xml:id="trans6105"/></l>
                 <l n="6106">You'll find no more humans of living flesh.</l>
                 <l n="6107">Indeed you won't find gardens or blooming woods;</l>
                 <l n="6108">Only leopards, lions and ferocious bears,</l>
@@ -7183,18 +7179,18 @@
                 <l n="6112">Who is so good and of great worth:</l>
                 <l n="6113">The dangerous beasts will kill him.</l>
                 <l n="6114">I'll pray to God and the Holy Mother</l>
-                <l n="6115">That they both watch over both of you, that you not be killed.<note xml:id="trans6115"/></l>
+                <l n="6115">That They both keep you from being killed.<note xml:id="trans6115"/></l>
                 <l n="6116">By the faith I owe the Holy Spirit,</l>
                 <l n="6117">You have aroused much pity in my heart,</l>
                 <l n="6118">Such that I am grieving seeing that you ever came here.</l>
                 <l n="6119">Huon, dear brother, my good close friend,</l>
                 <l n="6120">May the One who was crucified grant you grace,</l>
                 <l n="6121">That I may see you once again healthy and hearty,</l>
-                <l n="6122">May you also find all that you have been seeking.</l>
+                <l n="6122">May you yet find all that you have been seeking.</l>
                 <l n="6123">My heart says to me, thus I feel certain and sure of it,</l>
                 <l n="6124">That for such a one as you are</l>
                 <l n="6125">The Lord of Paradise will do great wonders.</l>
-                <l n="6126">If you didn't believe that you would be wronging God,</l>
+                <l n="6126">If I didn't believe that you would be wronging God,<note xml:id="trans6126"/></l>
                 <l n="6127">I would come with you, so willing am I."</l>
                 <l n="6128">"I wish to go alone in order not to be reproached,"</l>
                 <l n="6129">Huon replied. "May God reward you."</l>
@@ -7216,10 +7212,10 @@
                 <l n="6142"><milestone n="43V" unit="fol."/><cb n="a"/>For the nobleman who was enduring such an arduous
                     journey.</l>
                 <l n="6143">The count set off according to the will of God</l>
-                <l n="6144">To [the place] to which hope led him forward.</l>
-                <l n="6145">He traveled by foot like a wanderer,</l>
+                <l n="6144">Led forward by his hope in Him.<note xml:id="trans6144"/></l>
+                <l n="6145">He traveled on foot like a wayfarer,</l>
                 <l n="6146">Leading the charger by the bit;</l>
-                <l n="6147">Never before had a ship had such a pilot;</l>
+                <l n="6147">Never before had a ship had such a steersman;</l>
                 <l n="6148">Thus the good war horse pulled [the ship] at a trot.</l>
                 <l n="6149">The count traveled until the sun set;</l>
                 <l n="6150">He made camp once night was near.</l>
@@ -7233,8 +7229,8 @@
                 <l n="6158">Except that he always endured great hardship.</l>
                 <l n="6159">He rested little and yet he was satisfied;</l>
                 <l n="6160">There has never been a man of such good sense!</l>
-                <l n="6161">He could have had an easy life, yet he went off seeking hardship.</l>
-                <l n="6162">He traveled a long time on the flowing river</l>
+                <l n="6161">He could have had an easy life, yet he went off seeking hardship.<note xml:id="trans6161"/></l>
+                <l n="6162">He traveled a long time along the flowing river</l>
                 <l n="6163">Until he passed beyond the great mountain,</l>
                 <l n="6164">Where, Tadeus said, from there [going] forward</l>
                 <l n="6165">He wouldn't find any living creature</l>
@@ -7246,11 +7242,11 @@
                 <l n="6171">On his knees he turned toward the east;</l>
                 <l n="6172">He stretched his hands toward Almighty God,</l>
                 <l n="6173">Rendered thanks both to Him and to His Mother;</l>
-                <l n="6174">He prayed devoutly as it pleased him</l>
+                <l n="6174">He prayed devoutly to Them, if it please Them,</l>
                 <l n="6175">That he be able to accomplish what he wanted.</l>
-                <l n="6176">He wouldn't give up because of pain or anguish,</l>
-                <l n="6177">"God willing, so long as I am alive,</l>
-                <l n="6178">May I do my utmost in what I am striving for."</l>
+                <l n="6176">In spite of pain or anguish, he wouldn't give up</l>
+                <l n="6177">"Without doing my utmost in what I'm strivng for,</l>
+                <l n="6178">So long as I'm alive, God willing."<note xml:id="trans6178"/></l>
             </lg>
             <lg type="laisse" n="239">
                 <head> Laisse 239</head>
@@ -7265,7 +7261,7 @@
                 <l n="6186">But henceforth he will never be confident at all;</l>
                 <l n="6187">Frequently he will come across great tribulation.</l>
                 <l n="6188">If he survives it, truly it will be a story to tell;<note xml:id="trans6188"/></l>
-                <l n="6189">Never from such [an undertaking] has any knight survived.</l>
+                <l n="6189">Never from such [an undertaking] has any vassal survived.</l>
                 <l n="6190">Night passed and day returned;</l>
                 <l n="6191">The baron Huon got himself ready,</l>
                 <l n="6192">Crossed himself, commended himself to God;</l>
@@ -7285,14 +7281,14 @@
             <lg type="laisse" n="240">
                 <head> Laisse 240</head>
                 <l n="6205">The loyal-hearted count of Auvergne</l>
-                <l n="6206">Led his horse to the river;</l>
+                <l n="6206">Led his horse along the river;</l>
                 <l n="6207">Never had there been such a horse since Bucephalus.</l>
                 <l n="6208">Odinel recounts that he was just like</l>
                 <l n="6209">Alexander's [horse] in his head and chest;</l>
                 <l n="6210">[Huon] won him in Cappadocia the day</l>
                 <l n="6211">That he killed Roisel, the emir's son,</l>
                 <l n="6212">And then he had the land and the kingdom</l>
-                <l n="6213">In his power; finally he designated its vassal.<note xml:id="trans6213"/></l>
+                <l n="6213">In his power; finally he designated its ruler.<note xml:id="trans6213"/></l>
                 <l n="6214">He taught him goodness, he got him to stop doing evil.</l>
                 <l n="6215">Let's turn back now to [our] subject.</l>
                 <l n="6216"><milestone n="44R" unit="fol."/><cb n="a"/>The kind-hearted baron fed [the horse],</l>
@@ -7307,7 +7303,7 @@
                 <l n="6225">Ever lived in penance in a holier way</l>
                 <l n="6226">Than this one, by God in Heaven,</l>
                 <l n="6227">In order to find the infernal Devil</l>
-                <l n="6228">Whom he then found inside the eternal tumult--</l>
+                <l n="6228">Whom he then found inside the eternal ice--<note xml:id="trans6228"/></l>
                 <l n="6229">Not even Galahad who conquered the Grail!</l>
             </lg>
             <lg type="laisse" n="241">
@@ -7327,18 +7323,18 @@
                 <l n="6242">And I return to the kingdom where I was born,</l>
                 <l n="6243">You will be well compensated for your tribulation.</l>
                 <l n="6244">I feel very great pity for you;</l>
-                <l n="6245">You cannot understand and the great sin of that lies upon me."</l>
+                <l n="6245">You cannot understand and for that reason great sin lies upon me."</l>
                 <l n="6246">Having said that, he tarried there no longer;</l>
                 <l n="6247">He tied the rope around the golden saddle-bow,</l>
-                <l n="6248">He struck the horse on his round rump,</l>
-                <l n="6249">And then he cried, saying "Come on, let's go."</l>
+                <l n="6248">He struck the horse on his dappled rump,<note xml:id="trans6248"/></l>
+                <l n="6249">And then he cried out to him, saying "Come on, let's go."</l>
                 <l n="6250">So [the horse] set out along the riverbank;</l>
                 <l n="6251">Thus they continued, both of them in motion</l>
                 <l n="6252">All day long until it was evening.</l>
             </lg>
             <lg type="laisse" n="242 ">
                 <head> Laisse 242</head>
-                <l n="6253"><cb n="b"/>When night fell, turning everything dark,</l>
+                <l n="6253"><cb n="b"/>When night fell, in the gloomy air</l>
                 <l n="6254">Next to the Tigris, before a high hill,</l>
                 <l n="6255">The noble warrior made camp.</l>
                 <l n="6256">During that night he felt a great apprehension,</l>
@@ -7366,14 +7362,14 @@
                 <l n="6278">He wanted to break away from the burden of the bridle;</l>
                 <l n="6279">He wanted to flee, but the noble warrior</l>
                 <l n="6280">Held him back gently out of affection.</l>
-                <l n="6281">The horse was drenched in sweat from this exertion;</l>
+                <l n="6281">He was drenched in sweat from this exertion;</l>
                 <l n="6282">If God, the Divine Sweetness, does not think [to help],</l>
                 <l n="6283">This struggle will soon get much worse.</l>
             </lg>
             <lg type="laisse" n="243">
                 <head> Laisse 243</head>
                 <l n="6284">When the torment of the stinking cloud</l>
-                <l n="6285">Had passed, a clear dawn appeared,</l>
+                <l n="6285">Had passed, the clear dawn appeared,</l>
                 <l n="6286">And the riverbank was covered with birds.</l>
                 <l n="6287">The count recited, "<hi rend="bold">Hail, Queen</hi>, Mother [of God]."</l>
                 <l n="6288">His prayer over, [now] he made his entreaty:</l>
@@ -7385,14 +7381,14 @@
                 <l n="6294">Next he arose with a gentle expression;</l>
                 <l n="6295">He took his equipment and climbed up a rock</l>
                 <l n="6296">Just in order to see; the noble count [...]<note xml:id="trans6296"/></l>
-                <l n="6297">Entirely on foot to where it was roughest;</l>
+                <l n="6297">Entirely on foot to where it was most difficult;<note xml:id="trans6297"/></l>
                 <l n="6298">He looked all around, in front and behind,</l>
                 <l n="6299">He saw no habitation of wood or stone,</l>
                 <l n="6300">Nothing but the woods and the thick forest.</l>
                 <l n="6301">Then he really wished he had believed his friend [Tadeus]:<note xml:id="trans6301"/></l>
                 <l n="6302">"Oh, God," he said, "what a fix I'm in!</l>
                 <l n="6303">The situation of Duke Naimon of Baveria was nothing</l>
-                <l n="6304">When he went to [his] adversary Agolant.</l>
+                <l n="6304">When he went to [see] the demon Agolant.<note xml:id="trans6304"/></l>
                 <l n="6305">O God, true Judge of glory,</l>
                 <l n="6306">Come to my rescue and in such a way</l>
                 <l n="6307">As you did for him when he was a messenger!</l>
@@ -7410,7 +7406,7 @@
                 <l n="6316">The good horse set himself on the rough road,</l>
                 <l n="6317">With much great effort they passed the heath.</l>
                 <l n="6318">One might hardly believe how much distress they endured.</l>
-                <l n="6319">Once they were beyond the great marsh,</l>
+                <l n="6319">Once they were beyond the wide moors,</l>
                 <l n="6320">They found a river which pleased them greatly;</l>
                 <l n="6321">The horse neighed from great joy.</l>
                 <l n="6322">It would have been rather better had he not done that;</l>
@@ -7468,10 +7464,10 @@
                 <l n="6365">And leave an evil place right away</l>
                 <l n="6366">When one sees harm suddenly approaching.</l>
                 <l n="6367">Similarly the animal that's in that situation</l>
-                <l n="6368">Flees when it sees mortal danger.</l>
+                <l n="6368">Flees when it sees mortal danger,</l>
                 <l n="6369">It doesn't dare remain or tarry there.</l>
                 <l n="6370">In any case the count didn't wait any longer;</l>
-                <l n="6371">He shouted to [his horse] and very quickly</l>
+                <l n="6371">He shouted to [his horse] and very quickly<note xml:id="trans6371"/></l>
                 <l n="6372">Went to his ship and took hold of the rope</l>
                 <l n="6373">And put it on his horse.</l>
                 <l n="6374">He set himself back on his way along the riverbank,</l>
@@ -7480,35 +7476,35 @@
                 <l n="6377">A huge bird came, stretched out toward the horse; </l>
                 <l n="6378">It thought to seize him, but Huon defended him.</l>
                 <l n="6379">With his sword he gave it such a blow</l>
-                <l n="6380">That he sliced off one of its wings and the upper limb together.</l>
+                <l n="6380">That he sliced off its wing and foot together.<note xml:id="trans6380"/></l>
                 <l n="6381">[The bird] fell to the earth, for it was worthless.</l>
                 <l n="6382">[According to] one who would tell it accurately,</l>
                 <l n="6383">It was larger than an ox, to [my] knowledge.</l>
                 <l n="6384">But when the count saw it there clearly dead,</l>
-                <l n="6385">He thanked God the Father, indeed he went along blessing Him,</l>
+                <l n="6385">He thanked God the Father, indeed he blessed Him continually,</l>
                 <l n="6386">Chanting a prayer most devoutly:</l>
                 <l n="6387">"<hi rend="bold">Lord, you open my lips</hi>," [he said] with much weeping,<note xml:id="trans6387"/></l>
                 <l n="6388">"<hi rend="bold">And my mouth</hi> very often,</l>
                 <l n="6389"><hi rend="bold">Will proclaim the glory</hi> of your coming."</l>
                 <l n="6390">As for himself, great emotion overcame him,</l>
-                <l n="6391">Such that he wet the harness with his tears.</l>
+                <l n="6391">Such that his tears wet his garments.</l>
                 <l n="6392">Then the baron prostrated himself in prayer,</l>
-                <l n="6393">But I fear for him and the horse.</l>
+                <l n="6393">But he feared greatly for himself and his horse.</l>
                 <l n="6394">These words spoken, the valiant man arose;</l>
                 <l n="6395">He recommenced his journey, going along swiftly.</l>
                 <l n="6396">He looked around often both ahead and behind;</l>
-                <l n="6397">He thought he might be surprised but he was very much on careful guard.</l>
+                <l n="6397">He thought he might be taken by surprise but he was very much on careful guard.</l>
             </lg>
             <lg type="laisse" n="248">
                 <head>Laisse 248</head>
                 <l n="6398">Thus he went, hurrying down the path,<note xml:id="trans6398"/></l>
                 <l n="6399">He and his ship that went swiftly down the river.</l>
-                <l n="6400">He suffered great harm physically,</l>
+                <l n="6400">He personally suffered great distress,</l>
                 <l n="6401"><cb n="b"/>He and his horse walked both day and night;</l>
                 <l n="6402">When it was time, Huon gave [his horse] grain.</l>
                 <l n="6403">They rode hard until the hour of nones</l>
                 <l n="6404">Without having seen any person or creature</l>
-                <l n="6405">Except for the leopards and bird and lions</l>
+                <l n="6405">Except for leopards and bird and lions</l>
                 <l n="6406">That he counted as nothing.</l>
                 <l n="6407">Those that attack [Huon] indeed get from him a bad reward;</l>
                 <l n="6408">When he strikes with his good sword,<note xml:id="trans6408"/></l>
@@ -7516,8 +7512,8 @@
                 <l n="6410">One Wednesday, about the hour of nones,</l>
                 <l n="6411">As Odinel recounts, he came across something</l>
                 <l n="6412">On account of which he had great wonder and great difficulty:</l>
-                <l n="6413">He saw up ahead on the shore of the Tigris</l>
-                <l n="6414">As he refreshed himself thoroughly, what seemed to be three maidens</l>
+                <l n="6413">While he was recovering, he saw up ahead</l>
+                <l n="6414">On the shore of the Tigris what seemed to be three maidens</l>
                 <l n="6415">Singing in his language because love was calling them.</l>
                 <l n="6416">When the count, on that horrible road, thus saw</l>
                 <l n="6417">The maidens singing, gathering togehter before him,</l>
@@ -7534,7 +7530,7 @@
                 <l n="6425">So sweetly that all through these little valleys</l>
                 <l n="6426">These swift animals ran to them.</l>
                 <l n="6427">The count cried out, "Queen of maidens,</l>
-                <l n="6428">I have seen marvel upon marvel."</l>
+                <l n="6428">I have seen marvel upon marvel."<note xml:id="trans6428"/></l>
                 <l n="6429">And then he asked, "Who are you, damsels?"</l>
             </lg>
             <lg type="laisse" n="250">
