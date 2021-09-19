@@ -158,7 +158,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 18 August 2021</change>
+            <change>Content last updated 18 September 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -3212,7 +3212,7 @@
                 <l n="2657">He had passed many days without drinking anything.</l>
                 <l n="2658">Then he gathered roots of plants and began to eat;</l>
                 <l n="2659">Once he had quenched his thirst, feeling satiated,</l>
-                <l n="2660">He lay down close to the rock, in the name of blessed God,</l>
+                <l n="2660">He lay down close to the cliff, in the name of blessed God,</l>
                 <l n="2661">And then he crossed himself many times.</l>
                 <l n="2662">Then he waited in case he heard anything</l>
                 <l n="2663">Make a move, draw near to him.</l>
@@ -7562,23 +7562,23 @@
                 <l n="6451">For never since ancient times</l>
                 <l n="6452">Has any sinful man arrived in these parts."</l>
                 <l n="6453">And he answered without any delay:</l>
-                <l n="6454">"I have come here by river in service</l>
-                <l n="6455">To a lord [to whom] I want to dedicate my life,</l>
-                <l n="6456">Day after day, however foolish it might be.</l>
-                <l n="6457">It has been seven years, indeed I'm no liar,</l>
+                <l n="6454">"I have come here along the river in service</l>
+                <l n="6455">To a lord; although it may be foolish,</l>
+                <l n="6456">I have to spend my life [in this way] day after day.</l>
+                <l n="6457">It has been seven years, if I'm not mistaken,<note xml:id="trans6457"/></l>
                 <l n="6458">That I haven't seen my lord or my wife.</l>
                 <l n="6459">I don't know where I'm going; I'm truly in great distress.</l>
-                <l n="6460">Seeing you awakens my emotions,<note xml:id="trans6460"/></l>
-                <l n="6461">How much this reminds me still of my country!"</l>
+                <l n="6460">Seeing you makes me homesick,<note xml:id="trans6460"/></l>
+                <l n="6461">Remembering my country right now."</l>
             </lg>
             <lg type="laisse" n="252">
                 <head>Laisse 252</head>
                 <l n="6462">Once the valiant knight had said this,</l>
                 <l n="6463">He wept a few tears;</l>
                 <l n="6464">He began to remember his home,</l>
-                <l n="6465">How he used to live in great noble honor,</l>
+                <l n="6465">How he used to live in great honor,</l>
                 <l n="6466">[But] now he went begging like a wretched pilgrim;</l>
-                <l n="6467">He almost ceased to take another step.</l>
+                <l n="6467">He almost gave up the idea of taking another step.</l>
                 <l n="6468">[But then] he began to remember his oath,</l>
                 <l n="6469">Right away he wrested himself away from these bad thoughts.</l>
                 <l n="6470">He beat his breast, then he looked up</l>
@@ -7594,7 +7594,7 @@
                 <l n="6480">I have a lord who is called Charles;</l>
                 <l n="6481">He has the entire world under his rule.</l>
                 <l n="6482">There is no man, king, duke or prince</l>
-                <l n="6483">Who does not serve him with his body or through payment.</l>
+                <l n="6483">Who does not serve him out of love or for money.</l>
                 <l n="6484">A vain desire came to him,</l>
                 <l n="6485">So that he had me swear on the saints in front of him </l>
                 <l n="6486">That I would go find Hell.</l>
@@ -7610,10 +7610,10 @@
                 <l n="6496">If I have not first descended into Hell,</l>
                 <l n="6497">So that I can describe both the entrance and the exit,</l>
                 <l n="6498">What kind of army [the Devil] will be able to assemble.<note xml:id="trans6498"/></l>
-                <l n="6499">I've suffered for more than seven whole years;</l>
-                <l n="6500">I don't know how to find it, nor who might be able to show [me].</l>
-                <l n="6501">There is no more sorrowful man ever born of woman!</l>
-                <l n="6502">You who make me recount my mission,</l>
+                <l n="6499">I've suffered for more than six whole years;</l>
+                <l n="6500">I don't know how to find it, nor who might be able to show it [to me].</l>
+                <l n="6501">No more sorrowful man was ever born of woman!</l>
+                <l n="6502">You who have me recount my mission,</l>
                 <l n="6503">Explain to me this great marvel.</l>
                 <l n="6504">How do you know how to speak correct French thus</l>
                 <l n="6505">And come to inhabit such a place</l>
@@ -7635,10 +7635,10 @@
                 <l n="6518">Is a lady near that mountain.</l>
                 <l n="6519">Neither Medea nor Helen was as beautiful,</l>
                 <l n="6520">There is no one like her from here all the way to Brittany.</l>
-                <l n="6521">She is the queen of necromancy:</l>
+                <l n="6521">She is the truly the queen of necromancy:</l>
                 <l n="6522">She knows more about it, I tell you without deception,</l>
                 <l n="6523">Than many instructors from Toledo in Spain might know.</l>
-                <l n="6524">I'll tell you truthfully, without lying</l>
+                <l n="6524">She'll tell you truthfully, without lying</l>
                 <l n="6525">About the marvels that your heart might scorn."</l>
             </lg>
             <lg type="laisse" n="254">
@@ -7652,30 +7652,30 @@
                 <l n="6531">In order to possess the entire world,</l>
                 <l n="6532">And he came here to see these trees<note xml:id="trans6532"/></l>
                 <l n="6533">So that they tell the truth concerning his fate,</l>
-                <l n="6534">Through force and through necessity, the peers of France</l>
-                <l n="6535">Came to send him tribute and great riches.</l>
+                <l n="6534">The peers of France, perforce by necessity,</l>
+                <l n="6535">Sent him tribute and great riches.</l>
                 <l n="6536">Three hundred envoys, each one with great authority,</l>
                 <l n="6537">Came of their own free will, accompanied by their ladies,</l>
                 <l n="6538">To see and meet Alexander.</l>
                 <l n="6539">They brought maidens and officers and riches;</l>
                 <l n="6540">Once they had passed where King Porus reigns,</l>
                 <l n="6541">They followed close behind Alexander's army.</l>
-                <l n="6542">But one evening the path ran out;</l>
-                <l n="6543">While they saw it, they couldn't follow it.</l>
+                <l n="6542">But one evening they lost the path;</l>
+                <l n="6543">When they looked, they couldn't find it.</l>
                 <l n="6544">Among these woods, indeed, over in this direction,</l>
                 <l n="6545">There is a city that belonged to Duke Saloire;</l>
-                <l n="6546">All the others near that splendid kingdom</l>
-                <l n="6547">Didn't amount to the value of a single pear.</l>
+                <l n="6546">All others beside that splendid kingdom</l>
+                <l n="6547">Don't amount to the value of a single pear.</l>
                 <l n="6548">There one finds the best food and drink;</l>
                 <l n="6549"><cb n="b"/>All spices bloom there, [including] mandrake.<note xml:id="trans6549"/></l>
                 <l n="6550">If you go there (there is no disbelieving this),</l>
                 <l n="6551">You could never get enough;<note xml:id="trans6551"/></l>
-                <l n="6552">We never lack anything, except what comes from purveyors.<note xml:id="trans6552"/></l>
+                <l n="6552">We have no suffering, only true joy.<note xml:id="trans6552"/></l>
                 </lg>
             <lg type="laisse" n="255">
                 <head>Laisse 255</head>
                 <l n="6553">Furthermore, vassal, I tell you, if you go there</l>
-                <l n="6554">To see this lady of great power,</l>
+                <l n="6554">To see this lady of great power,<note xml:id="trans6554"/></l>
                 <l n="6555">You wouldn't be able to leave in the morning.</l>
                 <l n="6556">The beautiful city, the forests and the garden</l>
                 <l n="6557">So delighted our ancestral lineage,</l>
@@ -7684,33 +7684,33 @@
                 <l n="6560">They stayed there, until their end.</l>
                 <l n="6561">From them were born girls and boys,</l>
                 <l n="6562">With whom this, our territory, was populated.</l>
-                <l n="6563">From this land you can take away the information</l>
+                <l n="6563">From this land you can take away the trick [to finding Hell]<note xml:id="trans6563"/></l>
                 <l n="6564">With which you can accomplish your entire quest.</l>
                 <l n="6565">The noble lady to whom we are devoted</l>
                 <l n="6566">Is very knowledgeable in magic.</l>
                 <l n="6567">If you can get close to her,<note xml:id="trans6567"/></l>
-                <l n="6568">You will have land and control of land.</l>
-                <l n="6569">And then you will know everything you have to do,</l>
+                <l n="6568">You will have the land and the control of the land.</l>
+                <l n="6569">And then you will know exactly how to do it,</l>
                 <l n="6570">How you might enter [the land of] the fallen angels."</l>
             </lg>
             <lg type="laisse" n="256">
                 <head>Laisse 256</head>
                 <l n="6571">"May it not please God," answered Count Huon,</l>
-                <l n="6572">"That I ever deal wrongfully in magic,</l>
-                <l n="6573">Nor [may it please] my wife when I have so much reason</l>
-                <l n="6574">To love her without any betrayal.</l>
-                <l n="6575">She will never have any occasion owing to my error</l>
+                <l n="6572">"Nor my wife, when I have so much reason</l>
+                <l n="6573">To love her without any betrayal</l>
+                <l n="6574">That I ever deal wrongfully in magic.</l>
+                <l n="6575">There will be no occasion owing to my error</l>
                 <l n="6576">To act any way but well toward me,</l>
                 <l n="6577">For I have no wish to speak like the Devil.</l>
                 <l n="6578">But I will certainly come to your dwelling,</l>
                 <l n="6579">In order to see your lady [and] speak to your barons;</l>
-                <l n="6580">None of her magic or any lesson<note xml:id="trans6580"/></l>
+                <l n="6580">None of her chants or readings<note xml:id="trans6580"/></l>
                 <l n="6581">Can make me change my intention.</l>
-                <l n="6582">This thing that I'm asking about,</l>
+                <l n="6582">This thing that I'm seeking,</l>
                 <l n="6583">I know [it's] impossible, and I know it well,</l>
                 <l n="6584">If it doesn't please the Lord of Heaven.</l>
                 <l n="6585">Scripture speaks of it, we know that well.</l>
-                <l n="6586"><milestone n="46V" unit="fol."/><cb n="a"/>They can truly reveal to me shadows that don't exist,<note xml:id="trans6586"/></l>
+                <l n="6586"><milestone n="46V" unit="fol."/><cb n="a"/>[Her enchantments] can surely reveal in shadow forms what doesn't exist,</l>
                 <l n="6587">However I clearly must be there in person</l>
                 <l n="6588">And relate my message to [the Devil] for Charles.</l>
                 <l n="6589">I know well this cannot be; you speak in vain.</l>
@@ -7734,7 +7734,7 @@
                 <l n="6607">Touch us on the hips and chin;</l>
                 <l n="6608">Then you'll feel whether we are flesh or not."</l>
                 <l n="6609">The count swore by Saint Peter of Rome:<note xml:id="trans6609"/></l>
-                <l n="6610">"I'll come to you, be it well or ill."</l>
+                <l n="6610">"I'll come with you, be it well or ill."</l>
             </lg>
             <lg type="laisse" n="257">
                 <head>Laisse 257</head>
@@ -7744,9 +7744,9 @@
                 <l n="6614">Once he had stuck it [in the ground], which he did without delay,</l>
                 <l n="6615">He attached his ship [to it], then said without any fear</l>
                 <l n="6616">To the maidens, "Whenever it pleases you,</l>
-                <l n="6617">To look again upon your home,</l>
-                <l n="6618">I'm at your disposal, my ladies,</l>
-                <l n="6619">[Riding] this valiant war horse."</l>
+                <l n="6617">My ladies, I am at your disposal,</l>
+                <l n="6618">[Riding] this valiant war horse,,</l>
+                <l n="6619">To go see your home."</l>
                 <l n="6620">Then the messenger from France mounted up;</l>
                 <l n="6621">If he can't now maintain the habit</l>
                 <l n="6622">Of chastity because of his great abstinence,</l>
@@ -7758,23 +7758,23 @@
             </lg>
             <lg type="laisse" n="258">
                 <head>Laisse 258</head>
-                <l n="6628">Near the damsels, who seemed from noble lineage,</l>
+                <l n="6628">Near the damsels, who seemed from noble lineage,<note xml:id="trans6628"/></l>
                 <l n="6629">Rode Huon, without any bad intention;</l>
                 <l n="6630">The three in front, in order to shorten their journey,</l>
                 <l n="6631">Sang a song in their language</l>
-                <l n="6632">To better attract the messenger to them.</l>
+                <l n="6632">The better to attract the messenger to them.</l>
                 <l n="6633">The little birds who are in the forest</l>
                 <l n="6634">On the trees when the [spring] season arrives</l>
                 <l n="6635">Don't know the way to sing [any better]</l>
                 <l n="6636">Than [the damsels] did for love of the messenger.</l>
                 <l n="6637">As they came out of that uninhabited place,</l>
                 <l n="6638">They found fields, woods and the riverbank,</l>
-                <l n="6639">And leafy herbs and grassy meadows;</l>
+                <l n="6639">And foliage and meadows of spice plants;</l>
                 <l n="6640">From them wafted a pungent fragrance to their noses!<note xml:id="trans6640"/></l>
                 <l n="6641">Before him [Huon] saw a large, wide castle;</l>
                 <l n="6642">He had never seen such a beautiful one in his life;</l>
                 <l n="6643">It pleased the count in his heart more</l>
-                <l n="6644">Than the island of Carthage pleased Dido.<note xml:id="trans6644"/></l>
+                <l n="6644">Than the city of Carthage pleased Dido.</l>
                 </lg>
             <lg type="laisse" n="259">
                 <head>Laisse 259</head>
@@ -7791,7 +7791,7 @@
                 <l n="6655">He saw maidens and youths singing.</l>
                 <l n="6656">They walked two by two holding hands;</l>
                 <l n="6657">When they saw him, both him and his charger,</l>
-                <l n="6658">They left off singing right away,</l>
+                <l n="6658">They left off singing and dancing a carole right away,<note xml:id="trans6658"/></l>
                 <l n="6659">And descended quickly from the wall.</l>
                 <l n="6660"><milestone n="47R" unit="fol."/><cb n="a"/>Just as the count entered the estate,</l>
                 <l n="6661">The maidens placed themselves in front;</l>
@@ -7804,13 +7804,13 @@
             </lg>
             <lg type="laisse" n="260">
                 <head>Laisse 260</head>
-                <l n="6668">When two great armies have fought in the field</l>
-                <l n="6669">And the messenger departs in front of those who have won</l>
-                <l n="6670">Only in order to have rewards from their fellows,<note xml:id="trans6670"/></l>
-                <l n="6671">He then returns to the place from which they came.</l>
-                <l n="6672">Since he has earned this kind of greeting [like the one Huon received]<note xml:id="trans6672"/></l>
+                <l n="6668">Whenever two great armies have fought in the field,</l>
+                <l n="6669">The messenger departs from those who had fought and won</l>
+                <l n="6670">---Solely in order to be granted booty by their lord---</l>
+                <l n="6671">And then returns to the place from which they had come,</l>
+                <l n="6672">After having earned such good fortune.</l>
                 <l n="6673">When he is seen by the people,</l>
-                <l n="6674">Entering rejoicing, grasping a garlanded lance,<note xml:id="trans6674"/></l>
+                <l n="6674">Entering rejoicing, grasping a leafy branch,<note xml:id="trans6674"/></l>
                 <l n="6675">Everyone great and small runs up to him</l>
                 <l n="6676">And asks, "What news do you have?"</l>
                 <l n="6677">When [the knight] answers, everyone grows completely silent</l>
@@ -7837,10 +7837,10 @@
                 <l n="6695">And another [playing] dice, and [others playing] backgammon and chess,</l>
                 <l n="6696">And everywhere he saw [them] courting ladies.</l>
                 <l n="6697"><cb n="b"/>But [he saw] most of them singing and caroling,</l>
-                <l n="6698">They didn't talk about eating and drinking</l>
-                <l n="6699">Except for pleasure and boasting.</l>
-                <l n="6700">Even the count could not bear</l>
-                <l n="6701">To see them and look at them.</l>
+                <l n="6698">Not to mention eating and drinking</l>
+                <l n="6699">[He saw] only pleasure and vain pursuits.</l>
+                <l n="6700">The count himself could not resist</l>
+                <l n="6701">Looking and gazing at them.</l>
                 <l n="6702">He began to speak to himself:</l>
                 <l n="6703">"There is no equal to this castle anywhere in the world!</l>
                 <l n="6704">If I believed that it wouldn't be a betrayal of my wife</l>
@@ -7851,13 +7851,13 @@
                 <l n="6709">Would have to think of another messenger."</l>
                 <l n="6710">Once he had said this he began staring;</l>
                 <l n="6711">In a spot where he had to dismount,</l>
-                <l n="6712">He saw a lady seated above the others.</l>
-                <l n="6713">Many people approached her for advice</l>
-                <l n="6714">In twos and threes, each one wishing speak to her,<note xml:id="trans6714"/></l>
-                 <l n="6715">Such that he himself began to marvel.</l>
+                <l n="6712">He saw a lady situated above the others.</l>
+                <l n="6713">Many people approached her for advising</l>
+                <l n="6714">Twenty or thirty at a time, each one wishing speak to her,</l>
+                <l n="6715">Such that he himself began to marvel.</l>
                 <l n="6716">When they saw everyone going right up to him,</l>
                 <l n="6717">A group ran to him, [right up] to [his] stirrup.</l>
-                <l n="6718">Quite nobly they began to speak:</l>
+                <l n="6718">They began speaking quite openly to him:</l>
                 <l n="6719">"You must present yourself to our lady.</l>
                 <l n="6720">At this time, I believe, she is without peer</l>
                 <l n="6721">When it comes to helping a good man with great knowledge."</l>
@@ -7885,7 +7885,7 @@
             <lg type="laisse" n="263">
                 <head>Laisse 263</head>
                 <l n="6739">The count was brought into the lower hall,</l>
-                <l n="6740">Where they were singing better than sirens.</l>
+                <l n="6740">Here they were singing better than sirens.</l>
                 <l n="6741">On a bench at the highest position</l>
                 <l n="6742">Sat the great lady who ruled over the others;</l>
                 <l n="6743">She was dressed in black just like a nun,</l>
@@ -7893,11 +7893,11 @@
                 <l n="6745">Her body was very white and scarlet-colored,</l>
                 <l n="6746">Her eyes large and sparkling and secretly laughing,</l>
                 <l n="6747">Seeming more joyful than any other chatelaine.</l>
-                <l n="6748">If she had been a human creature,</l>
-                <l n="6749">Polyxena and Helen would not have been as beautiful;</l>
-                <l n="6750">But they were even further from her beauty</l>
-                <l n="6751">Than an old woman would be from a water nymph;<note xml:id="trans6751"/></l>
-                <l n="6752">Yet her beauty was completely false and vain.</l>
+                <l n="6748">Had she been a human creature,</l>
+                <l n="6749">Polyxena and Helen could not have been as beautiful;</l>
+                <l n="6750">On the contrary their beauty would have been much further apart</l>
+                <l n="6751">Than an old woman's from that of a water nymph;<note xml:id="trans6751"/></l>
+                <l n="6752">Nevertheless her beauty was completely false and vain.</l>
             </lg>
             <lg type="laisse" n="264">
                 <head>Laisse 264</head>
@@ -7916,10 +7916,10 @@
                 <l n="6765">"[My] lady," he said, "to your question</l>
                 <l n="6766">I reply: I'm from near France, the broad [country].<note xml:id="trans6766"/></l>
                 <l n="6767">I'm from Auvergne, its lady is my wife.</l>
-                <l n="6768">It's been six whole years that she has been far away from me,</l>
-                <l n="6769">Because the emperor of Rome the renowned,</l>
-                <l n="6770">Who is king and lord over all living people</l>
-                <l n="6771"><cb n="b"/>Has wrongly conceived of something quite foolish, </l>
+                <l n="6768">It's been six whole years since</l>
+                <l n="6769">That emperor of Rome the renowned,</l>
+                <l n="6770">Who is king and lord over all living people, separated her from me.</l>
+                <l n="6771"><cb n="b"/>For he wrongly conceived of something quite foolish, </l>
                 <l n="6772">That he wants tribute from the people driven</l>
                 <l n="6773">Down from Heaven because of their plotting.</l>
                 <l n="6774">He made me swear when I was sent off</l>
@@ -7931,7 +7931,7 @@
                     the king]:</l>
                 <l n="6780">He won't leave him anything at all;<note xml:id="trans6780"/></l>
                 <l n="6781">He will be completely dispossessed."</l>
-                <l n="6782">The lady heard this and jested</l>
+                <l n="6782">The lady heard this and laughed at it,</l>
                 <l n="6783">Saying to the vassal, "And you, what do you have in mind [to do]?"</l>
                 <l n="6784">And he replied, with a troubled look,</l>
                 <l n="6785">"To find this place of the damned."<note xml:id="trans6785"/></l>
@@ -7956,23 +7956,23 @@
                 <l n="6801">There is nothing in this earthly life,</l>
                 <l n="6802">[That,] if I could do it well and reasonably</l>
                 <l n="6803">For you, I would not do at your command.</l>
-                <l n="6804">You see me here [ready] to take an oath,</l>
+                <l n="6804">You see me here [ready] to swear it,</l>
                 <l n="6805">If I can do it henceforth."</l>
             </lg>
             <lg type="laisse" n="266">
                 <head>Laisse 266</head>
                 <l n="6806">"Vassal," she said, "your coming here</l>
-                <l n="6807">Delights me and urges [me]</l>
+                <l n="6807">Delights me above all things and urges [me]</l>
                 <l n="6808"><milestone n="48R" unit="fol."/><cb n="a"/>To serve you without any restraint.</l>
                 <l n="6809">The great beauty that I have seen in you</l>
                 <l n="6810">Turns what I have lost into joy;</l>
-                <l n="6811">I am restored by meeting you</l>
-                <l n="6812">For my lord of whom I've been deprived.<note xml:id="trans6812"/></l>
-                <l n="6813">I hold you as lord and I as your beloved;</l>
+                <l n="6811">I am revived by meeting you</l>
+                <l n="6812">Following the loss of my lord.<note xml:id="trans6812"/></l>
+                <l n="6813">I hold you as lord and I [hold myself] as your beloved;</l>
                 <l n="6814">Accept me and right away I'll turn over to you</l>
                 <l n="6815">All the land that I have held for such a long time</l>
                 <l n="6816">If you will hold me naked in your arms tonight.</l>
-                <l n="6817">As soon as the light of day appears tomorrow,</l>
+                <l n="6817">Before the light of day appears tomorrow,</l>
                 <l n="6818">By the strength of the skill in which I believe myself accomplished,</l>
                 <l n="6819">I'll send you down among the fallen people."<note xml:id="trans6819"/></l>
                 <l n="6820">Then the count made an woeful face;</l>
@@ -7986,8 +7986,8 @@
             <lg type="laisse" n="267">
                 <head>Laisse 267</head>
                 <l n="6827">When the lady heard what he said,</l>
-                <l n="6828">That the vassal would not consent to it at all,</l>
-                <l n="6829">[That is,] to give his love, but rather resisted her,</l>
+                <l n="6828">That the vassal would not consent at all</l>
+                <l n="6829">To give his love, but rather resisted her,</l>
                 <l n="6830">She appealed to him again and entreated him gently:</l>
                 <l n="6831">"Friend," she said, "you have already pledged [your] faith to me,</l>
                 <l n="6832">That you'll do my every command.</l>
@@ -7996,7 +7996,7 @@
                 <l n="6835">Who should refuse me as a beloved.</l>
                 <l n="6836">But I believe you to be full of cowardice,</l>
                 <l n="6837">When you possess something good and [yet] go seeking foolishness.</l>
-                <l n="6838">And I would consider myself above all mad</l>
+                <l n="6838">And besides, I would consider myself completely mad</l>
                 <l n="6839">To love someone who doesn't welcome it.</l>
                 <l n="6840">You'll make me say a very foolish thing;</l>
                 <l n="6841">If I didn't have any company here</l>
@@ -8012,7 +8012,7 @@
                 <l n="6851">Carry out my wish now and you'll be acting courteously."</l>
                 <l n="6852">Once he had heard the end of this speech,</l>
                 <l n="6853">The count kept his face very humble</l>
-                <l n="6854">In the manner of a slave who cries for mercy from his master.</l>
+                <l n="6854">In the manner of a servant who cries for mercy from his master.<note xml:id="trans6854"/></l>
                 <l n="6855">Then, in tears, he bowed over down to the ground;</l>
                 <l n="6856">The more he looked at her, the more his heart softened,</l>
                 <l n="6857">So strongly that he didn't know how to express himself.</l>
@@ -8033,9 +8033,9 @@
                 <l n="6869">With these words, which the count heard,</l>
                 <l n="6870">They were pushing him towards sin; Nature reinforced it</l>
                 <l n="6871">Beyond the desire that his eyes procured.</l>
-                <l n="6872">But Abstinence was there which rejected it for him</l>
-                <l n="6873">From the great stain that Nature gave him</l>
-                <l n="6874">[That] afflicted our count concerning his need;<note xml:id="trans6874"/></l>
+                <l n="6872">But Abstinence was there which freed him from it,</l>
+                <l n="6873">From the great stain that Nature gave him:</l>
+                <l n="6874">Beyond the need that visited our count,<note xml:id="trans6874"/></l>
                 <l n="6875">A sweet love of Abstinence mounted in him</l>
                 <l n="6876">Which so thoroughly shielded his heart</l>
                 <l n="6877">That he exited and said he'd return quickly;<note xml:id="trans6877"/></l>
@@ -8078,26 +8078,26 @@
                 <l n="6905">Then he returned [to the place] from which he had come.</l>
                 <l n="6906">As soon as he was in the hall,</l>
                 <l n="6907">He thought to find joy and entertainment [going on];</l>
-                <l n="6908">[But] the clear faces had become troubled</l>
+                <l n="6908">[But] the cheerful faces had become troubled</l>
                 <l n="6909">And the singing had turned into silence.</l>
                 <l n="6910">Never had the barons of Macedonia been so upset</l>
                 <l n="6911">Since the son of Philip had been taken from them</l>
                 <l n="6912">When he drank the poison</l>
-                <l n="6913">As [they were] when they found the count completely dazed and bruised.<note xml:id="trans6913"/></l>
+                <l n="6913">As [the courtiers were] when the count found them completely distraught.</l>
                 <l n="6914">Now they understood clearly, indeed they perceived,</l>
                 <l n="6915">That he had fought off the sin;</l>
                 <l n="6916">Through abstinence he had defeated the plot.</l>
-                <l n="6917">Then he cried out as much as he could for strength,</l>
+                <l n="6917">Then he cried out with as much strength as he could:</l>
                 <l n="6918">"Succor your servant, O God, Father of Jesus!</l>
-                <l n="6919"><cb n="b"/>Help me, don't fall away [from me],</l>
+                <l n="6919"><cb n="b"/>Help me, don't let me be deceived by this;</l>
                 <l n="6920">I see that I came to this place foolishly."</l>
                 <l n="6921">Once he had said this, he saw another miracle:</l>
                 <l n="6922">The [well-]dressed young women and young men</l>
                 <l n="6923">All turned into horned devils.</l>
                 <l n="6924">They seemed to be overcome by great rage;</l>
-                <l n="6925">No trees reaching to the sky ever made such a noise</l>
-                <l n="6926">When cracking in howling winds</l>
-                <l n="6927">As those devils who were defeated.<note xml:id="trans6927"/></l>
+                <l n="6925">No thunder in the air when winds came up</l>
+                <l n="6926">Ever made such a noise when it broke</l>
+                <l n="6927">As did those devils who were defeated.</l>
                 <l n="6928">The count remained alone in the hall;</l>
                 <l n="6929">On all four sides there were fires ignited.</l>
             </lg>
