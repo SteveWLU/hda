@@ -50,7 +50,8 @@
         </front>
         <body>
             <div>
-                <note target="#trans1" type="ref" resp="#LZM">1] This is a standard lyric poetry beginning, not usually epic.</note>
+                <note target="#trans1" type="ref" resp="#SSB">1] This is a standard opening for lyric poetry, not usually found in epic.</note>
+                <note target="#trans51" type="lex" resp="#SSB"> 51] <hi rend="italic">Marchis</hi> will always be translated as "marquis," which in OF designated the count of a borderland, a "march." Huon is most frequently called a count, but is occasionally called a marquis, a baron or a vassal.</note>
                 <note target="#trans175" type="lex" resp="#SSB"> 175] Gutty gueles, William H. Whitmore, <hi rend="italic">The Elements of Heraldry</hi>  (Rutland VT: Tuttle, 1968), p. 97.</note>
                 <note target="#trans189" type="interp" resp="#SSB">189] Huon and the king are watching from the castle the battle between the Auvergnats and the king's men. They don't participate at first in the tournament.</note>
                 <note target="#trans210" type="interp" resp="#SSB">210] The expression "les bornes d'Artus" refers to the eastern limits of the known world. See <hi rend="italic">Roman d'Alexandre</hi>, Book 1, line 128.</note>
@@ -115,8 +116,8 @@
                 <note target="#trans2259" type="lit" resp="#SSB">2259] Literally: [...] the day was at nones</note>
                 <note target="#trans2268" type="interp" resp="#SSB">2268] This seems to refer to the candle in line 2254 and the revelation of who is to be king.</note>
                 <note target="#trans2285" type="lit" resp="#SSB">2285] Literally: Put into your hearing and heart this true tale</note>
-                <note target="#trans2396" type="refer" resp="#SSB">2396] Cf. T 2422: <hi rend="italic">p[er]zò Dio li dona forza</hi> e natura francha"; perhaps <hi rend="italic">stoie</hi> < "estout" which would give an alternative translation of "bold nature"</note>
-                <note target="#trans2404" type="alttrans" resp="#SSB">2404] Alternative translation: [...] that he doesn't suffer for faith (<hi rend="italic">penoie</hi> < OF "pener" which can mean "make an effort" or "suffer") </note>
+                <note target="#trans2396" type="refer" resp="#SSB">2396] Cf. T 2422: <hi rend="italic">p[er]zò Dio li dona forza</hi> e natura francha"; perhaps <hi rend="italic">stoie</hi> deriving from "estout" which would give an alternative translation of "bold nature"</note>
+                <note target="#trans2404" type="alttrans" resp="#SSB">2404] Alternative translation: [...] that he doesn't suffer for faith (<hi rend="italic">penoie</hi> deriving from OF "pener" which can mean "make an effort" or "suffer") </note>
                 <note target="#trans2418" type="lex" resp="#SSB">2418] <hi rend="italic">çausir</hi>: see Holtus <hi rend= "italic">Lexikalisches</hi>, p. 248, <num rend="smallcaps">çausi</num>.</note>
                 <note target="#trans2445" type="interp" resp="#SSB">2445] This seems to refer to Samson who is opposed to abandoning Huon. See Laisse 136 where they find each other again.</note>
                 <note target="#trans2492" type="interp" resp="#SSB">2492] Ironic comment referring to the greater robbers they would meet (see line 2494).</note>
@@ -359,10 +360,9 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans6891" type="alttrans" resp="#SSB">6891] Alternate translation: [...] toward the worst treachery</note>
                 <note target="#trans6912" type="refer" resp="#SSB">6912] According to the (<hi rend="italic">Romance of Alexander</hi>), Alexander the Great died of poison administered by his own men, Antipater and Divinuspater..</note>
                 <note target="#trans6934" type="interp" resp="#SSB">6934] The epithet "heavenly speech" seems to refer to prayer for Huon begins to pray at this point.</note>
-                <note target="#trans6938" type="refer" resp="#SSB">6938] Opening line of Simeon's canticle in Luke 2.29-32: Now thou dost dismiss thy servant, O Lord (<hi rend="italic">Catholic Encyclopedia</hi>).</note>
+                <note target="#trans6939" type="refer" resp="#SSB">6939] Opening line of Simeon's canticle in Luke 2.29-32: Lord, now lettest thou thy servant depart in peace (Simeon's words to Joseph and Mary when seeing Jesus, a sight he had been promised before death)</note>
                 <note target="#trans6944" type="alttrans" resp="#SSB">6944] Perhaps <hi rend="italic">noit</hi> is confused with <hi rend="italic">noif</hi> (snow) which would suggest an alternative translation: Just as happens to the snow from the burning sun (Cf. T 6630: <hi rend="italic">como se desfà la neve p[er] lo sole artendo)</hi></note>
-                <note target="#trans6945" type="lit" resp="#SSB">6945] Literally: The first one nobly carried a book</note>
-                <note target="#trans6974" type="lex" resp="#SSB">6974] The <hi rend="italic">clavan</hi> (TL) is a piece of armor made of mail or overlapping plates to protect the neck, shoulders and back.</note>
+                <note target="#trans6974" type="lex" resp="#SSB">6974] The <hi rend="italic">clavain</hi> (TL: 466-467) is a piece of armor made of mail or overlapping plates to protect the neck, shoulders and back.</note>
                 <note target="#trans6998" type="lex" resp="#SSB">6998] Translation based on understanding <hi rend="italic">las</hi> as deriving from Latin LATUS; cf. OF "lé, lés"</note>
                 <note target="#trans6999" type="lex" resp="#SSB">6999] <hi rend="italic">tas</hi> translates as "heap" or "pile" but since Huon is traversing a landscape we are translating as "hills." Cf. corresponding note in edition where Stengel suggests translating as "thicket."</note>
                 <note target="#trans7004" type="lex" resp="#SSB">7004] Bucephalus is the name of Alexander's horse. Huon's horse was previously compared to Bucephalus, now he is called by his name metaphorically, essentially a way of calling him an excellent horse.</note>
@@ -370,14 +370,12 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans7011" type="lex" resp="#SSB">7011] FEW: talevas, "bouclier en bois"; cf. <hi rend="italic">Roman d'Alexandre</hi> talavat/z (RIALFrI, 22.XII.2017) from *TALAPACIUM (https://apps.atilf.fr/lecteurFEW/lire/131/35)</note>
                 <note target="#trans7040" type="lex" resp="#SSB">7040] The word <hi rend="italic">arçon</hi> means "saddle-bow" but like "montare in arcione" in modern Italian, here the combination with <hi rend="italic">monter</hi> means "get into the saddle." The movement expressed by the adverbs leads one to translate <hi rend="italic">monta</hi> here by "leaped."</note>
                 <note target="#trans7041" type="alttrans" resp="#SSB">7041] Alternate translation: [...] quickly positioned himself between them. Cf. T 6725 <hi rend="italic">la spea tra</hi>sse, e tosto se fichà entra lor, if we understand <hi rend="italic">en al</hi> = "entre eux."</note>
-                <note target="#trans7062" type="lex" resp="#SSB">7062] This appears to be the masculine word "chemin" adjusted to fit the rhyme, which might imply he was following his usual routine to ready himself for battle.</note>
+                <note target="#trans7062" type="lex" resp="#SSB">7062] This appears to be the masculine word "chemin" adjusted to fit the rhyme. One gets a sense of urgency since he moves forward before he has laced up his helmet (done in the next line).</note>
                 <note target="#trans7118" type="interp" resp="#SSB">7118] Not clear if he is moving closer to the water or is moving along the riverbank to escape the stench.</note>
-                <note target="#trans7128" type="lit" resp="#SSB">7128] Literally: [...]  he hardly felt himself. If the transcription of <hi rend="italic">de sis</hi> is <hi rend="italic">desis</hi>, then an alternative translation might be: he hardly felt [himself] dismount</note>
-                 <note target="#trans7138" type="refer" resp="#SSB">7138] Cf. T 6821: <hi rend="italic">Molty salmy di</hi>ze e possa se rende y[n] soa colpa.</note>
-                <note target="#trans7151" type="interp" resp="#SSB">7151] It's unclear who is eating in this line "in holy charity." Huon may be eating with the horse out of a sense of brotherhood and compassion (other possible meanings of <hi rend="italic">charité</hi>), but is himself eating very little as is his custom during this quest. Note the plural in line 7154.</note>
+                <note target="#trans7128" type="lit" resp="#SSB">7128] Literally: [...]  he hardly felt himself. If the transcription of <hi rend="italic">de sis</hi> is <hi rend="italic">desis</hi>, then an alternative translation might be: he hardly felt [himself] dismount  (although he had dismounted in the previous laisse)</note>
+                <note target="#trans7138" type="refer" resp="#SSB">7138] Cf. T 6821: <hi rend="italic">Molty salmy di</hi>ze e possa se rende y[n] soa colpa.</note>
                 <note target="#trans7170" type="alttrans" resp="#SSB">7170] These two lines have been reordered to make sense in English. The verb <hi rend="italic">part</hi> could be translated as “leave,” giving an alternative translation: The channel emptied; the fish that were there / Didn’t leave; for never did they go out from there</note>
-                <note target="#trans7181" type="refer" resp="#SSB">7181] Cf. T 6864.</note>
-                <note target="#trans7227" type="refer" resp="#SSB">7226] Cf. T 6909.</note>
+                <note target="#trans7226" type="alttrans" resp="#SSB">7226] Alternative translation: It was lucky that the horse wasn't injured [based on T 6909 and Stengel's emendation; cf. corresponding note in transcription]</note>
                 <note target="#trans7241" type="biblio" resp="#SSB">7241] See DiStefano (Vol. 1, p. 914): "Faire journee / sa journee / bonne journee"</note>
                 <note target="#trans7271" type="interp" resp="#SSB">7271] That is, God.</note>
                 <note target="#trans7282" type="interp" resp="#SSB">7282] This seems to be a description of a landscape with constant landslides.</note>
