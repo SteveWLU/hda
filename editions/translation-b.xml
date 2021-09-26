@@ -158,7 +158,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated 18 September 2021</change>
+            <change>Content last updated 22 September 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -224,7 +224,7 @@
                 <l n="48">And who in his time won much honor.</l>
                 <l n="49">But the more he won, the crueler yet he became;</l>
                 <l n="50">There was no king or prince or duke or vavasour,</l>
-                <l n="51">Count or marquis or baron or nobleman</l>
+                <l n="51">Count or marquis or baron or nobleman<note xml:id="trans51"/></l>
                 <l n="52">Who did not serve him out of fear or out of loyalty.</l>
                 <l n="53">One day the king had a wish and desire</l>
                 <l n="54">To see clearly the best of his men, </l>
@@ -7202,7 +7202,7 @@
                 <l n="6135">May He allow me to accomplish everything I have undertaken."</l>
                 <l n="6136">With these words he took hold of the prize war horse,</l>
                 <l n="6137">Put the ship's rope over the [horse's] chest,</l>
-                <l n="6138">And the nobleman led him by the bit</l>
+                <l n="6138">And the marquis led him by the bit</l>
                 <l n="6139">Along the bank of the river Tigris;</l>
                 <l n="6140">Everyone big and small wept for him.</l>
             </lg>
@@ -8111,14 +8111,14 @@
                 <l n="6935">In the middle of the hall he got down on his knees;</l>
                 <l n="6936">He stretched out his hands toward God Almighty,</l>
                 <l n="6937">He recited a psalm, calling out loudly,</l>
-                <l n="6938">"<hi rend="bold">Release your servant now</hi>, Almighty,<note xml:id="trans6938"/></l>
-                <l n="6939">Today in complete peace."</l>
+                <l n="6938">"<hi rend="bold">Let your servant now depart</hi>, Almighty,</l>
+                <l n="6939">Today in complete peace."<note xml:id="trans6939"/></l>
                 <l n="6940">Before he had recited it all to the end,</l>
                 <l n="6941">Three angels descended amidst the flames.</l>
                 <l n="6942">They were all white and their vestments were bright;</l>
                 <l n="6943">The fire was extinguished by their arrival,</l>
                 <l n="6944">Just as happens to the night from the burning sun.<note xml:id="trans6944"/></l>
-                <l n="6945">The first one carried a book in a noble manner;<note xml:id="trans6945"/></l>
+                <l n="6945">The first one carried a book in a noble manner;</l>
                 <l n="6946">He opened it and held it out before the count</l>
                 <l n="6947">In order to comfort the count who was wretched,</l>
                 <l n="6948">And to show that God rewards merit</l>
@@ -8130,28 +8130,28 @@
                 <l n="6954">Yet he was nevertheless somewhat fearful,</l>
                 <l n="6955">Because he couldn't really see their shapes.</l>
                 <l n="6956"><milestone n="49R" unit="fol."/><cb n="a"/>He certainly understood that they were messengers from God Almighty</l>
-                <l n="6957">To comfort him and give encouragement.</l>
+                <l n="6957">To comfort him and give joy.</l>
                 <l n="6958">"<hi rend="bold">Glory in the highest</hi>" was how they began,</l>
                 <l n="6959">Before they said firmly, "<hi rend="bold">peace on earth</hi>."</l>
                 <l n="6960">The song they recited seemed so sweet to the count</l>
                 <l n="6961">That he fell asleep right on the paved floor,</l>
-                <l n="6962">Such that he felt no doubt or fear or expectation.</l>
+                <l n="6962">Such that he felt no doubt or fear or dread.</l>
             </lg>
             <lg type="laisse" n="272">
                 <head>Laisse 272</head>
                 <l n="6963">Here there is a beautiful example for worldly sinners</l>
-                <l n="6964">Who don't become either arrogant or vain:</l>
+                <l n="6964">Who shouldn't be either arrogant or vain:</l>
                 <l n="6965">Out of arrogance--be certain of this--</l>
                 <l n="6966">No earthly man ever served God at all.</l>
                 <l n="6967">But he who wants to be helped by Sovereign God</l>
-                <l n="6968">Must not he himself be base</l>
+                <l n="6968">Must not himself be base</l>
                 <l n="6969">But rather pious toward Him, humble and open,</l>
                 <l n="6970">Nor [must he] despair when he sees himself in distress.</l>
                 <l n="6971">As Odinel now recounts in the vernacular,</l>
                 <l n="6972">The count of Auvergne, sleeping that night,</l>
                 <l n="6973">Rested until the next day.</l>
-                <l n="6974">When he awoke he felt his armor<note xml:id="trans6974"/></l>
-                <l n="6975">And himself and his gambeson all wet</l>
+                <l n="6974">When he awoke he felt his gorget<note xml:id="trans6974"/></l>
+                <l n="6975">And himself and his buckram garments all wet</l>
                 <l n="6976">From the dew that had fallen overnight.</l>
                 <l n="6977">He looked all around himself, he saw nothing of the main hall,</l>
                 <l n="6978">Nor house nor town, city or dwelling.</l>
@@ -8160,33 +8160,32 @@
                 <l n="6981">He saw his war horse tied up by the reins.</l>
                 <l n="6982">Then the faithful Christian knelt down;</l>
                 <l n="6983">Devoutly he stretched his hands toward Heaven:</l>
-                <l n="6984">"Holy Father, you who sent John [the Baptist]</l>
-                <l n="6985">As a witness into this criminal world,</l>
-                <l n="6986">Then you followed after the first one</l>
+                <l n="6984">"Holy Father, You who sent John [the Baptist]</l>
+                <l n="6985">As a witness into the sin of the world,</l>
+                <l n="6986">Then You followed after the first one</l>
                 <l n="6987">To extricate us from dangerous deceit</l>
                 <l n="6988">And in order to save us from original sin,</l>
-                <l n="6989">Help me, Almighty God,</l>
-                <l n="6990">Against those who wish to make me sin through trickery."</l>
+                <l n="6989">Save me, Almighty God,</l>
+                <l n="6990">From those who wish to make me sin through trickery."</l>
                 <l n="6991">Once he had said this, he crossed himself with his hand,</l>
                 <l n="6992">Then he remounted his mighty war horse.</l>
             </lg>
             <lg type="laisse" n="273">
                 <head>Laisse 273</head>
-                <l n="6993"><cb n="b"/>"Horse," said Huon, "why don't you lead me in
-                    these woods,</l>
-                <l n="6994">I don't know the way; you'll show it to me henceforth."</l>
-                <l n="6995">He placed the bridle over and below [the horse's] neck,</l>
+                <l n="6993"><cb n="b"/>"Horse," said Huon, "who led me into these woods,</l>
+                <l n="6994">I don't know the way; show it to me now."</l>
+                <l n="6995">He placed the bridle low over [the horse's] neck,</l>
                 <l n="6996">Then he said to him, "Go where you please!"</l>
                 <l n="6997">The good war horse took off quickly;</l>
-                <l n="6998">He passed through the forest, which was quite extensive;<note xml:id="trans6998"/></l>
-                 <l n="6999">He passed by boulders and valleys and hills;<note xml:id="trans6999"/></l>
+                <l n="6998">He passed through the forest, which was very extensive;<note xml:id="trans6998"/></l>
+                 <l n="6999">He passed by cliffs and valleys and hills;<note xml:id="trans6999"/></l>
                  <l n="7000">As far as the riverbank of the Euphrates' companion</l>
                 <l n="7001">He came, where the Tigris rushes.</l>
                 <l n="7002">He had carried a great burden and great weight;</l>
                 <l n="7003">When he arrived at the river, evening had already fallen.</l>
                 <l n="7004">The count dismounted from the proud Bucephalus;<note xml:id="trans7004"/></l>
                 <l n="7005">When he saw the ship that he had never believed to find again,</l>
-                <l n="7006">He never would have had such joy for all the riches of Baldras;<note xml:id="trans7006"/></l>
+                <l n="7006">He never would have had such joy for all the riches of Baghdad;<note xml:id="trans7006"/></l>
                 <l n="7007">Then the nobleman gave thanks to Saint Nicholas.</l>
                 <l n="7008">"Horse," said Huon, "you have toiled for me;</l>
                 <l n="7009">The way I see it, you'll eat first."</l>
@@ -8208,19 +8207,19 @@
                 <l n="7022">He cried out to the horse saying, "Forward, let's go!"</l>
                 <l n="7023">He made his way along the bank of the river;</l>
                 <l n="7024">He was hindered by absolutely nothing</l>
-                <l n="7025">From outside, neither troublesome beast nor demon; </l>
-                <l n="7026">Only when four days had passed,</l>
-                <l n="7027">He found evil birds aplenty.</l>
+                <l n="7025">From outside, not beast or vermin or demon </l>
+                <l n="7026">Until four days had passed,</l>
+                <l n="7027">When he found evil birds aplenty.</l>
                 <l n="7028">They were blacker than stirred ink,</l>
                 <l n="7029">With huge beaks like thick hammers;</l>
                 <l n="7030"><milestone n="49V" unit="fol."/><cb n="a"/>The smallest one was immeasurably large.</l>
                 <l n="7031">Three of them would have loaded up a cart;</l>
                 <l n="7032">They lived on fish that they found in the river.</l>
-                <l n="7033">The first one noticed that count; </l>
+                <l n="7033">The first one that noticed the count </l>
                 <l n="7034">Because of the horse, at which it was astonished,</l>
-                <l n="7035">It abandoned the river and turned toward him;</l>
+                <l n="7035">Abandoned the river and turned toward him;</l>
                 <l n="7036">It gave out such a cry from its throat,</l>
-                <l n="7037">That the war horse turned completely aside from it.</l>
+                <l n="7037">That the war horse shied way back from it.</l>
             </lg>
             <lg type="laisse" n="275">
                 <head>Laisse 275</head>
@@ -8235,7 +8234,7 @@
                 <l n="7046">The fierce bird gave him such a blow</l>
                 <l n="7047">As no blacksmith ever struck on an anvil.</l>
                 <l n="7048">But with his sword [Huon] struck it down;</l>
-                <l n="7049">He sliced its neck, down to the chest.</l>
+                <l n="7049">He sliced its neck at the level of the chest.</l>
                 <l n="7050">The trunk of the body fell to the ground;</l>
                 <l n="7051">It resembled a stone thrown by a catapult.</l>
                 <l n="7052">May God, the Heavenly Father, help the count,</l>
@@ -8243,15 +8242,15 @@
             </lg>
             <lg type="laisse" n="276">
                 <head>Laisse 276</head>
-                <l n="7054">The count, had killed the huge bird.</l>
-                <l n="7055">Then he was gravely attacked by the others,</l>
-                <l n="7056">Therefore he got himself ready like a well-trained man;</l>
-                <l n="7057">The nobleman quickly boarded his ship.</l>
-                <l n="7058">First [he seized] the Arab war horse's coverlets</l>
-                <l n="7059">Made of two silks and rich samite;</l>
-                <l n="7060">As quickly as he could, he placed it over [the horse],</l>
+                <l n="7054">The huge bird that the count had killed</l>
+                <l n="7055">Was then vigorously assaualted by the others,</l>
+                <l n="7056">So he got himself ready like a well-trained man;</l>
+                <l n="7057">The marquis hastily boarded his ship.</l>
+                <l n="7058">First, as quickly as he could, he placed </l>
+                <l n="7059">The Arab war horse's coverlets,</l>
+                <l n="7060">Made of two silks and rich samite, up over him.</l>
                 <l n="7061">Then he arranged the rope around the golden saddle-bow.</l>
-                <l n="7062">With a spear in his hand, he took his path;<note xml:id="trans7062"/></l>
+                <l n="7062">With a spear in his hand, he set off;<note xml:id="trans7062"/></l>
                 <l n="7063">He laced up his polished helmet.</l>
                 <l n="7064">He took hold of his curved shield by the leather straps;</l>
                 <l n="7065">He urged the horse forward to attack;</l>
@@ -8263,9 +8262,9 @@
                 <l n="7071">Such a dreadful fight with foot, with beak,</l>
                 <l n="7072">That the count never thought to escape alive.</l>
                 <l n="7073">He wasn't slow to defend himself well;</l>
-                <l n="7074">Before he was hurt, he had, with his keen blade,</l>
-                <l n="7075">Killed more than fifteen of them in that wasteland. </l>
-                <l n="7076">When his sword broke, he was very distressed;</l>
+                <l n="7074">Before it shattered, he killed more than fifteen of them</l>
+                <l n="7075">In that wasteland with his sharp spear. </l>
+                <l n="7076">When his spear broke, he was very distressed;</l>
                 <l n="7077">The birds harassed him with wing and beak as well.</l>
                 <l n="7078">If he cried out to God, he shouldn't be blamed.</l>
             </lg>
@@ -8276,43 +8275,42 @@
                 <l n="7081">He killed rather a lot of them like a brave man;</l>
                 <l n="7082">He prayed to God the Father, that He come to his aid.</l>
                 <l n="7083">The powerful fighter made such a effort</l>
-                <l n="7084">That he vigorously knocked it away from that place</l>
-                <l n="7085">[And] the other into the river Tigris without [hope of] rescue.</l>
+                <l n="7084">That he vigorously knocked them away from him</l>
+                <l n="7085">[And] the others into the river Tigris without [hope of] rescue.</l>
                 <l n="7086">Thenceforward, nothing would harm him anymore,</l>
                 <l n="7087">But soon after this [something] worse surrounded them:</l>
                 <l n="7088">A flock of small birds, not very big,</l>
                 <l n="7089">Similar to partridges, for they weren't any larger</l>
                 <l n="7090">--I don't know--in their beaks and wings they resembled them.</l>
                 <l n="7091">If they touched anything alive where it was uncovered below,</l>
-                <l n="7092">Know this, they would surely have such a stab,</l>
-                <l n="7093">That soon they would swell, they would never be healed from the
-                    blows.</l>
+                <l n="7092">Know this, they would surely have such a bite,</l>
+                <l n="7093">That soon they would swell, they would never be healed from the effect [of the bite].</l>
                 <l n="7094">A flock of these evil birds rose up</l>
                 <l n="7095">Such that the air was obscured by them and all in shadow,</l>
                 <l n="7096">So that a man could hardly see in front of himself.</l>
                 <l n="7097">May God keep the count and the mettlesome war horse!</l>
-                <l n="7098">They would be badly treated, if He were not on their side.</l>
+                <l n="7098">He would be in bad shape if he were bitten by them.</l>
             </lg>
             <lg type="laisse" n="278">
                 <head>Laisse 278</head>
                 <l n="7099">The count of Auvergne clearly understood;</l>
                 <l n="7100">He knew about their nature because it had already been described to him</l>
-                <l n="7101">In the land of Prester John; and they had seen many of them.</l>
+                <l n="7101">In the land of Prester John, and [now] he had seen many of them.</l>
                 <l n="7102">So he attached the ship to the bank where he was,</l>
-                <l n="7103">And mounted the horse; he didn't want to remain any longer.</l>
-                <l n="7104"><milestone n="50R" unit="fol."/><cb n="a"/>His shield held tightly against him in front [and] from beneath,</l>
-                <l n="7105">He stopped in the middle of the clearing [and] didn't say a word.</l>
+                <l n="7103">And mounted the horse; he wasn't going to remain any longer.</l>
+                <l n="7104"><milestone n="50R" unit="fol."/><cb n="a"/>Crouching under his closely held shield,</l>
+                <l n="7105">He stopped in the middle of the clearing without saying a word.</l>
                 <l n="7106">He remained there waiting patiently; he was without fear;</l>
-                <l n="7107">He let the birds pass over quickly in a swarm. </l>
+                <l n="7107">He let the birds pass over in large swarms and small. </l>
                 <l n="7108">They passed over, stirring up a great commotion;</l>
                 <l n="7109">The wind that they brought stank rather more</l>
                 <l n="7110">Than any carcass of a dog that had rotted.</l>
                 <l n="7111">Up until nightfall these birds flew around;</l>
                 <l n="7112">Then they left, afterward not one of them was seen.</l>
-                <l n="7113">Henceforth it was quite welcome to the count of Auvergne,</l>
-                <l n="7114">Who had lost nothing of his in that place,</l>
+                <l n="7113">At this point it was going well for the count of Auvergne,</l>
+                <l n="7114">Who had not lost his way in that place,</l>
                 <l n="7115">Yet the stench came to him as a great torment;</l>
-                <l n="7116">His whole stomach turned over inside, again the count vomited;</l>
+                <l n="7116">His whole stomach turned over inside and the count vomited;</l>
                 <l n="7117">If he hadn't dismounted, he would have fallen.</l>
                 <l n="7118">He moved close to the riverbank,<note xml:id="trans7118"/></l>
                 <l n="7119">Forcing himself like a man of great strength,</l>
@@ -8328,8 +8326,8 @@
                 <l n="7126">Owing to the great stench that polluted the moor, </l>
                 <l n="7127">His stomach turned and great suffering overpowered him.</l>
                 <l n="7128">He rolled over, he was hardly conscious;<note xml:id="trans7128"/></l>
-                <l n="7129">[After] vomiting four times, he sat up;</l>
-                <l n="7130">Then he remained still like a man gone foolish.</l>
+                <l n="7129">He had to vomit four times which was enough;</l>
+                <l n="7130">Then he remained still like a man stunned.</l>
                 <l n="7131">He felt very little, he was feeling so faint,</l>
                 <l n="7132">But as soon as he recovered himself, he wasn't slow</l>
                 <l n="7133">To pray to God, the King of Paradise,</l>
@@ -8352,15 +8350,15 @@
                 <l n="7147">Which had granted him more than he had asked for.</l>
                 <l n="7148">He was overcome with great pity for his horse,</l>
                 <l n="7149">Who had not eaten the previous day or night.</l>
-                <l n="7150">He hastened onto the ship, brought him the grain,</l>
-                <l n="7151">And he ate in holy charity,<note xml:id="trans7151"/></l>
+                <l n="7150">He hastened onto the ship, brought him grain,</l>
+                <l n="7151">And he ate it in holy charity,</l>
                 <l n="7152">For there was nothing left of that foul wind</l>
                 <l n="7153">That had previously filled all the air with stench.</l>
                 <l n="7154">Once they had eaten and were satisfied,</l>
                 <l n="7155">They soon readied themselves for their journey.</l>
                 <l n="7156">He took to the road and they set off;</l>
                 <l n="7157">Subsequently he traveled a good five long days,</l>
-                <l n="7158">During which nothing henceforth hindered [them].</l>
+                <l n="7158">During which he was hindered by nothing at all.</l>
                 <l n="7159">He covered so much ground in a day's journey,</l>
                 <l n="7160">Day by day, that they arrived</l>
                 <l n="7161">At a mountain; there they stopped.</l>
@@ -8370,24 +8368,24 @@
                 <head>Laisse 281</head>
                 <l n="7163">The count stopped when the ship could [go] no further,</l>
                 <l n="7164">Close to the mountain that stood before them.</l>
-                <l n="7165">There the water of the Tigris lost its noise;</l>
+                <l n="7165">There the noise of the water of the Tigris dissipated;</l>
                 <l n="7166">In a cave where there was an opening,</l>
                 <l n="7167">The water disappeared, it went underground;</l>
                 <l n="7168">In a short time [the land] swallowed the river,</l>
                 <l n="7169">The channel emptied; it didn't appear</l>
                 <l n="7170">That the fish had ever left that place where they were,<note xml:id="trans7170"/></l>
-                 <l n="7171">But the count didn't remain there very long.</l>
+                <l n="7171">But the count didn't remain there very long.</l>
                 <l n="7172">On the other side he saw the water gushing up again; </l>
                 <l n="7173">It issued forth with such abundance [that] if the count hadn't
                     moved,</l>
                 <l n="7174">He would already have perished and been completely undone.</l>
-                <l n="7175">He seized his horse, he pulled [him] away;</l>
+                <l n="7175">He seized his horse first, he backed away [with him];</l>
                 <l n="7176">The river turned back where it came from;</l>
                 <l n="7177">The count remained bewildered and completely speechless.</l>
                 <l n="7178"><milestone n="50V" unit="fol."/><cb n="a"/>He had no advice at a time when he was so lost;</l>
                 <l n="7179">He called out to God and to His great power,</l>
                 <l n="7180">That He help him in this situation so that he not be thwarted</l>
-                <l n="7181">[So that] no obstacle be stirred up to returning [home].<note xml:id="trans7181"/></l>
+                <l n="7181">That there be no case made for his having to turn back.</l>
                 <l n="7182">"Let's go forward in the name of Jesus;</l>
                 <l n="7183">Let this great, sharp-peaked mountain be conquered.</l>
                 <l n="7184">Let's see further on what is on that peak up there."</l>
@@ -8406,7 +8404,7 @@
                 <l n="7194">He remained there, I don't really know how many days.</l>
                 <l n="7195">Then the count decided he wanted</l>
                 <l n="7196">To abandon the ship down on the running river, </l>
-                <l n="7197">And to seek whatever flatlands [there were]:</l>
+                <l n="7197">And to search the flatlands completely:</l>
                 <l n="7198">Either he would die there or he would accomplish his desire.</l>
                 <l n="7199">As soon as he thought this, he carried it out immediately;</l>
                 <l n="7200">First both of them ate to their fill.</l>
@@ -8438,8 +8436,8 @@
                 <l n="7223">That with great force he thoroughly stunned it.</l>
                 <l n="7224">Then many times he redoubled [the blows]</l>
                 <l n="7225">Until he struck it down to the ground.</l>
-                <l n="7226">It was lucky that the horse wasn't injured<note xml:id="trans7226"/></l>
-                <l n="7227">By the fear that had completely transformed him.</l>
+                <l n="7226">He clearly realized that the horse wasn't injured<note xml:id="trans7226"/></l>
+                <l n="7227">By the fear that had completely overwhelmed him.</l>
                 <l n="7228">For a long time he didn't stir from the spot</l>
                 <l n="7229">Until Huon had calmed him many times.</l>
                 <l n="7230">For a long time he stroked his flanks and his sides.</l>
@@ -8458,17 +8456,17 @@
                 <l n="7243">Without finding any rest.</l>
                 <l n="7244">Before he entered a valley,</l>
                 <l n="7245">He couldn't seek out, because of the vermin that lived there,</l>
-                <l n="7246">What plants and trees were growing [there] a little.</l>
+                <l n="7246">Whether a few plants and trees grew [there].</l>
             </lg>
             <lg type="laisse" n="284">
                 <head>Laisse 284</head>
                 <l n="7247">Once the count had left the riverbank,</l>
-                <l n="7248">Where he abandoned his ship on the waters of the Tigris </l>
-                <l n="7249">Without a helmsman so as to continue the journey,</l>
+                <l n="7248">Where he abandoned his ship to wander </l>
+                <l n="7249">On the waters of the Tigris without a helmsman to steer [it],</l>
                 <l n="7250">Afterward, for many days, he reaped great harm;</l>
                 <l n="7251">Many a very wild adventure befell him,</l>
-                <l n="7252"><milestone n="51R" unit="fol."/><cb n="a"/>Which he had to complete though he </l>
-                <l n="7253">Often missed the ship in his heart,</l>
+                <l n="7252"><milestone n="51R" unit="fol."/><cb n="a"/>Which he had to complete whether he liked it or not.</l>
+                <l n="7253">He often missed the ship in his heart</l>
                 <l n="7254">As well as the kindness and hospitality of Prester John.</l>
                 <l n="7255">He committed great folly when he entered this forest!</l>
                 <l n="7256">Never had mortal man committed greater folly</l>
@@ -8488,11 +8486,11 @@
             </lg>
             <lg type="laisse" n="285">
                 <head>Laisse 285</head>
-                <l n="7268">The noble count did not undertake to scorn</l>
-                <l n="7269">That which he found from the hand of the Sovereign King;</l>
+                <l n="7268">The noble count did not resent</l>
+                <l n="7269">What came from the hand of the Sovereign King;</l>
                 <l n="7270">Rather he accepted peacefully everything that came his way.</l>
                 <l n="7271">Often he entreated the great Holy Glory<note xml:id="trans7271"/></l>
-                <l n="7272">To save him always from sinning.</l>
+                <l n="7272">That He keep this sinner constantly in mind.</l>
                 <l n="7273">He lamented his sins and thus moaned a lot [over them]</l>
                 <l n="7274">Through intense praying; he didn't cease to pray to the Heavenly Lord</l>
                 <l n="7275">That He watch over him and the war horse, that no evil overpower
@@ -11372,7 +11370,7 @@
                 <l n="9836">The swollen sea when it is most disturbed, </l>
                 <l n="9837">Full of tempest from wind and storm.</l>
                 <l n="9838">Doesn't make such a noise there where it strikes on all sides</l>
-                <l n="9839">Of an island or boulder, where it strikes and turns back,</l>
+                <l n="9839">Of an island or promontory, where it strikes and turns back,</l>
                 <l n="9840"><milestone n="68V" unit="fol."/><cb n="a"/>As those people cried out when they found such a place!</l>
                 <l n="9841">They made anguished and miserable sighs</l>
                 <l n="9842">That filled the dark air in spite of them.</l>
