@@ -28,12 +28,11 @@
                 <note type="biblio">Notes that reference secondary sources.</note>
                 <note type="trans">Notes on previous scholars' transcriptions</note>
                 <note type="lex">Notes on words or expressions</note>
-                <note type="lit">Notes on literal translations where we differ substantially from original</note>
+                <note type="lit">Notes on literal translations where we differ substantially from
+                    original</note>
             </notesStmt>
             <sourceDesc>
-                <msDesc xml:lang="en">
-                target ? See Cummings 52 -->
-                    <!-- add encodingDesc -->
+                <msDesc xml:lang="en"> target ? See Cummings 52 --> <!-- add encodingDesc -->
                     <msIdentifier>
                         <country>Italy</country>
                         <settlement>Bologna</settlement>
@@ -50,7 +49,67 @@
         </front>
         <body>
             <div>
-                <note target="#br1" type="ling" resp="#SPM">Editorial work in progress. Check back for updates.</note>
+                <!-- 
+                    Questions: 
+                    What are the language abbreviations we are using for Old French, Vulgar Latin, Latin, Frankish, Gallo-roman, etc.?; 
+                    Translations into English - should these come from a reference or okay to give translation myself?;
+                    When citing Old French or other lexems, are we putting these in single quotes or italicized?
+                    
+                    To do:
+                    Find way to tag two or more note types (as in line 1029);
+                -->
+                <note target="#br1" type="ling" resp="#SPM">Editorial work in progress. Check back
+                    for updates.</note>
+                <note target="#brR46" type="ling" resp="#SPM"><hi rend="italic">atrovent</hi>:
+                    'trovare, scoprire', from it. 'trovare', cf. 'attrovare' (TLIO) and 'atrover'
+                    (RIALFri, Enfances Bovo, v. 931 passim); parasynthetic verbs, those adding a
+                    prefix, are characteristic of Franco-Itlaian, cf. Holtus-Wunderli (2005,
+                    65).</note>
+                <note target="#br1025" type="interp" resp="#SPM">Cf. <hi rend="italic"
+                    >Inf.</hi>1.1-2.</note>
+                <note target="#br1027" type="ling" resp="#SPM"><hi rend="italic">erent</hi>:
+                    lenition of double consonants typical to Northern dialects.</note>
+                <note target="#br1028" type="ling" resp="#SPM"><hi rend="italic">e·mont</hi>: 'in
+                    the world of the living', from Old French 'en + le'.</note>
+                <note target="#br1029.1" type="ling" resp="#SPM"><hi rend="italic">septe</hi>:
+                    latinism; <hi rend="italic">virent</hi>: 'they saw', lenition of the occlusive
+                    consonant <hi rend="italic">d</hi>.</note>
+                <note target="#br1029.2" type="edit" resp="#SPM">a primer ] al primer; cfr. B v.
+                    9907.</note>
+                <note target="#br1030" type="ling" resp="#SPM"><hi rend="italic">enstorie</hi>: 'the
+                    account, story'; the epenthetic <hi rend="italic">n</hi> is common in
+                    Franco-Italian texts, cf. Holtus (1979, 300); <hi rend="italic">despont</hi>:
+                    'explain in detail', from Old French 'despondre', cf. <hi rend="italic">FEW</hi>
+                    3,98b.</note>
+                <note target="#br1032" type="ling" resp="#SPM"><hi rend="italic">ensont</hi>: 'up
+                    above', from Old French 'enson', cf. <hi rend="italic">DEAF</hi>.</note>
+                <note target="#br1033" type="ling" resp="#SPM"><hi rend="italic">gardes</hi>: 'to
+                    look at', from Frankish *wardôn, cf. <hi rend="italic">FEW</hi> 17,510a; <hi
+                        rend="italic">scont</hi>: 'to hide, conceal', from Vul. Lat. '*scondere'
+                    &lt; <hi rend="small-caps">abscondere</hi>; Old French 'abscondre', cf. <hi
+                        rend="italic">FEW</hi> 14,51a; possible latinism with hypercorrection, cf.
+                        <hi rend="italic">DELI</hi> 'ascondere'.</note>
+                <note target="#br1035" type="ling" resp="#SPM"><hi rend="italic">carere</hi>:
+                    possible double meaning, both 'cattedra' or 'via', cf. note to Berlin l. 9915;
+                        <hi rend="italic">reont</hi>: 'round', cf. <hi rend="italic">FEW</hi>
+                    10,520b.</note>
+                <note target="#br1036" type="ling" resp="#SPM"><hi rend="italic">veos</hi>: 'look'
+                    (imperative), cf. Berlin l. 9916.</note>
+                <note target="#br1037" type="ling" resp="#SPM"><hi rend="italic">Q'el
+                        estrologie</hi>: 'who in astrology', <hi rend="italic">el</hi> from Old
+                    French 'en + el', cf. Berlin l. 9917.</note>
+                <note target="#br1038" type="ling" resp="#SPM"><hi rend="italic">enpront</hi>:
+                    'ready, eager', cf. <hi rend="italic">FEW</hi> 9.444.</note>
+                <note target="#br1039" type="ling" resp="#SPM"><hi rend="italic">sali sunt</hi>:
+                    'are sullied, dirtied', passing from Frankish '*salo' to Old French 'salir', cf.
+                        <hi rend="italic">FEW</hi> 17,13a.</note>
+                <note target="#br1040" type="interp" resp="#SPM"><hi rend="italic">mani e
+                    front</hi>: 'hands and forehead', cf. <hi rend="italic">Il Novellino</hi>, Chap.
+                    29 and the note to Br l. 1096; <hi rend="italic">pont</hi>: 'the reason, point',
+                    cf. <hi rend="italic">FEW</hi> 9,586a.</note>
+                <note target="#br1044" type="ling" resp="#SPM"><hi rend="italic">angles</hi>:
+                    'angels', cf. Holtus-Wunderli (2005, 63); the <hi rend="italic">RIALFrI</hi>
+                    database reveals that the form is frequent in Franco-Italian texts</note>
             </div>
         </body>
     </text>

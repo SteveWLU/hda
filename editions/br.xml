@@ -62,13 +62,15 @@
                     <name type="country">USA</name>
                 </address>
                 <availability status="free">
-                    <p>The Huon Digital Archive project, funded by the National Endowment for the Humanities,
-                        offers freely on a non-commercial basis the text of each edition and the accompanying
-                        English translation . The appropriate editor or translator must be cited when
-                        referencing the texts. The images are not available for download, and any user wishing
-                        to use the manuscript images for personal or academic use must obtain written permission
-                        from the appropriate holding library and pay all related fees. For more information on
-                        reproductions and image use, visit the website of the respective library.</p>
+                    <p>The Huon Digital Archive project, funded by the National Endowment for the
+                        Humanities, offers freely on a non-commercial basis the text of each edition
+                        and the accompanying English translation . The appropriate editor or
+                        translator must be cited when referencing the texts. The images are not
+                        available for download, and any user wishing to use the manuscript images
+                        for personal or academic use must obtain written permission from the
+                        appropriate holding library and pay all related fees. For more information
+                        on reproductions and image use, visit the website of the respective
+                        library.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -88,8 +90,8 @@
                         <idno>B. 3489</idno>
                     </msIdentifier>
                     <head type="msHeading">
-                        <title type="manuscript" xml:lang="FI">Huon d'Auvergne, Biblioteca comunale dell'Archiginnasio
-                            di Bologna, manuscript B. 3489</title>
+                        <title type="manuscript" xml:lang="FI">Huon d'Auvergne, Biblioteca comunale
+                            dell'Archiginnasio di Bologna, manuscript B. 3489</title>
                         <!-- Research language code for Franco-Italian -->
                         <origPlace cert="low">Unknown</origPlace>
                         <!-- Research theories on origin -->
@@ -97,8 +99,12 @@
                         <!-- Is there a way to say how the date is determined? -->
                     </head>
                     <history>
-                        <origin><p><origPlace></origPlace></p></origin>
-                        <provenance></provenance>
+                        <origin>
+                            <p>
+                                <origPlace/>
+                            </p>
+                        </origin>
+                        <provenance/>
                         <acquisition>
                             <p>Introduction to Br fragment. </p>
                         </acquisition>
@@ -120,10 +126,10 @@
                                     <p>Paper</p>
                                 </support>
                                 <extent>117 manuscript folios, 5,690 lines of verse <dimensions
-                                    scope="all" type="leaves" unit="in">
-                                    <height>29.5 cm</height>
-                                    <width>22 cm</width>
-                                </dimensions>
+                                        scope="all" type="leaves" unit="in">
+                                        <height>29.5 cm</height>
+                                        <width>22 cm</width>
+                                    </dimensions>
                                 </extent>
                             </supportDesc>
                             <layoutDesc>
@@ -143,8 +149,8 @@
                     <history>
                         <origin>
                             <p>Written in <origPlace>Northern Italy</origPlace>in the <origDate
-                                notAfter="1350" notBefore="1300">first half of the fourteenth
-                                century</origDate>
+                                    notAfter="1350" notBefore="1300">first half of the fourteenth
+                                    century</origDate>
                             </p>
                         </origin>
                         <provenance>unknown</provenance>
@@ -179,7 +185,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Last updated December 3, 2020</change>
+            <change>Last updated October 5, 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -187,9 +193,10 @@
             <divGen type="toc"/>
         </front>
         <body>
-            <lg type="laisse" n="1"><milestone n="1R" unit="fol."/>
+            <lg type="laisse" n="1">
+                <milestone n="1R" unit="fol."/>
                 <l n="1">Come le filç vait (au pere secors) querire<note xml:id="br1"/></l>
-                <l n="2">N(i'l carel) qant de l'arch ensire</l>
+                <l n="2">N(i 'l carel) qant de l'arch ensire</l>
                 <l n="3">Non cort si fort por son camin<note xml:id="br3"/> fornire</l>
                 <l n="4">Come lo dragon vient le çival ferire </l>
                 <l n="5">De ses grant ales la trestot feit covrire, </l>
@@ -1413,32 +1420,40 @@
                 <l n="1023">Si romanemes con la loi eschernie.</l>
                 <l n="1024">Alons nos, e ma sente(n)çe est finie."</l>
             </lg>
+            <!-- Oct. 5, 2021 - edits from Anthology project -->
             <lg type="laisse" n="46">
                 <head>Coma<ex rend="italic">n</ex>t atrove<ex rend="italic">n</ex>t le castel qi
-                    avoit .vii. portes</head>
-                <l n="1025">Por mi lo selve des spirit s'en vont</l>
+                    avoit .vii. portes<note xml:id="brR46"/></head>
+                <l n="1025">Por mi le selve des spirit s'en vont<note xml:id="br1025"/></l>
                 <l n="1026">Ensi parlant Eneas e le cont</l>
-                <l n="1027">E tant erent qi arivé sunt</l>
-                <l n="1028">En un castel qe no<ex rend="italic">n</ex> fu pas e mont.</l>
-                <l n="1029">Septe porte merveilos virent a p<ex rend="italic">ri</ex>mer front</l>
-                <l n="1030">Qe su<ex rend="italic">n</ex>t in lo castrel com l'enstorie despont.</l>
-                <l n="1031">"Cestui castel ou tant entré sunt,"</l>
-                <l n="1032">Dist Eneas, "en sont fort mur i sunt.</l>
-                <l n="1033">Se tu bien gardes e riens non tel scont</l>
-                <l n="1034"><milestone n="12V" unit="fol."/>Desor cel mur p<ex rend="italic"
-                    >ri</ex>mer, oltra cil pont,</l>
-                <l n="1035">Sor la carere dou capitel reont,</l>
-                <l n="1036">Veos là lo mestre Tolome au chief blont,</l>
-                <l n="1037">Q'e(n) l'estrologie fu lo priemer dou mond.</l>
-                <l n="1038">Si com fu a studere enpront,</l>
-                <l n="1039">Ele e çelor qe in tel art sali sont,</l>
-                <l n="1040">E' veut savoir se Deu a mains a front</l>
-                <l n="1041">E çil pensere anchor, biaus frere, sont;</l>
+                <l n="1027">E tant erent qi arivé sunt<note xml:id="br1027"/></l>
+                <l n="1028">En un castel qe no<ex rend="italic">n</ex> fu pas e·mont.<note
+                        xml:id="br1028"/></l>
+                <l n="1029">Septe porte merveilos virent a<ex rend="italic">l</ex> p<ex
+                        rend="italic">ri</ex>mer front<note xml:id="br1029.1"/><note
+                        xml:id="br1029.2"/></l>
+                <!-- a premier ] al premier: either tag as correction or, if occurs elsewhere, edit note to indicate an elided l -->
+                <l n="1030">Qe su<ex rend="italic">n</ex>t in lo castel com l'enstorie despont.<note
+                        xml:id="br1030"/></l>
+                <l n="1031">"Cestui castel où tant entré sunt,"</l>
+                <l n="1032">Dist Eneas, "ensont fort mur i sunt.<note xml:id="br1032"/></l>
+                <l n="1033">Se tu bien gardes e riens non t'el scont<note xml:id="br1033"/></l>
+                <l n="1034"><milestone n="12/143v" unit="fol."/>Desor cel mur p<ex rend="italic"
+                        >ri</ex>mer, oltra cil pont,</l>
+                <l n="1035">Sor la carere dou capitel reont,<note xml:id="br1035"/></l>
+                <l n="1036">Veos là lo mestre Tolomé au chief blont,<note xml:id="br1036"/></l>
+                <l n="1037">Q'el estrologie fu lo priemer dou mond.<note xml:id="br1037"/></l>
+                <l n="1038">Si com fu a studere enpront––<note xml:id="br1038"/></l>
+                <l n="1039">Ele e çelor qe in tel art sali sont––<note xml:id="br1039"/></l>
+                <l n="1040">E' veut savoir se Deu à mains e front<note xml:id="br1040"/></l>
+                <l n="1041">E·çil pensere anchor, biaus frere, sont;</l>
                 <l n="1042">Trovent les cart e non trovent les pont.</l>
                 <l n="1043">Cest usançe, biaus amis, mantenu<ex rend="italic">n</ex>t </l>
-                <l n="1044">Jusq<ex rend="italic">ue</ex> a çil jor qe les angles vendrunt</l>
+                <l n="1044">Jusq<ex rend="italic">ue</ex> a çil jor qe les angles vendrunt<note
+                        xml:id="br1044"/></l>
                 <l n="1045">Sonore les tronbes dont li morti reviseront."</l>
             </lg>
+            <!-- Oct. 5, 2021 - end -->
             <lg type="laisse" n="47">
                 <head>Comant entrent dens la prime parte de çele castel</head>
                 <l n="1046">Parmi la porta p<ex rend="italic">ri</ex>mere des escoler</l>
