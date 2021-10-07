@@ -185,7 +185,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Last updated October 5, 2021 (Laisse 46)</change>
+            <change>Last updated October 7, 2021 (Laisse 47)</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -1454,28 +1454,30 @@
                 <l n="1045">Sonore les tronbes dont li morti reviseront."</l>
             </lg>
             <!-- Oct. 5, 2021 - end -->
+            <!-- Oct. 7, 2021 - edits from Anthology project -->
             <lg type="laisse" n="47">
                 <head>Comant entrent dens la prime parte de çele castel</head>
                 <l n="1046">Parmi la porta p<ex rend="italic">ri</ex>mere des escoler</l>
-                <l n="1047">Joste Eneas entra le mesajer.</l>
-                <l n="1048">Dou mur segond de çi che li p<ex rend="italic">ri</ex>mer</l>
-                <l n="1049">Ne n'on posança de l'u<ex rend="italic">n</ex> a l'autre parler</l>
-                <l n="1050">Por la gra<ex rend="italic">n</ex> noise dou cris e dou te(n)çer</l>
-                <l n="1051">Qe li scolere font in lor desputere.</l>
+                <l n="1047">Joste Eneas entra le mesajer.<note xml:id="br1047"/></l>
+                <l n="1048">Dou mur segond de çi ch'è li p<ex rend="italic">ri</ex>mer</l>
+                <l n="1049">Nen on posança de l'u<ex rend="italic">n</ex> a l'autre parler</l>
+                <l n="1050">Por la gra<ex rend="italic">n</ex> noise dou cris e dou te<ex rend="italic">n</ex>çer<note xml:id="br1050"/></l>
+                <l n="1051">Qe li scolere font in lor desputere.<note xml:id="br1051"/></l>
                 <l n="1052">Nichomachus li fu sus un piler</l>
-                <l n="1053">Che d'Arimisache tient le livre a ensegnere</l>
-                <l n="1054">E pur comanda les cris a soager;</l>
-                <l n="1055">Tot est roches e non vaut un dinere.</l>
-                <l n="1056">Le quens d'Av<ex rend="italic">er</ex>nie se prist tot a storner</l>
+                <l n="1053">Che d'arsmisache tient le livre a ensegnere<note xml:id="br1053"/></l>
+                <l n="1054">E pur comanda les cris âsoager;<note xml:id="br1054"/></l>
+                <l n="1055">Tot est roches e non vaut un dinere.<note xml:id="br1055"/></l>
+                <l n="1056">Le quens d'Av<ex rend="italic">er</ex>nie se prist tot âstorner<note xml:id="br1056"/></l>
                 <l n="1057">Por çil ch'il non puet oire ni doma<ex rend="italic">n</ex>der.</l>
-                <l n="1058">Nicomachus come(n)ça a blastemere,</l>
+                <l n="1058">Nicomachus come<ex rend="italic">n</ex>ça a blastemere,</l>
                 <l n="1059">"Taisés un pou, diables maufer!"</l>
                 <l n="1060">Dist Eneas, "No<ex rend="italic">n</ex> puet encontrer.</l>
-                <l n="1061">Çestor mistrent lor ovres e lor penser</l>
-                <l n="1062">Por çest sie<ex rend="italic">n</ex>çe aprendre e acostumer,</l>
-                <l n="1063">Ne non sognerent da Deus aremenbrer:</l>
-                <l n="1064">Çe est lor poine de cris e de tençere."</l>
-                <l n="1065">Lor dist Guliame, "Pensons d'esploiter."</l>
+                <l n="1061">Çestor mistrent lor ovres e lor penser<note xml:id="br1061"/></l>
+                <l n="1062">Por çest sie<ex rend="italic">n</ex>çe aprendre e acostumer,<note xml:id="br1062"/></l>
+                <l n="1063">Ne non sognerent da Deus aremenbrer:<note xml:id="br1063"/></l>
+                <l n="1064">Çe est lor peine de cris e de tençere."</l>
+                <l n="1065">Lor dist Guliame, "Pensons d'esploiter."<note xml:id="br1065"/></l>
+                <!-- Oct. 7, 2021 - end -->
             </lg>
             <lg type="laisse" n="48">
                 <head>Comant les scolers estoient entor Nicomachus</head>
