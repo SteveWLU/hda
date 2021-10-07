@@ -28,12 +28,11 @@
                 <note type="biblio">Notes that reference secondary sources.</note>
                 <note type="trans">Notes on previous scholars' transcriptions</note>
                 <note type="lex">Notes on words or expressions</note>
-                <note type="lit">Notes on literal translations where we differ substantially from original</note>
+                <note type="lit">Notes on literal translations where we differ substantially from
+                    original</note>
             </notesStmt>
             <sourceDesc>
-                <msDesc xml:lang="en">
-                target ? See Cummings 52 -->
-                    <!-- add encodingDesc -->
+                <msDesc xml:lang="en"> target ? See Cummings 52 --> <!-- add encodingDesc -->
                     <msIdentifier>
                         <country>Italy</country>
                         <settlement>Bologna</settlement>
@@ -50,7 +49,124 @@
         </front>
         <body>
             <div>
-                <note target="#br1" type="ling" resp="#SPM">Editorial work in progress. Check back for updates.</note>
+                <!-- 
+                    Questions: 
+                    What are the language abbreviations we are using for Old French, Vulgar Latin, Latin, Frankish, Gallo-roman, etc.?; 
+                    Translations into English - should these come from a reference or okay to give translation myself?;
+                    When citing Old French or other lexems, are we putting these in single quotes or italicized?
+                    Formatting: cf. Berlin l. 9917; FEW 13/1,225a;?
+                    Workflow for dictionaries: first, second, etc.?
+                    
+                    To do:
+                    Find way to tag two or more note types (as in line 1029);
+                    
+                    Abbreviations:
+                    OF - Old French
+                    T-L - Tobler-Lommatzsch
+                    
+                    Escape characters:
+                    &lt; = <
+                -->
+                <note target="#br1" type="ling" resp="#SPM">Editorial work in progress. Check back
+                    for updates.</note>
+                <!-- Oct. 5, 2021 - edits from Anthology project -->
+                <note target="#brR46" type="ling" resp="#SPM"><hi rend="italic">Rubric 46]
+                        atrovent</hi>: "find, discover", from it. "trovare", cf. "attrovare" (TLIO)
+                    and "atrover" (RIALFri, Enfances Bovo, v. 931 passim); parasynthetic verbs,
+                    those adding a prefix, are characteristic of Franco-Itlaian, cf. Holtus-Wunderli
+                    (2005, 65).</note>
+                <note target="#br1025" type="interp" resp="#SPM">1025] Cf. <hi rend="italic"
+                        >Inf.</hi>1.1-2.</note>
+                <note target="#br1027" type="ling" resp="#SPM">1027] <hi rend="italic">erent</hi>:
+                    lenition of double consonants typical to Northern dialects.</note>
+                <note target="#br1028" type="ling" resp="#SPM">1028] <hi rend="italic">e·mont</hi>:
+                    "in the world of the living", from OF "en + le".</note>
+                <note target="#br1029.1" type="ling" resp="#SPM">1029] <hi rend="italic">septe</hi>:
+                    latinism; <hi rend="italic">virent</hi>: "they saw", lenition of the occlusive
+                    consonant <hi rend="italic">d</hi>.</note>
+                <note target="#br1029.2" type="edit" resp="#SPM">1029] a primer ] al primer; cf. B
+                    v. 9907.</note>
+                <!-- Combine 1019.1 & .2? -->
+                <note target="#br1030" type="ling" resp="#SPM">1030] <hi rend="italic"
+                    >enstorie</hi>: "the account, story"; the epenthetic <hi rend="italic">n</hi> is
+                    common in Franco-Italian texts, cf. Holtus (1979, 300); <hi rend="italic"
+                        >despont</hi>: "explain in detail", from OF "despondre", cf. <hi
+                        rend="italic">FEW</hi> 3,98b.</note>
+                <note target="#br1032" type="ling" resp="#SPM">1032] <hi rend="italic">ensont</hi>:
+                    "up above", from OF "enson", cf. <hi rend="italic">DEAF</hi>.</note>
+                <note target="#br1033" type="ling" resp="#SPM">1033] <hi rend="italic">gardes</hi>:
+                    "to look at", from Frankish "*wardôn", cf. <hi rend="italic">FEW</hi> 17,510a;
+                        <hi rend="italic">scont</hi>: "to hide, conceal", from Vul. Lat. "*scondere"
+                    &lt; <hi rend="small-caps">abscondere</hi>; OF "abscondre", cf. <hi
+                        rend="italic">FEW</hi> 14,51a; possible latinism with hypercorrection, cf.
+                        <hi rend="italic">DELI</hi> "ascondere".</note>
+                <note target="#br1035" type="ling" resp="#SPM">1035] <hi rend="italic">carere</hi>:
+                    possible double meaning, both "cattedra" or "via", cf. note to Berlin l. 9915;
+                        <hi rend="italic">reont</hi>: "round", cf. <hi rend="italic">FEW</hi>
+                    10,520b.</note>
+                <note target="#br1036" type="ling" resp="#SPM">1036] <hi rend="italic">veos</hi>:
+                    "look" (imperative), cf. Berlin l. 9916.</note>
+                <note target="#br1037" type="ling" resp="#SPM">1037] <hi rend="italic">Q'el
+                        estrologie</hi>: "who in astrology", <hi rend="italic">el</hi> from OF "en +
+                    el", cf. Berlin l. 9917.</note>
+                <note target="#br1038" type="ling" resp="#SPM">1038] <hi rend="italic">enpront</hi>:
+                    "ready, eager", cf. <hi rend="italic">FEW</hi> 9.444.</note>
+                <note target="#br1039" type="ling" resp="#SPM">1039] <hi rend="italic">sali
+                        sunt</hi>: "are sullied, dirtied", passing from Frankish "*salo" to OF
+                    "salir", cf. <hi rend="italic">FEW</hi> 17,13a.</note>
+                <note target="#br1040" type="interp" resp="#SPM">1040] <hi rend="italic">mani e
+                        front</hi>: "hands and forehead", cf. <hi rend="italic">Il Novellino</hi>,
+                    Chap. 29 and the note to Br l. 1096; <hi rend="italic">pont</hi>: "the reason,
+                    point', cf. <hi rend="italic">FEW</hi> 9,586a.</note>
+                <note target="#br1044" type="ling" resp="#SPM">1044] <hi rend="italic">angles</hi>:
+                    "angels", cf. Holtus-Wunderli (2005, 63); the <hi rend="italic">RIALFrI</hi>
+                    database reveals that the form is frequent in Franco-Italian texts</note>
+                <!-- Oct. 5, 2021 - end -->
+                <!-- Oct. 7, 2021 - edits from Anthology project -->
+                <note target="#br1047" type="ling" resp="#SPM">1047] <hi rend="italic">joste</hi>:
+                    "next to", OF "joste", cf.<hi rend="italic">FEW</hi>5,96b.</note>
+                <note target="#br1049" type="ling" resp="#SPM">1049] <hi rend="italic">Nen on
+                        posança</hi>: "they are not able"; lit. "they do not have the power,
+                    ability".</note>
+                <!-- OF "poissance", cf. T-L 7, 2074, with Italianate ending. -->
+                <note target="#br1050" type="ling" resp="#SPM">1050] <hi rend="italic">tençer</hi>:
+                    "to debate", OF "tenser', cf.<hi rend="italic">FEW</hi>13/1,225a; frequent in
+                    the <hi rend="italic">RIALFrI</hi> database.</note>
+                <note target="#br1051" type="interp" resp="#SPM">1051] <hi rend="italic"
+                        >desputere</hi>: reference to the scholasttic pedagogical method
+                    "disputatio".</note>
+                <!-- Check and expand -->
+                <note target="#br1053" type="ling" resp="#SPM">1053] <hi rend="italic"
+                        >arsmisache</hi>: corrupt reading? Likely refers to arithmatic, one of four
+                    disciplines of the quadrivium, which, together with the trivium, form the seven
+                    liberl arts.</note>
+                <note target="#br1054" type="ling" resp="#SPM">1054] <hi rend="italic">âsoager</hi>:
+                    "to calm, pacify", OF "suajier", cf.<hi rend="italic">FEW</hi>12,324b; here and
+                    at l. 1056 the preposition elides with the initial vowel of the verb.</note>
+                <note target="#br1055" type="ling" resp="#SPM">1055] <hi rend="italic">roches</hi>:
+                    "che ha la voce arrochita, abbassata, fioca [...] per i continui lamenti, per
+                    l'ira, per un'emozione, per il pianto", GDLI 17,16b; cf. IT "fiacco" (&lt;
+                    FLACCUS), <hi rend="italic">Inf.</hi>, 1.63: "chi per lungo silenzio parea
+                    fioco"; <hi rend="italic">no val un dener</hi>: 'not worth anything', recurring
+                    formula in OF epic.</note>
+                <note target="#br1056" type="ling" resp="#SPM">1056] <hi rend="italic">quens</hi>:
+                    "count", OF "quens", cf.<hi rend="italic">FEW</hi>2/2,940b; frequent in, for
+                    example, the <hi rend="italic">Entrée</hi>, cf. <hi rend="italic">RIALFrI</hi>;
+                        <hi rend="italic">âstorner</hi>: "tourmenter, bouleverser', from the
+                    Frankish "*sturm", cf. Holtus <hi rend="italic">Lexikalische</hi>, p.
+                    317.</note>
+                <note target="#br1061" type="ling" resp="#SPM">1061] <hi rend="italic">ovres</hi>:
+                    "orations, prayers".</note>
+                <note target="#br1062" type="ling" resp="#SPM">1062] <hi rend="italic"
+                        >acostumer</hi>: "to grow accustomed to"; cf. <hi rend="italic">Par.</hi>, 8.142, "E se 'l mondo là giù
+                    ponesse mente / al fondamento che natura pone".</note>
+                <note target="#br1063" type="ling" resp="#SPM">1063] <hi rend="italic"
+                        >aremenbrer</hi>: "to remember"; another instance of a parasynthetic verb (cf. note R46); cf.
+                    "arecorder", P l. 4705, the <hi rend="italic">Bovo d'Antona laurenziana</hi>, 1. 321 passim; and <hi rend="italic">Aquilon de
+                    Bavière</hi>, 6.VI.20 passim. Both texts are available on <hi rend="italic">RIALFrI</hi>.</note>
+                <note target="#br1065" type="ling" resp="#SPM">1065] <hi rend="italic">lor</hi>:
+                    "then", cf. IT "allora".</note>
+                <!-- Oct. 7, 2021 - end -->
             </div>
         </body>
     </text>

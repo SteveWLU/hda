@@ -34,7 +34,7 @@
  </front>
  <body>
  <div>
-    <!-- updated 25 September 2021 -->  
+    <!-- updated 29 September 2021 -->  
    <!-- Rules: no period after citation of other edition or the location of a source only. Where commented or complete sentence, use a period at the end of the line.-->
 <note target="#b1" type="trans" resp="#LZM">1] Holtus ("Considerazioni") published lines 1-109; his edition is a diplomatic one (45-48), with abbreviations reproduced and word divisions as in the manuscript. Tobler published lines 1-111 (pp. 617-19); he reproduces the text without punctuation other than the final periods and the lines that mark caesura here at the beginning of the poem, and without distinguishing u/v.</note>
 <note target="#b12" type="codic" resp="#LZM">12] MS: une (final -e is expunctuated)</note>
@@ -863,61 +863,79 @@
  <note target="#b7809" type="trans" resp="#LZM">7809] Gayne, subject case for Ganelon, the antagonist of the <hi rend="italic">Song of Roland</hi>, who betrayed Roland, Charlemagne's nephew and the hero of the French army; also in Dante's <hi rend="italic">Inferno</hi> 32.122, the ninth circle of traitors to country or party, Antenora. Marsile is presented as the Muslim King of Saragossa in that poem.</note>
  <note target="#b7813" type="refer" resp="#LZM">7813] Cf. Brunetto Latini to Dante, <hi rend="italic">Inf.</hi> 118-120, and various places where the sinners cannot remain because of another group coming.</note>
  <note target="#b7818" type="interp" resp="#LZM">7818] Notice the irony: earlier the speaker avoids the name of God (7771, 7773, 7790) could not be mentioned there, but here he speaks of "your Lord."</note>
+  <note target="#b7824" type="trans" resp="#LZM">7824] Stengel ("Huons Suche," p. 24): malectïon; we construe this verse instead  as a case of the Italian "Dio" in two syllables.</note>    
  <note target="#b7828" type="codic" resp="#LZM">7828] There seems to be something missing here, a verb. Stengel: [s'en vont]. T 7509: Le sperity malvasy s'en vano al centro del profondo.</note>
+  <note target="#b7829" type="trans" resp="#LZM">7829] Stengel ("Huons Suche," p. 24): segueot tot foy</note>
  <note target="#b7830" type="refer" resp="#LZM">7830] <hi rend="italic">andon</hi>: T-L lists "andon, ?" (<hi rend="italic">Horn</hi>), col. 384; we presume it to be a form of "andare."</note>
- <note target="#b7831" type="lex" resp="#LZM">7831] <hi rend="italic">marois</hi>: see above, note for v. 2702.</note>
+ <note target="#b7831" type="lex" resp="#LZM">7831] <hi rend="italic">marois</hi>: see above, note for v. 2702; Stengel ("Huons Suche," p. 24): en chaïron</note>
  <note target="#b7832" type="codic" resp="#LZM">7832] It would seem that there was a saut de même au même here, with the verb "to fall" omitted, that probably began with "cai-" as well as the word <hi rend="italic">çaitif</hi>. Cf. <hi rend="italic">cait</hi> (5950), <hi rend="italic">chait</hi> (7281). The line is missing in T, it would be between vv. 7513 and 7514.</note>
+ <note target="#b7836" type="trans" resp="#LZM">7836] Stengel ("Huons Suche," p. 25): defend[oi]t</note>     
 <note target="#b7841" type="trans" resp="#LZM">7841] Stengel ("Huons Suche," p. 25): s'(en) avit</note>
-   <note target="#b7849" type="lex" resp="#LZM">7849] <hi rend="italic">arche</hi>: The meaning of this term has been debated, especially in relation to St. Peter, in the <hi rend="italic">Couronnement de Louis</hi> (see Lepage; Crespo). For Noah, the question is particularly problematic; see note in the translation and line 8139 that speaks of when the <hi rend="italic">arche</hi> landed.</note>
-   <note target="#b7853" type="codic" resp="#LZM">7853] MS: ponser. The first vowel was corrected; it seems that an "a "was changed to an "o." The lines of the "o" are heavier. <hi rend="italic">Laise</hi> for "las"; cf. Holtus (<hi rend="italic">Lexikalische</hi>, p. 359), "laiser," on the confusion of stems.</note> 
-    <note target="#b7859" type="trans" resp="#LZM">7859] MS: endormï; Stengel ("Huons Suche," p. 25): Pois se stoit [il] colgieç, endormi( r) tost si fu</note>
+<note target="#b7849" type="lex" resp="#LZM">7849] <hi rend="italic">arche</hi>: The meaning of this term has been debated, especially in relation to St. Peter, in the <hi rend="italic">Couronnement de Louis</hi> (see Lefevre; Crespo). For Noah, the question is particularly problematic; see note in the translation and line 8139 that speaks of when the <hi rend="italic">arche</hi> landed. Stengel ("Huons Suche," p. 25): Arche-Noëç en son; in Venetian, it is attested in the meaning 'tomb'; cf. Alfredo Stussi, ed., <hi rend="italic">Testi veneziani del Duecento e dei primi del Trecento</hi> (Pisa: Nistri-Lischi, 1965), p. 189.</note>
+<note target="#b7853" type="codic" resp="#LZM">7853] MS: ponser. The first vowel was corrected; it seems that an "a "was changed to an "o." The lines of the "o" are heavier. <hi rend="italic">Laise</hi> for "las"; cf. Holtus (<hi rend="italic">Lexikalische</hi>, p. 359), "laiser," on the confusion of stems.</note> 
+<note target="#b7859" type="trans" resp="#LZM">7859] MS: endormï; Stengel ("Huons Suche," p. 25): Pois se stoit [il] colgieç, endormi( r) tost si fu</note>
 <note target="#b7869" type="trans" resp="#LZM">7869] Stengel ("Huons Suche," p. 25): [en] une chave</note>
+<note target="#b7870" type="trans" resp="#LZM">7870] Stengel ("Huons Suche," p. 26): regulal en fu; whether this is in fact rhoticism or an error is unclear. See Mainone, "Laut," p. 54, for other examples of "l" for "r" as well as its omission.</note>      
 <note target="#b7872" type="trans" resp="#LZM">7872] Stengel ("Huons Suche," p. 26): Quant [il] le vit</note>
-<note target="#b7873" type="trans" resp="#LZM">7873] Stengel ("Huons Suche," p. 26): que [i]l n'oit</note>
+<note target="#b7873" type="trans" resp="#LZM">7873] Stengel ("Huons Suche," p. 26): Lor vient...que [i]l n'oit</note>
 <note target="#b7874" type="trans" resp="#LZM">7874] Stengel ("Huons Suche," p. 26): si [a] dit</note>
 <note target="#b7877" type="trans" resp="#LZM">7877] Stengel ("Huons Suche," p. 26): [Et] quant</note>
+<note target="#b7880" type="trans" resp="#LZM">7880] Stengel ("Huons Suche," p. 26): [...] indicates he believes that something is missing here. In T 7563 there is something similar, but it seems that the original(s) were confused with Huon's holding a cross that shone. In B this is the final line of a column, and that can sometimes cause losses between it and the next.</note>
 <note target="#b7882" type="trans" resp="#LZM">7882] Stengel ("Huons Suche," p. 26): "Je toy conjur" [dist il] "au nom da part Yhesu...</note>
 <note target="#b7890" type="trans" resp="#LZM">7890] Stengel ("Huons Suche," p. 26): Cum [je] vau</note>
 <note target="#b7891" type="trans" resp="#LZM">7891] MS: Une clers; Stengel ("Huons Suche," p. 26): Un(e) clercs</note>
-    <note target="#b7893" type="trans" resp="#LZM">7893] MS: d'ceuemāt; Stengel ("Huons Suche," p. 26): dire [saince] decevemant. Another syllable is needed for 6+6 syllables; <hi rend="italic">veremant</hi> appears twice in the poem, one time two lines above, and "de ce" is a common formula. Cf. T 7574: Forsse tanto vuy posite dire veramente</note>
+<note target="#b7893" type="trans" resp="#LZM">7893] MS: d'ceuemāt; Stengel ("Huons Suche," p. 26): dire [saince] decevemant. Another syllable is needed for 6+6 syllables; <hi rend="italic">veremant</hi> appears twice in the poem, one time two lines above, and "de ce" is a common formula. Cf. T 7574: Forsse tanto vuy posite dire veramente</note>
 <note target="#b7898" type="trans" resp="#LZM">7898] Stengel ("Huons Suche," p. 26): doman(dan)t</note>
-<note target="#b7902" type="trans" resp="#LZM">7902] Stengel ("Huons Suche," p. 26): Ensi [fu] le dilúvie, cum a diex</note>
+<note target="#b7899" type="trans" resp="#LZM">7999] Stengel ("Huons Suche," p. 26): contree et</note>
+     <note target="#b7900" type="trans" resp="#LZM">7900] Stengel ("Huons Suche," p. 26): entent entemant</note>     
+ <note target="#b7902" type="trans" resp="#LZM">7902] Stengel ("Huons Suche," p. 26): Ensi [fu] le dilúvie, cum a diex</note>
 <note target="#b7903" type="trans" resp="#LZM">7903] Stengel ("Huons Suche," p. 27): De ogne gneracion d'animal (i)ci fu ver(e)mant</note>
-<note target="#b7908" type="trans" resp="#LZM">7908] Stengel ("Huons Suche," p. 27): pués [fu]</note>
-<note target="#b7911" type="trans" resp="#LZM">7911] Stengel ("Huons Suche," p. 27): no[s] va lui[n]tanant</note>
+<note target="#b7908" type="trans" resp="#LZM">7908] Stengel ("Huons Suche," p. 27): pués [fu]; we are interpreting "isant" as a conjugated verb here; cf. Mainone (<hi rend="italic">Formen</hi>, pp. 34-35 "eissir," for other forms).</note>
+<note target="#b7911" type="trans" resp="#LZM">7911] Stengel ("Huons Suche," p. 27): no[s] va lui[n]tanant, probably using T 7592:  Sopra la montagna chi demore no[n] vede <hi rend="italic">luntano</hi></note>
 <note target="#b7913" type="trans" resp="#LZM">7913] Stengel ("Huons Suche," p. 27): le jor dou vener[di] sant</note>
-<note target="#b7918" type="trans" resp="#LZM">7918] Stengel ("Huons Suche," p. 27): lor (tot) l'animal</note>
-<note target="#b7921" type="trans" resp="#LZM">7921] Stengel ("Huons Suche," p. 27): et achoi (!) atant</note>
+<note target="#b7918" type="trans" resp="#LZM">7918] Stengel ("Huons Suche," p. 27): lor (tot) l'animal...beneisant</note>
+ <note target="#b7921" type="trans" resp="#LZM">7921] Stengel ("Huons Suche," p. 27): et achoi (!) atant; there is a problem with this line and this expression: "achoi" or "a choi"? There is a small space between "a" and "choi" in the MS. T 7602: <hi rend="italic">e l'afeto atanto</hi>, totally unrelated to B's expression. In RIALFrI, under "coi" appear two terms: "per / par choi" = 'pouquoi', and "choi" = quiet (cf. T-L coisier, cols 547-548, referred from "acoisier"). In the second case, the verb in the first part of the line would need emending as well: Qui tout voudroit 'co<ex rend="angle">u</ex>ter l'estre et achoi atant [...] (escouter, T-L cols 988-999; cf. forms of "scouter" and "escouter"; "ascouta").</note>
+ <note target="#b7923" type="trans" resp="#LZM">7923] Stengel ("Huons Suche," p. 27): diroi ge</note>     
  <note target="#b7928" type="refer" resp="#LZM">7928] This line resembles those of Dante's <hi rend="italic">Commedia</hi> where Dante signals to the reader to pay attention; e.g., <hi rend="italic">Inf.</hi> 9.61-63.</note>
- <note target="#b7940" type="codic" resp="#LZM">7940] There is an empty ruled line in the the MS between lines 7940 and 7941; Stengel inserts: [Soe mer fu estraite voiremant de Rabis], derived from the 7660: <hi rend="italic">soa madre fo veramente trata de Rabisia</hi>, 'His mother came truly from Araby'.</note>
+  <note target="#b7940" type="codic" resp="#LZM">7940] Stengel ("Huons Suche," p. 28): per(e); there is an empty ruled line in the the MS between lines 7940 and 7941; Stengel inserts: [Soe mer fu estraite voiremant de Rabis], derived from the 7660: <hi rend="italic">soa madre fo veramente trata de Rabisia</hi>, 'His mother came truly from Araby'.</note>
 <note target="#b7942" type="trans" resp="#LZM">7942] Stengel ("Huons Suche," p. 28): Hom(e)</note>
 <note target="#b7946" type="refer" resp="#LZM">7946] Arleschamps / Aliscans is the famous battle that Guillaume d'Orange [William of Orange] fought against the Saracens, losing all his kinfolk, and especially Vivian.</note>
 <note target="#b7948" type="trans" resp="#LZM">7948] Stengel ("Huons Suche," p. 28): j'è par nom</note>
+ <note target="#b7950" type="trans" resp="#LZM">7950] Stengel ("Huons Suche," p. 28): [a] moy</note>    
    <note target="#b7952" type="lex" resp="#LZM">7952] <hi rend="italic">arche</hi>: we follow the use of Crespo, as indicated in his discussion of the <hi rend="italic">Couronnement de Louis</hi>, especially relevant since he cites F-I versions of the <hi rend="italic">Chanson de Roland</hi> (pp. 349-50): 'tomba degna di un martire della fede', 'tomb worthy of a martyr to the faith'. With thanks to JCV for calling our attention to the published discussions.</note>
    <note target="#b7955" type="trans" resp="#LZM">7955] Stengel ("Huons Suche," p. 28): [A] sainct Jacque; the "de" may be a reflection of the Italian "da" for "at the house of" (cf. French "chez" or Latin "apud"), so appropriate here.</note>
 <note target="#b7958" type="trans" resp="#LZM">7958] Stengel ("Huons Suche," p. 28): Sil(e)</note>
  <note target="#b7959" type="trans" resp="#LZM">7959] Stengel ("Huons Suche," p. 28): laide[n]gé. Once again, a line is missing here in comparison with T 7641: <hi rend="italic">E p[er] chamỳ fosem</hi>o prisy y[n] quel locho da nemisy [And en route we were taken in that place by enemies].</note>
-<note target="#b7960" type="trans" resp="#LZM">7960] Stengel ("Huons Suche," p. 28): e (ces) mon. This is a typical Italianate construction: cf. "questo mio amico."</note>
+     <note target="#b7960" type="trans" resp="#LZM">7960] Stengel ("Huons Suche," p. 28): e (ces) mon. This is a typical Italianate construction: cf. "questo mio amico." Rather than not count the word, one can count "veeç" as one syllable.</note>
 <note target="#b7962" type="trans" resp="#LZM">7962] Stengel ("Huons Suche," p. 28): [re]viençerent</note>
  <note target="#b7963" type="lex" resp="#LZM">7963]  <hi rend="italic">taus</hi>: plural of "tal"; it might be "tous" re-formed for rhyme?</note>
  <note target="#b7964" type="lex" resp="#LZM">7964] <hi rend="italic">vasaus</hi>: while this looks at first glance as a plural of "vassal" (and so Turin construes it, 7646 <hi rend="italic">P[er] amor de Dio y[n] pase le portasemo vasalo</hi>), the last word could also be "vaissel," offering one of the common chores of slaves, to serve at table (T-L vaissel, vessel, col. 90, lines 10ff).</note>
   <note target="#b7965" type="lex" resp="#LZM">7965] <hi rend="italic">terraus</hi>: plural of "terral," 'rampart' (T-L 257, lines 31 ff); taken as part-for-the-whole (synecdoche), 'fortress'</note>    
  <note target="#b7971" type="trans" resp="#LZM">7971] Stengel ("Huons Suche," p. 28): recov[r]irent</note>
-<note target="#b7973" type="trans" resp="#LZM">7973] Stengel ("Huons Suche"): jorne[e]</note>
-<note target="#b7988" type="trans" resp="#LZM">7988] Stengel ("Huons Suche," p. 29): (a)loïs  (T-L aloer (col 308, line 20))</note>
+ <note target="#b7972" type="trans" resp="#LZM">7972] Stengel ("Huons Suche," p. 28): söe; cf. T 7652:  desopra nuy tornò soa yra de lor malvasetà [they turned their anger and evil on us]. "raille" here seems to have been linked to 'rage' (versus the rallying of v. 1830); see introduction on -ge- for conditional endings.</note>   
+<note target="#b7973" type="trans" resp="#LZM">7973] Stengel ("Huons Suche," p. 29): jorne[e]</note>
+     <note target="#b7981" type="trans" resp="#LZM">7981] Stengel ("Huons Suche"): söe part; if the verse is construed as 7+5 syllables the trema is not necessary.</note>  
+<note target="#b7988" type="trans" resp="#LZM">7988] Stengel ("Huons Suche," p. 29): (a)loïs  (T-L col 308, line 20: aloer)</note>
 <note target="#b7992" type="trans" resp="#LZM">7992] Stengel ("Huons Suche," p. 29): cum [nos] or</note>
 <note target="#b7997" type="trans" resp="#LZM">7997] Stengel ("Huons Suche," p. 29): tenoit [il] la ville et li do[n]jon</note>
 <note target="#b7998" type="trans" resp="#LZM">7998] Stengel ("Huons Suche," 29): après (de)</note>
-<note target="#b8010" type="codic" resp="#LZM">8010] This section of the MS is difficult to read; perhaps there was water damage?</note>
+<note target="#b8005" type="trans" resp="#LZM">8005] Stengel ("Huons Suche," 29): Non oy</note>
+<note target="#b8010" type="codic" resp="#LZM">8010] This section of the MS is difficult to read; perhaps there was water damage? Stengel ("Huons Suche," p. 29): öy ... tendre a don</note>
 <note target="#b8011" type="trans" resp="#LZM">8011] Stengel ("Huons Suche," p. 30): embrace[r], ne dit [ne] oy</note>
-    <note target="#b8025" type="trans" resp="#LZM">8025] Stengel ("Huons Suche," p. 30): dampné [en] vont; the elaborate simile here recalls Dante's use of natural comparisons in <hi rend="italic">Inferno</hi>, such as that of the waterfall in Canto 16. 91-105.</note>
+<note target="#b8014" type="trans" resp="#LZM">8014] Stengel ("Huons Suche," p. 30): does not include this line in the quote</note>    
+<note target="#b8025" type="trans" resp="#LZM">8025] Stengel ("Huons Suche," p. 30): dampné [en] vont; the elaborate simile here recalls Dante's use of natural comparisons in <hi rend="italic">Inferno</hi>, such as that of the waterfall in Canto 16. 91-105.</note>
+<note target="#b8027" type="trans" resp="#LZM">8027] Stengel ("Huons Suche," p. 30): ille fusent</note>
 <note target="#b8029" type="trans" resp="#LZM">8029] Stengel ("Huons Suche," p. 30): fe[ï]sent</note>
 <note target="#b8034" type="trans" resp="#LZM">8034] Stengel ("Huons Suche," p. 30): hom(e)</note>
  <note target="#b8035" type="lex" resp="#LZM">8035] <hi rend="italic">despont</hi>:  T-L deposer (col. 1426, line 1: "absetzen", 'dispose')</note>
+  <note target="#b8039" type="trans" resp="#LZM">8039] Stengel ("Huons Suche," p. 30): De j'a sté e sunt; in Italian usage 'to be' is conjugated with 'to be' as an auxiliary, so <hi rend="italic">ja</hi>, as seen elsewhere is 'already', and <hi rend="italic">sunt sté</hi> is the present perfect of 'to be', <hi rend="italic">e'</hi> 'I'.</note>  
  <note target="#b8042" type="trans" resp="#LZM">8042] Stengel ("Huons Suche," p. 31): Diex [vos] aït</note>
+   <note target="#b8047" type="lex" resp="#LZM">8047] <hi rend="italic">païs</hi>: the umlaut here indicates 'country' as the meaning rather than the syllable count (see <hi rend="italic">Conseils</hi>, fasc. 1, pp. 51-52).</note>
+     <note target="#b8054" type="trans" resp="#LZM">8054] Stengel ("Huons Suche," p. 31): osero ge (see introduction)</note>
  <note target="#b8057" type="lex" resp="#LZM">8057] <hi rend="italic">scharagais</hi>: see "scaraguaita," Bezzola, <hi rend="italic">Abbozzo</hi> (p. 154)</note> 
 <note target="#b8058" type="trans" resp="#LZM">8058] Stengel ("Huons Suche," p. 31): [ce]l erbais</note>
-<note target="#b8064" type="trans" resp="#LZM">8064] Stengel ("Huons Suche," p. 31): l'en di[t]</note>
+ <note target="#b8062" type="trans" resp="#LZM">8062] Stengel ("Huons Suche," p. 31): outreou braç</note>
+  <note target="#b8064" type="codex" resp="#LZM">8064] MS: en dir; the emendation is Stengel's.</note>
 <note target="#b8066" type="trans" resp="#LZM">8066] Stengel ("Huons Suche,"p. 31): nom (de) ce</note>
 <note target="#b8074" type="trans" resp="#LZM">8074] Stengel ("Huons Suche," p. 31): [r]estora. But T-L, "gut machen"; "ersetzen" etc.</note>
 <note target="#b8093" type="trans" resp="#LZM">8093] Stengel ("Huons Suche," p. 32): sent(r)ent, following the Turin use of "sentir" rather than "s'entrer"</note>
