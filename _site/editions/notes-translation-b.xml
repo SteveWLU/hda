@@ -262,8 +262,8 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans5537.2" type="lit" resp="#SSB">5537] Literally: [...] badly satisfied. Alternative translation: [...] you make him appear ill</note>
                 <note target="#trans5560" type="lit" resp="#SSB">5560] Literally: [...] What is this that you have said?</note>
                 <note target="#trans5573" type="lit" resp="#SSB">5573] Literally: [...] by the eyes with which I see</note>
-                <note target="#trans5574.1" type="interp" resp="#SSB">5574] This has the cadence of a proverb or saying. Literally: [...] it is [just] wind that huffs and puffs</note>
-                <note target="#trans5574.2" type="lit" resp="#SSB">5574] This has the cadence of a proverb or saying. Literally: [...] it is [just] wind that huffs and puffs</note>
+                <note target="#trans5574.1" type="interp" resp="#SSB">5574] This has the cadence of a proverb or saying. Literally: [...] it is arrogrant wind</note>
+                <note target="#trans5574.2" type="lit" resp="#SSB">5574] This has the cadence of a proverb or saying. Literally: [...] it is arrogant wind</note>
                 <note target="#trans5585" type="alttrans" resp="#SSB">5585] Alternative transcription based on <hi rend="italic">por mains</hi> and <hi rend="italic">cobré</hi> understood as coming from "combrer": Saudin and Roger took each other by the hand </note>
                 <note target="#trans5602" type="lex" resp="#SSB">5602] Translation is based on understanding <hi rend="italic">aubré</hi> < "ovrer" and <hi rend="italic">raissé</hi> < "rasseoir"</note>
                 <note target="#trans5637" type="alttrans" resp="#SSB">5637] Alternative translation: And she [Generosity?] embraces him, but has not corrupted him</note>
@@ -394,6 +394,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans7520" type="interp" resp="#SSB">7520] Of course, many have questioned him, and he has had to tell at least some version of the story many times already.</note>
                 <note target="#trans7522" type="lit" resp="#SSB">7522] Literally: Except in so far as he said [...]</note>
                 <note target="#trans7531" type="interp" resp="#SSB">7531] The translation assumes that the negative in line 7530 applies equally to the verb in 7531.</note>
+                <note target="#trans7540" type="alttrans" resp="#SSB">7540] Alternative translation based on Stengel's transcription: Feel themselves tormented day after day</note>
                 <note target="#trans7554" type="edit" resp="#SSB">7554] This is a problematic line. The translation is based on the emendation of <hi rend="italic">r</hi> to <hi rend="italic">t</hi> to create a verb. <hi rend="italic">si grant</hi> refers back to the mention of Charles Martel's folly in line 7551.</note>
                 <note target="#trans7581" type="lit" resp="#SSB">7581] Literally: And he would have examined him carefully about many other things</note>
                 <note target="#trans7603" type="lit" resp="#SSB">7603] Literally: [...] of better knowledge</note>
@@ -406,11 +407,13 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans7702" type="alttrans" resp="#SSB">7702] Alternative translation based on understanding <hi rend="italic">tot foit</hi> as "tot foi"  and an alternative transcription of line 7702 (Si l'avoit seüré. [..] qui crolle [et] tot brusloit) which takes T 7378 into account: The cross that he held in his hand with complete confidence / Reassured him. [He saw a mountain] that shook and was burning up</note>
                 <note target="#trans7710" type="edit" resp="#SSB">7710] Lines 7707-10 have been reordered since the spirits are first mentioned in the original only in line 7709 whereas the spirits are the "understood" subject of the verb in line 7707. See also corresponding note in original.</note>
                 <note target="#trans7726" type="edit" resp="#SSB">7726] Although <hi rend="italic">deviseroit</hi> has a third-person ending, the next line is first person and it is likely that the ending here was changed owing to the verb's being in the rhyme position.</note>
+                <note target="#trans7733" type="interp" resp="#SSB">7733] The text doesn't make clear who or what is leading these cursed spirits. Cf. T laisses 298-299. However, the illumination pictures typical devil figures leading the prisoners.</note>
                 <note target="#trans7734" type="alttrans" resp="#SSB">7734] If <hi rend="italic">quue[r]</hi> is amended to <ex rend="angle">quue[n]</ex> the translation would change: [...] as the count believed --></note>
                 <note target="#trans7737" type="edit" resp="#SSB">7737] These two lines have been partially reordered for sense. It is apparently the beaten prisoners who are cursing.</note>
                 <note target="#trans7750" type="lit" resp="#SSB">7750] Literally: Suffer to obey everything that pleases me</note>
                 <note target="#trans7751" type="lit" resp="#SSB">7751] Literally: And that I not have encumbrance by you</note>
                 <note target="#trans7761" type="alttrans" resp="#SSB">7761] Alternative translation: [...] for this reason, stay back (based on alternative transcription, see corresponding note in transcription)</note>
+                <note target="#trans7766" type="alttrans" resp="#SSB">7766] Alternative translation: They have the appearance of earthly men." "You have nothing to do with this (see corresponding note in transcription)</note>
                 <note target="#trans7785" type="refer" resp="#SSB">7785] Ham, the father of Canaan, saw his father naked and told his two brothers outside (Genesis 9.22). The Biblical text doesn't specify that he mocked his father, but the contrast between his behavior and that of his brothers, who covered up their father while averting their eyes, earned Ham his father's curse. See also line 10521.</note>
                 <note target="#trans7789" type="interp" resp="#SSB">7789] The "exemplum" functions as a cautionary tale.</note>
                 <note target="#trans7793" type="lit" resp="#SSB">7793] Literally: Had this not been done nor will it be out of our free will</note>
@@ -427,6 +430,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans7884" type="lit" resp="#SSB">7884] Literally: [...] you were born at a fortunate moment</note>
                 <note target="#trans7940" type="edit" resp="#SSB">7940] If we understand that the missing line was similar to T 7622, "<hi rend="italic">soa mad</hi>re fo veramente trata de Rabisia," it would translate as "His mother was truly taken from Araby."</note>
                 <note target="#trans7958" type="lex" resp="#SSB">7958] Another meaning of "celebrer" is to celebrate mass but it is never clear if he is ordained to celebrate mass himself. Cf. T: <hi rend="italic">e ly celebray m</hi>olty zorny e lỳ romasy</note>
+                <note target="#trans7964" type="lit" resp="#SSB">7964] Literally: [...] we carried them dishes (if <hi rend="italic">vasaus</hi> comes from "vaissel," see corresponding note in transcription)</note>
                 <note target="#trans7973" type="lex" resp="#SSB">7973] "Pasqua Rosata" is an Italian term for Pentecost. Cf. DELI for first attestation 1240-46.</note>
                 <note target="#trans7997" type="interp" resp="#SSB">7997] Holding the castle keep, the main defensive tower in a town, meant that he was in charge of the city's defenses.</note>
                 <note target="#trans8005" type="interp" resp="#SSB">8005] Not always clear, as in this line, if he is speaking for himself or if he means himself and the other two friars—he uses the first person plural verb form frequently even when he is clearly speaking of himself only, as in line 7992.</note>
@@ -436,61 +440,62 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans8038" type="lit" resp="#SSB">8038] Literally: [...] no man in the world could go out from there</note>
                 <note target="#trans8041" type="interp" resp="#SSB">8041] This is another example of an expression of something of little value. Literally: Nor did I lose there a single blond hair</note>
                 <note target="#trans8042" type="lit" resp="#SSB">8042] Literally: May God help! [...]</note>
-                <note target="#trans8063" type="alttrans" resp="#SSB">8063] If the verb "prover" has here the sense of "to experience" an alternative translation would be: And how he experienced evil spirits many times</note>
-                <note target="#trans8079" type="lit" resp="#SSB">8079] Literally: Have yourself carried at present above onward</note>
-                <note target="#trans8089" type="interp" resp="#SSB">8089] Difficult to know if one or two griffons accompany them as the forms keep shifting from singular to plural, and frequently there is no verb/subject agreement on number. However since lines 8078 and 8102 imply that both griffons accompanied them, the translation is based on two griffons.</note>
-                <note target="#trans8093" type="interp" resp="#SSB">8093] "Their fellows" are the companions of the dangerous beasts they ran into.</note>
+                <note target="#trans8063" type="alttrans" resp="#SSB">8063] If the verb "prover" has here the sense of "to experience" an alternative translation, similar to Turin's meaning would be: And how he experienced evil spirits many times</note>
+                <note target="#trans8092" type="lit" resp="#SSB">8092] <hi rend="italic">Le autre [com]peigno[n]</hi> (literally: the other compagnon) from 8093 has been moved to 8092 for sense since it appears to be the subject of the verb "trover."</note>
                 <note target="#trans8097" type="interp" resp="#SSB">8097] These lines seem to describe the confusion among the wild beasts when attacked by the griffons.</note>
                 <note target="#trans8113" type="interp" resp="#SSB">8003] The narrator describes a scene, evocative of St. Francis, in which each group of animals splits off and moves away "singing" to graze elsewhere after Huon blesses them.</note>
                 <note target="#trans8116" type="interp" resp="#SSB">8116] See note to line 7849 (Laisse 303).</note>
-                <note target="#trans8125" type="lex" resp="#SSB">8125] <hi rend="italic">venie</hi> refers to an act of prostration or contrition in order to pray for forgiveness. Cf. <hi rend="italic">Anglo-Norman Dictionary</hi> online edition http://www.anglo-norman.net/D/venie; accessed 27 Mar 2019.</note>
-                <note target="#trans8141" type="refer" resp="#SSB">8141] Reference to Noah, the only virtuous man in the flood story.</note>
-                <note target="#trans8154" type="alttrans" resp="#SSB">8154] Translation is based upon understanding <hi rend="italic">entente</hi> as referring to Huon's quest. However, an alternative translation is possible: He will tell you the truth according to your understanding</note>
-                <note target="#trans8163" type="lit" resp="#SSB">8163] Literally: Anything else compared to hearing this is torment</note>
+                <note target="#trans8154" type="alttrans" resp="#SSB">8154] Translation is based upon understanding <hi rend="italic">entente</hi> as referring to Huon's quest. However, an alternative translation is possible: He will tell you the truth according to your understanding (Italian "intento" meaning "intention" or "goal" fits in with the current translation)</note>
+                <note target="#trans8163" type="lit" resp="#SSB">8163] Literally: Anything else compared to hearing this is unpleasant</note>
                 <note target="#trans8167.1" type="lit" resp="#SSB">8167] Literally: They read their chapter [...]; cf. T 7847: "<hi rend="italic">Suo hofizio</hi> fazea como sono achostumate". Literal translation based on <hi rend="italic">fenue</hi> as a form of "fen".</note>
                 <note target="#trans8167.2" type="alttrans" resp="#SSB">8167] Literally: They read their chapter [...]; cf. T 7847: "<hi rend="italic">Suo hofizio</hi> fazea como sono achostumate". Literal translation based on <hi rend="italic">fenue</hi> as a form of "fen".</note>
-                <note target="#trans8176" type="interp" resp="#SSB">8176] The text says that the holy fathers "greeted first" but the following text implies that they cannot speak to Huon, it is forbidden, so it must indicate some sort of gesture of greeting which causes Huon to almost faint in his awe. The verbs referring to the Holy Fathers are often singular, but the miniature shows two figures and elsewhere two are spoken of.</note>
-                <note target="#trans8189" type="interp" resp="#SSB">8189] Huon has apparently been undergoing a mystical experience which left him seeming half-dead and from which the friars shake him loose.</note>
+                <note target="#trans8176" type="interp" resp="#SSB">8176] The text says that the holy fathers "saluted first" which must indicate some sort of gesture of greeting (since verbal communication is forbidden) which causes Huon to almost faint in his awe. The verbs referring to the holy fathers are often singular, but the miniature shows two figures and elsewhere two are spoken of. At times it appears that one is taking the lead role, so the translation varies between singular and plural according to what seems to make the most sense.</note>
+                <note target="#trans8190" type="interp" resp="#SSB">8190] Huon has apparently been undergoing a mystical experience which left him seeming half-dead and from which the friars shake him loose.</note>
+                <note target="#trans8195" type="lex" resp="#SSB">8195] Cf. T 7875; <hi rend="italic">a luy</hi> here is pleonastic and not translatable</note>
                 <note target="#trans8198" type="interp" resp="#SSB">8198] See Laisse 211 where Ynide tries in vain to embrace her father's ghost (5428-5429).</note>
                 <note target="#trans8205" type="lit" resp="#SSB">8205] Literally: [...] and he will know their facts</note>
                 <note target="#trans8248" type="lex" resp="#SSB">8248] <hi rend="italic">Mont Ardant</hi> is not listed in any of the historical dictionaries of proper names. It could be a reference to the biblical Burning Bush or an indication of the entrance to Hell.</note>
                 <note target="#trans8268" type="lit" resp="#SSB">8268] Literally: My heart urges you now to do good and to speak [rightly].</note>
                 <note target="#trans8280" type="interp" resp="#SSB">8280] All the verbs in lines 8272-8280 are singular. However, the last line implies that the friars have descended with him and that Huon is now taking his leave from them.</note>
-                <note target="#trans8289" type="alttrans" resp="#SSB">8289] An alternative punctuation of lines 8288-8289 along with the emendation of <hi rend="italic">conté</hi> to <hi rend="italic">contré</hi> suggests a different translation: G[ra]nt part de la voie le ont aseguré / En maint afere; fu puis e[n] part cont<ex rend="angle">r</ex>é: (They protected him for a long time on the road / In many situations; afterward was encountered in part)</note>
                 <note target="#trans8328" type="lit" resp="#SSB">8328] Literally: Hearing this, a beautiful song came about from the sound</note>
                 <note target="#trans8329" type="refer" resp="#SSB">8329] Psalm 133.1: How good and pleasant it is for brothers to dwell together in unity. The original text in Hebrew is sung today as a round. See line 4204 for partial quote of Psalm 133 in Latin. Additional reference to this psalm in line 8529.</note>
                 <note target="#trans8348" type="refer" resp="#SSB">8348] Reference to the expulsion of the Devil from Heaven (Revelation 12.7-10)</note>
-                <note target="#trans8356" type="alttrans" resp="#SSB">8356] If <hi rend="italic">cie</hi> is from the verb "gire/çire" (to go/come), an alternative translation would be: [...] others came here to earth</note>
+                <note target="#trans8353" type="alttrans" resp="#SSB">8353] Alternative translation: All the evildoing was visible there</note>
+                <note target="#trans8356" type="alttrans" resp="#SSB">8356] Alternative translation: [...] others here to earth (based on transcribing <hi rend="italic">icie</hi> as one word, its particular spelling owing to the rhyme position)</note>
                 <note target="#trans8361" type="lit" resp="#SSB">8361] Literally: To keep always with those who will win</note>
                 <note target="#trans8364" type="refer" resp="#SSB">8364] Cf. T mo[n]do for <hi rend="italic">mons</hi></note>
                 <note target="#trans8385" type="ling" resp="#SSB">8385] The verb <hi rend="italic">savés</hi> at the end of the line seems to apply to both the first part of the sentence and the second.</note>
-                <note target="#trans8395" type="lit" resp="#SSB">8395] Literally: The reward is equal to all that one has done</note>
+                <note target="#trans8395" type="lit" resp="#SSB">8395] Literally: The reward befits all that one has done</note>
                 <note target="#trans8402.1" type="lit" resp="#SSB">8404] Literally: [...] the birds going in front (these are not the devils in the form of little birds but the griffons who had been accompanying Huon)</note>
                 <note target="#trans8402.2" type="interp" resp="#SSB">8402] Literally: [...] the birds going in front (these are not the devils in the form of little birds but the griffons who had been accompanying Huon)</note>
-                <note target="#trans8417" type="alttrans" resp="#SSB">8417] With Stengel's emendation, an alternative translation reads: Letters were carved at the time of Moses/ That forbade passage, as you will hear</note>
+                <note target="#trans8417" type="interp" resp="#SSB">8417] A written message forbidding entrance is a typical literary motif; Dante's entrance to Hell is the obvious reference here and one of the most often quoted (Inf. 3, 1-9).</note>
                 <note target="#trans8424.1" type="lit" resp="#SSB">8424] Literally: He greatly feared being fallen (Is this indicative of fear of being deep in sin or fear of facing his mortal end?)</note>
                 <note target="#trans8424.2" type="interp" resp="#SSB">8424] Literally: He greatly feared being fallen (Is this indicative of fear of being deep in sin or fear of facing his mortal end?)</note>
-                <note target="#trans8426" type="lit" resp="#SSB">8426] Literally: [...] he accepted it on himself (<hi rend="italic">la</hi> represents <hi rend="italic">soe fin</hi> from previous line)</note>
+                <note target="#trans8426" type="lit" resp="#SSB">8426] Literally: [...] he took it on himself (perhaps <hi rend="italic">la</hi> represents <hi rend="italic">soe fin</hi> from the previous line; perhaps the modern Italian expression "prendersela" is at play here)</note>
                 <note target="#trans8434" type="lit" resp="#SSB">8434] Literally: The sorrow he expressed, besides being anguished,/ No creature, indeed, could have seen it</note>
+                <note target="#trans8439" type="lex" resp="#SSB">8439] <hi rend="italic">cenue</hi> comes from "cenele" meaning "haw" (the fruit of a hawthorn tree), one of those expressions of things of little value. See note line 463.</note>
+                <note target="#trans8446" type="interp" resp="#SSB">8446] His "speech" in lines 8447-49 is reported in indirect discourse.</note>
                 <note target="#trans8456" type="lit" resp="#SSB">8456] Literally: He had passed three days [...]</note>
                 <note target="#trans8460" type="lit" resp="#SSB">8460] Literally: [...] that one is eager for as medicine</note>
                 <note target="#trans8488" type="alttrans" resp="#SSB">8488] "Antiquité" can also mean "of great age." See the miniature on 59 R of the two men with their long beards and biblical attire.</note>
                 <note target="#trans8491" type="lit" resp="#SSB">8491] Literally: [...] what your body asks for</note>
                 <note target="#trans8492" type="lit" resp="#SSB">8492] Literally: It has been a long time that one has awaited you</note>
+                <note target="#trans8519" type="lit" resp="#SSB">8519] Literally: [...] marks the boundary of here inside (referring to Earthly Paradise)</note>
                 <note target="#trans8529" type="refer" resp="#SSB">8529] Another reference to the opening of Psalm 133. See also lines 4204 and 8329.</note>
                 <note target="#trans8553" type="refer" resp="#SSB">8553] Cf. <hi rend="italic">Entrée d'Espagne</hi>, where Roland receives two apples from an angel when he visits a hermit, ll. 15041-42. These seem to be a motif of otherworldly adventure.</note>
                 <note target="#trans8555" type="lex" resp="#SSB">8555] <hi rend="italic">Conter</hi> also means "to recount" in which case the text may be playing with the two meanings.</note>
                 <note target="#trans8564" type="lit" resp="#SSB">8564] Literally: He journeyed three nights as well as three days</note>
-                <note target="#trans8572" type="lit" resp="#SSB">8572] Literally: Which often made great noise toward them</note>
-                <note target="#trans8612" type="lit" resp="#SSB">8612] Literally: Because of the initial burden from which they bore suffering</note>
-                <note target="#trans8624" type="interp" resp="#SSB">8624] Cf. T 8305: per mé la rivera mena el destrero de <hi rend="italic">presio</hi> (see also line 6725 in B above)</note>
-                <note target="#trans8642" type="lit" resp="#SSB">8642] Literally: [...] since they are violent in the water</note>
+                <note target="#trans8572" type="alttrans" resp="#SSB">8572] Alternative translation: That often made great noise at them</note>
+                <note target="#trans8609" type="lit" resp="#SSB">8609] Literally: [...] the more it was seen of menace</note>
+                <note target="#trans8642" type="lit" resp="#SSB">8642] Morbir=? from (lat) mori = "to die" which produced "morbid" n 16th c. English</note>
+                <note target="#trans8658" type="alttrans" resp="#SSB">8658] If this line pertains to the simile of the boars in the previous line, an alternative translation for these two lines would be: The smallest one was much bigger than a boar/ That digs in the mountain where it is wildest.</note>
                 <note target="#trans8661" type="lit" resp="#SSB">8661] MS: covet; see TLIO "covitare"</note>
-                <note target="#trans8672" type="lit" resp="#SSB">8672] Literally: [...] narrow was the road of a path</note>
+                <note target="#trans8669" type="lex" resp="#SSB">8669] It's not clear what the feminine pronoun <hi rend="italic">la</hi> represents here—the forest?</note>
+                <note target="#trans8672" type="lit" resp="#SSB">8672] Literally: [...] narrow was the way of a path</note>
                 <note target="#trans8684" type="lit" resp="#SSB">8684] Literally: [...] he had only outrage</note>
                 <note target="#trans8688" type="lit" resp="#SSB">8688] Literally: He gives little for it, he doesn't value it a single leaf (another expression of little value)</note>
                 <note target="#trans8697" type="lit" resp="#SSB">8697] Literally: I never saw you short-winded because of hunger</note>
-                <note target="#trans8716" type="interp" resp="#SSB">8717] A reference to tales of afterlife journeys into Hell. See, for example, Eileen Gardiner, ed., <hi rend="italic">Visions of Heaven and Hell before Dante</hi>.</note>
+                <note target="#trans8716" type="interp" resp="#SSB">8716] A reference to tales of afterlife journeys into Hell. See, for example, Eileen Gardiner, ed., <hi rend="italic">Visions of Heaven and Hell before Dante</hi>.</note>
                 <note target="#trans8724" type="lit" resp="#SSB">8724] Literally: [...] he rendered himself to God the Father</note>
                 <note target="#trans8735" type="refer" resp="#SSB">8735] Reference to the Harrowing of Hell narrated in the apocryphal <hi rend="italic">Gospel of Nicodemus</hi> from the third century C.E.</note>
                 <note target="#trans8739" type="interp" resp="#SSB">8739] See note line 5802.</note>
