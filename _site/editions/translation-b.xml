@@ -158,7 +158,7 @@
             </tagsDecl>
         </encodingDesc>
         <revisionDesc>
-            <change>Content last updated  December 2021</change>
+            <change>Content last updated 22 December 2021</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -2867,7 +2867,7 @@
                 <l n="2358">Then he prayed for all his companions</l>
                 <l n="2359">That they be put on the right path and be grateful.</l>
                 <l n="2360">Then he beat his breast, he struck his chest hard,</l>
-                <l n="2361">And confessed his faults, saying with great devotion,</l>
+                <l n="2361">And confessed his sins, saying with great devotion,</l>
                 <l n="2362">"<hi rend="bold">Have mercy on me</hi>, You who were hanging on the Cross."</l>
                 <l n="2363">When he had finished the psalm, he stood up;</l>
                 <l n="2364">He looked before him, he saw his men already eating.</l>
@@ -3195,7 +3195,7 @@
                 <l n="2643">To endure illness and pain, <hi rend="bold">my Lord, hear</hi>, hear</l>
                 <l n="2644"><hi rend="bold">My prayer</hi>, if it is your pleasure."</l>
                 <l n="2645">He recited the psalm to its very end;</l>
-                <l n="2646">Sweating he confessed and stretched out [on] the ground;</l>
+                <l n="2646">Sweating he confessed his sins and stretched out [on] the ground;</l>
                 <l n="2647">He crossed himself and then immediately arose.</l>
                 <l n="2648">He left that place and took up his journey.</l>
             </lg>
@@ -9888,7 +9888,7 @@
                 <l n="8515">Our ancestors called it the Promised Land;</l>
                 <l n="8516">It extends two hundred leagues wide and long as well,</l>
                 <l n="8517">You don't see here anything at all that is not very good."</l>
-                <l n="8518">After [explaining] all this, he revealed the nature of it:</l
+                <l n="8518">After [explaining] all this, he revealed the nature of it:</l>
                 <l n="8519">"That river that flows over there marks the boundary of this place here,<note xml:id="trans8519"/></l>
                 <l n="8520">Of Earthly Paradise where Adam failed;</l>
                 <l n="8521">And no man living today may enter there</l>
@@ -9910,7 +9910,7 @@
                 <l n="8534">What I have undertaken to do, for the benefit of my soul,</l>
                 <l n="8535">So that I always proceed entirely in good faith."</l>
                 <l n="8536">After this, they began to speak about many things;</l>
-                <l n="8537">Each answered the other concerning what he had asked.</l>
+                <l n="8537">Each answered the other concerning what he was asking.</l>
                 <l n="8538">There he remained for several entire days;</l>
                 <l n="8539">Huon gave them the cross that the pope had given him,</l>
                 <l n="8540">They worshipped it devoutly and then they kissed it;</l>
@@ -10033,7 +10033,7 @@
                 <l n="8639">That some cruel event might harm them.</l>
                 <l n="8640">He saw quite a few monsters coming out of the sea</l>
                 <l n="8641">That began to pursue each other.</l>
-                <l n="8642">They attacked each other since they were in wild waters;<note xml:id="trans8642"/></l>
+                <l n="8642">They calmed themselves once they were in wild water;<note xml:id="trans8642"/></l>
                 <l n="8643">They didn't take notice of Huon the knight,</l>
                 <l n="8644">For that would have given him quite a lot to do.</l>
                 <l n="8645">He baron continued on, he didn't want to tarry.</l>
@@ -10073,7 +10073,7 @@
                 <l n="8679">From the evil serpent, for it darted behind [them].</l>
                 <l n="8680">It took hold of the horse across the flank,</l>
                 <l n="8681">It gave [the horse] such a squeeze that it made him fall,</l>
-                <l n="8682">For the horse couldn't help himself.</l>
+                <l n="8682">Because the horse couldn't help himself.<note xml:id="trans8682"/></l>
                 <l n="8683">With brute force it killed him.</l>
                 <l n="8684">When Huon saw this, he was filled with outrage;<note xml:id="trans8684"/></l>
                 <l n="8685">He had never been so sorrowful since he had been born of woman,</l>
@@ -10086,14 +10086,14 @@
                             </lg>
             <lg type="laisse" n="336">
                 <head>Laisse 336</head>
-                <l n="8692">Now the count was deprived of his horse.</l>
+                <l n="8692">Now the count was deprived of ;his horse.</l>
                 <l n="8693"><cb n="b"/>He felt great sorrow when he saw him</l>
-                <l n="8694">Dead on the ground next to him, but [the horse] was well recompensed.</l>
+                <l n="8694">Dead on the ground next to him; [the horse] had been completely defeated.</l>
                 <l n="8695">"Oh, good horse," he said, "you who have accompanied me</l>
                 <l n="8696">Up to this point like a faithful friend!</l>
                 <l n="8697">I never saw you exhausted because of hunger!<note xml:id="trans8697"/></l>
                  <l n="8698">You have left and forsaken me in faraway peril;</l>
-                <l n="8699">There is no way to return whence I came,</l>
+                <l n="8699">There would be no way to return whence I came,</l>
                 <l n="8700">The routes are too horrible.</l>
                 <l n="8701">Oh, Promised Land, sacred and blessed,</l>
                 <l n="8702">When I left you behind, I committed a very great sin!</l>
@@ -10105,7 +10105,7 @@
                 <l n="8708">Never will a family member or friend see me [again],</l>
                 <l n="8709">Not even my wife to whom I swore my faith.</l>
                 <l n="8710">Noble countess, now I can surely say to you,</l>
-                <l n="8711">Even though I left you against my will;</l>
+                <l n="8711">However much I left you against my will,</l>
                 <l n="8712">The way [back] is forbidden to me and taken away!</l>
                 <l n="8713">I'll never have the consolation of going back.</l>
                 <l n="8714">It's been three days since I ate or drank;</l>
@@ -10118,7 +10118,7 @@
                 <l n="8721">May God guide me, I proclaim myself repentant."</l>
                 <l n="8722">At that moment he prostrated himself on the earth:</l>
                 <l n="8723">Tears fell from his eyes and he beat his breast;</l>
-                <l n="8724">He proclaimed his guilt, he put himself in the hands of God the Father.<note xml:id="trans8724"/></l>
+                <l n="8724">He confessed his sins, he put himself in the hands of God the Father.<note xml:id="trans8724"/></l>
                  </lg>
             <lg type="laisse" n="337">
                 <head>Laisse 337</head>
@@ -10126,38 +10126,38 @@
                 <l n="8726">As devoutly as ever he could.</l>
                 <l n="8727">He was accustomed to praying this way;</l>
                 <l n="8728">Day by day he never failed to do it.</l>
-                <l n="8729">"O Lord God, what advice do you offer me,</l>
-                <l n="8730"><milestone n="61R" unit="fol."/><cb n="a"/>As you did for the lost prophets</l>
+                <l n="8729">"O Lord God, what advice do You offer me,</l>
+                <l n="8730"><milestone n="61R" unit="fol."/><cb n="a"/>As You did for the lost prophets</l>
                 <l n="8731">In Limbo, where they were confined?</l>
                 <l n="8732">You were hung on the Cross for their sake and ours,</l>
-                <l n="8733">Your death paid for our salvation;</l>
+                <l n="8733">Your death redeemed us;<note xml:id="trans8733"/></l>
                 <l n="8734">You carried clear light into darkness</l>
                 <l n="8735">To those who were suspended in Limbo.<note xml:id="trans8735"/></l>
                 <l n="8736">By means of that holy piety and virtue</l>
-                <l n="8737">For which you were flogged and beaten</l>
+                <l n="8737">For which You were flogged and beaten</l>
                 <l n="8738">And placed and nailed onto the Cross,</l>
-                <l n="8739">At which time you were pierced with the lance<note xml:id="trans8739"/></l>
-                <l n="8740">That passed through your body right through the torso,</l>
+                <l n="8739">At which time You were pierced with the lance<note xml:id="trans8739"/></l>
+                <l n="8740">That passed through Your body right through the torso,</l>
                 <l n="8741">Every sin that anyone ever committed</l>
-                <l n="8742">Until that moment when they were [re]born</l>
-                <l n="8743">Was pardoned through you, Lord Jesus,</l>
+                <l n="8742">As far back as when they were born</l>
+                <l n="8743">Was pardoned through You, Lord Jesus,</l>
                 <l n="8744">Provided that they repented.<note xml:id="trans8744"/></l>
-                <l n="8745">When you were in anguish on the Cross,</l>
+                <l n="8745">When You were in anguish on the Cross,</l>
                 <l n="8746">Fair Nazarene Lord, out of pity</l>
-                <l n="8747">For your mother whose heart was consumed</l>
-                <l n="8748">By great sorrow, [who] was overwhelmed and bewildered,</l>
-                <l n="8749"><hi rend="bold">You said</hi>, when you showed her your disciple,</l>
+                <l n="8747">For Your mother whose heart was consumed</l>
+                <l n="8748">By great sorrow and overwhelmed and bewildered,</l>
+                <l n="8749"><hi rend="bold">You said</hi>, when You showed her Your disciple,</l>
                 <l n="8750"><hi rend="bold">'Woman, here is your son,'</hi></l>
                 <l n="8751">And then <hi rend="bold">you said</hi> to John as if to a beloved one,</l>
-                <l n="8752">'Here is your mother,' for you had chosen him</l>
+                <l n="8752">'Here is your mother,' for You had chosen him</l>
                 <l n="8753">With such words as I have now recalled.<note xml:id="trans8753"/></l>
                 <l n="8754">Have mercy on me, gentle and blessed fruit,<note xml:id="trans8754"/></l>
                 <l n="8755">On this wretch who has been lost for a long time.</l>
-                <l n="8756">I am weary of traveling this faraway path!</l>
+                <l n="8756">I am weary of wandering in this inhospitable place!</l>
                 <l n="8757">Everything I have set out [to do] has been impossible,</l>
                 <l n="8758">For the Scriptures speak of it and have said [so];</l>
-                <l n="8759">But if it please you, I will never be forsworn;</l>
-                <l n="8760">I declare myself overwhelmed by my sin before you."</l>
+                <l n="8759">But if it please You, I will never be forsworn;</l>
+                <l n="8760">I declare myself overwhelmed by my sin before You."</l>
                 <l n="8761">Then he arose from his weeping completed overcome.</l>
                             </lg>
             <lg type="laisse" n="338">
@@ -10167,7 +10167,7 @@
                 <l n="8764">Then he looked around at the grassy valley.</l>
                 <l n="8765">Below a tree whose leaves had fallen</l>
                 <l n="8766">There appeared a shadow in the guise of a pilgrim:</l>
-                <l n="8767"><cb n="b"/>He had a coat of fine linen torn in several places,</l>
+                <l n="8767"><cb n="b"/>He had a grayist-brown coat torn in several places,<note xml:id="trans8767"/></l>
                 <l n="8768">The hat on his head wasn't worth a lettuce.</l>
                 <l n="8769">[With] small eyes of sinister appearance,</l>
                 <l n="8770">A broad mouth, jagged teeth,</l>
@@ -10177,7 +10177,7 @@
                 <l n="8774">Huon saw him, [but] didn't move toward him.</l>
                 <l n="8775">Then he said aloud, "Saint Mary, help!</l>
                 <l n="8776">I have never seen anyone so misshapen in my misadventures."</l>
-                <l n="8777">He crossed himself and then he said and shouted,</l>
+                <l n="8777">He crossed himself and then he said, declaring [to himself],<note xml:id="trans8777"/></l>
                 <l n="8778">"I see the shape of a man, I don't know if he is human."<note xml:id="trans8778"/></l>
                 <l n="8779">Then he approached this sudden apparition<note xml:id="trans8779"/></l>
                 <l n="8780">And said, "What are you doing in this lost land?</l>
@@ -10202,14 +10202,14 @@
                 <l n="8795">Through long deprivation you have certainly won the struggle.</l>
                 <l n="8796">Now come with me and have no shame;</l>
                 <l n="8797">For the sake of our Creator to whom you have pledged your faith,</l>
-                <l n="8798">I have no power to cause you any nasty obstacle.</l>
-                <l n="8799">It is fitting that you go see the great Demon</l>
+                <l n="8798">I have no power over you [for me] to imagine doing [you] harm.</l>
+                <l n="8799">It is fitting that I lead you into the presence of the great Demon</l>
                 <l n="8800">Where you'll be able to see the laypeople and the monks,</l>
                 <l n="8801">The various peoples of Auvergne and of Gascony</l>
                 <l n="8802">From whom Heaven has distanced itself because of their great sins,</l>
-                <l n="8803">And [where you'll be able to] tell what you will to the one whom everyone fears,<note xml:id="trans8803"/></l>
-                <l n="8804"><milestone n="61V" unit="fol."/><cb n="a"/>Through your arrival, and don't think this is a lie,</l>
-                <l n="8805">On behalf of King Charles, who deceives justice."</l>
+                <l n="8803">And [where you'll be able to] tell what you will to the one who is informed <note xml:id="trans8803"/></l>
+                <l n="8804"><milestone n="61V" unit="fol."/><cb n="a"/>Through your coming, and don't think this is a lie,</l>
+                <l n="8805">On behalf of King Charles, who trades in justice."<note xml:id="trans8805"/></l>
                 <l n="8806">Then the count replied, "May the Lord God not grant</l>
                 <l n="8807">That I have such company in this task."</l>
                             </lg>
@@ -10218,7 +10218,7 @@
                 <l n="8808">"Well!" said the false angel, "tell me then what you
                     would do.</l>
                 <l n="8809">I know all the good and the bad about your situation.</l>
-                <l n="8810">If you died owing to your own failures you would suffer punishment.<note xml:id="trans8810"/></l>
+                <l n="8810">If you die owing to your own failure you will suffer punishment.<note xml:id="trans8810"/></l>
                 <l n="8811">It has already been several days that you've eaten nothing;</l>
                 <l n="8812">Make haste then on your road since you have a good guide,</l>
                 <l n="8813">And you'll deliver your message and then return from there</l>
@@ -10233,15 +10233,15 @@
                 <l n="8822">Get away from me, oh, evil spirit,</l>
                 <l n="8823">For I wouldn't ever believe you about anything,</l>
                 <l n="8824">If it please God, concerning what you have said to me.</l>
-                <l n="8825">He'll send me a more trustworthy guide, this I know;</l>
-                <l n="8826">You would never guide me to help me.</l>
+                <l n="8825">He'll send me a more trustworthy guide, I know,</l>
+                <l n="8826">To help me; you will never guide me.</l>
                 <l n="8827">You haven't been worthy of belief since the great transgression,</l>
                 <l n="8828">When you refused the high place for the low one.<note xml:id="trans8828"/></l>
                 <l n="8829">In fact, when you were disloyal and a traitor to yourself,</l>
-                <l n="8830">That was a sign that you would never love Him at all;</l>
-                <l n="8831">You betrayed yourself through your greedy behavior.</l>
-                <l n="8832">And you, with more of an obligation than another devil,</l>
-                <l n="8833">Have come to the market where you will earn little."<note xml:id="trans8833"/></l>
+                <l n="8830">That was a sign that you would never love anything</l>
+                <l n="8831">Owing to the covetous behavior by which you harmed yourself.</l>
+                <l n="8832">And you, as more of a liegeman [to Lucifer] than another devil,</l>
+                <l n="8833">Have come to the market where you will gain little."<note xml:id="trans8833"/></l>
                 <l n="8834">And the [devil] answered him, "That day in your palace,<note xml:id="trans8834"/></l>
                 <l n="8835">When you sent for all the poor people [and] you gave everyone dinner,</l>
                 <l n="8836">I was outside disguised as a hideous poor man.</l>
@@ -10276,22 +10276,22 @@
                 <l n="8862">And [the devil] turned away, angry and crestfallen;</l>
                 <l n="8863">Thus did the spirit without favor</l>
                 <l n="8864">Take leave of the count with his head bowed.</l>
-                <l n="8865">He turned away back toward a grove;</l>
-                <l n="8866">He hadn't gone as far as a crossbow bolt shot,</l>
-                <l n="8867">When suddenly he saw another shade armed from top to bottom<note xml:id="trans8867"/></l>
-                <l n="8868">Coming out of a stretch of wilderness,</l>
+                <l n="8865">He turned away back toward a grove,</l>
+                <l n="8866">Not going as far as a crossbow bolt shot.</l>
+                <l n="8867">Huon saw another shade armed from top to bottom<note xml:id="trans8867"/></l>
+                <l n="8868">Come suddenly out of a stretch of wilderness,</l>
                 <l n="8869">As alone as when a bear emerges from the woods.</l>
                 <l n="8870">In his bearing he resembled a nobleman;</l>
                 <l n="8871">He was covered in iron from head to foot;<note xml:id="trans8871"/></l>
                 <l n="8872">With a sword buckled on, he held a sprig in his hand,</l>
                 <l n="8873">All green, from a young olive plant;</l>
                 <l n="8874">His helmet laced up, neither eye nor forehead was visible;</l>
-                <l n="8875">He was fully ten whole feet away.</l>
-                <l n="8876">He approached Huon slowly,</l>
+                <l n="8875">He was fully ten feet tall.</l>
+                <l n="8876">He approached Huon slowly</l>
                 <l n="8877">And said, "What are you doing in this land?</l>
                 <l n="8878"><milestone n="62R" unit="fol."/><cb n="a"/>You roam like a wild man, and who knows what else;<note xml:id="trans8878"/></l>
-                <l n="8879">Aren't you willing to believe those whom you encounter?"<note xml:id="trans8879"/></l>
-                <l n="8880">"From day to day I come across nothing except evil," [Huon said].</l>
+                <l n="8879">Aren't you willing to believe what we tell you about it?</l>
+                <l n="8880">From day to day you come across nothing but evil."</l>
                 <l n="8881">Then [the shade] said in a loud voice, "You won't believe anyone except yourself!</l>
                 <l n="8882">Safely, without any distrust,</l>
                 <l n="8883">Come with me; thus I will guide you</l>
@@ -10307,18 +10307,18 @@
                 <l n="8893">And many knights, sergeants and foot soldiers;</l>
                 <l n="8894">One can see people of all sorts.</l>
                 <l n="8895">Each one has his just deserts from what he did in the world;</l>
-                <l n="8896">Indeed there will be greater pain for certain others, this we know,</l>
+                <l n="8896">If there is greater torment for some than others, we know about it,</l>
                 <l n="8897">Their evil is written clearly, they have it on their forehead.</l>
                 <l n="8898">Ever to leave that place where they are</l>
-                <l n="8899">Is a lost cause and they know it well,</l>
-                <l n="8900">For so is it destined by God on high in His Heaven:</l>
-                <l n="8901">Even for Aristotle himself and his companions."</l>
+                <l n="8899">Is a lost cause and everyone knows it well,</l>
+                <l n="8900">Even Aristotle himself and his companions,</l>
+                <l n="8901">For so it is decreed by God on high on His throne."</l>
                             </lg>
             <lg type="laisse" n="342">
                 <head>Laisse 342</head>
                 <l n="8902">The count of Auvergne looked at the armed shade,</l>
                 <l n="8903">And listened to the words that were spoken to him,</l>
-                <l n="8904">As they reassured him concerning the sorrowful road.</l>
+                <l n="8904">Since they reassured him concerning the sorrowful road.<note xml:id="trans8904"/></l>
                 <l n="8905">[Huon] answered him like a well-mannered person:</l>
                 <l n="8906">"Are you, who show yourself before me, a man or a shade?</l>
                 <l n="8907">You have spoken to me well;</l>
@@ -10327,7 +10327,7 @@
                 <l n="8910">Who were expelled from Heaven owing to arrogance;</l>
                 <l n="8911">[In that case] I wouldn't believe you no matter what was recounted."</l>
                 <l n="8912">"I am not [one of them]," he said, "but rather [one] of the damned,</l>
-                <l n="8913">Of [those] people who were born before baptism [existed];</l>
+                <l n="8913">[That is, those] people who were born before baptism;</l>
                 <l n="8914">Before pity was incarnated in the Virgin,</l>
                 <l n="8915"><cb n="b"/>My flesh had been rotting for a very long time.</l>
                 <l n="8916">If I had just touched some of that water</l>
@@ -10341,54 +10341,54 @@
                 <l n="8924">Were Trojan, exiled from their land,</l>
                 <l n="8925">Which was set alight and burned by the Greeks</l>
                 <l n="8926">Simply because of the woman who was taken away from the temple--</l>
-                <l n="8927">That was Helen--she had very great renown,</l>
-                <l n="8928">And she also caused death in that invasion.<note xml:id="trans8928"/></l>
+                <l n="8927">That was Helen who had very great renown---</l>
+                <l n="8928">They[, my ancestors] thus died in that invasion.</l>
                 <l n="8929">After the destruction, I lived a good while</l>
-                <l n="8930">For I escaped to a foreign land;</l>
+                <l n="8930">Because I escaped to a foreign land;</l>
                 <l n="8931">Then I caused harm to the Greek people;</l>
                 <l n="8932">I pursued them every day, as long as I was able.</l>
                 <l n="8933">The evil gods, out of their spite,</l>
-                <l n="8934">Made me go as a soul still in the body</l>
+                <l n="8934">Made me go [still alive,] a soul within a body,</l>
                 <l n="8935">Into the land that you have sought for so long,</l>
                 <l n="8936">Where Sibyl, the evil one, led me</l>
                 <l n="8937">Using the great craft that spurred her on;</l>
                 <l n="8938">I searched Hell with my naked sword.</l>
                 <l n="8939">Now I want you to know my true name:</l>
                 <l n="8940">I was the son of Anchises; people call me Aeneas,</l>
-                <l n="8941">For love of whom Dido, mad with grief, committed suicide."</l>
+                <l n="8941">For whose love Dido, mad with grief, committed suicide."</l>
                             </lg>
             <lg type="laisse" n="343">
                 <head>Laisse 343</head>
-                <l n="8942">"[What a] marvel I'm hearing!" the count replied.</l>
+                <l n="8942">"[What a] marvel I have heard!" the count replied.</l>
                 <l n="8943">"Holy Mary," he said, "are you the one</l>
                 <l n="8944">Of whom I have heard so much,</l>
                 <l n="8945">Who was alive in the lost kingdom,</l>
-                <l n="8946">According to what the good Virgil explained?</l>
+                <l n="8946">According to what the good Virgil tells?</l>
                 <l n="8947">Oh, Aeneas, if you had believed </l>
-                <l n="8948">In the Son of God who was born of the Virgin,</l>
-                <l n="8949">I would have put myself in your hands for love of Him,</l>
+                <l n="8948">In the Son of God who was [born] of the Virgin,</l>
+                <l n="8949">I would put myself in your hands for love of Him,</l>
                 <l n="8950">That you might take care of my well-being."</l>
                 <l n="8951">"I came here," [Aeneas] said, "in order to help you</l>
                 <l n="8952"><milestone n="62V" unit="fol."/><cb n="a"/>Because of the desire of the One whom you mentioned;</l>
-                <l n="8953">Since the good law is absolute for Him,<note xml:id="trans8953"/></l>
-                 <l n="8954">I must conduct you to seek the tribute</l>
+                <l n="8953">Out of [that desire] good faith will be carried out through Him:<note xml:id="trans8953"/></l>
+                <l n="8954">I must escort you to seek the tribute</l>
                 <l n="8955">For which Charles Martel sent you, you know it well.</l>
                 <l n="8956">Have no fear because of those wretched ones;</l>
                 <l n="8957">Neither Charon nor Cerberus can harm you;</l>
                 <l n="8958">Have trust in me, if that [devil] doesn't please you.</l>
-                <l n="8959">They wouldn't have power over you anymore than they might have it</l>
+                <l n="8959">They won't have power over you, would that they no longer had it</l>
                 <l n="8960">Over me, a sinner, since I wasn't baptized."</l>
                             </lg>
             <lg type="laisse" n="344">
                 <head>Laisse 344</head>
-                <l n="8961">Like a young girl who fully expected</l>
+                <l n="8961">Like a young girl who is quite hesitant</l>
                 <l n="8962">To obey a man because of a promise of money</l>
-                <l n="8963">--Who worries that he will do nothing,</l>
-                <l n="8964">Since another time he had acted similarly--</l>
-                <l n="8965">The count also worried exactly in that way about</l>
+                <l n="8963">--Who worries that he will do no such thing, [that is, pay her,]</l>
+                <l n="8964">Because previously he had done exactly that--</l>
+                <l n="8965">The count also had just such a thought about</l>
                 <l n="8966">What Athenor did to the Trojan people.<note xml:id="trans8966"/></l>
                 <l n="8967">[Huon] replied to him in a very friendly manner:</l>
-                <l n="8968">"Forgive me now, gentle spirit,</l>
+                <l n="8968">"Forgive me now, noble spirit,</l>
                 <l n="8969">For not being eager to come with you;<note xml:id="trans8969"/></l>
                  <l n="8970">And if better assistance than you isn't forthcoming,</l>
                 <l n="8971">I wish to entreat you, by God Almighty,</l>
@@ -10398,15 +10398,15 @@
                 <l n="8975">Because I wouldn't dare because you're supernatural</l>
                 <l n="8976">To come with you among the lost people.</l>
                 <l n="8977">And if I have come here foolishly,</l>
-                <l n="8978">I declare my guilt as a man who repents,</l>
+                <l n="8978">I confess my sins as a man who repents,</l>
                 <l n="8979">However late the thought might be.</l>
-                <l n="8980">It appears to me that he who requests</l>
-                <l n="8981">This clearly impossible thing offends God.</l>
-                <l n="8982">I flee from here; I won't believe you at all!</l>
+                <l n="8980">I have realized that he offends God</l>
+                <l n="8981">Who asks for an impossible gift.</l>
+                <l n="8982">Flee from here; I won't believe you at all!</l>
                 <l n="8983">You were once a traitor, to yourself and to other people,</l>
                 <l n="8984">Part of the ruin of Troy occurred because of you,</l>
                 <l n="8985">Which meant its downfall.<note xml:id="trans8985"/></l>
-                <l n="8986">Whoever might trust in you acts very badly."</l>
+                <l n="8986">Whoever might trust in you would act very badly."</l>
                 <l n="8987">And the other replied, "I'm sorry about this;</l>
                 <l n="8988">If you don't have guidance from me to your liking,</l>
                 <l n="8989"><cb n="b"/>May God give you someone more adequate than I."</l>
@@ -10421,9 +10421,9 @@
                 <l n="8995">Even the spirit wept out of concern.</l>
                 <l n="8996">"Friend," he said, "this weeping is childish;<note xml:id="trans8996"/></l>
                 <l n="8997">Anyone who begins his labor and doesn't finish it</l>
-                <l n="8998">Because of feeble regret acts badly.</l>
+                <l n="8998">Because of empty regret acts badly.</l>
                 <l n="8999">A lesser guide made me, with less hope,</l>
-                <l n="9000">Enter into the obscure dwelling.<note xml:id="trans9000"/></l>
+                <l n="9000">Enter into the dark dwelling place.<note xml:id="trans9000"/></l>
                 <l n="9001">And you, who appear to have more power,</l>
                 <l n="9002">Don't want to come; where does this ignorance come from?</l>
                 <l n="9003">I'm worried about you, for I see you in danger;</l>
