@@ -171,7 +171,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Last updated 08 December 2021</change>
+      <change>Last updated 22 December 2021</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -12619,7 +12619,7 @@
           desaisi,</l>
         <l n="8693"><cb n="b"/>Grant dol en oit qua<ex rend="italic">n</ex>t
           deleç luy le vi</l>
-        <l n="8694">Mort a la te<ex rend="italic">r</ex>re, mes il fu bien meri:</l>
+          <l n="8694">Mort a la te<ex rend="italic">r</ex>re, mes il fu bien meri:<note xml:id="b8694"/></l>
         <l n="8695">"Haÿ, bon cival," feit il, "q<ex rend="italic">ue</ex> jusq<ex rend="italic"
             >ue</ex> ci</l>
         <l n="8696">Moy avés co<ex rend="italic">n</ex>voié come loials ami!</l>
@@ -12627,8 +12627,7 @@
         <l n="8698">En strange p<ex rend="italic">er</ex>il m'as leisé <ex rend="italic">et</ex>
             gue<ex rend="italic">r</ex>pi;</l>
         <l n="8699">De retorner la ond ge departi,</l>
-        <l n="8700">Rien n'e<ex rend="italic">n</ex> seroit; trop sont li pas ori.<note
-            xml:id="b8700"/></l>
+        <l n="8700">Rien n'e<ex rend="italic">n</ex> seroit; trop sont li pas ori.<note xml:id="b8700"/></l>
         <l n="8701">Aÿ, Te<ex rend="italic">r</ex>re Promison, sagreç <ex rend="italic">et</ex>
           beneï,</l>
         <l n="8702">Qua<ex rend="italic">n</ex>t vos e' obliay, mout g<ex rend="italic">ra</ex>nt
@@ -12691,11 +12690,11 @@
         <l n="8743">Fu pardoné par toy, sire Yh<ex rend="italic">es</ex>us,</l>
         <l n="8744">Jusq<ex rend="italic">ue</ex> a celle hore q<ex rend="italic">ue</ex> il furent
             nascus.<note xml:id="b8744"/></l>
-        <l n="8745">Por la pité, biaus sire Naçarenus,<note xml:id="b8745"/></l>
+        <l n="8745">Por la pité, bïaus sire Naçarenus,<note xml:id="b8745"/></l>
         <l n="8746">Que vos eüstes en l’afan sor le fus</l>
         <l n="8747">De vetre mere q’avoit le quue<ex rend="italic">r</ex> enclus</l>
-        <l n="8748">-- De g<ex rend="italic">ra</ex>nt dolor fu esmaté <ex rend="italic">et</ex>
-          confus-- </l>
+        <l n="8748">De g<ex rend="italic">ra</ex>nt dolor -- fu esmaté <ex rend="italic">et</ex>
+            confus-- <note xml:id="b8748"/></l>
         <l n="8749">Quant li mostras li ton <q rend="bold" xml:lang="la">discipolus</q>:</l>
         <l n="8750"><q rend="bold" xml:lang="la">'Mulier,' dixis 'ecce ton filius'</q>,</l>
           <l n="8751">Et a Johan <q rend="bold" xml:lang="la">dixis</q> puis cum a drus:<note xml:id="b8751"/></l>
@@ -12704,14 +12703,14 @@
         <l n="8754">Aigeç merci de moy, douce benoite frus,<note xml:id="b8754"/></l>
         <l n="8755">De cest topin q<ex rend="italic">ue</ex> pieçe ert cum p<ex rend="italic"
             >er</ex>dus;</l>
-        <l n="8756">Estrange part d’aler suy recreüs!</l>
+          <l n="8756">Estrange part d’aler suy recreüs!<note xml:id="b8756"/></l>
         <l n="8757">Emposible e<ex rend="italic">r</ex>t tot ce dont suy esmoüs</l>
-        <l n="8758">Car l 'Escripture em p<ex rend="italic">ar</ex>le <ex rend="italic">et</ex> ot
+        <l n="8758">Car le Scripture em p<ex rend="italic">ar</ex>le <ex rend="italic">et</ex> ot
             disus;<note xml:id="b8758"/></l>
         <l n="8759">Mes s’a toy plest, ja non serai p<ex rend="italic">er</ex>jurs;<note
             xml:id="b8759"/></l>
         <l n="8760">De mo<ex rend="italic">n</ex> pechié a toy me clam co<ex rend="italic"
-          >n</ex>fus."</l>
+            >n</ex>fus."<note xml:id="b8760"/></l>
         <l n="8761">Alor soy leve de plorer tot ve<ex rend="italic">n</ex>chus.<note xml:id="b8761"
           /></l>
       </lg>
@@ -12721,13 +12720,12 @@
             >n</ex>s Hue,<note xml:id="b8762"/></l>
         <l n="8763">Plore des oil <ex rend="italic">et</ex> de sa main le sue,</l>
         <l n="8764">Pois reguarda pormi la val h<ex rend="italic">er</ex>bue.</l>
-        <l n="8765">Desot un aubre don la foille e<ex rend="italic">st</ex> cheüe<note
-            xml:id="b8764"/></l>
+        <l n="8765">Desot un aubre don la foille e<ex rend="italic">st</ex> cheüe<note xml:id="b8764"/></l>
         <l n="8766">A loy de pelegrin, la ert une ombre creüe,</l>
         <l n="8767"><cb n="b"/>A une cote bisse em plusor leu ro<ex
             rend="italic">m</ex>pue,</l>
         <l n="8768">Le çapel de son cef no<ex rend="italic">n</ex> vaut une latue.</l>
-        <l n="8769">Les oil petit cum obscure veüe,</l>
+          <l n="8769">Les oil petit cum obscure veüe,<note xml:id="b8769"/></l>
         <l n="8770">La boce lée, dentaüre cornue,</l>
         <l n="8771">Ave<ex rend="italic">r</ex>ser samble que d’enfer soit desce<ex rend="italic"
             >n</ex>due.</l>
@@ -12780,10 +12778,10 @@
         <l n="8801">Giantes div<ex rend="italic">er</ex>ses d'Alve<ex rend="italic">r</ex>ne <ex
             rend="italic">et</ex> de Guascogne</l>
         <l n="8802">Que por lor g<ex rend="italic">ra</ex>nt pechieç le ciel da lor s'esloigne,</l>
-        <l n="8803">Et dir le ton voloir a cil qe si resoigne</l>
+          <l n="8803">Et dir le ton voloir a cil qe si resoigne<note xml:id="b8803"/></l>
         <l n="8804"><milestone n="61V" unit="fol."/><cb n="a"/>Por la toe venue, et ne·l tenir me<ex
             rend="italic">n</ex>çogne,</l>
-        <l n="8805">Da part le roy K<ex rend="italic">ar</ex>llon, que justise bergog<ex
+        <l n="8805">Da part le roy K<ex rend="italic">ar</ex>llon que justise bergog<ex
             rend="italic">n</ex>(e)."<note xml:id="b8805"/></l>
         <l n="8806">Alor respont li cons, "Ja Damnidés no<ex rend="italic">n</ex> dog<ex
             rend="italic">n</ex>(e)</l>
@@ -12824,8 +12822,8 @@
             rend="italic">r</ex>fais,</l>
         <l n="8828">Que vos en refusastes l'aut steil por le bais,<note xml:id="b8828"/></l>
         <l n="8829">E qua<ex rend="italic">n</ex>t a vos meesme fustes felons <ex rend="italic"
-            >et</ex> traïs<note xml:id="b8829"/></l>
-        <l n="8830">Ce fu sinifiance que nul amereç mais,<note xml:id="b8830"/></l>
+            >et</ex> traïs,<note xml:id="b8829"/></l>
+        <l n="8830">Ce fu sinifiance que nul amereç mais<note xml:id="b8830"/></l>
         <l n="8831">De l'aler co<ex rend="italic">n</ex>voitos do<ex rend="italic">n</ex>t vos e<ex
             rend="italic">n</ex> fustes traïs.</l>
         <l n="8832">Et tu cum plus liance d'un aut<ex rend="italic">re</ex> setanais,</l>
@@ -12928,7 +12926,7 @@
           l'on,</l>
           <l n="8900">Qar si est destiné da l'aut Deu del tron:<note xml:id="b8900"/></l>
         <l n="8901">E meesme Aristotle, luy <ex rend="italic">et</ex> si co<ex rend="italic"
-          >m</ex>pagnon."</l>
+            >m</ex>pagnon."<note xml:id="b8901"/></l>
       </lg>
       <lg type="laisse" n="342">
         <head>Laisse 342</head>
@@ -12945,7 +12943,7 @@
         <l n="8909">Garde non soiés de le fause masnee</l>
         <l n="8910">Que por orgoil dou ciel fu descacee;</l>
         <l n="8911">Non te creiroge par nulle rens contee."</l>
-        <l n="8912">"Non suy," feit il, "mes bien de la damnee,</l>
+        <l n="8912">"Non suy," feit il, "mes bien de la damnee:</l>
         <l n="8913">De jant que sont ainç le batisme nee,<note xml:id="b8913"/></l>
         <l n="8914">Ainç que piteç fust en Vi<ex rend="italic">r</ex>gen adombree,</l>
         <l n="8915"><cb n="b"/>De mout g<ex rend="italic">ra</ex>nt tamps
@@ -12963,10 +12961,10 @@
         <l n="8923">Le mes ancestre do<ex rend="italic">n</ex>t ais fet doma<ex rend="italic"
           >n</ex>dee</l>
         <l n="8924">Furent Troian, de la te<ex rend="italic">r</ex>re exilee,</l>
-        <l n="8925">Que por Grecçois estoit arse <ex rend="italic">et</ex> bruslee</l>
+        <l n="8925">Que por Grecçois estoit arse <ex rend="italic">et</ex> bruslee,</l>
         <l n="8926">Sol p<ex rend="italic">or</ex> la fame qui fu au tample amblee--</l>
-        <l n="8927">Ce fu Ellaine-- mout out g<ex rend="italic">ra</ex>nt renomee,</l>
-        <l n="8928">Que ausi morut en icelle envaee.</l>
+        <l n="8927">Ce fu Ellaine, mout out g<ex rend="italic">ra</ex>nt renomee--</l>
+          <l n="8928">Que a<ex rend="angle">n</ex>si morut en icelle envaee.<note xml:id="b8928"/></l>
         <l n="8929">Darer la strucion, je vesqui asee<note xml:id="b8929"/></l>
         <l n="8930">Que m'en fuy en estrange contree;</l>
         <l n="8931">Puis fi daumage a la gent de Grecee;</l>
@@ -13001,8 +12999,8 @@
         <l n="8950">Que tu aüs merci de ma salu."</l>
         <l n="8951">"Par toy secorer," fit il, "ci suy venu</l>
         <l n="8952"><milestone n="62V" unit="fol."/><cb n="a"/>Por le voloir Celuy qu'ais me<ex rend="italic"
-            >n</ex>taü,</l>
-        <l n="8953">Ou la bone loy ert por Luy absolu.</l>
+            >n</ex>taü;</l>
+        <l n="8953">Ou la bone loy ert por Luy absolu:</l>
         <l n="8954">Conduir te doy a querir li trahu</l>
         <l n="8955">Que Ka<ex rend="italic">r</ex>lle Martel t'envoie, bien sas tu.<note
             xml:id="b8955"/></l>
