@@ -34,7 +34,7 @@
  </front>
  <body>
  <div>
-    <!-- updated 14 January 2022 -->  
+    <!-- updated 21 January 2022 -->  
    <!-- Rules: no period after citation of other edition or the location of a source only. Where commented or complete sentence, use a period at the end of the line.-->
 <note target="#b1" type="trans" resp="#LZM">1] Holtus ("Considerazioni") published lines 1-109; his edition is a diplomatic one (45-48), with abbreviations reproduced and word divisions as in the manuscript. Tobler published lines 1-111 (pp. 617-19); he reproduces the text without punctuation other than the final periods and the lines that mark caesura here at the beginning of the poem, and without distinguishing u/v.</note>
 <note target="#b12" type="codic" resp="#LZM">12] MS: une (final -e is expunctuated)</note>
@@ -1390,12 +1390,12 @@
    <note target="#b9425" type="codic" resp="#LZM">9425] MS: set; Stengel ("Höllenfahrt," p. 25): set (<hi rend="italic">b</hi>: sot)</note>
    <note target="#b9426" type="lex" resp="#LZM">9426] See T-L <hi rend="italic">pustule</hi> col. 2103; for <hi rend="italic">marmosse</hi>, cf. <hi rend="italic">marmoser</hi>, FEW <hi rend="italic">marm-</hi>; T-L marmoser, col. 1185, ll. 9ff, 'to murmer'; Matsumura, "marmotter," 'mumble'. Scattolini suggests that <hi rend="italic">marmosse</hi> is in analogy with <hi rend="italic">flamos/flamosse</hi>, influenced by OF "marmitos" ('lamentable, misérable'), and suggests an origin for <hi rend="italic">pusterne</hi> from "pustule"; we also note a similarity.</note>
    <note target="#b9428" type="lex" resp="#LZM">9428] <hi rend="italic">fuserne</hi>: OF "fuisel" "Holzstück?" ('stick of wood', Mainone, <hi rend="italic">Laut und Formenlehre</hi>, p. 23) .</note>
- <note target="#b9429" type="trans" resp="#LZM">9429] <hi rend="italic">berne</hi>: "berner": faire sauter en l'air, secouer; se moquer de qqn (DMF 2015, consulted 16 Jan 2021)</note>
+     <note target="#b9429" type="trans" resp="#LZM">9429] <hi rend="italic">berne</hi>: "berner": faire sauter en l'air, secouer; se moquer de qqn (DMF 2015, consulted 16 Jan 2021) http://stella.atilf.fr/Dendien/scripts/tlfiv5/advanced.exe?8;s=1153139070</note>
  <note target="#b9430" type="refer" resp="#LZM">9430] Dictionaries refer to "enfrener" for "enferner" (see Tobler-Lommatsch; Hindley; Matsumura), but here there might (also?) be a play on words: "to put into inferno, hell."  That is clearly the understanding of T 9093: <hi rend="italic">Que</hi>lo pechato le y[n]fernò; it is also close to "enfermer," 'to make ill', but also 'to enclose'.</note>
 <note target="#b9433" type="trans" resp="#LZM">9433] Scattolini: vanegl<hi rend="italic">ori</hi>e, here one word but two words in previous line.</note>
    <note target="#b9438" type="trans" resp="#LZM">9438] Stengel ("Höllenfahrt"): qui a diex</note>
    <note target="#b9439" type="trans" resp="#LZM">9439] Stengel ("Höllenfahrt"): bat(i)ra</note>
-   <note target="#b9440" type="trans" resp="#LZM">9440] Stengel ("Höllenfahrt"): (ja)mès</note>
+     <note target="#b9440" type="trans" resp="#LZM">9440] Stengel ("Höllenfahrt"): (ja)mès; he later notes, <hi rend="italic">mès = jamès</hi> appears elsewhere; he reads thus because the verse form 6'+5 is probably the base form for this line like 9978 [=9821].</note>
    <note target="#b9441" type="trans" resp="#LZM">9441] Stengel ("Höllenfahrt"): qu'el font; following line, "qui ici." Differences in resolving q + abbreviation not further remarked. </note>
    <note target="#b9443" type="refer" resp="#LZM">9443] Dante, <hi rend="italic">Inf.</hi> 33.142-47</note>
 <note target="#b9446" type="trans" resp="#LZM">9446] Scattolini: n'el font</note>
@@ -1405,6 +1405,7 @@
    <note target="#b9453" type="trans" resp="#LZM">9453] Stengel ("Höllenfahrt"): [a] man a man; the reason for this is unclear; the Italian "mano a mano" would be 'bit by bit', and so T 9116 reads. But see T-L col. 823, "main a main," "nintereinander, alsbald", 'one after the other', 'at once'.</note>
 <note target="#b9455.1" type="trans" resp="#LZM">9455.1] Scattolini: por man</note>
    <note target="#b9455.2" type="lex" resp="#LZM">9455.2] <hi rend="italic">porman</hi> appears in <hi rend="italic">EE</hi> specifically in the form "ja porman" in the meaning "bientôt," 'soon' (T-L cols. 298-299, "parmain," 'early in the morning'; Matsumura, "bientôt"). </note>
+     <note target="#b9459" type="trans" resp="#LZM">9459] Stengel ("Höllenfahrt", p. 81): <hi rend="italic">better</hi> something like: por l'(om) human</note>   
    <note target="#b9461" type="trans" resp="#LZM">9461] Stengel ("Höllenfahrt"): [l']oit pris; in so doing, he changes the meaning: here Guillaume is afraid and suggests a change of route; with Stengel's reading (that follows the three other texts), it is Guillaume who takes Huon by the hand and suggests the change.</note>
    <note target="#b9462" type="trans" resp="#LZM">9462] Stengel ("Höllenfahrt"): lui[n]tan</note>
    <note target="#b9465" type="trans" resp="#LZM">9465] Stengel ("Höllenfahrt"): dit le spir[i]t</note>
@@ -1417,9 +1418,9 @@
    <note target="#b9479.1" type="trans" resp="#LZM">9479.1] Scattolini: qu'ils ont ovran</note>
 <note target="#b9479.2" type="lex" resp="#LZM">9479.2]  T 9142: lor àno lavorato. It is difficult here to know how to interpret "ovran," which might explain the preceding verb. If a past participle, Scattolini's reading makes sense. Mainone (<hi rend="italic">Formen</hi>, p. 15) gives "part," but that could be either present or past.</note>
 <note target="#b9481" type="trans" resp="#LZM">9481] Scattolini argues that the laisse is part of William's discourse to Huon (361 n651).</note>
-   <note target="#b9484" type="trans" resp="#LZM">9484] Stengel ("Höllenfahrt"): maint[e]</note>
+     <note target="#b9484" type="trans" resp="#LZM">9484] Stengel ("Höllenfahrt"): maint[e]; but in his corrections file, he changes his mind: "<hi rend="italic">read</hi>: maint" (p. 81).</note>
    <note target="#b9491" type="trans" resp="#LZM">9491] Stengel ("Höllenfahrt"): [en]durer</note>
-   <note target="#b9494" type="trans" resp="#LZM">9494] The second (rightmost) portion of the illumination on this page is a mangonel hefting stones, a series of which go across the top of the illumination. The drawing is very detailed and would no doubt interest a historian of arms.</note>
+     <note target="#b9494" type="trans" resp="#LZM">9494] The second (rightmost) portion of the illumination on this page is a mangonel hefting stones, a series of which go across the top of the illumination. The drawing is very detailed and would no doubt interest a historian of arms. <hi rend="italic">Engeter (enjeter)</hi>: 'faire tomber (qn)'; 'envoyer (qch) à quelque distance de soi' (Matsumura); <hi rend="italic">enlaisser</hi>: 'abandonner'; line is missing from Turin.</note>
    <note target="#b9497" type="trans" resp="#LZM">9497] Stengel ("Höllenfahrt"), Scattolini: par man</note>
    <note target="#b9500" type="codic" resp="#LZM">9500] Brown spot in the middle of the line, over end of 'tu' and beginning of 'gre', as above in 9477 at the end of the line. Furthermore, the illumination at the bottom is in two parts. The first consists of the jugleor with devils around them with fire coming out of them. The furthest right of the figures has "S" above his head to indicate "Saudin"; there is a brownish wash over their lower extremities that could be the source of the spots elsewhere on the page. </note>
 <note target="#b9503" type="codic" resp="#LZM">9503] <hi rend="italic">di</hi> above the line with caret below.</note>
@@ -1427,10 +1428,12 @@
 <note target="#b9507" type="trans" resp="#LZM">9507] Scattolini inadvertently mislabels here, 65 r b (her v. 9664)</note>
 <note target="#b9508" type="interp" resp="#LZM">9508] <hi rend="italic">E 'n</hi> for "et in" ; Scattolini: en tote</note>
   <note target="#b9519" type="refer" resp="#LZM">9519] Meregazzi, "<hi rend="italic">L'Ugo d'Alvernia</hi>": <hi rend="italic">Inf</hi>. 10.22-24</note>
+   <note target="#b9521" type="lex" resp="#LZM">9521] <hi rend="italic">estrage</hi> (T-L 1433), 'Spur, Weg'; Italian <hi rend="italic">strage</hi> is not attested before the sixteenth century (DELI, Firenzuola, 1518-1525)</note>
    <note target="#b9524" type="trans" resp="#LZM">9524] Stengel ("Höllenfahrt"): Tramis [par]</note>
    <note target="#b9533" type="trans" resp="#LZM">9533] Stengel ("Höllenfahrt"): quuens [Hue]</note>
    <note target="#b9547" type="trans" resp="#LZM">9547] Stengel ("Höllenfahrt"): et [por t'] oncir</note>
    <note target="#b9548" type="trans" resp="#LZM">9548] Stengel ("Höllenfahrt"): (en) sont</note>
+   <note target="#b9549" type="lex" resp="#LZM">9549] <hi rend="italic">chorin</hi> (T-L corin, col. 862, third entry 'Groll, Kummer, Sorge', Streit')</note>
    <note target="#b9550" type="trans" resp="#LZM">9550] Stengel ("Höllenfahrt"): com(e) fist</note>
    <note target="#b9551" type="trans" resp="#LZM">9551] Stengel ("Höllenfahrt"): (<hi rend="italic">b</hi>.: enchaïneç) ausi</note>
    <note target="#b9552" type="refer" resp="#LZM">9552] For the form <hi rend="italic">inferin</hi> see Holtus (<hi rend="italic">Lexikalische</hi>, p. 350).</note>
@@ -1442,10 +1445,10 @@
        Mainone is unclear as to the meaning; he originally suggests <hi rend="italic">robist</hi> as deriving from a verb form, but being the adjective "wild" [Fr. "rubeste," Ital "rubesto"], each of the sinners in the mud ( he suggests "fagon" is like "fango," "mud," in  <hi rend="italic">Huon</hi> T and P). Tobler-Lommatsch defines "fouc" as 'Schar' [crowd, host], but here Holtus also designates <hi rend="italic">robist</hi> as an adjective, and similarly Di Ninni in Niccolò da Verona's <hi rend="italic">Passion</hi>. Tobler-Lommatsch defines "fouc" as 'Schar' [crowd, host], but here there is no element relating the word to the preceding one, so it would seem to be an adjective. For the grammar, the section would then seem to mean something like, "those of the violent crowd/troop."
        We emend to follow that reading. Note that this and the next line were problematic for the poet, both with truncated finals.</note>
 <note target="#b9573" type="codic" resp="#LZM">9573] MS: menistr; there is no abbreviation. For the lines 9573-75, Cf. Graf, pp. 107-108; <hi rend="italic">Inf</hi>. 3. 103-105. The 'mo' of <hi rend="italic">mort</hi> in the next line has been edited. Scattolini does not emend. Scattolini suggests that the <hi rend="italic">blasfemant</hi> in the following line is an error, repeating the verb of this line. However, that is not necessarily the case, since repeating the term creates a certain rhythm reflective of prayers– in the contrary sense. One can invoke St. Francis's "Beato si..." or various Latin prayers, like the Beatitudes, for positive examples.</note>
- <note target="#b9579" type="refer" resp="#LZM">9579] Stengel ("Höllenfahrt): 'l enc(l)usa; Holtus (<hi rend="italic">Lexikalische</hi> 290): <hi rend="italic">enclusé</hi> in <hi rend="italic">EE </hi> comes from "accuser" (It. <hi rend="italic">incusare</hi>). The <hi rend="italic">l</hi> before it here is the subject pronoun.</note>
+ <note target="#b9579" type="refer" resp="#LZM">9579] Stengel ("Höllenfahrt): 'l enc(l)usa; Holtus (<hi rend="italic">Lexikalische</hi> 290): <hi rend="italic">enclusé</hi> in <hi rend="italic">EE </hi> comes from "accuser" (It. <hi rend="italic">incusare</hi>); but there are also examples where it means 'enclosed'; cf <hi rend="italic">EE</hi> v. 4230-31, "la grant tor desus/ O sont nos Frans anserez et enclus" [the great tower above / Where our Franks are enclosed and emprisoned].</note>
 <note target="#b9587" type="trans" resp="#LZM">9587] Stengel ("Höllenfahrt"): t(oe)'aïe</note>   
 <note target="#b9599" type="refer" resp="#LZM">9599] This could reflect <hi rend="italic">Inf</hi>. 3.52-54, where Dante sees an "'nsegna" that spirits follow mindlessly.</note>
-<note target="#b9601" type="trans" resp="#LZM">9601] Stengel ("Höllenfahrt"): n(on)'entrarent au laris(!);</note>
+   <note target="#b9601" type="trans" resp="#LZM">9601] Stengel ("Höllenfahrt"): n(on)'entrarent au laris(!); T-L col. 196 estre au larriz, 'in übler Lage sein' [to be in an awful place]</note>
 <note target="#b9604" type="codic" resp="#LZM">9604] This is the illumination at the bottom of the next page, 67R, next to this description.</note>
   <note target="#b9607" type="refer" resp="#LZM">9607] Meregazzi, "L'<hi rend="italic">Ugo d'Alvernia</hi>": <hi rend="italic">Inf</hi>. 3.84. The next line appears in Graf, p. 108.</note>
 <note target="#b9608" type="lex" resp="#LZM">9608] <hi rend="italic">cenis</hi>: cf. Mainone (<hi rend="italic">Laut</hi>, p. 29 n1), "Asche"; he notes that it also appears in <hi rend="italic">Hector [et Hercule]</hi> and <hi rend="italic">Attila</hi>; RIALFRI adds Martin da Canal's <hi rend="italic">Estoires de Venise</hi> to the list of other occurences.</note>
@@ -1470,17 +1473,18 @@
 <note target="#b9661" type="refer" resp="#LZM">9661]  For <hi rend="italic">confés</hi>, see Mainone (<hi rend="italic">Laut</hi>, p. 24).</note>
 <note target="#b9662" type="refer" resp="#LZM">9662] Graf. p. 108, for these three lines. <hi rend="italic">Inf.</hi> 3.88-89</note>
 <note target="#b9663" type="refer" resp="#LZM">9663] Cf. <hi rend="italic">Inf</hi>. 3.88-96</note>
-   <note target="#b9670" type="refer" resp="#LZM">9670] Stengel ("Höllenfahrt"): n'oit [ni]; for <hi rend="italic">flés</hi> see Mainone (<hi rend="italic">Laut</hi>, p. 24), 'Lust, Neigung'</note>
-<note target="#b9672" type="trans" resp="#PEB">9672] Charon chased from heaven: The poet is presumably assimilating him to the fallen angels; in ancient mythology he was one of the original gods overthrown by the Olympians, so the reference works, if the poet knew his classics.</note>
-   <note target="#b9675" type="trans" resp="#LZM">9675] Stengel ("Höllenfahrt"): entoisés</note>
-   <note target="#b9680" type="trans" resp="#LZM">9680] Stengel ("Höllenfahrt"): [tot] rüés; this line is problematic for syllable count; one or more syllables are missing.</note>
+   <note target="#b9664" type="lex" resp="#LZM">9664] <hi rend="italic">Toi toy</hi>: <hi rend="italic">toi</hi> from "togliere" or "tolir," to take (DELI, 'levare, rimuovere, spostare', Dante 1313-19), Lat. TŎLLERE, '(sol)levare'</note>  
+<note target="#b9670" type="refer" resp="#LZM">9670] Stengel ("Höllenfahrt"): n'oit [ni]; otherwise line is 4'+ 5 (p. 81); for <hi rend="italic">flés</hi> see Mainone (<hi rend="italic">Laut</hi>, p. 24), 'Lust, Neigung'</note>
+<note target="#b9672" type="trans" resp="#PEB">9672] Charon chased from heaven: The poet is presumably assimilating him to the fallen angels; in ancient mythology he was one of the original gods overthrown by the Olympians; so the original poet knew his classics (PEB).</note>
+   <note target="#b9675" type="trans" resp="#LZM">9675] Stengel ("Höllenfahrt"): entoisés; <hi rend="italic">entorsés</hi> from IN+*TŎRQUERE>*TŎRCERE, to bend (DELI)</note>
+   <note target="#b9680" type="trans" resp="#LZM">9680] Stengel ("Höllenfahrt"): [tot] rüés; this line is problematic for syllable count; one or more syllables are missing. In his corrections, Stengel adds, "<hi rend="italic">better</hi>: Le espir[i]t and <hi rend="italic">emend</hi> [tot]."</note>
    <note target="#b9681" type="trans" resp="#LZM">9681] Scattolini: aplantés</note>
    <note target="#b9684" type="trans" resp="#LZM">9684] Stengel ("Höllenfahrt"): assés</note>
    <note target="#b9695" type="refer" resp="#LZM">9695] Cf. <hi rend="italic">Inf</hi>. 12.13-20, Virgil to the Minotaur</note>
    <note target="#b9696" type="refer" resp="#LZM">9696] Diomedes was one of Chiron's students. Dante places him with Ulysses in <hi rend="italic">Inf</hi>. 26, with the evil counsellors. It's not clear why Aeneas wishes to send the (here unnamed) archer to posture before Diomedes, except perhaps because a "mixed" origin was unnatural. Stengel ("Höllenfahrt"): Que... partì; Scattolini: que</note>
 <note target="#b9700" type="refer" resp="#LZM">9700] <hi rend="italic">Inf</hi>. 12.26-27.</note>
 <note target="#b9713" type="refer" resp="#LZM">9713] Dares the Phrygian. See note in the translation.</note>
-<note target="#b9716.2" type="trans" resp="#LZM">9716] Scattolini: ques sont en l'escur aire.</note>
+<note target="#b9716.2" type="trans" resp="#LZM">9716] Scattolini: ques sont en l'escur aire</note>
 <note target="#b9717" type="trans" resp="#LZM">9717] Scattolini: fi sclaire</note>
  <note target="#b9719" type="refer" resp="#LZM">9719] Cf. Dante, <hi rend="italic">Inf</hi>. 12.65-138, where Chiron has Nessus carry Dante on his back through the river of blood.</note>
  <note target="#b9733.1" type="lex" resp="#LZM">9733.1] See Mainone (<hi rend="italic">Formen</hi>, p. 45);  <hi rend="italic">estieç</hi> is a form of the present here.</note>
@@ -1496,7 +1500,8 @@
    <note target="#b9764" type="trans" resp="#LZM">9764] Stengel ("Höllenfahrt"): a (saint) </note>   
    <note target="#b9765" type="trans" resp="#LZM">9765] Stengel ("Höllenfahrt"): il (et) puis; as Scattolini points out, the verb "bere" [to drink] present in Br and T, is missing here.</note>
    <note target="#b9777" type="trans" resp="#LZM">9777] Stengel ("Höllenfahrt"): Suscitarent(!)</note>
-   <note target="#b9783" type="trans" resp="#LZM">9782] Stengel ("Höllenfahrt"): li bon jors</note>
+     <note target="#b9781" type="trans" resp="#LZM">9781] Stengel ("Höllenfahrt"): <hi rend="italic">glorios</hi> is clearly bisyllabic with a silent caesura ending [5'+7] (p. 81-82).</note>  
+   <note target="#b9782" type="trans" resp="#LZM">9782] Stengel ("Höllenfahrt"): li bon jors</note>
    <note xml:id="b9784" type="trans" resp="#LZM"> 9784] Stengel ("Höllenfahrt"): compagne (de) deu</note>
    <note target="#b9785" type="trans" resp="#LZM">9785] Stengel ("Höllenfahrt"): puisque (as always; not further remarked); Scattolini: en le contraire (missing initial "E")</note>
    <note xml:id="b9787" type="trans" resp="#LZM"> 9787] Stengel ("Höllenfahrt"): 'n avra </note>
