@@ -171,7 +171,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>Last updated 21 January 2022</change>
+      <change>Last updated 24 January 2022</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -13971,7 +13971,7 @@
         <l n="9626">Une ombre ydosse dou tamps ancïenor.<note xml:id="b9626"/></l>
           <l n="9627">De la petrine en jus estoit cival qe cor,<note xml:id="b9627" /></l>
         <l n="9628">Et humaine forme estoit celle desor.</l>
-        <l n="9629">Glatisant vient por tre si grant he<ex rend="italic">r</ex>ror</l>
+          <l n="9629">Glatisant vient por tre si grant he<ex rend="italic">r</ex>ror<note xml:id="b9629" /></l>
         <l n="9630">Que tot la te<ex rend="italic">r</ex>re environ et entor</l>
         <l n="9631">Trembler en fist; ce samble foudre ancor.</l>
         <l n="9632">Une sagitte tient sor un arch d'aubor</l>
@@ -14210,7 +14210,7 @@
         <l n="9805">Et Eneas por li doloros monde.</l>
           <l n="9806">Le bon Troian de coste lor s'aonde<note xml:id="b9806"/></l>
         <l n="9807">Mostrant l'en va le g<ex rend="italic">ra</ex>nt pechieç qe abonde,</l>
-          <l n="9808">E de tot l'estre l'en dit; le voir n'asconde.e<note xml:id="b9808"/></l>
+          <l n="9808">E de tot l'estre l'en dit; le voir n'asconde.<note xml:id="b9808"/></l>
         <l n="9809">Mostre<ex rend="italic">n</ex>t li al doy a don Huo<ex rend="italic">n</ex> li
           blonde:</l>
         <l n="9810">"Cestor a tiel torma<ex rend="italic">n</ex>t que ja fure<ex rend="italic"
@@ -14219,7 +14219,7 @@
         <l n="9812">A tant entra en une val p<ex rend="italic">ar</ex>fonde,<note xml:id="b9812"/></l>
         <l n="9813">Oscure <ex rend="italic">et</ex> tenebrose, de clarté pure <ex rend="italic"
             >et</ex> mo<ex rend="italic">n</ex>de;</l>
-          <l n="9814">Plaine estoit tote d'armes dolorose aponde<note xml:id="b9814"/></l>
+          <l n="9814">Plaine estoit tote, d'armes dolorose aponde<note xml:id="b9814"/></l>
         <l n="9815">Que de brair no<ex rend="italic">n</ex> cesse. L'un l'aut<ex rend="italic"
             >re</ex> responde:</l>
         <l n="9816">"Onques no<ex rend="italic">n</ex> fuisse neç qua<ex rend="italic">n</ex>t tiel
@@ -14227,7 +14227,7 @@
         <l n="9817">Lor dit W<ex rend="italic">illame</ex>, frer H<ex rend="italic">er</ex>naut de
           Çironde:</l>
           <l n="9818">"Di moy, Eneas, qui sont ce q<ex rend="italic">ue</ex> fergonde,<note xml:id="b9818"/></l>
-          <l n="9819">Que tant lame<ex rend="italic">n</ex>te en cestuy val afonde?"e<note xml:id="b9819"/></l>
+          <l n="9819">Que tant lame<ex rend="italic">n</ex>te en cestuy val afonde?"<note xml:id="b9819"/></l>
         <l n="9820">Et il respont, "Le g<ex rend="italic">ra</ex>nt clergé dou mo<ex rend="italic"
             >n</ex>de--</l>
         <l n="9821">Vesque <ex rend="italic">et</ex> arcivesq<ex rend="italic">ue</ex>, prelait <ex
@@ -14237,9 +14237,9 @@
             rend="italic">n</ex>t ci q<ex rend="italic">ue</ex> se mo<ex rend="italic">n</ex>de;</l>
         <l n="9824">Altruy ensagne le bien, a soy no<ex rend="italic">n</ex> retie<ex rend="italic"
             >n</ex> spo<ex rend="italic">n</ex>de,</l>
-        <l n="9825">Ainç ovre tot li mal, lor aubre s'in afronde.<note xml:id="b9825"/></l>
+        <l n="9825">Ainç ovre tot li mal; lor aubre s'in afronde.<note xml:id="b9825"/></l>
         <l n="9826">Or sont en leu p<ex rend="italic">er</ex>duç; des or par q<ex rend="italic"
-            >ue</ex> sconde.e<note xml:id="b9826"/></l>
+            >ue</ex> sconde.<note xml:id="b9826"/></l>
         <l n="9827">Amis," dist il, "tu is desor la sponde<note xml:id="b9827"/></l>
         <l n="9828">Del g<ex rend="italic">ra</ex>nt abis o tote paine abonde."</l>
         <l n="9829">Aval le maine o li da<ex rend="italic">m</ex>pneç afonde.</l>
@@ -14251,7 +14251,7 @@
         <l n="9831">Del g<ex rend="italic">ra</ex>nt abisme tot plain d'oscurité.</l>
         <l n="9832">La non avoit lumine ni clarté</l>
         <l n="9833">For la lugor q<ex rend="italic">ue</ex> Diex li oit mandé.</l>
-          <l n="9834">Cil vont avant a droit par un degré;e<note xml:id="b9834"/></l>
+          <l n="9834">Cil vont avant a droit par un degré;<note xml:id="b9834"/></l>
         <l n="9835">Cum plus va ava<ex rend="italic">n</ex>t plus p<ex rend="italic">er</ex>dre<ex
             rend="italic">n</ex>t la lumé.</l>
         <l n="9836">La mer fergonde qua<ex rend="italic">n</ex>t ille ert plus iré,</l>
@@ -14274,7 +14274,7 @@
         <l n="9848">Que plaint, plorent et grant sospir gité?</l>
         <l n="9849">Né feu ni flambe ni s<ex rend="italic">er</ex>pent ni malfé</l>
           <l n="9850">Ne l'engombre pas, for q<ex rend="italic">ue</ex> querir pieté.<note xml:id="b9850"/></l>
-        <l n="9851">E je meesme n'ay plaint <ex rend="italic">et</ex> regreté."</l>
+          <l n="9851">E je meesme n'ay plaint <ex rend="italic">et</ex> regreté."<note xml:id="b9851"/></l>
         <l n="9852">E cil respont, "Bien te sera conté."</l>
       </lg>
       <lg type="laisse" n="377">
@@ -14293,7 +14293,7 @@
             >n</ex>t,</l>
         <l n="9863">Que batiçé non fust il fermament</l>
           <l n="9864">En eve sancte cu<ex rend="italic">m</ex> le Escriç dient — <note xml:id="b9864"/></l>
-        <l n="9865">Autre bonté non li vaudroit nient--</l>
+        <l n="9865">Autre bonté non li vaudroit nïent--</l>
           <l n="9866">Venir stovra en cestuy obscuriment."<note xml:id="b9866"/></l>
         <l n="9867">Lor se mist Hue sor un domandame<ex rend="italic">n</ex>t:</l>
         <l n="9868">"Di moy, biaus sire, ont il entendime<ex rend="italic">n</ex>t</l>
