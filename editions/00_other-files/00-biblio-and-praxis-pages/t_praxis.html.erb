@@ -1,0 +1,9 @@
+<% unless params.key?('praxis') %>
+    <% @current_page = 't_praxis' %>
+    <% @current_page_short = 't praxis' %>
+    <%= render 'layouts/praxis_interface' %>
+<% else %>
+    <% @current_page = 't_manuscript' %>
+    <% @current_page_short = 't praxis' %>
+    <%= render 'layouts/praxis_interface' %>
+<% end %>
