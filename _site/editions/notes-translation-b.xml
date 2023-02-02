@@ -49,10 +49,11 @@
             <divGen type="toc"/>
         </front>
         <body>
-            <!-- updated 07 March 2022 -->
+            <!-- updated 06 April 2022 -->
             <div>
                 <note target="#trans1" type="ref" resp="#SSB">1] This is a standard opening for lyric poetry, not usually found in epic.</note>
                 <note target="#trans51" type="lex" resp="#SSB">51] <hi rend="italic">Marchis</hi> will always be translated as "marquis," which in OF designated the count of a borderland, a "march." Huon is most frequently called a count, but is occasionally called a marquis, a baron or a vassal.</note>
+                <note target="#trans168" type="lex" resp="#SSB">168] Although <hi rend="italic">timbre</hi> is used for many different instruments (drum, psaltery, tambourine), I chose "drum" as seemingly most logical for announcing a tournament.</note>
                 <note target="#trans175" type="lex" resp="#SSB">175] Gutty gueles, William H. Whitmore, <hi rend="italic">The Elements of Heraldry</hi>  (Rutland VT: Tuttle, 1968), p. 97.</note>
                 <note target="#trans189" type="interp" resp="#SSB">189] Huon and the king are watching from the castle the battle between the Auvergnats and the king's men. They don't participate at first in the tournament.</note>
                 <note target="#trans210" type="interp" resp="#SSB">210] The expression "les bornes d'Artus" refers to the eastern limits of the known world. See <hi rend="italic">Roman d'Alexandre</hi>, Book 1, line 128.</note>
@@ -611,8 +612,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans9638" type="lit" resp="#SSB">9638] Literally: [...] for your worst</note>
                 <note target="#trans9655" type="interp" resp="#SSB">9655] <hi rend="italic">sigle</hi> is OF for 'sail,' however the image of Charon striking the damned with his oar was long well known as in Michelangelo's sixteenth-century image in his "Last Judgment" in the Sistine Chapel. Cf. T 9314. The manuscript illumination here depicts Charon with his oar and the boat has no sail.</note>
                 <note target="#trans9658" type="interp" resp="#SSB">9658] <hi rend="italic">port</hi> usually means a constructed place for docking but they seem to be simply on the bank of the river where Charon pulls up his boat. Cf. Inf. 3.107 and 3.116.</note>
-                <note target="#trans9663" type="alttrans" resp="#SSB">9663] An alternative translation, based on a concrete understanding of <hi rend="italic">grevés</hi> would give: [...] I would be overloaded (since a living person would weigh down Charon's boat)</note>
-                <note target="#trans9665" type="interp" resp="#SSB">9665] Aeneas's remark seems to imply that they are not part of the usual group that crosses with Charon. See also Dante <hi rend="italic">Inf.</hi> 3.91-93.</note>
+                <note target="#trans9663" type="alttrans" resp="#SSB">9663] An alternative translation, based on a concrete understanding of <hi rend="italic">grevés</hi> would give: [...] I would be overloaded (since a living person would weigh down Charon's boat; cf. Dante <hi rend="italic">Inf.</hi> 3.91-93).</note>
                 <note target="#trans9668" type="lit" resp="#SSB">9668] Literally: [...] who has made commerce of herself</note>
                 <note target="#trans9672" type="interp" resp="#SSB">9672] In post-classical times as in Dante, Charon was considered one of the devils of Hell.</note>
                 <note target="#trans9675" type="refer" resp="#SSB">9675] Cf. T 9334: <hi rend="italic">lo sagitario com t</hi>uto l'archo atosegado (T understands <hi rend="italic">entorsé</hi> as 'poisoned,' OF "entoschié")</note>
@@ -799,6 +799,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans11549" type="interp" resp="#SSB">11549] William seems to be implying that the real enemies, the Saracens, are out there and need to be dealt with, thus the Germans should not be causing a housing crisis.</note>
                 <note target="#trans11550" type="interp" resp="#SSB">11550] Literally: It would be fitting for them to go a different, better way</note>
                 <note target="#trans11559" type="interp" resp="#SSB">11559] Owing to the irregularities in number in this manuscript, it is difficult to know if William is referring to the pope or the Germans doing nothing else.</note>
+                <note target="#trans11562" type="interp" resp="#SSB">11562] In this line and through 11564, the verbs are all in the singular referring perhaps to the German army, but it isn't named and it is clear that Huon is speaking of the outrageous behavior of the Germans. Thus plurals are used in the translation.</note>
                 <note target="#trans11565" type="interp" resp="#SSB">11565] Huon implies that he would have taken aggressive action sooner against the Germans had he not realized the impropriety of causing a ruckus in Rome against others who have ostensibly come to serve the Church.</note>
                 <note target="#trans11573" type="lit" resp="#SSB">11573] Literally: Let the folly be theirs; now let it go as it will be able</note>
                 <note target="#trans11575" type="refer" resp="#SSB">11575] Cf. T 11211.</note>
@@ -810,32 +811,39 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans11646" type="interp" resp="#SSB">11646] This seems to refer to the fateful offer made by the pope to the Germans.</note>
                 <note target="#trans11657" type="lit" resp="#SSB">11657] Literally: Armed and equipped just as they were supposed to be</note>
                 <note target="#trans11671" type="lex" resp="#SSB">11671] <hi rend="italic">coroços</hi> seems here to mean that battle fury that descends upon heroes in epic. Cf. T 11307 for its use of the term "animoso" in the parallel line.</note>
+                <note target="#trans11691" type="interp" resp="#SSB">11691] "God's good work" is a reference to Christendom. Cf. line 11839.</note>
+                <note target="#trans11722" type="lex" resp="#SSB">11722] <hi rend="italic">bufer</hi>: Cf. <hi rend="italic">Guerra di Attila</hi> (Glossario: cf. buffoi, "scherno, scherzo, dileggio) </note>
                 <note target="#trans11739" type="lit" resp="#SSB">11739] Literally: In this affair soon was truly a provider (Cf. T 11374)</note>
                 <note target="#trans11745.1" type="lit" resp="#SSB">11745] Literally: They didn't choose the fighters among them (the idea being that everyone struck at whomever they could; contrast to Laisse 457, lines 12111-12113, where each combatant chooses someone of equal rank to fight)</note>
                 <note target="#trans11745.2" type="interp" resp="#SSB">11745] Literally: They didn't choose the fighters among them (the idea being that everyone struck at whomever they could; contrast to Laisse 457, lines 12111-12113, where each combatant chooses someone of equal rank to fight)</note>
+                <note target="#trans11752" type="lex" resp="#SSB">11752] The adverb <hi rend="italic">tutor</hi> contains the meaning of "continually" which is achieved in English by the construction "to keep doing something."</note>
                 <note target="#trans11760" type="refer" resp="#SSB">11760] Cf. T 11395</note>
                 <note target="#trans11762" type="refer" resp="#SSB">11762] Cf. T 11397</note>
                 <note target="#trans11786" type="lit" resp="#SSB">11786] Literally: The French did that entrance very well</note>
                 <note target="#trans11793.1" type="lit" resp="#SSB">11793] Literally: Who could take away renown from him worth a napkin (another expression for a thing of little value) (clearly, no one is fighting as well as the king except Berart and Huon)</note>
                 <note target="#trans11793.2" type="interp" resp="#SSB">11793] Literally: Who could take away renown from him worth a napkin (another expression for a thing of little value) (clearly, no one is fighting as well as the king except Berart and Huon)</note>
                 <note target="#trans11796" type="lit" resp="#SSB">11796] Literally: Whether it mattered or didn't matter</note>
-                <note target="#trans11807" type="interp" resp="#SSB">11807] Narrator is speaking of the Frenchmen here.</note>
+                <note target="#trans11807" type="interp" resp="#SSB">11807] Narrator is likely speaking of those worth a lot of ransom.</note>
+                <note target="#trans11811" type="alttrans" resp="#SSB">11811] Alternative translation (based on possible emendation of <hi rend="italic">escu</hi> to <hi rend="italic">eslu</hi>, see corresponding note in transcription): He was chosen above all [...] </note>
+                <note target="#trans11828" type="interp" resp="#SSB">11828] The line in T 11462 is identical except for "Com" at the beginning of the line which helps clarify the meaning.</note>
+                <note target="#trans11839" type="interp" resp="#SSB">11839] Translation ignores the [<hi rend="italic">et</hi>] in the manuscript; cf. line 11691.</note>
+                <note target="#trans11851" type="lit" resp="#SSB">11851] Literally: There were three fewer kings and more than a hundred [fewer] counts.</note>
                 <note target="#trans11853.1" type="lit" resp="#SSB">11853] Literally: [...] he rendered the soul to God (usually this expression means "to die" but here seems to be an acceptance of the death of his men)</note>
                 <note target="#trans11853.2" type="interp" resp="#SSB">11853] Literally: [...] he rendered the soul to God (usually this expression means "to die" but here seems to be an acceptance of the death of his men)</note>
                 <note target="#trans11873.1" type="lit" resp="#SSB">11873] Literally: [...] the smallest things (because the Germans had taken everything of real value)</note>
                 <note target="#trans11873.2" type="interp" resp="#SSB">11873] Literally: [...] the smallest things (because the Germans had taken everything of real value)</note>
                 <note target="#trans11874" type="interp" resp="#SSB">11874] The local inhabitants seem to be afraid the French might think they themselves had done the plundering of the battlefield and are anxious to clarify that the Germans did it. Thus, whether <hi rend="italic">herror</hi> means “anger,” “horror” or simply “error,” they do not want to be blamed.</note>
-                <note target="#trans11895" type="lit" resp="#SSB">11895] Literally: The pope excused himself [...]</note>
                 <note target="#trans11907" type="lit" resp="#SSB">11907] Literally: What to do or desist from, he knew of no advice in the world</note>
+                <note target="#trans11913" type="lit" resp="#SSB">11913] Literally: To that discussion behold the French come</note>
                 <note target="#trans11921" type="lex" resp="#SSB">11921] <hi rend="italic">honor</hi> has multiple meanings in the lines and refers to both the position of emperor and the empire itself. However, we leave the cognate in both places to follow the original. The various meanings of <hi rend="italic">honor</hi> are worthy of further study.</note>
-                <note target="#trans11929" type="alttrans" resp="#SSB">11929] If <hi rend="italic">mostra</hi> is an Italiate present tense, the alternative translation would be: Why don't they demonstrate their force and their vigor right here</note>
                 <note target="#trans11951" type="lit" resp="#SSB">11951] Literally: Your disposition concerning this just excused itself</note>
-                <note target="#trans11963" type="interp" resp="#SSB">11963] These last two lines of the laisse are in the narrator's voice.</note>
-                <note target="#trans11984" type="interp" resp="#SSB">11984] Huon seems to be indicating that he can't understand the behavior of his fellow Christians.</note>
-                <note target="#trans11985" type="interp" resp="#SSB">11985] This is a reference to the pope who is not dealing well with the situation.</note>
-                <note target="#trans11995" type="lit" resp="#SSB">11995] Literally: Show justice to this one so that it have it</note>
-                <note target="#trans12014" type="interp" resp="#SSB">12014] Problematic line: Or: If your lord hadn't disconcerted/ angered [the pope] somewhat. OR is "esmarrir" intranstive with a reflexive sense: If your lord hadn't gotten somewhat lost/delayed (ref to his vassals not coming to his call???)</note>
+                <note target="#trans11961" type="interp" resp="#SSB">11961] The last three lines of the laisse are in the narrator's voice.</note>
+                <note target="#trans11985" type="interp" resp="#SSB">11985] This is a reference to the pope who has bungled the situation.</note>
+                <note target="#trans11987" type="lit" resp="#SSB">11987] Literally: That happens to the great harm to the people of the world</note>
+                <note target="#trans11998" type="interp" resp="#SSB">11998] The pronoun <hi rend="italic">les</hi> is plural although one might think that only Huon is experiencing the enlightenment coming from the heavenly voice.</note>
+                <note target="#trans12015" type="interp" resp="#SSB">12015] This seems to imply that William would have expelled the pope from Rome.</note>
                 <note target="#trans12026" type="lit" resp="#SSB">12026] Literally: [...] he came in front of all the others</note>
+                <note target="#trans12037" type="lit" resp="#SSB">12037] Literally: Literally: And [the Germans] to whom it was promised obviously want to have that</note>
                 <note target="#trans12045" type="lit" resp="#SSB">12045] Literally: [...] take the best now</note>
                 <note target="#trans12049.1" type="lit" resp="#SSB">12049] Literally: [...] to whom the condition belongs (it is the pope's role to prepare those going into combat so that they can die with a clean soul; here <hi rend="italic">ator</hi> seems to refer to the concept of authority or responsibility)</note>
                 <note target="#trans12049.2" type="interp" resp="#SSB">12049] Literally: [...] to whom the condition belongs (it is the pope's role to prepare those going into combat so that they can die with a clean soul; here <hi rend="italic">ator</hi> seems to refer to the concept of authority or responsibility)</note>
@@ -844,6 +852,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans12055" type="lex" resp="#SSB">12055] <hi rend="italic">francor</hi> can mean "free" but it also means "French" or "Frank" such that the word is loaded with connotations of the exemplary freedom and independence of the French in this text (or anyone who is endowed with that name).</note>
                 <note target="#trans12091" type="lit" resp="#SSB">12091] Literally: [...] and rendered them to God</note>
                 <note target="#trans12096" type="interp" resp="#SSB">12096] Their task is to bear with their suffering in this judicial combat to avoid a major war among Christians.</note>
+                <note target="#trans12104" type="interp" resp="#SSB">12104] See illustration of the combat arena on f. 83V.</note>
                 <note target="#trans12110" type="lit" resp="#SSB">12110] Literally: [...] everyone made his assault among them (cf. T 11741)</note>
                 <note target="#trans12119" type="lex" resp="#SSB">12119] Cf. Matsumura sub voce "doblier"</note>
                 <note target="#trans12148" type="lit" resp="#SSB">12148] Literally: [...] to tell my thought</note>
@@ -851,6 +860,7 @@ Le rois de Franse, qe ci nos oit envoiés,/ De voloir plans qe soiés honorés?/
                 <note target="#trans12152.2" type="refer" resp="#SSB">12152] Literally: So that one of us remain entirely alive (cf. T 11781)</note>
                 <note target="#trans12154" type="interp" resp="#SSB">12154] The picture of determined but silent violence, without any of the verbal jousting and challenging typical to epic is impressive.</note>
                 <note target="#trans12169" type="interp" resp="#SSB">12169] The pope must determine if one or the other is alive.</note>
+                <note target="#trans11218" type="alttrans" resp="#SSB">11218] Alternative translation: In 1341 the entire conclusion was finished.</note>
                 </div>
         </body>
     </text>
