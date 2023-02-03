@@ -9,7 +9,7 @@ title: HDA Collaborators
             <h1 class="about">Huon d'Auvergne Project Team</h1>
                 <div class="participant_section">
                 <h2 class="about">Project Directors</h2>
-                    <p><a href="http://library.wlu.edu/about/library-directory/mackenzie-brooks">Mackenzie K. Brooks</a>, Associate Professor, Digital Humanities Librarian, Washington and Lee University.<br>
+                    <p><a href="http://library.wlu.edu/about/library-directory/mackenzie-brooks">Mackenzie K. Brooks</a>, Associate Professor & Digital Humanities Librarian, Washington and Lee University.<br>
                     Lead investigator for TEI mark-up structure, data management, and user interface and database development.</p>
                     <p><a href="https://www.wlu.edu/romance-languages-department/faculty-and-staff/profile?ID=x9689">Stephen P. McCormick</a>, Associate Professor of French and Italian, Washington and Lee University.<br>
                     Lead investigator for Padua and the Barbieri fragment editions, TEI development.</p>
