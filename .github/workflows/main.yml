@@ -16,8 +16,8 @@ jobs:
         uses: tameney22/search-index-action@master
         id: index
         with:
-          xml-list: 'b.xml br.xml p.xml t.xml'
-          xml-directory: './editions'
-          index-directory:  './assets/js/search'    
+          xml-list: "b.xml br.xml p.xml t.xml"
+          xml-directory: "./editions"
+          index-directory: "./assets/js/search"
       - name: Build and deploy the site to '_site' on the master branch
-        uses: tameney22/jekyll-cd@master
+        uses: victoriadrake/jekyll-cd@master
