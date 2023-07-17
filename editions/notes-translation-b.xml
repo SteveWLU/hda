@@ -49,7 +49,7 @@
             <divGen type="toc"/>
         </front>
         <body>
-            <!-- updated 03 July 2023 -->
+            <!-- updated 14 July 2023 -->
             <div>
                 <note target="#trans1" type="ref" resp="#SSB">1] This is a standard opening for lyric poetry, not usually found in epic.</note>
                 <note target="#trans51" type="lex" resp="#SSB">51] <hi rend="italic">Marchis</hi> will always be translated as 'marquis', which in OF designated the count of a borderland, a 'march'. Huon is most frequently called a count, but is occasionally called a marquis, a baron or a vassal.</note>
@@ -134,6 +134,7 @@
                 <note target="#trans2596" type="lit" resp="#SSB">2596] Literally: [...] I don't know how to equip myself (Cf. T 2578.)</note>
                 <note target="#trans2632" type="lex" resp="#SSB">2632] Cf. T 2614: <hi rend="italic">De c</hi>ossa che me dovesse s[er]v<hi rend="italic">ire a piaquimento</hi>. Turin also understands <hi rend="italic">plaquiment</hi> as deriving from 'piacere' ('piacimento' DELI p. 1182; 'piacere' [pleasure] [before 1249, Pier della Vigna])</note>
                 <note target="#trans2637" type="lex" resp="#SSB">2637] <hi rend="italic">pietosement</hi> can be translated either 'piously' or 'piteously'; context does not always make it clear.</note>
+                <note target="#trans2642" type="refer" resp="#SSB">2642] <hi rend="italic">De profundis clamavi ad te Domine</hi> / <hi rend="italic">Domine, exaudi vocem meam</hi>: Vulgate Ps. 129, modern Ps. 130, “Out of the depths I cry to thee, o Lord! / Lord, hear my voice!” mixed with Ps. 101/102 (where verse 2 is “Domine, exaudi orationem meam”) or Ps. 142/143, where verse 2 begins with that same appeal, “Hear my prayer, Lord.” They are all three among the penitential psalms. Similarly, Psalm 141/142, verse 6 reads “Clamavi ad te, Domine” [I cry to thee, o Lord]. </note>
                 <note target="#trans2759" type="interp" resp="#SSB">2759] The original audience of this text would not have considered her unconsummated pagan marriage legitimate.</note>
                 <note target="#trans2795" type="interp" resp="#SSB">2795] This idea of holding each other ('relever des fonz' / 'tenir sur les fonz' are technical terms relating to baptism) refers to the two ladies standing godparent to each other, not strictly in keeping with ecclesiastical law, particularly so because when the servant raises her mistress from the baptismal waters she is still not baptized herself. Of course, they are being baptized in sea water in this passage, not at a baptismal font as mentioned in the usual terminology. Thanks to PEB for this clarification on baptism.</note>
                 <note target="#trans2805.1" type="alttrans" resp="#SSB">2805] The presence of <hi rend="italic">li</hi> in the transcription is problematic and difficult to translate; it also raises the syllable count to 15, thus it has not been translated. Cf. T 2784. A possible alternative would be to translate it as an adverb of place: That God would have mercy on him here [...]</note>
@@ -268,6 +269,7 @@
                 <note target="#trans5450" type="refer" resp="#SSB">5450] A vernacular rendering of portions of the Credo (Nicene Creed). Unlike the "prière du plus grand péril" [prayer of greatest peril] that warriors use before battle, Ynide does not here invoke various Old Testament figures, but rather redemption from original sin.</note>
                 <note target="#trans5464" type="lit" resp="#SSB">5464] Literally: [...] distinguish the white from the indigo</note>
                 <note target="#trans5466" type="lit" resp="#SSB">5466] Literally: [...] sighed from her heart</note>
+                <note target="#trans5469" type="refer" resp="#SSB">5469] Luke 23.42 (as in v. 4247).</note>
                 <note target="#trans5479" type="refer" resp="#SSB">5479] Candace, the wife of Darius of Syria in the <hi rend="italic">RdA</hi>, falls in love with Alexander the Great (Bk. 3). See Meregazzi, "L'<hi rend="italic">Ugo d'Alvernia</hi>," pp. 19-22 on other Alexander romance derivations in the poem, though she does not discuss the Ynide embassy episode. See also Morgan, “Le <hi rend="italic">Roman d’Alexandre</hi> dans <hi rend="italic">Huon d'Auvergne</hi>." Alexander tricked Candace, pretending to be a messenger and not himself, though he ultimately revealed the trick, spent the night with her and then left—just as Aeneas left Dido. Thus, Ynide is suggesting what might happen to her. </note>
                 <note target="#trans5519" type="lit" resp="#SSB">5519] Literally: [...] I have refused my consent to you</note>
                 <note target="#trans5528" type="lex" resp="#SSB">5528] Owing to its rhyme position, 'piler' [column] has been shortened to <hi rend="italic">pir</hi>.</note>

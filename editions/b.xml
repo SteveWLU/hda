@@ -7,7 +7,7 @@
  <title type="text">Huon d'Auvergne</title>
  <title type="manuscript">Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</title>
  <title type="short">Berlin</title>
-  <!--updated to here 08 July 2023-->
+  <!--updated to here 10 July 2023-->
  <sponsor>
  <address>
  <addrLine>Washington and Lee University</addrLine>
@@ -174,7 +174,7 @@
  </tagsDecl>
  </encodingDesc>
  <revisionDesc>
- <change>Last updated 08 July 2023</change>
+ <change>Last updated 10 July 2023</change>
  </revisionDesc>
  </teiHeader>
  <text>
@@ -1134,10 +1134,8 @@
  <l n="735">En aprés Dieu <ex rend="italic">et</ex> aprés autre gient.</l>
  <l n="736">De foy vos aim plus de frer o parent.</l>
  <l n="737">De un mon afaire a vos si m'en lament:</l>
- <l n="738">Par vos me stoit he<ex rend="italic">r</ex>rer, no<ex rend="italic">n</ex> say un
- pl<ex rend="italic">us</ex> vale<ex rend="italic">n</ex>t,</l>
- <l n="739">Ne<ex rend="italic">n</ex> qui je m'en fiasse d'un grant poi<ex rend="italic"
- >n</ex>t solem<ex rend="italic">en</ex>t.</l>
+ <l n="738">Par vos me stoit he<ex rend="italic">r</ex>rer, no<ex rend="italic">n</ex> say un pl<ex rend="italic">us</ex> vale<ex rend="italic">n</ex>t,</l>
+ <l n="739">Ne<ex rend="italic">n</ex> qui je m'en fiasse d'un grant poi<ex rend="italic">n</ex>t solem<ex rend="italic">en</ex>t.</l>
  <l n="740">Est il ensi, biaus frere, cu<ex rend="italic">m</ex> ge voi divisent?"</l>
  <l n="741">"Oi, biaus douç sire, si pur en suy puisent."</l>
  <l n="742">"Donque," dist luy le rois, "jurer vos le co<ex rend="italic">n</ex>vie<ex
@@ -1156,10 +1154,8 @@
  <head>Laisse 29</head>
  <l n="748"><hi rend="blue-initial">A</hi>prés ceste parolle que Hue vait disant</l>
  <l n="749">Adonque fist le rois venir relique sant,</l>
- <l n="750">Et li quuens s'agenoille e<ex rend="italic">n</ex> plora<ex rend="italic">n</ex>t
- tendrema<ex rend="italic">n</ex>t,</l>
- <l n="751">Devotem<ex rend="italic">en</ex>t p<ex rend="italic">re</ex>gant Deu qui·l gart
- de mal to<ex rend="italic">r</ex>ma<ex rend="italic">n</ex>t, <note xml:id="b751"/></l>
+ <l n="750">Et li quuens s'agenoille e<ex rend="italic">n</ex> plora<ex rend="italic">n</ex>t tendrema<ex rend="italic">n</ex>t,</l>
+ <l n="751">Devotem<ex rend="italic">en</ex>t p<ex rend="italic">re</ex>gant Deu qui·l gart de mal to<ex rend="italic">r</ex>ma<ex rend="italic">n</ex>t,<note xml:id="b751"/></l>
  <l n="752">Ausi come il va a bon cors <ex rend="angle">e</ex> hesciant,<note xml:id="b752"/></l>
  <l n="753">Sainç mal entendim<ex rend="italic">en</ex>t, sai<ex rend="italic">n</ex>ç mal
  aovrema<ex rend="italic">n</ex>t.</l>
@@ -3899,7 +3895,7 @@
  <l n="2640">Aprés de ce il fi come<ex rend="italic">n</ex>çament</l>
  <l n="2641">D'un gracios psaume, disant devotem<ex rend="italic">en</ex>t:</l>
  <l n="2642">"<q rend="bold" xml:lang="la">De profundis clamavi D<ex rend="italic"
- >omi</ex>ne</q>, <ex rend="italic">et</ex> content<note xml:id="b2642"/></l> 
+ >omi</ex>ne</q>, <ex rend="italic">et</ex> content</l> 
  <l n="2643">De durer mal <ex rend="italic">et</ex> paine, <q rend="bold" xml:lang="la">D<ex
  rend="italic">omi</ex>ne, exaudi</q>, ente<ex rend="italic">n</ex>t</l>
  <l n="2644"><q rend="bold" xml:lang="la">Oracionem meam</q> s'il ert ton plaq<ex
@@ -7807,7 +7803,7 @@
  <l n="5468"><milestone n="38R" unit="fol."/><cb n="a"/>"<q rend="bold" xml:lang="la">Mem<ex
  rend="italic">en</ex>to mei</q>, douç e Santisme Espire, </l>
  <l n="5469"><q rend="bold" xml:lang="la">Secu<ex rend="italic">n</ex>dum magnam misere</q>
- remire.<note xml:id="b5469"/></l>
+ remire.</l>
  <l n="5470">Ce ne sai plus dir, ma selo<ex rend="italic">n</ex>g to<ex rend="italic">n</ex>
  plesire."<note xml:id="b5470"/></l>
  <l n="5471">Pres ces mot vo<ex rend="italic">n</ex>t la mese finire.</l>
@@ -17351,10 +17347,8 @@
  avon,</l>
  <l n="12208">De mai<ex rend="italic">n</ex>tes g<ex rend="italic">ra</ex>nt miracle a feit
  demostreson.</l>
- <l n="12209">Ici finist le romans de loiaus quue<ex rend="italic">n</ex>s Huon;<note
- xml:id="b12209"/></l>
- <l n="12210">Vos qui l'aveç oy, Diex vos face p<ex rend="italic">ar</ex>don,<note
- xml:id="b12210"/></l>
+ <l n="12209">Ici finist le romans de loiaus quue<ex rend="italic">n</ex>s Huon;<note xml:id="b12209"/></l>
+ <l n="12210">Vos qui l'aveç oy, Diex vos face p<ex rend="italic">ar</ex>don,<note xml:id="b12210"/></l>
  <l n="12211">E moy qui l'ay ci scrit no<ex rend="italic">n</ex> face oblieson!</l>
  </lg>
  <lg type="laisse" n="461">
