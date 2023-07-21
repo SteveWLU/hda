@@ -109,7 +109,22 @@
           </div>
 
           <div id="source-code">
-            <a href="https://github.com/SteveWLU/hda/blob/development/editions/p.xml"><span class="icon icon--github">{% include icon-github.svg %}</span><span class="username">{{ include.username }}</span>Source Code</a>
+            {% if page.sigla == 'B' %}
+            <a href="https://github.com/SteveWLU/hda/blob/master/editions/b.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
+            
+            {% elsif page.sigla == 'T' %}
+             <a href="https://github.com/SteveWLU/hda/blob/master/editions/t.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
+
+            {% elsif page.sigla == 'P' %}
+             <a href="https://github.com/SteveWLU/hda/blob/master/editions/p.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
+
+            {% elsif page.sigla == 'Br' %}
+             <a href="https://github.com/SteveWLU/hda/blob/master/editions/br.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
+            
+            {% elsif page.sigla == 'BT' %}
+             <a href="https://github.com/SteveWLU/hda/blob/master/editions/translation-b.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
+
+          {% endif %}
           </div>
           
           <!-- Insert Status Update from TEI header <change> tag (line 213) -->
