@@ -47,4 +47,4 @@ title: Principles of Translation
 
 (19) An amusing translation conundrum presented itself with *balain* in this three-line passage vv. 6256-58 (Laisse 242): *En celle nuit il fu en grant freor,/ Qar le air troble et vient g[ra]nt tenebror./ Foldre, ton, [et]* **balain** *si giete g[ra]nt lugor*. My first attempt at translation was based on balain being one of the known Old French spellings of 'baleine' [whale]: During the night he experienced a great disturbance,/ For the air was shaken and great shadows fell./ Lightning, thunderbolts, and **a whale** cast flashes of light. What was a whale doing there, I wondered? Nothing, because it wasn't there. The Italian word *balenare* means 'to flash lightning,' rendering v. 6258: Thunderbolts and lightning cast great **flashes** of light.
 
-Published August 2024.
+Published August 2023.
