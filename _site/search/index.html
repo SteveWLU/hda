@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>Search Here</title>
+    <title>Search</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/CETEIcean.css">
-    <link rel="stylesheet" href="/assets/mirador/css/mirador-combined.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <script src="/assets/scripts/modernizr.custom.js"></script>
-    <script src="../assets/js/CETEI.js"></script>
-    <script src="/assets/mirador/mirador.js"></script>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</head>
-  
-   
 
-    
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <style>
-    #loadingText {
+    #loadingText  {
+        text-align: center;
+    }
+    
+    h2#numResults {
         text-align: center;
     }
     
@@ -45,8 +39,32 @@
 
     .title {
         text-align: center;
-        height: 40px;
+        height: 50px;
     }
+
+    .form-control {
+        width: 60%;
+        display: inline;
+        text-align:left;
+    }
+    
+    button {
+    border: 0px;
+}
+.fieldset {
+      margin-left:30px;
+      line-height: 1.5;
+}
+
+.fieldset input[type="radio"] {
+    width: 15px;
+}
+
+.fieldset label {
+  display: inline;
+  margin-right: 25px;
+
+  }
 
     .match-list {
         height: 73vh;
@@ -167,67 +185,73 @@
 </div>
 </nav>
 <main class="page-content" aria-label="Content">
-    <h2 class="text-center">Search Here</h2>
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-md-6 m-auto">
-                <form role="search">    
-                    <div class="form-row">
-                        <div class="col-md-12">
-                            <div class="input-group mb-3">
-                                <input type="search" id="search" class="form-control" placeholder="Search Term" aria-label="term" aria-describedby="button-addon2" autofocus required>
-                                <div class="input-group-append">
-                                    <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i class="fas fa-search"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-12">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="wildcard" id="whole" value="whole" checked>
-                                <label class="form-check-label" for="whole">Whole</label>
-                              </div>
-                              <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="wildcard" id="startsWith" value="startsWith">
-                                <label class="form-check-label" for="startsWith">Starts with</label>
-                              </div>
-                              <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="wildcard" id="endsWith" value="endsWith">
-                                <label class="form-check-label" for="endsWith">Ends with</label>
-                              </div>
-                        </div>
-                    </div>
-                </form>
-                <h4 id="numResults"></h4>
-            </div>
-        </div>
+    <div class="thinwrapper">
+        <div class="container-fluid">
+    <h1>Search</h1>
+<p>
+The Search engine is a work in progress.</p>
+
+<p>
+You can enter any word that appears in any of the four manuscript transcriptions, and all appearances of it will display by Manuscript shelf-mark with the line number. Upper and lower cases are not distinguished, and nor are accented characters from unaccented (*c*/*ç* fall together as do *e*, *é*, *è*). 
+</p>
+
+<h3 id="options">Options:</h3>
+
+<ul>
+  <li>“Whole” will give all words beginning with the chosen letters; for example, <em>hom</em> produces 460 results, including “homo” and “home”. If there are <strong>no</strong> words where that combination appears, there is no result; e.g., <em>inc</em> returns no results.</li>
+  <li>“Starts with” will give all words starting with the chosen letters; for <em>hom</em>, 505 results, including “homelité”, “hombra” and “homezidio”, etc., in addition to “hom”, “home” and “homo”. Entering <em>inc</em> produces 72 results, including “inci”, “inclin”, “incegnor”, “inchina”, etc. This is therefore currently (July 2023) the only function that works exactly as advertised.</li>
+  <li>“Ends with” gives every word with the chosen letters in it in the order given; so, for example, entering <em>hom</em> gives 527 results, including “T<em>hom</em>ais”,“C<em>hom</em>o” and “Jac<em>hom</em>o”. Entering inc gives 46 results, including “conv<em>inç</em>i”, “tr<em>inc</em>er”, “a<em>inc</em>h”, “l<em>inç</em>ie”, etc.</li>
+</ul>
+
+<p>Created 24 July 2023.</p>
+
+    
+      <form role="search">
+                <input type="search" id="search" class="form-control" placeholder="Search Term" aria-label="term" aria-describedby="button-addon2" autofocus required>
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">
+                    <i class="fa fa-search" aria-hidden="true"></i> 
+                </button>
+<div class="fieldset">                   
+                <label class="form-check-label" for="whole"><input class="form-check-input" type="radio" name="wildcard" id="whole" value="whole" checked>
+                     Whole</label>
+                    
+                <label class="form-check-label" for="startsWith"><input class="form-check-input" type="radio" name="wildcard" id="startsWith" value="startsWith">
+                          Starts with</label>
+                         
+                    <label class="form-check-label" for="endsWith"><input class="form-check-input" type="radio" name="wildcard" id="endsWith" value="endsWith">
+                          Ends with</label>
+  </div>         
+ </form>
+
+<br /><br /> 
+     <h2 id="numResults"></h2>
         <!-- Display the following until page finished loading -->
         <div class="row" id="loadingText">
             <div class="col">
-                <h4>Loading Search Index...</h4>
+                <h2>Loading Search Index...</h2>
             </div>
         </div>
+    
         <!-- For displaying results by manuscript -->
         <div class="row" id="results">
-            <div class="col-sm-12 col-md-6 col-lg-3" id="b">
-                <h6 class="title">Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</h6>
+            <div class="col" id="b">
+                <h3 class="title">Berlin Kupferstichkabinett 78 D 8 (olim Hamilton 337)</h3>
                 <div class="match-list"></div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3" id="br">
-                <h6 class="title">Bologna Biblioteca dell'Archiginnasio B. 3489</h6>
+            <div class="col" id="br">
+                <h3 class="title">Bologna Biblioteca dell'Archiginnasio B. 3489</h3>
                 <div class="match-list"></div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3" id="p">
-                <h6 class="title">Padua Biblioteca del Seminario Vescovile MS 32</h6>
+            <div  class="col" id="p">
+                <h3 class="title">Padua Biblioteca del Seminario Vescovile MS 32</h3>
                 <div class="match-list"></div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-3" id="t">
-                <h6 class="title">Turin, Biblioteca nazionale, N III 19</h6>
+            <div class="col" id="t">
+                <h3 class="title">Turin, Biblioteca nazionale, N III 19</h3>
                 <div class="match-list"></div>
             </div>
         </div>
-    </div>
+   
 </main>
 
 
