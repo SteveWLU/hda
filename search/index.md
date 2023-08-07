@@ -3,12 +3,11 @@ layout: search
 title: Search
 editor: Yoseph Tamene
 ---
-<p>
-The Search engine is a work in progress.</p>
 
-<p>
+The Search engine is a work in progress.
+
+
 You can enter any word that appears in any of the four manuscript transcriptions, and all appearances of it will display by Manuscript shelf-mark with the line number. Upper and lower cases are not distinguished, and nor are accented characters from unaccented (*c*/*ç* fall together as do *e*, *é*, *è*). 
-</p>
 
 ### Options:
 
