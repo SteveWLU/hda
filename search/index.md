@@ -1,5 +1,5 @@
 ---
-layout: searchh
+layout: search
 title: Search
 editor: Yoseph Tamene
 ---
