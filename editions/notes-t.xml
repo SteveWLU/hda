@@ -3,10 +3,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne, Bibliteca del seminario vescovile MS 32 (P),
-                    Annotations</title>
+                <title>Huon d'Auvergne, Turin Biblioteca Nazionale Universitaria N III 19 (T)</title>
                 <respStmt>
-                    <name xml:id="SPM">Stephen Patrick McCormick</name>
+                    <name xml:id="LZM">Leslie Zarker Morgan</name>
                     <resp>Annotations</resp>
                 </respStmt>
             </titleStmt>
@@ -20,9 +19,9 @@
                     <!-- add encodingDesc -->
                     <msIdentifier>
                         <country>Italy</country>
-                        <settlement>Padua</settlement>
-                        <repository>Biblioteca del Seminario Vescovile</repository>
-                        <idno>MS 32</idno>
+                        <settlement>Turin</settlement>
+                        <repository>Biblioteca Nazionale Universitaria</repository>
+                        <idno>N III 19</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -34,18 +33,18 @@
         </front>
         <body>
             <div>
-                    <note target="#t1" type="biblio" resp="#LZM">Also transcribed by Holtus (2001), pp. 48-50, lines 1-109; Pasinus, 1-10; Peyron 1-16; Graf (1878) 1-72.</note>
-                    <note target="#t4" type="Rajna" resp="#LZM">Rajna here places a description of the miniature: Min. 1. un re (tutto army) e parecchie altre figure; non intendo bene l'imagin/ Yug. dirige un psonag/ porge un breve/ ad un altro ch 'è/ inginocchiato/ forse l'invito d'uon a corte </note>
-                    <note target="#t5" type="Rajna" resp="#LZM">Numbers in Rajna's notebook are in pencil, added later.</note>
-                    <note target="#t7" type="codic" resp="#LZM">Rajna: 2r. The manuscript began on a recto when he saw it, with 6 lines: 4 followed by a miniature, with two more following it. Here is the beginning of today's MS.</note>
-                    <note target="#t10" type="Rajna" resp="#LZM">In Rajna's transcription, "y." somewhat after "el" above the line.</note>
-                    <note target="#t22" type="Rajna" resp="#LZM">Rajna notes "sic" after <hi rend="italic">vevole</hi>.</note>
-                    <note target="#t23" type="edit" resp="#LZM">Holtus: los. "y" crossed out; Rajna: "caratt. più picc / forte aggiunte fatte / poi –i =" (marginal note).</note>
-                    <note target="#t45" type="Rajna" resp="#LZM"> Rajna, note in right margin (sic). B: <hi rend="italic">Anchois le haete la giant d[e] la [con]trie.</hi> T seems to be missing the verb, "odia"; an emeded reading might be <hi rend="italic">anzo li (odi)a la zente de la contrà.</hi></note>
-                    <note target="#t63" type="Rajna" resp="#LZM"> Rajna note: "prima soa e così / parrebbe ancora / non credo si [tr?] /volz corregg".</note>
-                    <note target="#t66" type="Rajna" resp="#LZM"> Rajna reverses these two lines, and uses numbering in the left margin to make clear their order.</note>
-                    <note target="#t76" type="ling" resp="#LZM"> Cf. Crusca, <hi rend="italic"> al dilungo</hi>, vol. 1. </note>
-                    <note target="#t93" type="Rajna" resp="#LZM"> Rajna, note "no del solito inchiostro / più nero delle giunte." At the beginning of his transcription, Rajna comments more on the various details of handwriting than toward the end.</note>
+                    <note target="#t1" type="biblio" resp="#LZM">1] Also transcribed by Holtus (2001), pp. 48-50, lines 1-109; Pasinus, 1-10; Peyron 1-16; Graf (1878) 1-72.</note>
+                    <note target="#t4" type="Rajna" resp="#LZM">4] Rajna here places a description of the miniature: Min. 1. un re (tutto army) e parecchie altre figure; non intendo bene l'imagin/ Yug. dirige un psonag/ porge un breve/ ad un altro ch 'è/ inginocchiato/ forse l'invito d'uon a corte </note>
+                    <note target="#t5" type="Rajna" resp="#LZM">5] Numbers in Rajna's notebook are in pencil, added later.</note>
+                    <note target="#t7" type="codic" resp="#LZM">7] Rajna: 2r. The manuscript began on a recto when he saw it, with 6 lines: 4 followed by a miniature, with two more following it. Here is the beginning of today's MS.</note>
+                    <note target="#t10" type="Rajna" resp="#LZM">10] In Rajna's transcription, "y." somewhat after "el" above the line.</note>
+                    <note target="#t22" type="Rajna" resp="#LZM">22] Rajna notes "sic" after <hi rend="italic">vevole</hi>.</note>
+                    <note target="#t23" type="edit" resp="#LZM">23] Holtus: los. "y" crossed out; Rajna: "caratt. più picc / forte aggiunte fatte / poi –i =" (marginal note).</note>
+                    <note target="#t45" type="Rajna" resp="#LZM"> 45] Rajna, note in right margin (sic). B: <hi rend="italic">Anchois le haete la giant d[e] la [con]trie.</hi> T seems to be missing the verb, "odia"; an emeded reading might be <hi rend="italic">anzo li (odi)a la zente de la contrà.</hi></note>
+                    <note target="#t63" type="Rajna" resp="#LZM"> 63] Rajna note: "prima soa e così / parrebbe ancora / non credo si [tr?] /volz corregg".</note>
+                    <note target="#t66" type="Rajna" resp="#LZM"> 66] Rajna reverses these two lines, and uses numbering in the left margin to make clear their order.</note>
+                    <note target="#t76" type="ling" resp="#LZM"> 76] Cf. Crusca, <hi rend="italic"> al dilungo</hi>, vol. 1. </note>
+                    <note target="#t93" type="Rajna" resp="#LZM"> 93] Rajna, note "no del solito inchiostro / più nero delle giunte." At the beginning of his transcription, Rajna comments more on the various details of handwriting than toward the end.</note>
                     <note target="#t102" type="Rajna" resp="#LZM"> Rajna: seneschalcho, with the first "e" changed into "i" with a dot above and filled in. </note>
                     <note target="#t109" type="biblio" resp="#LZM"> End of Holtus (2001) transcription.</note>
                     <note target="#t110" type="Rajna" resp="#LZM"> Rajna's notebook has "V" in the left margin, together with a crossed-out label, "IV."</note>
@@ -166,9 +165,211 @@
                     <note target="#t1314" type="interp" resp="#LZM"> The end of Rajna's line in undeciphrable here; however, since "sabione" appears four times and there are no other expressions beginning with "sab" this seems most logical.</note>
                     <note target="#t1341" type="codic" resp="#LZM"> MS: space between "crosse" and "che": word scraped out? Nothing visible. </note>
                     <note target="#t1343" type="Rajna" resp="#LZM"> Rajna: corr. da sigre? </note>
-                    <note target="#t1345" type="Rajna" resp="#LZM"> Rajna initially omits and then inserts in left margin. </note>
-
-                <note target="#t11816" type="Rajna" resp="#LZM">Rajna: anchora </note>
+                    <note target="#t1345" type="Rajna" resp="#LZM"> 1345] Rajna initially omits and then inserts in left margin. </note>
+                    <note target="#t4195" type="codic" resp="#LZM"> 4195] MS: <seg>nī</seg></note>
+                    <note target="#t4207" type="codic" resp="#LZM"> 4197 MS: <hi rend="italic">dne et ȳ</hi> with a line drawn through "et y".</note>               
+                    <note target="#t4213" type="Rajna" resp="#LZM"> 4213] Rajna: the final word is unclear; the two vowels are clearly <hi rend="italic">o</hi>, but the third consonant in particular is difficult to discern, perhaps -r-? Since the equivalent B line ends in <hi rend="italic">sono</hi>, I have extrapolated here.</note>
+                    <note target="#t4218" type="codic" resp="#LZM"> 4218] For initial "M", see v. Rajna 4145, "Memento", here v. 4529. </note>
+                    <note target="#t4228" type="lex" resp="#LZM"> 4228] legione; cf.  B4270: region.</note>
+                <note target="#t4236" type="codic" resp="#LZM">4326] MS: <hi rend="italic">pre</hi>demo </note>
+                <note target="#t4247" type="codic" resp="#LZM">4247] MS, Rajna: lirerespond e possibly a distraction by the following line, emended?  </note>
+                <note target="#t4251" type="codic" resp="#LZM">4251] MS: /re/ </note>
+                <note target="#t4254" type="Rajna" resp="#LZM"> 4254] B: po<hi rend="italic">r</hi> la soe lés; there is a reference to God's law. Here, however, it would seem that "la soa" refers to the faith and the syntax is reconstrued.</note>
+                <note target="#t4270" type="inter" resp="#LZM">4270] MS: <hi rend="ital">de avite tanto de podere</hi>; B: Qui ot ce fait, qui ot tant deponés</note>
+                <note target="#t4284" type="Rajna" resp="#LZM"> 4284] vostra: Rajna, "e corr. da a, / se non erro". It is difficult to tell which letter is intended here.</note>
+                <note target="#t4301" type="Rajna" resp="#LZM">4301] Rajna: repenteate ? the antepenultimate letter difficult to distinguish. “repente<ex rend="angle">n</ex>te,” ‘repenting’ would make little sense here.</note>
+                <note target="#t4306" type="Rajna" resp="#LZM"> 4306] Rajna writes (sic) in the margin after this line and also in the following after <hi rend="italic">poy</hi>.</note>            
+                <note target="#t4307" type="Rajna" resp="#LZM"> 4307] Rajna: poy (sic)</note>
+                <note target="#t4322" type="edit" resp="#LZM"> 4322] MS: no verb; B: Le mercheant dit</note>
+                <note target="#t4324" type="inter" resp="#LZM"> 4324]  MS: S'ele el fato; Rajna: Sele elfato (he underlines where there is a problem with a section). Cf. B 4367: Si il ne·l feit, por autruy ne·l spereç [If he doesn’t do it, don’t hope for it from anyone else]</note>
+                <note target="#t4328" type="Rajna" resp="#LZM"> 4328] Rajna marks this line with a cross in the right margin.</note>
+                <note target="#t4329" type="Rajna" resp="#LZM"> 4329] Rajna: "e fuori" written in margin before his "4310" label.</note>
+                <note target="#t4334" type="lex" resp="#LZM"> 4334] biava: MSI ‘biada’, perhaps because of intervocalic lenition and the difficulty of representing đ.</note>
+                <note target="#t4339" type="edit" resp="#LZM"> 4339] The following line in B, 4384, reads: Vegant la grant manentie qu’ot aseç [Because of their rich cargo, of which they had so much]</note>
+                <note target="#t4343" type="lex" resp="#LZM"> 4343] canta: Difficult to explain for the sense. Perhaps related to "incantare", to auction? Various figurative meanings are also attested; GDLI Vol. II, "9. Attestare, far fede [...] avere significato evidente"(p. 651); "17. Figur. Dire con forza, esprimere in modo chiaro ed energico; proclamare apertamente, con decisione, affermare in modo risoluto"(p. 652).</note>
+                <note target="#t4351" type="lex" resp="#LZM"> 4351] disviluppare: sciogliere, slegare, snodare, dipanare; districare (GDLI vol IV, p. 841, col. 1).</note>
+                <note target="#t4355" type="codic" resp="#LZM"> 4355]The initial letter of this line is peculiar, not the normal initial "m"- though three forms of maie appear (ll. 510, 512, 10073) here it seems rather to be an n.</note>
+                <note target="#t4359" type="inter" resp="#LZM"> 4359] Cf. B 4405: Tot deust estre riche qi en cestuy reg(n)[e] sta </note>
+                <note target="#t4360" type="codic" resp="#LZM"> 4360] MS: fano with a second "fano" crossed out after it</note>
+                <note target="#t4369" type="trans" resp="#LZM"> 4369] Meregazzi: arivà, and all finals in this laisse -à. Meregazzi’s “Episodio” begins here, p. 13, and continues on odd-numbered pages in her article.</note>
+                <note target="#t4378" type="codic" resp="#LZM"> 4378] MS: el vede chel cantar (with "chel" crossed out); Meregazzi: vedi…de là; note: correction of <hi rend="italic">vede</hi> in <hi rend="italic">vedi</hi></note>
+                <note target="#t4379" type="Rajna" resp="#LZM"> 4379] MS: et re y. (rest of the line  is gone); Rajna: re underlined; in the left margin, “corr. da .y”</note>
+                <note target="#t4384" type="trans" resp="#LZM"> 4384]  Meregazzi: lesà</note>
+                <note target="#t4387" type="trans" resp="#LZM"> 4387] Meregazzi: d’entorno</note>
+                <note target="#t4390" type="codic" resp="#LZM"> 4390] MS: ac; Rajna: acor; blank space below. Rajna also writes, "Spazio". Meregazzi: vescove… areceveschove ... a cor</note>
+                <note target="#t4391" type="edit" resp="#LZM"> 4391] Meregazzi: chi </note>
+                <note target="#t4397" type="edit" resp="#LZM"> 4397] Meregazzi: dareto</note>
+                <note target="#t4398" type="trans" resp="#LZM">4398] Meregazzi: me voy che site</note>
+                <note target="#t4401" type="trans" resp="#LZM">4401] Meregazzi: signore</note>
+                <note target="#t4405" type="codic" resp="#LZM"> 4405] The abbreviation line for the "n" is of y[n] is missing. Meregazzi: Me… yn</note>
+                <note target="#t4407" type="interp" resp="#LZM"> 4407] andocha = B adon; I’m understanding it as “adoncha,”  like OF “adonc,” ‘alors’; Meregazzi: ando[n]cha</note>
+                <note target="#t4409" type="trans" resp="#LZM"> 4409] Meregazzi: yn doso</note>
+                <note target="#t4418" type="trans" resp="#LZM"> 4418] Meregazzi: quisti</note>
+                <note target="#t4420" type="interp" resp="#LZM"> 4420] MS, Rajna: responde; Meregazzi: (?) at the end of the line. B 4467: Le prest d’arme de Deu despoille et repon [The priest took off and put away God’s vestments]; “arme,” ‘arms’, understood as vestments.</note>
+                <note target="#t4423" type="trans" resp="#LZM"> 4423] Meregazzi: tidesco</note>
+                <note target="#t4425" type="interp" resp="#LZM"> 4425] MS, Rajna: andate antrare; Meregazzi: andate (entrare), dize (with a question mark at the end of the line); B 4472: A le autre dit, qe en la glisse son: / “Isseç dehors; cist veut confesion.”  [ He said to the others who were in the church, / “Go outside; this man wants to make confession”]</note>
+                <note target="#t4426" type="trans" resp="#LZM"> 4426] Meregazzi: vuol</note>
+                <note target="#t4428" type="trans" resp="#LZM"> 4428] Meregazzi: intende</note>
+                <note target="#t4431" type="trans" resp="#LZM"> 4431] Meregazzi: Ve conseiaremo</note>
+                <note target="#t4432" type="trans" resp="#LZM"> 4432] Meregazzi: A lagremare ed a plurare</note>
+                <note target="#t4437" type="codic" resp="#LZM"> 4437] No indent or any sign of new laisse in MS.</note>
+                <note target="#t4438" type="trans" resp="#LZM"> 4438] Meregazzi: in zorno</note>
+                <note target="#t4439" type="trans" resp="#LZM"> 4439] Meregazzi: pechador non</note>
+                <note target="#t4441" type="trans" resp="#LZM"> 4441] Meregazzi: de per tanto</note>
+                <note target="#t4444" type="edit" resp="#LZM"> 4444] Rajna: ata solvo, with "ata" in the left margin by the line number count.</note>
+                <note target="#t4445" type="trans" resp="#LZM"> 4445] Meregazzi: segnà</note>
+                <note target="#t4447" type="trans" resp="#LZM"> 4447] Meregazzi: e com</note>
+                <note target="#t4448" type="trans" resp="#LZM"> 4448] Meregazzi: Meregazzi: dilo… dime (no further comments on her usage of writing together object pronouns with imperatives)</note>
+                <note target="#t4449" type="interp" resp="#LZM"> 4449] Meregazzi: MS: liquesta. "l'i[n]questa" may have been intended and would be a possible emendation; Meregazzi: l’inquesta</note>
+                <note target="#t4450" type="trans" resp="#LZM"> 4450] Meregazzi: sen vene, as always </note>
+                <note target="#t4453" type="Rajna" resp="#LZM"> 4453] Rajna: che lolde</note>
+                <note target="#t4454" type="trans" resp="#LZM"> 4454] Meregazzi: vivent</note>
+                <note target="#t4462" type="interp" resp="#LZM"> 4462] Alternate interpretation: dize, “el to afare… </note>
+                <note target="#t4467" type="codic" resp="#LZM"> 4467] MS: e scratched out before danata, where sera is written above the line. Rajna: si è raschiato e (for "danata")</note>
+                <note target="#t4468" type="trans" resp="#LZM"> 4468] Meregazzi: se tristo </note>
+                <note target="#t4472" type="interp" resp="#LZM"> 4472] Rajna has difficulty with this line; in the right margin, he notes "uman non viv*"(?); Meregazzi: […] ch’el non vite omo vivan, with a note “ms. vive… vivan per vite… vivan”;  Cf. B 5420: Tiel çonse voy en vos qe non vi en hom human [I see such things in you that I have never seen in any earthly man]; The verb in the second hemistich seems to be a frequentative, formed on the past participle, so a unique form of “to see”. </note>
+                <note target="#t4474" type="Rajna" resp="#LZM"> 4474] Rajna: (croce camelly?), in the margin. There is also a mark, | |</note>
+                <note target="#t4478" type="trans" resp="#LZM"> 4478] Meregazzi: lazate</note>
+                <note target="#t4479" type="Rajna" resp="#LZM"> 4479] Note Rajna's error in numbering.</note>
+                <note target="#t4480" type="interp" resp="#LZM"> 4480] Note the error in sense: a non has been added somewhere along the line, to make the line say the opposite of what was intended in B, saying, "This isn't impossible" which makes no sense unless it refers to God’s assistance in the task. Cf. B, "Ce ert inposible dou tot a hom te[r]ran" (line 4528).</note>
+                <note target="#t4482" type="trans" resp="#LZM"> 4482] Meregazzi: dize; she emends from MS dizo</note>
+                <note target="#t4485" type="codic" resp="#LZM"> 4485] MS: prendrite followed by a crossed out l before the “un,” it appears. The page is torn closely here. </note>
+                <note target="#t4487" type="Rajna" resp="#LZM"> 4487] Rajna: in the upper left hand corner of this page (his 69V, left of 70 in the microfilm) seems to be written "Nulla / ho omesso"; Meregazzi: poco</note>
+                <note target="#t4489" type="trans" resp="#LZM"> 4489] Meregazzi: vede grande. B 4536: Part n’ay veue, greignor non vi vorman [Part of which I’ve seen, I’ve truly never seen greater]</note>
+                <note target="#t4493" type="trans" resp="#LZM"> 4493] Meregazzi: li più</note>
+                <note target="#t4495" type="trans" resp="#LZM"> 4495] Meregazzi: feramente</note>
+                <note target="#t4496" type="trans" resp="#LZM"> 4496] Meregazzi: za; she only uses the accent for the equivalent of “già”; see also below, 4503, etc.</note>
+                <note target="#t4497" type="trans" resp="#LZM"> 4497] Meregazzi: qui</note>
+                <note target="#t4499" type="interp" resp="#LZM"> 4499] MS: vetuuoso has a line through the second stroke of the “v”; Meregazzi: ell’è de … fede (el è) veretuuoso; B 4547: Hom est de foy et tot le vertuç ha [He’s a man of faith and has all the virtues]. Here the second hemistich is interpreted as “in everything he is virtuous, and he remains so [i.e., virtuous].”</note>                  
+                <note target="#t4500" type="codic" resp="#LZM"> 4500] mante = mante[n]</note>
+                <note target="#t4501" type="trans" resp="#LZM"> 4501] Meregazzi: ynzenochià, as usual for final verbal -a endings in rhyme; cf. 4502, 4505, 4507, 4508, 4509, 4510, 4511, 4512, 4513, 4514, 4515, 4518, 4521,4522, 4523.</note>
+                <note target="#t4504" type="trans" resp="#LZM"> 4504] Meregazzi: a my</note>
+                <note target="#t4506" type="interp" resp="#LZM"> 4506] Cf. B, n'atent tant già (l. 4554)[it’s not fitting]. Meregazzi : non sa per tenereza </note>
+                <note target="#t4507" type="trans" resp="#LZM"> 4507] Meregazzi: per tanto</note>
+                <note target="#t4508" type="trans" resp="#LZM"> 4508] Meregazzi: porteno </note>
+                <note target="#t4510" type="trans" resp="#LZM"> 4510] Meregazzi: in su </note>
+                <note target="#t4511" type="Rajna" resp="#LZM"> 4511] MS: te deum al with the “l” crossed out. </note>
+                <note target="#t4513" type="trans" resp="#LZM">  4513] Meregazzi: me (as always for MSI ma, MSF mais); cf. 4519</note>
+                <note target="#t4515" type="interp" resp="#LZM"> 4515] B: Qua[n]t l'eve fu cornée, chascun si soy lava (l. 4563); Meregazzi : Quando (levo) era …</note>
+                <note target="#t4516" type="codic" resp="#LZM"> 4516] The initial two letters of this line are in the left margin.</note>
+                <note target="#t4521" type="trans" resp="#LZM"> 4521] Meregazzi: a fora</note>
+                <note target="#t4525" type="codic" resp="#LZM"> 4525] Between presto and sevole, crossed out letter y. Not noted by Rajna. Meregazzi: de là.</note>
+                <note target="#t4526" type="trans" resp="#LZM"> 4526] Meregazzi: lielamente</note>
+                <note target="#t4529" type="codic" resp="#LZM"> 4529] MS: despone laventura despone; Meregazzi: (despone) l’aventure; Rajna to right (si è). B 4578: Puis a lor bernage l’aventure despons [Then he recounted Huon’s undertaking to his assembled barons]</note>
+                <note target="#t4534" type="Rajna" resp="#LZM"> 4534]  For this line and the following, Rajna has switched the second hemistiches; he circles them and indicates with arrows that they are to be switched, writing "errore mio" beside the lines.  </note>
+                <note target="#t4539" type="trans" resp="#LZM"> 4539] Meregazzi: quy </note>
+                <note target="#t4541" type="trans" resp="#LZM"> 4541] Meregazzi: pó </note>
+                <note target="#t4544" type="interp" resp="#LZM"> 4544] MS: yano dito; Rajna: Yano dito; Meregazzi: i ano </note>
+                <note target="#t4546" type="trans" resp="#LZM"> 4546] Meregazzi: questo faroy </note>
+                <note target="#t4547" type="interp" resp="#LZM"> 4547] Cf. B 4598: Et il, a tant, le paroil leise a pont [And he, meanwhile, ceased speaking at that point] </note>
+                <note target="#t4549" type="codic" resp="#LZM"> 4549] molte: the spot was scraped and the word written over it; the ink is slightly smeared. Rajna note in right margin: corr. si. che? (for "romanire molte") </note>
+                <note target="#t4560" type="interp" resp="#LZM"> Cf. B 4611: Aseç gi ot princeps, duch et contor [There was a fair number of princes, dukes and counts]</note>
+                <note target="#t4563" type="interp" resp="#LZM"> 4563] B 4614: Oit .vii.c. mille jusquemant en la Sor [He had seven hundred thousand [men] as far as Syria]</note>
+                <note target="#t4564" type="codic" resp="#LZM"> 4564] 4564] This line is in the right margin of the MS; it is not clear how it relates. Should it be only the end of one line? But cf. B 4615, quite long: Zascun ert a son mestier quant ert en ceste cor […]. B 4614-4618 are equivalent to lines 4563-66 here, but in a slightly different order. I follow Rajna in placing it on its own line. He notes, "in marg; è verso incompiuto; il richia/mo è dopo conte." </note>
+                <note target="#t4565" type="Rajna" resp="#LZM"> 4565] MS (Rajna): parlate</note>
+                <note target="#t4566" type="trans" resp="#LZM"> 4566] Meregazzi: qui</note>
+                <note target="#t4567" type="Rajna" resp="#LZM"> 4567] Rajna: a no mé; Meregazzi: l’uno a nome haine; B 4619: "Le un n'ait hayne a l'autre, ainç s'aime p[er] amor"; the scribe here seems to have transposed letters in the initial hemistich.</note>
+                <note target="#t4568" type="Rajna" resp="#LZM"> 4568] Rajna underlines the final vowel of "Tuti" and of servene; in a note at the end of the line "da legg o?"</note>
+                <note target="#t4571" type="trans" resp="#LZM"> 4571] Meregazzi: et a plurare</note>
+                <note target="#t4572" type="trans" resp="#LZM"> 4572] Meregazzi: yn versso</note>
+                <note target="#t4577" type="Rajna" resp="#LZM"> 4577] Rajna: nel nel,with note in the right margin, (gi???)</note>
+                <note target="#t4580" type="Rajna" resp="#LZM"> 4580] Rajna, note in right margin: (qui è forse lecito / legg o) in reference to the first vowel in lo teneno. It is difficult to tell, since the form is compressed, whether it is e or o. </note>
+                <note target="#t4582" type="trans" resp="#LZM"> 4582] Meregazzi: ym plurando</note>
+                <note target="#t4583" type="codic" resp="#LZM"> 4583] MS: e soa nave Tadeus; Meregazzi: donata</note>
+                <note target="#t4584" type="Rajna" resp="#LZM"> 4584] MS: bono nave; Rajna, note in left margin: "corr. da bona nave" with "bon nevo" underlined. The vowels are altered: the final of "bon" is scraped off, with just a bit of ink visible; the other two are oddly formed, and the final letter is followed by a stroke that is not scraped off, leaving the intention unclear though the cross-stroke for the "e" is clear. MS: avuy, with the “v” written above the line.</note>
+                <note target="#t4585" type="trans" resp="#LZM"> 4585] Meregazzi: e tuto</note>
+                <note target="#t4586" type="Rajna" resp="#LZM"> 4586] Rajna transcribes this line and the following out of order, and numbers them in the left margin to indicate correct order. He does not note the abbreviation on "comada" that is clearly visible in the MS; he does note (in marg) at the end of the line beginning fately. Since the inserted line, written over two lines, is in the left margin, on the verso, the left side is burned, and only two bits (the ends of each half line) remain.</note>
+                <note target="#t4588" type="interp" resp="#LZM"> 4588] a Dio: perhaps “adio”? I follow previous Rajna and Meregazzi with their division, though it is written as together in the MS.</note>
+                <note target="#t4589" type="trans" resp="#LZM"> 4589] Meregazzi: a topianando</note>
+                <note target="#t4590" type="trans" resp="#LZM"> 4590] Meregazzi: à zò che… fina VII</note>
+                <note target="#t4592" type="trans" resp="#LZM"> 4592] Meregazzi: a zò che</note>
+                <note target="#t4593" type="trans" resp="#LZM"> 4593] Meregazzi: vivente</note>
+                <note target="#t4594" type="trans" resp="#LZM"> 4594] Meregazzi: a tanto</note>
+                <note target="#t4595" type="trans" resp="#LZM"> 4595] Meregazzi: ym presente</note>
+                <note target="#t4599" type="trans" resp="#LZM"> 4599] Meregazzi: ym presente</note>
+                <note target="#t4600" type="codic" resp="#LZM"> 4600] MS: bescota? The final vowel has a thick outside stroke.</note>
+                <note target="#t4601" type="Rajna" resp="#LZM"> 4601] Rajna: corr.; da che?</note>
+                <note target="#t4603" type="codic" resp="#LZM"> 4601] MS: fono (s/f confusion is a frequent scribal error)</note>
+                <note target="#t4604" type="codic" resp="#LZM"> 4604] B 4655: Tot le livrast s’il fust son plaquimant [They would deliver it all if it were his pleasure]. Perhaps a missing abbreviation for ‘r’?</note>
+                <note target="#t4608" type="trans" resp="#LZM"> 4608] Meregazzi: davanti</note>
+                <note target="#t4613" type="edit" resp="#LZM"> 4613] End of the first section of Meregazzi’s transcription, p. 31 (her line 4494).</note>
+                <note target="#t4617" type="Rajna" resp="#LZM"> 4617] Rajna: lunta = "ontano"</note>
+                
+                <note target="#t5763" type="trans" resp="#LZM"> 5763] The second section of Meregazzi, "Prete Gianni," begins here, her p. 31.</note>
+                <note target="#t5767" type="Rajna" resp="#LZM"> 5767] Rajna: ɔpagnia; Meregazzi: ... dize, "e la ...</note>
+                <note target="#t5770" type="trans" resp="#LZM"> 5770] Meregazzi: yn verso</note>
+                <note target="#t5771" type="trans" resp="#LZM"> 5771] Meregazzi: ynlasaria; there are no other forms with this prefix. It seems to be a combination of “lassare” and “s’en aller”.</note>
+                <note target="#t5773" type="Rajna" resp="#LZM"> 5773] Rajna: vustate?  "a" written over "t"? Meregazzi: vusate</note>
+                <note target="#t5777" type="trans" resp="#LZM"> 5777] Meregazzi: non per tanto</note>
+                <note target="#t5778" type="trans" resp="#LZM"> 5778] Meregazzi: diaulo</note>
+                <note target="#t5779" type="trans" resp="#LZM"> 5779] Meregazzi, p. 33. B6084: Se plus vesquisse qe non fist Jeremie [Even if I live as long as Jeremiah]</note>
+                <note target="#t5784" type="codic" resp="#LZM"> 5784] B 6089: Je vos merci de la grant cortesie [I thank you for the great courtesy]; “mercier” not understood.</note>
+                <note target="#t5786" type="codic" resp="#LZM"> 5786] Under “chavalo de la” is a scraped section with the current reading written over it.</note>
+                <note target="#t5789" type="trans" resp="#LZM"> 5789] Meregazzi Laisse XIII.</note>
+                <note target="#t5790" type="trans" resp="#LZM"> 5790] Meregazzi: chavalieri</note>
+                <note target="#t5793" type="trans" resp="#LZM"> 5793] Meregazzi: omo</note>
+                <note target="#t5795" type="trans" resp="#LZM"> 5795] Meregazzi: o non g’andò zamai</note>
+                <note target="#t5796" type="Rajna" resp="#LZM"> 5796] Rajna: lo ɔte lo ɔte (sic)</note>
+                <note target="#t5797" type="trans" resp="#LZM"> 5797] Meregazzi notes, “corr. vado in omo”- suggesting an emendation?</note>
+                <note target="#t5798" type="trans" resp="#LZM"> 5798] Meregazzi: vui</note>
+                <note target="#t5805" type="Rajna" resp="#LZM"> 5805] Rajna: lasassi; Meregazzi: de presio in the right margin, underlined, possibly a comment on the same word appearing at the end of the following line. However, line B 6111-12 also have the same concluding word, “pris”.</note>
+                <note target="#t5806" type="Rajna" resp="#LZM"> 5806] Meregazzi, p. 35</note>
+                <note target="#t5808" type="trans" resp="#LZM"> 5808] Meregazzi: pregeroy</note>
+                <note target="#t5809" type="trans" resp="#LZM"> 5809] MS: che y[n] ne landare vuy… .Cf. B 6115: Que ambdos vos gart que non soieç oncis [That they both keep you from being killed]; Meregazzi: che yn ne l’andare [that in the going/on the trip?] It’s not clear though in that construction what the role of the “ne” is; perhaps “ynn el andare”?</note>
+                <note target="#t5811" type="trans" resp="#LZM"> 5811] MS: lo core li presse; Meregazzi: me presse; B 6117: De pieté m’ais tant le cors espris [You have aroused such pity in my heart]; an “l” for an “s” is a possible scribal error.</note>
+                <note target="#t5814" type="Rajna" resp="#LZM"> 5814] "che tu ne torni"; Meregazzi: retorny ancor (titulus not resolved)</note>
+                <note target="#t5816" type="trans" resp="#LZM"> 5816] Meregazzi: sì yn sonto</note>
+                <note target="#t5820" type="trans" resp="#LZM"> 5820] Meregazzi: volonterosso</note>
+                <note target="#t5822" type="trans" resp="#LZM"> 5822] MS: auy y rende (final -e written over an -a); Meregazzi: Dio a vuy</note>
+                <note target="#t5825" type="refer" resp="#LZM"> 5825] B 6132: Da toy si part li hom avenois [This {Alvernese}man is leaving you]</note>
+                <note target="#t5826" type="trans" resp="#LZM"> 5826] Meregazzi: fradello</note>
+                <note target="#t5828" type="trans" resp="#LZM"> 5828] Meregazzi: chi me lasse</note>
+                <note target="#t5831" type="Rajna" resp="#LZM"> 5831] Rajna: marchese</note>
+                <note target="#t5834" type="Rajna" resp="#LZM"> 5834] Meregazzi, p. 37</note>
+                <note target="#t5835" type="trans" resp="#LZM"> 5835] Meregazzi: vaxalo… el</note>
+                <note target="#t5836" type="trans" resp="#LZM"> 5836] Meregazzi: sen (as always; see also v. 5838 below)</note>
+                <note target="#t4840" type="refer" resp="#LZM"> 5840] B 6147: Onque mes nef n’avoit tiel estormant [Never before had a ship had such a steersman]</note>
+                <note target="#t5847" type="trans" resp="#LZM"> 5847] Meregazzi: ny tanto ny quanto</note>
+                <note target="#t5848" type="trans" resp="#LZM"> 5848] Meregazzi: Il zorno</note>
+                <note target="#t5849" type="trans" resp="#LZM"> 5849] Meregazzi: sempro</note>
+                <note target="#t5851" type="codic" resp="#LZM"> 5851] MS: tuty ȳ </note>
+                <note target="#t5852" type="trans" resp="#LZM"> 5852] Meregazzi: In poco</note>
+                <note target="#t5856" type="Rajna" resp="#LZM"> 5856] Rajna: pasa</note>
+                <note target="#t5862" type="codic" resp="#LZM"> 5862] MS: vene for "tene"; Rajna: vene</note>
+                <note target="#t5863" type="trans" resp="#LZM"> 5863] Meregazzi, p. 39</note>
+                <note target="#t5871" type="Rajna" resp="#LZM"> 5871] Rajna: travaiante; MS: travaliante</note>
+                
+                <note target="#t7462" type="interp" resp="#LZM"> 57462] The biblical account of Noah and his sons was greatly expanded during the middle ages. For a history of the developments, see Benjamin Braude, "The Sons of Noah
+                    and the Construction of Ethnic and Geographical Identities in the Medieval and Early Modern Periods," <hi rend="italic">The William and Mary Quarterly,</hi> 3rd series, 54.1 (January 1997), pp. 103-142.</note>
+                
+                <note target="#t8321" type="Rajna" resp="#LZM">8321] Rajna: che cosa? (asay ne vite) hard to read! </note>
+                <note target="#t8323" type="codic" resp="#LZM">8323] MS: morbede: written in smaller letters and "d" with a light slash in the ascender; "b" has "p" (?) written above.</note>
+                <note target="#t8328" type="Rajna" resp="#LZM">8328] Rajna: r in l (molto)</note>
+                <note target="#t8329" type="Rajna" resp="#LZM">8329] This line and the following are reversed in Rajna's transcription, corrected by his writing "2" and then "1" in the margin. “molto” was changed from “morto”.</note>
+                <note target="#t8335" type="codic" resp="#LZM">8335] The descender in  "p" of "parte" does have a line across it, but is not needed here as mark of abbreviation.</note>
+                <note target="#t8350" type="codic" resp="#LZM">8350] Illumination follows; Rajna labels it "Ug e le formiche aurifere"; the entire center of the page is predominated by ants marching from left to right up a hill; the front half of Ugon’s horse is visible at the bottom center.  </note>
+                <note target="#t8361" type="Rajna" resp="#LZM"> 8361] Rajna: cosse for "coste"</note>
+                <note target="#t8365" type="Rajna" resp="#LZM"> 8365] Square brackets in italicized section from Rajna. Note: "in marg. / mutily col /margin." Line inserted in the right margin over two lines, so end of each not visible, as he says, in the margin, mutilated with the margin.</note>
+                <note target="#t8367" type="codic" resp="#LZM"> 8367] Once again the line that has been inserted (above, 8365) is almost identical to an already present line, this one.</note>
+              
+                <note target="#t10892" type="Rajna" resp="#LZM"> 10892] Rajna: agradise. This line and the following in the MS end in a rather rapidly dashed-off letter, but they do seem to  -e.</note>
+                <note target="#t10895" type="Rajna" resp="#LZM"> 10895] Rajna seems to write “afadighate” and then correct the “g”</note>
+                <note target="#t10896" type="Rajna" resp="#LZM"> 10896] Rajna: line crossed out after luno</note>
+                <note target="#t10897" type="Rajna" resp="#LZM"> 10897] Rajna: line crossed out before sa (seems to be an “f”)</note>
+                <note target="#t10900" type="codic" resp="#LZM"> 10900] MS: zo is in the left margin, before the beginning of other lines. Rajna note: g[iunto]. st[esso]. i[nchiostro]. (for zo)</note>
+                <note target="#t10901" type="Rajna" resp="#LZM"> 10901] Rajna: lenguazo</note>
+                <note target="#t10908" type="codic" resp="#LZM"> 10908] çerte: there is a line here in the MS that seems to be a cedilla. Rajna gives a dash under the line.</note>
+                <note target="#t10916" type="Rajna" resp="#LZM"> 10916] The handwriting size changes after this line, becoming much smaller though still the same style.</note>
+                <note target="#t10917" type="edit" resp="#LZM"> 10917] MS: [crist]ianeta fede; this is the only time that form appears as an adjective, elsewhere (seven appearances) it is always a noun. For this reason we have emended.</note>
+                <note target="#t10919" type="Rajna" resp="#LZM"> 10919] Rajna: fato; MS is not clear: it seems to be an –"o" with a line at the bottom, or perhaps formed in reverse (finishing at the bottom) by the scribe.</note>
+                <note target="#t10928" type="Rajna" resp="#LZM"> 10928] Rajna: altre letre. The MS is burned at this edge here, but it looks like "atre letre," where only part of the first letter is visible. Thus the italics in the text.</note>
+                <note target="#t10931" type="codic" resp="#LZM"> 10931] Pencil annotation in right margin, "Prete Gianni."</note>
+                <note target="#t10937" type="codic" resp="#LZM"> 10937] MS: Yerosaleme (crossed-out "e" at the end of the line- slash going through it). Rajna: Ierosaleme. The form of the first letter is like his initials elsewhere, but is difficult to parse, it could be a “G”. The MS is clearly “ Y”.</note>
+                <note target="#t10940" type="codic" resp="#LZM"> 10940] el gran mal: et el …</note>
+                <note target="#t10942" type="codic" resp="#LZM"> 10942] Handwriting change at 169v: back to large print. There is a note in the right margin of the manuscript, "nuova.... grafia..."</note>
+                                
+                <!-- start here -->      
+                        <note target="#t11816" type="Rajna" resp="#LZM"> Rajna: anchora </note>
                         <note target="#t11818" type="biblio" resp="#LZM">Graf, p. 109.</note>
                         <note target="#t11820" type="biblio" resp="#LZM">Graf: recevono; Rajna: benedizione .</note>
                         <note target="#t11831" type="codic" resp="#LZM">Graf: si l'eno? .</note>
@@ -178,7 +379,7 @@
                         <note target="#t11839" type="codic" resp="#LZM">Peyron: oldite.</note>
                         <note target="#t11841" type="Rajna" resp="#LZM">End of Rajna's transcription. The notebook, however, is not ended. It continues through a folio numbered 192. Folio 187 (back and front) is blank. Rajna describes L. I. 14 (Cod. 89) from 188-190; this is a resumé of <hi rend="italic">Octavian</hi>. From folio 190V-192V, he speaks of Cod. xxvj =L. II.14 (?) of parchment sec. XIIIo o XIVo 586 folios in 2 columns, with a listing of contents, including <hi rend="italic">Bovo d'Antona</hi>. </note>
                         
-                    <!-- <note target="#t123" type="Rajna" resp="#LZM"> template </note> -->
+                <!-- <note target="#t123" type="Rajna" resp="#LZM"> ] </note> -->
                         
             </div>
         </body>
