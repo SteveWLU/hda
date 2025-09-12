@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Huon d'Auvergne, Turin Biblioteca Nazionale Universitaria N III 19 (T)</title>
+                <title type="manuscript">Huon d'Auvergne, Turin Biblioteca Nazionale Universitaria N III 19 (T) Annotations</title>
                 <respStmt>
                     <name xml:id="LZM">Leslie Zarker Morgan</name>
                     <resp>Annotations</resp>
@@ -45,128 +45,133 @@
                     <note target="#t66" type="Rajna" resp="#LZM"> 66] Rajna reverses these two lines, and uses numbering in the left margin to make clear their order.</note>
                     <note target="#t76" type="ling" resp="#LZM"> 76] Cf. Crusca, <hi rend="italic"> al dilungo</hi>, vol. 1. </note>
                     <note target="#t93" type="Rajna" resp="#LZM"> 93] Rajna, note "no del solito inchiostro / più nero delle giunte." At the beginning of his transcription, Rajna comments more on the various details of handwriting than toward the end.</note>
-                    <note target="#t102" type="Rajna" resp="#LZM"> Rajna: seneschalcho, with the first "e" changed into "i" with a dot above and filled in. </note>
-                    <note target="#t109" type="biblio" resp="#LZM"> End of Holtus (2001) transcription.</note>
-                    <note target="#t110" type="Rajna" resp="#LZM"> Rajna's notebook has "V" in the left margin, together with a crossed-out label, "IV."</note>
-                    <note target="#t120" type="Rajna" resp="#LZM"> Rajna omits this line and later inserts in the right margin, thus beginning the line numbers of his transcription being off from the total. </note>
-                    <note target="#t123" type="Rajna" resp="#LZM"> Rajna: messy note here, running over beginning of the following line: "O e in? / (non) mi pare" after having crossed out "Em?"; the "non" is written after, squeezed in; he clearly was not sure. The "E" covers the beginning of "Charlo" below.</note>
-                    <note target="#t124" type="Rajna" resp="#LZM">This line omitted in Rajna initially, inserted in right margin according to signal similar to "F." MS: ācorte, at the beginning of the line.</note>
-                    <note target="#t125" type="codic" resp="#LZM"> <hi rend="italic">prendea</hi>: the "e" is not clearly formed, missing the loop. However, here as elsewhere, if there is not a dot for the "i" I presume that it is an "e": thanks to M. Scattolini for this tip. In the right margin, Rajna has added a note, "I vari aggiunti nei margini sono stati saltati nella trascrizione frettolosa." Perhaps this explains the problem with this line: the king should have taken him by the hand, "prenduto" or something similar, and instead there are two verbs, "avè" and "prendea."</note>
+                    <note target="#t102" type="Rajna" resp="#LZM"> 102] Rajna: seneschalcho, with the first "e" changed into "i" with a dot above and filled in. </note>
+                    <note target="#t109" type="biblio" resp="#LZM"> 109] End of Holtus (2001) transcription.</note>
+                    <note target="#t110" type="Rajna" resp="#LZM"> 110] Rajna's notebook has "V" in the left margin, together with a crossed-out label, "IV."</note>
+                    <note target="#t120" type="Rajna" resp="#LZM"> 120] Rajna omits this line and later inserts in the right margin, thus beginning the line numbers of his transcription being off from the total. </note>
+                    <note target="#t123" type="Rajna" resp="#LZM"> 123] Rajna: messy note here, running over beginning of the following line: "O e in? / (non) mi pare" after having crossed out "Em?"; the "non" is written after, squeezed in; he clearly was not sure. The "E" covers the beginning of "Charlo" below.</note>
+                    <note target="#t124" type="Rajna" resp="#LZM">124] This line omitted in Rajna initially, inserted in right margin according to signal similar to "F." MS: ācorte, at the beginning of the line.</note>
+                    <note target="#t125" type="codic" resp="#LZM"> 125] <hi rend="italic">prendea</hi>: the "e" is not clearly formed, missing the loop. However, here as elsewhere, if there is not a dot for the "i" I presume that it is an "e": thanks to M. Scattolini for this tip. In the right margin, Rajna has added a note, "I vari aggiunti nei margini sono stati saltati nella trascrizione frettolosa." Perhaps this explains the problem with this line: the king should have taken him by the hand, "prenduto" or something similar, and instead there are two verbs, "avè" and "prendea."</note>
                     <!--line 125 needs a second type, "Rajna", since his comment reveals a problem with the original MS -->
-                    <note target="#t194" type="Rajna" resp="#LZM">Rajna: zos, with a mark in the margin; note on left side, referring to that mark: "qui un (a) lett. cancellz/ e sopra scritto un e, a.i./ Si dice legittima, legg. zosa." He has an "a" crossed out in the right margin.</note>
-                    <note target="#t196" type="Rajna" resp="#LZM"> MS: baldovĩo; Rajna: baldovij, with a note in the left margin, "corr. in baldovĩo a.i." </note>
-                    <note target="#t199" type="ling" resp="#LZM"> It is difficult to make sense of this line; I'm interpreting "each of them knocked his own down thoroughly," which requires understanding "le sovo" for MS: le sono (the parenthesis are for the emendation). However "n" and "v" are frequently difficult to distinguish; cf. Holtus 1985, p. XXXV. </note>
+                    <note target="#t194" type="Rajna" resp="#LZM"> 194] Rajna: zos, with a mark in the margin; note on left side, referring to that mark: "qui un (a) lett. cancellz/ e sopra scritto un e, a.i./ Si dice legittima, legg. zosa." He has an "a" crossed out in the right margin.</note>
+                    <note target="#t196" type="Rajna" resp="#LZM"> 196] MS: baldovĩo; Rajna: baldovij, with a note in the left margin, "corr. in baldovĩo a.i." </note>
+                    <note target="#t199" type="ling" resp="#LZM"> 199] It is difficult to make sense of this line; I'm interpreting "each of them knocked his own down thoroughly," which requires understanding "le sovo" for MS: le sono (the parenthesis are for the emendation). However "n" and "v" are frequently difficult to distinguish; cf. Holtus 1985, p. XXXV. </note>
                     <!-- needs second classification here too, codicological-->
-                    <note target="#t206" type="Rajna" resp="#LZM"> Rajna initially misses this line and inserts it afterward in the margin. </note>
-                    <note target="#t219" type="Rajna" resp="#LZM"> There are a couple of ways that this could be interpreted: first, "le roi... / armé, et avec toutes ses armes décorées d'une fleur de lys"; or, "[the king] is armed in weapons all decorated with a fleur-de-lys"; that is, the second word of the line could be a verb or the conjunction.</note>
-                    <note target="#t221" type="ling" resp="#LZM"> <hi rend="italic">elziso</hi>: this form seems to be from <hi rend="italic">alzire/elzire</hi>; cf. <hi rend="italic">Aquilon de Bavière</hi>, "to kill"; the line then means, "that is, Huon, who wouldn't have killed him [Berardo] at all." Compare to B, where the verb is "to hate."</note>
-                    <note target="#t240" type="ling" resp="#LZM">This line does not make sense, since the copyist didn't understand the type of horse, "amoravis" and changed the term to something he knew! Compare with B. </note>
-                    <note target="#t243" type="Rajna" resp="#LZM"> Rajna's copy shows a spot above "quelo," but it does not seem to be a dot to an "i" merely an imperfection in the paper. </note>
-                    <note target="#t246" type="codic" resp="#LZM"> Illumination follows: Rajna, "2 giostra." In fact there is a view of one horsed man from the front, with a crown on his head and a sun on his chest in the center of the page; behind, to the right, there is a side view of a figure in grey on horseback with his lance at the attack position, with the same sun motif on the horse's caparison and a cape visible on his back. </note>
-                    <note target="#t263" type="Rajna" resp="#LZM"> Rajna initially omits this line and adds it in the margin afterwards. </note>
-                    <note target="#t302" type="Rajna" resp="#LZM"> B: selong lor coi[n]tenance. Nowhere else in this MS does any such form "sealonga" appear. </note>
-                    <note target="#t306" type="Rajna" resp="#LZM"> Rajna initially skips this line and adds it later in the left margin. </note>
-                    <note target="#t313" type="Rajna" resp="#LZM"> Rajna note: "li lom o loim, non /loin; ma / il segno sopra non / è un i troppo/ legittimo, ma rro/ poi (mi pare) un segno / p l'asta sotta / posta – se è / fu mal fatto."</note>
-                    <note target="#t330" type="Rajna" resp="#LZM"> Rajna, note in margin: (sir, voglio) </note>
-                    <note target="#t356" type="ling" resp="#LZM"> "a dove a dove"= <hi rend="italic">a due a due</hi>; cf. "sove" = <hi rend="italic">sue</hi></note>
-                    <note target="#t363" type="Rajna" resp="#LZM"> This line and the following are initially incorrectly ordered in Rajna, who then writes numbers in the left margin to indicate the correct order. </note>
-                    <note target="#t380" type="codic" resp="#LZM"> <hi rend="italic">sorprisse</hi>: there is a dot above the second "r," not above the following vowel.</note>
-                    <note target="#t413" type="Rajna" resp="#LZM"> Rajna notes that he is not sure whether the MS reads "in" or "m." The strokes are linked. </note>
-                    <note target="#t417" type="codic" resp="#LZM"> Illumination: two men under tree, one with horns and bells, the other with hat over his eyes. </note>
-                    <note target="#t418" type="codic" resp="#LZM"> The MS has been scratched: ve:y is what the MS looks like. B: Quant vos forma (l. 421) </note>
-                    <note target="#t436" type="Rajna" resp="#LZM"> Rajna has a mark after "chy" and before "ßve" that is unclear; it looks like a little caret. Perhaps this should read "ss[er]ve"? </note>
-                    <note target="#t438" type="Rajna" resp="#LZM"> Rajna omits the "o" of "yo." </note>
-                    <note target="#t440" type="codic" resp="#LZM"> There seems to be a line missing here; cf. B 444: Non ai ge soingn fors tout soul de celli (between this line and the following).</note>
-                    <note target="#t443" type="Rajna" resp="#LZM"> Rajna omits the "u" of "nuy." These two omissions make one wonder about the "y" in line 444—should it be "yo"? </note>
-                    <note target="#t458" type="codic" resp="#LZM"> MS: chre da more in B reads <hi rend="italic">qui n'iert d'amore</hi> </note>
-                    <note target="#t459" type="Rajna" resp="#LZM"> Rajna transcribes in reverse order this and the following line; he numbers in left margin to indicate the need to reorder. </note>
-                    <note target="#t463" type="Rajna" resp="#LZM"> Rajna: ne piga. He underlines the word and has a line under the "p"; would seem to have been uncertain himself of the reading. B: emplie. </note>
-                    <note target="#t476" type="biblio" resp="#LZM"> Cf. Dante and the pilgrim's expressions of shame: e.g., Inf. 17.85-90.</note>
-                    <note target="#t478" type="ling" resp="#LZM"> For "se tene y[n]tra ello" B: si tient traïe </note>
-                    <note target="#t484" type="Rajna" resp="#LZM"> After the second "pensery," Rajna notes (sic). </note>
-                    <note target="#t485" type="Rajna" resp="#LZM"> Rajna: <hi rend="italic">anyda parla</hi> </note>
-                    <note target="#t514" type="Rajna" resp="#LZM"> Rajna initially omits this line, then inserts it in the left margin.</note>
-                    <note target="#t520" type="Rajna" resp="#LZM"> Rajna has a number of marks above this line that appear to be abbreviations: "razŷ...tōrmenta."</note>
-                    <note target="#t525" type="Rajna" resp="#LZM"> Rajna initially omits this line, then inserts it in the left margin. </note>
-                    <note target="#t544" type="Rajna" resp="#LZM"> B 549: Ja estes sire, et tot a vos atent </note>
-                    <note target="#t569" type="codic" resp="#LZM"> The second half of this line is problematic; the hemistich reads in B: "Oïl, mon bon segnor." </note>
-                    <note target="#t623" type="codic" resp="#LZM"> <hi rend="italic">savye</hi>: where the ink is worn, it is frequently difficult to see the tail below the line; this could well read savie. However, under the light the tail can be seen. Here the tail is only visible with the ultraviolet light. </note>
-                    <note target="#t624" type="Rajna" resp="#LZM"> Rajna reverses this line and the following, noting the correct order in the left margin. </note>
-                    <note target="#t652" type="Rajna" resp="#LZM"> Rajna reads "guer" but the MS clearly reads <hi rend="italic">a sapiate</hi> just at the edge of the burned portion. </note>
-                    <note target="#t669" type="Rajna" resp="#LZM"> Rajna reads "guer" but the MS clearly reads a sapiate just at the edge of the burned portion.</note>
-                    <note target="#t670" type="Rajna" resp="#LZM"> Illumination follows (Rajna: "4 Fig (Carlo e Sandino)</note>
-                    <note target="#t680" type="Rajna" resp="#LZM">Rajna, marginal note: "e dei corr. Sng."; this last must be an abbreviation.</note>
-                    <note target="#t686" type="interp" resp="#JCV">"Si non, défiez le..." (Literally, "Cela si il se trouve [si il est] que non)" </note>
-                    <note target="#t714" type="Rajna" resp="#LZM"> Rajna omits initially and then inserts in the left margin. </note>
-                    <note target="#t729" type="Rajna" resp="#LZM"> Rajna reverses this line and the following, and indicates the correct order by numbering in the left margin.</note>
-                    <note target="#t750" type="Rajna" resp="#LZM">End of the first fascicle of Rajna's notebook. Second begins with next line, "Tor. 2." in upper corner, with "13" in red underneath. From here on, there are only numbers in red in the upper right corner of each opening, not sequential numbers as in the first fascicle.</note>
-                    <note target="#t758" type="codic" resp="#LZM"> viva: these last four letters are distinctly different from the other strokes around them. They are smaller, and written above the bottom line of the rest of the verse. Added afterwards, with a different pen? Perhaps originally the end read "li à"? </note>
-                    <note target="#t762" type="codic" resp="#LZM"> Before "aƣpir" there is a little stroke above the line. However, since there is no caret or other mark to indicate insertion, I do not include it in the text. Rajna: apreso; MS clear has "apresso." </note>
+                    <note target="#t206" type="Rajna" resp="#LZM"> 206] Rajna initially misses this line and inserts it afterward in the margin. </note>
+                    <note target="#t219" type="Rajna" resp="#LZM"> 219] There are a couple of ways that this could be interpreted: first, "le roi... / armé, et avec toutes ses armes décorées d'une fleur de lys"; or, "[the king] is armed in weapons all decorated with a fleur-de-lys"; that is, the second word of the line could be a verb or the conjunction.</note>
+                    <note target="#t221" type="ling" resp="#LZM"> 221] <hi rend="italic">elziso</hi>: this form seems to be from <hi rend="italic">alzire/elzire</hi>; cf. <hi rend="italic">Aquilon de Bavière</hi>, "to kill"; the line then means, "that is, Huon, who wouldn't have killed him [Berardo] at all." Compare to B, where the verb is "to hate."</note>
+                    <note target="#t240" type="ling" resp="#LZM"> 240] This line does not make sense, since the copyist didn't understand the type of horse, "amoravis" and changed the term to something he knew! Compare with B. </note>
+                    <note target="#t243" type="Rajna" resp="#LZM"> 243] Rajna's copy shows a spot above "quelo," but it does not seem to be a dot to an "i" merely an imperfection in the paper. </note>
+                    <note target="#t246" type="codic" resp="#LZM"> 246] Illumination follows: Rajna, "2 giostra." In fact there is a view of one horsed man from the front, with a crown on his head and a sun on his chest in the center of the page; behind, to the right, there is a side view of a figure in grey on horseback with his lance at the attack position, with the same sun motif on the horse's caparison and a cape visible on his back. </note>
+                    <note target="#t263" type="Rajna" resp="#LZM"> 263] Rajna initially omits this line and adds it in the margin afterwards. </note>
+                    <note target="#t302" type="Rajna" resp="#LZM"> 302] B: selong lor coi[n]tenance. Nowhere else in this MS does any such form "sealonga" appear. </note>
+                    <note target="#t306" type="Rajna" resp="#LZM"> 306] Rajna initially skips this line and adds it later in the left margin. </note>
+                    <note target="#t313" type="Rajna" resp="#LZM"> 313] Rajna note: "li lom o loim, non /loin; ma / il segno sopra non / è un i troppo/ legittimo, ma rro/ poi (mi pare) un segno / p l'asta sotta / posta – se è / fu mal fatto."</note>
+                    <note target="#t330" type="Rajna" resp="#LZM"> 330] Rajna, note in margin: (sir, voglio) </note>
+                    <note target="#t356" type="ling" resp="#LZM"> 356] "a dove a dove"= <hi rend="italic">a due a due</hi>; cf. "sove" = <hi rend="italic">sue</hi></note>
+                    <note target="#t363" type="Rajna" resp="#LZM"> 363] This line and the following are initially incorrectly ordered in Rajna, who then writes numbers in the left margin to indicate the correct order. </note>
+                    <note target="#t380" type="codic" resp="#LZM"> 380] <hi rend="italic">sorprisse</hi>: there is a dot above the second "r," not above the following vowel.</note>
+                    <note target="#t413" type="Rajna" resp="#LZM"> 413] Rajna notes that he is not sure whether the MS reads "in" or "m." The strokes are linked. </note>
+                    <note target="#t417" type="codic" resp="#LZM"> 417] Illumination: two men under tree, one with horns and bells, the other with hat over his eyes. </note>
+                    <note target="#t418" type="codic" resp="#LZM"> 418] The MS has been scratched: ve:y is what the MS looks like. B: Quant vos forma (l. 421) </note>
+                    <note target="#t436" type="Rajna" resp="#LZM"> 436] Rajna has a mark after "chy" and before "ßve" that is unclear; it looks like a little caret. Perhaps this should read "ss[er]ve"? </note>
+                    <note target="#t438" type="Rajna" resp="#LZM"> 438] Rajna omits the "o" of "yo." </note>
+                    <note target="#t440" type="codic" resp="#LZM"> 440] There seems to be a line missing here; cf. B 444: Non ai ge soingn fors tout soul de celli (between this line and the following).</note>
+                    <note target="#t443" type="Rajna" resp="#LZM"> 443] Rajna omits the "u" of "nuy." These two omissions make one wonder about the "y" in line 444—should it be "yo"? </note>
+                    <note target="#t458" type="codic" resp="#LZM"> 458] MS: chre da more in B reads <hi rend="italic">qui n'iert d'amore</hi> </note>
+                    <note target="#t459" type="Rajna" resp="#LZM"> 459] Rajna transcribes in reverse order this and the following line; he numbers in left margin to indicate the need to reorder. </note>
+                    <note target="#t463" type="Rajna" resp="#LZM"> 463] Rajna: ne piga. He underlines the word and has a line under the "p"; would seem to have been uncertain himself of the reading. B: emplie. </note>
+                    <note target="#t476" type="biblio" resp="#LZM"> 476] Cf. Dante and the pilgrim's expressions of shame: e.g., Inf. 17.85-90.</note>
+                    <note target="#t478" type="ling" resp="#LZM"> 478] For "se tene y[n]tra ello" B: si tient traïe </note>
+                    <note target="#t484" type="Rajna" resp="#LZM"> 484] After the second "pensery," Rajna notes (sic). </note>
+                    <note target="#t485" type="Rajna" resp="#LZM"> 485] Rajna: <hi rend="italic">anyda parla</hi> </note>
+                    <note target="#t514" type="Rajna" resp="#LZM"> 514] Rajna initially omits this line, then inserts it in the left margin.</note>
+                    <note target="#t520" type="Rajna" resp="#LZM"> 520] Rajna has a number of marks above this line that appear to be abbreviations: "razŷ...tōrmenta."</note>
+                    <note target="#t525" type="Rajna" resp="#LZM"> 525] Rajna initially omits this line, then inserts it in the left margin. </note>
+                    <note target="#t544" type="Rajna" resp="#LZM"> 544] B 549: Ja estes sire, et tot a vos atent </note>
+                    <note target="#t569" type="codic" resp="#LZM"> 569] The second half of this line is problematic; the hemistich reads in B: "Oïl, mon bon segnor." </note>
+                    <note target="#t623" type="codic" resp="#LZM"> 623] <hi rend="italic">savye</hi>: where the ink is worn, it is frequently difficult to see the tail below the line; this could well read savie. However, under the light the tail can be seen. Here the tail is only visible with the ultraviolet light. </note>
+                    <note target="#t624" type="Rajna" resp="#LZM"> 624] Rajna reverses this line and the following, noting the correct order in the left margin. </note>
+                    <note target="#t652" type="Rajna" resp="#LZM"> 652] Rajna reads "guer" but the MS clearly reads <hi rend="italic">a sapiate</hi> just at the edge of the burned portion. </note>
+                    <note target="#t669" type="Rajna" resp="#LZM"> 669] Rajna reads "guer" but the MS clearly reads a sapiate just at the edge of the burned portion.</note>
+                    <note target="#t670" type="Rajna" resp="#LZM"> 670] Illumination follows (Rajna: "4 Fig (Carlo e Sandino)</note>
+                    <note target="#t680" type="Rajna" resp="#LZM"> 680] Rajna, marginal note: "e dei corr. Sng."; this last must be an abbreviation.</note>
+                    <note target="#t686" type="interp" resp="#JCV"> 686] "Si non, défiez le..." (Literally, "Cela si il se trouve [si il est] que non)" </note>
+                    <note target="#t714" type="Rajna" resp="#LZM"> 714] Rajna omits initially and then inserts in the left margin. </note>
+                    <note target="#t729" type="Rajna" resp="#LZM"> 729] Rajna reverses this line and the following, and indicates the correct order by numbering in the left margin.</note>
+                    <note target="#t750" type="Rajna" resp="#LZM">750] End of the first fascicle of Rajna's notebook. Second begins with next line, "Tor. 2." in upper corner, with "13" in red underneath. From here on, there are only numbers in red in the upper right corner of each opening, not sequential numbers as in the first fascicle.</note>
+                    <note target="#t758" type="codic" resp="#LZM"> 758] viva: these last four letters are distinctly different from the other strokes around them. They are smaller, and written above the bottom line of the rest of the verse. Added afterwards, with a different pen? Perhaps originally the end read "li à"? </note>
+                    <note target="#t762" type="codic" resp="#LZM"> 762] Before "aƣpir" there is a little stroke above the line. However, since there is no caret or other mark to indicate insertion, I do not include it in the text. Rajna: apreso; MS clear has "apresso." </note>
                     <!-- The preceding line needs a second label, Rajna -->
-                    <note target="#t786" type="codic" resp="#LZM"> Illumination follows this line. Huon is kneeling before a double-crowned figure on a what seems to be a tiled floor (alternating dark and light), looking at a book that figure is holding open. Other figures are visible to the right, and one stands on the side of Huon, a little to our left  looking at a book. Rajna leaves a bit of a blank but does not summarize the illumination as he does for later folios.</note>
-                    <note target="#t799" type="interp" resp="#LZM"> See B 804-805: "Sens, abstin<hi rend="italic">an</hi>ce, proece, tot ingual / In vos habite <hi rend="italic">et</hi> ont pris son hostal." The Turin version is missing a line, "Intelligence, abstinence, ability, all equally..." or something similar, before this line. </note>
-                    <note target="#t809" type="Rajna" resp="#LZM">Rajna reverses this and the next line, and numbers in the left margin to indicate the correct order. </note>
-                    <note target="#t813" type="codic" resp="#LZM">pi(ù): blot on page at this point: cannot read the letter underneath</note>
-                    <note target="#t820" type="Rajna" resp="#LZM">Scattolini notes that vv. 820-821 are reversed in order in comparison with B, creating difficulties in meaning.</note>
-                    <note target="#t823" type="Rajna" resp="#LZM"> Rajna notes "altro inch[iostro]/.d. /e mano"; the remaining MS text does not show notable differences, so he must be referring to the initial. The reference for the ".d." is unclear.</note>
-                    <note target="#t825" type="Rajna" resp="#LZM">Rajna initially omits this line, then inserts it in the left margin. </note>
-                    <note target="#t844" type="Rajna" resp="#LZM"> The capital is like a "G" in capital form in Rajna. </note>
-                    <note target="#t854" type="Rajna" resp="#LZM">Rajna has a large ink blot at the beginning of (his) 845-46 that blocks part of the reading, and at the end of his 846, has some difficulties: unclear if "fassemo" and then corrects to "demora" (the "o" has been changed and reinforced). </note>
-                    <note target="#t856" type="codic" resp="#LZM">MS: "t(r) a" crossed out after zuro </note>
-                    <note target="#t863" type="codic" resp="#LZM"> Before <hi rend="italic">che</hi>: crossed out word </note>
-                    <note target="#t864" type="Rajna" resp="#LZM"> <hi rend="italic">ell'era</hi> = "ello era"  </note>
-                    <note target="#t913" type="Rajna" resp="#LZM"> Rajna omits this line initially and inserts it later in the right margin. </note>
-                    <note target="#t942" type="codic" resp="#LZM"> Illumination follows this line. Much of the color is gone: to the far right a ruler under a baldicchino throne wearing a hat with two levels (the upper recessed in relation to the lower) sits while a male figure in parti-colored tights to the viewer's left with his back to the reader holds something in his arms; another figure further to the reader's left is partially visible. </note>
-                    <note target="#t964" type="Rajna" resp="#LZM"> Rajna: piuue? piude? piuie?  B: cu[n] estre puisent plu. The final strokes of Rajna's handwritten copy are not clear. </note>
-                    <note target="#t973" type="codic" resp="#LZM"> MS: fustue? </note>
-                    <note target="#t982" type="codic" resp="#LZM">Illumination follows. Rajna: "Figura. "La e più bella d'ussai fin qui trovata è doppia con una sola scena / a destra il palazzo con due torri, dall'usero si vede nel portony Ugo/ benedire le vivande della tavola a cui siede il pilgri_ a sinistra/ si vede in alto un diavolo che vola colla tavola, e sotto fuori dall'uscio/ Ugo e altri che guardon su con atti di meraviglia _ una donna sta / meraviglij o piuttosto atterita a una finestra _ c'è espressione </note>
-                    <note target="#t992" type="Rajna" resp="#LZM"> Rajna seems to have "lafu" crossed out before the final "lafu," whether correcting his own error or one of the MS is unclear. </note>
-                    <note target="#t1040" type="Rajna" resp="#LZM"> Rajna: <hi rend="italic">per</hi> has a dot above the "r" but this appears to be an imperfection of the paper. </note>
-                    <note target="#t1053" type="Rajna" resp="#LZM"> Here Graf transcribes 5 lines. Rajna: "lo @te" crossed out after "Quando." </note>
+                    <note target="#t786" type="codic" resp="#LZM"> 786] Illumination follows this line. Huon is kneeling before a double-crowned figure on a what seems to be a tiled floor (alternating dark and light), looking at a book that figure is holding open. Other figures are visible to the right, and one stands on the side of Huon, a little to our left  looking at a book. Rajna leaves a bit of a blank but does not summarize the illumination as he does for later folios.</note>
+                    <note target="#t799" type="interp" resp="#LZM"> 799] ee B 804-805: "Sens, abstin<hi rend="italic">an</hi>ce, proece, tot ingual / In vos habite <hi rend="italic">et</hi> ont pris son hostal." The Turin version is missing a line, "Intelligence, abstinence, ability, all equally..." or something similar, before this line. </note>
+                    <note target="#t809" type="Rajna" resp="#LZM"> 809] Rajna reverses this and the next line, and numbers in the left margin to indicate the correct order. </note>
+                    <note target="#t813" type="codic" resp="#LZM"> 818] pi(ù): blot on page at this point: cannot read the letter underneath</note>
+                    <note target="#t820" type="Rajna" resp="#LZM"> 820] Scattolini notes that vv. 820-821 are reversed in order in comparison with B, creating difficulties in meaning.</note>
+                    <note target="#t823" type="Rajna" resp="#LZM">  823] Rajna notes "altro inch[iostro]/.d. /e mano"; the remaining MS text does not show notable differences, so he must be referring to the initial. The reference for the ".d." is unclear.</note>
+                    <note target="#t825" type="Rajna" resp="#LZM"> 825] Rajna initially omits this line, then inserts it in the left margin. </note>
+                    <note target="#t844" type="Rajna" resp="#LZM"> 844] The capital is like a "G" in capital form in Rajna. </note>
+                    <note target="#t854" type="Rajna" resp="#LZM"> 854] Rajna has a large ink blot at the beginning of (his) 845-46 that blocks part of the reading, and at the end of his 846, has some difficulties: unclear if "fassemo" and then corrects to "demora" (the "o" has been changed and reinforced). </note>
+                    <note target="#t856" type="codic" resp="#LZM"> 856] MS: "t(r) a" crossed out after zuro </note>
+                    <note target="#t863" type="codic" resp="#LZM"> 863] Before <hi rend="italic">che</hi>: crossed out word </note>
+                    <note target="#t864" type="Rajna" resp="#LZM"> 864] <hi rend="italic">ell'era</hi> = "ello era"  </note>
+                    <note target="#t913" type="Rajna" resp="#LZM"> 913] Rajna omits this line initially and inserts it later in the right margin. </note>
+                    <note target="#t942" type="codic" resp="#LZM"> 942] Illumination follows this line. Much of the color is gone: to the far right a ruler under a baldicchino throne wearing a hat with two levels (the upper recessed in relation to the lower) sits while a male figure in parti-colored tights to the viewer's left with his back to the reader holds something in his arms; another figure further to the reader's left is partially visible. </note>
+                    <note target="#t964" type="Rajna" resp="#LZM"> 964] Rajna: piuue? piude? piuie?  B: cu[n] estre puisent plu. The final strokes of Rajna's handwritten copy are not clear. </note>
+                    <note target="#t973" type="codic" resp="#LZM"> 973] MS: fustue? </note>
+                    <note target="#t982" type="codic" resp="#LZM"> 982] Illumination follows. Rajna: "Figura. "La e più bella d'ussai fin qui trovata è doppia con una sola scena / a destra il palazzo con due torri, dall'usero si vede nel portony Ugo/ benedire le vivande della tavola a cui siede il pilgri_ a sinistra/ si vede in alto un diavolo che vola colla tavola, e sotto fuori dall'uscio/ Ugo e altri che guardon su con atti di meraviglia _ una donna sta / meraviglij o piuttosto atterita a una finestra _ c'è espressione </note>
+                    <note target="#t992" type="Rajna" resp="#LZM"> 992] Rajna seems to have "lafu" crossed out before the final "lafu," whether correcting his own error or one of the MS is unclear. </note>
+                    <note target="#t1040" type="Rajna" resp="#LZM"> 1040] Rajna: <hi rend="italic">per</hi> has a dot above the "r" but this appears to be an imperfection of the paper. </note>
+                    <note target="#t1053" type="Rajna" resp="#LZM"> 1053] Here Graf transcribes 5 lines. Rajna: "lo @te" crossed out after "Quando." </note>
                     <!-- The preceding line needs a second label, Interp -->
-                    <note target="#t1062" type="Rajna" resp="#LZM"> MS: grand; Rajna: grand; there is a final something below the line: "o"? B: <hi rend="italic">brand da galons</hi>, which makes much more sense.</note>
+                
+                <!-- Start adding line numbers here -->
+                    <note target="#t1062" type="Rajna" resp="#LZM"> 1062] MS: grand; Rajna: grand; there is a final something below the line: "o"? B: <hi rend="italic">brand da galons</hi>, which makes much more sense.</note>
                     <!-- The preceding line needs a second label, Interp -->
-                    <note target="#t1083" type="interp" resp="#JCV">  Nil temere uxori de servis crede querenti :/ Semper enim mulier quem coniux diligit odit./ <hi rend="italic">Catonis Disticha</hi>, I, 8 (Éd. E. Baehrens, <hi rend="italic">Poetae latini minores</hi>, III, Leipzig, Teubner, 1881). / « Ne crois pas à la légère une épouse qui se plaint de tes esclaves, car une femme déteste toujours celui que son mari apprécie ». </note>
-                    <note target="#t1084" type="codic" resp="#LZM">After "lasa", scratched out "le". </note>
-                    <note target="#t1086" type="Rajna" resp="#LZM"> Rajna: cħ (in the margin) ᵱocho (chy) non li feze; Rajna note: "scritt. orig/ tutto correz." B: <hi rend="italic">A pués qu'il non li a feit.</hi> My emendation for sense. </note>
-                    <note target="#t1088" type="Rajna" resp="#LZM"> Rajna: si, "s" written over "l." </note>
-                    <note target="#t1103" type="codic" resp="#LZM">MS: <hi rend="italic">aldare</hi>. The second letter is an odd combination, a long stroke with a small cross at the "t" level that curves slightly to the right, but not enough to be an "s"; there is not a separated dot so Rajna's "i" does not seem likely. </note>
-                    <note target="#t1124" type="codic" resp="#LZM"> Illumination follows: Ugon standing by box? bed? with black figure flat. (Rajna: "Ug s'arma al letto della moglie addormenty.") </note>
+                    <note target="#t1083" type="interp" resp="#JCV">  1083] Nil temere uxori de servis crede querenti :/ Semper enim mulier quem coniux diligit odit./ <hi rend="italic">Catonis Disticha</hi>, I, 8 (Éd. E. Baehrens, <hi rend="italic">Poetae latini minores</hi>, III, Leipzig, Teubner, 1881). / « Ne crois pas à la légère une épouse qui se plaint de tes esclaves, car une femme déteste toujours celui que son mari apprécie ». </note>
+                    <note target="#t1084" type="codic" resp="#LZM"> 1084] After "lasa", scratched out "le". </note>
+                    <note target="#t1086" type="Rajna" resp="#LZM"> 1086] Rajna: cħ (in the margin) ᵱocho (chy) non li feze; Rajna note: "scritt. orig/ tutto correz." B: <hi rend="italic">A pués qu'il non li a feit.</hi> My emendation for sense. </note>
+                    <note target="#t1088" type="Rajna" resp="#LZM"> 1088] Rajna: si, "s" written over "l." </note>
+                    <note target="#t1103" type="codic" resp="#LZM"> 1103] MS: <hi rend="italic">aldare</hi>. The second letter is an odd combination, a long stroke with a small cross at the "t" level that curves slightly to the right, but not enough to be an "s"; there is not a separated dot so Rajna's "i" does not seem likely. </note>
+                    <note target="#t1124" type="codic" resp="#LZM"> 1124] Illumination follows: Ugon standing by box? bed? with black figure flat. (Rajna: "Ug s'arma al letto della moglie addormenty.") </note>
                     <!-- The preceding line needs a second label, Rajna -->
-                    <note target="#t1135" type="codic" resp="#LZM"> <hi rend="italic">cobia</hi> = "commiato"; cf. B, congieç. </note>
-                    <note target="#t1152" type="Rajna" resp="#LZM">Rajna: choro. MS reading is clear, however, there is no "h". </note>
-                    <note target="#t1162" type="interp" resp="#LZM"> Graf transcribes five lines beginning here. </note>
-                    <note target="#t1169" type="interp" resp="#LZM"> Graf, p. 103.</note>
-                    <note target="#t1171" type="interp" resp="#LZM"> Graf: m[i]o, emendation. </note>
-                    <note target="#t1181" type="interp" resp="#LZM"> Graf omits ll. 1185-1187; Rajna includes them.</note>
+                    <note target="#t1135" type="codic" resp="#LZM"> 1135] <hi rend="italic">cobia</hi> = "commiato"; cf. B, congieç. </note>
+                    <note target="#t1152" type="Rajna" resp="#LZM"> 1152] Rajna: choro. MS reading is clear, however, there is no "h". </note>
+                    <note target="#t1162" type="interp" resp="#LZM"> 1162] Graf transcribes five lines beginning here. </note>
+                    <note target="#t1169" type="interp" resp="#LZM"> 1169] Graf, p. 103.</note>
+                    <note target="#t1171" type="interp" resp="#LZM"> 1171] Graf: m[i]o, emendation. </note>
+                    <note target="#t1181" type="interp" resp="#LZM"> 1181] Graf omits ll. 1185-1187; Rajna includes them.</note>
                     <!-- The preceding line needs a second label, Rajna -->
-                    <note target="#t1185" type="Rajna" resp="#LZM"> Rajna omits this line initially, then inserts in the right margin.</note>
-                    <note target="#t1236" type="Rajna" resp="#LZM"> Rajna note, "corr. da smary; st. / mano" = stesso mano (same hand).</note>
-                    <note target="#t1242" type="Rajna" resp="#LZM"> Rajna note, "corr./ da schiary/ st. mano" = stesso mano (same hand). </note>
-                    <note target="#t1245" type="Rajna" resp="#LZM"> Rajna note, "corr. da desparty/ st. mano" = stesso mano (same hand). </note>
-                    <note target="#t1249" type="Rajna" resp="#LZM">Rajna note, "corr. da monte / st. m." The structure here is not totally clear: since the third person plural is rare, should this be "montò-ne" for something like "mounted on them," or is it indeed third person plural?</note>
+                    <note target="#t1185" type="Rajna" resp="#LZM"> 1185] Rajna omits this line initially, then inserts in the right margin.</note>
+                    <note target="#t1236" type="Rajna" resp="#LZM"> 1236] Rajna note, "corr. da smary; st. / mano" = stesso mano (same hand).</note>
+                    <note target="#t1242" type="Rajna" resp="#LZM"> 1242] Rajna note, "corr./ da schiary/ st. mano" = stesso mano (same hand). </note>
+                    <note target="#t1245" type="Rajna" resp="#LZM"> 1245] Rajna note, "corr. da desparty/ st. mano" = stesso mano (same hand). </note>
+                    <note target="#t1249" type="Rajna" resp="#LZM"> 1249] Rajna note, "corr. da monte / st. m." The structure here is not totally clear: since the third person plural is rare, should this be "montò-ne" for something like "mounted on them," or is it indeed third person plural?</note>
                     <!-- The preceding line needs a second label, interp -->
-                    <note target="#t1264" type="codic" resp="#LZM"> Illumination follows: an encircled area (paddock?) and a house with what seems to be a straw roof; a stands man in the entry and the head and neck of the horse in front of him (to the reader's right) with an armed man riding it, just visible before the burned section. Rajna: "U arriva alla casa del borghese". </note>
+                    <note target="#t1264" type="codic" resp="#LZM"> 1264] Illumination follows: an encircled area (paddock?) and a house with what seems to be a straw roof; a stands man in the entry and the head and neck of the horse in front of him (to the reader's right) with an armed man riding it, just visible before the burned section. Rajna: "U arriva alla casa del borghese". </note>
                     <!-- The preceding line needs a second label, Rajna -->
-                    <note target="#t1267" type="Rajna" resp="#LZM"> Rajna: giesie. </note>
-                    <note target="#t1272" type="Rajna" resp="#LZM"> Rajna initially omits this line and adds it afterward in the left margin. </note>
-                    <note target="#t1274" type="interp" resp="#LZM"> Apostolo: the Pope. Cf. B and other Franco-Italian Apostoille.  </note>
-                    <note target="#t1276" type="codic" resp="#LZM"> The rest of the folio is blank. There is part of the catchword at the bottom of the page, "denan". Rajna also notes the space: "nuovo quad: iniz più grande tracij?/ in lapis" </note>
-                    <note target="#t1283" type="Rajna" resp="#LZM"> Rajna seems to have been having difficulties with his pen / ink here; he has a large "D" here at the beginning of this line; or perhaps he is seeking to show the larger "D" as mentioned in his note. </note>
-                    <note target="#t1286" type="Rajna" resp="#LZM"> Rajna: ī ? There is no dot on the the letter, so I have transcribed as an "e" though there is no circle around either. Illumination follows: Huon on his knees before the Pope in a very elaborate room with a coffered ceiling. Rajna, "Ug (piviro) ai piedi di un papa gig. Le iniz. sequit a ess transcritte in qto quaderno e manteng spesso la st. grandezza /le segnorò maiuscole." </note>
+                    <note target="#t1267" type="Rajna" resp="#LZM"> 1267] Rajna: giesie. </note>
+                    <note target="#t1272" type="Rajna" resp="#LZM"> 1272] Rajna initially omits this line and adds it afterward in the left margin. </note>
+                    <note target="#t1274" type="interp" resp="#LZM"> 1274] Apostolo: the Pope. Cf. B and other Franco-Italian Apostoille.  </note>
+                    <note target="#t1276" type="codic" resp="#LZM"> 1276] The rest of the folio is blank. There is part of the catchword at the bottom of the page, "denan". Rajna also notes the space: "nuovo quad: iniz più grande tracij?/ in lapis" </note>
+                    <note target="#t1283" type="Rajna" resp="#LZM"> 1283] Rajna seems to have been having difficulties with his pen / ink here; he has a large "D" here at the beginning of this line; or perhaps he is seeking to show the larger "D" as mentioned in his note. </note>
+                    <note target="#t1286" type="Rajna" resp="#LZM"> 1286] Rajna: ī ? There is no dot on the the letter, so I have transcribed as an "e" though there is no circle around either. Illumination follows: Huon on his knees before the Pope in a very elaborate room with a coffered ceiling. Rajna, "Ug (piviro) ai piedi di un papa gig. Le iniz. sequit a ess transcritte in qto quaderno e manteng spesso la st. grandezza /le segnorò maiuscole." </note>
                     <!-- The preceding line needs a second label, interp -->
-                    <note target="#t1289" type="interp" resp="#LZM"> Graf transcribes 11 lines from here. Note that here the new folio in B (F 10) coincides with Turin's new folio. </note>
-                    <note target="#t1291" type="Rajna" resp="#LZM"> Rajna notes, "copto / da una / carta / infra..y". Nothing is now visible before line 1297. </note>
-                    <note target="#t1296" type="interp" resp="#LZM"> B: nue home si bien non. </note>
-                    <note target="#t1300" type="interp" resp="#LZM"> The trascriber had not understood here: it's an impossible thing, not not impossible! </note>
-                    <note target="#t1308" type="interp" resp="#LZM">MS: dezo nona ho; Rajna: dezo nona homo; B: qu'il non se feit adon, "that this not be done now." </note>
-                    <note target="#t1310" type="Rajna" resp="#LZM"> Rajna: homo with the "h" crossed through. </note>
-                    <note target="#t1312" type="Rajna" resp="#LZM"> Rajna initially omits this line and inserts later in the left margin.  </note>
-                    <note target="#t1314" type="interp" resp="#LZM"> The end of Rajna's line in undeciphrable here; however, since "sabione" appears four times and there are no other expressions beginning with "sab" this seems most logical.</note>
-                    <note target="#t1341" type="codic" resp="#LZM"> MS: space between "crosse" and "che": word scraped out? Nothing visible. </note>
-                    <note target="#t1343" type="Rajna" resp="#LZM"> Rajna: corr. da sigre? </note>
+                    <note target="#t1289" type="interp" resp="#LZM"> 1289] Graf transcribes 11 lines from here. Note that here the new folio in B (F 10) coincides with Turin's new folio. </note>
+                    <note target="#t1291" type="Rajna" resp="#LZM"> 1291] Rajna notes, "copto / da una / carta / infra..y". Nothing is now visible before line 1297. </note>
+                    <note target="#t1296" type="interp" resp="#LZM"> 1296] B: nue home si bien non. </note>
+                    <note target="#t1300" type="interp" resp="#LZM"> 1300] The trascriber had not understood here: it's an impossible thing, not not impossible! </note>
+                    <note target="#t1308" type="interp" resp="#LZM"> 1308] MS: dezo nona ho; Rajna: dezo nona homo; B: qu'il non se feit adon, "that this not be done now." </note>
+                    <note target="#t1310" type="Rajna" resp="#LZM"> 1310] Rajna: homo with the "h" crossed through. </note>
+                    <note target="#t1312" type="Rajna" resp="#LZM"> 1312] Rajna initially omits this line and inserts later in the left margin.  </note>
+                    <note target="#t1314" type="interp" resp="#LZM"> 1314] The end of Rajna's line in undeciphrable here; however, since "sabione" appears four times and there are no other expressions beginning with "sab" this seems most logical.</note>
+                    <note target="#t1341" type="codic" resp="#LZM"> 1341] MS: space between "crosse" and "che": word scraped out? Nothing visible. </note>
+                    <note target="#t1343" type="Rajna" resp="#LZM"> 1343] Rajna: corr. da sigre? </note>
                     <note target="#t1345" type="Rajna" resp="#LZM"> 1345] Rajna initially omits and then inserts in left margin. </note>
-                    <note target="#t4195" type="codic" resp="#LZM"> 4195] MS: <seg>nī</seg></note>
+                <!-- skips here -->
+                    <note target="#t4161" type="codic" resp="#LZM"> 4161] MS: quelo is followed by a blot before chel</note>
+                    <note target="#t4163" type="edit" resp="#LZM"> 4163] B: <q rend="bold" xml:lang="la">Fratres i[n] unu[m]</q> avoir lor habitoire: the Latin quote present in the Berlin MS is not present here</note>
+                    <note target="#t4195" type="codic" resp="#LZM"> 4195] MS: nī</note>
                     <note target="#t4207" type="codic" resp="#LZM"> 4197 MS: <hi rend="italic">dne et ȳ</hi> with a line drawn through "et y".</note>               
                     <note target="#t4213" type="Rajna" resp="#LZM"> 4213] Rajna: the final word is unclear; the two vowels are clearly <hi rend="italic">o</hi>, but the third consonant in particular is difficult to discern, perhaps -r-? Since the equivalent B line ends in <hi rend="italic">sono</hi>, I have extrapolated here.</note>
                     <note target="#t4218" type="codic" resp="#LZM"> 4218] For initial "M", see v. Rajna 4145, "Memento", here v. 4529. </note>
@@ -294,6 +299,45 @@
                 <note target="#t4608" type="trans" resp="#LZM"> 4608] Meregazzi: davanti</note>
                 <note target="#t4613" type="edit" resp="#LZM"> 4613] End of the first section of Meregazzi’s transcription, p. 31 (her line 4494).</note>
                 <note target="#t4617" type="Rajna" resp="#LZM"> 4617] Rajna: lunta = "ontano"</note>
+                <note target="#t4618" type="refer" resp="#LZM">4618] B 4669: Pues qe Karllon oit por spion eu [As soon as Charles had heard from his spy]; there is clearly a verb missing in this line in T. There is also a mix from the following line ending; here is a translation of it at the end of this line. Stengel’s edition “Eine weitere Textstelle aus der franco-venezianischen Chanson de geste von Huon d’Auvergne,” begins here.</note>
+                <note target="#t4620" type="refer" resp="#LZM">4620] Stengel 4671. The further line numbering from Stengel will be omitted from here on.</note>
+                <note target="#t4622" type="Rajna" resp="#LZM">4622] Rajna: elo el einsto; marginal note, l[ire]. <hi rend="italic">insto</hi></note>
+                <note target="#t4633" type="codic" resp="#LZM">4633] Does non = "noi ne"—lei non sarà pronta [for it]? </note>
+                <note target="#t4634" type="refer" resp="#LZM">4634] There is no sign of this being a new laisse in Rajna, and the left margin is gone from the MS. The division is made based on B.</note>
+                <note target="t#4640" type="trans" resp="#LZM">4640] Stengel: ch’a el zifo</note>
+                <note target="t#5653" type="trans" resp="#LZM">5653] Stengel: El befon </note>
+                <note target="#t4661" type="Rajna" resp="#LZM">4661] As Rajna notes, there are lines around "lo re": |lore|; Rajna also has a dotted link between mete and mento. </note>
+                <note target="#t4667" type="Rajna" resp="#LZM">4667] Rajna, Stengel: retenimento </note>
+                <note target="t#4668" type="trans" resp="#LZM">4668] Stengel: ela wa fortefichando </note>
+                <note target="t#4669" type="interp" resp="#LZM">4669] On visible abstractions, cf. Pulci; Morgante, “io vedevo la fame / in aria come un nugol d' acqua pregno” (Canto 18.196, 1-2).</note>
+                <note target="#t4670" type="codic" resp="#LZM">4670] MS: li fa li fa oltrazo</note>
+                <note target="#t4672" type="Rajna" resp="#LZM">4672] Rajna: Carlone with a note "agg."  [added] in the right margin; Stengel: Carlon</note>
+                <note target="t#4673" type="trans" resp="#LZM">4673] Stengel: yntrono</note>
+                <note target="t#4674" type="codic" resp="#LZM">4674] MS, Rajna: tato; Stengel: ta[n]to </note>
+                <note target="#t4676" type="Rajna" resp="#LZM">4676] This line and the following are reversed by Rajna, who then uses numbering in the left margin to clarify the order according to his usual system. </note>
+                <note target="t#4679" type="codic" resp="#LZM">4679] MS: the initial p has a slash through the descender; it looks like a p with a c nested between the descender and the circle, with a slash below descending to the right. </note>
+                <note target="t#4683" type="codic" resp="#LZM">4683] MS: after era, scratchout. A name seems to be missing here: Morando would be logical, since Rivera was his land and he is another of Ugon’s men. Stengel: Che y revera era […] </note>
+                <note target="#t4686" type="Rajna" resp="#LZM">Rajna, note: "lett. corr. o / a o e; par / abbia da legg. / a"</note>
+                <note target="t#4691" type="codic" resp="#LZM">4691] MS, Rajna: cete with <hi rend="italic">r</hi> above the line, inserted. </note>
+                <note target="t#4692" type="trans" resp="#LZM">4692] Stengel: dona, d’amore </note>
+                <note target="t#4696" type="codic" resp="#LZM">4696] Catchword: retornat<hi rend="italic">o</hi>, that does not correspond to the following folio. Further proof that this section of the story is problematic; cf. B’s inserted signature. </note>
+                <note target="t#4708" type="trans" resp="#LZM">4708] Rajna miscopies the second hemistich from the following line and then copies the second hemistich of this line in the following, drawing lines to indicate their correct collocation. </note>
+                <note target="t#4715" type="Rajna" resp="#LZM">4715] Rajna notes: in the left margin, "(Err.)"; in the right margin, "g. o forse correz. dello/ st. mano, poi/ pero, ricalcata" ("diroy") </note>
+                <note target="#t4719" type="trans" resp="#LZM">4719] End of fascicule 6, Rajna's transcription of Torino manuscript.</note>
+                <note target="#t4720" type="trans" resp="#LZM">4720] Beginning of fascicule 7, Rajna's transcription of Torino manuscript; top right hand corner, "Tor. 7"; below in red ink, "73". Top left: "(Nulla omesso)" Our emendation based upon B 4719: “Moi proioit che sa dame por moy fust mantenus” [begged me to care for his lady].</note>
+                <note target="t#4721" type="trans" resp="#LZM">4721] B 4720: N’en voil estre blasmés por hon chi soit viscus [I don’t wish to be blamed concerning this by any living man].</note>
+                <note target="t#4722" type="Rajna" resp="#LZM">4722] d’avere pur… The reading of the second word in Rajna is difficult. The final -r is clear in the MS. B 4721: D’envoier por la dame quant il v’oit plaus [By sending for the lady as soon as it pleases you]. </note>
+                <note target="t#4725" type="codic" resp="#LZM">4725] an(o): the final letter is very faded and difficult to distinguish; Rajna: "l'o fu cancelly/ raschiat/ doveva probabilm/ cancellsi/ anche / l'a"</note>
+                <note target="t#4726" type="biblio" resp="#LZM">4726] On this line and its various versions in Huon d’Auvergne manuscripts, see S. P. McCormick, “‘Como fa la foja’: Versions of Female Authority in the Huon d’Auvergne Manuscript Tradition.” <title rend="Italic">Italian Studies</title> 70.1 (2015): 33-52.</note>
+                <note target="t#4742" type="codic" resp="#LZM">4742] Only two forms with –np- appear, all twenty others are with –mp-. </note>
+                <note target="t#4745" type="interp" resp="#LZM">4745] MS: Servire debe; there is a grammatical problem here. B 4745: Bem doit servir Tholomé chascuns, grant et menor [Everyone great and small must serve [such a] Ptolemy well]. There too is a problem, with “Tholomé”; see note in that edition for a possible explanation. </note>
+                <note target="t#4749" type="Rajna" resp="#LZM"> 4749] Rajna: Co[m]biato</note>
+                <note target="t#4751" type="codic" resp="#LZM">4751] MS: arcevecovo with “s” inserted; [con]seio with what appears to be “io” written above; Rajna: malvase </note>
+                <note target="t#4752" type="refer" resp="#LZM">4752] Note that the next section differs from the B version; the equivalent of laisse 181 picks up in 4754 below, and more exactly divisions will pick up again at laisse 190. </note>
+                <note target="t#4753" type="Rajna" resp="#LZM">4753] Rajna: da che quela dona tropo la sono la seno asentita; note in margin: “corr. da chi?” [corrected by whom?]</note>
+                <note target="t#4754" type="refer" resp="#LZM">4754] This is approximately B 4773 ff. </note>
+                <note target="t#4755" type="Rajna" resp="#LZM">4755] Rajna notes "Sopra di scrittura relativam[ente]/ recente con piu. co". The “co” is indeed above the MS yrona.  An illumination follows. Rajna describes: "Il re dà la corona, [...] corona / e non so che altri anrnesi ai messi già a cavallo." Four figures on horseback, including one from the rear. </note>
+                
                 
                 <note target="#t5763" type="trans" resp="#LZM"> 5763] The second section of Meregazzi, "Prete Gianni," begins here, her p. 31.</note>
                 <note target="#t5767" type="Rajna" resp="#LZM"> 5767] Rajna: ɔpagnia; Meregazzi: ... dize, "e la ...</note>
@@ -338,16 +382,87 @@
                 <note target="#t5862" type="codic" resp="#LZM"> 5862] MS: vene for "tene"; Rajna: vene</note>
                 <note target="#t5863" type="trans" resp="#LZM"> 5863] Meregazzi, p. 39</note>
                 <note target="#t5871" type="Rajna" resp="#LZM"> 5871] Rajna: travaiante; MS: travaliante</note>
+                <note target="#t5872" type="trans" resp="#LZM"> 5872] Meregazzi Laisse XV</note>
+                <note target="#t5873" type="Rajna" resp="#LZM"> 5873] Rajna: <hi rend="italic">possa dentro</hi>; the initial <hi rend="italic">de</hi> is on a white spot of the MS, but does not appear to be crossed out.</note>
+                <note target="#t5884" type="codic" resp="#LZM"> 5884] <hi rend="italic">si</hi> above the line, with an insertion mark below.</note>
+                <note target="#t5892" type="trans" resp="#LZM"> 5892] Meregazzi, p. 41.</note>
+                <note target="#t5896" type="Rajna" resp="#LZM"> 5896] Rajna: <hi rend="italic">francho</hi> for "stracho."</note>
+                <note target="#t5898" type="trans" resp="#LZM"> 5898] Meregazzi Laisse XVI</note>
+                <note target="#t5901" type="Rajna" resp="#LZM"> 5901] Rajna initially copies the second half of the next lineafter "como" here, the crosses it out and writes the correct ending above the cross-out. There is a white spot in the middle of the line (possibly water damage?).</note>
+                <note target="#t5902" type="Rajna" resp="#LZM"> 5902] Rajna initially omits this line and then inserts in left margin.</note>
+                <note target="#t5908" type="ling" resp="#LZM"> 5908] Cf. B 6215 Tornons a l’ovre ore material [Let’s turn back now to [our] subject]. Rohlfs, Morfologia, para. 530,  speaks of second person plural literary forms in -n instead of -m, but in Tuscany. </note>
+                <note target="t#5920" type="trans" resp="#LZM"> 5920] Meregazzi, p. 43</note>
+                <note target="t#5923" type="trans" resp="#LZM"> 5923] Meregazzi Laisse XVII</note>
+                <note target="t#5927" type="codic" resp="#LZM"> 5927] <hi rend="italic">mia</hi>: <hi rend="italic">i</hi> written above the line (Rajna)</note>
+                <note target="t#5928" type="trans" resp="#LZM"> 5928] Rajna, Meregazzi: qu’el riavere folità; Cf. B 6235: Bien say de voir qu’i requier folité [I know for sure that what I seek is folly]; <hi rend="italic">q</hi> is written above the line with no descender below the line.</note>
+                <note target="t#5930" type="codic" resp="#LZM"> 5930] MS, Rajna: che fosse p[er] my fosse tristo. Here second "fosse" omitted.</note>
+                <note target="t#5934" type="codic" resp="#LZM"> 5934] MS, Rajna: y questa</note>
+                <note target="t#5935" type="Rajna" resp="#LZM"> 5935] Rajna: "eio" seems to have the first vowel crossed out.</note>
+                <note target="t#5937" type="codic" resp="#LZM"> 5937] MS: nuy for "vuy"?</note>
+                <note target="t#5942" type="codic" resp="#LZM"> 5942] Section of MS here removed.</note>
+                <note target="t#5945" type="trans" resp="#LZM">5945] Meregazzi XVIII, p. 45. Rajna: tenebrossa </note>
+                <note target="t#5949" type="Rajna" resp="#LZM"> 5949] Rajna: tenebre; B 6157 Qar le air troble et vient grant tenebror [For the air was shaken and great darkness came]; unusually, both have related words at line-end in the same laisse. </note>
+                <note target="t#5953" type="lex" resp="#LZM">"zelura": B = jelor = gelo [cold]</note>
+                <note target="t#5960" type="Rajna" resp="#LZM">MS (Rajna):  et gran pianto; B 6268: E proie luy a larmes et a plor [And prayed to Him in tears and in lamentation] </note>
+                <note target="t#5961" type="edit" resp="#LZM">Underlined text is here for the Latin (and almost Latin) quotes.</note>
+                <note target="t#5966" type="trans" resp="#LZM">5966] Meregazzi: noble flame </note>
+                <note target="t#5971" type="interp" resp="#LZM">5971] This section is confused in comparison to B 6279-6280: Fuir voloit, mes li franch pugnaor / L’oit refrené doucemant por amor [He wanted to flee, but the noble warrior / Held him back gently out of affection.] </note>
+                <note target="t#5972" type="trans" resp="#LZM">5972] Meregazzi, p. 47.</note>
+                <note target="t#5973" type="codic" resp="#LZM">5973] MS: y[n] lo .Re.; meaning of “y[n]” unclear here, emended out. Cf. B 6282: Si Diex non panse, la dovine douçor [If God, the Devine Sweetness, does not think [to help] </note>
+                <note target="t#5975" type="codic" resp="#LZM">5975] Meregazzi Laisse XIX. Note that T has the indent in the following line, though this is clearly the beginning of a laisse by sense, and B begins laisse 243 with this line (there 6284).</note>
+                <note target="t#5977" type="lex" resp="#LZM">5977] el = et + el</note>
+                <note target="t#5978" type="codic" resp="#LZM">5978] The center of these lines (from 5978 to 5982) is damaged in the MS.</note>
+                <note target="t#5980" type="Rajna" resp="#LZM">5980] Rajna: dio como eio sono... </note>
+                <note target="t#5981" type="codic" resp="#LZM">5981] MS: avochato: the final <hi rend="italic">-a-</hi> has an ink blot over it.</note>
+                <note target="t#5983" type="Rajna" resp="#LZM">5983] Rajna: me ū preceded by what looks like a scratch out of the same; marginal note, "par n non M, non c'è ( sugon? ) molto e [con]trastare </note>
+                <note target="t#5991" type="codic" resp="#LZM">5991] i written above the line between letters (correction/addition) both in MS and Rajna.  </note>
+                <note target="t#5993" type="Rajna" resp="#LZM">5993] Rajna: missing eio </note>
+                <note target="t#5995" type="interp" resp="#LZM"> 5995] Reference to Aspremont.</note>
+                <note target="t#5996" type="Rajna" resp="#LZM">5996] Rajna: Gustizia? Capital is difficult to interpret. </note>
+                <note target="t#6001" type="trans" resp="#LZM">6001] Meregazzi, p. 49 </note>
+                <note target="t#6003" type="trans" resp="#LZM">6003] Laisse XX6003] Meregazzi Laisse XX </note>
+                <note target="t#6006" type="Rajna" resp="#LZM">6006] Rajna: chazo promesso</note>
+                <note target="t#6009" type="codic" resp="#LZM">6009] MS, Rajna: pene epene; Rajna writes (sic) after in his transcription.</note>
+                <note target="t#6019" type="trans" resp="#LZM">6019] Meregazzi Laisse XXI</note>
+                <note target="t#6022" type="Rajna" resp="#LZM">6022] Rajna: initial <hi rend="italic">m</hi> in the left margin, note: “agg. st.e.” [aggiunto] </note>
+                <note target="t#6024" type="lex" resp="#LZM">6024] MSI leardo, “che è di color grigio chiaro (un cavallo)” (GDLI vol. 8, p. 872, col. 1) </note>
+                <note target="t#6026" type="Rajna" resp="#LZM">6026] Rajna omits this line, then re-inserts it in the right margin, with an indicator at the left side between the lines before and after it.</note>
+                <note target="t#6027" type="trans" resp="#LZM">6027] Meregazzi, p. 51</note>
+                <note target="t#6030" type="trans" resp="#LZM">6030] Meregazzi, [da] quelo che è..., emendation</note>
+                <note target="t#6031" type="trans" resp="#LZM">6031] Meregazzi Laisse XXII</note>
+                <note target="t#6034" type="codic" resp="#LZM">6034] MS: fa<hi rend="italic">lso</hi>; cf. B 6348: Criant aloit por ses faons norir [Roaring as it went seeking food for its cubs]</note>
+                <note target="t#6044" type="Rajna" resp="#LZM">6044] Rajna: fer followed by downstroke of “spa” from above; there is no connection with a following letter an does not appear to be a vowel after it (cf. end of line 6042, <hi rend="italic">scrimire</hi>, above).</note>
+                <note target="t#6046" type="trans" resp="#LZM">6046] Meregazzi: O[r]; Rajna, initial letter of line illegible, and B does not have an equivalent to the first hemistich (for the second hemistich, cf. B 6355: Le feri Uge, qui ert mestre dou scremir [Huon, a master of swordplay, smote it]</note>
+                <note target="t#6054" type="trans" resp="#LZM">6054] Meregazzi Laisse XXIII, p. 53</note>
+                <note target="t#6059" type="codic" resp="#LZM">6059] In the center of 7 lines is a distortion that makes reading most of the letters there difficult, and similarly on the facing page; it would appear to be from liquid removing the ink and distorting the page.</note>
+                <note target="t#6064" type="Rajna" resp="#LZM">6064] This line and the following are reversed in Rajna's transcription; he corrects it by writing "2" then "1" in the left margin by the lines.</note>
+                <note target="t#6076" type="Rajna" resp="#LZM">6076]  = 91 (90) Rajna, 94 right</note>
+                <note target="t#6079" type="Rajna" resp="#LZM">6079] Rajna, note: "o in e"  for <hi rend="italic">soave</hi> (letters underlined both in the note and his transcription)</note>
+                <note target="t#6080" type="codic" resp="#LZM">6080] MS: ave; B 6389: <hi rend="bold">Anunciabit gloriam</hi> de ton avent [Will proclaim the glory of your coming]</note>
+                <note target="t#6083" type="Rajna" resp="#LZM">6083] Rajna: li bera. Correct to "li bero" = li baron; cf. B: li bier (l. 6392). </note>
+                <note target="t#6084" type="trans" resp="#LZM">6084] Who? corr. l=afare in l=aferante </note>
+                <note target="t#6087" type="codic" resp="#LZM">6087] MS: guarda l dedre; there is no caret mark for the insert above the line, but the page is slighted folded at this point. B: Sova[n]t soy garde e darer et davent, so the mark could have originally been the tironian note for "et"?</note>
+                <note target="t#6088" type="trans" resp="#LZM">6088] Corr. pur presso in surpresso, Stengel. It's more likely porpreso, "seized." </note>
+                <note target="t#6089" type="trans" resp="#LZM">6089] Stengel Keuschheitsprobe, (p 687), Stengel CCLIV</note>
+                <note target="t#6092" type="codic" resp="#LZM">6092] Again here, for 6 lines, the center is problematic, it would seem to have been a liquid spread here between the two pages. </note>
+                <note target="t#6097" type="trans" resp="#LZM">6097] Stengel: E luy; Rajna: apresio</note>
+                <note target="t#6098" type="codic" resp="#LZM">6098] MS: sinave; Stengel: se'n avè </note>
+                <note target="t#6099" type="trans" resp="#LZM">6099] Zingarelli, rist. 2018 della 12a ed.: quando che = veneto (p. 1843) = quando </note>
+                <note target="t#6100" type="trans" resp="#LZM">6100] Stengel: semona</note>
+                <note target="t#6101" type="trans" resp="#LZM">6101] Stengel: Un miracolo (l) ynn ora</note>
+                <note target="t#6106" type="trans" resp="#LZM">6106]  Stengel: semona</note>
+                <note target="t#6107" type="Rajna" resp="#LZM">6107] Rajna: la via felona. The g above in lenguazo runs into the first letter, so it is unclear whether to read la or sa. I follow Rajna.</note>
                 
+               <!-- start here --> 
                 <note target="#t7462" type="interp" resp="#LZM"> 57462] The biblical account of Noah and his sons was greatly expanded during the middle ages. For a history of the developments, see Benjamin Braude, "The Sons of Noah
                     and the Construction of Ethnic and Geographical Identities in the Medieval and Early Modern Periods," <hi rend="italic">The William and Mary Quarterly,</hi> 3rd series, 54.1 (January 1997), pp. 103-142.</note>
                 
-                <note target="#t8321" type="Rajna" resp="#LZM">8321] Rajna: che cosa? (asay ne vite) hard to read! </note>
-                <note target="#t8323" type="codic" resp="#LZM">8323] MS: morbede: written in smaller letters and "d" with a light slash in the ascender; "b" has "p" (?) written above.</note>
-                <note target="#t8328" type="Rajna" resp="#LZM">8328] Rajna: r in l (molto)</note>
+                <note target="#t8321" type="Rajna" resp="#LZM">8321] Rajna: che cosa? (asay ne vite); difficult to read </note>
+                <note target="#t8323" type="codic" resp="#LZM">8323] MS: morbade: written in smaller letters and "d" with a light slash in the ascender; "b" has "p" (?) written above.</note>
+                <note target="#t8328" type="Rajna" resp="#LZM">8328] Rajna: <hi rend="italic">r</hi> in <hi rend="italic">l</hi> (molto)</note>
                 <note target="#t8329" type="Rajna" resp="#LZM">8329] This line and the following are reversed in Rajna's transcription, corrected by his writing "2" and then "1" in the margin. “molto” was changed from “morto”.</note>
                 <note target="#t8335" type="codic" resp="#LZM">8335] The descender in  "p" of "parte" does have a line across it, but is not needed here as mark of abbreviation.</note>
-                <note target="#t8350" type="codic" resp="#LZM">8350] Illumination follows; Rajna labels it "Ug e le formiche aurifere"; the entire center of the page is predominated by ants marching from left to right up a hill; the front half of Ugon’s horse is visible at the bottom center.  </note>
+                <note target="#t8350" type="codic" resp="#LZM"> 8350] Illumination follows; Rajna labels it "Ug e le formiche aurifere"; the entire center of the page is predominated by ants marching from left to right up a hill; the front half of Ugon’s horse is visible at the bottom center.</note>
                 <note target="#t8361" type="Rajna" resp="#LZM"> 8361] Rajna: cosse for "coste"</note>
                 <note target="#t8365" type="Rajna" resp="#LZM"> 8365] Square brackets in italicized section from Rajna. Note: "in marg. / mutily col /margin." Line inserted in the right margin over two lines, so end of each not visible, as he says, in the margin, mutilated with the margin.</note>
                 <note target="#t8367" type="codic" resp="#LZM"> 8367] Once again the line that has been inserted (above, 8365) is almost identical to an already present line, this one.</note>
