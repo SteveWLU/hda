@@ -114,7 +114,7 @@
                     <note target="#t476" type="biblio" resp="#LZM"> 476] Cf. Dante and the pilgrim's expressions of shame: e.g., Inf. 17.85-90.</note>
                     <note target="#t478" type="ling" resp="#LZM"> 478] For "se tene y[n]tra ello" B: si tient traïe </note>
                     <note target="#t484" type="Rajna" resp="#LZM"> 484] After the second "pensery," Rajna notes (sic). </note>
-                    <note target="#t485" type="Rajna" resp="#LZM"> 485] Rajna: <hi rend="italic">anyda parla</hi> </note>
+                    <note target="#t485" type="Rajna" resp="#LZM"> 485] Rajna: <hi rend="italic">anyda parla</hi></note>
                     <note target="#t514" type="Rajna" resp="#LZM"> 514] Rajna initially omits this line, then inserts it in the left margin.</note>
                     <note target="#t520" type="Rajna" resp="#LZM"> 520] Rajna has a number of marks above this line that appear to be abbreviations: "razŷ...tōrmenta."</note>
                     <note target="#t525" type="Rajna" resp="#LZM"> 525] Rajna initially omits this line, then inserts it in the left margin. </note>
@@ -1147,7 +1147,20 @@
                 <note target="#t6944" type="Rajna" resp="#LZM">6944] Rajna: tuty with the final "y" changed to "i"</note>
                 <note target="#t6949" type="Rajna" resp="#LZM">6949] Rajna: omo</note>
                 <note target="#t6950" type="Rajna" resp="#LZM">6950] Rajna: g. te ic.</note>
-                                
+                <note target="#t6953" type="codic" resp="#LZM">6953] There is a vertical thick black line over the letter between "r" and "o" at the beginning of this line in the MS.</note>
+                <note target="#t6954" type="codic" resp="#LZM">6954] There is a space between "gloria" and "mazore": perhaps a word was scratched out? </note>
+                <note target="#t6971" type="interp" resp="#LZM">6971] Or: molto 'l ama Christo. It's unclear whether Huon loves Christ or Christ loves Huon. I have punctuated for the second, following B 7289: Mes Diex le defandi, car mout l’ama Yh<hi rend="italic">es</hi>us.</note>
+                <note target="#t6988" type="Rajna" resp="#LZM">6988] Rajna: "uomini e pesci" to describe the illumination at this point that takes up the rest of the folio. This is unique, as most pages with illuminations have written lines also below.</note>
+                <note target="#t6991" type="codic" resp="#LZM">6991] MS: palare, odd abbreviation for "pa[r]lare"; normally a line over the preceding vowel is used.6991] MS: palare,with a stroke over the lower stroke of the "p", an odd abbreviation for "pa[r]lare"; normally a line over the preceding vowel is used.</note>
+                <note target="#t6999" type="codic" resp="#LZM">6999] There is a line missing here in comparison to B 7317: Mes si en te<hi rend="italic">r</hi>re feisent un pou demoramant [But had they lingered a little on land], that would give the following line more sense.</note>
+                <note target="#t7000" type="Rajna" resp="#LZM">7000] End of Rajna fasc. 9.</note>
+                <note target="#t7001" type="Rajna" resp="#LZM">7001] Beginning of Rajna fasc. 10; upper right-hand corner, "Tor. 10"; below in pinkish-red ink, "109."</note>
+                <note target="#t7002" type="codic" resp="#LZM">7002] MS: above "la sono" something written in?</note>
+                <note target="#t7008" type="Rajna" resp="#LZM">7008] Rajna: sull'i una lineetta / piu corta (for fīze), with "piu" crossed out</note>
+                <note target="#t7013" type="lex" resp="#LZM">7013] sé= sete [thirst]</note>
+                <note target="#t7018" type="interp" resp="#LZM">7018] MSI Perché vi andrò a raccontare a poco a poco lungamente questo affare?</note>
+                <note target="#t7024" type="lex" resp="#LZM">7024] zosà = Old Italian giuso, MSI giù. Rajna: desendere</note>
+                
             <!-- Restart editing here: add notes and red  -->       <note target="#t" type="Rajna" resp="#LZM"> </note>         
                 <note target="#t7462" type="interp" resp="#LZM">7462] The biblical account of Noah and his sons was greatly expanded during the middle ages. For a history of the developments, see Benjamin Braude, "The Sons of Noah
                     and the Construction of Ethnic and Geographical Identities in the Medieval and Early Modern Periods," <hi rend="italic">The William and Mary Quarterly,</hi> 3rd series, 54.1 (January 1997), pp. 103-142.</note>
