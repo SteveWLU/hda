@@ -21,13 +21,13 @@
     <link rel="stylesheet" href="../assets/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/assets/scripts/modernizr.custom.js"></script>
     <script src="../assets/js/CETEI.js"></script>
-    <script src="/assets/mirador/mirador.js"></script>
-
+ <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
@@ -196,92 +196,66 @@ Jekyll static pages</a> and the <a href="https://www.tei-c.org/" title="Text Enc
 
         </div>
 
-<script src="/assets/mirador/mirador.js"></script>
+
 <script type="text/javascript">
 
         $(function() {
-            Mirador({
+            Mirador.viewer({
             "id": "miradorviewer-B",
             "layout": "1x1",
-            "data": [
-                { "manifestUri": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
-                { "manifestUri": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
-                { "manifestUri": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
-                { "manifestUri": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
-                { "manifestUri": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
-            ],
-            "windowObjects": [
+            "windows": [
                 {
-                "loadedManifest": "/manifests/b-manifest.json",
+                "manifestId": "/manifests/b-manifest.json",
                 "viewType": "ImageView"}
             ],
+            "catalog": [
+                { "manifestId": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
+                { "manifestId": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
+                { "manifestId": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
+                { "manifestId": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
+                { "manifestId": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+
+            ],
            "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" },
-           "windowSettings": {
-                "bottomPanel" : true,
-                "bottomPanelVisible" : true,
-                "sidePanel" : true,
-                "sidePanelOptions":{
-                    "toc" : true,
-                    "annotations" : false,
-                    "tocTabAvailable" : true,
-                    "layersTabAvailable" : false,
-                    "searchTabAvailable" : false,
-                    "annotationTabAvailable" : false
-                },
-                "canvasControls": { // The types of controls available to be displayed on a canvas
-                "imageManipulation" : {
-                "manipulationLayer" : true,
-                "controls" : {
-                    "rotate" : true,
-                    "brightness" : true,
-                    "contrast" : true,
-                    "saturate" : true,
-                    "grayscale" : true,
-                    "invert" : true,
-                    "mirror" : false
-               }
-             }
-           }
-         }
+
        });
      });
 
         $(function() {
-            Mirador({
+            Mirador.viewer({
             "id": "miradorviewer-T", 
             "layout": "1x1", 
-            "data": [
-                { "manifestUri": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
-                { "manifestUri": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
-                { "manifestUri": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
-                { "manifestUri": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
-                { "manifestUri": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+            "windows": [
+                {
+                "manifestId": "/manifests/t-manifest.json",
+                "viewType": "ImageView"}
             ],
-            "windowObjects": [
-            {
-          "loadedManifest" : "/manifests/t-manifest.json", 
-          "canvasID" : "https://iiif/id/and/uri/of/your/canvas/canvas-id", 
-          "viewType" : "ImageView"}
-            ]
-            });
+            "catalog": [
+                { "manifestId": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
+                { "manifestId": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
+                { "manifestId": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
+                { "manifestId": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
+                { "manifestId": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+            ],
+        });
         });
 
         $(function() {
-            Mirador({
+            Mirador.viewer({
             "id": "miradorviewer-P", 
             "layout": "1x1", 
-            "data": [
-                { "manifestUri": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
-                { "manifestUri": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
-                { "manifestUri": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
-                { "manifestUri": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
-                { "manifestUri": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+            "windows": [
+                {
+                "manifestId": "/manifests/p-manifest.json",
+                "viewType": "ImageView"}
             ],
-            "windowObjects": [
-            {
-          "loadedManifest" : "/manifests/p-manifest.json", 
-          "canvasID" : "https://iiif/id/and/uri/of/your/canvas/canvas-id", 
-          "viewType" : "ImageView"}
+            "catalog": [
+                { "manifestId": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
+                { "manifestId": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
+                { "manifestId": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
+                { "manifestId": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
+                { "manifestId": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+            
             ]
             });
         });
@@ -290,18 +264,17 @@ Jekyll static pages</a> and the <a href="https://www.tei-c.org/" title="Text Enc
             Mirador({
             "id": "miradorviewer-Br", 
             "layout": "1x1", 
-            "data": [
-                { "manifestUri": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
-                { "manifestUri": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
-                { "manifestUri": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
-                { "manifestUri": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
-                { "manifestUri": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+            "windows": [
+                {
+                "manifestId": "/manifests/br-manifest.json",
+                "viewType": "ImageView"}
             ],
-            "windowObjects": [
-            {
-          "loadedManifest" : "/manifests/br-manifest.json", 
-          "canvasID" : "https://iiif/id/and/uri/of/your/canvas/canvas-id", 
-          "viewType" : "ImageView"}
+            "catalog": [
+                { "manifestId": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
+                { "manifestId": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
+                { "manifestId": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
+                { "manifestId": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
+                { "manifestId": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
             ]
             });
         });
