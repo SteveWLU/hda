@@ -261,7 +261,7 @@ Jekyll static pages</a> and the <a href="https://www.tei-c.org/" title="Text Enc
         });
 
         $(function() {
-            Mirador({
+            Mirador.viewer({
             "id": "miradorviewer-Br", 
             "layout": "1x1", 
             "windows": [
@@ -280,21 +280,20 @@ Jekyll static pages</a> and the <a href="https://www.tei-c.org/" title="Text Enc
         });
 
         $(function() {
-            Mirador({
+            Mirador.viewer({
             "id": "miradorviewer-R", 
             "layout": "1x1", 
-            "data": [
-                { "manifestUri": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
-                { "manifestUri": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
-                { "manifestUri": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
-                { "manifestUri": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
-                { "manifestUri": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
+            "windows": [
+                {
+                "manifestId": "/manifests/r-manifest.json",
+                "viewType": "ImageView"}
             ],
-            "windowObjects": [
-            {
-          "loadedManifest" : "/manifests/r-manifest.json", 
-          "canvasID" : "https://iiif/id/and/uri/of/your/canvas/canvas-id", 
-          "viewType" : "ImageView"}
+            "catalog": [
+                { "manifestId": "/manifests/b-manifest.json", "location": "Berlin, Kupferstichkabinett"}, 
+                { "manifestId": "/manifests/t-manifest.json", "location": "Turin, Biblioteca Nazionale Universitaria"},
+                { "manifestId": "/manifests/p-manifest.json", "location": "Padua, Biblioteca del Seminario Vescovile"},
+                { "manifestId": "/manifests/br-manifest.json", "location": "Bologna, Biblioteca Comunale dell'Archiginnasio"},
+                { "manifestId": "/manifests/r-manifest.json", "location": "Florence, Biblioteca Marucelliana"}
             ]
             });
         });

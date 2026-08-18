@@ -729,7 +729,7 @@ div#TEI-tools * {
 	width:65%;
 }
 
-#show-french, #expand, #reconstruction, #rajna, #notes, #source-code, #status  {
+#show-french, #expand, #reconstruction, #rajna, #notes, #source-code, #status, #rajna-toggle, #stengel-toggle, #ms-toggle   {
 display:inline;
 padding-left:10px;
 }
