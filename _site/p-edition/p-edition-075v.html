@@ -35,6 +35,8 @@
    
 
     
+<head><script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script></head>
+
 <style>
   @keyframes blink {
     0%   {background-color:yellow;}
@@ -191,21 +193,31 @@
         
           <div id="notes">
               <label class="switch">
-                  <input type="checkbox" name="notes" checked>
+                  <input class="toggleDiv" type="checkbox" name="notes" checked>
                   <div class="slider round"></div>
               </label> Notes
           </div>
+          <div id="ms-toggle">
+              <label class="switch">
+                  <input class="toggleDiv" type="checkbox" name="ms-toggle" id="ms-show" value= "openseadragon1" checked>
+                  <div class="slider round" for="manuscript"></div>
+              </label> Show Manuscript
+          </div>
+          <!-- take out but check with Leslie
+         
+          -->
         
+        
+
           
           <!-- Toggles for showing divs -->
+          <!-- take TEI out, check with Leslie 
           <div class="form-check form-check-inline">
             <input class="form-check-input toggleDiv" type="checkbox" id="showTEI" value="TEI" checked>
             <label class="form-check-label" for="showTEI">Show TEI</label>
           </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input toggleDiv" type="checkbox" id="showManu" value="openseadragon1" checked>
-            <label class="form-check-label" for="showManu">Show Manuscript</label>
-          </div>
+          -->
+<br />
 
           <div id="source-code">
             
@@ -220,36 +232,60 @@
       </div>
     </div>
     <div class="row justify-content-md-center">
-      <!-- Insert OpenSeaDragon viewer and content -->
-      <div class="col-sm-11 col-md-4" id="openseadragon1"></div>
-
+      <!-- Insert Mirador viewer and content -->
+      <div class="col" id="openseadragon1"></div>
+       
       <!-- Insert TEI Content-->
-      <div class="col-sm-11 col-md-4" id="TEI" data-milestone="150"></div>
+      <div class="col" id="TEI" data-milestone="150"></div>
 
-      <!-- Insert edition notes -->
-      <div class="col-sm-11 col-md-4" id="edition-notes" data-milestone="150">
+
+      <div class="col" id="edition-notes" data-milestone="150">
         <h2>Edition Notes</h2>
       </div>
     </div>
     
     
   </div>
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="/assets/js/openseadragon/openseadragon.min.js"></script>
-
 <script type="text/javascript">
-    var viewer = OpenSeadragon({
+
+    var viewer1 = OpenSeadragon({
         id: "openseadragon1",
         minZoomImageRatio: 1,
+        sequenceMode: false,
         prefixUrl: "/assets/openseadragon/images/",
         tileSources: "https://iiif.wlu.edu/iiif/huon/p075v.tif/info.json"
- 
+    });
+
+     var viewer2 = OpenSeadragon({
+        id: "openseadragon2",
+        minZoomImageRatio: 1,
+        sequenceMode: true,
+        prefixUrl: "/assets/openseadragon/images/",
+        tileSources: 
+        ["https://iiif.wlu.edu/iiif/huon//info.json",
+         "https://iiif.wlu.edu/iiif/huon//info.json"
+       ],
+    });   
+
+    var viewer3 = OpenSeadragon({
+        id: "openseadragon3",
+        minZoomImageRatio: 1,
+        sequenceMode: true,
+        prefixUrl: "/assets/openseadragon/images/",
+        tileSources: 
+        ["https://iiif.wlu.edu/iiif/huon//info.json",
+          "https://iiif.wlu.edu/iiif/huon//info.json",
+          "https://iiif.wlu.edu/iiif/huon//info.json"
+        ],
     });
 
 </script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</script>
+
+
 
 <script>  
   // CODE TO HIDE A PAGE
@@ -360,16 +396,15 @@ var options = {
         "rajna_reconstruction":false,
         "expanded_abbreviations":true,
         "show_french":true,
-        "notes":true
+        "notes":true,
+        "stengel":true,
+        "rajna-notebook":true
     };
 
  //Function to toggle abbreviations
  $("input[name='abbreviations-toggle'").change(function(){
-      $("tei-choice").each(function(){
-        $(this).children("tei-ex").toggle();
-        $(this).children("tei-abbr").toggle();
-      })
-      options.expanded_abbreviations = $(this).is(":checked");
+    options.expanded_abbreviations = $(this).is(":checked");
+    $("tei-ex").toggle(options.expanded_abbreviations);
     });
 
 //Function to toggle rajna reconstruction
@@ -395,6 +430,16 @@ $("input[name='show-french'").change(function(){
 // Function to turn notes div on/off 
 $("input[name='notes'").change(function(){
   $("#edition-notes").toggle();
+  });
+
+// Function to turn stengel div on/off 
+$("input[name='stengel-pages'").change(function(){
+  $("#openseadragon3").toggle();
+  });
+
+// Function to turn rajna div on/off 
+$("input[name='rajna-notebook'").change(function(){
+  $("#openseadragon2").toggle();
   });
 
   // The following is for the search result scrolling to the line
@@ -445,7 +490,7 @@ $(".toggleDiv").change(function() {
 
 </script>
 
-</div>
+
 </main>
 </body>
 </html>

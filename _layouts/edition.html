@@ -2,6 +2,8 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {% include head.html %}
+<head><script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script></head>
+
 <style>
   @keyframes blink {
     0%   {background-color:yellow;}
@@ -78,7 +80,7 @@
                   <div class="slider round"></div>
               </label> Expand Abbreviations
           </div>
-        {% if page.sigla == 'T' %}
+        {% if page.sigla == 'T' or page.sigla == 'R' %}
           <div id="reconstruction">
               <label class="switch">
                   <input type="checkbox" name="rajna-reconstruction" unchecked>
@@ -88,29 +90,56 @@
         {% endif %}
           <div id="notes">
               <label class="switch">
-                  <input type="checkbox" name="notes" checked>
+                  <input class="toggleDiv" type="checkbox" name="notes" checked>
                   <div class="slider round"></div>
               </label> Notes
           </div>
-        {% if page.sigla == 'T' %}
+          <div id="ms-toggle">
+              <label class="switch">
+                  <input class="toggleDiv" type="checkbox" name="ms-toggle" id="ms-show" value= "openseadragon1" checked>
+                  <div class="slider round" for="manuscript"></div>
+              </label> Show Manuscript
+          </div>
+          <!-- take out but check with Leslie
+        {% if page.sigla == 'R' or page.sigla == 'T'%}
           <div id="rajna">
               <a href="https://www.huondauvergne.org/facsimiles/r-facsimile.html" style="color: #5f0000">Rajna Notebook</a>
           </div>
+        {% endif %} 
+          -->
+        {% if page.sigla == 'R' or page.sigla == 'T'%}
+          <div id="rajna-toggle">
+              <label class="switch">
+                  <input class="toggleDiv" type="checkbox" name="rajna-notebook" id="rajna" value= "openseadragon2" checked>
+                  <div class="slider round" for="rajna"></div>
+              </label> Rajna Notebook
+          </div>
         {% endif %}
+        {% if page.sigla == 'R' or page.sigla == 'T'%}
+          <div id="stengel-toggle">
+              <label class="switch">
+                  <input class="toggleDiv" type="checkbox" name="stengel-pages" id="stengel" value="openseadragon3" checked>
+                  <div class="slider round" for="stengel"></div>
+              </label> Stengel Notebook
+          </div>
+        {% endif %}
+
           
           <!-- Toggles for showing divs -->
+          <!-- take TEI out, check with Leslie 
           <div class="form-check form-check-inline">
             <input class="form-check-input toggleDiv" type="checkbox" id="showTEI" value="TEI" checked>
             <label class="form-check-label" for="showTEI">Show TEI</label>
           </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input toggleDiv" type="checkbox" id="showManu" value="openseadragon1" checked>
-            <label class="form-check-label" for="showManu">Show Manuscript</label>
-          </div>
+          -->
+<br />
 
           <div id="source-code">
             {% if page.sigla == 'B' %}
             <a href="https://github.com/SteveWLU/hda/blob/master/editions/b.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
+
+            {% elsif page.sigla == 'R' %}
+            <a href="https://github.com/SteveWLU/hda/blob/master/editions/t.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
             
             {% elsif page.sigla == 'T' %}
              <a href="https://github.com/SteveWLU/hda/blob/master/editions/t.xml"><span class="icon icon--github">{% include icon-github.svg %}</span>Source Code</a>
@@ -132,36 +161,63 @@
       </div>
     </div>
     <div class="row justify-content-md-center">
-      <!-- Insert OpenSeaDragon viewer and content -->
-      <div class="col-sm-11 col-md-4" id="openseadragon1"></div>
-
+      <!-- Insert Mirador viewer and content -->
+      <div class="col" id="openseadragon1"></div>
+      {% if page.sigla == 'T' %}
+      <div class="col" id="openseadragon2"></div>
+      <div class="col" id="openseadragon3"></div>   
+             {% endif %} 
       <!-- Insert TEI Content-->
-      <div class="col-sm-11 col-md-4" id="TEI" data-milestone="{{ page.milestone }}"></div>
+      <div class="col" id="TEI" data-milestone="{{ page.milestone }}"></div>
 
-      <!-- Insert edition notes -->
-      <div class="col-sm-11 col-md-4" id="edition-notes" data-milestone="{{ page.milestone }}">
+
+      <div class="col" id="edition-notes" data-milestone="{{ page.milestone }}">
         <h2>Edition Notes</h2>
       </div>
     </div>
     
     
   </div>
-
-
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="{{ site.baseurl }}/assets/js/openseadragon/openseadragon.min.js"></script>
-
 <script type="text/javascript">
-    var viewer = OpenSeadragon({
+
+    var viewer1 = OpenSeadragon({
         id: "openseadragon1",
         minZoomImageRatio: 1,
+        sequenceMode: false,
         prefixUrl: "/assets/openseadragon/images/",
         tileSources: "https://iiif.wlu.edu/iiif/huon/{{ page.iip }}/info.json"
- 
+    });
+
+     var viewer2 = OpenSeadragon({
+        id: "openseadragon2",
+        minZoomImageRatio: 1,
+        sequenceMode: true,
+        prefixUrl: "/assets/openseadragon/images/",
+        tileSources: 
+        ["https://iiif.wlu.edu/iiif/huon/{{ page.iip-R }}/info.json",
+         "https://iiif.wlu.edu/iiif/huon/{{ page.iip-R2 }}/info.json"
+       ],
+    });   
+
+    var viewer3 = OpenSeadragon({
+        id: "openseadragon3",
+        minZoomImageRatio: 1,
+        sequenceMode: true,
+        prefixUrl: "/assets/openseadragon/images/",
+        tileSources: 
+        ["https://iiif.wlu.edu/iiif/huon/{{ page.iip-St1 }}/info.json",
+          "https://iiif.wlu.edu/iiif/huon/{{ page.iip-St2 }}/info.json",
+          "https://iiif.wlu.edu/iiif/huon/{{ page.iip-St3 }}/info.json"
+        ],
     });
 
 </script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</script>
+
+
 
 <script>  
   // CODE TO HIDE A PAGE
@@ -225,6 +281,9 @@ var CETEIcean = new CETEI()
 {% if page.sigla == 'B' %}
   CETEIcean.getHTML5("{{site.baseurl}}/editions/b.xml", function(data) {
 
+{% elsif page.sigla == 'R' %}
+  CETEIcean.getHTML5("{{site.baseurl}}/editions/t.xml", function(data) {
+
 {% elsif page.sigla == 'T' %}
   CETEIcean.getHTML5("{{site.baseurl}}/editions/t.xml", function(data) {
 
@@ -236,7 +295,7 @@ var CETEIcean = new CETEI()
 
 {% elsif page.sigla == 'BT' %}
   CETEIcean.getHTML5("{{site.baseurl}}/editions/translation-b.xml", function(data) {
-    
+
 {% endif %}
 
   document.getElementById("TEI").innerHTML = ""
@@ -263,12 +322,15 @@ var CETEIceanNotes = new CETEI()
   CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-b.xml", function(data) {
 {% elsif page.sigla == 'T' %}
   CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-t.xml", function(data) {
+{% elsif page.sigla == 'R' %}
+  CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-t.xml", function(data) {
 {% elsif page.sigla == 'P' %}
   CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-p.xml", function(data) {
 {% elsif page.sigla == 'Br' %}
   CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-br.xml", function(data) {
 {% elsif page.sigla == 'BT' %}
   CETEIceanNotes.getHTML5("{{site.baseurl}}/editions/notes-translation-b.xml", function(data) {  
+
 {% endif %}
 
 
@@ -292,16 +354,15 @@ var options = {
         "rajna_reconstruction":false,
         "expanded_abbreviations":true,
         "show_french":true,
-        "notes":true
+        "notes":true,
+        "stengel":true,
+        "rajna-notebook":true
     };
 
  //Function to toggle abbreviations
  $("input[name='abbreviations-toggle'").change(function(){
-      $("tei-choice").each(function(){
-        $(this).children("tei-ex").toggle();
-        $(this).children("tei-abbr").toggle();
-      })
-      options.expanded_abbreviations = $(this).is(":checked");
+    options.expanded_abbreviations = $(this).is(":checked");
+    $("tei-ex").toggle(options.expanded_abbreviations);
     });
 
 //Function to toggle rajna reconstruction
@@ -327,6 +388,16 @@ $("input[name='show-french'").change(function(){
 // Function to turn notes div on/off 
 $("input[name='notes'").change(function(){
   $("#edition-notes").toggle();
+  });
+
+// Function to turn stengel div on/off 
+$("input[name='stengel-pages'").change(function(){
+  $("#openseadragon3").toggle();
+  });
+
+// Function to turn rajna div on/off 
+$("input[name='rajna-notebook'").change(function(){
+  $("#openseadragon2").toggle();
   });
 
   // The following is for the search result scrolling to the line
@@ -377,7 +448,7 @@ $(".toggleDiv").change(function() {
 
 </script>
 
-</div>
+
 </main>
 </body>
 </html>

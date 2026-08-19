@@ -6,6 +6,7 @@ sigla: R
 iip-T: t001r.tif
 iip-R: r001r.tif
 iip-R2: r001v.tif
-iip-St: 100.tif
+iip-St: s00A.tif
+iip-St2:
 milestone: 1
 ---

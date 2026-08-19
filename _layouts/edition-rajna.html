@@ -111,14 +111,14 @@
           <div id="rajna-toggle">
               <label class="switch">
                   <input class="toggleDiv" type="checkbox" name="rajna-notebook" id="rajna" value= "openseadragon2" checked>
-                  <div class="slider round" for="stengel"></div>
+                  <div class="slider round" for="rajna"></div>
               </label> Rajna Notebook
           </div>
         {% endif %}
         {% if page.sigla == 'R' or page.sigla == 'T'%}
           <div id="stengel-toggle">
               <label class="switch">
-                  <input class="toggleDiv" type="checkbox" name="stengel-pages" id="stengel" value= "openseadragon3" checked>
+                  <input class="toggleDiv" type="checkbox" name="stengel-pages" id="stengel" value="openseadragon3" checked>
                   <div class="slider round" for="stengel"></div>
               </label> Stengel Notebook
           </div>
@@ -185,7 +185,7 @@
         minZoomImageRatio: 1,
         sequenceMode: false,
         prefixUrl: "/assets/openseadragon/images/",
-        tileSources: "https://iiif.wlu.edu/iiif/huon/{{ page.iip-T }}/info.json"
+        tileSources: "https://iiif.wlu.edu/iiif/huon/{{ page.iip }}/info.json"
     });
 
      var viewer2 = OpenSeadragon({
@@ -202,9 +202,12 @@
     var viewer3 = OpenSeadragon({
         id: "openseadragon3",
         minZoomImageRatio: 1,
-        sequenceMode: false,
+        sequenceMode: true,
         prefixUrl: "/assets/openseadragon/images/",
-        tileSources: "https://iiif.wlu.edu/iiif/huon/{{ page.iip-St }}/info.json"
+        tileSources: 
+        ["https://iiif.wlu.edu/iiif/huon/{{ page.iip-St }}/info.json",
+          "https://iiif.wlu.edu/iiif/huon/{{ page.iip-St2 }}/info.json"
+        ],
     });
 
 </script>
@@ -389,7 +392,7 @@ $("input[name='stengel-pages'").change(function(){
   $("#openseadragon3").toggle();
   });
 
-// Function to turn stengel div on/off 
+// Function to turn rajna div on/off 
 $("input[name='rajna-notebook'").change(function(){
   $("#openseadragon2").toggle();
   });
